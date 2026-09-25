@@ -48,6 +48,8 @@ def main(src, dst):
             "megtakaritas_verified_huf": total("megtakaritas"),
             "visszaszerzes_verified_huf": total("visszaszerzes"),
             "eu_forras_verified_huf": total("eu_forras"),
+            "eu_forras_lost_huf": sum((d.get("lost_huf") or 0) for d in items
+                                      if d.get("category") == "eu_forras" and d.get("status") == "verified"),
             "items_count": len(items),
             "reported_cases_count": len(cases),
         },

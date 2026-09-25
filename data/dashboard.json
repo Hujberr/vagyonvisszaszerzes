@@ -1,10 +1,11 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-25T16:30:00+00:00",
+ "generated_at": "2026-09-25T20:24:08+00:00",
  "summary": {
   "megtakaritas_verified_huf": 929000000000,
   "visszaszerzes_verified_huf": 1516570000000,
-  "eu_forras_verified_huf": 5986000000000,
+  "eu_forras_verified_huf": 5256000000000,
+  "eu_forras_lost_huf": 730000000000,
   "items_count": 12,
   "reported_cases_count": 17
  },
@@ -47,15 +48,16 @@
      "url": "https://www.vg.hu/vilaggazdasag-magyar-gazdasag/2026/09/unios-penzek-magyarorszag-europai-bizottsag-vitezy"
     }
    ],
-   "agreed_huf": 5986000000000,
-   "agreed_text": "16,4 milliárd euró — kb. 10 milliárd EUR RRF (ebből ténylegesen lehívható állapot szerint 9,1 mrd EUR: 6,4 mrd támogatás + 2,7 mrd hitel) + 6,4 milliárd EUR kohéziós forrás (ebből kb. 1 mrd EUR kiesése valószínű)",
-   "amount_huf": 5986000000000,
-   "amount_text": "16,4 milliárd euró (kb. 6000 milliárd forint)",
+   "agreed_huf": 5256000000000,
+   "agreed_original_huf": 5986000000000,
+   "agreed_text": "14,4 milliárd euró — a 2026. május 29-én bejelentett 16,4 milliárd euróból (kb. 10 mrd EUR RRF + 6,4 mrd EUR kohéziós) levonva a véglegesen elveszett 2 milliárd euró kohéziós forrást",
+   "amount_huf": 5256000000000,
+   "amount_text": "14,4 milliárd euró (kb. 5256 milliárd forint; eredetileg 16,4 milliárd euró)",
    "category": "eu_forras",
    "collected_at": "2026-09-24T06:16:00+02:00",
    "currency_note": "16,4 milliárd euró, kb. 365 Ft/EUR árfolyamon számolva",
    "dedup_key": "eu_forras|befagyasztott rrf kohezios forras megallapodas leoldas|5986000000000",
-   "description": "2026. május 29-én Magyar Péter és Ursula von der Leyen bejelentette, hogy Magyarország hozzáférhet 16,4 milliárd euró korábban befagyasztott uniós forráshoz (kb. 10 mrd EUR RRF + 6,4 mrd EUR kohéziós). A kormány szerint augusztus végére minden feltételt teljesített, a hivatalos beadványt 2026.09.09-én kapta meg Brüsszel. A Bizottság előzetes értékelése nov. 20-ra, a Gazdasági és Pénzügyi Bizottság állásfoglalása dec. 8-ra, a Bizottság kifizetési döntése dec. 18-ra várható, a tényleges kifizetés végső határideje dec. 31. Eddig egyetlen euró sem érkezett meg; Magyarország kb. 2186,9 milliárd forintot (kb. 6 mrd eurót) már előfinanszírozott ezekből a programokból, ennek megtérítésére vár. 2026.09.23: az Európai Bizottság hivatalosan javasolta a Tanácsnak, hogy oldják fel a befagyasztott kohéziós források egy részét, 4,2 milliárd eurót, egyúttal megnyitva az Erasmus+ és Horizon Europe programokhoz való hozzáférést is — ez egyelőre csak JAVASLAT, a Tanácsnak egy hónapon belül szavaznia kell róla, a pénz még nem érkezett meg. Vitézy Dávid 2026.09.23-i nyilatkozata szerint a fennmaradó összegből 2 milliárd euró VÉGLEGESEN ELVESZETT Magyarország számára: 1 milliárd euró 2024 végére, további 1 milliárd euró 2025 végére vált elérhetetlenné, mert az előző (Orbán-) kormány nem teljesítette a feloldáshoz szükséges uniós korrupcióellenes feltételeket a határidőre. Vitézy ezt két budapesti metróbővítés vagy a Budapest–Belgrád vasútvonal teljes magyar szakaszának költségéhez hasonlította.",
+   "description": "2026. május 29-én Magyar Péter és Ursula von der Leyen bejelentette, hogy Magyarország hozzáférhet 16,4 milliárd euró korábban befagyasztott uniós forráshoz (kb. 10 milliárd euró helyreállítási és 6,4 milliárd euró kohéziós forrás). A kohéziós keretből 2 milliárd euró 2024 és 2025 végén véglegesen elveszett, így a megállapodott összeg 14,4 milliárd euró. A kormány szerint augusztus végére minden feltételt teljesített; az Európai Bizottság 2026. szeptember 23-án javasolta a Tanácsnak 4,2 milliárd euró kohéziós forrás feloldását. A Bizottság kifizetési döntése december 18-ra, a tényleges kifizetés végső határideje december 31-re várható; eddig kifizetés nem érkezett.",
    "disbursement_as_of": "2026-09-23",
    "disbursement_source": {
     "name": "Népszava / Világgazdaság",
@@ -65,14 +67,47 @@
    "duplicate_of": null,
    "event_date": "2026-05-29",
    "from_whom": null,
+   "lost_huf": 730000000000,
+   "lost_items": [
+    {
+     "additional_sources": [
+      {
+       "name": "Forbes.hu",
+       "published_date": "2026-09-23",
+       "url": "https://www.forbes.hu/penz/unios-forras-magyarorszag-eu-magyar-kormany/"
+      },
+      {
+       "name": "Portfolio",
+       "published_date": "2026-09-14",
+       "url": "https://www.portfolio.hu/unios-forrasok/20260914/mar-latszik-hogyan-szerezne-vissza-a-tisza-kormany-a-vegleg-elvesztett-unios-penzeket-is-861230"
+      },
+      {
+       "name": "Euronews (Bizottsági javaslat: 4,2 Mrd EUR)",
+       "published_date": "2026-09-23",
+       "url": "https://hu.euronews.com/2026/09/23/feloldotta-az-europai-bizottsag-a-korabban-befagyasztott-42-milliard-euronyi-kohezios-forr"
+      }
+     ],
+     "amount_huf": 730000000000,
+     "amount_text": "2 milliárd euró (kb. 730 milliárd forint)",
+     "description": "A 6,3 milliárd eurós, feltételességi eljárás miatt befagyasztott kohéziós keretből 1 milliárd euró 2024 végén, további 1 milliárd euró 2025 végén véglegesen elveszett, mert az előző kormány határidőre nem teljesítette a feloldáshoz szükséges korrupcióellenes feltételeket. A keretből megmaradt 4,2 milliárd euró feloldását az Európai Bizottság 2026. szeptember 23-án javasolta a Tanácsnak. Az elvesztett összeggel a megállapodott uniós forrás értéke 16,4 milliárd euróról 14,4 milliárd euróra csökken.",
+     "id": "eu-elveszett-koh-2024-2025",
+     "lost_date": "2026-09-23",
+     "source_name": "Világgazdaság",
+     "source_published_date": "2026-09-23",
+     "source_url": "https://www.vg.hu/vilaggazdasag-magyar-gazdasag/2026/09/unios-penzek-magyarorszag-europai-bizottsag-vitezy",
+     "status": "verified",
+     "subject": "Véglegesen elveszett kohéziós források (2024 és 2025 vége)"
+    }
+   ],
+   "lost_text": "2 milliárd euró (kb. 730 milliárd forint)",
    "received_huf": 0,
    "received_text": "0 Ft — 2026.09.22-i állapot szerint még nem érkezett tényleges kifizetés; a Bizottság kifizetési döntése dec. 18-ra várható, a végső kifizetési határidő dec. 31.",
    "source_name": "Telex",
    "source_published_date": "2026-05-29",
    "source_url": "https://telex.hu/kulfold/2026/05/29/magyar-peter-ursula-von-der-leyen-unios-penzek-targyalas-helyreallitasi-alap-kohezios-penzek",
    "status": "verified",
-   "subject": "Befagyasztott EU-s (RRF + kohéziós) források feloldsról szóló megállapodás",
-   "verification_notes": "FRISSÍTVE 2026-09-24: Vitézy Dávid 2026.09.23-i nyilatkozata (Világgazdaság) szerint a korábban 'befagyasztottként' nyilvántartott kb. 2 milliárd euróból már NEM csak befagyasztásról, hanem VÉGLEGES ELVESZTÉSRŐL van szó (1 mrd EUR 2024 végén, 1 mrd EUR 2025 végén veszett el a feltételek nem teljesítése miatt). A 4,2 milliárd eurós bizottsági javaslat (2026.09.23) továbbra is csak javaslat, tényleges kifizetés nem történt, a received_huf mező ezért változatlanul 0.",
+   "subject": "Befagyasztott EU-s (RRF + kohéziós) források feloldásáról szóló megállapodás",
+   "verification_notes": "FRISSÍTVE 2026-09-24: Vitézy Dávid 2026.09.23-i nyilatkozata (Világgazdaság) szerint a korábban 'befagyasztottként' nyilvántartott kb. 2 milliárd euróból már NEM csak befagyasztásról, hanem VÉGLEGES ELVESZTÉSRŐL van szó (1 mrd EUR 2024 végén, 1 mrd EUR 2025 végén veszett el a feltételek nem teljesítése miatt). A 4,2 milliárd eurós bizottsági javaslat (2026.09.23) továbbra is csak javaslat, tényleges kifizetés nem történt, a received_huf mező ezért változatlanul 0. FRISSÍTVE 2026-09-25: a 2 mrd EUR elvesztés a 6,3 mrd EUR-s kohéziós keretből történt (VG, Forbes, Portfolio; a Bizottság 4,2 mrd EUR-s javaslata ezzel konzisztens), ezért az agreed_huf 5986 → 5256 Mrd Ft-ra csökkentve; agreed_original_huf és lost_items mezők felvéve.",
    "id": "eu-forras-megallapodas-2026-05"
   },
   {
@@ -187,7 +222,7 @@
    "collected_at": "2026-09-23T08:30:00+02:00",
    "currency_note": null,
    "dedup_key": "megtakaritas|m6 dunaujvaros erdi teto koncesszio|105000000000",
-   "description": "A korábban tervezett 149 milliárd forintos üzemeltetési költség helyett 44 milliárd forintos új szerződést kötött a Közlekedési és Beruházási Minisztérium (Vitézy Dávid) ugyanazzal az üzemeltetővel; ez 105 milliárd forint megtakarítást jelent 11 év alatt. A minisztérium egyúttal feljelentést is tett a korábbi túlárazás miatt (l. kapcsolódó reported_cases tétel: reported-m6-dunaujvaros-erdi-teto-tularazas-2026).",
+   "description": "A korábban tervezett 149 milliárd forintos üzemeltetési költség helyett 44 milliárd forintos új szerződést kötött a Közlekedési és Beruházási Minisztérium (Vitézy Dávid) ugyanazzal az üzemeltetővel; ez 105 milliárd forint megtakarítást jelent 11 év alatt. A minisztérium egyúttal feljelentést is tett a korábbi túlárazás miatt (l. Feljelentett ügyek).",
    "duplicate_of": null,
    "event_date": "2026-09-05",
    "from_whom": null,
@@ -196,7 +231,7 @@
    "source_url": "https://www.portfolio.hu/gazdasag/20260905/vitezy-david-elmondta-mennyit-sporol-az-allam-a-lazar-janos-altal-kiirt-koncesszios-szerzodes-elkaszalasaval-860658",
    "status": "verified",
    "subject": "M6 autópálya Dunaújváros–Érdi tető szakasz üzemeltetési szerződésének újratárgyalása",
-   "verification_notes": "Több független forrás (Portfolio szept.5 és szept.14, Infostart szept.15) egyezően közli a 149→44 milliárdos átárazást és a 105 milliárdos megtakarítást; a kormany.hu hivatalos feljelentési listáján is szerepel 'M6 Concession' néven 100 milliárd forintos összeggel (l. reported-m6-dunaujvaros-erdi-teto-tularazas-2026), ez a tétel most külön reported_cases dokumentumba került ki a korábbi gyűjtő (18/23-ügy) tételből, hogy a hozzá kapcsolódó megtakarítási tétel egyértelműen összeköthető legyen.",
+   "verification_notes": "Több független forrás (Portfolio szept.5 és szept.14, Infostart szept.15) egyezően közli a 149→44 milliárdos átárazást és a 105 milliárdos megtakarítást; a kormany.hu hivatalos feljelentési listáján is szerepel 'M6 Concession' néven 100 milliárd forintos összeggel (l. reported-m6-dunaujvaros-erdi-teto-tularazas-2026), ez a tétel most külön reported_cases dokumentumba került ki a korábbi gyűjtő (18/23-ügy) tételből, hogy a hozzá kapcsolódó megtakarítási tétel egyértelműen összeköthető legyen. [2026-09-25: a korábbi, technikai megjegyzést tartalmazó leírás: A korábban tervezett 149 milliárd forintos üzemeltetési költség helyett 44 milliárd forintos új szerződést kötött a Közlekedési és Beruházási Minisztérium (Vitézy Dávid) ugyanazzal az üzemeltetővel; ez 105 milliárd forint megtakarítást jelent 11 év alatt. A minisztérium egyúttal feljelentést is tett a korábbi túlárazás miatt (l. kapcsolódó reported_cases tétel: reported-m6-dunaujvaros-erdi-teto-tularazas-2026).]",
    "id": "megtakaritas-m6-dunaujvaros-erdi-teto-2026-09"
   },
   {
@@ -516,7 +551,7 @@
    "alleged_amount_huf": 998135780000,
    "alleged_amount_text": "kb. 998,14 milliárd forint (27, egyedileg megnevezett tétel összege a kormany.hu hivatalos listája alapján, 2026-09-23-i állapot, az Eximbank-ügyek és az M6-koncessziós ügy nélkül — azok önálló tételekben; +6 további, összeg nélkül említett ügy)",
    "confirmed_recovered_huf": 0,
-   "description": "Az előző futásban rögzített 22 tétel (lélegeztetőgép-beszerzés 300 Mrd, Mohácsi Duna-híd előleg 155,8 Mrd, Kréta/Neptun/Poszeidón 100 Mrd, Gondosóra-program 100 Mrd, Waberer's MFB-finanszírozás 77 Mrd, OMSZ járműbeszerzés 70 Mrd, veglegestorles.hu 39,6 Mrd, ortodox akadémia 38,2 Mrd, Observer médiamonitoring 31 Mrd, Kommentár Alapítvány 27,8 Mrd, Fradivárosi projekt 24,9 Mrd, kínai kazánbeszerzés 10,5 Mrd, Triton Communications 4,2 Mrd, miniszteri delegatációs utazások 4 Mrd, Szuverenitásvédelmi Hivatal 3,67 Mrd, p2m/Balásy-csoport 3,3 Mrd, civil szervezetek 1,5 Mrd, Kárpát-medencei Tehetséggondozó 0,825 Mrd, MIKK 0,3 Mrd, nyuszimotor-vásárlások 0,239 Mrd, pénzügyminisztériumi támogatási visszaelés 0,09 Mrd, pártpropaganda/Tartalom Előkészítő Osztály 0,05 Mrd) mellett 2026-09-23-i ellenőrzéskor 5 ÚJ tétel jelent meg a hivatalos listán (mind 2026.09.17–18-i dátummal): Papp László Budapest Sportaréna tízéves bérbeadása (4,012 Mrd, Belügyminisztérium), Puskás Aréna – MLSZ-nek átengedett páholyok (1,01 Mrd, Belügyminisztérium), BOK Sportcsarnok – HADRAN-cégcsoport bérletei (0,13 Mrd, Belügyminisztérium), HM Zrínyi Kft. MATASZ elnökségi megbízási szerződések (0,00958 Mrd, Honvédelmi Minisztérium), Kovács Katalin Nemzeti Kajak-Kenu Akadémia Alapítvány (Belügyminisztérium, összeg nincs megadva). Az M6-os koncessziós ügy (100 Mrd) és a négy Eximbank-ügy (Egyiptom 640, Macedónia 360, Duna Aszfalt/Kongo 63, Sofitel 60 Mrd) továbbra is önálló reported_cases tételekben szerepelnek, nem ebben a gyűjtőben.",
+   "description": "A kormány hivatalos feljelentési listáján szereplő további minisztériumi ügyek gyűjtőtétele. Főbb ügyek: lélegeztetőgép-beszerzés (300 milliárd Ft), Mohácsi Duna-híd előleg (155,8 milliárd Ft), Kréta/Neptun/Poszeidón rendszerek (100 milliárd Ft), Gondosóra-program (100 milliárd Ft), Waberer's MFB-finanszírozás (77 milliárd Ft), OMSZ járműbeszerzés (70 milliárd Ft), veglegestorles.hu (39,6 milliárd Ft), ortodox akadémia (38,2 milliárd Ft), Observer médiamonitoring (31 milliárd Ft), Kommentár Alapítvány (27,8 milliárd Ft), Fradivárosi projekt (24,9 milliárd Ft), kínai kazánbeszerzés (10,5 milliárd Ft), Triton Communications (4,2 milliárd Ft), Papp László Budapest Sportaréna tízéves bérbeadása (4,012 milliárd Ft), miniszteri delegációs utazások (4 milliárd Ft), Szuverenitásvédelmi Hivatal (3,67 milliárd Ft), p2m/Balásy-csoport (3,3 milliárd Ft), civil szervezetek (1,5 milliárd Ft), Puskás Aréna – az MLSZ-nek átengedett páholyok (1,01 milliárd Ft), Kárpát-medencei Tehetséggondozó (0,825 milliárd Ft), MIKK (0,3 milliárd Ft), nyuszimotor-vásárlások (0,239 milliárd Ft), BOK Sportcsarnok bérletei (0,13 milliárd Ft), pénzügyminisztériumi támogatási visszaélés (0,09 milliárd Ft), pártpropaganda/Tartalom Előkészítő Osztály (0,05 milliárd Ft), HM Zrínyi Kft. MATASZ megbízási szerződések (9,58 millió Ft), valamint a Kovács Katalin Nemzeti Kajak-Kenu Akadémia Alapítvány ügye (összeg nélkül).",
    "ministry": "Több tárca (Közlekedési és Beruházási, Tudományos, Egészségügyi, Miniszterelnkség, Belügy, Szociális, Társadalmi Kapcsolatokért Felelős, Pénzügy)",
    "recovered_item_id": null,
    "report_date": "2026-09-02",
@@ -527,14 +562,14 @@
    },
    "status": "under_investigation",
    "subject": "További 18 minisztériumi feljelentés (összeg egyenként nem publikált)",
-   "verification_notes": "FRISSÍTVE 2026-09-23 (esti futás): a kormany.hu hivatalos oldala (közvetlenül ellenőrizve ebben a futásban) 37 ügyet és 2221 Mrd Ft összesített értéket mutat (előző, reggeli futáskor: 32 ügy, 2216 Mrd Ft). Az 5 új tétel (Papp László Sportaréna, Puskás Aréna páholyok, BOK Sportcsarnok, HM Zrínyi Kft. MATASZ, Kovács Katalin Kajak-Kenu Akadémia) mind 2026.09.17–18-i dátummal került fel, összesen kb. 5,16 Mrd Ft név szerint azonosítható összeggel. Belső ellenőrzés: 640+360+63+60 (Eximbank) + 100 (M6, külön tételben) + 998,14 (ez a gyűjtő) = 2221,14 ≈ 2221 Mrd Ft hivatalos összesítő — konzisztens. A korábbi 22 tétel egyedi összegei az oldal mostani, pontosabb tizedesjegyekkel közölt értékeivel (pl. ortodox akadémia 38,229 Mrd, Observer 30,98 Mrd, Fradiváros 24,947 Mrd, Triton 4,229 Mrd, nyuszimotor 0,2392 Mrd) lényegében megegyeznek, érdemi eltérés nincs.",
+   "verification_notes": "FRISSÍTVE 2026-09-23 (esti futás): a kormany.hu hivatalos oldala (közvetlenül ellenőrizve ebben a futásban) 37 ügyet és 2221 Mrd Ft összesített értéket mutat (előző, reggeli futáskor: 32 ügy, 2216 Mrd Ft). Az 5 új tétel (Papp László Sportaréna, Puskás Aréna páholyok, BOK Sportcsarnok, HM Zrínyi Kft. MATASZ, Kovács Katalin Kajak-Kenu Akadémia) mind 2026.09.17–18-i dátummal került fel, összesen kb. 5,16 Mrd Ft név szerint azonosítható összeggel. Belső ellenőrzés: 640+360+63+60 (Eximbank) + 100 (M6, külön tételben) + 998,14 (ez a gyűjtő) = 2221,14 ≈ 2221 Mrd Ft hivatalos összesítő — konzisztens. A korábbi 22 tétel egyedi összegei az oldal mostani, pontosabb tizedesjegyekkel közölt értékeivel (pl. ortodox akadémia 38,229 Mrd, Observer 30,98 Mrd, Fradiváros 24,947 Mrd, Triton 4,229 Mrd, nyuszimotor 0,2392 Mrd) lényegében megegyeznek, érdemi eltérés nincs. [2026-09-25: a korábbi, technikai megjegyzést tartalmazó leírás: Az előző futásban rögzített 22 tétel (lélegeztetőgép-beszerzés 300 Mrd, Mohácsi Duna-híd előleg 155,8 Mrd, Kréta/Neptun/Poszeidón 100 Mrd, Gondosóra-program 100 Mrd, Waberer's MFB-finanszírozás 77 Mrd, OMSZ járműbeszerzés 70 Mrd, veglegestorles.hu 39,6 Mrd, ortodox akadémia 38,2 Mrd, Observer médiamonitoring 31 Mrd, Kommentár Alapítvány 27,8 Mrd, Fradivárosi projekt 24,9 Mrd, kínai kazánbeszerzés 10,5 Mrd, Triton Communications 4,2 Mrd, miniszteri delegatációs utazások 4 Mrd, Szuverenitásvédelmi Hivatal 3,67 Mrd, p2m/Balásy-csoport 3,3 Mrd, civil szervezetek 1,5 Mrd, Kárpát-medencei Tehetséggondozó 0,825 Mrd, MIKK 0,3 Mrd, nyuszimotor-vásárlások 0,239 Mrd, pénzügyminisztériumi támogatási visszaelés 0,09 Mrd, pártpropaganda/Tartalom Előkészítő Osztály 0,05 Mrd) mellett 2026-09-23-i ellenőrzéskor 5 ÚJ tétel jelent meg a hivatalos listán (mind 2026.09.17–18-i dátummal): Papp László Budapest Sportaréna tízéves bérbeadása (4,012 Mrd, Belügyminisztérium), Puskás Aréna – MLSZ-nek átengedett páholyok (1,01 Mrd, Belügyminisztérium), BOK Sportcsarnok – HADRAN-cégcsoport bérletei (0,13 Mrd, Belügyminisztérium), HM Zrínyi Kft. MATASZ elnökségi megbízási szerződések (0,00958 Mrd, Honvédelmi Minisztérium), Kovács Katalin Nemzeti Kajak-Kenu Akadémia Alapítvány (Belügyminisztérium, összeg nincs megadva). Az M6-os koncessziós ügy (100 Mrd) és a négy Eximbank-ügy (Egyiptom 640, Macedónia 360, Duna Aszfalt/Kongo 63, Sofitel 60 Mrd) továbbra is önálló reported_cases tételekben szerepelnek, nem ebben a gyűjtőben.]",
    "id": "reported-egyeb-miniszteriumi-18ugy-2026"
   },
   {
    "alleged_amount_huf": 63000000000,
    "alleged_amount_text": "kb. 63 milliárd forint (hivatalos, kormany.hu szerint, 2026-09-22; korábbi sajtóhír kb. 101 Mrd Ft-ot közölt)",
    "confirmed_recovered_huf": 126000000000,
-   "description": "A Nemzetgazdasági Minisztérium döntött a kötvényjegyzésről az Eximbank igazgatósága helyett; magas kockázati kategriájú projekt. EZ AZ ÜGY MÁR RÉSZBEN/EGÉSZBEN RENDEZőDöTT: lásd a kapcsolódó visszaszerzési tételt.",
+   "description": "A Nemzetgazdasági Minisztérium döntött a kötvényjegyzésről az Eximbank igazgatósága helyett; magas kockázati besorolású projekt. A Duna Aszfalt azóta visszaváltotta a kötvényeket, a tőke és a kamatok visszaáramlottak az állami pénzintézetekhez (l. Visszaszerzés kategória).",
    "ministry": "Gazdasági és Energetikai Minisztérium",
    "recovered_item_id": "visszaszerzes-duna-aszfalt-kotveny-2026-09",
    "report_date": "2026-09-02",
@@ -545,7 +580,7 @@
    },
    "status": "recovered",
    "subject": "Zambia-Kongó közötti útepítés (Duna Aszfalt projekt, Eximbank-kezesség)",
-   "verification_notes": "A Duna Aszfalt 2026 szeptemberére önként visszaváltotta a kötvényeket (l. items/visszaszerzes-duna-aszfalt-kotveny-2026-09), a visszaélés gyanújával kapcsolatos vizsgálat külön folytatódik. FRISSÍTVE 2026-09-22: a feljelentett összeg a hivatalos kormany.hu adat szerint 63 Mrd Ft (az eredeti Index-cikk kb. 101 Mrd Ft-ot írt) — hivatalos forrás irányadó.",
+   "verification_notes": "A Duna Aszfalt 2026 szeptemberére önként visszaváltotta a kötvényeket (l. items/visszaszerzes-duna-aszfalt-kotveny-2026-09), a visszaélés gyanújával kapcsolatos vizsgálat külön folytatódik. FRISSÍTVE 2026-09-22: a feljelentett összeg a hivatalos kormany.hu adat szerint 63 Mrd Ft (az eredeti Index-cikk kb. 101 Mrd Ft-ot írt) — hivatalos forrás irányadó. [2026-09-25: a korábbi, technikai megjegyzést tartalmazó leírás: A Nemzetgazdasági Minisztérium döntött a kötvényjegyzésről az Eximbank igazgatósága helyett; magas kockázati kategriájú projekt. EZ AZ ÜGY MÁR RÉSZBEN/EGÉSZBEN RENDEZőDöTT: lásd a kapcsolódó visszaszerzési tételt.]",
    "id": "reported-eximbank-duna-aszfalt-kongo-2026"
   },
   {
@@ -660,7 +695,7 @@
    "alleged_amount_huf": 100000000000,
    "alleged_amount_text": "100 milliárd forint (hivatalos, kormany.hu szerint, 2026-09-22-i állapot; a sajtó szerint a tervezett 149 Mrd Ft-os költség és a végül 44 Mrd Ft-os szerződés közti 105 Mrd Ft/11 év különbség)",
    "confirmed_recovered_huf": 105000000000,
-   "description": "A Közlekedési és Beruházási Minisztérium feljelentést tett a korábbi üzemeltetési szerződés túlárazása miatt, egyúttal a szerződést újratárgyalta: 149 Mrd Ft helyett 44 Mrd Ft lett az új ár. A kormany.hu hivatalos feljelentési listáján 'M6 Concession' néven, 100 milliárd forintos összeggel szerepel — ez korábban az egyéb miniszteriumi gyűjtőtételben (reported-egyeb-miniszteriumi-18ugy-2026) volt beszámítva, most abból kiemelve, önálló tételként, mert konkrét hozzá kapcsolódó megtakarítási esemény ismert.",
+   "description": "A Közlekedési és Beruházási Minisztérium feljelentést tett a korábbi üzemeltetési szerződés túlárazása miatt, egyúttal a szerződést újratárgyalta: 149 milliárd forint helyett 44 milliárd forint lett az új ár. A kormány hivatalos feljelentési listáján „M6 Concession” néven, 100 milliárd forintos összeggel szerepel.",
    "ministry": "Közlekedési és Beruházási Minisztérium",
    "recovered_item_id": "megtakaritas-m6-dunaujvaros-erdi-teto-2026-09",
    "report_date": "2026-09-05",
@@ -671,7 +706,7 @@
    },
    "status": "partially_recovered",
    "subject": "M6 autópálya Dunaújváros–Érdi tető szakasz üzemeltetésének korábbi túlárazása",
-   "verification_notes": "FRISSÍTVE 2026-09-23: önálló tétellé emelve a gyűjtő dokumentumból. A 105 Mrd Ft/11 év (akár 300 Mrd Ft teljes futamidőre) inkább jövőbeli megtakarítás (a szerződés újratárgyalásából), nem közvetlen vagyon-visszaszerzés, ezért 'partially_recovered' státusz, nem 'recovered'.",
+   "verification_notes": "FRISSÍTVE 2026-09-23: önálló tétellé emelve a gyűjtő dokumentumból. A 105 Mrd Ft/11 év (akár 300 Mrd Ft teljes futamidőre) inkább jövőbeli megtakarítás (a szerződés újratárgyalásából), nem közvetlen vagyon-visszaszerzés, ezért 'partially_recovered' státusz, nem 'recovered'. [2026-09-25: a korábbi, technikai megjegyzést tartalmazó leírás: A Közlekedési és Beruházási Minisztérium feljelentést tett a korábbi üzemeltetési szerződés túlárazása miatt, egyúttal a szerződést újratárgyalta: 149 Mrd Ft helyett 44 Mrd Ft lett az új ár. A kormany.hu hivatalos feljelentési listáján 'M6 Concession' néven, 100 milliárd forintos összeggel szerepel — ez korábban az egyéb miniszteriumi gyűjtőtételben (reported-egyeb-miniszteriumi-18ugy-2026) volt beszámítva, most abból kiemelve, önálló tételként, mert konkrét hozzá kapcsolódó megtakarítási esemény ismert.]",
    "id": "reported-m6-dunaujvaros-erdi-teto-tularazas-2026"
   },
   {
@@ -768,7 +803,7 @@
    "alleged_amount_huf": 2221000000000,
    "alleged_amount_text": "2221 milliárd forint (hivatalos, kormany.hu szerinti állapot, 2026-09-23 esti ellenőrzés; előző állapot 2026-09-22: 2216 Mrd Ft, 32 ügy; eredeti 2026-09-02-i állapot: 2128 Mrd Ft, 22 ügy)",
    "confirmed_recovered_huf": 126000000000,
-   "description": "A kormány hivatalos, folyamatosan bővülő listája (kormany.hu/atlathato/feljelentes) szerint 2026-09-23-i állapotban 37 ügyben tettek feljelentést, összesen 2221 milliárd forint értékű közpénzt érintve (ebből 31 ügynél van egyedi összeg megjelölve, 6 ügynél nincs). 2026-09-02-én (Index) 9 minisztérium 22 ügyben, 2128 Mrd Ft-ban jelentette, 2026-09-22-re 32 ügy/2216 Mrd Ft-ra nőtt. EZ EGY ÖSSZESÍTŐ REFERENCIA-TÉTEL, ne add hozzá a négy Eximbank-tételhez, az M6-tételhez vagy a gyűjtőtételhez, mert azok már ennek részét képezik (dupla számlálás elkerülandő).",
+   "description": "A kormány hivatalos, folyamatosan bővülő listája (kormany.hu/atlathato/feljelentes) szerint 2026. szeptember 23-i állapotban 37 ügyben tettek feljelentést, összesen 2221 milliárd forint értékű közpénzt érintve (ebből 31 ügynél van egyedi összeg megjelölve, 6 ügynél nincs). 2026. szeptember 2-án még 9 minisztérium 22 ügyben, 2128 milliárd forint értékben tett feljelentést.",
    "is_aggregate": true,
    "ministry": "Összesítő — 10 minisztérium/hatóság",
    "recovered_item_id": null,
@@ -780,7 +815,7 @@
    },
    "status": "under_investigation",
    "subject": "Kormányzati feljelentések hivatalos összesítője (32 ügy, 10 minisztérium/hatóság)",
-   "verification_notes": "FRISSÍTVE 2026-09-23 (esti futás): a kormany.hu/atlathato/feljelentes oldal 2026-09-23-i állapota szerint 37 ügy, 2221 Mrd Ft (előző ellenőrzés reggel: 32 ügy, 2216 Mrd Ft). Az új 5 ügy (mind 09-17/18 dátummal) a reported-egyeb-miniszteriumi-18ugy-2026 gyűjtőtételbe került be. A confirmed_recovered_huf mező (126 Mrd Ft, Duna Aszfalt) változatlanul a jelenleg ismert, ténylegesen igazolt visszaszerzést jelzi. Az új, ma talált Honvédelmi Minisztérium (12 Mrd, tanácsadói szerződés), letelepedési kötvény (21 Mrd) és Merkely/KinaviX (0,6 Mrd) ügyek MÉG NEM szerepelnek a hivatalos kormany.hu listán, ezért nem részei ennek az összesítőnek (önálló reported_cases tételként lettek felvéve). Az MKIF-koncessziós (kb. 5000 Mrd Ft) és MNB/Matolcsy (300 Mrd Ft) ügyek szintén még nem szerepelnek a hivatalos listán.",
+   "verification_notes": "FRISSÍTVE 2026-09-23 (esti futás): a kormany.hu/atlathato/feljelentes oldal 2026-09-23-i állapota szerint 37 ügy, 2221 Mrd Ft (előző ellenőrzés reggel: 32 ügy, 2216 Mrd Ft). Az új 5 ügy (mind 09-17/18 dátummal) a reported-egyeb-miniszteriumi-18ugy-2026 gyűjtőtételbe került be. A confirmed_recovered_huf mező (126 Mrd Ft, Duna Aszfalt) változatlanul a jelenleg ismert, ténylegesen igazolt visszaszerzést jelzi. Az új, ma talált Honvédelmi Minisztérium (12 Mrd, tanácsadói szerződés), letelepedési kötvény (21 Mrd) és Merkely/KinaviX (0,6 Mrd) ügyek MÉG NEM szerepelnek a hivatalos kormany.hu listán, ezért nem részei ennek az összesítőnek (önálló reported_cases tételként lettek felvéve). Az MKIF-koncessziós (kb. 5000 Mrd Ft) és MNB/Matolcsy (300 Mrd Ft) ügyek szintén még nem szerepelnek a hivatalos listán. [2026-09-25: a korábbi, technikai megjegyzést tartalmazó leírás: A kormány hivatalos, folyamatosan bővülő listája (kormany.hu/atlathato/feljelentes) szerint 2026-09-23-i állapotban 37 ügyben tettek feljelentést, összesen 2221 milliárd forint értékű közpénzt érintve (ebből 31 ügynél van egyedi összeg megjelölve, 6 ügynél nincs). 2026-09-02-én (Index) 9 minisztérium 22 ügyben, 2128 Mrd Ft-ban jelentette, 2026-09-22-re 32 ügy/2216 Mrd Ft-ra nőtt. EZ EGY ÖSSZESÍTŐ REFERENCIA-TÉTEL, ne add hozzá a négy Eximbank-tételhez, az M6-tételhez vagy a gyűjtőtételhez, mert azok már ennek részét képezik (dupla számlálás elkerülandő).]",
    "id": "reported-osszesito-2026-09"
   },
   {
