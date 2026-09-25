@@ -1,10 +1,10 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-25T20:24:08+00:00",
+ "generated_at": "2026-09-25T20:49:52+00:00",
  "summary": {
   "megtakaritas_verified_huf": 929000000000,
   "visszaszerzes_verified_huf": 1516570000000,
-  "eu_forras_verified_huf": 5256000000000,
+  "eu_forras_verified_huf": 5986000000000,
   "eu_forras_lost_huf": 730000000000,
   "items_count": 12,
   "reported_cases_count": 17
@@ -48,16 +48,16 @@
      "url": "https://www.vg.hu/vilaggazdasag-magyar-gazdasag/2026/09/unios-penzek-magyarorszag-europai-bizottsag-vitezy"
     }
    ],
-   "agreed_huf": 5256000000000,
+   "agreed_huf": 5986000000000,
    "agreed_original_huf": 5986000000000,
-   "agreed_text": "14,4 milliárd euró — a 2026. május 29-én bejelentett 16,4 milliárd euróból (kb. 10 mrd EUR RRF + 6,4 mrd EUR kohéziós) levonva a véglegesen elveszett 2 milliárd euró kohéziós forrást",
-   "amount_huf": 5256000000000,
-   "amount_text": "14,4 milliárd euró (kb. 5256 milliárd forint; eredetileg 16,4 milliárd euró)",
+   "agreed_text": "16,4 milliárd euró — kb. 10 milliárd EUR RRF + 6,4 milliárd EUR kohéziós forrás (a május 29-i megállapodás szerinti teljes összeg)",
+   "amount_huf": 5986000000000,
+   "amount_text": "16,4 milliárd euró (kb. 5986 milliárd forint)",
    "category": "eu_forras",
    "collected_at": "2026-09-24T06:16:00+02:00",
    "currency_note": "16,4 milliárd euró, kb. 365 Ft/EUR árfolyamon számolva",
    "dedup_key": "eu_forras|befagyasztott rrf kohezios forras megallapodas leoldas|5986000000000",
-   "description": "2026. május 29-én Magyar Péter és Ursula von der Leyen bejelentette, hogy Magyarország hozzáférhet 16,4 milliárd euró korábban befagyasztott uniós forráshoz (kb. 10 milliárd euró helyreállítási és 6,4 milliárd euró kohéziós forrás). A kohéziós keretből 2 milliárd euró 2024 és 2025 végén véglegesen elveszett, így a megállapodott összeg 14,4 milliárd euró. A kormány szerint augusztus végére minden feltételt teljesített; az Európai Bizottság 2026. szeptember 23-án javasolta a Tanácsnak 4,2 milliárd euró kohéziós forrás feloldását. A Bizottság kifizetési döntése december 18-ra, a tényleges kifizetés végső határideje december 31-re várható; eddig kifizetés nem érkezett.",
+   "description": "2026. május 29-én Magyar Péter és Ursula von der Leyen bejelentette, hogy Magyarország hozzáférhet 16,4 milliárd euró korábban befagyasztott uniós forráshoz (kb. 10 milliárd euró helyreállítási és 6,4 milliárd euró kohéziós forrás). A kohéziós keretből 2 milliárd euró 2024 és 2025 végén véglegesen elveszett (l. Elveszett források). A kormány szerint augusztus végére minden feltételt teljesített; az Európai Bizottság 2026. szeptember 23-án javasolta a Tanácsnak 4,2 milliárd euró kohéziós forrás feloldását. A Bizottság kifizetési döntése december 18-ra, a tényleges kifizetés végső határideje december 31-re várható; eddig kifizetés nem érkezett.",
    "disbursement_as_of": "2026-09-23",
    "disbursement_source": {
     "name": "Népszava / Világgazdaság",
@@ -89,9 +89,10 @@
      ],
      "amount_huf": 730000000000,
      "amount_text": "2 milliárd euró (kb. 730 milliárd forint)",
-     "description": "A 6,3 milliárd eurós, feltételességi eljárás miatt befagyasztott kohéziós keretből 1 milliárd euró 2024 végén, további 1 milliárd euró 2025 végén véglegesen elveszett, mert az előző kormány határidőre nem teljesítette a feloldáshoz szükséges korrupcióellenes feltételeket. A keretből megmaradt 4,2 milliárd euró feloldását az Európai Bizottság 2026. szeptember 23-án javasolta a Tanácsnak. Az elvesztett összeggel a megállapodott uniós forrás értéke 16,4 milliárd euróról 14,4 milliárd euróra csökken.",
+     "description": "A 6,3 milliárd eurós, feltételességi eljárás miatt befagyasztott kohéziós keretből 1 milliárd euró 2024 végén, további 1 milliárd euró 2025 végén véglegesen elveszett, mert az előző kormány határidőre nem teljesítette a feloldáshoz szükséges korrupcióellenes feltételeket. A keretből megmaradt 4,2 milliárd euró feloldását az Európai Bizottság 2026. szeptember 23-án javasolta a Tanácsnak.",
      "id": "eu-elveszett-koh-2024-2025",
      "lost_date": "2026-09-23",
+     "reduces_agreed": false,
      "source_name": "Világgazdaság",
      "source_published_date": "2026-09-23",
      "source_url": "https://www.vg.hu/vilaggazdasag-magyar-gazdasag/2026/09/unios-penzek-magyarorszag-europai-bizottsag-vitezy",
@@ -107,7 +108,7 @@
    "source_url": "https://telex.hu/kulfold/2026/05/29/magyar-peter-ursula-von-der-leyen-unios-penzek-targyalas-helyreallitasi-alap-kohezios-penzek",
    "status": "verified",
    "subject": "Befagyasztott EU-s (RRF + kohéziós) források feloldásáról szóló megállapodás",
-   "verification_notes": "FRISSÍTVE 2026-09-24: Vitézy Dávid 2026.09.23-i nyilatkozata (Világgazdaság) szerint a korábban 'befagyasztottként' nyilvántartott kb. 2 milliárd euróból már NEM csak befagyasztásról, hanem VÉGLEGES ELVESZTÉSRŐL van szó (1 mrd EUR 2024 végén, 1 mrd EUR 2025 végén veszett el a feltételek nem teljesítése miatt). A 4,2 milliárd eurós bizottsági javaslat (2026.09.23) továbbra is csak javaslat, tényleges kifizetés nem történt, a received_huf mező ezért változatlanul 0. FRISSÍTVE 2026-09-25: a 2 mrd EUR elvesztés a 6,3 mrd EUR-s kohéziós keretből történt (VG, Forbes, Portfolio; a Bizottság 4,2 mrd EUR-s javaslata ezzel konzisztens), ezért az agreed_huf 5986 → 5256 Mrd Ft-ra csökkentve; agreed_original_huf és lost_items mezők felvéve.",
+   "verification_notes": "FRISSÍTVE 2026-09-24: Vitézy Dávid 2026.09.23-i nyilatkozata (Világgazdaság) szerint a korábban 'befagyasztottként' nyilvántartott kb. 2 milliárd euróból már NEM csak befagyasztásról, hanem VÉGLEGES ELVESZTÉSRŐL van szó (1 mrd EUR 2024 végén, 1 mrd EUR 2025 végén veszett el a feltételek nem teljesítése miatt). A 4,2 milliárd eurós bizottsági javaslat (2026.09.23) továbbra is csak javaslat, tényleges kifizetés nem történt, a received_huf mező ezért változatlanul 0. FRISSÍTVE 2026-09-25: a 2 mrd EUR elvesztés a 6,3 mrd EUR-s kohéziós keretből történt (VG, Forbes, Portfolio; a Bizottság 4,2 mrd EUR-s javaslata ezzel konzisztens), ezért az agreed_huf 5986 → 5256 Mrd Ft-ra csökkentve; agreed_original_huf és lost_items mezők felvéve. FRISSÍTVE 2026-09-25 (felhasználói döntés): a megállapodott összeg az eredeti 16,4 mrd EUR (5986 Mrd Ft) marad, az elvesztett összeget NEM vonjuk le belőle; az elveszett források külön, a lost_items/lost_huf mezőkben szerepelnek.",
    "id": "eu-forras-megallapodas-2026-05"
   },
   {
