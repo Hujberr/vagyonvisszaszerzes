@@ -1,13 +1,13 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-26T10:57:58+00:00",
+ "generated_at": "2026-09-26T15:00:04+00:00",
  "summary": {
   "megtakaritas_verified_huf": 940100000000,
   "visszaszerzes_verified_huf": 1520170000000,
   "eu_forras_verified_huf": 5986000000000,
   "eu_forras_lost_huf": 730000000000,
   "items_count": 16,
-  "reported_cases_count": 20
+  "reported_cases_count": 21
  },
  "items": [
   {
@@ -950,7 +950,7 @@
    },
    "status": "partially_recovered",
    "subject": "M6 autópálya Dunaújváros–Érdi tető szakasz üzemeltetésének korábbi túlárazása",
-   "verification_notes": "FRISSÍTVE 2026-09-23: önálló tétellé emelve a gyűjtő dokumentumból. A 105 Mrd Ft/11 év (akár 300 Mrd Ft teljes futamidőre) inkább jövőbeli megtakarítás (a szerződés újratárgyalásából), nem közvetlen vagyon-visszaszerzés, ezért 'partially_recovered' státusz, nem 'recovered'. [2026-09-25: a korábbi, technikai megjegyzést tartalmazó leírás: A Közlekedési és Beruházási Minisztérium feljelentést tett a korábbi üzemeltetési szerződés túlárazása miatt, egyúttal a szerződést újratárgyalta: 149 Mrd Ft helyett 44 Mrd Ft lett az új ár. A kormany.hu hivatalos feljelentési listáján 'M6 Concession' néven, 100 milliárd forintos összeggel szerepel — ez korábban az egyéb miniszteriumi gyűjtőtételben (reported-egyeb-miniszteriumi-18ugy-2026) volt beszámítva, most abból kiemelve, önálló tételként, mert konkrét hozzá kapcsolódó megtakarítási esemény ismert.]",
+   "verification_notes": "FRISSÍTVE 2026-09-23: önálló tétellé emelve a gyűjtő dokumentumból. A 105 Mrd Ft/11 év (akár 300 Mrd Ft teljes futamidőre) inkább jövőbeli megtakarítás (a szerződés újratárgyalásából), nem közvetlen vagyon-visszaszerzés, ezért 'partially_recovered' státusz, nem 'recovered'. [2026-09-25: a korábbi, technikai megjegyzést tartalmazó leírás: A Közlekedési és Beruházási Minisztérium feljelentést tett a korábbi üzemeltetési szerződés túlárazása miatt, egyúttal a szerződést újratárgyalta: 149 Mrd Ft helyett 44 Mrd Ft lett az új ár. A kormany.hu hivatalos feljelentési listáján 'M6 Concession' néven, 100 milliárd forintos összeggel szerepel — ez korábban az egyéb miniszteriumi gyűjtőtételben (reported-egyeb-miniszteriumi-18ugy-2026) volt beszámítva, most abból kiemelve, önálló tételként, mert konkrét hozzá kapcsolódó megtakarítási esemény ismert.] FRISSÍTVE 2026-09-26: sajtóhírek (Privátbankár, 2026-09-18 körüli) szerint a rendőrség elrendelte a nyomozást a KBM feljelentése nyomán; a cikkek szerint a szerződés a Magyar Közút áraihoz képest több mint kétszeresen, egyes elemeiben akár háromszorosan túlárazott volt. Ez csak eljárási részlet, a confirmed_recovered_huf (105 Mrd Ft) és a status (partially_recovered) nem változik.",
    "id": "reported-m6-dunaujvaros-erdi-teto-tularazas-2026"
   },
   {
@@ -1024,6 +1024,56 @@
    "subject": "MNB-alapítványok ügye (Matolcsy-kör, hűtlen kezelés gyanúja)",
    "verification_notes": "Több független forrás (Portfolio, Pénzcentrum, ATV/444, Forbes, Világgazdaság, Népszava, Telex, Zsaruhírek) egyezően számol be a szept. 22-i házkutatásról és a szept. 23-i gyanúsítotti kihallgatásról. FRISSÍTVE 2026-09-24: a hét gyanúsítottat (köztük Matolcsyt) kihallgatták, mindannyian szabadlábon maradtak; letartóztatást nem kezdeményeztek. Nincs még vádemelés, nincs visszaszerzett összeg. Nem szerepel a kormany.hu kormányzati feljelentési listáján, mivel ez ügyészségi, nem minisztériumi eljárás.",
    "id": "reported-mnb-matolcsy-alapitvanyok-2026-09"
+  },
+  {
+   "additional_sources": [
+    {
+     "name": "444.hu",
+     "published_date": "2026-09-18",
+     "url": "https://444.hu/2026/09/18/ujabb-ot-feljelentest-tett-a-belugyminiszterium-mindegyik-a-nemzeti-sportugynokseget-erinti"
+    },
+    {
+     "name": "Economx",
+     "published_date": "2026-09-18",
+     "url": "https://www.economx.hu/belfold/2026/09/18/feljelentes-belugyminiszterium-posfai-gabor/"
+    },
+    {
+     "name": "Origo",
+     "published_date": "2026-09-18",
+     "url": "https://www.origo.hu/belpol/2026/09/posfai-gabor-belugyminiszterium-feljelentes"
+    },
+    {
+     "name": "Népszava",
+     "published_date": "2026-09-18",
+     "url": "https://nepszava.hu/3333081_belugyminiszterium-feljelentesek-nemzeti-sportugynokseg"
+    },
+    {
+     "name": "Zsaruhírek",
+     "published_date": "2026-09-18",
+     "url": "https://zsaruhirek.hu/kornyezetunk-kozelet/2026/09/18/nemzeti-sportugynokseg-feljelentes-belugyminiszterium/"
+    },
+    {
+     "name": "Privátbankár",
+     "published_date": "2026-09-18",
+     "url": "https://privatbankar.hu/cikkek/kozerdeku/tularazott-beszerzesek-es-kijatszott-palyazatok-miatt-tett-feljelenteseket-a-belugyminiszterium.html"
+    }
+   ],
+   "alleged_amount_huf": null,
+   "alleged_amount_text": "Összesített kár nincs közölve; példaként egyetlen ugrálókötélért mintegy 1,3 millió forintot fizettek állami forrásból.",
+   "confirmed_recovered_huf": 0,
+   "description": "A Belügyminisztérium 2026 szeptemberében öt feljelentést tett a Nemzeti Sportügynökség működésével kapcsolatban: versenyeztetés nélküli vagyonhasznosítási pályázatok és bérleti szerződések, piaci ár alatti bérleti díjak, indokolatlanul túlárazott eszközbeszerzések, valamint egy korábbi vezető szokatlanul kedvező munkaszerződése. Az ügynökség korábbi vezérigazgatóját 2026. szeptember 7-én menesztették.",
+   "ministry": "Belügyminisztérium — érintett szervezet: Nemzeti Sportügynökség",
+   "recovered_item_id": null,
+   "report_date": "2026-09-18",
+   "report_source": {
+    "name": "Telex",
+    "published_date": "2026-09-18",
+    "url": "https://telex.hu/belfold/2026/09/18/posfai-gabor-belugyminiszterium-feljelentes-nemzeti-sportugynokseg"
+   },
+   "status": "reported",
+   "subject": "Nemzeti Sportügynökség működése — öt feljelentés túlárazás és jogosulatlan előnyszerzés gyanújával",
+   "verification_notes": "ÚJ TÉTEL (2026-09-26 futás). Legalább hét független sajtóforrás (Telex, 444.hu, Economx, Origo, Népszava, Zsaruhírek, Privátbankár) egyezően közli az ügyet, mind 2026-09-18-i dátummal. Nem szerepel a kormany.hu/atlathato/feljelentes hivatalos listáján (2026-09-26-i ellenőrzés szerint) — a Belügyminisztérium önálló feljelentése, nem a kormányzati gyűjtőoldalon nyilvántartott ügy. Konkrét összesített forintösszeg nincs közölve, csak egyedi példák (pl. 1,3 millió Ft egy ugrálókötélért).",
+   "id": "reported-nemzeti-sportugynokseg-2026-09"
   },
   {
    "alleged_amount_huf": 529000000,
@@ -1350,43 +1400,41 @@
  },
  "last_run": {
   "errors": [
-   "Ez a futás alig 55 perccel az előző (2026-09-26 11:55–12:10) futás után indult; a 3 napos figyelési ablakban nem volt azonosítható olyan új tény vagy összeg, amely a legutóbbi, alaposan lefedett futás óta jelent meg — minden vizsgált találat már a meglévő items/reported_cases tételekben szerepel.",
    "hirkereso.hu/politika 404-es hibával nem volt elérhető ebben a futásban.",
-   "Az ÁKK hivatalos statisztikai oldala (akk.hu) ismét nem volt közvetlenül lekérhető (robots.txt/méretkorlát); az államadósság-érték változatlanul a 2026-07-31-i (Magyar Nemzet/ÁKK-hivatkozás) állapotot tükrözi.",
-   "Az MNB EUR/HUF hivatalos fixing ebben a futásban sem frissült újabb (2026-09-26-i) értékkel; a legutóbbi (2026-09-25, 364,42 Ft/EUR) maradt érvényben — új macro_snapshots dokumentum ezért nem készült."
+   "Az ÁKK hivatalos oldalát (akk.hu) ebben a futásban nem sikerült közvetlenül frissíteni; új, 2026-07-31 utáni hivatalos államadósság-adat nem volt azonosítható, a korábbi (65 716 Mrd Ft) érték marad érvényben.",
+   "Az MNB EUR/HUF hivatalos fixing szombaton (2026-09-26) nem jelenik meg; a legutóbbi munkanapi (2026-09-25, 364,42 Ft/EUR) érték marad érvényben, új macro_snapshots dokumentum ezért nem készült."
   ],
   "eu_lost_items_new": 0,
-  "finished_at": "2026-09-26T13:05:00+02:00",
+  "finished_at": "2026-09-26T17:20:00+02:00",
   "items_duplicate": 0,
   "items_found_total": 0,
   "items_needs_review": 0,
   "items_new": 0,
-  "reported_cases_new": 0,
-  "reported_cases_updated": 0,
+  "reported_cases_new": 1,
+  "reported_cases_updated": 1,
   "sources_checked": [
-   "kormany.hu/atlathato/feljelentes (37 ügy, 2221 Mrd Ft, 2026-09-23-i állapot — változatlan az előző, 2026-09-26 12:02-es futáshoz képest)",
-   "mnvvh.hu/hirek (csak szervezeti/személyi közlemények, új ügyadat nincs)",
-   "k-monitor.hu (célzott keresés, nincs releváns új találat)",
-   "hirkereso.hu (a /politika rovat URL 404-es hibát adott, nem volt elérhető)",
+   "kormany.hu/atlathato/feljelentes (37 ügy, 2221 Mrd Ft — változatlan)",
+   "mnvvh.hu/hirek (nincs új konkrét ügyadat, csak szervezeti közlemények)",
+   "k-monitor.hu (célzott keresés)",
+   "hirkereso.hu/politika (404-es hiba, nem elérhető)",
    "telex.hu",
    "444.hu",
    "index.hu",
    "portfolio.hu",
    "economx.hu",
-   "g7.hu",
    "vg.hu",
    "hvg.hu",
    "24.hu",
    "origo.hu",
+   "nepszava.hu",
    "mfor.hu",
-   "infostart.hu",
    "penzcentrum.hu",
    "privatbankar.hu",
    "magyarnemzet.hu",
-   "nepszava.hu",
-   "mnb.hu (sajtón keresztül)"
+   "akk.hu (sajtón keresztül)",
+   "mnb.hu (sajtón keresztül, MNB fixing)"
   ],
-  "started_at": "2026-09-26T12:55:00+02:00",
-  "id": "2026-09-26T12-57"
+  "started_at": "2026-09-26T16:56:00+02:00",
+  "id": "2026-09-26T16-56"
  }
 }
