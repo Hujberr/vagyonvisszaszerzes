@@ -1371,7 +1371,19 @@ window.SITE_CONFIG = {
   /* ---------- data ---------- */
   const fmtInt = n => typeof n === "number" ? Math.round(n).toLocaleString("hu-HU") : "–";
   const toMrd = huf => typeof huf === "number" ? huf/1e9 : 0;
-  const fmtMrd = huf => typeof huf === "number" ? fmtInt(toMrd(huf)) : "–";
+  /* Mrd Ft érték formázása: a tizedesjegyek száma a nagyságrendhez igazodik,
+     így az 1 Mrd Ft alatti összegek sem kerekednek 0-ra (pl. 300 millió Ft → 0,3). */
+  const mrdDecimals = v => {
+    const a = Math.abs(v);
+    if(a === 0 || a >= 100) return 0;
+    if(a >= 10) return 1;
+    if(a >= 0.01) return 2;
+    return 3;
+  };
+  const fmtMrdNum = v => typeof v === "number" && !isNaN(v)
+    ? v.toLocaleString(lang==="hu"?"hu-HU":"en-GB", {minimumFractionDigits:0, maximumFractionDigits:mrdDecimals(v)})
+    : "–";
+  const fmtMrd = huf => typeof huf === "number" ? fmtMrdNum(toMrd(huf)) : "–";
   const todayISO = () => new Date().toISOString().slice(0,10);
 
   /* ---------- animation helpers ---------- */
@@ -1383,7 +1395,7 @@ window.SITE_CONFIG = {
     duration = prefersReducedMotion ? 0 : (duration || 850);
     const fromVal = parseFloat(el.dataset.cv || "0");
     if(el._cvRaf) cancelAnimationFrame(el._cvRaf);
-    if(duration <= 0 || Math.abs(fromVal - toVal) < 0.05){
+    if(duration <= 0 || Math.abs(fromVal - toVal) < 0.0005){
       el.textContent = formatFn(toVal);
       el.dataset.cv = toVal;
       return;
@@ -1577,19 +1589,19 @@ window.SITE_CONFIG = {
     const reportedPct = reportedTotal>0 ? Math.round((reportedRecovered/reportedTotal)*100) : 0;
 
     /* stat cards */
-    countUp(document.getElementById("statRecovered"), toMrd(recoveredTotal), v=>fmtInt(v)+" Mrd Ft");
+    countUp(document.getElementById("statRecovered"), toMrd(recoveredTotal), v=>fmtMrdNum(v)+" Mrd Ft");
     document.getElementById("statRecoveredFoot").textContent = `${recoveredCount} ${t.tetel}`;
-    countUp(document.getElementById("statSaved"), toMrd(savedTotal), v=>fmtInt(v)+" Mrd Ft");
+    countUp(document.getElementById("statSaved"), toMrd(savedTotal), v=>fmtMrdNum(v)+" Mrd Ft");
     document.getElementById("statSavedFoot").textContent = `${savedCount} ${t.tetel}`;
-    countUp(document.getElementById("statReported"), toMrd(reportedTotal), v=>fmtInt(v)+" Mrd Ft");
+    countUp(document.getElementById("statReported"), toMrd(reportedTotal), v=>fmtMrdNum(v)+" Mrd Ft");
 
     /* reported donut */
     const pendingFrac = reportedTotal>0 ? reportedPending/reportedTotal : 0;
     const recoveredFrac = reportedTotal>0 ? reportedRecovered/reportedTotal : 0;
     setDonutSegment("donutPending", pendingFrac, 0);
     setDonutSegment("donutRecovered", recoveredFrac, pendingFrac);
-    countUp(document.getElementById("reportedPendingN"), toMrd(reportedPending), v=>fmtInt(v)+" Mrd Ft");
-    countUp(document.getElementById("reportedRecoveredN"), toMrd(reportedRecovered), v=>fmtInt(v)+" Mrd Ft");
+    countUp(document.getElementById("reportedPendingN"), toMrd(reportedPending), v=>fmtMrdNum(v)+" Mrd Ft");
+    countUp(document.getElementById("reportedRecoveredN"), toMrd(reportedRecovered), v=>fmtMrdNum(v)+" Mrd Ft");
     document.getElementById("reportedPendingLabel").textContent = `${t.pendingLabel} (${reportedTotal>0?100-reportedPct:0}%)`;
     document.getElementById("reportedRecoveredLabel").textContent = `${t.recoveredLabel} (${reportedPct}%)`;
 
@@ -1598,9 +1610,9 @@ window.SITE_CONFIG = {
     buildSplitBar("euBar", euAgreed>0, euPct,
       euReceived>0?fmtMrd(euReceived):"", "received",
       fmtMrd(euAgreed-euReceived), "agreed-rest");
-    countUp(document.getElementById("euAgreedN"), toMrd(euAgreed), v=>fmtInt(v)+" Mrd Ft");
-    countUp(document.getElementById("euReceivedN"), toMrd(euReceived), v=>fmtInt(v)+" Mrd Ft");
-    countUp(document.getElementById("euLostN"), toMrd(euLostTotal), v=>fmtInt(v)+" Mrd Ft");
+    countUp(document.getElementById("euAgreedN"), toMrd(euAgreed), v=>fmtMrdNum(v)+" Mrd Ft");
+    countUp(document.getElementById("euReceivedN"), toMrd(euReceived), v=>fmtMrdNum(v)+" Mrd Ft");
+    countUp(document.getElementById("euLostN"), toMrd(euLostTotal), v=>fmtMrdNum(v)+" Mrd Ft");
 
     /* category bars */
     const maxVal = Math.max(recoveredTotal, savedTotal, euAgreed, 1);
@@ -1619,7 +1631,7 @@ window.SITE_CONFIG = {
         clearTimeout(barEl._pulseT);
         barEl._pulseT = setTimeout(()=>barEl.classList.remove("pulse"), 1000 + i*90);
       }
-      countUp(bars[i].querySelector(".bv"), toMrd(vals[i]), v=>fmtInt(v));
+      countUp(bars[i].querySelector(".bv"), toMrd(vals[i]), v=>fmtMrdNum(v));
     }
 
     /* macro */
