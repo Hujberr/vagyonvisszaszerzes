@@ -150,11 +150,16 @@ window.SITE_CONFIG = {
     content:var(--more-label);align-self:flex-end;margin-top:auto;padding-top:4px;
     font-size:12px;font-weight:700;letter-spacing:.02em;color:var(--accent);white-space:nowrap;}
   .panel.clickable::after{display:block;text-align:right;}
-  .stat-card.bad.big.clickable::after{grid-column:1/-1;justify-self:end;}
+  .stat-card.bad.big.clickable::after{display:none;}
+  .rb-foot{width:100%;display:grid;grid-template-columns:1fr auto 1fr;align-items:baseline;gap:8px;margin-top:auto;padding-top:4px;}
+  .rb-count{grid-column:2;font-size:13.5px;font-weight:600;color:var(--text);white-space:nowrap;}
+  .rb-count b{font-family:"JetBrains Mono",monospace;}
+  .rb-more{grid-column:3;justify-self:end;font-size:12px;font-weight:700;letter-spacing:.02em;color:var(--accent);white-space:nowrap;}
+  .rb-more::before{content:var(--more-label);}
   @media (hover:hover){
     .stat-card.clickable,.panel.clickable{transition:transform .18s ease,border-color .18s,box-shadow .18s;}
     .stat-card.clickable:hover,.panel.clickable:hover{transform:translateY(-3px);box-shadow:0 10px 26px rgba(0,0,0,.28);}
-    .stat-card.clickable:hover::after,.panel.clickable:hover::after{text-decoration:underline;text-underline-offset:3px;}
+    .stat-card.clickable:hover::after,.panel.clickable:hover::after,.stat-card.clickable:hover .rb-more{text-decoration:underline;text-underline-offset:3px;}
   }
 
   .panel.clickable{position:relative;cursor:pointer;transition:transform .15s ease,border-color .15s;}
@@ -447,6 +452,7 @@ window.SITE_CONFIG = {
     .stat-card.bad.big .stat-top{grid-column:1/-1;justify-content:flex-start;}
     .stat-card.bad.big .donut-wrap{width:170px;height:170px;margin:4px 0;}
     .stat-card.bad.big .reported-breakdown{margin:0;max-width:none;}
+    .stat-card.bad.big .rb-foot{grid-column:2;display:flex;justify-content:space-between;}
   }
 
   /* ---------- responsive ---------- */
@@ -577,6 +583,7 @@ window.SITE_CONFIG = {
           <div class="rb-label" id="reportedRecoveredLabel">–</div>
         </div>
       </div>
+      <div class="rb-foot"><span class="rb-count" id="reportedCount"></span><span class="rb-more" aria-hidden="true"></span></div>
     </div>
   </section>
 
@@ -694,7 +701,7 @@ window.SITE_CONFIG = {
       timeBanner: d => `Időgép aktív — az oldal a(z) ${d} napi állapotot mutatja.`,
       catVerified:"Ellenőrzött", catReview:"Felülvizsgálandó", catRejected:"Elutasított",
       catVisszaszerzes:"Visszaszerzés", catMegtakaritas:"Megtakarítás", catEuForras:"EU-forrás",
-      tetel:"tétel", mrd:"Mrd Ft", noteLabel:"Megjegyzés", openSource:"Forrás megnyitása",
+      tetel:"tétel", caseCount:"Az ügyek száma:", mrd:"Mrd Ft", noteLabel:"Megjegyzés", openSource:"Forrás megnyitása",
       totalLabel:"Összesen", allegedLabel:"Állítólagos kár", confirmedLabel:"Megerősítve visszaszerezve",
       catReportedCase:"Feljelentés",
       rcStatusReported:"Feljelentve", rcStatusUnderInvestigation:"Vizsgálat alatt",
@@ -724,7 +731,7 @@ window.SITE_CONFIG = {
       timeBanner: d => `Time machine active — showing state as of ${d}.`,
       catVerified:"Verified", catReview:"Needs review", catRejected:"Rejected",
       catVisszaszerzes:"Recovered", catMegtakaritas:"Savings", catEuForras:"EU funds",
-      tetel:"item", mrd:"HUF bn", noteLabel:"Note", openSource:"Open source",
+      tetel:"item", caseCount:"Number of cases:", mrd:"HUF bn", noteLabel:"Note", openSource:"Open source",
       totalLabel:"Total", allegedLabel:"Alleged amount", confirmedLabel:"Confirmed recovered",
       catReportedCase:"Reported case",
       rcStatusReported:"Reported", rcStatusUnderInvestigation:"Under investigation",
@@ -1661,6 +1668,13 @@ window.SITE_CONFIG = {
     countUp(document.getElementById("reportedRecoveredN"), toMrd(reportedRecovered), v=>fmtMrdNum(v)+" Mrd Ft");
     document.getElementById("reportedPendingLabel").textContent = `${t.pendingLabel} (${reportedTotal>0?100-reportedPct:0}%)`;
     document.getElementById("reportedRecoveredLabel").textContent = `${t.recoveredLabel} (${reportedPct}%)`;
+    {
+      let n = aggregateDoc ? Number(aggregateDoc.case_count) : NaN;
+      if(!(n>0) && aggregateDoc){ const m = /(\d+)\s*ügy/.exec(`${aggregateDoc.subject||""} ${aggregateDoc.description||""}`); if(m) n = +m[1]; }
+      if(!(n>0)) n = reported.filter(d=>!d.is_aggregate).length;
+      const el = document.getElementById("reportedCount");
+      el.innerHTML = n>0 ? `${t.caseCount} <b>${fmtInt(n)}</b>` : "";
+    }
 
     /* eu split bar */
     const euPct = euAgreed>0 ? Math.max((euReceived/euAgreed)*100, euReceived>0?4:0) : 0;
