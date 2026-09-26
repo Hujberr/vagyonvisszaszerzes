@@ -143,13 +143,24 @@ window.SITE_CONFIG = {
   .stat-card.clickable:hover{border-color:var(--text-faint);}
   .stat-card.clickable:active{transform:scale(.98);}
   .stat-card.clickable:focus-visible{outline:2px solid var(--accent);outline-offset:2px;}
-  .stat-card.clickable::after{content:"›";position:absolute;top:14px;right:16px;font-size:18px;line-height:1;color:var(--text-dim);opacity:.7;}
+  /* „Részletek ›” jelzés a kattintható kártyákon és panelen */
+  :root{--more-label:"Részletek ›";}
+  :root[lang="en"]{--more-label:"Details ›";}
+  .stat-card.clickable::after,.panel.clickable::after{
+    content:var(--more-label);align-self:flex-end;margin-top:auto;padding-top:4px;
+    font-size:12px;font-weight:700;letter-spacing:.02em;color:var(--accent);white-space:nowrap;}
+  .panel.clickable::after{display:block;text-align:right;}
+  .stat-card.bad.big.clickable::after{grid-column:1/-1;justify-self:end;}
+  @media (hover:hover){
+    .stat-card.clickable,.panel.clickable{transition:transform .18s ease,border-color .18s,box-shadow .18s;}
+    .stat-card.clickable:hover,.panel.clickable:hover{transform:translateY(-3px);box-shadow:0 10px 26px rgba(0,0,0,.28);}
+    .stat-card.clickable:hover::after,.panel.clickable:hover::after{text-decoration:underline;text-underline-offset:3px;}
+  }
 
   .panel.clickable{position:relative;cursor:pointer;transition:transform .15s ease,border-color .15s;}
   .panel.clickable:hover{border-color:var(--text-faint);}
   .panel.clickable:active{transform:scale(.99);}
   .panel.clickable:focus-visible{outline:2px solid var(--accent);outline-offset:2px;}
-  .panel.clickable::after{content:"›";position:absolute;top:14px;right:16px;font-size:18px;line-height:1;color:var(--text-dim);opacity:.7;}
   .cat-list-summary.big{font-family:"JetBrains Mono",monospace;font-size:20px;font-weight:700;color:var(--eu);}
   .col-stack{display:flex;flex-direction:column;gap:14px;min-width:0;}
   .stat-card.eu .split-bar{margin-top:4px;}
@@ -882,9 +893,20 @@ window.SITE_CONFIG = {
   let modalStack = [];
   let currentModalRender = null;
 
+  /* Böngésző vissza gomb: minden megnyitott ablaknézet egy előzmény-bejegyzés,
+     így a vissza gomb először az ablakot lépteti vissza / zárja be. */
+  let histDepth = 0;
+  function histPush(){
+    try{ history.pushState({vvModal:histDepth+1}, ""); histDepth++; }catch(e){}
+  }
+  window.addEventListener("popstate", ()=>{
+    if(histDepth > 0){ histDepth--; closeModalStep(); }
+  });
+
   function showModalView(renderFn, opts){
     const overlay = document.getElementById("modalOverlay");
     const isOpen = overlay.classList.contains("show");
+    if(!(opts && opts.resetStack && isOpen)) histPush();
     if(opts && opts.resetStack){
       modalStack = [];
     } else if(isOpen && currentModalRender){
@@ -898,6 +920,10 @@ window.SITE_CONFIG = {
   }
 
   function closeModal(){
+    if(histDepth > 0){ history.back(); return; }
+    closeModalStep();
+  }
+  function closeModalStep(){
     if(modalStack.length){
       const prev = modalStack.pop();
       currentModalRender = prev;
