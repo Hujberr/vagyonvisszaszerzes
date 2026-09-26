@@ -360,6 +360,17 @@ window.SITE_CONFIG = {
   @media (max-width:380px){ .foot-links{gap:8px 12px;} }
   .foot-links a{color:var(--text-dim);text-decoration:none;cursor:pointer;background:none;border:0;font:inherit;padding:0;}
   .foot-links a:hover{color:var(--text);}
+  .foot-links a.foot-ai{
+    display:inline-flex;align-items:center;gap:5px;padding:3px 10px;border-radius:999px;
+    border:1px solid color-mix(in srgb, var(--accent) 55%, transparent);
+    background:color-mix(in srgb, var(--accent) 9%, transparent);
+    color:var(--accent);font-weight:600;line-height:1.4;
+  }
+  .foot-links a.foot-ai:hover{color:var(--accent);background:color-mix(in srgb, var(--accent) 16%, transparent);border-color:var(--accent);}
+  .foot-links a.foot-ai .foot-ai-icon{font-size:12px;line-height:1;}
+  .ai-list{margin:0 0 12px;padding-left:20px;}
+  .ai-list li{margin:0 0 6px;}
+  .ai-company{font-size:12.5px;color:var(--text-dim);margin-top:4px;}
 
   /* ---------- modal ---------- */
   .modal-overlay{
@@ -621,6 +632,7 @@ window.SITE_CONFIG = {
         <a href="#" id="linkPrivacy" data-i18n="footPrivacy">Adatvédelem</a>
         <a href="#" id="linkContact" data-i18n="footContact">Kapcsolat</a>
         <a href="#" id="linkAbout" data-i18n="footAbout">Rólam</a>
+        <a href="#" id="linkAiApp" class="foot-ai"><span class="foot-ai-icon" aria-hidden="true">✨</span><span data-i18n="footAiApp">Saját AI-app?</span></a>
         <a href="#" id="linkSupport" data-i18n="footSupport" hidden>Támogatás</a>
       </div>
     </div>
@@ -667,7 +679,7 @@ window.SITE_CONFIG = {
       brand:"Vagyonvisszaszerzési Monitor", tagline:"Forintról forintra…",
       timeMachineLabel:"Időgép", today:"Ma",
       statRecoveredLabel:"Visszaszerzés (igazolt)", statSavedLabel:"Megtakarítás (bejelentett)",
-      statEuLabel:"EU-forrás — megállapodott / beérkezett / elveszett", statEuLabelShort:"EU-forrás — megáll. / beérk. / elveszett", lostLabel:"Elveszett források", lostShort:"Elveszett", agreedOrigLabel:"Eredetileg megállapodott", agreedTotalLabel:"Megállapodott teljes összeg", lostDateLabel:"Elvesztés bejelentve", footAbout:"Rólam", footSupport:"Támogatás", visitorsLabel:"Látogatók száma:", descLabel:"Leírás",
+      statEuLabel:"EU-forrás — megállapodott / beérkezett / elveszett", statEuLabelShort:"EU-forrás — megáll. / beérk. / elveszett", lostLabel:"Elveszett források", lostShort:"Elveszett", agreedOrigLabel:"Eredetileg megállapodott", agreedTotalLabel:"Megállapodott teljes összeg", lostDateLabel:"Elvesztés bejelentve", footAbout:"Rólam", footAiApp:"Saját AI-app?", footSupport:"Támogatás", visitorsLabel:"Látogatók száma:", descLabel:"Leírás",
       statReportedLabel:"Feljelentett ügyek összege",
       reportedPanelTitle:"Feljelentett ügyek állapota", recoveredLabel:"Visszaszerezve", pendingLabel:"Vizsgálat alatt",
       euPanelTitle:"EU-forrás állapota", agreedLabel:"Megállapodott", receivedLabel:"Beérkezett",
@@ -697,7 +709,7 @@ window.SITE_CONFIG = {
       brand:"Asset Recovery Monitor", tagline:"Forint by forint…",
       timeMachineLabel:"Time machine", today:"Today",
       statRecoveredLabel:"Recovered assets (verified)", statSavedLabel:"Savings (reported)",
-      statEuLabel:"EU funds — agreed / received / lost", statEuLabelShort:"EU funds — agreed / rec. / lost", lostLabel:"Lost funds", lostShort:"Lost", agreedOrigLabel:"Originally agreed", agreedTotalLabel:"Total agreed amount", lostDateLabel:"Loss announced", footAbout:"About me", footSupport:"Support", visitorsLabel:"Visitors:", descLabel:"Description",
+      statEuLabel:"EU funds — agreed / received / lost", statEuLabelShort:"EU funds — agreed / rec. / lost", lostLabel:"Lost funds", lostShort:"Lost", agreedOrigLabel:"Originally agreed", agreedTotalLabel:"Total agreed amount", lostDateLabel:"Loss announced", footAbout:"About me", footAiApp:"Your AI App?", footSupport:"Support", visitorsLabel:"Visitors:", descLabel:"Description",
       statReportedLabel:"Total value of reported cases",
       reportedPanelTitle:"Reported case status", recoveredLabel:"Recovered", pendingLabel:"Under investigation",
       euPanelTitle:"EU funds status", agreedLabel:"Agreed", receivedLabel:"Received",
@@ -857,8 +869,7 @@ window.SITE_CONFIG = {
       <h5>Függetlenségi nyilatkozat</h5>
       <p>Az oldalt magánszemélyként üzemeltetem. Az oldal nem kapcsolódik semmilyen kormányhoz, kormányzati vagy állami szervhez, politikai párthoz vagy politikai szervezethez; azoktól sem megbízást, sem utasítást, sem anyagi támogatást nem kapok. A megjelenített adatok kiválasztása és bemutatása kizárólag a nyilvánosan elérhető források alapján történik.</p>
       <h5>AI-alkalmazások fejlesztése</h5>
-      <p>Ha hasonló, mesterséges intelligenciára épülő alkalmazás fejlesztésében gondolkodsz, keress bizalommal az alábbi címen:</p>
-      <div class="contact-box"><span class="contact-label">✉️ Email</span><a href="mailto:${CONTACT_EMAIL}">${CONTACT_EMAIL}</a></div>
+      <p>Ha hasonló, mesterséges intelligenciára épülő alkalmazás fejlesztésében gondolkodsz, a részleteket a <a href="#" data-open-modal="aiapp">Saját AI-app?</a> menüpontban találod.</p>
     `,
     en: `
       <h5 style="margin-top:0;">Who I am</h5>
@@ -877,12 +888,47 @@ window.SITE_CONFIG = {
       <h5>Statement of independence</h5>
       <p>This page is operated by a private individual. It is not affiliated with any government, governmental or state body, political party or political organisation, and I receive no mandate, instruction or financial support from any of them. The data shown is selected and presented solely on the basis of publicly available sources.</p>
       <h5>AI application development</h5>
-      <p>If you are considering developing a similar AI-based application, feel free to contact me at:</p>
-      <div class="contact-box"><span class="contact-label">✉️ Email</span><a href="mailto:${CONTACT_EMAIL}">${CONTACT_EMAIL}</a></div>
+      <p>If you are considering developing a similar AI-based application, you will find the details under <a href="#" data-open-modal="aiapp">Your AI App?</a>.</p>
     `
   };
-  const MODAL_TITLES = { hu:{sources:"Adatforrások", privacy:"Adatvédelmi tájékoztató", contact:"Kapcsolat", about:"Rólam"},
-                          en:{sources:"Data sources", privacy:"Privacy notice", contact:"Contact", about:"About me"} };
+  /* ---------- „Saját AI-app?” ablak ---------- */
+  const AI_EMAIL = "info@mskft.com";
+  const AI_MAILTO = lang => `mailto:${AI_EMAIL}?subject=${encodeURIComponent(lang==="hu"?"AI-alkalmazás ötlet":"AI application idea")}`;
+  const AI_APP_HTML = {
+    hu: () => `
+      <h5 style="margin-top:0;">Neked is lenne egy ilyen alkalmazásötleted?</h5>
+      <p>Ezt az oldalt mesterséges intelligencia segítségével fejlesztettem, és jelenleg is így működtetem. Naponta háromszor automatikusan gyűjti és frissíti az adatokat, minden tételhez nyilvános forrást kapcsol, és magyar–angol nyelven, mobilon is kényelmesen használható.</p>
+      <h5>Miben tudok segíteni?</h5>
+      <ul class="ai-list">
+        <li>adatgyűjtő és -figyelő oldalak (monitorok, műszerfalak) készítése</li>
+        <li>ismétlődő, időigényes feladatok automatizálása</li>
+        <li>belső céges eszközök, kalkulátorok, riportok elkészítése</li>
+        <li>AI-alapú megoldások beépítése meglévő munkafolyamatokba</li>
+      </ul>
+      <h5>Hogyan dolgozom?</h5>
+      <p>Egy rövid beszélgetéssel indulunk, amelyben megnézzük, mit szeretnél megoldani, és reális-e rá egy AI-alapú alkalmazás. Ha igen, gyorsan elkészül egy első, kipróbálható változat, amit együtt finomítunk.</p>
+      <p>Ha van egy ötleted vagy egy feladatod, amit szívesen automatizálnál, írj bátran:</p>
+      <div class="contact-box"><span class="contact-label">✉️ Email</span><a href="${AI_MAILTO("hu")}">${AI_EMAIL}</a></div>
+      <p class="ai-company">A megbízásokat saját cégemen, az MS Tanácsadó és Kereskedelmi Kft.-n keresztül vállalom.</p>`,
+    en: () => `
+      <h5 style="margin-top:0;">Do you have an app idea like this too?</h5>
+      <p>I developed this page with the help of artificial intelligence, and it still runs that way today. It automatically collects and refreshes its data three times a day, links every item to a public source, and works in Hungarian and English, comfortably on mobile too.</p>
+      <h5>How can I help?</h5>
+      <ul class="ai-list">
+        <li>building data-collecting and monitoring pages (monitors, dashboards)</li>
+        <li>automating repetitive, time-consuming tasks</li>
+        <li>creating internal business tools, calculators and reports</li>
+        <li>integrating AI-based solutions into existing workflows</li>
+      </ul>
+      <h5>How I work</h5>
+      <p>We start with a short conversation to see what you would like to solve and whether an AI-based application is a realistic fit. If it is, a first working version is ready quickly, which we then refine together.</p>
+      <p>If you have an idea or a task you would like to automate, feel free to write:</p>
+      <div class="contact-box"><span class="contact-label">✉️ Email</span><a href="${AI_MAILTO("en")}">${AI_EMAIL}</a></div>
+      <p class="ai-company">Assignments are taken on through my own company, MS Tanácsadó és Kereskedelmi Kft.</p>`
+  };
+
+  const MODAL_TITLES = { hu:{sources:"Adatforrások", privacy:"Adatvédelmi tájékoztató", contact:"Kapcsolat", about:"Rólam", aiapp:"Saját AI-alkalmazás"},
+                          en:{sources:"Data sources", privacy:"Privacy notice", contact:"Contact", about:"About me", aiapp:"Your own AI application"} };
 
   /* ---------- modal navigation stack ----------
      showModalView(renderFn) opens a new view on top of whatever is currently shown
@@ -950,6 +996,8 @@ window.SITE_CONFIG = {
       body = PRIVACY_HTML[lang];
     } else if(kind === "about"){
       body = ABOUT_HTML[lang];
+    } else if(kind === "aiapp"){
+      body = AI_APP_HTML[lang]();
     } else if(kind === "support"){
       const C = window.SITE_CONFIG || {};
       const btn = (url, title, sub) => url ? `<a class="support-btn" href="${url}" target="_blank" rel="noopener"><b>${title}</b><span>${sub}</span></a>` : "";
@@ -971,6 +1019,15 @@ window.SITE_CONFIG = {
   document.getElementById("linkPrivacy").addEventListener("click", e=>{ e.preventDefault(); showModalView(()=>renderFooterModal("privacy"), {resetStack:true}); });
   document.getElementById("linkContact").addEventListener("click", e=>{ e.preventDefault(); showModalView(()=>renderFooterModal("contact"), {resetStack:true}); });
   document.getElementById("linkAbout").addEventListener("click", e=>{ e.preventDefault(); showModalView(()=>renderFooterModal("about"), {resetStack:true}); });
+  document.getElementById("linkAiApp").addEventListener("click", e=>{ e.preventDefault(); showModalView(()=>renderFooterModal("aiapp"), {resetStack:true}); });
+  /* ablakon belüli hivatkozás egy másik lábléc-ablakra (pl. Rólam → Saját AI-app?) */
+  document.getElementById("modalBody").addEventListener("click", e=>{
+    const a = e.target.closest("[data-open-modal]");
+    if(!a) return;
+    e.preventDefault();
+    const kind = a.getAttribute("data-open-modal");
+    showModalView(()=>renderFooterModal(kind));
+  });
   document.getElementById("linkSupport").addEventListener("click", e=>{ e.preventDefault(); showModalView(()=>renderFooterModal("support"), {resetStack:true}); });
   document.getElementById("modalClose").addEventListener("click", closeModal);
   (function(){
