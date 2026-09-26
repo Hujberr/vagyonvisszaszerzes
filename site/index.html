@@ -1,0 +1,1637 @@
+<!doctype html>
+<html lang="hu">
+<head>
+<meta charset="utf-8">
+<title>Forintról forintra – Vagyonvisszaszerzési Monitor</title>
+<meta name="description" content="Nyilvános források alapján összesített adatok a visszaszerzett vagyonról, a kormányzati megtakarításokról, az uniós forrásokról és a feljelentett közpénzügyekről.">
+<!-- Élesítéskor: <link rel="canonical" href="https://FODOMAIN.hu/"> -->
+<script>
+/* Honlap-beállítások — élesítéskor itt kapcsolhatók be az egyes elemek. */
+window.SITE_CONFIG = {
+  dataUrl: "https://raw.githubusercontent.com/Hujberr/vagyonvisszaszerzes/main/data/dashboard.json",
+  counterUrl: "counter.php",   // a tárhelyen futó látogatószámláló; ha nem érhető el, a számláló rejtve marad
+  supportEnabled: false,       // „Támogatás” link és ablak
+  stripeUrl: "",               // Stripe fizetési link
+  paypalUrl: "",               // PayPal link
+  adsEnabled: false            // hirdetési hely (AdSense-jóváhagyás után)
+};
+</script>
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700;800&family=Public+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600&display=swap">
+<style>
+  :root{
+    --bg:#080C16; --bg-2:#0B1120;
+    --surface:#0E1526; --surface-2:#0A0F1D;
+    --border:#1E2A40;
+    --text:#EDF1FA; --text-dim:#8B97AC; --text-faint:#5B6779;
+    --accent:#2BD9FF;
+    --good:#1CFFB0; --good-bg:rgba(28,255,176,.12); --good-border:rgba(28,255,176,.45);
+    --good-glow:0 0 20px rgba(28,255,176,.35), 0 0 2px rgba(28,255,176,.6);
+    --warn:#FFD60A; --warn-bg:rgba(255,214,10,.12); --warn-border:rgba(255,214,10,.45);
+    --warn-glow:0 0 20px rgba(255,214,10,.30);
+    --bad:#FF3B6B; --bad-bg:rgba(255,59,107,.12); --bad-border:rgba(255,59,107,.45);
+    --bad-glow:0 0 20px rgba(255,59,107,.35), 0 0 2px rgba(255,59,107,.6);
+    --eu:#C77DFF; --eu-bg:rgba(199,125,255,.13); --eu-border:rgba(199,125,255,.45);
+    --eu-glow:0 0 20px rgba(199,125,255,.35), 0 0 2px rgba(199,125,255,.6);
+    --blue:#2BD9FF; --blue-bg:rgba(43,217,255,.12); --blue-border:rgba(43,217,255,.45);
+    --blue-glow:0 0 20px rgba(43,217,255,.35), 0 0 2px rgba(43,217,255,.6);
+    color-scheme:dark;
+  }
+  :root[data-theme="light"]{
+    --bg:#F5F6FA; --bg-2:#EEF0F6;
+    --surface:#FFFFFF; --surface-2:#F1F3F8;
+    --border:#DDE2EC;
+    --text:#12172A; --text-dim:#5B6579; --text-faint:#8991A3;
+    --accent:#0284C7;
+    --good:#059669; --good-bg:rgba(16,185,129,.10); --good-border:rgba(16,185,129,.35); --good-glow:none;
+    --warn:#B45309; --warn-bg:rgba(202,138,4,.10); --warn-border:rgba(202,138,4,.35); --warn-glow:none;
+    --bad:#DC2626; --bad-bg:rgba(220,38,38,.08); --bad-border:rgba(220,38,38,.30); --bad-glow:none;
+    --eu:#7C3AED; --eu-bg:rgba(124,58,237,.08); --eu-border:rgba(124,58,237,.30); --eu-glow:none;
+    --blue:#0284C7; --blue-bg:rgba(2,132,199,.08); --blue-border:rgba(2,132,199,.30); --blue-glow:none;
+    color-scheme:light;
+  }
+  *{box-sizing:border-box;}
+  html, body{ overflow-anchor:none; }
+  body{
+    margin:0; background:var(--bg); color:var(--text);
+    font-family:"Public Sans",-apple-system,"Segoe UI",sans-serif;
+    padding-bottom:calc(40px + env(safe-area-inset-bottom,0px));
+    -webkit-font-smoothing:antialiased;
+  }
+  .mono{font-family:"JetBrains Mono",ui-monospace,monospace;font-variant-numeric:tabular-nums;}
+  .display{font-family:"Manrope",sans-serif;}
+  a{color:var(--accent);}
+  button{font-family:inherit;}
+  html{overflow-x:hidden;}
+  body{overflow-x:hidden;}
+  .wrap{max-width:1360px;margin:0 auto;padding:0 20px;min-width:0;}
+
+  /* ---------- header ---------- */
+  header{
+    background:var(--surface-2); border-bottom:1px solid var(--border);
+    padding:16px 0;
+  }
+  .header-row{display:flex;flex-wrap:wrap;align-items:center;gap:12px 16px;justify-content:space-between;}
+  .brand{display:flex;align-items:center;gap:12px;}
+  .crest{position:relative;width:54px;height:38px;flex:none;align-self:center;border-radius:5px;overflow:hidden;
+    box-shadow:0 4px 14px rgba(0,0,0,.45),0 0 0 1px rgba(255,255,255,.10) inset;}
+  .crest img{width:100%;height:100%;display:block;object-fit:cover;}
+  .crest::after{content:"";position:absolute;inset:0;pointer-events:none;
+    background:linear-gradient(115deg,transparent 30%,rgba(255,255,255,.22) 45%,transparent 60%);
+    background-size:260% 100%;background-position:130% 0;}
+  @media (prefers-reduced-motion: no-preference){ .crest::after{animation:flagSheen 7s ease-in-out infinite;} }
+  @keyframes flagSheen{0%,55%{background-position:130% 0;}100%{background-position:-60% 0;}}
+  .brand-text h1{display:none;}
+  .brand-name{font-family:"JetBrains Mono","Manrope",monospace;font-weight:600;font-size:15px;line-height:1.15;letter-spacing:-.01em;white-space:nowrap;text-transform:uppercase;color:var(--accent);}
+  .brand-sub{font-size:12px;color:var(--text-dim);}
+  .controls{display:flex;flex-wrap:wrap;align-items:center;gap:10px;}
+  .ctrl{
+    display:flex;align-items:center;gap:8px;background:var(--surface);
+    border:1px solid var(--border);border-radius:9px;padding:7px 12px;
+  }
+  .ctrl label{font-size:11px;color:var(--text-dim);}
+  .ctrl input[type=date]{
+    background:transparent;border:0;color:var(--text);font-family:"JetBrains Mono",monospace;
+    font-size:13px;
+  }
+  .btn{
+    background:var(--surface);border:1px solid var(--border);color:var(--text);
+    border-radius:9px;padding:8px 13px;font-size:13px;font-weight:600;cursor:pointer;
+  }
+  .btn:hover{border-color:var(--text-faint);}
+  .toggle{display:flex;align-items:center;gap:6px;background:var(--surface);border:1px solid var(--border);border-radius:999px;padding:5px 6px;}
+  .toggle button{background:transparent;border:0;color:var(--text-dim);font-size:12px;font-weight:700;padding:4px 9px;border-radius:999px;cursor:pointer;}
+  .toggle button[aria-pressed="true"]{background:var(--accent);color:#04141F;}
+  .icon-btn{
+    width:34px;height:34px;border-radius:9px;border:1px solid var(--border);background:var(--surface);
+    color:var(--text-dim);display:flex;align-items:center;justify-content:center;cursor:pointer;
+  }
+  .icon-btn svg{width:17px;height:17px;}
+  #timeBanner{display:none;background:var(--warn-bg);border-bottom:1px solid var(--warn-border);color:var(--warn);font-size:12.5px;text-align:center;padding:7px 12px;}
+  #timeBanner.show{display:block;}
+
+  main{padding-top:22px;}
+
+  /* ---------- stat cards ---------- */
+  .stat-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-bottom:16px;}
+  .stat-grid > *{min-width:0;}
+  .stat-card{
+    border-radius:14px;padding:18px 20px;border:1px solid var(--border);
+    background:var(--surface);display:flex;flex-direction:column;gap:8px;
+  }
+  .stat-card.good{background:var(--good-bg);border-color:var(--good-border);}
+  .stat-card.blue{background:var(--blue-bg);border-color:var(--blue-border);}
+  .stat-card.eu{background:var(--eu-bg);border-color:var(--eu-border);}
+  .stat-card.bad{background:var(--bad-bg);border-color:var(--bad-border);}
+  .stat-top{display:flex;align-items:center;gap:10px;}
+  .stat-icon{width:32px;height:32px;flex:none;border-radius:9px;display:flex;align-items:center;justify-content:center;background:rgba(255,255,255,.08);}
+  .stat-icon svg{width:17px;height:17px;}
+  .stat-card.good .stat-icon{color:var(--good);}
+  .stat-card.blue .stat-icon{color:var(--blue);}
+  .stat-card.eu .stat-icon{color:var(--eu);}
+  .stat-card.bad .stat-icon{color:var(--bad);}
+  .stat-label{font-size:15px;font-weight:600;color:var(--text);line-height:1.3;}
+  .stat-value{font-size:27px;font-weight:700;font-family:"JetBrains Mono",monospace;}
+  .stat-card.good .stat-value{color:var(--good);}
+  .stat-card.blue .stat-value{color:var(--blue);}
+  .stat-card.eu .stat-value{color:var(--eu);}
+  .stat-card.bad .stat-value{color:var(--bad);}
+  .stat-foot{font-size:11.5px;color:var(--text-dim);}
+  .stat-foot.good{color:var(--good);}
+  .stat-foot.warn{color:var(--warn);}
+  .stat-card.clickable{position:relative;cursor:pointer;transition:transform .15s ease,border-color .15s;}
+  .stat-card.clickable:hover{border-color:var(--text-faint);}
+  .stat-card.clickable:active{transform:scale(.98);}
+  .stat-card.clickable:focus-visible{outline:2px solid var(--accent);outline-offset:2px;}
+  .stat-card.clickable::after{content:"›";position:absolute;top:14px;right:16px;font-size:18px;line-height:1;color:var(--text-dim);opacity:.7;}
+
+  .panel.clickable{position:relative;cursor:pointer;transition:transform .15s ease,border-color .15s;}
+  .panel.clickable:hover{border-color:var(--text-faint);}
+  .panel.clickable:active{transform:scale(.99);}
+  .panel.clickable:focus-visible{outline:2px solid var(--accent);outline-offset:2px;}
+  .panel.clickable::after{content:"›";position:absolute;top:14px;right:16px;font-size:18px;line-height:1;color:var(--text-dim);opacity:.7;}
+  .cat-list-summary.big{font-family:"JetBrains Mono",monospace;font-size:20px;font-weight:700;color:var(--eu);}
+  .col-stack{display:flex;flex-direction:column;gap:14px;min-width:0;}
+  .stat-card.eu .split-bar{margin-top:4px;}
+  .stat-card.eu .split-nums{margin-top:4px;}
+  .stat-card.eu{container-type:inline-size;}
+  .stat-card.eu .lbl-long{display:none;}
+  .stat-card.eu .lbl-short{display:inline;}
+  .stat-card.eu .eu-nums{grid-template-columns:1fr 1fr;}
+  .stat-card.eu .eu-nums .lost{grid-column:1/-1;background:var(--bad-bg);border:1px solid var(--bad-border);}
+  .eu-nums .lost .n{color:var(--bad);}
+  @container (min-width: 430px){
+    .stat-card.eu .lbl-long{display:inline;}
+    .stat-card.eu .lbl-short{display:none;}
+    .stat-card.eu .eu-nums{grid-template-columns:1fr 1fr 1fr;}
+    .stat-card.eu .eu-nums .lost{grid-column:auto;}
+  }
+  .cat-list-amount.lost{color:var(--bad);}
+  .eu-chart{margin:0 0 14px;padding-bottom:14px;border-bottom:1px solid var(--border);}
+  .eu-chart-head{display:flex;justify-content:space-between;align-items:baseline;gap:10px;margin-bottom:10px;font-size:12px;color:var(--text-dim);}
+  .eu-chart-head b{font-size:18px;color:var(--eu);}
+  .eu-chart-bar{display:flex;height:34px;border-radius:9px;overflow:hidden;background:rgba(199,125,255,.18);
+    border:1px solid var(--eu-border);box-shadow:0 0 18px rgba(199,125,255,.18) inset;}
+  .eu-seg{height:100%;display:flex;align-items:center;justify-content:center;overflow:hidden;white-space:nowrap;
+    font-family:"JetBrains Mono",monospace;font-size:11.5px;font-weight:700;min-width:0;
+    transition:width 1.1s cubic-bezier(.19,1,.22,1);}
+  .eu-seg.open{background:linear-gradient(180deg,#B86BF5,#8B47D6);color:#1A0630;}
+  .eu-seg.received{background:linear-gradient(180deg,#3DFFC0,#10C98A);color:#04140F;}
+  .eu-seg.lost{background:linear-gradient(180deg,#FF5A82,#D9234F);color:#2B0A0A;}
+  .eu-seg span{padding:0 6px;}
+  .eu-chart-legend{display:flex;flex-direction:column;gap:6px;margin-top:12px;}
+  .eu-chart-legend > div{display:flex;align-items:center;gap:8px;font-size:12.5px;color:var(--text-dim);}
+  .eu-chart-legend b{margin-left:auto;font-size:13px;color:var(--text);}
+  .eu-chart-legend .sw{width:11px;height:11px;border-radius:3px;flex:none;}
+  .sw.agreed{background:linear-gradient(180deg,#B86BF5,#8B47D6);}
+  .sw.received{background:#1CFFB0;}
+  .sw.lost{background:#FF3B6B;}
+  :root[data-theme="light"] .eu-chart-bar{background:rgba(124,58,237,.10);}
+  .cat-list-group.lost{color:var(--bad);}
+  .tick-up-good,.tick-down-good{color:var(--good)!important;}
+  .tick-up-bad,.tick-down-bad{color:var(--bad)!important;}
+  .tick{display:inline-block;font-family:"JetBrains Mono",monospace;font-size:10.5px;font-weight:700;margin-left:6px;white-space:nowrap;}
+  .tick.tick-side{margin-left:0;}
+  .tick.flat{color:var(--text-faint);}
+  .tick.neutral{color:var(--text-dim);}
+  .cat-list-group{margin:14px 0 4px;font-size:11px;text-transform:uppercase;letter-spacing:.04em;color:var(--text);font-weight:700;}
+  .cat-list-group:first-child{margin-top:0;}
+
+  /* ---------- big reported card (donut) ---------- */
+  .stat-card.bad.big{
+    grid-column:1/-1;align-items:center;text-align:center;padding:22px 20px 26px;gap:6px;
+  }
+  .stat-card.bad.big .stat-top{justify-content:center;}
+  .donut-wrap{position:relative;width:min(200px,58vw);height:min(200px,58vw);margin:10px auto 4px;}
+  .donut-wrap svg{width:100%;height:100%;display:block;}
+  .donut-track{fill:none;stroke:rgba(255,255,255,.08);stroke-width:13;}
+  :root[data-theme="light"] .donut-track{stroke:rgba(0,0,0,.07);}
+  .donut-seg{fill:none;stroke-width:13;stroke-linecap:round;transition:stroke-dashoffset 1.1s cubic-bezier(.19,1,.22,1);}
+  .donut-seg.pending{stroke:var(--bad);}
+  .donut-seg.recovered{stroke:var(--good);}
+  .donut-center{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;}
+  .donut-center-label{font-size:11px;color:var(--text-dim);text-transform:uppercase;letter-spacing:.04em;margin-bottom:5px;}
+  .donut-center-value{font-size:19px;font-weight:700;color:var(--text);font-variant-numeric:tabular-nums;line-height:1.2;}
+  .reported-breakdown{width:100%;max-width:320px;margin:8px auto 0;}
+  .rb-row{padding:12px 0;}
+  .rb-row.pending{border-bottom:1px solid var(--border);}
+  .rb-value{font-size:26px;font-weight:700;font-variant-numeric:tabular-nums;line-height:1.15;}
+  .rb-row.pending .rb-value{color:var(--bad);}
+  .rb-row.recovered .rb-value{color:var(--good);}
+  .rb-label{font-size:12.5px;color:var(--text-dim);margin-top:3px;}
+
+  /* ---------- panels ---------- */
+  .grid-3{display:grid;grid-template-columns:1fr 1.2fr;gap:14px;margin-bottom:14px;}
+  .grid-2{display:grid;grid-template-columns:1fr 1.3fr;gap:14px;margin-bottom:14px;}
+  .grid-3 > *, .grid-2 > *{min-width:0;}
+  .panel{background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:18px 20px;min-width:0;}
+  .panel h3{margin:0 0 14px;font-size:13px;font-weight:700;color:var(--text);}
+  .panel h3 small{display:block;font-weight:500;color:var(--text-dim);font-size:11px;margin-top:2px;}
+
+  .split-bar{height:26px;border-radius:7px;overflow:hidden;display:flex;background:var(--surface-2);border:1px solid var(--border);}
+  .split-bar .seg{display:flex;align-items:center;justify-content:center;font-family:"JetBrains Mono",monospace;font-size:11.5px;font-weight:600;color:#04140F;min-width:0;white-space:nowrap;overflow:hidden;position:relative;transition:width 1.05s cubic-bezier(.19,1,.22,1);}
+  .split-bar .seg.recovered{background:var(--good);}
+  .split-bar .seg.pending{background:var(--bad);color:#2B0A0A;}
+  .split-bar .seg.received{background:var(--eu);}
+  .split-bar .seg.agreed-rest{background:var(--surface-2);color:var(--text-dim);}
+  .split-bar .seg.recovered::after,.split-bar .seg.received::after{
+    content:"";position:absolute;inset:0;pointer-events:none;
+    background:linear-gradient(100deg,transparent 30%,rgba(255,255,255,.45) 50%,transparent 70%);
+    background-size:250% 100%;background-position:150% 0;
+    animation:barShine 1.2s cubic-bezier(.19,1,.22,1) .5s 1;
+  }
+  @keyframes barShine{ from{background-position:150% 0;} to{background-position:-50% 0;} }
+  .split-legend{display:flex;justify-content:space-between;gap:10px;margin-top:10px;font-size:11.5px;color:var(--text-dim);}
+  .split-legend b{font-family:"JetBrains Mono",monospace;}
+  .split-nums{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:14px;}
+  .split-nums > div{text-align:center;padding:10px;border-radius:9px;background:var(--surface-2);}
+  .split-nums .n{font-family:"JetBrains Mono",monospace;font-size:20px;font-weight:700;font-variant-numeric:tabular-nums;}
+  .split-nums .l{font-size:11px;color:var(--text-dim);margin-top:2px;}
+
+  /* ---------- entrance reveal ---------- */
+  @media (prefers-reduced-motion: no-preference){
+    .panel,.stat-card{
+      opacity:0;transform:translateY(16px);
+      transition:opacity .7s cubic-bezier(.16,1,.3,1),transform .7s cubic-bezier(.16,1,.3,1);
+    }
+    .panel.in-view,.stat-card.in-view{opacity:1;transform:none;}
+  }
+
+  .bars{display:flex;align-items:flex-end;gap:22px;height:126px;padding-top:8px;}
+  .bar-col{display:flex;flex-direction:column;justify-content:flex-end;align-items:center;gap:6px;flex:1;height:100%;}
+  .bar-col .bar{width:100%;max-width:52px;min-height:4px;border-radius:6px 6px 0 0;transition:height 1.05s cubic-bezier(.19,1,.22,1),background-color .3s;}
+  .bar-col .bar.pulse{animation:barGlow .8s ease-out;}
+  @keyframes barGlow{
+    0%{filter:brightness(1) drop-shadow(0 0 0 transparent);}
+    42%{filter:brightness(1.3) drop-shadow(0 0 9px currentColor);}
+    100%{filter:brightness(1) drop-shadow(0 0 0 transparent);}
+  }
+  .bar-col .bv{font-size:11.5px;font-family:"JetBrains Mono",monospace;color:var(--text-dim);font-variant-numeric:tabular-nums;}
+  .bar-col .bl{font-size:10.5px;color:var(--text-dim);}
+
+  .macro-list dl{margin:0;display:flex;justify-content:space-between;align-items:baseline;padding:10px 0;border-bottom:1px solid var(--border);gap:10px;}
+  .macro-list dl:last-child{border-bottom:0;}
+  .macro-list dt{font-size:12.5px;color:var(--text-dim);}
+  .macro-list dd{margin:0;font-family:"JetBrains Mono",monospace;font-size:14px;font-weight:600;text-align:right;}
+  .macro-list dd small{display:block;font-weight:400;color:var(--text-faint);font-size:10.5px;}
+
+  /* ---------- table ---------- */
+  .table-wrap{overflow-x:auto;}
+  table{width:100%;border-collapse:collapse;font-size:13px;}
+  th,td{padding:10px 14px;text-align:left;border-bottom:1px solid var(--border);white-space:nowrap;}
+  th{font-size:10.5px;text-transform:uppercase;letter-spacing:.04em;color:var(--text-dim);font-weight:600;}
+  td.subject{white-space:normal;min-width:220px;}
+  tr:last-child td{border-bottom:0;}
+  td.amount{font-family:"JetBrains Mono",monospace;}
+  .pill{display:inline-block;padding:3px 9px;border-radius:999px;font-size:10.5px;font-weight:700;text-transform:uppercase;letter-spacing:.02em;}
+  .pill.status-verified{background:var(--good-bg);color:var(--good);}
+  .pill.status-needs_review{background:var(--warn-bg);color:var(--warn);}
+  .pill.status-rejected{background:var(--bad-bg);color:var(--bad);}
+  .pill.status-reported{background:var(--warn-bg);color:var(--warn);}
+  .pill.status-under_investigation{background:var(--warn-bg);color:var(--warn);}
+  .pill.status-partially_recovered{background:var(--blue-bg);color:var(--blue);}
+  .pill.status-recovered{background:var(--good-bg);color:var(--good);}
+  .pill.status-dismissed{background:var(--surface-2);color:var(--text-dim);}
+  .cat-dot{display:inline-flex;align-items:center;gap:6px;font-size:12.5px;}
+  .cat-dot i{width:8px;height:8px;border-radius:999px;flex:none;}
+  .cat-dot.visszaszerzes i{background:var(--good);}
+  .cat-dot.megtakaritas i{background:var(--blue);}
+  .cat-dot.eu_forras i{background:var(--eu);}
+  .cat-dot.reported i{background:var(--bad);}
+  .src-link{font-size:12px;font-weight:600;white-space:nowrap;}
+  .table-wrap tbody tr:not(.empty-row){cursor:pointer;transition:background-color .15s;}
+  .table-wrap tbody tr:not(.empty-row):hover{background:var(--surface-2);}
+  .table-wrap tbody tr:not(.empty-row):focus-visible{outline:2px solid var(--accent);outline-offset:-2px;}
+
+  /* ---------- item detail ---------- */
+  .detail-dl{display:flex;flex-direction:column;margin:0 0 4px;}
+  .detail-dl > div{display:flex;justify-content:space-between;align-items:baseline;gap:12px;padding:9px 0;border-bottom:1px solid var(--border);}
+  .detail-dl > div:last-child{border-bottom:0;}
+  .detail-dl dt{margin:0;font-size:12px;color:var(--text-dim);}
+  .detail-dl dd{margin:0;font-family:"JetBrains Mono",monospace;font-size:13px;font-weight:600;color:var(--text);text-align:right;}
+
+  .about-dl dd{font-family:"Public Sans",sans-serif;font-weight:600;overflow-wrap:anywhere;min-width:0;}
+  .about-dl dt{flex:none;}
+
+  /* ---------- category detail list ---------- */
+  .cat-list-summary{margin:0 0 12px;padding-bottom:10px;border-bottom:1px solid var(--border);font-size:12.5px;color:var(--text-dim);}
+  .cat-list-row{display:flex;justify-content:space-between;align-items:flex-start;gap:14px;padding:11px 6px;border-bottom:1px solid var(--border);cursor:pointer;border-radius:8px;transition:background-color .15s;}
+  .cat-list-row:hover{background:var(--surface-2);}
+  .cat-list-row:last-child{border-bottom:0;}
+  .cat-list-main{min-width:0;}
+  .cat-list-subject{font-size:13px;color:var(--text);font-weight:600;line-height:1.4;margin-bottom:4px;}
+  .cat-list-meta{font-size:11.5px;color:var(--text-dim);display:flex;align-items:center;gap:6px;flex-wrap:wrap;}
+  .cat-list-side{flex:none;text-align:right;display:flex;flex-direction:column;align-items:flex-end;gap:4px;}
+  .cat-list-amount{font-size:13px;font-weight:700;color:var(--text);white-space:nowrap;}
+
+  .empty{color:var(--text-dim);font-size:13px;padding:20px;text-align:center;}
+
+  /* ---------- ad + footer ---------- */
+  .ad-slot{margin:20px 0 0;min-height:90px;display:flex;align-items:center;justify-content:center;}
+  .visitor-count{font-family:"JetBrains Mono",monospace;font-size:11.5px;color:var(--text-faint);text-align:center;margin-top:14px;font-variant-numeric:tabular-nums;}
+  .support-intro{margin:0 0 14px;}
+  .support-btns{display:flex;flex-direction:column;gap:10px;}
+  .support-btn{display:flex;flex-direction:column;gap:2px;padding:13px 16px;border-radius:14px;background:var(--surface-2);border:1px solid var(--border);color:var(--text);text-decoration:none;}
+  .support-btn:hover{border-color:var(--accent);}
+  .support-btn b{font-family:"Manrope",sans-serif;font-size:14.5px;color:var(--accent);}
+  .support-btn span{font-size:12px;color:var(--text-dim);}
+  .ad-slot .ad-badge{display:flex;align-items:center;gap:6px;font-weight:700;font-size:14px;color:#1a73e8;}
+  .ad-slot .ad-copy{flex:1;min-width:180px;font-size:13px;}
+  .ad-slot .ad-copy b{display:block;font-size:14px;}
+  .ad-slot .ad-cta{background:#1a73e8;color:#fff;border:0;border-radius:6px;padding:9px 16px;font-size:13px;font-weight:700;cursor:pointer;white-space:nowrap;}
+  .ad-fine{font-size:10.5px;color:var(--text-faint);text-align:right;margin-top:4px;}
+
+  footer{margin-top:30px;padding:18px 0;border-top:1px solid var(--border);color:var(--text-dim);font-size:12px;}
+  .foot-row{display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px;}
+  .foot-left{display:flex;flex-direction:column;gap:4px;min-width:0;}
+  .foot-updated{font-family:"JetBrains Mono",monospace;font-size:11.5px;font-weight:600;color:var(--text);font-variant-numeric:tabular-nums;}
+  .foot-links{display:flex;flex-wrap:wrap;gap:8px 16px;}
+  @media (max-width:380px){ .foot-links{gap:8px 12px;} }
+  .foot-links a{color:var(--text-dim);text-decoration:none;cursor:pointer;background:none;border:0;font:inherit;padding:0;}
+  .foot-links a:hover{color:var(--text);}
+
+  /* ---------- modal ---------- */
+  .modal-overlay{
+    display:none;position:fixed;inset:0;background:rgba(4,7,14,.72);
+    align-items:center;justify-content:center;z-index:100;padding:20px;
+  }
+  .modal-overlay.show{display:flex;}
+  .modal-overlay{overscroll-behavior:contain;touch-action:none;}
+  .modal-body{overscroll-behavior:contain;touch-action:pan-y;}
+  .modal{
+    background:var(--surface);border:1px solid var(--border);border-radius:16px;
+    width:100%;max-width:560px;max-height:82vh;display:flex;flex-direction:column;overflow:hidden;
+  }
+  .modal-header{
+    display:flex;align-items:center;justify-content:space-between;gap:10px;
+    padding:16px 18px;border-bottom:1px solid var(--border);flex:none;
+  }
+  .modal-header h4{margin:0;font-size:15px;font-weight:700;color:var(--text);}
+  .modal-close{
+    background:var(--surface-2);border:1px solid var(--border);color:var(--text-dim);
+    width:32px;height:32px;border-radius:9px;cursor:pointer;font-size:16px;flex:none;
+    display:flex;align-items:center;justify-content:center;
+  }
+  .modal-close:hover{color:var(--text);}
+  .modal{position:relative;}
+  .scroll-hint{position:absolute;left:0;right:0;bottom:0;height:46px;pointer-events:none;
+    display:flex;align-items:flex-end;justify-content:center;padding-bottom:6px;
+    background:linear-gradient(to bottom,transparent,var(--surface) 85%);
+    opacity:0;transition:opacity .25s ease;border-radius:0 0 16px 16px;}
+  .scroll-hint.show{opacity:1;}
+  .scroll-hint svg{width:18px;height:18px;color:var(--text-dim);}
+  @media (prefers-reduced-motion: no-preference){ .scroll-hint.show svg{animation:hintBob 1.6s ease-in-out infinite;} }
+  @keyframes hintBob{0%,100%{transform:translateY(0);opacity:.6;}50%{transform:translateY(3px);opacity:1;}}
+  .modal-body{padding:16px 18px 22px;overflow-y:auto;font-size:13.5px;line-height:1.65;color:var(--text-dim);}
+  .modal-body p{margin:0 0 12px;}
+  .modal-body h5{margin:16px 0 6px;font-size:12px;text-transform:uppercase;letter-spacing:.04em;color:var(--text);}
+  .modal-body a{color:var(--accent);}
+  .source-list{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:6px;}
+  .source-list li a{
+    display:block;padding:9px 12px;border-radius:9px;background:var(--surface-2);
+    color:var(--text);text-decoration:none;font-size:13px;border:1px solid var(--border);
+  }
+  .source-list li a:hover{border-color:var(--text-faint);}
+  .source-list--official li a{border-color:var(--accent);color:var(--accent);font-weight:600;}
+  .source-list--official li a:hover{background:var(--surface-2);}
+  .contact-box{
+    display:flex;flex-direction:column;gap:6px;background:var(--surface-2);border:1px solid var(--border);
+    border-radius:10px;padding:14px 16px;margin-bottom:12px;min-width:0;
+  }
+  .contact-box .contact-label{
+    display:flex;align-items:center;gap:8px;font-size:11px;text-transform:uppercase;
+    letter-spacing:.04em;color:var(--text-dim);
+  }
+  .contact-box a{
+    display:block;width:100%;font-family:"Public Sans",sans-serif;font-weight:600;
+    font-size:13px;min-width:0;overflow-wrap:anywhere;word-break:break-word;white-space:normal;
+  }
+  @media (max-width:360px){ .contact-box a{font-size:12px;} }
+
+  /* ---------- responsive ---------- */
+  @media (max-width:980px){
+    .stat-grid{grid-template-columns:repeat(2,1fr);}
+    .stat-card.eu{grid-column:1/-1;}
+    .grid-3{grid-template-columns:1fr;}
+    .grid-2{grid-template-columns:1fr;}
+  }
+  @media (max-width:560px){
+    .stat-grid{grid-template-columns:1fr;}
+    .wrap{padding:0 14px;}
+    .header-row{flex-direction:column;align-items:stretch;}
+    .controls{justify-content:space-between;}
+    th,td{padding:9px 10px;font-size:12px;}
+  }
+
+  /* ---------- card-style table on narrow screens ---------- */
+  @media (max-width:640px){
+    .table-wrap table, .table-wrap thead, .table-wrap tbody,
+    .table-wrap th, .table-wrap td, .table-wrap tr{display:block;width:100%;}
+    .table-wrap thead{position:absolute;left:-9999px;top:-9999px;}
+    .table-wrap tbody{display:flex;flex-direction:column;gap:10px;}
+    .table-wrap tr{
+      border:1px solid var(--border);border-radius:12px;background:var(--surface-2);
+      padding:12px 14px;
+    }
+    .table-wrap tr.empty-row{border:0;background:transparent;padding:0;}
+    .table-wrap td{
+      border:0;padding:4px 0;white-space:normal;display:flex;justify-content:space-between;
+      align-items:center;gap:10px;
+    }
+    .table-wrap td.subject{display:block;min-width:0;padding-top:2px;padding-bottom:6px;
+      border-bottom:1px solid var(--border);margin-bottom:4px;}
+    .table-wrap td::before{
+      content:attr(data-label);font-size:10px;text-transform:uppercase;letter-spacing:.04em;
+      color:var(--text-dim);flex:none;
+    }
+    .table-wrap td.subject::before{display:block;margin-bottom:2px;}
+    .table-wrap td.empty::before{content:"";}
+  }
+</style>
+</head>
+<body>
+
+<div id="timeBanner"></div>
+
+<header>
+  <div class="wrap header-row">
+    <div class="brand">
+      <div class="crest" aria-hidden="true"><img alt="" src="data:image/jpeg;base64,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"></div>
+      <div class="brand-text">
+        <div class="brand-name" data-i18n="brand">Vagyonvisszaszerzési Monitor</div>
+        <div class="brand-sub" data-i18n="tagline">Forintról forintra…</div>
+      </div>
+    </div>
+    <div class="controls">
+      <div class="ctrl">
+        <label for="timeMachine" data-i18n="timeMachineLabel">Időgép</label>
+        <input type="date" id="timeMachine">
+      </div>
+      <button class="btn" id="resetToday" data-i18n="today">Ma</button>
+      <div class="toggle" role="group" aria-label="Nyelv">
+        <button id="langHu" aria-pressed="true">HU</button>
+        <button id="langEn" aria-pressed="false">EN</button>
+      </div>
+      <button class="icon-btn" id="themeToggle" aria-label="Téma váltása" title="Világos / sötét téma">
+        <svg id="themeIcon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <section class="stat-grid" id="statGrid" aria-label="Kulcsmutatók">
+    <div class="stat-card good clickable" data-cat="recovered" tabindex="0" role="button">
+      <div class="stat-top">
+        <div class="stat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="8" cy="10" r="5"/><circle cx="16" cy="14" r="5"/></svg></div>
+        <div class="stat-label" data-i18n="statRecoveredLabel">Visszaszerzés (igazolt)</div>
+      </div>
+      <div class="stat-value mono" id="statRecovered">–</div>
+      <div class="stat-foot" id="statRecoveredFoot">–</div>
+    </div>
+    <div class="stat-card blue clickable" data-cat="saved" tabindex="0" role="button">
+      <div class="stat-top">
+        <div class="stat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3l7 3v6c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6z"/></svg></div>
+        <div class="stat-label" data-i18n="statSavedLabel">Megtakarítás (bejelentett)</div>
+      </div>
+      <div class="stat-value mono" id="statSaved">–</div>
+      <div class="stat-foot" id="statSavedFoot">–</div>
+    </div>
+    <div class="stat-card eu clickable" data-cat="eu" tabindex="0" role="button">
+      <div class="stat-top">
+        <div class="stat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="2.4" fill="currentColor" stroke="none"/></svg></div>
+        <div class="stat-label"><span class="lbl-long" data-i18n="statEuLabel">EU-forrás — megállapodott / beérkezett / elveszett</span><span class="lbl-short" data-i18n="statEuLabelShort">EU-forrás — megáll. / beérk. / elveszett</span></div>
+      </div>
+      <div class="split-bar" id="euBar"></div>
+      <div class="split-nums eu-nums">
+        <div><div class="n mono" style="color:var(--eu)" id="euAgreedN">–</div><div class="l" data-i18n="agreedLabel">Megállapodott</div></div>
+        <div><div class="n mono" id="euReceivedN">–</div><div class="l" data-i18n="receivedLabel">Beérkezett</div></div>
+        <div class="lost"><div class="n mono" id="euLostN">–</div><div class="l" data-i18n="lostLabel">Elveszett források</div></div>
+      </div>
+    </div>
+    <div class="stat-card bad big clickable" data-cat="reported" tabindex="0" role="button">
+      <div class="stat-top">
+        <div class="stat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 4l6 3 6-3M6 4v9c0 3.5 2.6 6.3 6 7 3.4-.7 6-3.5 6-7V4"/></svg></div>
+        <div class="stat-label" data-i18n="statReportedLabel">Feljelentett ügyek összege</div>
+      </div>
+      <div class="donut-wrap">
+        <svg viewBox="0 0 120 120" aria-hidden="true">
+          <circle class="donut-track" cx="60" cy="60" r="50"/>
+          <circle class="donut-seg pending" id="donutPending" cx="60" cy="60" r="50"/>
+          <circle class="donut-seg recovered" id="donutRecovered" cx="60" cy="60" r="50"/>
+        </svg>
+        <div class="donut-center">
+          <div class="donut-center-label" data-i18n="totalLabel">Összesen</div>
+          <div class="donut-center-value mono" id="statReported">–</div>
+        </div>
+      </div>
+      <div class="reported-breakdown">
+        <div class="rb-row pending">
+          <div class="rb-value mono" id="reportedPendingN">–</div>
+          <div class="rb-label" id="reportedPendingLabel">–</div>
+        </div>
+        <div class="rb-row recovered">
+          <div class="rb-value mono" id="reportedRecoveredN">–</div>
+          <div class="rb-label" id="reportedRecoveredLabel">–</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="grid-2">
+    <div class="panel macro-list clickable" id="macroPanel" tabindex="0" role="button">
+      <h3 data-i18n="macroPanelTitle">Makrogazdasági mutatók</h3>
+      <dl><dt data-i18n="debt">Államadósság</dt><dd class="mono" id="macroDebt">–</dd></dl>
+      <dl><dt data-i18n="inflationYear">Éves infláció</dt><dd class="mono" id="macroInflYear">–</dd></dl>
+      <dl><dt data-i18n="inflationExpected">Várható éves infláció (MNB)</dt><dd class="mono" id="macroInflExp">–</dd></dl>
+    </div>
+    <div class="col-stack">
+    <div class="panel">
+      <h3 data-i18n="itemsPanelTitle">Legutóbbi ügyek</h3>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th data-i18n="colDate">Dátum</th>
+              <th data-i18n="colCategory">Kategória</th>
+              <th data-i18n="colSubject">Téma</th>
+              <th data-i18n="colAmount">Összeg</th>
+              <th data-i18n="colStatus">Állapot</th>
+              <th data-i18n="colSource">Forrás</th>
+            </tr>
+          </thead>
+          <tbody id="itemsBody">
+            <tr><td colspan="6" class="empty" data-i18n="loading">Betöltés…</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="panel">
+      <h3 data-i18n="categoryPanelTitle">Főbb tételek összehasonlítása<small data-i18n="mrdFt">milliárd Ft</small></h3>
+      <div class="bars" id="categoryBars">
+        <div class="bar-col"><div class="bv">–</div><div class="bar" style="height:2px;background:var(--good)"></div><div class="bl" data-i18n="catRecovered">Visszaszerzés</div></div>
+        <div class="bar-col"><div class="bv">–</div><div class="bar" style="height:2px;background:var(--blue)"></div><div class="bl" data-i18n="catSaved">Megtakarítás</div></div>
+        <div class="bar-col"><div class="bv">–</div><div class="bar" style="height:2px;background:var(--eu)"></div><div class="bl" data-i18n="catEu">EU-forrás</div></div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <div class="ad-slot" id="adSlot" aria-label="Hirdetés" hidden></div>
+
+  <footer>
+    <div class="foot-row">
+      <div class="foot-left">
+        <div id="lastUpdated" class="foot-updated">–</div>
+        <span data-i18n="footNote">Automatikusan frissül minden ütemezett futás (05:55, 11:55 és 16:55, Európa/Budapest) után; nyitva tartott oldal esetén emellett 5 percenként is frissülnek az adatok.</span>
+      </div>
+      <div class="foot-links">
+        <a href="#" id="linkSources" data-i18n="footSources">Adatforrások</a>
+        <a href="#" id="linkPrivacy" data-i18n="footPrivacy">Adatvédelem</a>
+        <a href="#" id="linkContact" data-i18n="footContact">Kapcsolat</a>
+        <a href="#" id="linkAbout" data-i18n="footAbout">Rólam</a>
+        <a href="#" id="linkSupport" data-i18n="footSupport" hidden>Támogatás</a>
+      </div>
+    </div>
+    <div class="visitor-count" id="visitorCount" hidden></div>
+  </footer>
+</main>
+
+<div class="modal-overlay" id="modalOverlay" role="dialog" aria-modal="true">
+  <div class="modal">
+    <div class="modal-header">
+      <h4 id="modalTitle"></h4>
+      <button class="modal-close" id="modalClose" aria-label="Bezárás">✕</button>
+    </div>
+    <div class="modal-body" id="modalBody"></div>
+    <div class="scroll-hint" id="scrollHint" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg></div>
+  </div>
+</div>
+
+<script>
+(function(){
+  /* Az oldal mindig a tetejéről induljon újratöltéskor is — a böngésző
+     alapértelmezett görgetés-visszaállítását kikapcsoljuk, és több
+     időpontban (azonnal, load-kor, bfcache-visszatéréskor, és néhány
+     késleltetett próbálkozással a betöltés utáni elrendezés-változások,
+     pl. késve betöltő webfontok miatti eltolódás ellen) is a lap
+     tetejére ugrunk. */
+  try{ if("scrollRestoration" in history) history.scrollRestoration = "manual"; }catch(e){}
+  function forceScrollTop(){
+    window.scrollTo(0, 0);
+    if(document.documentElement) document.documentElement.scrollTop = 0;
+    if(document.body) document.body.scrollTop = 0;
+  }
+  forceScrollTop();
+  document.addEventListener("DOMContentLoaded", forceScrollTop);
+  window.addEventListener("load", forceScrollTop);
+  // pageshow: lefut normál betöltéskor ÉS amikor a böngésző a bfcache-ből
+  // (vissza/előre navigáció, néhány mobil böngésző "frissítés" művelete)
+  // állítja vissza az oldalt — ilyenkor a load esemény nem sül el újra.
+  window.addEventListener("pageshow", forceScrollTop);
+  [0, 50, 150, 400, 800].forEach(ms => setTimeout(forceScrollTop, ms));
+
+  const I18N = {
+    hu:{
+      brand:"Vagyonvisszaszerzési Monitor", tagline:"Forintról forintra…",
+      timeMachineLabel:"Időgép", today:"Ma",
+      statRecoveredLabel:"Visszaszerzés (igazolt)", statSavedLabel:"Megtakarítás (bejelentett)",
+      statEuLabel:"EU-forrás — megállapodott / beérkezett / elveszett", statEuLabelShort:"EU-forrás — megáll. / beérk. / elveszett", lostLabel:"Elveszett források", lostShort:"Elveszett", agreedOrigLabel:"Eredetileg megállapodott", agreedTotalLabel:"Megállapodott teljes összeg", lostDateLabel:"Elvesztés bejelentve", footAbout:"Rólam", footSupport:"Támogatás", visitorsLabel:"Látogatók száma:", descLabel:"Leírás",
+      statReportedLabel:"Feljelentett ügyek összege",
+      reportedPanelTitle:"Feljelentett ügyek állapota", recoveredLabel:"Visszaszerezve", pendingLabel:"Vizsgálat alatt",
+      euPanelTitle:"EU-forrás állapota", agreedLabel:"Megállapodott", receivedLabel:"Beérkezett",
+      categoryPanelTitle:"Főbb tételek összehasonlítása", mrdFt:"milliárd Ft",
+      catRecovered:"Visszaszerzés", catSaved:"Megtakarítás", catEu:"EU-forrás",
+      macroPanelTitle:"Makrogazdasági mutatók", debt:"Államadósság", inflationYear:"Éves infláció", inflationExpected:"Várható éves infláció (MNB)",
+      itemsPanelTitle:"Legutóbbi ügyek", colDate:"Dátum", colCategory:"Kategória", colSubject:"Téma", colAmount:"Összeg", colStatus:"Állapot", colSource:"Forrás",
+      loading:"Betöltés…", noItems:"Nincs a kiválasztott dátumig rögzített tétel.",
+      footNote:"Automatikusan frissül minden ütemezett futás (05:55, 11:55 és 16:55, Európa/Budapest) után; nyitva tartott oldal esetén emellett 5 percenként is frissülnek az adatok.",
+      footSources:"Adatforrások", footPrivacy:"Adatvédelem", footContact:"Kapcsolat",
+      lastUpdatedLabel:"A legutóbbi frissítés:", lastUpdatedNever:"Adatok betöltése…",
+      timeBanner: d => `Időgép aktív — az oldal a(z) ${d} napi állapotot mutatja.`,
+      catVerified:"Ellenőrzött", catReview:"Felülvizsgálandó", catRejected:"Elutasított",
+      catVisszaszerzes:"Visszaszerzés", catMegtakaritas:"Megtakarítás", catEuForras:"EU-forrás",
+      tetel:"tétel", mrd:"Mrd Ft", noteLabel:"Megjegyzés", openSource:"Forrás megnyitása",
+      totalLabel:"Összesen", allegedLabel:"Állítólagos kár", confirmedLabel:"Megerősítve visszaszerezve",
+      catReportedCase:"Feljelentés",
+      rcStatusReported:"Feljelentve", rcStatusUnderInvestigation:"Vizsgálat alatt",
+      rcStatusPartiallyRecovered:"Részben visszaszerezve", rcStatusRecovered:"Visszaszerezve",
+      rcStatusDismissed:"Elutasítva",
+      euNoItems:"Még nem érkezett be forrás.",
+      macroShown:"A dashboardon látható mutatók", macroExtra:"További mutatók",
+      valueLabel:"Érték", periodLabel:"Időszak", sourceNameLabel:"Forrás", publishedLabel:"Közzétéve",
+      inflationMonthly:"Havi infláció (előző hónaphoz képest)", changeLabel:"Változás", prevLabel:"Előző érték", macroNoData:"Még nincs rögzített makroadat."
+    },
+    en:{
+      brand:"Asset Recovery Monitor", tagline:"Forint by forint…",
+      timeMachineLabel:"Time machine", today:"Today",
+      statRecoveredLabel:"Recovered assets (verified)", statSavedLabel:"Savings (reported)",
+      statEuLabel:"EU funds — agreed / received / lost", statEuLabelShort:"EU funds — agreed / rec. / lost", lostLabel:"Lost funds", lostShort:"Lost", agreedOrigLabel:"Originally agreed", agreedTotalLabel:"Total agreed amount", lostDateLabel:"Loss announced", footAbout:"About me", footSupport:"Support", visitorsLabel:"Visitors:", descLabel:"Description",
+      statReportedLabel:"Total value of reported cases",
+      reportedPanelTitle:"Reported case status", recoveredLabel:"Recovered", pendingLabel:"Under investigation",
+      euPanelTitle:"EU funds status", agreedLabel:"Agreed", receivedLabel:"Received",
+      categoryPanelTitle:"Key figures compared", mrdFt:"HUF billion",
+      catRecovered:"Recovered", catSaved:"Savings", catEu:"EU funds",
+      macroPanelTitle:"Macroeconomic indicators", debt:"National debt", inflationYear:"Annual inflation", inflationExpected:"Expected annual inflation (MNB)",
+      itemsPanelTitle:"Recent items", colDate:"Date", colCategory:"Category", colSubject:"Subject", colAmount:"Amount", colStatus:"Status", colSource:"Source",
+      loading:"Loading…", noItems:"No items recorded up to the selected date.",
+      footNote:"Refreshes automatically after every scheduled run (05:55, 11:55 & 16:55, Europe/Budapest); while the page stays open, it also refreshes every 5 minutes.",
+      footSources:"Data sources", footPrivacy:"Privacy", footContact:"Contact",
+      lastUpdatedLabel:"Last updated:", lastUpdatedNever:"Loading data…",
+      timeBanner: d => `Time machine active — showing state as of ${d}.`,
+      catVerified:"Verified", catReview:"Needs review", catRejected:"Rejected",
+      catVisszaszerzes:"Recovered", catMegtakaritas:"Savings", catEuForras:"EU funds",
+      tetel:"item", mrd:"HUF bn", noteLabel:"Note", openSource:"Open source",
+      totalLabel:"Total", allegedLabel:"Alleged amount", confirmedLabel:"Confirmed recovered",
+      catReportedCase:"Reported case",
+      rcStatusReported:"Reported", rcStatusUnderInvestigation:"Under investigation",
+      rcStatusPartiallyRecovered:"Partially recovered", rcStatusRecovered:"Recovered",
+      rcStatusDismissed:"Dismissed",
+      euNoItems:"No funds have been received yet.",
+      macroShown:"Indicators shown on the dashboard", macroExtra:"Additional indicators",
+      valueLabel:"Value", periodLabel:"Period", sourceNameLabel:"Source", publishedLabel:"Published",
+      inflationMonthly:"Monthly inflation (month-on-month)", changeLabel:"Change", prevLabel:"Previous value", macroNoData:"No macroeconomic data recorded yet."
+    }
+  };
+
+  let lang = "hu";
+  try{ lang = localStorage.getItem("elszamoltatas_lang") || "hu"; }catch(e){}
+
+  function applyI18n(){
+    const t = I18N[lang];
+    document.querySelectorAll("[data-i18n]").forEach(el=>{
+      const key = el.getAttribute("data-i18n");
+      if(t[key] !== undefined) el.innerHTML = t[key];
+    });
+    document.getElementById("langHu").setAttribute("aria-pressed", String(lang==="hu"));
+    document.getElementById("langEn").setAttribute("aria-pressed", String(lang==="en"));
+    document.documentElement.lang = lang;
+  }
+  document.getElementById("langHu").addEventListener("click", ()=>{ lang="hu"; try{localStorage.setItem("elszamoltatas_lang","hu");}catch(e){} applyI18n(); render(); });
+  document.getElementById("langEn").addEventListener("click", ()=>{ lang="en"; try{localStorage.setItem("elszamoltatas_lang","en");}catch(e){} applyI18n(); render(); });
+  applyI18n();
+
+  /* theme — dark by default; only an explicit saved choice switches to light */
+  const SUN_ICON = '<circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/>';
+  const MOON_ICON = '<path d="M20.2 14.7A8.5 8.5 0 1 1 9.3 3.8a7 7 0 0 0 10.9 10.9z" fill="currentColor" stroke="none"/>';
+  function currentTheme(){
+    return document.documentElement.getAttribute("data-theme") === "light" ? "light" : "dark";
+  }
+  function updateThemeIcon(){
+    document.getElementById("themeIcon").innerHTML = currentTheme() === "dark" ? SUN_ICON : MOON_ICON;
+  }
+  try{
+    const savedTheme = localStorage.getItem("elszamoltatas_theme");
+    if(savedTheme === "light") document.documentElement.setAttribute("data-theme", "light");
+  }catch(e){}
+  updateThemeIcon();
+  document.getElementById("themeToggle").addEventListener("click", ()=>{
+    const next = currentTheme() === "dark" ? "light" : "dark";
+    document.documentElement.setAttribute("data-theme", next);
+    try{ localStorage.setItem("elszamoltatas_theme", next); }catch(e){}
+    updateThemeIcon();
+  });
+
+  /* ---------- footer modals (sources / privacy / contact) ---------- */
+  const CONTACT_EMAIL = "vagyonvisszaszerzes@gmail.com";
+  /* hivatalos jogforrások — jogszabály/rendelet szintű elsődleges források, a sajtóhírek mellett/helyett */
+  const OFFICIAL_SOURCES = [
+    ["Magyar Közlöny (hivatalos lap)","https://magyarkozlony.hu"],
+    ["Nemzeti Jogszabálytár","https://njt.hu"],
+    ["Kormány.hu","https://kormany.hu"],
+    ["Kormány.hu — Feljelentett billiók","https://kormany.hu/atlathato/feljelentes"]
+  ];
+  const SOURCES = [
+    ["24.hu","https://24.hu"],["444.hu","https://444.hu"],["168 Óra","https://168.hu"],
+    ["Átlátszó","https://atlatszo.hu"],["Demokrata","https://demokrata.hu"],["Direkt36","https://direkt36.hu"],
+    ["Economx","https://economx.hu"],["Élet és Irodalom","https://es.hu"],["Forbes Magyarország","https://forbes.hu"],
+    ["G7","https://g7.hu"],["Hír TV Online","https://hirtv.hu"],["HVG","https://hvg.hu"],
+    ["Index","https://index.hu"],["InfoStart","https://infostart.hu"],["Jelen","https://jelen.media"],
+    ["Klubrádió","https://klubradio.hu"],["Magyar Hang","https://hang.hu"],["Magyar Hírlap","https://magyarhirlap.hu"],
+    ["Magyar Nemzet","https://magyarnemzet.hu"],["Makronóm","https://makronom.mandiner.hu"],["Mandiner","https://mandiner.hu"],
+    ["Media1","https://media1.hu"],["Mfor","https://mfor.hu"],["Mérce","https://merce.hu"],
+    ["Népszava","https://nepszava.hu"],["Origo","https://origo.hu"],["Pénzcentrum","https://penzcentrum.hu"],
+    ["Portfolio","https://portfolio.hu"],["Privátbankár","https://privatbankar.hu"],["Szabad Európa","https://szabadeuropa.hu"],
+    ["Telex","https://telex.hu"],["Trend FM","https://trendfm.hu"],["Új Egyenlőség","https://ujegyenloseg.hu"],
+    ["Válasz Online","https://valaszonline.hu"],["Világgazdaság","https://vg.hu"],["Partizán","https://partizan.hu"],
+    ["Okoshír","https://okoshir.hu"],["szmo.hu","https://szmo.hu"],
+    ["K-Monitor (sajtóadatbázis)","https://adatbazis.k-monitor.hu"],["MNVVH (NVVH-tájékoztató portál)","https://mnvvh.hu"]
+  ];
+
+  const PRIVACY_HTML = {
+    hu: `
+      <p><strong>Adatkezelő:</strong> az oldalt magánszemélyként üzemeltetem. Kapcsolat: <a href="mailto:${CONTACT_EMAIL}">${CONTACT_EMAIL}</a>.</p>
+      <p>Ez az oldal kizárólag <strong>nyilvánosan elérhető, magyar sajtóorgánumok által közölt, valamint a Magyar Közlönyben megjelent törvényekben és kormányrendeletekben szereplő</strong> információkat gyűjt össze és jelenít meg (kormányzati megtakarítás, vagyonvisszaszerzés, uniós források, feljelentett ügyek, makrogazdasági mutatók), minden esetben a forráscikkre vagy jogszabályra mutató linkkel. Az oldal <strong>nem gyűjt és nem kezel személyes adatot a látogatókról</strong>.</p>
+      <h5>Helyi tárolás (localStorage)</h5>
+      <p>Az oldal a böngésződ saját, helyi tárolóját (localStorage) kizárólag a nyelvi (HU/EN) és a megjelenítési (világos/sötét) beállításod megjegyzésére használja. Ez az adat kizárólag a te eszközödön marad, nem kerül továbbításra hozzám vagy harmadik félhez, és nem alkalmas személyazonosításra.</p>
+      <h5>Látogatószámláló</h5>
+      <p>Az oldal saját, sütit nem használó látogatószámlálót működtet. Az IP-címet nem tárolja: a látogatás napján a böngészőazonosítóból és az IP-címből egy naponta változó, vissza nem fejthető kódot képez, amely kizárólag a napi egyedi látogatók megszámlálására szolgál, és harmadik félhez nem kerül. Tárolásra csak a dátum, a megnyitott domain és ez a kód kerül.</p>
+      <h5>Technikai üzemeltetés</h5>
+      <p>A látogatók számára az adatokat megjelenítő weboldal (HTML-oldalak) tárhelyszolgáltatója a <strong>Magyar Hosting</strong> (üzemeltető: Websupport Magyarország Kft., 1119 Budapest, Fehérvári út 97–99., <a href="https://www.mhosting.hu" target="_blank" rel="noopener">www.mhosting.hu</a>), amely a tárhely-szolgáltatás keretében a saját adatkezelési tájékoztatója szerint jár el. Az adatok gyűjtése és feldolgozása az Anthropic (Claude) mesterségesintelligencia-szolgáltatásával történik.</p>
+      <h5>Az adatkezelés jogalapja</h5>
+      <p>Közérdekű, nyilvánosan elérhető sajtóinformációk másodközlése és összesítése, a GDPR (EU) 2016/679 rendelet 6. cikk (1) bekezdés f) pontja szerinti jogos érdek (közéleti átláthatóság elősegítése) alapján.</p>
+      <h5>Érintetti jogok</h5>
+      <p>Ha úgy véled, hogy az oldalon szereplő valamely adat pontatlan, elavult, vagy téged érint és helyesbítésre/törlésre szorul, jelezd a fenti email-címen — a jogos kéréseket a lehető leghamarabb kezelem.</p>
+      <h5>Vonatkozó jogszabályok</h5>
+      <p>Az Európai Parlament és a Tanács (EU) 2016/679 rendelete (GDPR), valamint a 2011. évi CXII. törvény az információs önrendelkezési jogról és az információszabadságról (Infotv.). Panasszal a Nemzeti Adatvédelmi és Információszabadság Hatósághoz (NAIH, naih.hu) fordulhatsz.</p>
+      <h5>Felelősség kizárása</h5>
+      <p>Az oldalon megjelenő valamennyi adat kizárólag a feltüntetett, nyilvánosan elérhető sajtóforrásokból származik. Az üzemeltető ezen adatok valóságtartalmát, pontosságát, teljességét és aktualitását nem ellenőrzi, azokért szavatosságot nem vállal, és — a vonatkozó jogszabályok által megengedett legteljesebb mértékben — kizár minden felelősséget az adatok esetleges pontatlanságából, hiányosságából vagy elavultságából eredő közvetlen vagy közvetett kárért, jogvitáért, illetve az adatok bármely célú (így különösen jogi, pénzügyi vagy üzleti döntéshozatali) felhasználásából eredő következményért. Az oldal kizárólag tájékoztató jellegű; az egyes tételeknél feltüntetett forráslinken keresztül bárki önállóan ellenőrizheti az eredeti közlést.</p>
+      <h5>Mesterséges intelligencia használata</h5>
+      <p>Az oldalon megjelenő adatok gyűjtése, feldolgozása, elemzése és kategóriákba sorolása mesterséges intelligencián (AI) alapuló eszközök segítségével, automatizált módon történik. Az automatizált feldolgozás jellegéből adódóan az adatok hibát, hiányosságot, pontatlanságot vagy téves besorolást tartalmazhatnak. Az ebből eredő hibákért, hiányosságokért és helytelen adatokért, valamint a felhasznált forrásokban közölt információk valóságtartalmáért sem az oldal üzemeltetője (Hujber Richárd magánszemély), sem a felhasznált mesterséges intelligencia szolgáltatója nem vállal semmilyen felelősséget; ezzel összefüggésben — a jogszabályok által megengedett legteljesebb mértékben — kizárt minden közvetlen vagy közvetett kárért, illetve következményért való felelősség.</p>
+      <h5>Hirdetések, adományok és bevételek</h5>
+      <p>Az oldalon hirdetések jelennek meg, amelyek az oldal fejlesztőjének és üzemeltetőjének, Hujber Richárd magánszemélynek bevételt eredményeznek. A hirdetéseket harmadik fél hirdetési szolgáltató (Google) jeleníti meg, amely saját adatkezelési tájékoztatója szerint sütiket és hasonló technológiákat alkalmazhat; ezekhez — ahol a jogszabály előírja — a hozzájárulásodat kérjük. Az oldalon emellett lehetőség van a munkám önkéntes adományozással történő támogatására; a fizetési adatokat kizárólag a fizetési szolgáltató (Stripe, PayPal) kezeli, azokhoz nem férek hozzá.</p>
+      <p>Az oldalt nem jövedelemszerzési céllal üzemeltetem. Kijelentem, hogy az oldal üzemeltetéséből származó valamennyi bevételt — ideértve a hirdetési bevételt és a kapott adományokat is — a mindenkor hatályos adójogszabályoknak megfelelően az adóbevallásomban feltüntetem.</p>
+    `,
+    en: `
+      <p><strong>Data controller:</strong> this page is run by a private individual. Contact: <a href="mailto:${CONTACT_EMAIL}">${CONTACT_EMAIL}</a>.</p>
+      <p>This page only aggregates <strong>publicly available information published by Hungarian press outlets, as well as laws and government decrees published in the Hungarian Official Gazette (Magyar Közlöny)</strong> (government savings, asset recovery, EU funds, reported cases, macroeconomic indicators), always linking back to the source article or legal text. The page <strong>does not collect or process personal data about visitors</strong>.</p>
+      <h5>Local storage</h5>
+      <p>The page uses your browser's local storage only to remember your language (HU/EN) and display (light/dark) preference. This stays on your own device, is never transmitted to me or any third party, and cannot identify you.</p>
+      <h5>Visitor counter</h5>
+      <p>The page runs its own cookie-free visitor counter. It does not store IP addresses: on the day of the visit it derives a daily-changing, irreversible code from the browser identifier and the IP address, used solely to count unique daily visitors and never shared with third parties. Only the date, the domain visited and this code are stored.</p>
+      <h5>Technical hosting</h5>
+      <p>The web pages (HTML pages) that present the data to visitors are hosted by <strong>Magyar Hosting</strong> (operated by Websupport Magyarország Kft., 1119 Budapest, Fehérvári út 97–99., Hungary, <a href="https://www.mhosting.hu" target="_blank" rel="noopener">www.mhosting.hu</a>), which acts under its own privacy policy for the hosting service. Data collection and processing is carried out using Anthropic's Claude AI service.</p>
+      <h5>Legal basis</h5>
+      <p>Republication and aggregation of publicly available press information, based on legitimate interest under GDPR (EU) 2016/679 Art. 6(1)(f) — promoting public transparency.</p>
+      <h5>Your rights</h5>
+      <p>If you believe any information shown is inaccurate, outdated, or concerns you and needs correction or removal, contact me at the email above — legitimate requests are handled promptly.</p>
+      <h5>Applicable law</h5>
+      <p>Regulation (EU) 2016/679 (GDPR) and Hungarian Act CXII of 2011 on informational self-determination (Infotv.). Complaints can be lodged with the Hungarian National Authority for Data Protection (NAIH, naih.hu).</p>
+      <h5>Disclaimer</h5>
+      <p>All data shown originates solely from the publicly available press sources cited. The operator does not verify and makes no warranty as to the accuracy, completeness or currentness of this data, and — to the fullest extent permitted by law — excludes all liability for any direct or indirect loss, dispute or consequence arising from inaccuracies, omissions or use of this information for any purpose, including legal, financial or business decisions. The page is for informational purposes only; the source link on each item lets anyone independently verify the original publication.</p>
+      <h5>Use of artificial intelligence</h5>
+      <p>The data shown on this page is collected, processed, analysed and categorised in an automated way using artificial intelligence (AI) tools. Due to the nature of automated processing, the data may contain errors, omissions, inaccuracies or incorrect categorisation. Neither the operator of the page (Richárd Hujber, private individual) nor the provider of the AI used accepts any liability for resulting errors, omissions or incorrect data, or for the truthfulness of the information published in the sources used; accordingly, to the fullest extent permitted by law, all liability for any direct or indirect loss or consequence is excluded.</p>
+      <h5>Advertising, donations and income</h5>
+      <p>The page displays advertisements that generate income for its developer and operator, Richárd Hujber, a private individual. Ads are served by a third-party advertising provider (Google), which may use cookies and similar technologies under its own privacy policy; where the law requires it, your consent is requested for these. Visitors can also support my work through voluntary donations; payment details are handled solely by the payment provider (Stripe, PayPal) and are not accessible to me.</p>
+      <p>I do not operate this page for the purpose of earning income. I declare that all income derived from operating the page — including advertising revenue and donations received — will be reported in my tax return in accordance with the applicable tax laws.</p>
+    `
+  };
+
+
+  const ABOUT_HTML = {
+    hu: `
+      <h5 style="margin-top:0;">Ki vagyok</h5>
+      <p>Hujber Richárd vagyok, magánszemély, az oldal fejlesztője és üzemeltetője. Az oldalt saját kezdeményezésemből, önállóan hoztam létre és tartom fenn.</p>
+      <h5>Az oldal célja</h5>
+      <p>Az oldal célja, hogy közérthető, forrásokkal alátámasztott és bárki által ellenőrizhető módon, egy helyen mutassa be a közpénzekkel kapcsolatos elszámoltatás és vagyonvisszaszerzés folyamatát: az igazoltan visszaszerzett vagyont, a bejelentett megtakarításokat, az uniós források alakulását, a feljelentett ügyeket, valamint a legfontosabb makrogazdasági mutatókat. Minden tételnél feltüntetem a nyilvános forrást, hogy az eredeti közlés önállóan ellenőrizhető legyen.</p>
+      <h5>Impresszum</h5>
+      <dl class="detail-dl about-dl">
+        <div><dt>Üzemeltető</dt><dd>Hujber Richárd, magánszemély</dd></div>
+        <div><dt>Kapcsolat</dt><dd><a href="mailto:${CONTACT_EMAIL}">${CONTACT_EMAIL}</a></dd></div>
+        <div><dt>Tárhelyszolgáltató</dt><dd>Magyar Hosting (Websupport Magyarország Kft.)</dd></div>
+        <div><dt>Tárhelyszolgáltató székhelye</dt><dd>1119 Budapest, Fehérvári út 97–99.</dd></div>
+        <div><dt>Tárhelyszolgáltató weboldala</dt><dd><a href="https://www.mhosting.hu" target="_blank" rel="noopener">www.mhosting.hu</a></dd></div>
+        <div><dt>Adatfeldolgozás</dt><dd>Anthropic (Claude)</dd></div>
+      </dl>
+      <h5>Függetlenségi nyilatkozat</h5>
+      <p>Az oldalt magánszemélyként üzemeltetem. Az oldal nem kapcsolódik semmilyen kormányhoz, kormányzati vagy állami szervhez, politikai párthoz vagy politikai szervezethez; azoktól sem megbízást, sem utasítást, sem anyagi támogatást nem kapok. A megjelenített adatok kiválasztása és bemutatása kizárólag a nyilvánosan elérhető források alapján történik.</p>
+      <h5>AI-alkalmazások fejlesztése</h5>
+      <p>Ha hasonló, mesterséges intelligenciára épülő alkalmazás fejlesztésében gondolkodsz, keress bizalommal az alábbi címen:</p>
+      <div class="contact-box"><span class="contact-label">✉️ Email</span><a href="mailto:${CONTACT_EMAIL}">${CONTACT_EMAIL}</a></div>
+    `,
+    en: `
+      <h5 style="margin-top:0;">Who I am</h5>
+      <p>I am Richárd Hujber, a private individual and the developer and operator of this page. I created and maintain it on my own initiative, independently.</p>
+      <h5>Purpose of the page</h5>
+      <p>The page aims to present, in one place and in a clear, source-backed and independently verifiable way, the process of public-money accountability and asset recovery: verified recovered assets, announced savings, the status of EU funds, reported cases and key macroeconomic indicators. Every item links to its public source so that the original publication can be checked independently.</p>
+      <h5>Imprint</h5>
+      <dl class="detail-dl about-dl">
+        <div><dt>Operator</dt><dd>Richárd Hujber, private individual</dd></div>
+        <div><dt>Contact</dt><dd><a href="mailto:${CONTACT_EMAIL}">${CONTACT_EMAIL}</a></dd></div>
+        <div><dt>Hosting provider</dt><dd>Magyar Hosting (Websupport Magyarország Kft.)</dd></div>
+        <div><dt>Hosting provider address</dt><dd>1119 Budapest, Fehérvári út 97–99., Hungary</dd></div>
+        <div><dt>Hosting provider website</dt><dd><a href="https://www.mhosting.hu" target="_blank" rel="noopener">www.mhosting.hu</a></dd></div>
+        <div><dt>Data processing</dt><dd>Anthropic (Claude)</dd></div>
+      </dl>
+      <h5>Statement of independence</h5>
+      <p>This page is operated by a private individual. It is not affiliated with any government, governmental or state body, political party or political organisation, and I receive no mandate, instruction or financial support from any of them. The data shown is selected and presented solely on the basis of publicly available sources.</p>
+      <h5>AI application development</h5>
+      <p>If you are considering developing a similar AI-based application, feel free to contact me at:</p>
+      <div class="contact-box"><span class="contact-label">✉️ Email</span><a href="mailto:${CONTACT_EMAIL}">${CONTACT_EMAIL}</a></div>
+    `
+  };
+  const MODAL_TITLES = { hu:{sources:"Adatforrások", privacy:"Adatvédelmi tájékoztató", contact:"Kapcsolat", about:"Rólam"},
+                          en:{sources:"Data sources", privacy:"Privacy notice", contact:"Contact", about:"About me"} };
+
+  /* ---------- modal navigation stack ----------
+     showModalView(renderFn) opens a new view on top of whatever is currently shown
+     (pushing the current view onto the back-stack so it can be returned to).
+     Pass {resetStack:true} for a view opened fresh from the base page.
+     closeModal() (the X button, backdrop click, and Escape) pops one level back;
+     only when the stack is empty does it actually close the overlay. */
+  let modalStack = [];
+  let currentModalRender = null;
+
+  function showModalView(renderFn, opts){
+    const overlay = document.getElementById("modalOverlay");
+    const isOpen = overlay.classList.contains("show");
+    if(opts && opts.resetStack){
+      modalStack = [];
+    } else if(isOpen && currentModalRender){
+      modalStack.push(currentModalRender);
+    }
+    currentModalRender = renderFn;
+    renderFn();
+    overlay.classList.add("show");
+    document.body.style.overflow = "hidden";
+    document.getElementById("modalBody").scrollTop = 0;
+  }
+
+  function closeModal(){
+    if(modalStack.length){
+      const prev = modalStack.pop();
+      currentModalRender = prev;
+      prev();
+      document.getElementById("modalBody").scrollTop = 0;
+      return;
+    }
+    document.getElementById("modalOverlay").classList.remove("show");
+    document.body.style.overflow = "";
+    currentModalRender = null;
+  }
+
+  function renderFooterModal(kind){
+    document.getElementById("modalTitle").textContent = MODAL_TITLES[lang][kind];
+    let body = "";
+    if(kind === "sources"){
+      body = `<p>${lang==="hu"?"Az adatgyűjtés rendszeresen az alábbi portálokra terjed ki; a táblázat egyes tételeinél a pontos cikk-link is szerepel.":"Data collection regularly covers the outlets below; each item in the table also links to its exact source article."}</p>
+        <h5 style="margin:16px 0 8px;">${lang==="hu"?"Hivatalos jogforrások":"Official legal sources"}</h5>
+        <p style="margin:0 0 8px;font-size:12.5px;color:var(--text-dim);">${lang==="hu"?"A sajtóhírek mellett, ahol lehetséges, a tételeket a Magyar Közlönyben megjelent törvényekkel és kormányrendeletekkel is ellenőrizzük.":"Alongside press coverage, where possible items are also cross-checked against laws and government decrees published in the Hungarian Official Gazette."}</p>
+        <ul class="source-list source-list--official">${OFFICIAL_SOURCES.map(([n,u])=>`<li><a href="${u}" target="_blank" rel="noopener">${n} ↗</a></li>`).join("")}</ul>
+        <h5 style="margin:18px 0 8px;">${lang==="hu"?"Sajtóforrások":"Press sources"}</h5>
+        <ul class="source-list">${SOURCES.map(([n,u])=>`<li><a href="${u}" target="_blank" rel="noopener">${n} ↗</a></li>`).join("")}</ul>`;
+    } else if(kind === "privacy"){
+      body = PRIVACY_HTML[lang];
+    } else if(kind === "about"){
+      body = ABOUT_HTML[lang];
+    } else if(kind === "support"){
+      const C = window.SITE_CONFIG || {};
+      const btn = (url, title, sub) => url ? `<a class="support-btn" href="${url}" target="_blank" rel="noopener"><b>${title}</b><span>${sub}</span></a>` : "";
+      body = `<p class="support-intro">${lang==="hu"?"Támogatásával az adatgyűjtés, a forrásellenőrzés és az oldal üzemeltetése költségeihez járul hozzá.":"Your support helps cover the costs of data collection, source verification and running the site."}</p>
+        <div class="support-btns">
+          ${btn(C.stripeUrl, lang==="hu"?"Bankkártya vagy Google Pay":"Card or Google Pay", lang==="hu"?"Biztonságos fizetés a Stripe-on keresztül":"Secure payment via Stripe")}
+          ${btn(C.paypalUrl, "PayPal", lang==="hu"?"PayPal-fiókkal vagy kártyával":"With a PayPal account or card")}
+        </div>`;
+    } else if(kind === "contact"){
+      body = `<div class="contact-box"><span class="contact-label">✉️ Email</span><a href="mailto:${CONTACT_EMAIL}">${CONTACT_EMAIL}</a></div>
+        <p>${lang==="hu"?"Kérdés, észrevétel, hibajelzés vagy helyesbítési kérés esetén írj erre a címre.":"For questions, feedback, bug reports or correction requests, write to this address."}</p>`;
+    }
+    document.getElementById("modalBody").innerHTML = body;
+  }
+  document.getElementById("modalOverlay").addEventListener("touchmove", function(e){
+    if(!e.target.closest(".modal-body")) e.preventDefault();
+  }, {passive:false});
+  document.getElementById("linkSources").addEventListener("click", e=>{ e.preventDefault(); showModalView(()=>renderFooterModal("sources"), {resetStack:true}); });
+  document.getElementById("linkPrivacy").addEventListener("click", e=>{ e.preventDefault(); showModalView(()=>renderFooterModal("privacy"), {resetStack:true}); });
+  document.getElementById("linkContact").addEventListener("click", e=>{ e.preventDefault(); showModalView(()=>renderFooterModal("contact"), {resetStack:true}); });
+  document.getElementById("linkAbout").addEventListener("click", e=>{ e.preventDefault(); showModalView(()=>renderFooterModal("about"), {resetStack:true}); });
+  document.getElementById("linkSupport").addEventListener("click", e=>{ e.preventDefault(); showModalView(()=>renderFooterModal("support"), {resetStack:true}); });
+  document.getElementById("modalClose").addEventListener("click", closeModal);
+  (function(){
+    const body = document.getElementById("modalBody"), hint = document.getElementById("scrollHint");
+    const upd = () => { hint.classList.toggle("show", body.scrollHeight - body.clientHeight - body.scrollTop > 12); };
+    body.addEventListener("scroll", upd, {passive:true});
+    new MutationObserver(()=>requestAnimationFrame(upd)).observe(body, {childList:true, subtree:true});
+    window.addEventListener("resize", upd);
+    if("ResizeObserver" in window) new ResizeObserver(upd).observe(body);
+    document.fonts && document.fonts.ready && document.fonts.ready.then(upd);
+  })();
+  document.getElementById("modalOverlay").addEventListener("click", e=>{ if(e.target.id === "modalOverlay") closeModal(); });
+  document.addEventListener("keydown", e=>{ if(e.key === "Escape") closeModal(); });
+
+  /* ---------- item detail (clickable table rows) ---------- */
+  const CAT_KEY = {visszaszerzes:"catVisszaszerzes", megtakaritas:"catMegtakaritas", eu_forras:"catEuForras"};
+  const STATUS_KEY = {verified:"catVerified", needs_review:"catReview", rejected:"catRejected"};
+  const REPORTED_STATUS_KEY = {reported:"rcStatusReported", under_investigation:"rcStatusUnderInvestigation", partially_recovered:"rcStatusPartiallyRecovered", recovered:"rcStatusRecovered", dismissed:"rcStatusDismissed"};
+
+  let CURRENT_LOST_LIST = [];
+  function currentCutoff(){ const el = document.getElementById("timeMachine"); return (el && el.value) || new Date().toISOString().slice(0,10); }
+  function lostItems(d){
+    const c = currentCutoff();
+    return (Array.isArray(d.lost_items) ? d.lost_items : []).filter(l => (l.lost_date || "0000-00-00") <= c && l.status !== "rejected");
+  }
+  function euLost(d){
+    if(Array.isArray(d.lost_items)) return lostItems(d).reduce((a,l)=>a+(typeof l.amount_huf==="number"?l.amount_huf:0),0);
+    return typeof d.lost_huf === "number" ? d.lost_huf : 0;
+  }
+  function euAgreedAt(d){
+    if(typeof d.agreed_original_huf === "number") return d.agreed_original_huf;
+    return d.agreed_huf!=null ? d.agreed_huf : d.amount_huf;
+  }
+  function euChartHtml(list){
+    const t = I18N[lang];
+    const agreed = list.reduce((a,d)=>a+(Number(euAgreedAt(d))||0),0);
+    const received = list.reduce((a,d)=>a+(Number(d.received_huf)||0),0);
+    const lost = list.reduce((a,d)=>a+euLost(d),0);
+    const pct = x => agreed>0 ? (x>0 ? Math.max(x/agreed*100, 1.5) : 0) : 0;
+    const pR = pct(received), pL = pct(lost), pA = Math.max(100 - pR - pL, 0);
+    const seg = (cls, p, val) => p>0 ? `<div class="eu-seg ${cls}" data-w="${p}" style="width:0%"><span>${fmtMrd(val)}</span></div>` : "";
+    const html = `<div class="eu-chart">
+      <div class="eu-chart-head"><span>${t.agreedTotalLabel}</span><b class="mono">${fmtMrd(agreed)} ${t.mrd}</b></div>
+      <div class="eu-chart-bar" role="img" aria-label="${t.agreedLabel} ${fmtMrd(agreed)}, ${t.receivedLabel} ${fmtMrd(received)}, ${t.lostLabel} ${fmtMrd(lost)} ${t.mrd}">
+        ${seg("received", pR, received)}${pA>0?`<div class="eu-seg open" data-w="${pA}" style="width:0%"></div>`:""}${seg("lost", pL, lost)}
+      </div>
+      <div class="eu-chart-legend">
+        <div><i class="sw agreed"></i><span>${t.agreedLabel}</span><b class="mono">${fmtMrd(agreed)} ${t.mrd}</b></div>
+        <div><i class="sw received"></i><span>${t.receivedLabel}</span><b class="mono" style="color:var(--good)">${fmtMrd(received)} ${t.mrd}</b></div>
+        <div><i class="sw lost"></i><span>${t.lostLabel}</span><b class="mono" style="color:var(--bad)">${fmtMrd(lost)} ${t.mrd}</b></div>
+      </div>
+    </div>`;
+    requestAnimationFrame(()=>requestAnimationFrame(()=>{
+      document.querySelectorAll(".eu-chart-bar .eu-seg").forEach(el=>{ el.style.width = el.dataset.w + "%"; });
+    }));
+    return html;
+  }
+
+  function renderLostDetail(l){
+    const t = I18N[lang];
+    document.getElementById("modalTitle").textContent = l.subject || t.lostLabel;
+    const fields = [
+      [t.lostDateLabel, l.lost_date || "–"],
+      [t.colCategory, `<span style="color:var(--bad)">${t.lostLabel}</span>`],
+      [t.colAmount, `<span style="color:var(--bad)">${fmtMrd(l.amount_huf)} ${t.mrd}</span>`],
+    ];
+    if(l.amount_text) fields.push([lang==="hu"?"Eredeti közlés":"As reported", l.amount_text]);
+    let body = `<dl class="detail-dl">` + fields.map(([k,v])=>`<div><dt>${k}</dt><dd>${v}</dd></div>`).join("") + `</dl>`;
+    if(l.description) body += `<h5 style="margin:16px 0 6px;">${t.descLabel}</h5><p>${l.description}</p>`;
+    const srcs = [];
+    if(l.source_url) srcs.push([l.source_name || t.openSource, l.source_url]);
+    (l.additional_sources||[]).forEach(a=>{ if(a && a.url) srcs.push([a.name || t.openSource, a.url]); });
+    if(srcs.length){
+      body += `<h5 style="margin:16px 0 8px;">${t.colSource}</h5><ul class="source-list source-list--official">` +
+        srcs.map(([n,u])=>`<li><a href="${u}" target="_blank" rel="noopener">${n} ↗</a></li>`).join("") + `</ul>`;
+    }
+    document.getElementById("modalBody").innerHTML = body;
+  }
+
+  function renderItemDetail(item){
+    const t = I18N[lang];
+    document.getElementById("modalTitle").textContent = item.subject || t[CAT_KEY[item.category]] || item.category || "";
+    const fields = [
+      [t.colDate, item.event_date || "–"],
+      [t.colCategory, t[CAT_KEY[item.category]] || item.category || "–"],
+      [t.colStatus, t[STATUS_KEY[item.status]] || item.status || "–"],
+    ];
+    if(item.category === "eu_forras"){
+      const lostAmt = euLost(item);
+      fields.push([t.agreedLabel, fmtMrd(euAgreedAt(item)) + " " + t.mrd]);
+      fields.push([t.receivedLabel, fmtMrd(item.received_huf) + " " + t.mrd]);
+      fields.push([t.lostLabel, `<span style="color:var(--bad)">${fmtMrd(lostAmt)} ${t.mrd}</span>`]);
+    } else {
+      fields.push([t.colAmount, fmtMrd(item.amount_huf) + " " + t.mrd]);
+    }
+    let body = `<dl class="detail-dl">` + fields.map(([k,v])=>`<div><dt>${k}</dt><dd>${v}</dd></div>`).join("") + `</dl>`;
+    if(item.category === "eu_forras"){
+      const lost = lostItems(item);
+      if(lost.length){
+        body += `<h5 style="margin:16px 0 8px;color:var(--bad);">${t.lostLabel}</h5><div class="cat-list">` + lost.map((l,i)=>`<div class="cat-list-row" data-lost-idx="${i}" tabindex="0" role="button">
+          <div class="cat-list-main"><div class="cat-list-subject">${l.subject||""}</div><div class="cat-list-meta"><span class="mono">${l.lost_date||"–"}</span></div></div>
+          <div class="cat-list-side"><div class="cat-list-amount mono lost">${fmtMrd(l.amount_huf)} ${t.mrd}</div></div></div>`).join("") + `</div>`;
+        CURRENT_LOST_LIST = lost;
+      }
+    }
+    if(item.description){
+      body += `<h5 style="margin:16px 0 6px;">${t.descLabel}</h5><p>${item.description}</p>`;
+    }
+    if(item.source_url){
+      body += `<h5 style="margin:16px 0 8px;">${t.colSource}</h5>
+        <ul class="source-list source-list--official"><li><a href="${item.source_url}" target="_blank" rel="noopener">${t.openSource} ↗</a></li></ul>`;
+    }
+    document.getElementById("modalBody").innerHTML = body;
+  }
+
+  function renderReportedDetail(item){
+    const t = I18N[lang];
+    document.getElementById("modalTitle").textContent = item.subject || item.case_name || item.id || t.statReportedLabel;
+    const fields = [
+      [t.colDate, item.report_date || "–"],
+      [t.colStatus, t[REPORTED_STATUS_KEY[item.status]] || item.status || "–"],
+    ];
+    if(item.ministry) fields.push([lang==="hu"?"Tárca":"Ministry", item.ministry]);
+    fields.push([t.allegedLabel, fmtMrd(item.alleged_amount_huf) + " " + t.mrd]);
+    fields.push([t.confirmedLabel, fmtMrd(item.confirmed_recovered_huf) + " " + t.mrd]);
+    let body = `<dl class="detail-dl">` + fields.map(([k,v])=>`<div><dt>${k}</dt><dd>${v}</dd></div>`).join("") + `</dl>`;
+    if(item.description){
+      body += `<h5 style="margin:16px 0 6px;">${t.descLabel}</h5><p>${item.description}</p>`;
+    }
+    const srcUrl = item.report_source && item.report_source.url;
+    if(srcUrl){
+      body += `<h5 style="margin:16px 0 8px;">${t.colSource}</h5>
+        <ul class="source-list source-list--official"><li><a href="${srcUrl}" target="_blank" rel="noopener">${t.openSource} ↗</a></li></ul>`;
+    }
+    document.getElementById("modalBody").innerHTML = body;
+  }
+
+  function handleRowActivate(e){
+    if(e.target.closest("a")) return;
+    const tr = e.target.closest("tr[data-idx]");
+    if(!tr) return;
+    const row = CURRENT_ROWS[parseInt(tr.dataset.idx, 10)];
+    if(!row) return;
+    if(row.kind === "reported") showModalView(()=>renderReportedDetail(row.data), {resetStack:true});
+    else showModalView(()=>renderItemDetail(row.data), {resetStack:true});
+  }
+  document.getElementById("itemsBody").addEventListener("click", handleRowActivate);
+  document.getElementById("itemsBody").addEventListener("keydown", e=>{
+    if(e.key !== "Enter" && e.key !== " ") return;
+    if(!e.target.closest("tr[data-idx]")) return;
+    e.preventDefault();
+    handleRowActivate(e);
+  });
+
+  /* ---------- category detail (clickable top stat cards) ---------- */
+  function renderCategoryList(catKey){
+    const t = I18N[lang];
+    let list, title, kind;
+    if(catKey === "recovered"){
+      list = CURRENT_ITEMS_FILTERED.filter(d=>d.category==="visszaszerzes" && d.status==="verified");
+      title = t.statRecoveredLabel; kind = "item";
+    } else if(catKey === "saved"){
+      list = CURRENT_ITEMS_FILTERED.filter(d=>d.category==="megtakaritas");
+      title = t.statSavedLabel; kind = "item";
+    } else if(catKey === "reported"){
+      const aggDoc = CURRENT_REPORTED_FILTERED.find(d=> d.is_aggregate === true);
+      list = aggDoc ? CURRENT_REPORTED_FILTERED.filter(d=>d!==aggDoc) : CURRENT_REPORTED_FILTERED.slice();
+      title = t.statReportedLabel; kind = "reported";
+    } else if(catKey === "eu"){
+      list = CURRENT_ITEMS_FILTERED.filter(d=>d.category==="eu_forras" && d.status==="verified");
+      title = t.statEuLabel; kind = "item";
+    } else if(catKey === "macro"){
+      renderMacroList(); return;
+    } else { return; }
+
+    const amountField = kind === "reported" ? "alleged_amount_huf" : "amount_huf";
+    const totalHuf = list.reduce((a,d)=> a + (typeof d[amountField]==="number"?d[amountField]:0), 0);
+    document.getElementById("modalTitle").textContent = title;
+    CURRENT_CAT_ITEMS = list.map(d=>({kind, data:d}));
+    const euAmt = d => euAgreedAt(d);
+    const summary = catKey === "eu"
+      ? euChartHtml(list)
+      : `<p class="cat-list-summary">${list.length} ${t.tetel} · ${fmtMrd(totalHuf)} ${t.mrd}</p>`;
+    const rowsHtml = list.length ? list.map((d,idx)=>{
+      if(kind === "reported"){
+        return `<div class="cat-list-row" data-idx="${idx}" tabindex="0" role="button">
+          <div class="cat-list-main">
+            <div class="cat-list-subject">${d.subject || d.case_name || d.id || t.statReportedLabel}</div>
+            <div class="cat-list-meta"><span class="mono">${d.report_date||"–"}</span></div>
+          </div>
+          <div class="cat-list-side">
+            <div class="cat-list-amount mono">${fmtMrd(d.alleged_amount_huf)} ${t.mrd}</div>
+          </div>
+        </div>`;
+      }
+      const st = d.status || "";
+      return `<div class="cat-list-row" data-idx="${idx}" tabindex="0" role="button">
+        <div class="cat-list-main">
+          <div class="cat-list-subject">${d.subject||""}</div>
+          <div class="cat-list-meta"><span class="mono">${d.event_date||"–"}</span> · <span class="pill status-${st}">${t[STATUS_KEY[st]]||st}</span></div>
+        </div>
+        <div class="cat-list-side">
+          <div class="cat-list-amount mono">${fmtMrd(d.category==="eu_forras" ? euAmt(d) : d.amount_huf)} ${t.mrd}</div>
+          ${d.source_url ? `<a class="src-link" href="${d.source_url}" target="_blank" rel="noopener">${t.openSource} ↗</a>` : ""}
+        </div>
+      </div>`;
+    }).join("") : `<p class="empty">${catKey==="eu" ? t.euNoItems : t.noItems}</p>`;
+    let lostHtml = "";
+    if(catKey === "eu"){
+      const lost = [];
+      list.forEach(d => lostItems(d).forEach(l => lost.push(l)));
+      CURRENT_LOST_LIST = lost;
+      if(lost.length){
+        lostHtml = `<div class="cat-list-group lost" style="margin-top:18px;">${t.lostLabel}</div><div class="cat-list">` + lost.map((l,i)=>`<div class="cat-list-row" data-lost-idx="${i}" tabindex="0" role="button">
+          <div class="cat-list-main"><div class="cat-list-subject">${l.subject||""}</div><div class="cat-list-meta"><span class="mono">${l.lost_date||"–"}</span></div></div>
+          <div class="cat-list-side"><div class="cat-list-amount mono lost">${fmtMrd(l.amount_huf)} ${t.mrd}</div>${l.source_url?`<a class="src-link" href="${l.source_url}" target="_blank" rel="noopener">${t.openSource} ↗</a>`:""}</div></div>`).join("") + `</div>`;
+      }
+    }
+    document.getElementById("modalBody").innerHTML = summary + `<div data-list class="cat-list">${rowsHtml}</div>` + lostHtml;
+  }
+
+  /* ---------- macro detail ---------- */
+  let CURRENT_MACRO = null;
+  const fmtNum = (v, dec) => typeof v === "number" ? v.toLocaleString(lang==="hu"?"hu-HU":"en-GB", {minimumFractionDigits:dec||0, maximumFractionDigits:dec==null?2:dec}) : "–";
+  function fmtMacroValue(ind){
+    if(ind.value == null) return "–";
+    const u = ind.unit || "";
+    if(u === "Mrd Ft") return fmtNum(ind.value, ind.value>=10000?0:1) + " " + (lang==="hu"?"Mrd Ft":"HUF bn");
+    if(u === "%") return fmtNum(ind.value) + "%";
+    if(u === "Ft") return fmtNum(ind.value, 0) + (lang==="hu"?" Ft":" HUF");
+    if(u === "Ft/EUR") return fmtNum(ind.value) + (lang==="hu"?" Ft/€":" HUF/€");
+    if(u === "ezer fő") return fmtNum(ind.value, 0) + (lang==="hu"?" ezer fő":" thousand");
+    return fmtNum(ind.value) + " " + u;
+  }
+  /* polaritás: +1 = a növekedés kedvező, -1 = a növekedés kedvezőtlen, 0 = semleges (halmozott érték) */
+  const MACRO_POLARITY = {
+    allamadossag:-1, inflacio_eves:-1, inflacio_varhato:-1, inflacio_havi:-1,
+    gdp_novekedes_eves:1, munkanelkulisegi_rata:-1, foglalkoztatottak:1, foglalkoztatasi_rata:1,
+    jegybanki_alapkamat:-1, eur_huf:-1, brutto_atlagkereset:1, netto_atlagkereset:1,
+    realkereset_valtozas:1, kozponti_alrendszer_hiany:0, allamadossag_gdp_arany:-1
+  };
+  function macroIndicators(m){
+    const t = I18N[lang];
+    const el = m.elozo || {};
+    const src = f => f ? {name:f.name,url:f.url,publish_date:f.publish_date} : null;
+    const shown = [
+      {key:"allamadossag", label:t.debt, value:typeof m.allamadossag_huf==="number"?m.allamadossag_huf/1e9:null, unit:"Mrd Ft",
+       period:(m.allamadossag_forras&&m.allamadossag_forras.as_of_date)||"", source:m.allamadossag_forras||null,
+       prev_value: el.allamadossag && typeof el.allamadossag.value_huf==="number" ? el.allamadossag.value_huf/1e9 : null,
+       prev_period: el.allamadossag ? el.allamadossag.period : null},
+      {key:"inflacio_eves", label:t.inflationYear, value:m.inflacio_eves_szazalek, unit:"%", period:m.inflacio_eves_periodus||"",
+       source:src(m.inflacio_forras), prev_value: el.inflacio_eves ? el.inflacio_eves.value : null, prev_period: el.inflacio_eves ? el.inflacio_eves.period : null},
+      {key:"inflacio_varhato", label:t.inflationExpected, value:m.inflacio_varhato_eves_szazalek, unit:"%",
+       period:(m.inflacio_varhato_forras&&m.inflacio_varhato_forras.publish_date)||"",
+       source:src(m.inflacio_varhato_forras), prev_value: el.inflacio_varhato ? el.inflacio_varhato.value : null, prev_period: el.inflacio_varhato ? el.inflacio_varhato.period : null},
+    ];
+    const extra = [];
+    if(m.inflacio_havi_szazalek != null){
+      extra.push({key:"inflacio_havi", label:t.inflationMonthly, value:m.inflacio_havi_szazalek, unit:"%", period:m.inflacio_havi_periodus||"",
+        source:src(m.inflacio_forras), prev_value: el.inflacio_havi ? el.inflacio_havi.value : null, prev_period: el.inflacio_havi ? el.inflacio_havi.period : null});
+    }
+    (Array.isArray(m.extra_indicators)?m.extra_indicators:[]).forEach(x=>{
+      extra.push({key:x.key, label:(lang==="en"&&x.label_en)?x.label_en:(x.label_hu||x.key), value:x.value, unit:x.unit, period:x.period||"",
+        source:x.source||null, note:(lang==="en"&&x.note_en)?x.note_en:(x.note_hu||""),
+        prev_value: x.prev_value, prev_period: x.prev_period, polarity: x.polarity});
+    });
+    return {shown, extra};
+  }
+  /* Előző érték: ha a snapshot nem tartalmaz explicit előző értéket, a korábbi
+     snapshotok közül az első olyat vesszük, amelyben ugyanaz a mutató más időszakra szól. */
+  function attachPrev(list, m){
+    const idx = MACRO.indexOf(m);
+    const older = idx >= 0 ? MACRO.slice(idx+1) : [];
+    list.forEach(ind=>{
+      if(ind.prev_value != null) return;
+      for(const o of older){
+        const {shown, extra} = macroIndicators(o);
+        const hit = shown.concat(extra).find(x=>x.key===ind.key);
+        if(hit && hit.value != null && hit.period && hit.period !== ind.period){
+          ind.prev_value = hit.value; ind.prev_period = hit.period; break;
+        }
+      }
+    });
+    return list;
+  }
+  function macroChange(ind){
+    if(typeof ind.value !== "number" || typeof ind.prev_value !== "number") return null;
+    const diff = ind.value - ind.prev_value;
+    const pol = ind.polarity != null ? ind.polarity : (MACRO_POLARITY[ind.key] != null ? MACRO_POLARITY[ind.key] : 0);
+    let cls = "flat", arrow = "■";
+    if(Math.abs(diff) > 1e-9){
+      arrow = diff > 0 ? "▲" : "▼";
+      cls = pol === 0 ? "neutral" : ((diff > 0) === (pol > 0) ? "good" : "bad");
+    }
+    let txt;
+    if(ind.unit === "%"){
+      txt = (diff>0?"+":diff<0?"−":"±") + fmtNum(Math.abs(diff), 1) + (lang==="hu"?" %-pont":" pp");
+    } else {
+      const rel = ind.prev_value !== 0 ? diff/Math.abs(ind.prev_value)*100 : 0;
+      txt = (rel>0?"+":rel<0?"−":"±") + fmtNum(Math.abs(rel), 1) + "%";
+    }
+    const title = (lang==="hu"?"Előző: ":"Previous: ") + fmtMacroValue({value:ind.prev_value, unit:ind.unit}) + (ind.prev_period?` (${ind.prev_period})`:"");
+    return {cls, arrow, txt, title};
+  }
+  const valueClass = ch => !ch ? "" : ch.cls==="good" ? "tick-up-good" : ch.cls==="bad" ? "tick-up-bad" : "";
+  const tickHtml = ch => ch ? `<span class="tick ${ch.cls==="good"?"tick-up-good":ch.cls==="bad"?"tick-up-bad":ch.cls}" title="${ch.title}">${ch.arrow} ${ch.txt}</span>` : "";
+
+  let CURRENT_MACRO_LIST = [];
+  function renderMacroList(){
+    const t = I18N[lang];
+    document.getElementById("modalTitle").textContent = t.macroPanelTitle;
+    const m = CURRENT_MACRO;
+    if(!m){ document.getElementById("modalBody").innerHTML = `<p class="empty">${t.macroNoData}</p>`; return; }
+    let {shown, extra} = macroIndicators(m);
+    attachPrev(shown, m); attachPrev(extra, m);
+    CURRENT_MACRO_LIST = shown.concat(extra);
+    const row = (ind, idx) => { const ch = macroChange(ind); return `<div class="cat-list-row" data-macro-idx="${idx}" tabindex="0" role="button">
+        <div class="cat-list-main">
+          <div class="cat-list-subject">${ind.label}</div>
+          <div class="cat-list-meta">${ind.period?`<span class="mono">${ind.period}</span>`:""}${ind.source&&ind.source.name?`${ind.period?" · ":""}<span>${ind.source.name}</span>`:""}</div>
+        </div>
+        <div class="cat-list-side"><div class="cat-list-amount mono ${valueClass(ch)}">${fmtMacroValue(ind)}</div>${ch?tickHtml(ch).replace('class="tick','class="tick tick-side'):""}</div>
+      </div>`; };
+    let html = `<div class="cat-list-group">${t.macroShown}</div><div class="cat-list">${shown.map((x,i)=>row(x,i)).join("")}</div>`;
+    if(extra.length) html += `<div class="cat-list-group">${t.macroExtra}</div><div class="cat-list">${extra.map((x,i)=>row(x,i+shown.length)).join("")}</div>`;
+    document.getElementById("modalBody").innerHTML = html;
+  }
+  function renderMacroDetail(ind){
+    const t = I18N[lang];
+    document.getElementById("modalTitle").textContent = ind.label;
+    const ch = macroChange(ind);
+    const fields = [[t.valueLabel, `<span class="${valueClass(ch)}">${fmtMacroValue(ind)}</span>`]];
+    if(ch){
+      fields.push([t.changeLabel, tickHtml(ch).replace('class="tick','class="tick tick-side')]);
+      fields.push([t.prevLabel, fmtMacroValue({value:ind.prev_value, unit:ind.unit}) + (ind.prev_period?` <small style="color:var(--text-faint);font-weight:400">(${ind.prev_period})</small>`:"")]);
+    }
+    if(ind.period) fields.push([t.periodLabel, ind.period]);
+    if(ind.source && ind.source.name) fields.push([t.sourceNameLabel, ind.source.name]);
+    if(ind.source && ind.source.publish_date) fields.push([t.publishedLabel, ind.source.publish_date]);
+    let body = `<dl class="detail-dl">` + fields.map(([k,v])=>`<div><dt>${k}</dt><dd>${v}</dd></div>`).join("") + `</dl>`;
+    if(ind.note) body += `<h5 style="margin:16px 0 6px;">${t.noteLabel}</h5><p>${ind.note}</p>`;
+    if(ind.source && ind.source.url){
+      body += `<h5 style="margin:16px 0 8px;">${t.colSource}</h5>
+        <ul class="source-list source-list--official"><li><a href="${ind.source.url}" target="_blank" rel="noopener">${t.openSource} ↗</a></li></ul>`;
+    }
+    document.getElementById("modalBody").innerHTML = body;
+  }
+  const macroPanelEl = document.getElementById("macroPanel");
+  macroPanelEl.addEventListener("click", ()=> showModalView(()=>renderMacroList(), {resetStack:true}));
+  macroPanelEl.addEventListener("keydown", e=>{
+    if(e.key !== "Enter" && e.key !== " ") return;
+    e.preventDefault(); showModalView(()=>renderMacroList(), {resetStack:true});
+  });
+
+  function handleCatCardActivate(e){
+    const card = e.target.closest(".stat-card[data-cat]");
+    if(!card) return;
+    const catKey = card.dataset.cat;
+    showModalView(()=>renderCategoryList(catKey), {resetStack:true});
+  }
+  document.getElementById("statGrid").addEventListener("click", handleCatCardActivate);
+  document.getElementById("statGrid").addEventListener("keydown", e=>{
+    if(e.key !== "Enter" && e.key !== " ") return;
+    if(!e.target.closest(".stat-card[data-cat]")) return;
+    e.preventDefault();
+    handleCatCardActivate(e);
+  });
+
+  function handleCatListRowActivate(e){
+    if(e.target.closest("a")) return;
+    const mrow = e.target.closest(".cat-list-row[data-macro-idx]");
+    if(mrow){
+      const ind = CURRENT_MACRO_LIST[parseInt(mrow.dataset.macroIdx, 10)];
+      if(ind) showModalView(()=>renderMacroDetail(ind));
+      return;
+    }
+    const lrow = e.target.closest(".cat-list-row[data-lost-idx]");
+    if(lrow){
+      const l = CURRENT_LOST_LIST[parseInt(lrow.dataset.lostIdx, 10)];
+      if(l) showModalView(()=>renderLostDetail(l));
+      return;
+    }
+    const row = e.target.closest(".cat-list-row[data-idx]");
+    if(!row) return;
+    const entry = CURRENT_CAT_ITEMS[parseInt(row.dataset.idx, 10)];
+    if(!entry) return;
+    if(entry.kind === "reported") showModalView(()=>renderReportedDetail(entry.data));
+    else showModalView(()=>renderItemDetail(entry.data));
+  }
+  document.getElementById("modalBody").addEventListener("click", handleCatListRowActivate);
+  document.getElementById("modalBody").addEventListener("keydown", e=>{
+    if(e.key !== "Enter" && e.key !== " ") return;
+    if(!e.target.closest(".cat-list-row[data-idx], .cat-list-row[data-macro-idx], .cat-list-row[data-lost-idx]")) return;
+    e.preventDefault();
+    handleCatListRowActivate(e);
+  });
+
+  /* ---------- data ---------- */
+  const fmtInt = n => typeof n === "number" ? Math.round(n).toLocaleString("hu-HU") : "–";
+  const toMrd = huf => typeof huf === "number" ? huf/1e9 : 0;
+  const fmtMrd = huf => typeof huf === "number" ? fmtInt(toMrd(huf)) : "–";
+  const todayISO = () => new Date().toISOString().slice(0,10);
+
+  /* ---------- animation helpers ---------- */
+  const prefersReducedMotion = !!(window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches);
+  const easeOutExpo = x => x >= 1 ? 1 : 1 - Math.pow(2, -10 * x);
+
+  function countUp(el, toVal, formatFn, duration){
+    if(!el || typeof toVal !== "number" || isNaN(toVal)) return;
+    duration = prefersReducedMotion ? 0 : (duration || 850);
+    const fromVal = parseFloat(el.dataset.cv || "0");
+    if(el._cvRaf) cancelAnimationFrame(el._cvRaf);
+    if(duration <= 0 || Math.abs(fromVal - toVal) < 0.05){
+      el.textContent = formatFn(toVal);
+      el.dataset.cv = toVal;
+      return;
+    }
+    const t0 = performance.now();
+    function step(now){
+      const p = Math.min((now - t0) / duration, 1);
+      const v = fromVal + (toVal - fromVal) * easeOutExpo(p);
+      el.textContent = formatFn(v);
+      if(p < 1){ el._cvRaf = requestAnimationFrame(step); }
+      else { el.textContent = formatFn(toVal); el.dataset.cv = toVal; }
+    }
+    el._cvRaf = requestAnimationFrame(step);
+  }
+
+  function buildSplitBar(containerId, hasSplit, pctA, labelA, classA, labelB, classB){
+    const el = document.getElementById(containerId);
+    el.innerHTML = hasSplit
+      ? `<div class="seg ${classA}" data-w="${pctA}" style="width:0%">${labelA}</div>
+         <div class="seg ${classB}" data-w="${100-pctA}" style="width:0%">${labelB}</div>`
+      : `<div class="seg ${classB}" data-w="100" style="width:0%">–</div>`;
+    const setW = () => el.querySelectorAll(".seg").forEach(s => { s.style.width = s.dataset.w + "%"; });
+    if(prefersReducedMotion){ setW(); }
+    else { requestAnimationFrame(()=>requestAnimationFrame(setW)); }
+  }
+
+  const DONUT_R = 50, DONUT_C = 2 * Math.PI * DONUT_R;
+  function setDonutSegment(elId, frac, cumBefore){
+    const el = document.getElementById(elId);
+    if(!el) return;
+    const arcLen = Math.max(frac, 0) * DONUT_C;
+    const startDeg = cumBefore * 360 - 90;
+    el.setAttribute("transform", `rotate(${startDeg} 60 60)`);
+    el.style.strokeDasharray = `${arcLen} ${DONUT_C}`;
+    if(prefersReducedMotion){
+      el.style.strokeDashoffset = "0";
+    } else {
+      el.style.strokeDashoffset = String(arcLen);
+      requestAnimationFrame(()=>requestAnimationFrame(()=>{ el.style.strokeDashoffset = "0"; }));
+    }
+  }
+
+  if(!prefersReducedMotion && "IntersectionObserver" in window){
+    const revealIO = new IntersectionObserver((entries)=>{
+      entries.forEach(en=>{
+        if(en.isIntersecting){ en.target.classList.add("in-view"); revealIO.unobserve(en.target); }
+      });
+    }, {threshold:0, rootMargin:"0px 0px 160px 0px"});
+    document.querySelectorAll(".panel,.stat-card").forEach(el=>revealIO.observe(el));
+  } else {
+    document.querySelectorAll(".panel,.stat-card").forEach(el=>el.classList.add("in-view"));
+  }
+
+  const timeInput = document.getElementById("timeMachine");
+  timeInput.value = todayISO();
+  timeInput.max = todayISO();
+  document.getElementById("resetToday").addEventListener("click", ()=>{ timeInput.value = todayISO(); render(); });
+  timeInput.addEventListener("change", render);
+
+  let ITEMS = [], REPORTED = [], MACRO = [], CURRENT_ROWS = [], CURRENT_ITEMS_FILTERED = [], CURRENT_CAT_ITEMS = [], CURRENT_REPORTED_FILTERED = [];
+  let loaded = false;
+  let lastUpdatedAt = null;
+  const AUTO_REFRESH_MS = 5 * 60 * 1000; // 5 perc
+
+  function setLoading(msg){
+    document.getElementById("itemsBody").innerHTML = `<tr class="empty-row"><td colspan="6" class="empty">${msg}</td></tr>`;
+  }
+
+  function renderLastUpdated(){
+    const el = document.getElementById("lastUpdated");
+    if(!el) return;
+    const t = I18N[lang];
+    if(!lastUpdatedAt){ el.textContent = t.lastUpdatedNever; return; }
+    const formatted = lastUpdatedAt.toLocaleString(lang==="hu"?"hu-HU":"en-GB", {
+      year:"numeric", month:"2-digit", day:"2-digit", hour:"2-digit", minute:"2-digit", second:"2-digit"
+    });
+    el.textContent = `${t.lastUpdatedLabel} ${formatted}`;
+  }
+
+  /* Lekérdezi az adatbázist; sikeres lekérdezéskor frissíti a globális adatokat és
+     az "utolsó frissítés" időbélyeget. Átmeneti hiba esetén a korábban betöltött
+     adatokat megtartja (nem üríti ki a nézetet egy sikertelen háttér-frissítés miatt). */
+  async function fetchData(){
+    try{
+      const url = (window.SITE_CONFIG && window.SITE_CONFIG.dataUrl) + "?t=" + Math.floor(Date.now()/60000);
+      const r = await fetch(url, {cache:"no-store"});
+      if(!r.ok) return false;
+      const data = await r.json();
+      ITEMS = (data.items || []).filter(d=>d && d.status !== "rejected");
+      REPORTED = data.reported_cases || [];
+      MACRO = data.macro ? [data.macro] : [];
+      loaded = true;
+      lastUpdatedAt = data.generated_at ? new Date(data.generated_at) : new Date();
+      return true;
+    }catch(e){
+      return false;
+    }
+  }
+
+  /* Látogatószámláló: a tárhelyen futó counter.php-t hívja; ha nem érhető el
+     (pl. tesztkörnyezetben), a számláló rejtve marad. */
+  function initVisitorCounter(){
+    const C = window.SITE_CONFIG || {};
+    if(!C.counterUrl) return;
+    const from = new URLSearchParams(location.search).get("from") || "";
+    fetch(C.counterUrl + "?from=" + encodeURIComponent(from), {cache:"no-store"})
+      .then(r => r.ok ? r.json() : null)
+      .then(d => {
+        if(!d || typeof d.total !== "number") return;
+        VISITOR_TOTAL = d.total;
+        renderVisitorCount();
+      })
+      .catch(()=>{});
+  }
+  let VISITOR_TOTAL = null;
+  function renderVisitorCount(){
+    const el = document.getElementById("visitorCount");
+    if(VISITOR_TOTAL == null){ el.hidden = true; return; }
+    el.textContent = `${I18N[lang].visitorsLabel} ${fmtInt(VISITOR_TOTAL)}`;
+    el.hidden = false;
+  }
+  function initOptionalBlocks(){
+    const C = window.SITE_CONFIG || {};
+    if(C.supportEnabled && (C.stripeUrl || C.paypalUrl)) document.getElementById("linkSupport").hidden = false;
+    if(C.adsEnabled) document.getElementById("adSlot").hidden = false;
+  }
+
+  async function boot(){
+    initOptionalBlocks();
+    initVisitorCounter();
+    setLoading(I18N[lang].loading);
+    await fetchData();
+    render();
+    // Nyitva tartott lap esetén 5 percenkénti automatikus frissítés.
+    setInterval(async ()=>{
+      await fetchData();
+      render();
+    }, AUTO_REFRESH_MS);
+    document.addEventListener("visibilitychange", async ()=>{
+      if(document.hidden) return;
+      const before = lastUpdatedAt && lastUpdatedAt.getTime();
+      await fetchData();
+      if(!lastUpdatedAt || lastUpdatedAt.getTime() !== before) render();
+    });
+  }
+
+  function render(){
+    const t = I18N[lang];
+    renderLastUpdated();
+    renderVisitorCount();
+    const cutoff = timeInput.value || todayISO();
+    const banner = document.getElementById("timeBanner");
+    if(cutoff < todayISO()){
+      banner.classList.add("show");
+      banner.textContent = t.timeBanner(cutoff);
+    } else {
+      banner.classList.remove("show");
+    }
+
+    if(!loaded){
+      setLoading(t.noItems);
+      return;
+    }
+
+    const items = ITEMS.filter(d => (d.event_date || "0000-00-00") <= cutoff);
+    const reported = REPORTED.filter(d => (d.report_date || "0000-00-00") <= cutoff);
+    CURRENT_ITEMS_FILTERED = items;
+    CURRENT_REPORTED_FILTERED = reported;
+
+    /* stat sums */
+    const sum = (arr, f) => arr.reduce((a,d)=> a + (typeof f(d) === "number" ? f(d) : 0), 0);
+    const recoveredTotal = sum(items.filter(d=>d.category==="visszaszerzes" && d.status==="verified"), d=>d.amount_huf);
+    const recoveredCount = items.filter(d=>d.category==="visszaszerzes" && d.status==="verified").length;
+    const savedTotal = sum(items.filter(d=>d.category==="megtakaritas"), d=>d.amount_huf);
+    const euItems = items.filter(d=>d.category==="eu_forras" && d.status==="verified");
+    const euAgreed = sum(euItems, d=>euAgreedAt(d));
+    const euLostTotal = sum(euItems, d=>euLost(d));
+    const savedCount = items.filter(d=>d.category==="megtakaritas").length;
+    const euReceived = sum(euItems, d=>d.received_huf);
+
+    let reportedTotal = 0, reportedRecovered = 0;
+    const aggregateDoc = reported.find(d=> d.is_aggregate === true);
+    if(aggregateDoc){
+      reportedTotal = aggregateDoc.alleged_amount_huf || 0;
+      reportedRecovered = aggregateDoc.confirmed_recovered_huf || 0;
+    } else {
+      reportedTotal = sum(reported, d=>d.alleged_amount_huf);
+      reportedRecovered = sum(reported, d=>d.confirmed_recovered_huf);
+    }
+    const reportedPending = Math.max(reportedTotal - reportedRecovered, 0);
+    const reportedPct = reportedTotal>0 ? Math.round((reportedRecovered/reportedTotal)*100) : 0;
+
+    /* stat cards */
+    countUp(document.getElementById("statRecovered"), toMrd(recoveredTotal), v=>fmtInt(v)+" Mrd Ft");
+    document.getElementById("statRecoveredFoot").textContent = `${recoveredCount} ${t.tetel}`;
+    countUp(document.getElementById("statSaved"), toMrd(savedTotal), v=>fmtInt(v)+" Mrd Ft");
+    document.getElementById("statSavedFoot").textContent = `${savedCount} ${t.tetel}`;
+    countUp(document.getElementById("statReported"), toMrd(reportedTotal), v=>fmtInt(v)+" Mrd Ft");
+
+    /* reported donut */
+    const pendingFrac = reportedTotal>0 ? reportedPending/reportedTotal : 0;
+    const recoveredFrac = reportedTotal>0 ? reportedRecovered/reportedTotal : 0;
+    setDonutSegment("donutPending", pendingFrac, 0);
+    setDonutSegment("donutRecovered", recoveredFrac, pendingFrac);
+    countUp(document.getElementById("reportedPendingN"), toMrd(reportedPending), v=>fmtInt(v)+" Mrd Ft");
+    countUp(document.getElementById("reportedRecoveredN"), toMrd(reportedRecovered), v=>fmtInt(v)+" Mrd Ft");
+    document.getElementById("reportedPendingLabel").textContent = `${t.pendingLabel} (${reportedTotal>0?100-reportedPct:0}%)`;
+    document.getElementById("reportedRecoveredLabel").textContent = `${t.recoveredLabel} (${reportedPct}%)`;
+
+    /* eu split bar */
+    const euPct = euAgreed>0 ? Math.max((euReceived/euAgreed)*100, euReceived>0?4:0) : 0;
+    buildSplitBar("euBar", euAgreed>0, euPct,
+      euReceived>0?fmtMrd(euReceived):"", "received",
+      fmtMrd(euAgreed-euReceived), "agreed-rest");
+    countUp(document.getElementById("euAgreedN"), toMrd(euAgreed), v=>fmtInt(v)+" Mrd Ft");
+    countUp(document.getElementById("euReceivedN"), toMrd(euReceived), v=>fmtInt(v)+" Mrd Ft");
+    countUp(document.getElementById("euLostN"), toMrd(euLostTotal), v=>fmtInt(v)+" Mrd Ft");
+
+    /* category bars */
+    const maxVal = Math.max(recoveredTotal, savedTotal, euAgreed, 1);
+    const bars = document.getElementById("categoryBars").children;
+    const vals = [recoveredTotal, savedTotal, euAgreed];
+    const cols = ["var(--good)","var(--blue)","var(--eu)"];
+    for(let i=0;i<3;i++){
+      const barEl = bars[i].querySelector(".bar");
+      const h = Math.max((vals[i]/maxVal)*100, 3);
+      barEl.style.transitionDelay = prefersReducedMotion ? "0ms" : (i*90) + "ms";
+      barEl.style.height = h + "%";
+      barEl.style.background = cols[i];
+      barEl.style.color = cols[i];
+      if(!prefersReducedMotion){
+        barEl.classList.remove("pulse"); void barEl.offsetWidth; barEl.classList.add("pulse");
+        clearTimeout(barEl._pulseT);
+        barEl._pulseT = setTimeout(()=>barEl.classList.remove("pulse"), 1000 + i*90);
+      }
+      countUp(bars[i].querySelector(".bv"), toMrd(vals[i]), v=>fmtInt(v));
+    }
+
+    /* macro */
+    const macro = MACRO.find(m => (m.collected_at||"0000") <= (cutoff+"T23:59:59")) || MACRO[0];
+    CURRENT_MACRO = macro || null;
+    if(macro){
+      const sh = attachPrev(macroIndicators(macro).shown, macro);
+      const cell = (ind, valTxt, smallTxt) => { const ch = macroChange(ind);
+        return `<span class="${valueClass(ch)}">${valTxt}</span><small>${smallTxt}${ch?tickHtml(ch):""}</small>`; };
+      document.getElementById("macroDebt").innerHTML = cell(sh[0], `${fmtMrd(macro.allamadossag_huf)} Mrd Ft`, (macro.allamadossag_forras&&macro.allamadossag_forras.as_of_date)||"");
+      document.getElementById("macroInflYear").innerHTML = cell(sh[1], macro.inflacio_eves_szazalek!=null?macro.inflacio_eves_szazalek+"%":"–", macro.inflacio_eves_periodus||"");
+      document.getElementById("macroInflExp").innerHTML = cell(sh[2], macro.inflacio_varhato_eves_szazalek!=null?macro.inflacio_varhato_eves_szazalek+"%":"–", "MNB");
+    }
+
+    /* items table (merged: items + reported cases, most recent first) */
+    const reportedForTable = reported.filter(d => !d.is_aggregate);
+    const merged = [
+      ...items.map(d => ({kind:"item", data:d, sortDate:d.event_date || "0000-00-00"})),
+      ...reportedForTable.map(d => ({kind:"reported", data:d, sortDate:d.report_date || "0000-00-00"})),
+    ];
+    merged.sort((a,b) => a.sortDate < b.sortDate ? 1 : a.sortDate > b.sortDate ? -1 : 0);
+    const rows = merged.slice(0,10);
+    CURRENT_ROWS = rows;
+    document.getElementById("itemsBody").innerHTML = rows.length ? rows.map((row,idx)=>{
+      if(row.kind === "reported"){
+        const d = row.data;
+        const st = d.status || "";
+        const srcUrl = d.report_source && d.report_source.url;
+        return `<tr data-idx="${idx}" tabindex="0" role="button">
+          <td class="mono" data-label="${t.colDate}">${d.report_date||"–"}</td>
+          <td data-label="${t.colCategory}"><span class="cat-dot reported"><i></i>${t.catReportedCase}</span></td>
+          <td class="subject" data-label="${t.colSubject}">${d.subject||""}</td>
+          <td class="amount" data-label="${t.colAmount}">${fmtMrd(d.alleged_amount_huf)} ${t.mrd}</td>
+          <td data-label="${t.colStatus}"><span class="pill status-${st}">${t[REPORTED_STATUS_KEY[st]]||st}</span></td>
+          <td data-label="${t.colSource}">${srcUrl ? `<a class="src-link" href="${srcUrl}" target="_blank" rel="noopener">${lang==="hu"?"Forrás":"Source"} ↗</a>` : "–"}</td>
+        </tr>`;
+      }
+      const d = row.data;
+      const cat = d.category || "";
+      const st = d.status || "";
+      const amount = d.category==="eu_forras" ? euAgreedAt(d) : d.amount_huf;
+      return `<tr data-idx="${idx}" tabindex="0" role="button">
+        <td class="mono" data-label="${t.colDate}">${d.event_date||"–"}</td>
+        <td data-label="${t.colCategory}"><span class="cat-dot ${cat}"><i></i>${t[CAT_KEY[cat]]||cat}</span></td>
+        <td class="subject" data-label="${t.colSubject}">${d.subject||""}</td>
+        <td class="amount" data-label="${t.colAmount}">${fmtMrd(amount)} ${t.mrd}</td>
+        <td data-label="${t.colStatus}"><span class="pill status-${st}">${t[STATUS_KEY[st]]||st}</span></td>
+        <td data-label="${t.colSource}">${d.source_url ? `<a class="src-link" href="${d.source_url}" target="_blank" rel="noopener">${lang==="hu"?"Forrás":"Source"} ↗</a>` : "–"}</td>
+      </tr>`;
+    }).join("") : `<tr class="empty-row"><td colspan="6" class="empty">${t.noItems}</td></tr>`;
+  }
+
+  boot();
+})();
+</script>
+</body>
+</html>
+
+
+</body></html>

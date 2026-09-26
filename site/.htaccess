@@ -1,0 +1,5 @@
+# A beállítófájl és az esetleges adatbázisfájl közvetlenül nem tölthető le.
+<FilesMatch "^(counter-config(\.sample)?\.php|.*\.sqlite.*)$">
+  Require all denied
+</FilesMatch>
+Options -Indexes
