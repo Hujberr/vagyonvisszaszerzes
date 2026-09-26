@@ -1,12 +1,12 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-26T05:21:07+00:00",
+ "generated_at": "2026-09-26T10:06:24+00:00",
  "summary": {
   "megtakaritas_verified_huf": 940100000000,
-  "visszaszerzes_verified_huf": 1516570000000,
+  "visszaszerzes_verified_huf": 1520170000000,
   "eu_forras_verified_huf": 5986000000000,
   "eu_forras_lost_huf": 730000000000,
-  "items_count": 14,
+  "items_count": 16,
   "reported_cases_count": 20
  },
  "items": [
@@ -594,6 +594,88 @@
   {
    "additional_sources": [
     {
+     "name": "Telex",
+     "published_date": "2026-09-17",
+     "url": "https://telex.hu/belfold/2026/09/17/feljelentest-tett-a-kormany-a-mesterseges-intelligencia-kutato-kozpont-300-millio-forintos-allami-tamogatasa-miatt"
+    },
+    {
+     "name": "Economx",
+     "published_date": "2026-09-17",
+     "url": "https://www.economx.hu/belfold/2026/09/17/feljelentes-ruff-balint-miniszterelnokseg-mesterseges-intelligencia-kutato-kozpont/"
+    },
+    {
+     "name": "Index",
+     "published_date": "2026-09-17",
+     "url": "https://index.hu/belfold/2026/09/17/miniszterelnokseg-feljelentes-mesterseges-intelligencia-kutato-kozpont-allami-tamogatas/"
+    },
+    {
+     "name": "Portfolio.hu",
+     "published_date": "2026-09-17",
+     "url": "https://www.portfolio.hu/gazdasag/20260917/feljelentest-a-miniszterelnokseg-koltsegvetesi-csalas-es-hutlen-kezeles-gyanuja-miatt-863480"
+    }
+   ],
+   "amount_huf": 300000000,
+   "amount_text": "300 millió forint",
+   "category": "visszaszerzes",
+   "collected_at": "2026-09-26T12:02:00+02:00",
+   "currency_note": null,
+   "dedup_key": "visszaszerzes|mikk mesterseges intelligencia kutato kozpont|300000000",
+   "description": "A Mesterséges Intelligencia Kutató Központ 2026 márciusában, versenyeztetés nélkül elnyert 300 millió forintos állami támogatását a 2026-os választás után néhány nappal teljes egészében visszautalta az államnak, miután több kutató felmondott a tervezett projektből.",
+   "duplicate_of": null,
+   "event_date": "2026-04-14",
+   "from_whom": "Mesterséges Intelligencia Kutató Központ Kft.",
+   "source_name": "444.hu",
+   "source_published_date": "2026-09-17",
+   "source_url": "https://444.hu/2026/09/17/koltsegvetesi-csalas-es-hutlen-kezeles-gyanujaval-feljelentest-tett-a-miniszterelnokseg-a-mesterseges-intelligencia-kutato-kozpont-300-millios-tamogatasa-miatt",
+   "status": "verified",
+   "subject": "Mesterséges Intelligencia Kutató Központ (MIKK) — 2026-os állami támogatás visszafizetése",
+   "verification_notes": "ÚJ TÉTEL (2026-09-26 futás). Legalább öt független sajtóforrás (444.hu, Telex, Economx, Index, Portfolio) egyezően közli az eseményt. A MIKK a hivatalos kormany.hu feljelentési listán (l. reported_cases/reported-egyeb-miniszteriumi-18ugy-2026 gyűjtőtétel) 0,3 milliárd forintos tételként szerepel — ez a 300 millió forintos tétel TELJES egészében visszafizetésre került már 2026.04.14-én, még a formális feljelentés (2026.09.17.) előtt. A gyűjtő reported_cases tétel verification_notes mezőjében jelezve, hogy ez az egy komponens (MIKK) teljes mértékben megtérült.",
+   "id": "visszaszerzes-mikk-ai-kutatokozpont-2026-04"
+  },
+  {
+   "additional_sources": [
+    {
+     "name": "444.hu",
+     "published_date": "2026-07-31",
+     "url": "https://444.hu/2026/07/31/tarr-zoltan-mar-33-milliard-forintnal-is-tobb-kozpenzt-fizettek-vissza-az-nka-ideiglenes-kollegiumanak-tamogatasaibol"
+    },
+    {
+     "name": "Portfolio.hu",
+     "published_date": "2026-07-31",
+     "url": "https://www.portfolio.hu/gazdasag/20260731/ujabb-nka-s-milliardokat-utaltak-vissza-a-hanko-botrany-erintettjei-853288"
+    },
+    {
+     "name": "Népszava",
+     "published_date": "2026-07-31",
+     "url": "https://nepszava.hu/3330105_nemzeti-kulturalis-alap-hanko-balazs-botrany-orban-kormany-kulturalis-tamogatas-ner-penzvisszafizetes-allami-milliardok"
+    },
+    {
+     "name": "Index",
+     "published_date": "2026-07-25",
+     "url": "https://index.hu/kultur/2026/07/25/nka-tamogatas-visszafizetes-tarr-zoltan-kormany/"
+    }
+   ],
+   "amount_huf": 3300000000,
+   "amount_text": "több mint 3,3 milliárd forint",
+   "category": "visszaszerzes",
+   "collected_at": "2026-09-26T12:02:00+02:00",
+   "currency_note": null,
+   "dedup_key": "visszaszerzes|nka ideiglenes kollegium onkentes visszafizetes|3300000000",
+   "description": "A kulturális tárca felhívására, miután megkérdőjeleződött egyes NKA-támogatások jogszerűsége, a kedvezményezettek 2026 júliusának végéig önkéntesen összesen több mint 3,3 milliárd forintot fizettek vissza az államnak.",
+   "duplicate_of": null,
+   "event_date": "2026-07-31",
+   "from_whom": "A Nemzeti Kulturális Alap (NKA) ideiglenes kollégiumától a 2026-os választások előtt kulturális célra támogatást kapott szervezetek és magánszemélyek",
+   "source_name": "Telex",
+   "source_published_date": "2026-07-31",
+   "source_url": "https://telex.hu/belfold/2026/07/31/tarr-zoltan-nemzeti-kulturalis-alap-tamogatas-visszafizetes-3-3-milliard-forint",
+   "status": "verified",
+   "subject": "Nemzeti Kulturális Alap ideiglenes kollégiumának támogatásai — önkéntes visszafizetések",
+   "verification_notes": "ÚJ TÉTEL (2026-09-26 futás). Legalább öt független sajtóforrás (Telex, 444.hu, Portfolio, Népszava, Index) egyezően közli a 3,3+ milliárd forintos önkéntes visszafizetést. Ez az esemény MEGELŐZI és RÉSZBEN ÁTFEDI a reported_cases/reported-hanko-balazs-nka-sikkasztas-2026-09 tételben rögzített, 2026-09-22-én bejelentett büntetőeljárást (17,3 milliárd forint, 1079 pályázat, mentelmi jog felfüggesztésének indítványozása) — az önkéntes visszafizetés a tárca saját, korábbi felhívására indult, a Legfőbb Ügyészség büntetőeljárásától függetlenül. A kapcsolódó reported_cases tételt frissítettük: confirmed_recovered_huf 3,3 Mrd Ft-ra, státusz partially_recovered-re állítva.",
+   "id": "visszaszerzes-nka-hanko-onkentes-visszafizetes-2026-07"
+  },
+  {
+   "additional_sources": [
+    {
      "name": "Index",
      "published_date": "2026-08-08",
      "url": "https://index.hu/gazdasag/2026/08/08/vitezy-david-milliardok-meszaros-lorinc-visszafizetes-magantokealap-vagyonvisszaszerzes-lazar-janos/"
@@ -635,6 +717,33 @@
  ],
  "reported_cases": [
   {
+   "additional_sources": [
+    {
+     "name": "444.hu",
+     "published_date": "2026-09-23",
+     "url": "https://444.hu/2026/09/23/az-alapjogokert-kozpont-hattercegenel-tartott-hazkutatast-a-nemzeti-nyomozo-iroda"
+    },
+    {
+     "name": "Telex",
+     "published_date": "2026-09-23",
+     "url": "https://telex.hu/belfold/2026/09/23/alapjogokert-kozpont-reakcio-hazkutatas"
+    },
+    {
+     "name": "Átlátszó",
+     "published_date": "2026-09-24",
+     "url": "https://atlatszo.hu/impakt/2026/09/24/a-korozott-lengyel-politikus-ugyeben-tartottak-hazkutatast-az-alapjogokert-kozpontnal"
+    },
+    {
+     "name": "HVG",
+     "published_date": "2026-09-23",
+     "url": "https://hvg.hu/itthon/20260923_alapjookert-kozpont-hazkutatas-rendorseg-nemzeti-nyomozo-iroda-nni-marcin-romanowski"
+    },
+    {
+     "name": "Origo",
+     "published_date": "2026-09-23",
+     "url": "https://www.origo.hu/belpol/2026/09/alapjogokert-kozpont-hazkutatas-nyomozas-nni"
+    }
+   ],
    "alleged_amount_huf": null,
    "alleged_amount_text": "havi bruttó 3,5+ millió forint díjazás; összesített kár nem közölt",
    "confirmed_recovered_huf": 0,
@@ -649,7 +758,7 @@
    },
    "status": "under_investigation",
    "subject": "Alapjogokért Központ háttércége — Marcin Romanowski foglalkoztatása (hűtlen kezelés gyanúja)",
-   "verification_notes": "Egyetlen (Magyar Nemzet) forrásból ismert eddig; összesített kár/összeg nem ismert, csak a havi díjazás mértéke. Második független megerősítésre vár.",
+   "verification_notes": "Egyetlen (Magyar Nemzet) forrásból ismert eddig; összesített kár/összeg nem ismert, csak a havi díjazás mértéke. FRISSÍTVE 2026-09-26: legalább öt további független forrás (444.hu, Telex, Átlátszó, HVG, Origo) megerősítette a 2026-09-23-i házkutatást a Nemzeti Nyomozó Iroda részéről az Alapjogokért Központ háttércégénél, Marcin Romanowski lengyel politikus ügyében. Összesített forintösszeg továbbra sem ismert, csak a havi 3,5+ millió forintos díjazás.",
    "id": "reported-alapjogokert-kozpont-romanowski-2026-09"
   },
   {
@@ -679,7 +788,7 @@
    },
    "status": "reported",
    "subject": "E-ING elektronikus ingatlan-nyilvántartási rendszer — valótlan teljesítésigazolással kifizetett fejlesztés",
-   "verification_notes": "FRISSÍTVE 2026-09-26: két további független sajtóforrás (444.hu, Telex) is megerősítette ugyanazt a kb. 16 milliárd forintos E-ING ügyet, amit korábban csak a Portfolio.hu közölt. A kormany.hu/atlathato/feljelentes oldal ebben a futásban technikai okból (hálózati korlátozás) nem volt közvetlenül ellenőrizhető, ezért nem állapítható meg, hogy az ügy hivatalosan felkerült-e a listára; a status egyelőre marad 'reported'.",
+   "verification_notes": "FRISSÍTVE 2026-09-26: két további független sajtóforrás (444.hu, Telex) is megerősítette ugyanazt a kb. 16 milliárd forintos E-ING ügyet, amit korábban csak a Portfolio.hu közölt. FRISSÍTVE 2026-09-26 (második, aznapi ellenőrzés): a kormany.hu/atlathato/feljelentes oldal ebben a futásban sikeresen elérhető és teljeskörűen ellenőrizve lett (37 ügy, 2221 Mrd Ft, 2026-09-23-i állapot) — az E-ING ügy nem szerepel önálló tételként a hivatalos listán, a status ezért marad 'reported'.",
    "id": "reported-e-ing-ingatlan-nyilvantartas-2026-09"
   },
   {
@@ -697,7 +806,7 @@
    },
    "status": "under_investigation",
    "subject": "További 18 minisztériumi feljelentés (összeg egyenként nem publikált)",
-   "verification_notes": "FRISSÍTVE 2026-09-23 (esti futás): a kormany.hu hivatalos oldala (közvetlenül ellenőrizve ebben a futásban) 37 ügyet és 2221 Mrd Ft összesített értéket mutat (előző, reggeli futáskor: 32 ügy, 2216 Mrd Ft). Az 5 új tétel (Papp László Sportaréna, Puskás Aréna páholyok, BOK Sportcsarnok, HM Zrínyi Kft. MATASZ, Kovács Katalin Kajak-Kenu Akadémia) mind 2026.09.17–18-i dátummal került fel, összesen kb. 5,16 Mrd Ft név szerint azonosítható összeggel. Belső ellenőrzés: 640+360+63+60 (Eximbank) + 100 (M6, külön tételben) + 998,14 (ez a gyűjtő) = 2221,14 ≈ 2221 Mrd Ft hivatalos összesítő — konzisztens. A korábbi 22 tétel egyedi összegei az oldal mostani, pontosabb tizedesjegyekkel közölt értékeivel (pl. ortodox akadémia 38,229 Mrd, Observer 30,98 Mrd, Fradiváros 24,947 Mrd, Triton 4,229 Mrd, nyuszimotor 0,2392 Mrd) lényegében megegyeznek, érdemi eltérés nincs. [2026-09-25: a korábbi, technikai megjegyzést tartalmazó leírás: Az előző futásban rögzített 22 tétel (lélegeztetőgép-beszerzés 300 Mrd, Mohácsi Duna-híd előleg 155,8 Mrd, Kréta/Neptun/Poszeidón 100 Mrd, Gondosóra-program 100 Mrd, Waberer's MFB-finanszírozás 77 Mrd, OMSZ járműbeszerzés 70 Mrd, veglegestorles.hu 39,6 Mrd, ortodox akadémia 38,2 Mrd, Observer médiamonitoring 31 Mrd, Kommentár Alapítvány 27,8 Mrd, Fradivárosi projekt 24,9 Mrd, kínai kazánbeszerzés 10,5 Mrd, Triton Communications 4,2 Mrd, miniszteri delegatációs utazások 4 Mrd, Szuverenitásvédelmi Hivatal 3,67 Mrd, p2m/Balásy-csoport 3,3 Mrd, civil szervezetek 1,5 Mrd, Kárpát-medencei Tehetséggondozó 0,825 Mrd, MIKK 0,3 Mrd, nyuszimotor-vásárlások 0,239 Mrd, pénzügyminisztériumi támogatási visszaelés 0,09 Mrd, pártpropaganda/Tartalom Előkészítő Osztály 0,05 Mrd) mellett 2026-09-23-i ellenőrzéskor 5 ÚJ tétel jelent meg a hivatalos listán (mind 2026.09.17–18-i dátummal): Papp László Budapest Sportaréna tízéves bérbeadása (4,012 Mrd, Belügyminisztérium), Puskás Aréna – MLSZ-nek átengedett páholyok (1,01 Mrd, Belügyminisztérium), BOK Sportcsarnok – HADRAN-cégcsoport bérletei (0,13 Mrd, Belügyminisztérium), HM Zrínyi Kft. MATASZ elnökségi megbízási szerződések (0,00958 Mrd, Honvédelmi Minisztérium), Kovács Katalin Nemzeti Kajak-Kenu Akadémia Alapítvány (Belügyminisztérium, összeg nincs megadva). Az M6-os koncessziós ügy (100 Mrd) és a négy Eximbank-ügy (Egyiptom 640, Macedónia 360, Duna Aszfalt/Kongo 63, Sofitel 60 Mrd) továbbra is önálló reported_cases tételekben szerepelnek, nem ebben a gyűjtőben.]",
+   "verification_notes": "FRISSÍTVE 2026-09-23 (esti futás): a kormany.hu hivatalos oldala (közvetlenül ellenőrizve ebben a futásban) 37 ügyet és 2221 Mrd Ft összesített értéket mutat (előző, reggeli futáskor: 32 ügy, 2216 Mrd Ft). Az 5 új tétel (Papp László Sportaréna, Puskás Aréna páholyok, BOK Sportcsarnok, HM Zrínyi Kft. MATASZ, Kovács Katalin Kajak-Kenu Akadémia) mind 2026.09.17–18-i dátummal került fel, összesen kb. 5,16 Mrd Ft név szerint azonosítható összeggel. Belső ellenőrzés: 640+360+63+60 (Eximbank) + 100 (M6, külön tételben) + 998,14 (ez a gyűjtő) = 2221,14 ≈ 2221 Mrd Ft hivatalos összesítő — konzisztens. A korábbi 22 tétel egyedi összegei az oldal mostani, pontosabb tizedesjegyekkel közölt értékeivel lényegében megegyeznek, érdemi eltérés nincs. FRISSÍTVE 2026-09-26: a gyűjtőben szereplő MIKK (Mesterséges Intelligencia Központ támogatása, 0,3 Mrd Ft) tétel esetében kiderült, hogy az érintett cég a 300 millió forintos támogatást már 2026.04.14-én, a választás után pár nappal teljes egészében visszafizette az államnak (l. items/visszaszerzes-mikk-ai-kutatokozpont-2026-04) — ez a gyűjtőtétel egyetlen, azonosítottan teljes mértékben megtérült komponense; a többi 26 ügy státusza változatlan. Ismételt kormany.hu-ellenőrzés (2026-09-26): a 37 ügy / 2221 Mrd Ft állapot változatlan, új ügy nem jelent meg.",
    "id": "reported-egyeb-miniszteriumi-18ugy-2026"
   },
   {
@@ -775,19 +884,19 @@
   {
    "alleged_amount_huf": 17300000000,
    "alleged_amount_text": "17,3 milliárd forint (1079 pályázat/támogatás keretében)",
-   "confirmed_recovered_huf": 0,
+   "confirmed_recovered_huf": 3300000000,
    "description": "A Legfőbb Ügyészség 2026.09.22-én indítványozta Hankó Balázs korábbi kulturális és innovációs miniszter mentelmi jogának felfüggesztését, különösen jelentős vagyoni hátrányt okozó hűtlen kezelés gyanúja miatt. A gyanú szerint a Nemzeti Kulturális Alap (NKA) forrásait — 1079 pályázat/támogatás keretében, összesen 17,3 milliárd forint értékben — a törvényes kulturális célok helyett a 2026-os választási kampány finanszírozására fordította, megkerülve a rendes döntéshozatali eljárásokat.",
    "ministry": "Legfőbb Ügyészség (büntetőeljárás) — érintett korábbi tárca: Kulturális és Innovációs Minisztérium / Nemzeti Kulturális Alap",
-   "recovered_item_id": null,
+   "recovered_item_id": "visszaszerzes-nka-hanko-onkentes-visszafizetes-2026-07",
    "report_date": "2026-09-22",
    "report_source": {
     "name": "444.hu",
     "published_date": "2026-09-22",
     "url": "https://444.hu/2026/09/22/tizmilliardos-korrupcioval-gyanusitottak-meg-sesztakot-hankot-is-ot-es-tiz-ev-kozotti-tetelekkel-gyanusitja-a-legfobb-ugyeszseg"
    },
-   "status": "under_investigation",
+   "status": "partially_recovered",
    "subject": "Hankó Balázs korábbi kulturális miniszter — Nemzeti Kulturális Alap (NKA) forrásainak választási kampányra fordítása",
-   "verification_notes": "Több független forrás megerősíti (444.hu, Index, Telex, HVG, Economx, Klubrádió, Zsaruhírek — mind 2026-09-22/23). A mentelmi jog felfüggesztéséről az Országgyűlés akár már 2026-09-28-án dönthet. Nem szerepel a kormany.hu/atlathato/feljelentes hivatalos listáján (2026-09-24-i ellenőrzés szerint), mivel ez ügyészségi büntetőeljárás, nem kormányzati/minisztériumi feljelentés.",
+   "verification_notes": "Több független forrás megerősíti (444.hu, Index, Telex, HVG, Economx, Klubrádió, Zsaruhírek — mind 2026-09-22/23). A mentelmi jog felfüggesztéséről az Országgyűlés akár már 2026-09-28-án dönthet. Nem szerepel a kormany.hu/atlathato/feljelentes hivatalos listáján (2026-09-24-i ellenőrzés szerint), mivel ez ügyészségi büntetőeljárás, nem kormányzati/minisztériumi feljelentés. FRISSÍTVE 2026-09-26: kiderült, hogy a kulturális tárca (Tarr Zoltán) saját, korábbi felhívására a kedvezményezettek már 2026 július végéig önkéntesen több mint 3,3 milliárd forintot visszafizettek az NKA ideiglenes kollégiumának támogatásaiból (l. items/visszaszerzes-nka-hanko-onkentes-visszafizetes-2026-07) — ez a Legfőbb Ügyészség jelen (2026-09-22-i) büntetőeljárásától független, korábbi esemény, de ugyanazt az NKA-botrányt érinti. Emiatt confirmed_recovered_huf 3,3 milliárd forintra frissítve, a recovered_item_id a kapcsolódó items tételre mutat, a status partially_recovered-re változott (a teljes 17,3 milliárd forintos gyanúsított összeghez képest eddig csak részleges, önkéntes megtérülés történt).",
    "id": "reported-hanko-balazs-nka-sikkasztas-2026-09"
   },
   {
@@ -877,7 +986,7 @@
    },
    "status": "under_investigation",
    "subject": "Autópálya-koncesszió (MKIF, kb. az ország autópálya-hálózatának kétharmada) szerződésmódosítása",
-   "verification_notes": "FRISSÍTVE 2026-09-26: a Világgazdaság (2026-09-25) új dokumentumokra hivatkozva arról ír, hogy az M1-es autópálya Bicske–M0 közötti szakaszát is versenyeztetés nélkül, 'forgalomszervezési' indokkal adták át az MKIF-nek (Mészáros Lőrinc/Szíjj László érdekeltsége) — ez az MKIF-koncessziós ügy egy további, korábban nem rögzített részlete, önálló forintösszeg nélkül. Forrás: https://www.vg.hu/vilaggazdasag-magyar-gazdasag/2026/09/vitezy-david-mkif-m1-autopalya-meszaros-szijj-felvetel . Az előző megjegyzés (a nyomozás elrendeléséről, hűtlen kezelés/hivatali visszaélés gyanújával, 2026-09-21) változatlanul érvényes.",
+   "verification_notes": "FRISSÍTVE 2026-09-26: a Világgazdaság (2026-09-25) új dokumentumokra hivatkozva arról ír, hogy az M1-es autópálya Bicske–M0 közötti szakaszát is versenyeztetés nélkül, 'forgalomszervezési' indokkal adták át az MKIF-nek (Mészáros Lőrinc/Szíjj László érdekeltsége) — ez az MKIF-koncessziós ügy egy további, korábban nem rögzített részlete, önálló forintösszeg nélkül. Forrás: https://www.vg.hu/vilaggazdasag-magyar-gazdasag/2026/09/vitezy-david-mkif-m1-autopalya-meszaros-szijj-felvetel . FRISSÍTVE 2026-09-26 (második ellenőrzés): az Economx (2026-09-25) szerint a 2026-09-18-i felszámolási bejelentés óta már kb. 13 milliárd forint 'ketyeg'; korábbi elemzés szerint a koncesszorok már a beruházás elején 47,5 milliárd forintnyi osztalékot vettek ki a társaságból. Az előző megjegyzés (a nyomozás elrendeléséről, hűtlen kezelés/hivatali visszaélés gyanújával, 2026-09-21) változatlanul érvényes.",
    "id": "reported-mkif-autopalya-koncesszio-2026-09"
   },
   {
@@ -895,7 +1004,7 @@
    },
    "status": "reported",
    "subject": "MNB öt ingatlanjának korábbi (Matolcsy-korszakbeli) túlárazott megvásárlása",
-   "verification_notes": "Egyetlen forrásból (mfor.hu, 2026-09-03) ismert eddig; a publikálás a jelen futás 3 napos figyelési ablakán kívül esik, de a korábbi futások adattárában még nem szerepelt, ezért felvételre került. Nem szerepel a kormany.hu/atlathato/feljelentes hivatalos listáján (2026-09-25-i ellenőrzés szerint) — ez az MNB önálló jegybanki feljelentése, nem kormányzati/minisztériumi. Kapcsolódik, de különbözik a reported-mnb-matolcsy-alapitvanyok-2026-09 tételtől (az ottani ügy az MNB-alapítványokról és a 2026.09.22-23-i házkutatásokról/gyanúsítotti kihallgatásokról szól) — ez az öt konkrét ingatlan túlárazott megvásárlásáról. Második független forrás megerősítésére vár.",
+   "verification_notes": "Egyetlen forrásból (mfor.hu, 2026-09-03) ismert eddig; a publikálás a jelen futás 3 napos figyelési ablakán kívül esik, de a korábbi futások adattárában még nem szerepelt, ezért felvételre került. Nem szerepel a kormany.hu/atlathato/feljelentes hivatalos listáján (2026-09-25-i ellenőrzés szerint) — ez az MNB önálló jegybanki feljelentése, nem kormányzati/minisztériumi. Kapcsolódik, de különbözik a reported-mnb-matolcsy-alapitvanyok-2026-09 tételtől. FRISSÍTVE 2026-09-26: legalább öt további független forrás (Telex, 444.hu, Magyar Hang, Index, Mandiner — mind 2026-09-03) megerősíti az ügyet; egy további érintett ingatlan is azonosítható: Optimum-Omega Ingatlanbefektetési Kft. A pontos forintösszeg továbbra sem ismert.",
    "id": "reported-mnb-ingatlan-tularazas-2026-09"
   },
   {
@@ -986,7 +1095,7 @@
    },
    "status": "reported",
    "subject": "Századvég Alapítvány részére kifizetett kutatási/felmérési támogatások",
-   "verification_notes": "ÚJ TÉTEL (2026-09-26-i futás). Forrás: Telex interjú (2026-09-02), megerősítve Index (2026-09-02), Forbes.hu és több más portál egyező tartalommal. Az interjúban Ruff Bálint jövő idővel fogalmazott ('feljelentést fognak tenni'), ezért nem egyértelmű, hogy a formális feljelentés a mai napig megtörtént-e; a kormany.hu/atlathato/feljelentes hivatalos listáján 2026-09-26-i állapotban nem szerepel önálló Századvég-tételként. A 7,6 Mrd Ft (2026 Q1) konkrétan megnevezett összeg, a 20-30 Mrd Ft csak becslés több évre visszamenőleg — ezt a bizonytalanságot a leírásban is jelezni kell. Következő futásban ellenőrizendő, hogy felkerült-e a hivatalos listára és történt-e tényleges nyomozati lépés.",
+   "verification_notes": "ÚJ TÉTEL (2026-09-26-i futás). Forrás: Telex interjú (2026-09-02), megerősítve Index (2026-09-02), Forbes.hu és több más portál egyező tartalommal. Az interjúban Ruff Bálint jövő idővel fogalmazott ('feljelentést fognak tenni'), ezért nem egyértelmű, hogy a formális feljelentés a mai napig megtörtént-e; a kormany.hu/atlathato/feljelentes hivatalos listáján 2026-09-26-i állapotban nem szerepel önálló Századvég-tételként. A 7,6 Mrd Ft (2026 Q1) konkrétan megnevezett összeg, a 20-30 Mrd Ft csak becslés több évre visszamenőleg. FRISSÍTVE 2026-09-26 (esti ellenőrzés): a kormany.hu hivatalos feljelentési listáján (37 ügy) továbbra sincs önálló Századvég-tétel. Új fejlemény: a kormány 2026-09-09-én nyilvánosságra hozta az Orbán-kormányok korábban titkosított kormányhatározatainak első csomagját, amely a Századvégnek juttatott közpénzek jogalapját dokumentálja (kormany.hu/titkositott-kormanyhatarozatok) — ez alátámasztja az ügy hátterét, de önmagában nem minősül új feljelentésnek vagy összegadatnak.",
    "id": "reported-szazadveg-kutatasok-2026-09"
   },
   {
@@ -1004,7 +1113,7 @@
    },
    "status": "under_investigation",
    "subject": "Túlárazott Volán-buszbeszerzések (2015–2018)",
-   "verification_notes": "Rendőrségi (NNI) nyomozás, nem kormányzati/minisztériumi feljelentés, ezért nem szerepel a kormany.hu/atlathato/feljelentes hivatalos listáján (2026-09-24-i ellenőrzés szerint sem). Egyetlen forrásból (Portfolio, 2026-09-10) ismert eddig; a publikálás a jelen futás 3 napos figyelési ablakán kívül esik, de a korábbi futások adattárában még nem szerepelt, ezért felvételre került — második független forrás megerősítésére vár, ezért az ügy alapadatai state 'under_investigation', a hozzá tartozó összeg nincs hivatalosan megerősítve további forrásból.",
+   "verification_notes": "Rendőrségi (NNI) nyomozás, nem kormányzati/minisztériumi feljelentés, ezért nem szerepel a kormany.hu/atlathato/feljelentes hivatalos listáján. Egyetlen forrásból (Portfolio, 2026-09-10) ismert eddig a korábbi futásban. FRISSÍTVE 2026-09-26: legalább hét további független forrás (Telex, HVG, Index, Népszava, Origo, Zsaruhírek, Kecskemét365) megerősíti a 2026-09-10-i gyanúsítást (nyolc egykori vezető, köztük az MNV volt vezérigazgatója). Új részlet: a kecskeméti Volán-székház túlárazott megvásárlása önmagában legalább 550 millió forint kárt okozott, ez a kb. 10 milliárd forintos összkár része.",
    "id": "reported-volan-buszbeszerzes-2026-09"
   }
  ],
@@ -1015,7 +1124,7 @@
    "url": "https://magyarnemzet.hu/gazdasag/2026/09/allamadossag-novekedes"
   },
   "allamadossag_huf": 65716000000000,
-  "collected_at": "2026-09-25T23:45:00+02:00",
+  "collected_at": "2026-09-26T12:02:00+02:00",
   "elozo": {
    "allamadossag": {
     "period": null,
@@ -1057,7 +1166,7 @@
     "label_en": "Unemployment rate",
     "label_hu": "Munkanélküliségi ráta",
     "note_en": "229 thousand unemployed in August (men 4.5%, women 5.1%). The June–August three-month average was 4.8% (previous, May–July average: 4.6%). Employment fell by 21 thousand and unemployment rose by 7 thousand compared to July; 33.7% of jobseekers have been unemployed over a year.",
-    "note_hu": "229 ezer munkanélküli augusztusban (férfiak 4,5%, nők 5,1%). A június–augusztusi háromhavi átlag 4,8% volt (előző, május–jüliusi átlag: 4,6%). Júliushoz képest a foglalkoztatottak száma 21 ezerrel csökkent, a munkanélkülieké 7 ezerrel nőtt; a munkanélküliek 33,7%-a már egy évél régebb óta álláskereső.",
+    "note_hu": "229 ezer munkanélküli augusztusban (férfiak 4,5%, nők 5,1%). A június–augusztusi háromhavi átlag 4,8% volt (előző, május–júliusi átlag: 4,6%). Júliushoz képest a foglalkoztatottak száma 21 ezerrel csökkent, a munkanélkülieké 7 ezerrel nőtt; a munkanélküliek 33,7%-a már egy évnél régebb óta álláskereső.",
     "period": "2026-08",
     "prev_period": "2026-07",
     "prev_value": 4.5,
@@ -1091,7 +1200,7 @@
     "label_en": "Employment rate (aged 15–64)",
     "label_hu": "Foglalkoztatási ráta (15–64 évesek)",
     "note_en": "Essentially unchanged from the previous (May–July) period.",
-    "note_hu": "Az előző (május–jülius) időszakhoz képest gyakorlatilag változatlan.",
+    "note_hu": "Az előző (május–július) időszakhoz képest gyakorlatilag változatlan.",
     "period": "2026 június–augusztus",
     "prev_period": "2026 május–július",
     "prev_value": 75.3,
@@ -1124,18 +1233,18 @@
     "key": "eur_huf",
     "label_en": "Official EUR/HUF rate (MNB)",
     "label_hu": "Euró hivatalos árfolyama (MNB)",
-    "note_en": "USD: 321.8 HUF. No newer (09-25) fixing was available at the time of this run; 09-24 remains the latest known.",
-    "note_hu": "Dollár: 321,8 Ft. Ebben a futásban sem volt elérhető újabb (09-25-i) fixing, a 09-24-i az utolsó ismert.",
-    "period": "2026-09-24",
-    "prev_period": "2026-09-23",
-    "prev_value": 363.43,
+    "note_en": "USD: 319.89 HUF (2026-09-25 fixing).",
+    "note_hu": "Dollár: 319,89 Ft (2026-09-25-i fixing).",
+    "period": "2026-09-25",
+    "prev_period": "2026-09-24",
+    "prev_value": 366.24,
     "source": {
-     "name": "Portfolio Termínl (MNB hivatalos devizaárfolyam)",
-     "publish_date": "2026-09-24",
+     "name": "Portfolio Terminál (MNB hivatalos devizaárfolyam)",
+     "publish_date": "2026-09-25",
      "url": "https://terminal.portfolio.hu/tozsde-arfolyamok/mnb-fixing"
     },
     "unit": "Ft/EUR",
-    "value": 366.24
+    "value": 364.42
    },
    {
     "key": "brutto_atlagkereset",
@@ -1237,50 +1346,53 @@
    "publish_date": "2026-09-22",
    "url": "https://www.portfolio.hu/gazdasag/20260922/itt-az-mnb-uj-elorejelzese-hiaba-a-nemzetkozi-kockazatok-mersekelt-marad-az-idei-inflacio-864484"
   },
-  "id": "2026-09-25T23-45"
+  "id": "2026-09-26T12-02"
  },
  "last_run": {
   "errors": [
-   "Az MNB EUR/HUF hivatalos fixing új (2026-09-25/26-i) értéke nem volt megbízhatóan azonosítható a keresésben; a legutóbbi ismert (2026-09-24, 366,24 Ft/EUR) marad érvényben, új macro_snapshots dokumentum ebben a futásban nem készült, mert egyik mutatóban sem volt 2026-09-25 utáni új publikáció.",
-   "A Ruff Bálint-féle Századvég-ügy (Telex, 2026-09-02) új reported_cases tételként felvéve, de a formális feljelentés megtörténtének ténye nem egyértelmű (a miniszter jövő idővel beszélt); következő futásban ellenőrizendő.",
-   "Az M6 (Vitézy Dávid), Duna Aszfalt-kötvény és KEKVA-felszámolás tételekhez talált sajtóhírek mind már a meglévő, részletes items/reported_cases dokumentumokban szerepelnek, érdemi új adatot nem hoztak.",
-   "Az NVVH első 4 kiemelt ügyét 2026-09-28-án jelenti be a hivatal — még nincs konkrét adat, következő futásokban figyelendő."
+   "ÁKK (akk.hu) államadósság-adatra nem sikerült friss, közvetlen hivatalos adatot találni ebben a futásban; a 2026-07-31-i (Magyar Nemzet által ÁKK-ra hivatkozva közölt) érték maradt érvényben.",
+   "Direkt36, Klubrádió, Jelen, Trend FM, Új Egyenlőség, Media1, Forbes Magyarország, Válasz Online, Partizán, Élet és Irodalom, InfoStart, Mérce, MTI konkrét releváns találat nélkül ebben a futásban (a témák más portálokon keresztül lettek megerősítve)."
   ],
   "eu_lost_items_new": 0,
-  "finished_at": "2026-09-26T08:05:00+02:00",
-  "items_duplicate": 4,
-  "items_found_total": 6,
+  "finished_at": "2026-09-26T12:10:00+02:00",
+  "items_duplicate": 0,
+  "items_found_total": 17,
   "items_needs_review": 0,
-  "items_new": 0,
-  "reported_cases_new": 1,
-  "reported_cases_updated": 0,
+  "items_new": 2,
+  "reported_cases_new": 0,
+  "reported_cases_updated": 8,
   "sources_checked": [
-   "kormany.hu/atlathato/feljelentes (elérhető volt ebben a futásban; 37 ügy, 2221 Mrd Ft, változatlan a 2026-09-23-i állapothoz képest)",
-   "mnvvh.hu/hirek (nincs új konkrét ügyadat, csak vezetői kinevezések/álláshirdetések)",
-   "k-monitor.hu (keresés, nincs új releváns találat)",
-   "telex.hu",
+   "kormany.hu/atlathato/feljelentes",
+   "24.hu",
    "444.hu",
+   "168.hu",
+   "atlatszo.hu",
+   "telex.hu",
    "index.hu",
    "portfolio.hu",
+   "hvg.hu",
    "economx.hu",
    "vg.hu",
-   "hvg.hu",
-   "24.hu",
-   "168.hu",
-   "infostart.hu",
-   "penzcentrum.hu",
-   "privatbankar.hu",
-   "mfor.hu",
-   "origo.hu",
-   "magyarnemzet.hu",
-   "magyarhirlap.hu",
    "nepszava.hu",
-   "forbes.hu",
+   "origo.hu",
+   "mandiner.hu",
+   "mfor.hu",
+   "penzcentrum.hu",
+   "magyarnemzet.hu",
+   "hang.hu (Magyar Hang)",
    "okoshir.hu",
-   "ksh.hu (sajtón keresztül)",
-   "mnb.hu (sajtón keresztül)"
+   "zsaruhirek.hu",
+   "szmsz.press",
+   "napiujsag.hu",
+   "privatbankar.hu",
+   "szabadeuropa.hu",
+   "hu.euronews.com",
+   "terminal.portfolio.hu (MNB fixing)",
+   "k-monitor.hu (adatbazis, WebSearch)",
+   "mnvvh.hu/hirek",
+   "hirkereso.hu"
   ],
-  "started_at": "2026-09-26T07:15:00+02:00",
-  "id": "2026-09-26T07-15"
+  "started_at": "2026-09-26T11:55:00+02:00",
+  "id": "2026-09-26T12-02"
  }
 }
