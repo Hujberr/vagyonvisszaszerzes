@@ -1,13 +1,13 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-26T04:48:04+00:00",
+ "generated_at": "2026-09-26T05:21:07+00:00",
  "summary": {
   "megtakaritas_verified_huf": 940100000000,
   "visszaszerzes_verified_huf": 1516570000000,
   "eu_forras_verified_huf": 5986000000000,
   "eu_forras_lost_huf": 730000000000,
   "items_count": 14,
-  "reported_cases_count": 19
+  "reported_cases_count": 20
  },
  "items": [
   {
@@ -972,6 +972,24 @@
    "id": "reported-sesztak-miklos-korrupcio-2026-09"
   },
   {
+   "alleged_amount_huf": 7600000000,
+   "alleged_amount_text": "2026 január–március között több mint 7,6 milliárd forint; a miniszter becslése szerint az elmúlt években összesen 20-30 milliárd forint közpénz juthatott a Századvégnek",
+   "confirmed_recovered_huf": 0,
+   "description": "Ruff Bálint, a Miniszterelnökséget vezető miniszter 2026. szeptember 2-i interjújában elmondta, hogy az előző kormány 2026 január és március között több mint 7,6 milliárd forintot fizetett ki a Századvég Alapítványnak különféle tanulmányokért és felmérésekért, és becslése szerint az elmúlt években összesen 20-30 milliárd forint közpénz juthatott a szervezetnek. A miniszter jelezte, hogy az ügyben feljelentést fognak tenni.",
+   "ministry": "Miniszterelnökséget vezető minisztérium (Ruff Bálint)",
+   "recovered_item_id": null,
+   "report_date": "2026-09-02",
+   "report_source": {
+    "name": "Telex",
+    "published_date": "2026-09-02",
+    "url": "https://telex.hu/belfold/2026/09/02/ruff-balint-miniszterelnokseget-vezeto-miniszter-tisza-kormany-interju"
+   },
+   "status": "reported",
+   "subject": "Századvég Alapítvány részére kifizetett kutatási/felmérési támogatások",
+   "verification_notes": "ÚJ TÉTEL (2026-09-26-i futás). Forrás: Telex interjú (2026-09-02), megerősítve Index (2026-09-02), Forbes.hu és több más portál egyező tartalommal. Az interjúban Ruff Bálint jövő idővel fogalmazott ('feljelentést fognak tenni'), ezért nem egyértelmű, hogy a formális feljelentés a mai napig megtörtént-e; a kormany.hu/atlathato/feljelentes hivatalos listáján 2026-09-26-i állapotban nem szerepel önálló Századvég-tételként. A 7,6 Mrd Ft (2026 Q1) konkrétan megnevezett összeg, a 20-30 Mrd Ft csak becslés több évre visszamenőleg — ezt a bizonytalanságot a leírásban is jelezni kell. Következő futásban ellenőrizendő, hogy felkerült-e a hivatalos listára és történt-e tényleges nyomozati lépés.",
+   "id": "reported-szazadveg-kutatasok-2026-09"
+  },
+  {
    "alleged_amount_huf": 10000000000,
    "alleged_amount_text": "hozzávetőleg 10 milliárd forint vagyoni hátrány (608 használt busz túlárazott beszerzése), ezen belül a kecskeméti székházépület túlárazott megvásárlása külön legalább 550 millió forint vagyoni hátránnyal",
    "confirmed_recovered_huf": 0,
@@ -1223,58 +1241,46 @@
  },
  "last_run": {
   "errors": [
-   "A kormany.hu domain ebben a futásban a hálózati proxy szintjén blokkolva volt (EGRESS_BLOCKED), sem közvetlen WebFetch-csel, sem a kutató subagent által nem volt elérhető — a hivatalos feljelentési lista (37 ügy, 2221 Mrd Ft, 2026-09-23-i állapot) emiatt nem volt közvetlenül összevethető a mostani állapottal; a meglévő adatok érvényben maradnak. Közvetett (sajtó alapú) jelzés szerint várhatóan legalább egy új tétel (E-ING, kb. 16 Mrd Ft) került fel a listára, ezt jövő futásban hivatalos oldal-eléréssel kell megerősíteni.",
-   "Az mnvvh.hu szintén EGRESS_BLOCKED volt; közvetett keresés szerint az NVVH első 4 kiemelt ügyét csak 2026-09-28-án nevezi meg, konkrét adat még nincs.",
-   "Makro-pillanatkép nem készült ebben a futásban: a legutóbbi (2026-09-25 23:45) pillanatkép minden mutatóját (EUR/HUF, államadósság, infláció havi/éves/várható, GDP, munkanélküliség, keresetek, költségvetési hiány, alapkamat, adósság/GDP) ellenőriztük, egyikben sem volt 2026-09-25 utáni új publikáció — a legutóbbi pillanatkép marad érvényben.",
-   "A Direkt36/Telex 4iG-űrprogram feltárás (850 Mrd Ft-os, 2023-as, versenyeztetés nélküli szerződés) újságírói oknyomozás, eddig hatósági feljelentés vagy vizsgálat NÉLKÜL — a felhasználói szűrési szabály szerint (csak feljelentéssel/vizsgálattal rendelkező ügy kerül a reported_cases-be) egyelőre NEM került fel; figyelendő, hogy indul-e hozzá hatósági lépés.",
-   "Az NVVH 2026-09-28-i bejelentése (33 azonosított NER-mechanizmus, első 4 konkrét ügy) még nem tartalmaz nevesített ügyet vagy összeget, ezért egyelőre nem került az adattárba; a következő futásban (a bejelentés után) ellenőrizendő."
+   "Az MNB EUR/HUF hivatalos fixing új (2026-09-25/26-i) értéke nem volt megbízhatóan azonosítható a keresésben; a legutóbbi ismert (2026-09-24, 366,24 Ft/EUR) marad érvényben, új macro_snapshots dokumentum ebben a futásban nem készült, mert egyik mutatóban sem volt 2026-09-25 utáni új publikáció.",
+   "A Ruff Bálint-féle Századvég-ügy (Telex, 2026-09-02) új reported_cases tételként felvéve, de a formális feljelentés megtörténtének ténye nem egyértelmű (a miniszter jövő idővel beszélt); következő futásban ellenőrizendő.",
+   "Az M6 (Vitézy Dávid), Duna Aszfalt-kötvény és KEKVA-felszámolás tételekhez talált sajtóhírek mind már a meglévő, részletes items/reported_cases dokumentumokban szerepelnek, érdemi új adatot nem hoztak.",
+   "Az NVVH első 4 kiemelt ügyét 2026-09-28-án jelenti be a hivatal — még nincs konkrét adat, következő futásokban figyelendő."
   ],
   "eu_lost_items_new": 0,
-  "finished_at": "2026-09-26T06:47:00+02:00",
-  "items_duplicate": 0,
+  "finished_at": "2026-09-26T08:05:00+02:00",
+  "items_duplicate": 4,
   "items_found_total": 6,
   "items_needs_review": 0,
   "items_new": 0,
-  "reported_cases_new": 0,
-  "reported_cases_updated": 3,
+  "reported_cases_new": 1,
+  "reported_cases_updated": 0,
   "sources_checked": [
-   "kormany.hu/atlathato/feljelentes (EGRESS_BLOCKED, közvetlenül nem elérhető ebben a futásban)",
-   "mnvvh.hu/hirek (EGRESS_BLOCKED, közvetett kereséssel ellenőrizve)",
-   "k-monitor.hu (keresés)",
-   "index.hu",
+   "kormany.hu/atlathato/feljelentes (elérhető volt ebben a futásban; 37 ügy, 2221 Mrd Ft, változatlan a 2026-09-23-i állapothoz képest)",
+   "mnvvh.hu/hirek (nincs új konkrét ügyadat, csak vezetői kinevezések/álláshirdetések)",
+   "k-monitor.hu (keresés, nincs új releváns találat)",
    "telex.hu",
    "444.hu",
+   "index.hu",
    "portfolio.hu",
    "economx.hu",
    "vg.hu",
    "hvg.hu",
    "24.hu",
    "168.hu",
-   "atlatszo.hu",
-   "demokrata.hu",
-   "direkt36.hu",
-   "es.hu",
-   "hirtv.hu",
-   "jelen.media",
-   "klubradio.hu",
-   "magyarhang.org",
+   "infostart.hu",
+   "penzcentrum.hu",
+   "privatbankar.hu",
+   "mfor.hu",
+   "origo.hu",
    "magyarnemzet.hu",
-   "makronom.hu",
-   "mandiner.hu",
-   "media1.hu",
-   "merce.hu",
-   "szabadeuropa.hu",
-   "trendfm.hu",
-   "ujegyenloseg.hu",
-   "valaszonline.hu",
-   "partizan.hu",
+   "magyarhirlap.hu",
+   "nepszava.hu",
+   "forbes.hu",
    "okoshir.hu",
-   "szmo.hu",
-   "g7.hu",
    "ksh.hu (sajtón keresztül)",
    "mnb.hu (sajtón keresztül)"
   ],
-  "started_at": "2026-09-26T06:43:00+02:00",
-  "id": "2026-09-26T06-43"
+  "started_at": "2026-09-26T07:15:00+02:00",
+  "id": "2026-09-26T07-15"
  }
 }
