@@ -1,5 +1,11 @@
-# A beállítófájl és az esetleges adatbázisfájl közvetlenül nem tölthető le.
-<FilesMatch "^(counter-config(\.sample)?\.php|.*\.sqlite.*)$">
+# A beállítófájl, a belső PHP-fájlok és az adatbázisok közvetlenül nem tölthetők le.
+<FilesMatch "^(counter-config(\.sample)?\.php|push-lib\.php|push-keygen\.php|.*\.sqlite.*)$">
   Require all denied
 </FilesMatch>
 Options -Indexes
+AddType application/manifest+json .webmanifest
+<IfModule mod_headers.c>
+  <Files "sw.js">
+    Header set Cache-Control "no-cache"
+  </Files>
+</IfModule>

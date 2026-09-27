@@ -9,6 +9,21 @@ $h = fn($s) => htmlspecialchars((string)$s, ENT_QUOTES, 'UTF-8');
 
 if (isset($_GET['logout'])) { session_destroy(); header('Location: admin.php'); exit; }
 $err = '';
+/* Tesztértesítés: csak a bejelentkezett üzemeltető, csak a saját eszköze feliratkozására. */
+if ($_SERVER['REQUEST_METHOD'] === 'POST' && ($_POST['action'] ?? '') === 'testpush') {
+    header('Content-Type: application/json; charset=utf-8');
+    if (empty($_SESSION['ok'])) { http_response_code(403); echo '{"error":"forbidden"}'; exit; }
+    try {
+        require __DIR__ . '/push-lib.php';
+        $ep = (string)($_POST['endpoint'] ?? '');
+        $pdo = push_db($cfg);
+        $s = $pdo->prepare('SELECT 1 FROM subs WHERE endpoint = ?'); $s->execute([$ep]);
+        if (!$s->fetchColumn()) { echo '{"error":"not_subscribed"}'; exit; }
+        push_state_set($pdo, 'test:' . sha1($ep), (string)(time() + 300));
+        echo json_encode(push_send($pdo, $cfg, [$ep]));
+    } catch (Throwable $e) { http_response_code(500); echo '{"error":"failed"}'; }
+    exit;
+}
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     usleep(400000);
     if (($cfg['admin_password_hash'] ?? '') !== '' && password_verify((string)($_POST['pw'] ?? ''), $cfg['admin_password_hash'])) {
@@ -70,5 +85,27 @@ a{color:var(--ac)}.err{color:#FF3B6B}.kpi{display:flex;gap:14px;flex-wrap:wrap}.
     <table><tr><th>Nap</th><?php foreach ($hostList as $x) echo '<th>'.$h($x).'</th>'; ?><th>Összesen</th></tr>
     <?php foreach ($grid as $day => $row) { echo '<tr><td>'.$h($day).'</td>'; foreach ($hostList as $x) echo '<td>'.($row[$x] ?? 0).'</td>'; echo '<td>'.array_sum($row).'</td></tr>'; } ?>
     </table></div>
+  <div class="card"><h2>Push-értesítés</h2>
+    <?php
+      try { require_once __DIR__ . '/push-lib.php'; $subs = (int)push_db($cfg)->query('SELECT COUNT(*) FROM subs')->fetchColumn(); }
+      catch (Throwable $e) { $subs = null; }
+    ?>
+    <p>Feliratkozók: <b><?= $subs === null ? 'nincs beállítva' : number_format($subs, 0, ',', ' ') ?></b></p>
+    <p><button id="testPush" type="button">Tesztértesítés erre az eszközre</button> <span id="testPushMsg"></span></p>
+    <p style="color:var(--dim);font-size:12px">Előbb a honlapon a csengő ikonnal iratkozz fel ugyanebben a böngészőben.</p>
+  </div>
+  <script>
+  document.getElementById('testPush').addEventListener('click', async () => {
+    const m = document.getElementById('testPushMsg');
+    try {
+      const reg = await navigator.serviceWorker.getRegistration('./');
+      const sub = reg && await reg.pushManager.getSubscription();
+      if (!sub) { m.textContent = 'Ez az eszköz nincs feliratkozva.'; return; }
+      const r = await fetch('admin.php', {method: 'POST', body: new URLSearchParams({action: 'testpush', endpoint: sub.endpoint})});
+      const j = await r.json();
+      m.textContent = j.sent ? 'Elküldve.' : (j.error === 'not_subscribed' ? 'A feliratkozás nem található a szerveren.' : 'Sikertelen küldés.');
+    } catch (e) { m.textContent = 'Sikertelen küldés.'; }
+  });
+  </script>
 <?php endif; ?>
 </div></body></html>
