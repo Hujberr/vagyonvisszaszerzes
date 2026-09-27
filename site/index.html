@@ -134,6 +134,12 @@ window.SITE_CONFIG = {
   @keyframes vvBob{0%,100%{transform:translateY(0);opacity:.55;}50%{transform:translateY(4px);opacity:1;}}
   @media (prefers-reduced-motion: reduce){.app-act.pulse,.pwa-callout .arr{animation:none;}}
   .pwa-actions{display:flex;gap:10px;justify-content:flex-end;margin-top:14px;}
+  .pwa-app{display:flex;align-items:center;gap:12px;padding:12px;margin:0 0 6px;border:1px solid var(--border);border-radius:12px;background:var(--surface-2);}
+  .pwa-app img{width:52px;height:52px;border-radius:14px;flex:none;}
+  .pwa-app b{display:block;color:var(--text);font-size:14px;}
+  .pwa-app span{font-size:12.5px;}
+  .pwa-steps{margin:0 0 12px;padding-left:20px;color:var(--text);}
+  .pwa-steps li{margin:0 0 6px;}
   .pwa-actions .btn.primary{background:var(--accent);border-color:var(--accent);color:#04141F;}
   .pwa-actions .btn.primary.notify{background:var(--notify);border-color:var(--notify);color:#1F1300;}
   #timeBanner{display:none;background:var(--warn-bg);border-bottom:1px solid var(--warn-border);color:var(--warn);font-size:12.5px;text-align:center;padding:7px 12px;}
@@ -1863,7 +1869,7 @@ window.SITE_CONFIG = {
       showModalView(() => {
         $("modalTitle").textContent = title;
         const acts = (actions || [{ label:T().close, cls:"primary", fn:() => closeModal() }]);
-        $("modalBody").innerHTML = `<p>${html}</p><div class="pwa-actions">${acts.map((a, i) => `<button type="button" class="btn ${a.cls||""}" data-pwa="${i}">${a.label}</button>`).join("")}</div>`;
+        $("modalBody").innerHTML = `${html.startsWith("<") ? html : `<p>${html}</p>`}<div class="pwa-actions">${acts.map((a, i) => `<button type="button" class="btn ${a.cls||""}" data-pwa="${i}">${a.label}</button>`).join("")}</div>`;
         $("modalBody").querySelectorAll("[data-pwa]").forEach(b => b.addEventListener("click", () => acts[+b.dataset.pwa].fn(b)));
       }, { resetStack:true });
     }
@@ -1906,14 +1912,84 @@ window.SITE_CONFIG = {
 
     btnI.addEventListener("click", () => {
       hideCallout();
-      if(deferred){
-        const d = deferred; deferred = null;
-        d.prompt();
-        d.userChoice.then(c => { if(c.outcome === "accepted") lsSet(LS_INST, "1"); update(); }).catch(() => {});
-        return;
-      }
-      dialog(T().instTitle, isIos ? T().instIos : T().instOther);
+      installGuide();
     });
+
+    /* Részletes telepítési tájékoztató; közvetlen telepítésnél az alján „Telepítés” gomb. */
+    const UA = navigator.userAgent;
+    const browser = isIos ? (/CriOS/.test(UA) ? "ios-chrome" : /FxiOS/.test(UA) ? "ios-firefox" : /EdgiOS/.test(UA) ? "ios-edge" : "ios-safari")
+      : /OPR\/|OPiOS|Opera/.test(UA) ? "opera" : /SamsungBrowser/.test(UA) ? "samsung" : /Firefox/.test(UA) ? "firefox"
+      : /EdgA\//.test(UA) ? "edge" : "chrome";
+    const MANUAL = {
+      hu:{
+        "ios-safari":["Koppints alul a <b>Megosztás</b> gombra (négyzet felfelé mutató nyíllal).","Görgess le, és válaszd a <b>Főképernyőhöz adás</b> lehetőséget.","A név maradhat „Forintról forintra”; koppints a <b>Hozzáadás</b> gombra."],
+        "ios-chrome":["Koppints a címsor melletti <b>Megosztás</b> ikonra.","Válaszd a <b>Főképernyőhöz adás</b> lehetőséget (ha nem látod, a lista alján a <b>Továbbiak</b> alatt).","Koppints a <b>Hozzáadás</b> gombra. Ha a menüben nincs ilyen lehetőség, nyisd meg az oldalt Safariban."],
+        "ios-firefox":["Koppints a menüre (☰), majd a <b>Megosztás</b> lehetőségre.","Válaszd a <b>Főképernyőhöz adás</b> lehetőséget, majd a <b>Hozzáadás</b> gombot.","Ha nem találod, nyisd meg az oldalt Safariban."],
+        "ios-edge":["Koppints a menüre (…), majd a <b>Megosztás</b> lehetőségre.","Válaszd a <b>Főképernyőhöz adás</b> lehetőséget, majd a <b>Hozzáadás</b> gombot.","Ha nem találod, nyisd meg az oldalt Safariban."],
+        opera:["Koppints a jobb felső vagy jobb alsó <b>⋮</b> menüre.","Válaszd a <b>Hozzáadás a kezdőképernyőhöz</b> (vagy <b>Kezdőképernyő</b>) lehetőséget.","Hagyd jóvá a <b>Hozzáadás</b> gombbal. Ha nem működik, nyisd meg az oldalt Chrome-ban: ott egy koppintással telepíthető."],
+        firefox:["Koppints a <b>⋮</b> menüre.","Válaszd a <b>Hozzáadás a kezdőképernyőhöz</b> vagy a <b>Telepítés</b> lehetőséget.","Hagyd jóvá a <b>Hozzáadás</b> gombbal."],
+        samsung:["Koppints alul a <b>☰</b> menüre.","Válaszd a <b>Hozzáadás oldalhoz</b>, majd a <b>Kezdőképernyő</b> lehetőséget.","Hagyd jóvá a <b>Hozzáadás</b> gombbal."],
+        edge:["Koppints alul a <b>…</b> menüre.","Válaszd a <b>Hozzáadás a telefonhoz</b> vagy az <b>Alkalmazás telepítése</b> lehetőséget.","Hagyd jóvá a <b>Telepítés</b> gombbal."],
+        chrome:["Koppints a jobb felső <b>⋮</b> menüre.","Válaszd az <b>Alkalmazás telepítése</b> vagy a <b>Hozzáadás a kezdőképernyőhöz</b> lehetőséget.","Hagyd jóvá a <b>Telepítés</b> gombbal. Ha a menüben még nincs ilyen pont, görgess egy kicsit az oldalon, várj kb. fél percet, és próbáld újra."]
+      },
+      en:{
+        "ios-safari":["Tap <b>Share</b> at the bottom (the square with an upward arrow).","Scroll down and choose <b>Add to Home Screen</b>.","Keep the name “Forintról forintra” and tap <b>Add</b>."],
+        "ios-chrome":["Tap the <b>Share</b> icon next to the address bar.","Choose <b>Add to Home Screen</b> (if missing, look under <b>More</b>).","Tap <b>Add</b>. If the option isn't there, open the page in Safari."],
+        "ios-firefox":["Tap the menu (☰), then <b>Share</b>.","Choose <b>Add to Home Screen</b>, then <b>Add</b>.","If you can't find it, open the page in Safari."],
+        "ios-edge":["Tap the menu (…), then <b>Share</b>.","Choose <b>Add to Home Screen</b>, then <b>Add</b>.","If you can't find it, open the page in Safari."],
+        opera:["Tap the <b>⋮</b> menu.","Choose <b>Add to Home screen</b>.","Confirm with <b>Add</b>. If it doesn't work, open the page in Chrome, where it installs with one tap."],
+        firefox:["Tap the <b>⋮</b> menu.","Choose <b>Add to Home screen</b> or <b>Install</b>.","Confirm with <b>Add</b>."],
+        samsung:["Tap the <b>☰</b> menu at the bottom.","Choose <b>Add page to</b>, then <b>Home screen</b>.","Confirm with <b>Add</b>."],
+        edge:["Tap the <b>…</b> menu at the bottom.","Choose <b>Add to phone</b> or <b>Install app</b>.","Confirm with <b>Install</b>."],
+        chrome:["Tap the <b>⋮</b> menu at the top right.","Choose <b>Install app</b> or <b>Add to Home screen</b>.","Confirm with <b>Install</b>. If the option isn't there yet, scroll a little, wait about half a minute and try again."]
+      }
+    };
+    const GUIDE = {
+      hu:{ look:"Így fog kinézni a telefonodon.", h1:"Mit kapsz?",
+        what:"Az oldal saját ikonnal, címsor nélkül, teljes képernyőn nyílik meg, mint egy app. Mindig a legfrissebb adatokat mutatja, külön frissíteni nem kell, és alig foglal helyet. Az adatok betöltéséhez internetkapcsolat kell.",
+        h2:"Hol találod meg?",
+        where:"A telepítés 1–2 percig is eltarthat. Ha az ikon nem jelenik meg a kezdőképernyőn, keresd az <b>alkalmazások listájában</b> (app drawer) „Forintról forintra” néven; onnan hosszan nyomva kihúzhatod a kezdőképernyőre.",
+        perm:"Xiaomi, Redmi, POCO, Huawei, Honor, Oppo, Realme és Vivo telefonokon a böngészőnek külön engedély kellhet a kezdőképernyőre tett ikonhoz: <i>Beállítások → Alkalmazások → (böngésző) → Engedélyek → Parancsikonok a kezdőképernyőn</i>. Engedélyezés után telepítsd újra.",
+        h3:"Melyik böngészőben?",
+        brw:"Egy koppintással telepíthető: <b>Chrome, Edge, Samsung Internet</b> (Android). Kézzel adható hozzá: <b>Opera, Firefox</b>, valamint <b>iPhone és iPad</b> (Safari).",
+        h4:"Eltávolítás", rem:"Mint bármely appot: hosszan nyomd meg az ikont, és válaszd az <b>Eltávolítás</b> lehetőséget.",
+        manualH:"Így teheted ki ebben a böngészőben", manualNote:"Ebben a böngészőben az oldal nem tudja közvetlenül elindítani a telepítést, ezért kézzel kell hozzáadni. Nem bonyolult:",
+        iosNote:"iPhone-on és iPaden az Apple nem engedi, hogy egy honlap maga indítsa a telepítést, ezért kézzel kell hozzáadni:",
+        installBtn:"Telepítés", ok:"Rendben",
+        started:"A telepítés elindult. 1–2 perc múlva megtalálod a kezdőképernyőn vagy az alkalmazások listájában „Forintról forintra” néven.",
+        declined:"A telepítés nem történt meg. Bármikor újrapróbálhatod a telepítő ikonnal." },
+      en:{ look:"This is how it will look on your phone.", h1:"What you get",
+        what:"The page opens full screen with its own icon and no address bar, like an app. It always shows the latest data, needs no updating and takes up very little space. An internet connection is needed to load the data.",
+        h2:"Where to find it",
+        where:"Installation can take 1–2 minutes. If the icon doesn't appear on your home screen, look for “Forintról forintra” in the <b>app list</b> (app drawer); long-press it there to drag it to the home screen.",
+        perm:"On Xiaomi, Redmi, POCO, Huawei, Honor, Oppo, Realme and Vivo phones the browser may need a separate permission for home screen icons: <i>Settings → Apps → (browser) → Permissions → Home screen shortcuts</i>. Allow it and install again.",
+        h3:"Which browser?",
+        brw:"One-tap install: <b>Chrome, Edge, Samsung Internet</b> (Android). Manual: <b>Opera, Firefox</b>, and <b>iPhone and iPad</b> (Safari).",
+        h4:"Removing it", rem:"Like any app: long-press the icon and choose <b>Uninstall</b> or <b>Remove</b>.",
+        manualH:"How to add it in this browser", manualNote:"This browser doesn't let the page start the installation directly, so it has to be added manually. It's easy:",
+        iosNote:"On iPhone and iPad, Apple doesn't allow a website to start the installation itself, so it has to be added manually:",
+        installBtn:"Install", ok:"OK",
+        started:"Installation has started. In 1–2 minutes you'll find it on your home screen or in the app list as “Forintról forintra”.",
+        declined:"Nothing was installed. You can try again any time with the install icon." }
+    };
+    function installGuide(){
+      const g = GUIDE[lang] || GUIDE.hu, direct = !!deferred;
+      const steps = (MANUAL[lang] || MANUAL.hu)[browser];
+      const head = `<div class="pwa-app"><img src="icon-192.png" alt=""><div><b>Forintról forintra</b><span>${g.look}</span></div></div>`;
+      const manual = direct ? "" : `<h5>${g.manualH}</h5><p>${isIos ? g.iosNote : g.manualNote}</p><ol class="pwa-steps">${steps.map(x => `<li>${x}</li>`).join("")}</ol>`;
+      const html = head + manual +
+        `<h5>${g.h1}</h5><p>${g.what}</p><h5>${g.h2}</h5><p>${g.where}</p>` + (isIos ? "" : `<p>${g.perm}</p>`) +
+        `<h5>${g.h3}</h5><p>${g.brw}</p><h5>${g.h4}</h5><p>${g.rem}</p>`;
+      const acts = direct
+        ? [{ label:g.installBtn, cls:"primary", fn:() => {
+              const d = deferred; if(!d){ closeModal(); return; }
+              deferred = null; d.prompt();
+              d.userChoice.then(c => { if(c.outcome === "accepted") lsSet(LS_INST, "1"); update(); result(c.outcome === "accepted" ? g.started : g.declined); })
+                .catch(() => result(g.declined));
+            } }]
+        : [{ label:g.ok, cls:"primary", fn:() => closeModal() }];
+      dialog(T().instTitle, html, acts);
+    }
     btnN.addEventListener("click", () => {
       hideCallout();
       if(!C.pushEnabled) return dialog(T().nTitle, T().nSoon);
