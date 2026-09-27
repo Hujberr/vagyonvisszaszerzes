@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-27T04:01:55+00:00",
+ "generated_at": "2026-09-27T10:02:18+00:00",
  "summary": {
   "megtakaritas_verified_huf": 987800000000,
   "visszaszerzes_verified_huf": 1520170000000,
@@ -1201,7 +1201,7 @@
    "url": "https://magyarnemzet.hu/gazdasag/2026/09/allamadossag-novekedes"
   },
   "allamadossag_huf": 65716000000000,
-  "collected_at": "2026-09-27T05:55:00+02:00",
+  "collected_at": "2026-09-27T12:00:00+02:00",
   "elozo": {
    "allamadossag": {
     "period": null,
@@ -1242,7 +1242,7 @@
     "key": "munkanelkulisegi_rata",
     "label_en": "Unemployment rate",
     "label_hu": "Munkanélküliségi ráta",
-    "note_en": "229 thousand unemployed in August (men 4.5%, women 5.1%). The June–August three-month average was 4.8% (previous, May–July average: 4.6%). Employment fell by 21 thousand and unemployment rose by 7 thousand compared to July; 33.7% of jobseekers have been unemployed over a year.",
+    "note_en": "229 thousand unemployed in August (men 4.5%, women 5.1%). The June–August three-month average was 4.8% (previous, May–July average: 4.6%).",
     "note_hu": "229 ezer munkanélküli augusztusban (férfiak 4,5%, nők 5,1%). A június–augusztusi háromhavi átlag 4,8% volt (előző, május–júliusi átlag: 4,6%). Júliushoz képest a foglalkoztatottak száma 21 ezerrel csökkent, a munkanélkülieké 7 ezerrel nőtt; a munkanélküliek 33,7%-a már egy évnél régebb óta álláskereső.",
     "period": "2026-08",
     "prev_period": "2026-07",
@@ -1310,8 +1310,8 @@
     "key": "eur_huf",
     "label_en": "Official EUR/HUF rate (MNB)",
     "label_hu": "Euró hivatalos árfolyama (MNB)",
-    "note_en": "USD: 319.89 HUF (2026-09-25 fixing). No new fixing is published over the September 26–27 weekend.",
-    "note_hu": "Dollár: 319,89 Ft (2026-09-25-i fixing). 2026-09-26 és 27 hétvégére esik, munkaszüneti napon az MNB nem tesz közzé új fixinget.",
+    "note_en": "USD: 319.89 HUF (2026-09-25 fixing). No newer, verifiable fixing found as of this run (Saturday, 2026-09-27).",
+    "note_hu": "Dollár: 319,89 Ft (2026-09-25-i fixing). Ebben a futásban (2026-09-27, szombat) nem jelent meg újabb, ellenőrizhető fixing.",
     "period": "2026-09-25",
     "prev_period": "2026-09-24",
     "prev_value": 366.24,
@@ -1376,7 +1376,7 @@
     "key": "kozponti_alrendszer_hiany",
     "label_en": "Central government deficit (year to date)",
     "label_hu": "Központi alrendszer hiánya (év eleje óta)",
-    "note_en": "72.7% of the revised annual target (7,109.5 bn HUF). August deficit alone was 2,311.2 bn HUF, mainly due to RRF pre-financing.",
+    "note_en": "72.7% of the revised annual target (7,109.5 bn HUF).",
     "note_hu": "A módosított éves hiánycél (7 109,5 Mrd Ft) 72,7%-a. Az augusztusi havi hiány 2 311,2 Mrd Ft volt, döntően a helyreállítási alap (RRF) előfinanszírozása miatt.",
     "period": "2026 január–augusztus",
     "prev_period": "2026 január–július",
@@ -1423,43 +1423,44 @@
    "publish_date": "2026-09-22",
    "url": "https://www.portfolio.hu/gazdasag/20260922/itt-az-mnb-uj-elorejelzese-hiaba-a-nemzetkozi-kockazatok-mersekelt-marad-az-idei-inflacio-864484"
   },
-  "id": "2026-09-27T05-55"
+  "id": "2026-09-27T12-00"
  },
  "last_run": {
   "errors": [
-   "Az akk.hu statisztikai oldala (allamadossag-finanszirozas) ebben a futásban nem töltötte be az aktuális számadatokat (JS-alapú tartalom), ezért az államadósság-adat változatlanul a 2026-07-31-i (Magyar Nemzet/ÁKK) állapot maradt."
+   "A hvg360 'NER 33 mutyigyanús ügye' cikk (2026-09-24) fizetőfal miatt csak részben volt olvasható a WebFetch-csel; a benne hivatkozott teljes 33-ügyes táblázat nem volt kinyerhető, ezért nem került feldolgozásra.",
+   "Az mnvvh.hu/hirek oldalon a legutóbbi konkrét ügyről szóló hír 2026-08-28-i (a többi friss bejegyzés állásajánlat), új konkrét ügy/összeg nem jelent meg.",
+   "A hirkereso.hu Politika/Gazdaság rovatában ebben a futásban nem volt új, még nem rögzített, konkrét ügyet/összeget tartalmazó cikk."
   ],
   "eu_lost_items_new": 0,
-  "finished_at": "2026-09-27T06:01:00+02:00",
-  "items_duplicate": 0,
-  "items_found_total": 8,
+  "finished_at": "2026-09-27T12:15:00+02:00",
+  "items_duplicate": 16,
+  "items_found_total": 16,
   "items_needs_review": 0,
-  "items_new": 1,
+  "items_new": 0,
   "reported_cases_new": 0,
-  "reported_cases_updated": 2,
+  "reported_cases_updated": 0,
   "sources_checked": [
    "kormany.hu/atlathato/feljelentes",
-   "k-monitor.hu (WebSearch)",
-   "hirkereso.hu",
-   "mnvvh.hu/hirek",
-   "Telex",
+   "telex.hu",
    "444.hu",
-   "Portfolio.hu",
-   "Index",
-   "HVG",
-   "Világgazdaság",
-   "Economx",
-   "Népszava",
-   "Origo",
-   "Pénzcentrum",
+   "hvg.hu",
+   "portfolio.hu",
+   "index.hu",
+   "economx.hu",
+   "infostart.hu",
+   "vg.hu",
+   "forbes.hu",
+   "nepszava.hu",
    "mfor.hu",
-   "Privátbankár",
-   "Bankmonitor.hu",
-   "Növekedés.hu",
-   "MNB (mnb.hu/arfolyamok)",
-   "ÁKK (akk.hu)"
+   "penzcentrum.hu",
+   "atlatszo.hu",
+   "privatbankar.hu",
+   "k-monitor.hu",
+   "mnvvh.hu",
+   "hirkereso.hu",
+   "integritashatosag.hu"
   ],
-  "started_at": "2026-09-27T05:55:00+02:00",
-  "id": "2026-09-27T05-55"
+  "started_at": "2026-09-27T11:56:00+02:00",
+  "id": "2026-09-27T12-00"
  }
 }
