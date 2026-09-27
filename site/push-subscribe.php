@@ -51,12 +51,15 @@ try {
     if (($in['action'] ?? '') === 'subscribe') {
         if ((int)$pdo->query('SELECT COUNT(*) FROM subs')->fetchColumn() > 100000) out(['error' => 'full'], 503);
         $lang = ($in['lang'] ?? '') === 'en' ? 'en' : 'hu';
+        $x = $pdo->prepare('SELECT 1 FROM subs WHERE endpoint = ?'); $x->execute([$ep]);
+        if (!$x->fetchColumn()) push_log($pdo, 'new');
         $pdo->prepare('INSERT INTO subs (endpoint, lang, created) VALUES (?, ?, ?)
             ON CONFLICT(endpoint) DO UPDATE SET lang = excluded.lang')->execute([$ep, $lang, gmdate('c')]);
         out(['ok' => true]);
     }
     if (($in['action'] ?? '') === 'unsubscribe') {
-        $pdo->prepare('DELETE FROM subs WHERE endpoint = ?')->execute([$ep]);
+        $d = $pdo->prepare('DELETE FROM subs WHERE endpoint = ?'); $d->execute([$ep]);
+        push_log($pdo, 'unsub', $d->rowCount());
         out(['ok' => true]);
     }
     out(['error' => 'bad_request'], 400);

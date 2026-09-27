@@ -16,6 +16,7 @@ function push_db(array $cfg): PDO {
     $pdo->exec('PRAGMA journal_mode=WAL');
     $pdo->exec('CREATE TABLE IF NOT EXISTS subs (endpoint TEXT PRIMARY KEY, lang TEXT NOT NULL DEFAULT "hu", created TEXT NOT NULL)');
     $pdo->exec('CREATE TABLE IF NOT EXISTS state (k TEXT PRIMARY KEY, v TEXT NOT NULL)');
+    $pdo->exec('CREATE TABLE IF NOT EXISTS sub_log (day TEXT NOT NULL, kind TEXT NOT NULL, n INTEGER NOT NULL DEFAULT 0, PRIMARY KEY (day, kind))');
     return $pdo;
 }
 
@@ -25,6 +26,13 @@ function push_state_get(PDO $pdo, string $k): ?string {
 }
 function push_state_set(PDO $pdo, string $k, string $v): void {
     $pdo->prepare('INSERT INTO state (k, v) VALUES (?, ?) ON CONFLICT(k) DO UPDATE SET v = excluded.v')->execute([$k, $v]);
+}
+
+/* Napi feliratkozási napló: new | unsub | gone (a böngésző megszüntette). */
+function push_log(PDO $pdo, string $kind, int $n = 1): void {
+    if ($n < 1) return;
+    $day = (new DateTime('now', new DateTimeZone('Europe/Budapest')))->format('Y-m-d');
+    $pdo->prepare('INSERT INTO sub_log (day, kind, n) VALUES (?, ?, ?) ON CONFLICT(day, kind) DO UPDATE SET n = n + excluded.n')->execute([$day, $kind, $n]);
 }
 
 function push_valid_endpoint(string $ep): bool {
@@ -82,5 +90,6 @@ function push_send(PDO $pdo, array $cfg, ?array $endpoints = null): array {
         elseif ($c === 404 || $c === 410) { $del->execute([$ep]); $gone++; }
         else $fail++;
     }
+    push_log($pdo, 'gone', $gone);
     return ['sent' => $ok, 'removed' => $gone, 'failed' => $fail];
 }

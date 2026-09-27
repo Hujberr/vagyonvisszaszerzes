@@ -85,12 +85,69 @@ a{color:var(--ac)}.err{color:#FF3B6B}.kpi{display:flex;gap:14px;flex-wrap:wrap}.
     <table><tr><th>Nap</th><?php foreach ($hostList as $x) echo '<th>'.$h($x).'</th>'; ?><th>Összesen</th></tr>
     <?php foreach ($grid as $day => $row) { echo '<tr><td>'.$h($day).'</td>'; foreach ($hostList as $x) echo '<td>'.($row[$x] ?? 0).'</td>'; echo '<td>'.array_sum($row).'</td></tr>'; } ?>
     </table></div>
+  <?php
+    $n = fn($x) => number_format((int)$x, 0, ',', ' ');
+    $sq = function ($sql, $p = []) use ($pdo) { try { $s = $pdo->prepare($sql); $s->execute($p); return $s->fetchAll(PDO::FETCH_ASSOC); } catch (Throwable $e) { return []; } };
+    $evTot = []; foreach ($sq('SELECT ev, COUNT(*) c FROM install_events GROUP BY ev') as $r) $evTot[$r['ev']] = (int)$r['c'];
+    $evPer = []; foreach ($sq('SELECT ev, COUNT(*) c FROM install_events WHERE day >= ? GROUP BY ev', [$since]) as $r) $evPer[$r['ev']] = (int)$r['c'];
+    $evBr = $sq('SELECT browser, platform,
+        SUM(ev = "installed") inst, SUM(ev = "first_app") firsts, SUM(ev = "guide") guide
+        FROM install_events WHERE day >= ? GROUP BY browser, platform ORDER BY firsts DESC, inst DESC', [$since]);
+    $appPer = $sq('SELECT COUNT(*) u, COALESCE(SUM(hits),0) v FROM app_visits WHERE day >= ?', [$since])[0] ?? ['u' => 0, 'v' => 0];
+    $appDaily = [];
+    foreach ($sq('SELECT day, COUNT(*) u, SUM(hits) v FROM app_visits WHERE day >= ? GROUP BY day', [$since]) as $r) $appDaily[$r['day']] = ['u' => $r['u'], 'v' => $r['v']];
+    foreach ($sq('SELECT day, COUNT(*) f FROM install_events WHERE ev = "first_app" AND day >= ? GROUP BY day', [$since]) as $r) $appDaily[$r['day']]['f'] = $r['f'];
+    krsort($appDaily);
+    $brName = ['chrome' => 'Chrome', 'edge' => 'Edge', 'samsung' => 'Samsung Internet', 'opera' => 'Opera', 'firefox' => 'Firefox',
+        'ios-safari' => 'Safari (iPhone)', 'ios-chrome' => 'Chrome (iPhone)', 'ios-firefox' => 'Firefox (iPhone)', 'ios-edge' => 'Edge (iPhone)', 'egyeb' => 'Egyéb'];
+  ?>
+  <div class="card"><h2>Kezdőképernyős app</h2>
+    <div class="kpi">
+      <div>Első app-indítás (telepítés), összesen<b><?= $n($evTot['first_app'] ?? 0) ?></b></div>
+      <div>Első app-indítás, utolsó <?= $days ?> nap<b><?= $n($evPer['first_app'] ?? 0) ?></b></div>
+      <div>Igazolt telepítés (Chrome, Edge, Samsung), utolsó <?= $days ?> nap<b><?= $n($evPer['installed'] ?? 0) ?></b></div>
+      <div>Kézi útmutató megnyitva, utolsó <?= $days ?> nap<b><?= $n($evPer['guide'] ?? 0) ?></b></div>
+      <div>App-használat, napi egyedi, utolsó <?= $days ?> nap<b><?= $n($appPer['u']) ?></b></div>
+      <div>App-megnyitás, utolsó <?= $days ?> nap<b><?= $n($appPer['v']) ?></b></div>
+    </div>
+    <p style="color:var(--dim);font-size:12px">Az első app-indítás minden platformon mér (iPhone-on is), ez a legjobb telepítésszám. Az igazolt telepítést csak a Chrome, az Edge és a Samsung Internet jelzi. A kézi útmutató megnyitása érdeklődést mutat, nem telepítést. Az app-használat a nyilvános látogatószámban is benne van.</p>
+  </div>
+  <?php if ($evBr): ?>
+  <div class="card"><h2>Böngészőnként (utolsó <?= $days ?> nap)</h2>
+    <table><tr><th>Böngésző</th><th>Platform</th><th>Első app-indítás</th><th>Igazolt telepítés</th><th>Kézi útmutató</th></tr>
+    <?php foreach ($evBr as $r) echo '<tr><td>'.$h($brName[$r['browser']] ?? $r['browser']).'</td><td>'.$h(['android' => 'Android', 'ios' => 'iPhone / iPad'][$r['platform']] ?? 'Egyéb').'</td><td>'.(int)$r['firsts'].'</td><td>'.(int)$r['inst'].'</td><td>'.(int)$r['guide'].'</td></tr>'; ?>
+    </table></div>
+  <?php endif; ?>
+  <?php if ($appDaily): ?>
+  <div class="card"><h2>App napi bontás</h2>
+    <table><tr><th>Nap</th><th>Egyedi app-használó</th><th>App-megnyitás</th><th>Első app-indítás</th></tr>
+    <?php foreach ($appDaily as $d => $r) echo '<tr><td>'.$h($d).'</td><td>'.(int)($r['u'] ?? 0).'</td><td>'.(int)($r['v'] ?? 0).'</td><td>'.(int)($r['f'] ?? 0).'</td></tr>'; ?>
+    </table></div>
+  <?php endif; ?>
   <div class="card"><h2>Push-értesítés</h2>
     <?php
-      try { require_once __DIR__ . '/push-lib.php'; $subs = (int)push_db($cfg)->query('SELECT COUNT(*) FROM subs')->fetchColumn(); }
-      catch (Throwable $e) { $subs = null; }
+      $subs = null; $logTot = []; $logDaily = [];
+      try {
+        require_once __DIR__ . '/push-lib.php';
+        $pp = push_db($cfg);
+        $subs = (int)$pp->query('SELECT COUNT(*) FROM subs')->fetchColumn();
+        $st = $pp->prepare('SELECT kind, SUM(n) c FROM sub_log WHERE day >= ? GROUP BY kind'); $st->execute([$since]);
+        foreach ($st->fetchAll(PDO::FETCH_ASSOC) as $r) $logTot[$r['kind']] = (int)$r['c'];
+        $st = $pp->prepare('SELECT day, kind, n FROM sub_log WHERE day >= ? ORDER BY day DESC'); $st->execute([$since]);
+        foreach ($st->fetchAll(PDO::FETCH_ASSOC) as $r) $logDaily[$r['day']][$r['kind']] = (int)$r['n'];
+      } catch (Throwable $e) {}
     ?>
-    <p>Feliratkozók: <b><?= $subs === null ? 'nincs beállítva' : number_format($subs, 0, ',', ' ') ?></b></p>
+    <div class="kpi">
+      <div>Feliratkozók most<b><?= $subs === null ? 'nincs beállítva' : $n($subs) ?></b></div>
+      <div>Új feliratkozás, utolsó <?= $days ?> nap<b><?= $n($logTot['new'] ?? 0) ?></b></div>
+      <div>Leiratkozás, utolsó <?= $days ?> nap<b><?= $n($logTot['unsub'] ?? 0) ?></b></div>
+      <div>Megszűnt (böngésző törölte), utolsó <?= $days ?> nap<b><?= $n($logTot['gone'] ?? 0) ?></b></div>
+    </div>
+    <?php if ($logDaily): ?>
+    <table style="margin-top:12px"><tr><th>Nap</th><th>Új</th><th>Leiratkozott</th><th>Megszűnt</th></tr>
+    <?php foreach ($logDaily as $d => $r) echo '<tr><td>'.$h($d).'</td><td>'.($r['new'] ?? 0).'</td><td>'.($r['unsub'] ?? 0).'</td><td>'.($r['gone'] ?? 0).'</td></tr>'; ?>
+    </table>
+    <?php endif; ?>
     <p><button id="testPush" type="button">Tesztértesítés erre az eszközre</button> <span id="testPushMsg"></span></p>
     <p style="color:var(--dim);font-size:12px">Előbb a honlapon a csengő ikonnal iratkozz fel ugyanebben a böngészőben.</p>
   </div>

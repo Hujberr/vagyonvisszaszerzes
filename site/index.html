@@ -856,9 +856,9 @@ window.SITE_CONFIG = {
       <p><strong>Adatkezelő:</strong> az oldalt magánszemélyként üzemeltetem. Kapcsolat: <a href="mailto:${CONTACT_EMAIL}">${CONTACT_EMAIL}</a>.</p>
       <p>Ez az oldal kizárólag <strong>nyilvánosan elérhető, magyar sajtóorgánumok által közölt, valamint a Magyar Közlönyben megjelent törvényekben és kormányrendeletekben szereplő</strong> információkat gyűjt össze és jelenít meg (kormányzati megtakarítás, vagyonvisszaszerzés, uniós források, feljelentett ügyek, makrogazdasági mutatók), minden esetben a forráscikkre vagy jogszabályra mutató linkkel. Az oldal <strong>nem gyűjt és nem kezel személyes adatot a látogatókról</strong>.</p>
       <h5>Helyi tárolás (localStorage)</h5>
-      <p>Az oldal a böngésződ saját, helyi tárolóját (localStorage) kizárólag a nyelvi (HU/EN) és a megjelenítési (világos/sötét) beállításod, valamint annak megjegyzésére használja, hogy az oldalt kitetted-e a kezdőképernyőre. Ez az adat kizárólag a te eszközödön marad, nem kerül továbbításra hozzám vagy harmadik félhez, és nem alkalmas személyazonosításra.</p>
+      <p>Az oldal a böngésződ saját, helyi tárolóját (localStorage) kizárólag a nyelvi (HU/EN) és a megjelenítési (világos/sötét) beállításod, valamint annak megjegyzésére használja, hogy az oldalt kitetted-e a kezdőképernyőre, és megnyitottad-e már onnan. Ez az adat kizárólag a te eszközödön marad, nem kerül továbbításra hozzám vagy harmadik félhez, és nem alkalmas személyazonosításra.</p>
       <h5>Értesítések és kezdőképernyő</h5>
-      <p>Ha a csengő ikonnal értesítést kérsz, a böngésződ egy feliratkozási címet ad, amelyet a nyelvi beállításoddal együtt a tárhelyen tárolok, kizárólag az értesítések küldésére. Az értesítést a böngésződ gyártójának kézbesítő szolgáltatása (például Google, Apple, Mozilla, Microsoft) juttatja el; az értesítés szövegét az eszközöd közvetlenül ettől az oldaltól kéri le. Leiratkozáskor a feliratkozási címet törlöm. A kezdőképernyőre tett oldal ugyanúgy működik, mint a böngészőben, és további adatot nem gyűjt.</p>
+      <p>Ha a csengő ikonnal értesítést kérsz, a böngésződ egy feliratkozási címet ad, amelyet a nyelvi beállításoddal együtt a tárhelyen tárolok, kizárólag az értesítések küldésére. Az értesítést a böngésződ gyártójának kézbesítő szolgáltatása (például Google, Apple, Mozilla, Microsoft) juttatja el; az értesítés szövegét az eszközöd közvetlenül ettől az oldaltól kéri le. Leiratkozáskor a feliratkozási címet törlöm. A kezdőképernyőre tett oldal ugyanúgy működik, mint a böngészőben. A látogatószámláló névtelenül, a fenti módon azt is számolja, hány látogatás érkezik a kezdőképernyőről, illetve hányan telepítik az oldalt (böngészőtípus szerint); ez csak összesített statisztika.</p>
       <h5>Látogatószámláló</h5>
       <p>Az oldal saját, sütit nem használó látogatószámlálót működtet. Az IP-címet nem tárolja: a látogatás napján a böngészőazonosítóból és az IP-címből egy naponta változó, vissza nem fejthető kódot képez, amely kizárólag a napi egyedi látogatók megszámlálására szolgál, és harmadik félhez nem kerül. Tárolásra csak a dátum, a megnyitott domain és ez a kód kerül.</p>
       <h5>Technikai üzemeltetés</h5>
@@ -881,9 +881,9 @@ window.SITE_CONFIG = {
       <p><strong>Data controller:</strong> this page is run by a private individual. Contact: <a href="mailto:${CONTACT_EMAIL}">${CONTACT_EMAIL}</a>.</p>
       <p>This page only aggregates <strong>publicly available information published by Hungarian press outlets, as well as laws and government decrees published in the Hungarian Official Gazette (Magyar Közlöny)</strong> (government savings, asset recovery, EU funds, reported cases, macroeconomic indicators), always linking back to the source article or legal text. The page <strong>does not collect or process personal data about visitors</strong>.</p>
       <h5>Local storage</h5>
-      <p>The page uses your browser's local storage only to remember your language (HU/EN) and display (light/dark) preference, and whether you have added the page to your home screen. This stays on your own device, is never transmitted to me or any third party, and cannot identify you.</p>
+      <p>The page uses your browser's local storage only to remember your language (HU/EN) and display (light/dark) preference, and whether you have added the page to your home screen and opened it from there. This stays on your own device, is never transmitted to me or any third party, and cannot identify you.</p>
       <h5>Notifications and home screen</h5>
-      <p>If you ask for notifications with the bell icon, your browser provides a subscription address, which I store on the hosting server together with your language setting, solely to send notifications. Notifications are delivered by your browser vendor's push service (for example Google, Apple, Mozilla, Microsoft); your device fetches the notification text directly from this site. When you unsubscribe, the subscription address is deleted. The home screen version works exactly like the website and collects no additional data.</p>
+      <p>If you ask for notifications with the bell icon, your browser provides a subscription address, which I store on the hosting server together with your language setting, solely to send notifications. Notifications are delivered by your browser vendor's push service (for example Google, Apple, Mozilla, Microsoft); your device fetches the notification text directly from this site. When you unsubscribe, the subscription address is deleted. The home screen version works exactly like the website. The visitor counter also anonymously counts, in the same way as above, visits from the home screen and installations (by browser type); these are aggregate statistics only.</p>
       <h5>Visitor counter</h5>
       <p>The page runs its own cookie-free visitor counter. It does not store IP addresses: on the day of the visit it derives a daily-changing, irreversible code from the browser identifier and the IP address, used solely to count unique daily visitors and never shared with third parties. Only the date, the domain visited and this code are stored.</p>
       <h5>Technical hosting</h5>
@@ -1612,7 +1612,8 @@ window.SITE_CONFIG = {
     const C = window.SITE_CONFIG || {};
     if(!C.counterUrl) return;
     const from = new URLSearchParams(location.search).get("from") || "";
-    fetch(C.counterUrl + "?from=" + encodeURIComponent(from), {cache:"no-store"})
+    const appMode = (window.matchMedia && matchMedia("(display-mode: standalone)").matches) || navigator.standalone === true;
+    fetch(C.counterUrl + "?from=" + encodeURIComponent(from) + (appMode ? "&mode=app" : ""), {cache:"no-store"})
       .then(r => r.ok ? r.json() : null)
       .then(d => {
         if(!d || typeof d.total !== "number") return;
@@ -1972,8 +1973,15 @@ window.SITE_CONFIG = {
         started:"Installation has started. In 1–2 minutes you'll find it on your home screen or in the app list as “Forintról forintra”.",
         declined:"Nothing was installed. You can try again any time with the install icon." }
     };
+    /* Telepítési statisztika (csak az admin oldalon látszik; sütit nem használ). */
+    function track(ev){
+      if(!C.counterUrl) return;
+      const os = isIos ? "ios" : /Android/i.test(UA) ? "android" : "egyeb";
+      fetch(`${C.counterUrl}?ev=${ev}&br=${browser}&os=${os}`, { cache:"no-store" }).catch(() => {});
+    }
     function installGuide(){
       const g = GUIDE[lang] || GUIDE.hu, direct = !!deferred;
+      if(!direct) track("guide");
       const steps = (MANUAL[lang] || MANUAL.hu)[browser];
       const head = `<div class="pwa-app"><img src="icon-192.png" alt=""><div><b>Forintról forintra</b><span>${g.look}</span></div></div>`;
       const manual = direct ? "" : `<h5>${g.manualH}</h5><p>${isIos ? g.iosNote : g.manualNote}</p><ol class="pwa-steps">${steps.map(x => `<li>${x}</li>`).join("")}</ol>`;
@@ -2001,7 +2009,7 @@ window.SITE_CONFIG = {
     });
 
     window.addEventListener("beforeinstallprompt", e => { e.preventDefault(); deferred = e; lsSet(LS_INST, null); update(); });
-    window.addEventListener("appinstalled", () => { deferred = null; lsSet(LS_INST, "1"); hideCallout(); update(); });
+    window.addEventListener("appinstalled", () => { track("installed"); deferred = null; lsSet(LS_INST, "1"); hideCallout(); update(); });
 
     /* Nyelvváltáskor a feliratkozás nyelve is frissül. */
     ["langHu", "langEn"].forEach(id => $(id).addEventListener("click", () => {
@@ -2040,6 +2048,8 @@ window.SITE_CONFIG = {
         swReg = reg;
         return pushSupported && Notification.permission === "granted" ? reg.pushManager.getSubscription() : null;
       }).then(s => { subscribed = !!s; update(); }).catch(() => {});
+    const LS_FIRST = "elszamoltatas_app_first";
+    if(isStandalone() && lsGet(LS_FIRST) !== "1"){ lsSet(LS_FIRST, "1"); track("first_app"); }
     if(isMobile) setTimeout(() => { Promise.race([stateReady, new Promise(r => setTimeout(r, 1500))]).then(showCallout); }, 1000);
   })();
 
