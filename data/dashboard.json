@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-27T15:02:06+00:00",
+ "generated_at": "2026-09-27T15:55:13+00:00",
  "summary": {
   "megtakaritas_verified_huf": 987800000000,
   "visszaszerzes_verified_huf": 1520170000000,
@@ -1130,19 +1130,6 @@
    "case_count": 37,
    "confirmed_recovered_huf": 126000000000,
    "description": "A kormány hivatalos, folyamatosan bővülő listája (kormany.hu/atlathato/feljelentes) szerint 2026. szeptember 23-i állapotban 37 ügyben tettek feljelentést, összesen 2221 milliárd forint értékű közpénzt érintve (ebből 31 ügynél van egyedi összeg megjelölve, 6 ügynél nincs). 2026. szeptember 2-án még 9 minisztérium 22 ügyben, 2128 milliárd forint értékben tett feljelentést.",
-   "is_aggregate": true,
-   "ministry": "Összesítő — 10 minisztérium/hatóság",
-   "recovered_item_id": null,
-   "report_date": "2026-09-02",
-   "report_source": {
-    "name": "Kormany.hu – Feljelentett billiók",
-    "published_date": "2026-09-22",
-    "url": "https://kormany.hu/atlathato/feljelentes"
-   },
-   "status": "under_investigation",
-   "subject": "Kormányzati feljelentések hivatalos összesítője (37 ügy, ~11 minisztérium/hatóság)",
-   "verification_notes": "FRISSÍTVE 2026-09-23 (esti futás): a kormany.hu/atlathato/feljelentes oldal 2026-09-23-i állapota szerint 37 ügy, 2221 Mrd Ft (előző ellenőrzés reggel: 32 ügy, 2216 Mrd Ft). Az új 5 ügy (mind 09-17/18 dátummal) a reported-egyeb-miniszteriumi-18ugy-2026 gyűjtőtételbe került be. FRISSÍTVE 2026-09-25: újbóli közvetlen ellenőrzés megerősítette a 37 ügy / 2221 Mrd Ft állapotot, érdemi változás nem történt 09-23 óta; a tárcaszám az oldal egyik lekérdezése szerint 11 volt (korábban 10-zel számoltunk) — ezt átvezettük, további megerősítésre vár. A confirmed_recovered_huf mező (126 Mrd Ft, Duna Aszfalt) változatlanul a jelenleg ismert, ténylegesen igazolt visszaszerzést jelzi. EZ EGY ÖSSZESÍTŐ REFERENCIA-TÉTEL, ne add hozzá a négy Eximbank-tételhez, az M6-tételhez vagy a gyűjtőtételhez, mert azok már ennek részét képezik (dupla számlálás elkerülandő).",
-   "id": "reported-osszesito-2026-09",
    "history": [
     {
      "amount_huf": 2128000000000,
@@ -1159,7 +1146,20 @@
      "case_count": 37,
      "date": "2026-09-23"
     }
-   ]
+   ],
+   "is_aggregate": true,
+   "ministry": "Összesítő — 10 minisztérium/hatóság",
+   "recovered_item_id": null,
+   "report_date": "2026-09-02",
+   "report_source": {
+    "name": "Kormany.hu – Feljelentett billiók",
+    "published_date": "2026-09-22",
+    "url": "https://kormany.hu/atlathato/feljelentes"
+   },
+   "status": "under_investigation",
+   "subject": "Kormányzati feljelentések hivatalos összesítője (37 ügy, ~11 minisztérium/hatóság)",
+   "verification_notes": "FRISSÍTVE 2026-09-23 (esti futás): a kormany.hu/atlathato/feljelentes oldal 2026-09-23-i állapota szerint 37 ügy, 2221 Mrd Ft (előző ellenőrzés reggel: 32 ügy, 2216 Mrd Ft). Az új 5 ügy (mind 09-17/18 dátummal) a reported-egyeb-miniszteriumi-18ugy-2026 gyűjtőtételbe került be. FRISSÍTVE 2026-09-25: újbóli közvetlen ellenőrzés megerősítette a 37 ügy / 2221 Mrd Ft állapotot, érdemi változás nem történt 09-23 óta; a tárcaszám az oldal egyik lekérdezése szerint 11 volt (korábban 10-zel számoltunk) — ezt átvezettük, további megerősítésre vár. A confirmed_recovered_huf mező (126 Mrd Ft, Duna Aszfalt) változatlanul a jelenleg ismert, ténylegesen igazolt visszaszerzést jelzi. EZ EGY ÖSSZESÍTŐ REFERENCIA-TÉTEL, ne add hozzá a négy Eximbank-tételhez, az M6-tételhez vagy a gyűjtőtételhez, mert azok már ennek részét képezik (dupla számlálás elkerülandő).",
+   "id": "reported-osszesito-2026-09"
   },
   {
    "alleged_amount_huf": 12270000000,
@@ -1449,24 +1449,24 @@
  },
  "last_run": {
   "errors": [
-   "A hirkereso.hu/politika oldal ebben a futásban 404-es hibával nem volt elérhető.",
-   "Az mnvvh.hu/hirek oldalon nem jelent meg új konkrét ügy 2026-09-13 óta (csak korábbi állásajánlatok).",
-   "Az MNB EUR/HUF hivatalos fixing vasárnap (2026-09-27) nem jelenik meg; a legutóbbi munkanapi (2026-09-25) érték maradt érvényben.",
-   "Az ÁKK (akk.hu) statisztikai oldala ebben a futásban sem szolgáltatott 2026-07-31 utáni frissebb hivatalos államadósság-adatot; a korábbi érték maradt érvényben."
+   "hirkereso.hu és hirkereso.hu/politika ebben a futásban is 404-es hibával nem volt elérhető.",
+   "Az ÁKK hivatalos oldala (akk.hu) nem volt közvetlenül lekérhető ebben a futásban; az államadósság-adat változatlanul a legutóbbi (2026-09-27 16:56-os) pillanatkép szerinti (2026-07-31-i, Magyar Nemzet/ÁKK-hivatkozás) állapotot tükrözi.",
+   "Ez a futás alig kb. 55 perccel az előző (2026-09-27 16:56–17:20) alapos futás után indult; abban a futásban sem volt új tétel (items_new 0, reported_cases_new/updated 0), és ebben a futásban végzett kiegészítő keresés (Schobert-villa, NAK/kamarai botrány büntetőjogi részletei, MKIF M1-Bicske 77 millió Ft/óra idézet) sem talált olyan új, jelenlegi megtakarítást/visszaszerzést/EU-forrást vagy feljelentést, amely még nem szerepelne az adattárban — a Schobert-villa hirdetése magánjogi ingatlanértékesítés, nem állami vagyonvisszaszerzés, ezért nem került fel.",
+   "Az NVVH első négy kiemelt ügyét a sajtó (Világgazdaság) szerint 2026-09-28-án (hétfőn) jelentik be — ebben a futásban még nincs konkrét adat, a következő futásban ellenőrizendő."
   ],
   "eu_lost_items_new": 0,
-  "finished_at": "2026-09-27T17:20:00+02:00",
-  "items_duplicate": 15,
-  "items_found_total": 15,
+  "finished_at": "2026-09-27T18:10:00+02:00",
+  "items_duplicate": 12,
+  "items_found_total": 12,
   "items_needs_review": 0,
   "items_new": 0,
   "reported_cases_new": 0,
   "reported_cases_updated": 0,
   "sources_checked": [
-   "kormany.hu/atlathato/feljelentes",
-   "k-monitor.hu (WebSearch)",
-   "mnvvh.hu/hirek",
-   "hirkereso.hu/politika",
+   "kormany.hu/atlathato/feljelentes (közvetlenül elérhető, 37 ügy / 2221 Mrd Ft, 2026-09-23-i állapot — változatlan)",
+   "mnvvh.hu/hirek (elérhető, csak 2026-09-13-i állásajánlatok, új ügyadat nincs)",
+   "k-monitor.hu (WebSearch, célzott keresések)",
+   "hirkereso.hu/ és /politika (404-es hiba, nem elérhető ebben a futásban is)",
    "telex.hu",
    "444.hu",
    "index.hu",
@@ -1475,19 +1475,28 @@
    "economx.hu",
    "vg.hu",
    "infostart.hu",
-   "atlatszo.hu",
-   "penzcentrum.hu",
-   "mfor.hu",
    "forbes.hu",
    "nepszava.hu",
-   "akk.hu (sajtón keresztül)",
-   "mnb.hu (sajtón keresztül)",
-   "eGov Hírlevél"
+   "penzcentrum.hu",
+   "atlatszo.hu",
+   "privatbankar.hu",
+   "mfor.hu",
+   "origo.hu",
+   "hirnavigator.hu",
+   "szmo.hu"
   ],
-  "started_at": "2026-09-27T16:56:00+02:00",
-  "id": "2026-09-27T16-56"
+  "started_at": "2026-09-27T17:52:00+02:00",
+  "id": "2026-09-27T17-52"
  },
  "run_history": [
+  {
+   "finished_at": "2026-09-27T18:10:00+02:00",
+   "started_at": "2026-09-27T17:52:00+02:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
   {
    "finished_at": "2026-09-27T17:20:00+02:00",
    "started_at": "2026-09-27T16:56:00+02:00",
