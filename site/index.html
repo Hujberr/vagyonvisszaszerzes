@@ -530,6 +530,29 @@ window.SITE_CONFIG = {
     .table-wrap td.subject::before{display:block;margin-bottom:2px;}
     .table-wrap td.empty::before{content:"";}
   }
+
+  /* ---------- Legutóbbi ügyek: 7 napos összefoglaló, „Továbbiak” ---------- */
+  .panel-head{display:flex;justify-content:space-between;align-items:baseline;gap:10px;margin:0 0 12px;}
+  .panel-head h3{margin:0;}
+  .panel-head .win{font-size:11px;color:var(--text-faint);white-space:nowrap;}
+  .recent-sum{margin:0 0 14px;}
+  .recent-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;}
+  .recent-tile{background:var(--surface-2);border:1px solid var(--border);border-radius:9px;padding:8px 10px;min-width:0;}
+  .recent-tile .cat-dot{font-size:11.5px;color:var(--text-dim);}
+  .recent-tile .n{font-family:"JetBrains Mono",monospace;font-size:18px;font-weight:700;margin-top:3px;color:var(--text);white-space:nowrap;}
+  .recent-tile .n.zero{color:var(--text-faint);}
+  .recent-tile .n small{font-family:"Public Sans",sans-serif;font-size:11px;font-weight:500;color:var(--text-dim);}
+  .recent-official{font-size:11.5px;color:var(--text-dim);margin-top:8px;}
+  .recent-official b{font-family:"JetBrains Mono",monospace;font-weight:600;color:var(--text);}
+  .table-wrap tr.row-hidden{display:none!important;}
+  .more-btn{width:100%;margin-top:12px;display:flex;align-items:center;justify-content:center;gap:6px;
+    background:var(--surface-2);border:1px solid var(--border);color:var(--accent);border-radius:9px;
+    padding:9px 12px;font-size:13px;font-weight:700;cursor:pointer;}
+  .more-btn[hidden]{display:none;}
+  .more-btn:hover{border-color:var(--text-faint);}
+  .more-btn svg{width:14px;height:14px;transition:transform .2s;}
+  .more-btn[aria-expanded="true"] svg{transform:rotate(180deg);}
+  @media (max-width:640px){ .recent-grid{grid-template-columns:repeat(2,minmax(0,1fr));} }
 </style>
 </head>
 <body>
@@ -639,7 +662,8 @@ window.SITE_CONFIG = {
     </div>
     <div class="col-stack">
     <div class="panel">
-      <h3 data-i18n="itemsPanelTitle">Legutóbbi ügyek</h3>
+      <div class="panel-head"><h3 data-i18n="itemsPanelTitle">Legutóbbi ügyek</h3><span class="win" data-i18n="recentWindow">elmúlt 7 nap</span></div>
+      <div class="recent-sum" id="recentSummary"></div>
       <div class="table-wrap">
         <table>
           <thead>
@@ -657,6 +681,7 @@ window.SITE_CONFIG = {
           </tbody>
         </table>
       </div>
+      <button class="more-btn" id="itemsMore" type="button" aria-expanded="false" hidden></button>
     </div>
     <div class="panel">
       <h3 data-i18n="categoryPanelTitle">Főbb tételek összehasonlítása<small data-i18n="mrdFt">milliárd Ft</small></h3>
@@ -736,7 +761,7 @@ window.SITE_CONFIG = {
       categoryPanelTitle:"Főbb tételek összehasonlítása", mrdFt:"milliárd Ft",
       catRecovered:"Visszaszerzés", catSaved:"Megtakarítás", catEu:"EU-forrás",
       macroPanelTitle:"Makrogazdasági mutatók", debt:"Államadósság", inflationYear:"Éves infláció", inflationExpected:"Várható éves infláció (MNB)",
-      itemsPanelTitle:"Legutóbbi ügyek", colDate:"Dátum", colCategory:"Kategória", colSubject:"Téma", colAmount:"Összeg", colStatus:"Állapot", colSource:"Forrás",
+      itemsPanelTitle:"Legutóbbi ügyek", recentWindow:"elmúlt 7 nap", recentReported:"Feljelentett ügy", recentUpdated:"frissítve", recentOfficial:"Hivatalos lista", recentUnchanged:"változatlan", caseWord:"ügy", moreBtn:"Továbbiak", lessBtn:"Kevesebb", colDate:"Dátum", colCategory:"Kategória", colSubject:"Téma", colAmount:"Összeg", colStatus:"Állapot", colSource:"Forrás",
       loading:"Betöltés…", noItems:"Nincs a kiválasztott dátumig rögzített tétel.",
       footNote:"Automatikusan frissül minden ütemezett futás (06:00, 12:00 és 17:00, Európa/Budapest) után; nyitva tartott oldal esetén emellett 5 percenként is frissülnek az adatok.",
       footSources:"Adatforrások", footPrivacy:"Adatvédelem", footContact:"Kapcsolat",
@@ -766,7 +791,7 @@ window.SITE_CONFIG = {
       categoryPanelTitle:"Key figures compared", mrdFt:"HUF billion",
       catRecovered:"Recovered", catSaved:"Savings", catEu:"EU funds",
       macroPanelTitle:"Macroeconomic indicators", debt:"National debt", inflationYear:"Annual inflation", inflationExpected:"Expected annual inflation (MNB)",
-      itemsPanelTitle:"Recent items", colDate:"Date", colCategory:"Category", colSubject:"Subject", colAmount:"Amount", colStatus:"Status", colSource:"Source",
+      itemsPanelTitle:"Recent items", recentWindow:"last 7 days", recentReported:"Reported cases", recentUpdated:"updated", recentOfficial:"Official list", recentUnchanged:"unchanged", caseWord:"cases", moreBtn:"Show more", lessBtn:"Show less", colDate:"Date", colCategory:"Category", colSubject:"Subject", colAmount:"Amount", colStatus:"Status", colSource:"Source",
       loading:"Loading…", noItems:"No items recorded up to the selected date.",
       footNote:"Refreshes automatically after every scheduled run (06:00, 12:00 & 17:00, Europe/Budapest); while the page stays open, it also refreshes every 5 minutes.",
       footSources:"Data sources", footPrivacy:"Privacy", footContact:"Contact",
@@ -1566,7 +1591,7 @@ window.SITE_CONFIG = {
   document.getElementById("resetToday").addEventListener("click", ()=>{ timeInput.value = todayISO(); render(); });
   timeInput.addEventListener("change", render);
 
-  let ITEMS = [], REPORTED = [], MACRO = [], CURRENT_ROWS = [], CURRENT_ITEMS_FILTERED = [], CURRENT_CAT_ITEMS = [], CURRENT_REPORTED_FILTERED = [];
+  let ITEMS = [], REPORTED = [], MACRO = [], RUNS = [], CURRENT_ROWS = [], CURRENT_ITEMS_FILTERED = [], CURRENT_CAT_ITEMS = [], CURRENT_REPORTED_FILTERED = [];
   let loaded = false;
   let lastUpdatedAt = null;
   const AUTO_REFRESH_MS = 5 * 60 * 1000; // 5 perc
@@ -1598,6 +1623,7 @@ window.SITE_CONFIG = {
       ITEMS = (data.items || []).filter(d=>d && d.status !== "rejected");
       REPORTED = data.reported_cases || [];
       MACRO = data.macro ? [data.macro] : [];
+      RUNS = Array.isArray(data.run_history) ? data.run_history : (data.last_run ? [data.last_run] : []);
       loaded = true;
       lastUpdatedAt = data.generated_at ? new Date(data.generated_at) : new Date();
       return true;
@@ -1653,6 +1679,70 @@ window.SITE_CONFIG = {
       if(!lastUpdatedAt || lastUpdatedAt.getTime() !== before) render();
     });
   }
+
+  /* ---------- Legutóbbi ügyek: 7 napos összefoglaló és „Továbbiak” gomb ---------- */
+  const ROW_LIMIT = 3, RECENT_DAYS = 7;
+  const CHEVRON = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>';
+  let ITEMS_EXPANDED = false;
+  function isoMinusDays(iso, n){ const d = new Date(iso + "T00:00:00Z"); d.setUTCDate(d.getUTCDate() - n); return d.toISOString().slice(0,10); }
+  function renderRecentSummary(cutoff){
+    const el = document.getElementById("recentSummary");
+    if(!el) return;
+    const t = I18N[lang];
+    const start = isoMinusDays(cutoff, RECENT_DAYS - 1);
+    const inWin = s => { const d = String(s || "").slice(0,10); return d >= start && d <= cutoff; };
+    const cnt = cat => ITEMS.filter(d => d.category === cat && inWin(d.collected_at)).length;
+    const runs = RUNS.filter(r => inWin(r.finished_at || r.started_at));
+    const rSum = k => runs.reduce((a,r) => a + (Number(r[k]) || 0), 0);
+    const repNew = RUNS.length ? rSum("reported_cases_new") : REPORTED.filter(d => !d.is_aggregate && inWin(d.report_date)).length;
+    const repUpd = rSum("reported_cases_updated");
+    const tile = (cls, label, n, extra) => `<div class="recent-tile"><span class="cat-dot ${cls}"><i></i>${label}</span><div class="n${n>0?"":" zero"}">${n>0?"+"+n:"0"}${extra||""}</div></div>`;
+    let html = `<div class="recent-grid">`
+      + tile("visszaszerzes", t.catVisszaszerzes, cnt("visszaszerzes"))
+      + tile("megtakaritas", t.catMegtakaritas, cnt("megtakaritas"))
+      + tile("eu_forras", t.catEuForras, cnt("eu_forras"))
+      + tile("reported", t.recentReported, repNew, repUpd > 0 ? ` <small>· ${repUpd} ${t.recentUpdated}</small>` : "")
+      + `</div>`;
+    const agg = REPORTED.find(d => d.is_aggregate === true && (d.report_date || "0000-00-00") <= cutoff);
+    if(agg){
+      const hist = (Array.isArray(agg.history) ? agg.history : []).filter(h => h && h.date)
+        .slice().sort((a,b) => a.date < b.date ? -1 : a.date > b.date ? 1 : 0);
+      const cur = hist.filter(h => h.date <= cutoff).pop() || {case_count:agg.case_count, amount_huf:agg.alleged_amount_huf};
+      const base = hist.filter(h => h.date < start).pop();
+      const cc = Number(cur.case_count);
+      let change = "";
+      if(base){
+        const dc = (Number(cur.case_count) || 0) - (Number(base.case_count) || 0);
+        const da = (Number(cur.amount_huf) || 0) - (Number(base.amount_huf) || 0);
+        const sg = v => v > 0 ? "+" : "−";
+        const parts = [];
+        if(dc) parts.push(`${sg(dc)}${fmtInt(Math.abs(dc))} ${t.caseWord}`);
+        if(Math.abs(da) >= 5e8) parts.push(`${sg(da)}${fmtMrd(Math.abs(da))} ${t.mrd}`);
+        change = " · " + (parts.length ? parts.join(", ") : t.recentUnchanged);
+      }
+      html += `<div class="recent-official">${t.recentOfficial}: ${cc>0?`<b>${fmtInt(cc)}</b> ${t.caseWord}, `:""}<b>${fmtMrd(cur.amount_huf)}</b> ${t.mrd}${change}</div>`;
+    }
+    el.innerHTML = html;
+  }
+  function applyItemsLimit(){
+    const t = I18N[lang];
+    const trs = document.querySelectorAll("#itemsBody tr[data-idx]");
+    const extra = Math.max(trs.length - ROW_LIMIT, 0);
+    trs.forEach((tr,i) => tr.classList.toggle("row-hidden", i >= ROW_LIMIT && !ITEMS_EXPANDED));
+    const btn = document.getElementById("itemsMore");
+    if(!btn) return;
+    btn.hidden = extra === 0;
+    btn.setAttribute("aria-expanded", String(ITEMS_EXPANDED));
+    btn.innerHTML = `<span>${ITEMS_EXPANDED ? t.lessBtn : `${t.moreBtn} (${extra})`}</span>${CHEVRON}`;
+  }
+  document.getElementById("itemsMore").addEventListener("click", ()=>{
+    ITEMS_EXPANDED = !ITEMS_EXPANDED;
+    applyItemsLimit();
+    if(!ITEMS_EXPANDED){
+      const b = document.getElementById("itemsMore"), r = b.getBoundingClientRect();
+      if(r.top < 0 || r.bottom > window.innerHeight) b.scrollIntoView({block:"center"});
+    }
+  });
 
   function render(){
     const t = I18N[lang];
@@ -1772,7 +1862,7 @@ window.SITE_CONFIG = {
       ...reportedForTable.map(d => ({kind:"reported", data:d, sortDate:d.report_date || "0000-00-00"})),
     ];
     merged.sort((a,b) => a.sortDate < b.sortDate ? 1 : a.sortDate > b.sortDate ? -1 : 0);
-    const rows = merged.slice(0,10);
+    const rows = merged;
     CURRENT_ROWS = rows;
     document.getElementById("itemsBody").innerHTML = rows.length ? rows.map((row,idx)=>{
       if(row.kind === "reported"){
@@ -1801,6 +1891,8 @@ window.SITE_CONFIG = {
         <td data-label="${t.colSource}">${d.source_url ? `<a class="src-link" href="${d.source_url}" target="_blank" rel="noopener">${lang==="hu"?"Forrás":"Source"} ↗</a>` : "–"}</td>
       </tr>`;
     }).join("") : `<tr class="empty-row"><td colspan="6" class="empty">${t.noItems}</td></tr>`;
+    applyItemsLimit();
+    renderRecentSummary(cutoff);
   }
 
   /* ---------- Kezdőképernyő (telepíthető webalkalmazás) és push-értesítés ---------- */

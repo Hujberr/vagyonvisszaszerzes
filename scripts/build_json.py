@@ -35,7 +35,13 @@ def main(src, dst):
     items = [d for d in load_dir(src / "items") if d.get("status") != "rejected"]
     cases = [d for d in load_dir(src / "reported_cases") if d.get("status") != "dismissed"]
     macro = latest(load_dir(src / "macro_snapshots"), "collected_at")
-    run = latest(load_dir(src / "run_log"), "finished_at")
+    runs = load_dir(src / "run_log")
+    run = latest(runs, "finished_at")
+    # Rövid futásnapló a „Legutóbbi ügyek” 7 napos összefoglalójához (utolsó 100 futás).
+    run_keys = ("finished_at", "started_at", "items_new", "reported_cases_new",
+                "reported_cases_updated", "eu_lost_items_new")
+    run_history = [{k: r.get(k) for k in run_keys if k in r}
+                   for r in sorted(runs, key=lambda d: d.get("finished_at") or d["id"], reverse=True)[:100]]
 
     def total(cat):
         return sum((d.get("amount_huf") or 0) for d in items
@@ -57,6 +63,7 @@ def main(src, dst):
         "reported_cases": cases,
         "macro": macro,
         "last_run": run,
+        "run_history": run_history,
     }
     dst = pathlib.Path(dst)
     dst.parent.mkdir(parents=True, exist_ok=True)
