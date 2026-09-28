@@ -371,17 +371,17 @@ window.SITE_CONFIG = {
 
   /* ---------- category detail list ---------- */
   .cat-list-summary{margin:0 0 12px;padding-bottom:10px;border-bottom:1px solid var(--border);font-size:12.5px;color:var(--text-dim);}
-  .cat-list-row{display:flex;justify-content:space-between;align-items:flex-start;gap:14px;
+  .cat-list-row{display:flex;flex-direction:column;gap:6px;
     padding:11px 12px;margin-bottom:8px;border:1px solid var(--border);background:var(--surface-2);
     cursor:pointer;border-radius:12px;transition:background-color .15s,border-color .15s;}
   .cat-list-row:hover{border-color:var(--text-faint);}
   .cat-list-row:last-child{margin-bottom:0;}
-  .cat-list-main{min-width:0;}
-  .cat-list-subject{font-size:13px;color:var(--text);font-weight:600;line-height:1.4;margin-bottom:4px;}
-  .cat-list-meta{font-size:11.5px;color:var(--text-dim);display:flex;align-items:center;gap:6px;flex-wrap:wrap;}
-  .cat-list-side{flex:none;text-align:right;display:flex;flex-direction:column;align-items:flex-end;gap:4px;}
-  .cat-list-amount{font-size:13px;font-weight:700;color:var(--text);white-space:nowrap;}
-  .cat-list-more{font-size:11px;font-weight:700;letter-spacing:.02em;color:var(--accent);white-space:nowrap;}
+  .cat-list-top{display:flex;justify-content:space-between;align-items:flex-start;gap:14px;}
+  .cat-list-bottom{display:flex;justify-content:space-between;align-items:baseline;gap:10px;}
+  .cat-list-subject{font-size:13px;color:var(--text);font-weight:600;line-height:1.4;min-width:0;}
+  .cat-list-meta{font-size:11.5px;color:var(--text-dim);display:flex;align-items:center;gap:6px;flex-wrap:wrap;min-width:0;}
+  .cat-list-amount{font-size:13px;font-weight:700;color:var(--text);white-space:nowrap;flex:none;}
+  .cat-list-more{font-size:11px;font-weight:700;letter-spacing:.02em;color:var(--accent);white-space:nowrap;flex:none;}
   .cat-list-more::before{content:var(--more-label);}
   .updated-badge{color:var(--accent);font-weight:600;white-space:nowrap;}
 
@@ -707,7 +707,7 @@ window.SITE_CONFIG = {
               <th data-i18n="colSubject">Téma</th>
               <th data-i18n="colAmount">Összeg</th>
               <th data-i18n="colStatus">Állapot</th>
-              <th data-i18n="colSource">Forrás</th>
+              <th data-i18n="colDetails">Részletek</th>
             </tr>
           </thead>
           <tbody id="itemsBody">
@@ -795,7 +795,7 @@ window.SITE_CONFIG = {
       categoryPanelTitle:"Főbb tételek összehasonlítása", mrdFt:"milliárd Ft",
       catRecovered:"Visszaszerzés", catSaved:"Megtakarítás", catEu:"EU-forrás",
       macroPanelTitle:"Makrogazdasági mutatók", debt:"Államadósság", inflationYear:"Éves infláció", inflationExpected:"Várható éves infláció (MNB)",
-      itemsPanelTitle:"Legutóbbi ügyek", recentWindow:"elmúlt 2 nap", recentReported:"Feljelentett ügy", recentUpdated:"frissítve", recentOfficial:"Hivatalos lista", recentUnchanged:"változatlan", caseWord:"ügy", moreBtn:"Továbbiak", lessBtn:"Kevesebb", colDate:"Dátum", colCategory:"Kategória", colSubject:"Téma", colAmount:"Összeg", colStatus:"Állapot", colSource:"Forrás",
+      itemsPanelTitle:"Legutóbbi ügyek", recentWindow:"elmúlt 2 nap", recentReported:"Feljelentett ügy", recentUpdated:"frissítve", recentOfficial:"Hivatalos lista", recentUnchanged:"változatlan", caseWord:"ügy", moreBtn:"Továbbiak", lessBtn:"Kevesebb", colDate:"Dátum", colCategory:"Kategória", colSubject:"Téma", colAmount:"Összeg", colStatus:"Állapot", colSource:"Forrás", colDetails:"Részletek",
       loading:"Betöltés…", noItems:"Nincs a kiválasztott dátumig rögzített tétel.",
       footNote:"Automatikusan frissül minden ütemezett futás (06:00, 12:00 és 17:00, Európa/Budapest) után; nyitva tartott oldal esetén emellett 5 percenként is frissülnek az adatok.",
       footSources:"Adatforrások", footPrivacy:"Adatvédelem", footContact:"Kapcsolat",
@@ -826,7 +826,7 @@ window.SITE_CONFIG = {
       categoryPanelTitle:"Key figures compared", mrdFt:"HUF billion",
       catRecovered:"Recovered", catSaved:"Savings", catEu:"EU funds",
       macroPanelTitle:"Macroeconomic indicators", debt:"National debt", inflationYear:"Annual inflation", inflationExpected:"Expected annual inflation (MNB)",
-      itemsPanelTitle:"Recent items", recentWindow:"last 2 days", recentReported:"Reported cases", recentUpdated:"updated", recentOfficial:"Official list", recentUnchanged:"unchanged", caseWord:"cases", moreBtn:"Show more", lessBtn:"Show less", colDate:"Date", colCategory:"Category", colSubject:"Subject", colAmount:"Amount", colStatus:"Status", colSource:"Source",
+      itemsPanelTitle:"Recent items", recentWindow:"last 2 days", recentReported:"Reported cases", recentUpdated:"updated", recentOfficial:"Official list", recentUnchanged:"unchanged", caseWord:"cases", moreBtn:"Show more", lessBtn:"Show less", colDate:"Date", colCategory:"Category", colSubject:"Subject", colAmount:"Amount", colStatus:"Status", colSource:"Source", colDetails:"Details",
       loading:"Loading…", noItems:"No items recorded up to the selected date.",
       footNote:"Refreshes automatically after every scheduled run (06:00, 12:00 & 17:00, Europe/Budapest); while the page stays open, it also refreshes every 5 minutes.",
       footSources:"Data sources", footPrivacy:"Privacy", footContact:"Contact",
@@ -1253,8 +1253,8 @@ window.SITE_CONFIG = {
       const lost = lostItems(item);
       if(lost.length){
         body += `<h5 style="margin:16px 0 8px;color:var(--bad);">${t.lostLabel}</h5><div class="cat-list">` + lost.map((l,i)=>`<div class="cat-list-row" data-lost-idx="${i}" tabindex="0" role="button">
-          <div class="cat-list-main"><div class="cat-list-subject">${l.subject||""}</div><div class="cat-list-meta"><span class="mono">${l.lost_date||"–"}</span></div></div>
-          <div class="cat-list-side"><div class="cat-list-amount mono lost">${fmtMrd(l.amount_huf)} ${t.mrd}</div><span class="cat-list-more"></span></div></div>`).join("") + `</div>`;
+          <div class="cat-list-top"><div class="cat-list-subject">${l.subject||""}</div><div class="cat-list-amount mono lost">${fmtMrd(l.amount_huf)} ${t.mrd}</div></div>
+          <div class="cat-list-bottom"><div class="cat-list-meta"><span class="mono">${l.lost_date||"–"}</span></div><span class="cat-list-more"></span></div></div>`).join("") + `</div>`;
         CURRENT_LOST_LIST = lost;
       }
     }
@@ -1354,24 +1354,24 @@ window.SITE_CONFIG = {
     const rowsHtml = list.length ? list.map((d,idx)=>{
       if(kind === "reported"){
         return `<div class="cat-list-row" data-idx="${idx}" tabindex="0" role="button">
-          <div class="cat-list-main">
+          <div class="cat-list-top">
             <div class="cat-list-subject">${d.subject || d.case_name || d.id || t.statReportedLabel}</div>
-            <div class="cat-list-meta"><span class="mono">${d.report_date||"–"}</span>${updatedBadgeHtml(d)}</div>
-          </div>
-          <div class="cat-list-side">
             <div class="cat-list-amount mono">${fmtMrd(d.alleged_amount_huf)} ${t.mrd}</div>
+          </div>
+          <div class="cat-list-bottom">
+            <div class="cat-list-meta"><span class="mono">${d.report_date||"–"}</span>${updatedBadgeHtml(d)}</div>
             <span class="cat-list-more"></span>
           </div>
         </div>`;
       }
       const st = d.status || "";
       return `<div class="cat-list-row" data-idx="${idx}" tabindex="0" role="button">
-        <div class="cat-list-main">
+        <div class="cat-list-top">
           <div class="cat-list-subject">${d.subject||""}</div>
-          <div class="cat-list-meta"><span class="mono">${d.event_date||"–"}</span> · <span class="pill status-${st}">${t[STATUS_KEY[st]]||st}</span>${updatedBadgeHtml(d)}</div>
-        </div>
-        <div class="cat-list-side">
           <div class="cat-list-amount mono">${fmtMrd(d.category==="eu_forras" ? euAmt(d) : d.amount_huf)} ${t.mrd}</div>
+        </div>
+        <div class="cat-list-bottom">
+          <div class="cat-list-meta"><span class="mono">${d.event_date||"–"}</span> · <span class="pill status-${st}">${t[STATUS_KEY[st]]||st}</span>${updatedBadgeHtml(d)}</div>
           <span class="cat-list-more"></span>
         </div>
       </div>`;
@@ -1383,8 +1383,8 @@ window.SITE_CONFIG = {
       CURRENT_LOST_LIST = lost;
       if(lost.length){
         lostHtml = `<div class="cat-list-group lost" style="margin-top:18px;">${t.lostLabel}</div><div class="cat-list">` + lost.map((l,i)=>`<div class="cat-list-row" data-lost-idx="${i}" tabindex="0" role="button">
-          <div class="cat-list-main"><div class="cat-list-subject">${l.subject||""}</div><div class="cat-list-meta"><span class="mono">${l.lost_date||"–"}</span></div></div>
-          <div class="cat-list-side"><div class="cat-list-amount mono lost">${fmtMrd(l.amount_huf)} ${t.mrd}</div><span class="cat-list-more"></span></div></div>`).join("") + `</div>`;
+          <div class="cat-list-top"><div class="cat-list-subject">${l.subject||""}</div><div class="cat-list-amount mono lost">${fmtMrd(l.amount_huf)} ${t.mrd}</div></div>
+          <div class="cat-list-bottom"><div class="cat-list-meta"><span class="mono">${l.lost_date||"–"}</span></div><span class="cat-list-more"></span></div></div>`).join("") + `</div>`;
       }
     }
     document.getElementById("modalBody").innerHTML = summary + `<div data-list class="cat-list">${rowsHtml}</div>` + lostHtml;
@@ -1486,11 +1486,14 @@ window.SITE_CONFIG = {
     attachPrev(shown, m); attachPrev(extra, m);
     CURRENT_MACRO_LIST = shown.concat(extra);
     const row = (ind, idx) => { const ch = macroChange(ind); return `<div class="cat-list-row" data-macro-idx="${idx}" tabindex="0" role="button">
-        <div class="cat-list-main">
+        <div class="cat-list-top">
           <div class="cat-list-subject">${ind.label}</div>
-          <div class="cat-list-meta">${ind.period?`<span class="mono">${ind.period}</span>`:""}${ind.source&&ind.source.name?`${ind.period?" · ":""}<span>${ind.source.name}</span>`:""}</div>
+          <div class="cat-list-amount mono ${valueClass(ch)}">${fmtMacroValue(ind)}${ch?tickHtml(ch):""}</div>
         </div>
-        <div class="cat-list-side"><div class="cat-list-amount mono ${valueClass(ch)}">${fmtMacroValue(ind)}</div>${ch?tickHtml(ch).replace('class="tick','class="tick tick-side'):""}<span class="cat-list-more"></span></div>
+        <div class="cat-list-bottom">
+          <div class="cat-list-meta">${ind.period?`<span class="mono">${ind.period}</span>`:""}${ind.source&&ind.source.name?`${ind.period?" · ":""}<span>${ind.source.name}</span>`:""}</div>
+          <span class="cat-list-more"></span>
+        </div>
       </div>`; };
     let html = `<div class="cat-list-group">${t.macroShown}</div><div class="cat-list">${shown.map((x,i)=>row(x,i)).join("")}</div>`;
     if(extra.length) html += `<div class="cat-list-group">${t.macroExtra}</div><div class="cat-list">${extra.map((x,i)=>row(x,i+shown.length)).join("")}</div>`;
@@ -1937,7 +1940,7 @@ window.SITE_CONFIG = {
           <td class="subject" data-label="${t.colSubject}">${d.subject||""}</td>
           <td class="amount" data-label="${t.colAmount}">${fmtMrd(d.alleged_amount_huf)} ${t.mrd}</td>
           <td data-label="${t.colStatus}"><span class="pill status-${st}">${t[REPORTED_STATUS_KEY[st]]||st}</span></td>
-          <td data-label="${t.colSource}">${srcUrl ? `<a class="src-link" href="${srcUrl}" target="_blank" rel="noopener">${lang==="hu"?"Forrás":"Source"} ↗</a>` : "–"}</td>
+          <td data-label="${t.colDetails}">${srcUrl ? `<a class="src-link" href="${srcUrl}" target="_blank" rel="noopener">${lang==="hu"?"Forrás":"Source"} ↗</a>` : "–"}</td>
         </tr>`;
       }
       const d = row.data;
@@ -1950,7 +1953,7 @@ window.SITE_CONFIG = {
         <td class="subject" data-label="${t.colSubject}">${d.subject||""}</td>
         <td class="amount" data-label="${t.colAmount}">${fmtMrd(amount)} ${t.mrd}</td>
         <td data-label="${t.colStatus}"><span class="pill status-${st}">${t[STATUS_KEY[st]]||st}</span></td>
-        <td data-label="${t.colSource}">${d.source_url ? `<a class="src-link" href="${d.source_url}" target="_blank" rel="noopener">${lang==="hu"?"Forrás":"Source"} ↗</a>` : "–"}</td>
+        <td data-label="${t.colDetails}">${d.source_url ? `<a class="src-link" href="${d.source_url}" target="_blank" rel="noopener">${lang==="hu"?"Forrás":"Source"} ↗</a>` : "–"}</td>
       </tr>`;
     }).join("") : `<tr class="empty-row"><td colspan="6" class="empty">${t.noItems}</td></tr>`;
     applyItemsLimit();
