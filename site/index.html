@@ -560,6 +560,7 @@ window.SITE_CONFIG = {
     }
     .table-wrap td.subject::before{display:block;margin-bottom:2px;}
     .table-wrap td.empty::before{content:"";}
+    .table-wrap td.td-details::before{color:var(--accent);font-weight:700;}
   }
 
   /* ---------- Legutóbbi ügyek: 2 napos összefoglaló, „Továbbiak” ---------- */
@@ -1940,7 +1941,7 @@ window.SITE_CONFIG = {
           <td class="subject" data-label="${t.colSubject}">${d.subject||""}</td>
           <td class="amount" data-label="${t.colAmount}">${fmtMrd(d.alleged_amount_huf)} ${t.mrd}</td>
           <td data-label="${t.colStatus}"><span class="pill status-${st}">${t[REPORTED_STATUS_KEY[st]]||st}</span></td>
-          <td data-label="${t.colDetails}">${srcUrl ? `<a class="src-link" href="${srcUrl}" target="_blank" rel="noopener">${lang==="hu"?"Forrás":"Source"} ↗</a>` : "–"}</td>
+          <td class="td-details" data-label="${t.colDetails}">${srcUrl ? `<a class="src-link" href="${srcUrl}" target="_blank" rel="noopener">${lang==="hu"?"Forrás":"Source"} ↗</a>` : "–"}</td>
         </tr>`;
       }
       const d = row.data;
@@ -1953,7 +1954,7 @@ window.SITE_CONFIG = {
         <td class="subject" data-label="${t.colSubject}">${d.subject||""}</td>
         <td class="amount" data-label="${t.colAmount}">${fmtMrd(amount)} ${t.mrd}</td>
         <td data-label="${t.colStatus}"><span class="pill status-${st}">${t[STATUS_KEY[st]]||st}</span></td>
-        <td data-label="${t.colDetails}">${d.source_url ? `<a class="src-link" href="${d.source_url}" target="_blank" rel="noopener">${lang==="hu"?"Forrás":"Source"} ↗</a>` : "–"}</td>
+        <td class="td-details" data-label="${t.colDetails}">${d.source_url ? `<a class="src-link" href="${d.source_url}" target="_blank" rel="noopener">${lang==="hu"?"Forrás":"Source"} ↗</a>` : "–"}</td>
       </tr>`;
     }).join("") : `<tr class="empty-row"><td colspan="6" class="empty">${t.noItems}</td></tr>`;
     applyItemsLimit();
