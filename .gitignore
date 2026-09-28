@@ -1,3 +1,4 @@
 site/counter-config.php
 *.sqlite
 *.sqlite-*
+__pycache__/
