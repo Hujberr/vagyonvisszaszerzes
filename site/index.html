@@ -89,7 +89,7 @@ window.SITE_CONFIG = {
   .brand-text h1{display:none;}
   .brand-name{font-family:"JetBrains Mono","Manrope",monospace;font-weight:600;font-size:15px;line-height:1.15;letter-spacing:-.01em;white-space:nowrap;text-transform:uppercase;color:var(--accent);}
   .brand-sub{font-size:12px;color:var(--text-dim);}
-  .controls{display:flex;flex-wrap:wrap;align-items:center;gap:10px;}
+  .controls{display:flex;flex-wrap:wrap;align-items:center;gap:10px;position:relative;}
   .ctrl{
     display:flex;align-items:center;gap:8px;background:var(--surface);
     border:1px solid var(--border);border-radius:9px;padding:7px 12px;
@@ -104,17 +104,17 @@ window.SITE_CONFIG = {
     border-radius:9px;padding:8px 13px;font-size:13px;font-weight:600;cursor:pointer;
   }
   .btn:hover{border-color:var(--text-faint);}
-  .toggle{display:flex;align-items:center;gap:6px;background:var(--ctl-bg);border:1px solid var(--ctl-border);border-radius:999px;padding:5px 6px;}
+  .toggle{display:flex;align-items:center;gap:6px;background:var(--ctl-bg);border:1.5px solid var(--text-faint);border-radius:999px;padding:5px 6px;}
   .toggle button{background:transparent;border:0;color:var(--text-dim);font-size:12px;font-weight:700;padding:4px 9px;border-radius:999px;cursor:pointer;}
   .toggle button[aria-pressed="true"]{background:var(--accent);color:#04141F;}
   .icon-btn{
-    width:34px;height:34px;border-radius:9px;border:1px solid var(--ctl-border);background:var(--ctl-bg);
+    width:34px;height:34px;border-radius:9px;border:1.5px solid var(--text-faint);background:var(--ctl-bg);
     color:var(--text-dim);display:flex;align-items:center;justify-content:center;cursor:pointer;
   }
   .icon-btn svg{width:17px;height:17px;}
   /* kezdőképernyő + értesítés (csak érintőképernyőn) */
   .ctrl-group{display:contents;}
-  .ctrl-end{display:flex;align-items:center;gap:10px;position:relative;}
+  .ctrl-end{display:flex;align-items:center;gap:10px;}
   .app-act{display:none;}
   .app-act.show{display:flex;}
   #pwaInstall{color:var(--accent);border-color:var(--accent);--pulse-c:color-mix(in srgb,var(--accent) 32%,transparent);}
@@ -122,17 +122,17 @@ window.SITE_CONFIG = {
   #pushToggle.is-on{color:var(--text-dim);border-color:var(--ctl-border);}
   .app-act.pulse{animation:vvPulse 1.6s ease-in-out 5;}
   @keyframes vvPulse{0%,100%{box-shadow:0 0 0 0 transparent;}50%{box-shadow:0 0 0 4px var(--pulse-c);}}
-  .pwa-callout{position:absolute;right:0;bottom:calc(100% + 18px);width:min(272px,calc(100vw - 28px));z-index:40;
+  /* Felugró tájékoztató (letöltés / értesítés): a .controls dobozon belül, annak bal felső sarkához
+     igazítva jelenik meg — így az időgép + nyelvválasztó fölé kerül, a fejléc márkanév pedig
+     (ami a .controls dobozon KÍVÜL van) sosem takarható el vele. */
+  .pwa-callout{position:absolute;left:0;top:0;width:min(300px,100%);z-index:40;
     background:var(--surface);border:1px solid var(--ctl-border);border-radius:12px;padding:10px 12px;
-    box-shadow:0 10px 28px rgba(0,0,0,.35);pointer-events:none;opacity:0;transform:translateY(6px);transition:opacity .35s,transform .35s;}
+    box-shadow:0 10px 28px rgba(0,0,0,.35);pointer-events:none;opacity:0;transform:translateY(-6px);transition:opacity .35s,transform .35s;}
   .pwa-callout.show{opacity:1;transform:none;}
   .pwa-callout .ln{display:flex;align-items:center;gap:8px;font-size:12.5px;line-height:1.4;color:var(--text);}
   .pwa-callout .ln + .ln{margin-top:6px;}
   .pwa-callout .dot{width:8px;height:8px;border-radius:50%;flex:none;}
-  .pwa-callout .arr{position:absolute;top:100%;width:22px;height:22px;margin-top:-2px;animation:vvBob 1s ease-in-out infinite;}
-  .pwa-callout .arr + .arr{animation-delay:.5s;}
-  @keyframes vvBob{0%,100%{transform:translateY(0);opacity:.55;}50%{transform:translateY(4px);opacity:1;}}
-  @media (prefers-reduced-motion: reduce){.app-act.pulse,.pwa-callout .arr{animation:none;}}
+  @media (prefers-reduced-motion: reduce){.app-act.pulse{animation:none;}}
   .pwa-actions{display:flex;gap:10px;justify-content:flex-end;margin-top:14px;}
   .pwa-app{display:flex;align-items:center;gap:12px;padding:12px;margin:0 0 6px;border:1px solid var(--border);border-radius:12px;background:var(--surface-2);}
   .pwa-app img{width:52px;height:52px;border-radius:14px;flex:none;}
@@ -151,13 +151,13 @@ window.SITE_CONFIG = {
   .stat-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-bottom:16px;}
   .stat-grid > *{min-width:0;}
   .stat-card{
-    border-radius:14px;padding:18px 20px;border:1px solid var(--border);
+    border-radius:14px;padding:18px 20px;border:1px solid var(--text-faint);
     background:var(--surface);display:flex;flex-direction:column;gap:8px;
   }
-  .stat-card.good{background:var(--good-bg);border-color:var(--good-border);}
-  .stat-card.blue{background:var(--blue-bg);border-color:var(--blue-border);}
-  .stat-card.eu{background:var(--eu-bg);border-color:var(--eu-border);}
-  .stat-card.bad{background:var(--bad-bg);border-color:var(--bad-border);}
+  .stat-card.good{background:var(--good-bg);border-color:var(--text-faint);}
+  .stat-card.blue{background:var(--blue-bg);border-color:var(--text-faint);}
+  .stat-card.eu{background:var(--eu-bg);border-color:var(--text-faint);}
+  .stat-card.bad{background:var(--bad-bg);border-color:var(--text-faint);}
   .stat-top{display:flex;align-items:center;gap:10px;}
   .stat-icon{width:32px;height:32px;flex:none;border-radius:9px;display:flex;align-items:center;justify-content:center;background:rgba(255,255,255,.08);}
   .stat-icon svg{width:17px;height:17px;}
@@ -171,30 +171,36 @@ window.SITE_CONFIG = {
   .stat-card.blue .stat-value{color:var(--blue);}
   .stat-card.eu .stat-value{color:var(--eu);}
   .stat-card.bad .stat-value{color:var(--bad);}
-  .stat-foot{font-size:11.5px;color:var(--text-dim);}
+  .stat-foot{display:flex;justify-content:space-between;align-items:baseline;gap:8px;font-size:11.5px;color:var(--text-dim);}
   .stat-foot.good{color:var(--good);}
   .stat-foot.warn{color:var(--warn);}
   .stat-card.clickable{position:relative;cursor:pointer;transition:transform .15s ease,border-color .15s;}
   .stat-card.clickable:hover{border-color:var(--text-faint);}
   .stat-card.clickable:active{transform:scale(.98);}
   .stat-card.clickable:focus-visible{outline:2px solid var(--accent);outline-offset:2px;}
-  /* „Részletek ›” jelzés a kattintható kártyákon és panelen */
+  /* „Részletek ›” jelzés a kattintható kártyákon és panelen — a jobb alsó sarokban,
+     egy sorban a bal oldali státusz szöveggel (ahol van ilyen: .stat-foot / .rb-foot) */
   :root{--more-label:"Részletek ›";}
   :root[lang="en"]{--more-label:"Details ›";}
-  .stat-card.clickable::after,.panel.clickable::after{
+  .stat-card[data-cat="recovered"].clickable .stat-foot::after,
+  .stat-card[data-cat="saved"].clickable .stat-foot::after{
+    content:var(--more-label);
+    font-size:12px;font-weight:700;letter-spacing:.02em;color:var(--accent);white-space:nowrap;flex:none;}
+  .stat-card.clickable:not([data-cat="recovered"]):not([data-cat="saved"])::after,.panel.clickable::after{
     content:var(--more-label);align-self:flex-end;margin-top:auto;padding-top:4px;
     font-size:12px;font-weight:700;letter-spacing:.02em;color:var(--accent);white-space:nowrap;}
   .panel.clickable::after{display:block;text-align:right;}
   .stat-card.bad.big.clickable::after{display:none;}
-  .rb-foot{width:100%;display:grid;grid-template-columns:1fr auto 1fr;align-items:baseline;gap:8px;margin-top:auto;padding-top:4px;}
-  .rb-count{grid-column:2;font-size:13.5px;font-weight:600;color:var(--text);white-space:nowrap;}
+  .rb-foot{width:100%;display:flex;justify-content:space-between;align-items:baseline;gap:8px;margin-top:auto;padding-top:4px;}
+  .rb-count{font-size:13.5px;font-weight:600;color:var(--text);white-space:nowrap;}
   .rb-count b{font-family:"JetBrains Mono",monospace;}
-  .rb-more{grid-column:3;justify-self:end;font-size:12px;font-weight:700;letter-spacing:.02em;color:var(--accent);white-space:nowrap;}
+  .rb-more{font-size:12px;font-weight:700;letter-spacing:.02em;color:var(--accent);white-space:nowrap;}
   .rb-more::before{content:var(--more-label);}
   @media (hover:hover){
     .stat-card.clickable,.panel.clickable{transition:transform .18s ease,border-color .18s,box-shadow .18s;}
     .stat-card.clickable:hover,.panel.clickable:hover{transform:translateY(-3px);box-shadow:0 10px 26px rgba(0,0,0,.28);}
-    .stat-card.clickable:hover::after,.panel.clickable:hover::after,.stat-card.clickable:hover .rb-more{text-decoration:underline;text-underline-offset:3px;}
+    .stat-card.clickable:hover::after,.panel.clickable:hover::after,.stat-card.clickable:hover .rb-more,.stat-card.clickable:hover .stat-foot::after{text-decoration:underline;text-underline-offset:3px;}
+    .table-wrap tbody tr:not(.empty-row):hover .td-details::before{text-decoration:underline;text-underline-offset:3px;}
   }
 
   .panel.clickable{position:relative;cursor:pointer;transition:transform .15s ease,border-color .15s;}
@@ -275,7 +281,7 @@ window.SITE_CONFIG = {
   .grid-3{display:grid;grid-template-columns:1fr 1.2fr;gap:14px;margin-bottom:14px;}
   .grid-2{display:grid;grid-template-columns:1fr 1.3fr;gap:14px;margin-bottom:14px;}
   .grid-3 > *, .grid-2 > *{min-width:0;}
-  .panel{background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:18px 20px;min-width:0;}
+  .panel{background:var(--surface);border:1px solid var(--text-faint);border-radius:14px;padding:18px 20px;min-width:0;}
   .panel h3{margin:0 0 14px;font-size:13px;font-weight:700;color:var(--text);}
   .panel h3 small{display:block;font-weight:500;color:var(--text-dim);font-size:11px;margin-top:2px;}
 
@@ -366,18 +372,24 @@ window.SITE_CONFIG = {
 
   /* ---------- category detail list ---------- */
   .cat-list-summary{margin:0 0 12px;padding-bottom:10px;border-bottom:1px solid var(--border);font-size:12.5px;color:var(--text-dim);}
-  .cat-list-row{display:flex;justify-content:space-between;align-items:flex-start;gap:14px;padding:11px 6px;border-bottom:1px solid var(--border);cursor:pointer;border-radius:8px;transition:background-color .15s;}
-  .cat-list-row:hover{background:var(--surface-2);}
-  .cat-list-row:last-child{border-bottom:0;}
-  .cat-list-main{min-width:0;}
-  .cat-list-subject{font-size:13px;color:var(--text);font-weight:600;line-height:1.4;margin-bottom:4px;}
-  .cat-list-meta{font-size:11.5px;color:var(--text-dim);display:flex;align-items:center;gap:6px;flex-wrap:wrap;}
-  .cat-list-side{flex:none;text-align:right;display:flex;flex-direction:column;align-items:flex-end;gap:4px;}
-  .cat-list-amount{font-size:13px;font-weight:700;color:var(--text);white-space:nowrap;}
+  .cat-list-row{display:flex;flex-direction:column;gap:6px;
+    padding:11px 12px;margin-bottom:8px;border:1px solid var(--border);background:var(--surface-2);
+    cursor:pointer;border-radius:12px;transition:background-color .15s,border-color .15s;}
+  .cat-list-row:hover{border-color:var(--text-faint);}
+  .cat-list-row:last-child{margin-bottom:0;}
+  .cat-list-top{display:flex;justify-content:space-between;align-items:flex-start;gap:14px;}
+  .cat-list-bottom{display:flex;justify-content:space-between;align-items:baseline;gap:10px;}
+  .cat-list-subject{font-size:13px;color:var(--text);font-weight:600;line-height:1.4;min-width:0;}
+  .cat-list-meta{font-size:11.5px;color:var(--text-dim);display:flex;align-items:center;gap:6px;flex-wrap:wrap;min-width:0;}
+  .cat-list-amount{font-size:13px;font-weight:700;color:var(--text);white-space:nowrap;flex:none;}
+  .cat-list-more{font-size:11px;font-weight:700;letter-spacing:.02em;color:var(--accent);white-space:nowrap;flex:none;}
+  .cat-list-more::before{content:var(--more-label);}
+  .updated-badge{color:var(--accent);font-weight:600;white-space:nowrap;}
 
   .empty{color:var(--text-dim);font-size:13px;padding:20px;text-align:center;}
 
   /* ---------- ad + footer ---------- */
+  [hidden]{display:none!important;}
   .ad-slot{margin:20px 0 0;min-height:90px;display:flex;align-items:center;justify-content:center;}
   .visitor-count{font-family:"JetBrains Mono",monospace;font-size:11.5px;color:var(--text-faint);text-align:center;margin-top:14px;font-variant-numeric:tabular-nums;}
   .support-intro{margin:0 0 14px;}
@@ -406,6 +418,7 @@ window.SITE_CONFIG = {
     background:color-mix(in srgb, var(--accent) 9%, transparent);
     color:var(--accent);font-weight:600;line-height:1.4;
   }
+  .foot-ai-row{flex-basis:100%;display:flex;justify-content:center;margin-top:2px;}
   .foot-links a.foot-ai:hover{color:var(--accent);background:color-mix(in srgb, var(--accent) 16%, transparent);border-color:var(--accent);}
   .foot-links a.foot-ai .foot-ai-icon{font-size:12px;line-height:1;}
   .ai-list{margin:0 0 12px;padding-left:20px;}
@@ -457,18 +470,23 @@ window.SITE_CONFIG = {
   .source-list--official li a{border-color:var(--accent);color:var(--accent);font-weight:600;}
   .source-list--official li a:hover{background:var(--surface-2);}
   .contact-box{
-    display:flex;flex-direction:column;gap:6px;background:var(--surface-2);border:1px solid var(--border);
+    display:flex;flex-direction:column;gap:8px;background:var(--surface-2);border:1px solid var(--border);
     border-radius:10px;padding:14px 16px;margin-bottom:12px;min-width:0;
   }
   .contact-box .contact-label{
-    display:flex;align-items:center;gap:8px;font-size:11px;text-transform:uppercase;
+    display:flex;align-items:center;gap:8px;font-size:12.5px;font-weight:600;text-transform:uppercase;
     letter-spacing:.04em;color:var(--text-dim);
   }
   .contact-box a{
-    display:block;width:100%;font-family:"Public Sans",sans-serif;font-weight:600;
-    font-size:13px;min-width:0;overflow-wrap:anywhere;word-break:break-word;white-space:normal;
+    display:inline-flex;align-items:center;width:fit-content;max-width:100%;
+    font-family:"Public Sans",sans-serif;font-weight:700;font-size:15px;min-width:0;
+    overflow-wrap:anywhere;word-break:break-word;white-space:normal;
+    padding:8px 14px;border-radius:9px;cursor:pointer;
+    border:1px solid color-mix(in srgb, var(--accent) 45%, transparent);
+    background:color-mix(in srgb, var(--accent) 9%, transparent);color:var(--accent);
   }
-  @media (max-width:360px){ .contact-box a{font-size:12px;} }
+  .contact-box a:hover{background:color-mix(in srgb, var(--accent) 16%, transparent);border-color:var(--accent);}
+  @media (max-width:360px){ .contact-box a{font-size:13.5px;} }
 
   /* ---------- tömörebb asztali elrendezés ---------- */
   @media (min-width:981px){
@@ -504,6 +522,20 @@ window.SITE_CONFIG = {
     .controls{justify-content:space-between;}
     .ctrl-group{display:flex;width:100%;align-items:center;justify-content:space-between;}
     th,td{padding:9px 10px;font-size:12px;}
+
+    /* ---------- kompaktabb "Feljelentett ügyek" kártya mobilon ---------- */
+    .stat-card.bad.big{padding:16px 16px 18px;gap:4px;}
+    .donut-wrap{width:104px;height:104px;margin:8px auto 2px;}
+    .donut-center-label{font-size:9.5px;margin-bottom:2px;}
+    .donut-center-value{font-size:13px;}
+    .reported-breakdown{display:flex;flex-direction:row;gap:8px;max-width:none;margin:10px auto 0;}
+    .rb-row{flex:1;display:flex;flex-direction:column;align-items:center;text-align:center;
+      padding:8px 6px;margin:0;border-radius:10px;border:1px solid var(--border);background:var(--surface);}
+    .rb-row.pending{border-color:var(--bad-border);background:var(--bad-bg);}
+    .rb-row.recovered{border-color:var(--good-border);background:var(--good-bg);}
+    .rb-value{font-size:16px;line-height:1.2;}
+    .rb-label{font-size:10.5px;margin-top:2px;}
+    .rb-foot{margin-top:8px;padding-top:0;}
   }
 
   /* ---------- card-style table on narrow screens ---------- */
@@ -529,9 +561,13 @@ window.SITE_CONFIG = {
     }
     .table-wrap td.subject::before{display:block;margin-bottom:2px;}
     .table-wrap td.empty::before{content:"";}
+    .table-wrap td.td-details::before{
+      content:var(--more-label);text-transform:none;letter-spacing:.02em;
+      font-size:12px;font-weight:700;color:var(--accent);
+    }
   }
 
-  /* ---------- Legutóbbi ügyek: 7 napos összefoglaló, „Továbbiak” ---------- */
+  /* ---------- Legutóbbi ügyek: 2 napos összefoglaló, „Továbbiak” ---------- */
   .panel-head{display:flex;justify-content:space-between;align-items:baseline;gap:10px;margin:0 0 12px;}
   .panel-head h3{margin:0;}
   .panel-head .win{font-size:11px;color:var(--text-faint);white-space:nowrap;}
@@ -585,9 +621,12 @@ window.SITE_CONFIG = {
         <button class="icon-btn" id="themeToggle" aria-label="Téma váltása" title="Világos / sötét téma">
           <svg id="themeIcon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"></svg>
         </button>
-        <div class="pwa-callout" id="pwaCallout" aria-hidden="true" hidden></div>
+        <button class="icon-btn" id="tutorialHelp" type="button" aria-label="Ismerd meg az oldalt" title="Ismerd meg az oldalt">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9.5 9a2.5 2.5 0 0 1 4.9.8c0 1.7-2.4 2-2.4 3.7"/><line x1="12" y1="17" x2="12" y2="17.1"/><circle cx="12" cy="12" r="9.5"/></svg>
+        </button>
       </div>
       </div>
+      <div class="pwa-callout" id="pwaCallout" aria-hidden="true" hidden></div>
     </div>
   </div>
 </header>
@@ -662,7 +701,7 @@ window.SITE_CONFIG = {
     </div>
     <div class="col-stack">
     <div class="panel">
-      <div class="panel-head"><h3 data-i18n="itemsPanelTitle">Legutóbbi ügyek</h3><span class="win" data-i18n="recentWindow">elmúlt 7 nap</span></div>
+      <div class="panel-head"><h3 data-i18n="itemsPanelTitle">Legutóbbi ügyek</h3><span class="win" data-i18n="recentWindow">elmúlt 2 nap</span></div>
       <div class="recent-sum" id="recentSummary"></div>
       <div class="table-wrap">
         <table>
@@ -673,7 +712,7 @@ window.SITE_CONFIG = {
               <th data-i18n="colSubject">Téma</th>
               <th data-i18n="colAmount">Összeg</th>
               <th data-i18n="colStatus">Állapot</th>
-              <th data-i18n="colSource">Forrás</th>
+              <th data-i18n="colDetails">Részletek</th>
             </tr>
           </thead>
           <tbody id="itemsBody">
@@ -707,7 +746,7 @@ window.SITE_CONFIG = {
         <a href="#" id="linkPrivacy" data-i18n="footPrivacy">Adatvédelem</a>
         <a href="#" id="linkContact" data-i18n="footContact">Kapcsolat</a>
         <a href="#" id="linkAbout" data-i18n="footAbout">Rólam</a>
-        <a href="#" id="linkAiApp" class="foot-ai"><span class="foot-ai-icon" aria-hidden="true">✨</span><span data-i18n="footAiApp">Saját AI-app?</span></a>
+        <div class="foot-ai-row"><a href="#" id="linkAiApp" class="foot-ai"><span class="foot-ai-icon" aria-hidden="true">✨</span><span data-i18n="footAiApp">Saját AI appot szeretne?</span></a></div>
         <a href="#" id="linkSupport" data-i18n="footSupport" hidden>Támogatás</a>
       </div>
     </div>
@@ -754,19 +793,20 @@ window.SITE_CONFIG = {
       brand:"Vagyonvisszaszerzési Monitor", tagline:"Forintról forintra…",
       timeMachineLabel:"Időgép", today:"Ma",
       statRecoveredLabel:"Visszaszerzés (igazolt)", statSavedLabel:"Megtakarítás (bejelentett)",
-      statEuLabel:"EU-forrás — megállapodott / beérkezett / elveszett", statEuLabelShort:"EU-forrás — megáll. / beérk. / elveszett", lostLabel:"Elveszett források", lostShort:"Elveszett", agreedOrigLabel:"Eredetileg megállapodott", agreedTotalLabel:"Megállapodott teljes összeg", lostDateLabel:"Elvesztés bejelentve", footAbout:"Rólam", footAiApp:"Saját AI-app?", footSupport:"Támogatás", visitorsLabel:"Látogatók száma:", descLabel:"Leírás",
+      statEuLabel:"EU-forrás — megállapodott / beérkezett / elveszett", statEuLabelShort:"EU-forrás — megáll. / beérk. / elveszett", lostLabel:"Elveszett források", lostShort:"Elveszett", agreedOrigLabel:"Eredetileg megállapodott", agreedTotalLabel:"Megállapodott teljes összeg", lostDateLabel:"Elvesztés bejelentve", footAbout:"Rólam", footAiApp:"Saját AI appot szeretne?", footSupport:"Támogatás", visitorsLabel:"Látogatók száma:", descLabel:"Leírás",
       statReportedLabel:"Feljelentett ügyek összege",
       reportedPanelTitle:"Feljelentett ügyek állapota", recoveredLabel:"Visszaszerezve", pendingLabel:"Vizsgálat alatt",
       euPanelTitle:"EU-forrás állapota", agreedLabel:"Megállapodott", receivedLabel:"Beérkezett",
       categoryPanelTitle:"Főbb tételek összehasonlítása", mrdFt:"milliárd Ft",
       catRecovered:"Visszaszerzés", catSaved:"Megtakarítás", catEu:"EU-forrás",
       macroPanelTitle:"Makrogazdasági mutatók", debt:"Államadósság", inflationYear:"Éves infláció", inflationExpected:"Várható éves infláció (MNB)",
-      itemsPanelTitle:"Legutóbbi ügyek", recentWindow:"elmúlt 7 nap", recentReported:"Feljelentett ügy", recentUpdated:"frissítve", recentOfficial:"Hivatalos lista", recentUnchanged:"változatlan", caseWord:"ügy", moreBtn:"Továbbiak", lessBtn:"Kevesebb", colDate:"Dátum", colCategory:"Kategória", colSubject:"Téma", colAmount:"Összeg", colStatus:"Állapot", colSource:"Forrás",
+      itemsPanelTitle:"Legutóbbi ügyek", recentWindow:"elmúlt 2 nap", recentReported:"Feljelentett ügy", recentUpdated:"frissítve", recentOfficial:"Hivatalos lista", recentUnchanged:"változatlan", caseWord:"ügy", moreBtn:"Továbbiak", lessBtn:"Kevesebb", colDate:"Dátum", colCategory:"Kategória", colSubject:"Téma", colAmount:"Összeg", colStatus:"Állapot", colSource:"Forrás", colDetails:"Részletek",
       loading:"Betöltés…", noItems:"Nincs a kiválasztott dátumig rögzített tétel.",
       footNote:"Automatikusan frissül minden ütemezett futás (06:00, 12:00 és 17:00, Európa/Budapest) után; nyitva tartott oldal esetén emellett 5 percenként is frissülnek az adatok.",
       footSources:"Adatforrások", footPrivacy:"Adatvédelem", footContact:"Kapcsolat",
       lastUpdatedLabel:"A legutóbbi frissítés:", lastUpdatedNever:"Adatok betöltése…",
       timeBanner: d => `Időgép aktív — az oldal a(z) ${d} napi állapotot mutatja.`,
+      updatedBadge: d => `Frissítve: ${d}`,
       catVerified:"Ellenőrzött", catReview:"Felülvizsgálandó", catRejected:"Elutasított",
       catVisszaszerzes:"Visszaszerzés", catMegtakaritas:"Megtakarítás", catEuForras:"EU-forrás",
       tetel:"tétel", caseCount:"Az ügyek száma:", mrd:"Mrd Ft", noteLabel:"Megjegyzés", openSource:"Forrás megnyitása",
@@ -784,19 +824,20 @@ window.SITE_CONFIG = {
       brand:"Asset Recovery Monitor", tagline:"Forint by forint…",
       timeMachineLabel:"Time machine", today:"Today",
       statRecoveredLabel:"Recovered assets (verified)", statSavedLabel:"Savings (reported)",
-      statEuLabel:"EU funds — agreed / received / lost", statEuLabelShort:"EU funds — agreed / rec. / lost", lostLabel:"Lost funds", lostShort:"Lost", agreedOrigLabel:"Originally agreed", agreedTotalLabel:"Total agreed amount", lostDateLabel:"Loss announced", footAbout:"About me", footAiApp:"Your AI App?", footSupport:"Support", visitorsLabel:"Visitors:", descLabel:"Description",
+      statEuLabel:"EU funds — agreed / received / lost", statEuLabelShort:"EU funds — agreed / rec. / lost", lostLabel:"Lost funds", lostShort:"Lost", agreedOrigLabel:"Originally agreed", agreedTotalLabel:"Total agreed amount", lostDateLabel:"Loss announced", footAbout:"About me", footAiApp:"Want your own AI app?", footSupport:"Support", visitorsLabel:"Visitors:", descLabel:"Description",
       statReportedLabel:"Total value of reported cases",
       reportedPanelTitle:"Reported case status", recoveredLabel:"Recovered", pendingLabel:"Under investigation",
       euPanelTitle:"EU funds status", agreedLabel:"Agreed", receivedLabel:"Received",
       categoryPanelTitle:"Key figures compared", mrdFt:"HUF billion",
       catRecovered:"Recovered", catSaved:"Savings", catEu:"EU funds",
       macroPanelTitle:"Macroeconomic indicators", debt:"National debt", inflationYear:"Annual inflation", inflationExpected:"Expected annual inflation (MNB)",
-      itemsPanelTitle:"Recent items", recentWindow:"last 7 days", recentReported:"Reported cases", recentUpdated:"updated", recentOfficial:"Official list", recentUnchanged:"unchanged", caseWord:"cases", moreBtn:"Show more", lessBtn:"Show less", colDate:"Date", colCategory:"Category", colSubject:"Subject", colAmount:"Amount", colStatus:"Status", colSource:"Source",
+      itemsPanelTitle:"Recent items", recentWindow:"last 2 days", recentReported:"Reported cases", recentUpdated:"updated", recentOfficial:"Official list", recentUnchanged:"unchanged", caseWord:"cases", moreBtn:"Show more", lessBtn:"Show less", colDate:"Date", colCategory:"Category", colSubject:"Subject", colAmount:"Amount", colStatus:"Status", colSource:"Source", colDetails:"Details",
       loading:"Loading…", noItems:"No items recorded up to the selected date.",
       footNote:"Refreshes automatically after every scheduled run (06:00, 12:00 & 17:00, Europe/Budapest); while the page stays open, it also refreshes every 5 minutes.",
       footSources:"Data sources", footPrivacy:"Privacy", footContact:"Contact",
       lastUpdatedLabel:"Last updated:", lastUpdatedNever:"Loading data…",
       timeBanner: d => `Time machine active — showing state as of ${d}.`,
+      updatedBadge: d => `Updated: ${d}`,
       catVerified:"Verified", catReview:"Needs review", catRejected:"Rejected",
       catVisszaszerzes:"Recovered", catMegtakaritas:"Savings", catEuForras:"EU funds",
       tetel:"item", caseCount:"Number of cases:", mrd:"HUF bn", noteLabel:"Note", openSource:"Open source",
@@ -1006,8 +1047,8 @@ window.SITE_CONFIG = {
       <p class="ai-company">Assignments are taken on through my own company, MS Tanácsadó és Kereskedelmi Kft.</p>`
   };
 
-  const MODAL_TITLES = { hu:{sources:"Adatforrások", privacy:"Adatvédelmi tájékoztató", contact:"Kapcsolat", about:"Rólam", aiapp:"Saját AI-alkalmazás"},
-                          en:{sources:"Data sources", privacy:"Privacy notice", contact:"Contact", about:"About me", aiapp:"Your own AI application"} };
+  const MODAL_TITLES = { hu:{sources:"Adatforrások", privacy:"Adatvédelmi tájékoztató", contact:"Kapcsolat", about:"Rólam", aiapp:"Saját AI-alkalmazás", tutorialIntro:"Ismerd meg az oldalt"},
+                          en:{sources:"Data sources", privacy:"Privacy notice", contact:"Contact", about:"About me", aiapp:"Your own AI application", tutorialIntro:"Get to know the site"} };
 
   /* ---------- modal navigation stack ----------
      showModalView(renderFn) opens a new view on top of whatever is currently shown
@@ -1088,6 +1129,12 @@ window.SITE_CONFIG = {
     } else if(kind === "contact"){
       body = `<div class="contact-box"><span class="contact-label">✉️ Email</span><a href="mailto:${CONTACT_EMAIL}">${CONTACT_EMAIL}</a></div>
         <p>${lang==="hu"?"Kérdés, észrevétel, hibajelzés vagy helyesbítési kérés esetén írj erre a címre.":"For questions, feedback, bug reports or correction requests, write to this address."}</p>`;
+    } else if(kind === "tutorialIntro"){
+      body = `<p>${lang==="hu"?"Itt indítható el egy rövid, végigvezető bemutató az oldal fő funkcióiról.":"From here you can start a short guided tour of the site's main features."}</p>
+        <div class="pwa-actions">
+          <button class="btn" id="tutorialExit" type="button">${lang==="hu"?"Kilépés":"Exit"}</button>
+          <button class="btn primary" id="tutorialStart" type="button">${lang==="hu"?"Bemutató indítása":"Start tour"}</button>
+        </div>`;
     }
     document.getElementById("modalBody").innerHTML = body;
   }
@@ -1108,6 +1155,10 @@ window.SITE_CONFIG = {
     showModalView(()=>renderFooterModal(kind));
   });
   document.getElementById("linkSupport").addEventListener("click", e=>{ e.preventDefault(); showModalView(()=>renderFooterModal("support"), {resetStack:true}); });
+  document.getElementById("tutorialHelp").addEventListener("click", ()=>{ showModalView(()=>renderFooterModal("tutorialIntro"), {resetStack:true}); });
+  document.getElementById("modalBody").addEventListener("click", e=>{
+    if(e.target.closest("#tutorialExit") || e.target.closest("#tutorialStart")) closeModal();
+  });
   document.getElementById("modalClose").addEventListener("click", closeModal);
   (function(){
     const body = document.getElementById("modalBody"), hint = document.getElementById("scrollHint");
@@ -1207,8 +1258,8 @@ window.SITE_CONFIG = {
       const lost = lostItems(item);
       if(lost.length){
         body += `<h5 style="margin:16px 0 8px;color:var(--bad);">${t.lostLabel}</h5><div class="cat-list">` + lost.map((l,i)=>`<div class="cat-list-row" data-lost-idx="${i}" tabindex="0" role="button">
-          <div class="cat-list-main"><div class="cat-list-subject">${l.subject||""}</div><div class="cat-list-meta"><span class="mono">${l.lost_date||"–"}</span></div></div>
-          <div class="cat-list-side"><div class="cat-list-amount mono lost">${fmtMrd(l.amount_huf)} ${t.mrd}</div></div></div>`).join("") + `</div>`;
+          <div class="cat-list-top"><div class="cat-list-subject">${l.subject||""}</div><div class="cat-list-amount mono lost">${fmtMrd(l.amount_huf)} ${t.mrd}</div></div>
+          <div class="cat-list-bottom"><div class="cat-list-meta"><span class="mono">${l.lost_date||"–"}</span></div><span class="cat-list-more"></span></div></div>`).join("") + `</div>`;
         CURRENT_LOST_LIST = lost;
       }
     }
@@ -1261,26 +1312,41 @@ window.SITE_CONFIG = {
     handleRowActivate(e);
   });
 
+  /* ---------- rendezés: elsődlegesen updated_at szerint, csökkenő sorrendben ---------- */
+  function updatedAtSortKey(d, fallback){ return d.updated_at || (fallback ? d[fallback] : null) || "0000-00-00"; }
+  function byUpdatedAtDesc(fallback){
+    return (a,b) => { const ka = updatedAtSortKey(a, fallback), kb = updatedAtSortKey(b, fallback);
+      return ka < kb ? 1 : ka > kb ? -1 : 0; };
+  }
+  /* "Frissítve: {dátum}" jelzés — csak akkor, ha a tétel a bejelentése (first_seen_at) óta ténylegesen frissült */
+  function updatedBadgeHtml(d){
+    if(!d.updated_at || !d.first_seen_at) return "";
+    const u = String(d.updated_at).slice(0,10), f = String(d.first_seen_at).slice(0,10);
+    if(u <= f) return "";
+    return ` <span class="updated-badge">${I18N[lang].updatedBadge(u)}</span>`;
+  }
+
   /* ---------- category detail (clickable top stat cards) ---------- */
   function renderCategoryList(catKey){
     const t = I18N[lang];
-    let list, title, kind;
+    let list, title, kind, dateField;
     if(catKey === "recovered"){
       list = CURRENT_ITEMS_FILTERED.filter(d=>d.category==="visszaszerzes" && d.status==="verified");
-      title = t.statRecoveredLabel; kind = "item";
+      title = t.statRecoveredLabel; kind = "item"; dateField = "event_date";
     } else if(catKey === "saved"){
       list = CURRENT_ITEMS_FILTERED.filter(d=>d.category==="megtakaritas");
-      title = t.statSavedLabel; kind = "item";
+      title = t.statSavedLabel; kind = "item"; dateField = "event_date";
     } else if(catKey === "reported"){
       const aggDoc = CURRENT_REPORTED_FILTERED.find(d=> d.is_aggregate === true);
       list = aggDoc ? CURRENT_REPORTED_FILTERED.filter(d=>d!==aggDoc) : CURRENT_REPORTED_FILTERED.slice();
-      title = t.statReportedLabel; kind = "reported";
+      title = t.statReportedLabel; kind = "reported"; dateField = "report_date";
     } else if(catKey === "eu"){
       list = CURRENT_ITEMS_FILTERED.filter(d=>d.category==="eu_forras" && d.status==="verified");
-      title = t.statEuLabel; kind = "item";
+      title = t.statEuLabel; kind = "item"; dateField = "event_date";
     } else if(catKey === "macro"){
       renderMacroList(); return;
     } else { return; }
+    list = list.slice().sort(byUpdatedAtDesc(dateField));
 
     const amountField = kind === "reported" ? "alleged_amount_huf" : "amount_huf";
     const totalHuf = list.reduce((a,d)=> a + (typeof d[amountField]==="number"?d[amountField]:0), 0);
@@ -1293,24 +1359,25 @@ window.SITE_CONFIG = {
     const rowsHtml = list.length ? list.map((d,idx)=>{
       if(kind === "reported"){
         return `<div class="cat-list-row" data-idx="${idx}" tabindex="0" role="button">
-          <div class="cat-list-main">
+          <div class="cat-list-top">
             <div class="cat-list-subject">${d.subject || d.case_name || d.id || t.statReportedLabel}</div>
-            <div class="cat-list-meta"><span class="mono">${d.report_date||"–"}</span></div>
-          </div>
-          <div class="cat-list-side">
             <div class="cat-list-amount mono">${fmtMrd(d.alleged_amount_huf)} ${t.mrd}</div>
+          </div>
+          <div class="cat-list-bottom">
+            <div class="cat-list-meta"><span class="mono">${d.report_date||"–"}</span>${updatedBadgeHtml(d)}</div>
+            <span class="cat-list-more"></span>
           </div>
         </div>`;
       }
       const st = d.status || "";
       return `<div class="cat-list-row" data-idx="${idx}" tabindex="0" role="button">
-        <div class="cat-list-main">
+        <div class="cat-list-top">
           <div class="cat-list-subject">${d.subject||""}</div>
-          <div class="cat-list-meta"><span class="mono">${d.event_date||"–"}</span> · <span class="pill status-${st}">${t[STATUS_KEY[st]]||st}</span></div>
-        </div>
-        <div class="cat-list-side">
           <div class="cat-list-amount mono">${fmtMrd(d.category==="eu_forras" ? euAmt(d) : d.amount_huf)} ${t.mrd}</div>
-          ${d.source_url ? `<a class="src-link" href="${d.source_url}" target="_blank" rel="noopener">${t.openSource} ↗</a>` : ""}
+        </div>
+        <div class="cat-list-bottom">
+          <div class="cat-list-meta"><span class="mono">${d.event_date||"–"}</span> · <span class="pill status-${st}">${t[STATUS_KEY[st]]||st}</span>${updatedBadgeHtml(d)}</div>
+          <span class="cat-list-more"></span>
         </div>
       </div>`;
     }).join("") : `<p class="empty">${catKey==="eu" ? t.euNoItems : t.noItems}</p>`;
@@ -1321,8 +1388,8 @@ window.SITE_CONFIG = {
       CURRENT_LOST_LIST = lost;
       if(lost.length){
         lostHtml = `<div class="cat-list-group lost" style="margin-top:18px;">${t.lostLabel}</div><div class="cat-list">` + lost.map((l,i)=>`<div class="cat-list-row" data-lost-idx="${i}" tabindex="0" role="button">
-          <div class="cat-list-main"><div class="cat-list-subject">${l.subject||""}</div><div class="cat-list-meta"><span class="mono">${l.lost_date||"–"}</span></div></div>
-          <div class="cat-list-side"><div class="cat-list-amount mono lost">${fmtMrd(l.amount_huf)} ${t.mrd}</div>${l.source_url?`<a class="src-link" href="${l.source_url}" target="_blank" rel="noopener">${t.openSource} ↗</a>`:""}</div></div>`).join("") + `</div>`;
+          <div class="cat-list-top"><div class="cat-list-subject">${l.subject||""}</div><div class="cat-list-amount mono lost">${fmtMrd(l.amount_huf)} ${t.mrd}</div></div>
+          <div class="cat-list-bottom"><div class="cat-list-meta"><span class="mono">${l.lost_date||"–"}</span></div><span class="cat-list-more"></span></div></div>`).join("") + `</div>`;
       }
     }
     document.getElementById("modalBody").innerHTML = summary + `<div data-list class="cat-list">${rowsHtml}</div>` + lostHtml;
@@ -1424,11 +1491,14 @@ window.SITE_CONFIG = {
     attachPrev(shown, m); attachPrev(extra, m);
     CURRENT_MACRO_LIST = shown.concat(extra);
     const row = (ind, idx) => { const ch = macroChange(ind); return `<div class="cat-list-row" data-macro-idx="${idx}" tabindex="0" role="button">
-        <div class="cat-list-main">
+        <div class="cat-list-top">
           <div class="cat-list-subject">${ind.label}</div>
-          <div class="cat-list-meta">${ind.period?`<span class="mono">${ind.period}</span>`:""}${ind.source&&ind.source.name?`${ind.period?" · ":""}<span>${ind.source.name}</span>`:""}</div>
+          <div class="cat-list-amount mono ${valueClass(ch)}">${fmtMacroValue(ind)}${ch?tickHtml(ch):""}</div>
         </div>
-        <div class="cat-list-side"><div class="cat-list-amount mono ${valueClass(ch)}">${fmtMacroValue(ind)}</div>${ch?tickHtml(ch).replace('class="tick','class="tick tick-side'):""}</div>
+        <div class="cat-list-bottom">
+          <div class="cat-list-meta">${ind.period?`<span class="mono">${ind.period}</span>`:""}${ind.source&&ind.source.name?`${ind.period?" · ":""}<span>${ind.source.name}</span>`:""}</div>
+          <span class="cat-list-more"></span>
+        </div>
       </div>`; };
     let html = `<div class="cat-list-group">${t.macroShown}</div><div class="cat-list">${shown.map((x,i)=>row(x,i)).join("")}</div>`;
     if(extra.length) html += `<div class="cat-list-group">${t.macroExtra}</div><div class="cat-list">${extra.map((x,i)=>row(x,i+shown.length)).join("")}</div>`;
@@ -1680,8 +1750,8 @@ window.SITE_CONFIG = {
     });
   }
 
-  /* ---------- Legutóbbi ügyek: 7 napos összefoglaló és „Továbbiak” gomb ---------- */
-  const ROW_LIMIT = 3, RECENT_DAYS = 7;
+  /* ---------- Legutóbbi ügyek: 2 napos összefoglaló és „Továbbiak” gomb ---------- */
+  const ROW_LIMIT = 3, RECENT_DAYS = 2;
   const CHEVRON = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>';
   let ITEMS_EXPANDED = false;
   function isoMinusDays(iso, n){ const d = new Date(iso + "T00:00:00Z"); d.setUTCDate(d.getUTCDate() - n); return d.toISOString().slice(0,10); }
@@ -1855,11 +1925,11 @@ window.SITE_CONFIG = {
       document.getElementById("macroInflExp").innerHTML = cell(sh[2], macro.inflacio_varhato_eves_szazalek!=null?macro.inflacio_varhato_eves_szazalek+"%":"–", "MNB");
     }
 
-    /* items table (merged: items + reported cases, most recent first) */
+    /* items table (merged: items + reported cases, most recently UPDATED first) */
     const reportedForTable = reported.filter(d => !d.is_aggregate);
     const merged = [
-      ...items.map(d => ({kind:"item", data:d, sortDate:d.event_date || "0000-00-00"})),
-      ...reportedForTable.map(d => ({kind:"reported", data:d, sortDate:d.report_date || "0000-00-00"})),
+      ...items.map(d => ({kind:"item", data:d, sortDate:updatedAtSortKey(d, "event_date")})),
+      ...reportedForTable.map(d => ({kind:"reported", data:d, sortDate:updatedAtSortKey(d, "report_date")})),
     ];
     merged.sort((a,b) => a.sortDate < b.sortDate ? 1 : a.sortDate > b.sortDate ? -1 : 0);
     const rows = merged;
@@ -1870,12 +1940,12 @@ window.SITE_CONFIG = {
         const st = d.status || "";
         const srcUrl = d.report_source && d.report_source.url;
         return `<tr data-idx="${idx}" tabindex="0" role="button">
-          <td class="mono" data-label="${t.colDate}">${d.report_date||"–"}</td>
+          <td class="mono" data-label="${t.colDate}">${d.report_date||"–"}${updatedBadgeHtml(d)}</td>
           <td data-label="${t.colCategory}"><span class="cat-dot reported"><i></i>${t.catReportedCase}</span></td>
           <td class="subject" data-label="${t.colSubject}">${d.subject||""}</td>
           <td class="amount" data-label="${t.colAmount}">${fmtMrd(d.alleged_amount_huf)} ${t.mrd}</td>
           <td data-label="${t.colStatus}"><span class="pill status-${st}">${t[REPORTED_STATUS_KEY[st]]||st}</span></td>
-          <td data-label="${t.colSource}">${srcUrl ? `<a class="src-link" href="${srcUrl}" target="_blank" rel="noopener">${lang==="hu"?"Forrás":"Source"} ↗</a>` : "–"}</td>
+          <td class="td-details" data-label="${t.colDetails}">${srcUrl ? `<a class="src-link" href="${srcUrl}" target="_blank" rel="noopener">${lang==="hu"?"Forrás":"Source"} ↗</a>` : "–"}</td>
         </tr>`;
       }
       const d = row.data;
@@ -1883,12 +1953,12 @@ window.SITE_CONFIG = {
       const st = d.status || "";
       const amount = d.category==="eu_forras" ? euAgreedAt(d) : d.amount_huf;
       return `<tr data-idx="${idx}" tabindex="0" role="button">
-        <td class="mono" data-label="${t.colDate}">${d.event_date||"–"}</td>
+        <td class="mono" data-label="${t.colDate}">${d.event_date||"–"}${updatedBadgeHtml(d)}</td>
         <td data-label="${t.colCategory}"><span class="cat-dot ${cat}"><i></i>${t[CAT_KEY[cat]]||cat}</span></td>
         <td class="subject" data-label="${t.colSubject}">${d.subject||""}</td>
         <td class="amount" data-label="${t.colAmount}">${fmtMrd(amount)} ${t.mrd}</td>
         <td data-label="${t.colStatus}"><span class="pill status-${st}">${t[STATUS_KEY[st]]||st}</span></td>
-        <td data-label="${t.colSource}">${d.source_url ? `<a class="src-link" href="${d.source_url}" target="_blank" rel="noopener">${lang==="hu"?"Forrás":"Source"} ↗</a>` : "–"}</td>
+        <td class="td-details" data-label="${t.colDetails}">${d.source_url ? `<a class="src-link" href="${d.source_url}" target="_blank" rel="noopener">${lang==="hu"?"Forrás":"Source"} ↗</a>` : "–"}</td>
       </tr>`;
     }).join("") : `<tr class="empty-row"><td colspan="6" class="empty">${t.noItems}</td></tr>`;
     applyItemsLimit();
@@ -1931,7 +2001,6 @@ window.SITE_CONFIG = {
     };
     const BELL = '<path d="M10 5a2 2 0 1 1 4 0a7 7 0 0 1 4 6v3a4 4 0 0 0 2 3h-16a4 4 0 0 0 2-3v-3a7 7 0 0 1 4-6"/><path d="M9 17v1a3 3 0 0 0 6 0v-1"/>';
     const BELL_OFF = BELL + '<path d="M3 3l18 18"/>';
-    const ARROW = c => `<svg class="arr" viewBox="0 0 24 24" fill="none" stroke="${c}" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v16"/><path d="M6 13l6 6l6-6"/></svg>`;
 
     const C = window.SITE_CONFIG || {};
     const $ = id => document.getElementById(id);
@@ -2109,19 +2178,17 @@ window.SITE_CONFIG = {
       if(subscribed && swReg) swReg.pushManager.getSubscription().then(s => s && post({ action:"subscribe", endpoint:s.endpoint, lang })).catch(() => {});
     }));
 
-    /* Felugró tájékoztató: 1 mp késleltetéssel, kb. 8 mp-ig; a fejléccel együtt görög, érintést nem akadályoz. */
+    /* Felugró tájékoztató: 1 mp késleltetéssel, kb. 8 mp-ig; az időgép + nyelvválasztó fölé kerül,
+       a fő cím (brand) mindig látható marad, mert a callout a .controls dobozon belül van pozicionálva. */
     let coTimer = null;
     function showCallout(){
       const need = [];
       if(btnI.classList.contains("show")) need.push(["i", btnI, "var(--accent)", T().coInstall]);
       if(btnN.classList.contains("show") && !subscribed) need.push(["n", btnN, "var(--notify)", T().coNotify]);
       if(!need.length || $("modalOverlay").classList.contains("show")) return;
-      co.innerHTML = need.map(n => `<div class="ln"><span class="dot" style="background:${n[2]}"></span>${n[3]}</div>`).join("") +
-                     need.map(n => ARROW(n[2]).replace('class="arr"', `class="arr" data-for="${n[0]}"`)).join("");
+      co.innerHTML = need.map(n => `<div class="ln"><span class="dot" style="background:${n[2]}"></span>${n[3]}</div>`).join("");
       co.hidden = false;
       requestAnimationFrame(() => {
-        const c = co.getBoundingClientRect();
-        need.forEach(n => { const b = n[1].getBoundingClientRect(); co.querySelector(`[data-for="${n[0]}"]`).style.left = (b.left + b.width / 2 - c.left - 11) + "px"; });
         co.classList.add("show");
         need.forEach(n => n[1].classList.add("pulse"));
       });
