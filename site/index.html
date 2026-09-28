@@ -366,18 +366,22 @@ window.SITE_CONFIG = {
 
   /* ---------- category detail list ---------- */
   .cat-list-summary{margin:0 0 12px;padding-bottom:10px;border-bottom:1px solid var(--border);font-size:12.5px;color:var(--text-dim);}
-  .cat-list-row{display:flex;justify-content:space-between;align-items:flex-start;gap:14px;padding:11px 6px;border-bottom:1px solid var(--border);cursor:pointer;border-radius:8px;transition:background-color .15s;}
-  .cat-list-row:hover{background:var(--surface-2);}
-  .cat-list-row:last-child{border-bottom:0;}
+  .cat-list-row{display:flex;justify-content:space-between;align-items:flex-start;gap:14px;
+    padding:11px 12px;margin-bottom:8px;border:1px solid var(--border);background:var(--surface-2);
+    cursor:pointer;border-radius:12px;transition:background-color .15s,border-color .15s;}
+  .cat-list-row:hover{border-color:var(--text-faint);}
+  .cat-list-row:last-child{margin-bottom:0;}
   .cat-list-main{min-width:0;}
   .cat-list-subject{font-size:13px;color:var(--text);font-weight:600;line-height:1.4;margin-bottom:4px;}
   .cat-list-meta{font-size:11.5px;color:var(--text-dim);display:flex;align-items:center;gap:6px;flex-wrap:wrap;}
   .cat-list-side{flex:none;text-align:right;display:flex;flex-direction:column;align-items:flex-end;gap:4px;}
   .cat-list-amount{font-size:13px;font-weight:700;color:var(--text);white-space:nowrap;}
+  .updated-badge{color:var(--accent);font-weight:600;white-space:nowrap;}
 
   .empty{color:var(--text-dim);font-size:13px;padding:20px;text-align:center;}
 
   /* ---------- ad + footer ---------- */
+  [hidden]{display:none!important;}
   .ad-slot{margin:20px 0 0;min-height:90px;display:flex;align-items:center;justify-content:center;}
   .visitor-count{font-family:"JetBrains Mono",monospace;font-size:11.5px;color:var(--text-faint);text-align:center;margin-top:14px;font-variant-numeric:tabular-nums;}
   .support-intro{margin:0 0 14px;}
@@ -405,6 +409,7 @@ window.SITE_CONFIG = {
     border:1px solid color-mix(in srgb, var(--accent) 55%, transparent);
     background:color-mix(in srgb, var(--accent) 9%, transparent);
     color:var(--accent);font-weight:600;line-height:1.4;
+    flex-basis:100%;
   }
   .foot-links a.foot-ai:hover{color:var(--accent);background:color-mix(in srgb, var(--accent) 16%, transparent);border-color:var(--accent);}
   .foot-links a.foot-ai .foot-ai-icon{font-size:12px;line-height:1;}
@@ -504,6 +509,20 @@ window.SITE_CONFIG = {
     .controls{justify-content:space-between;}
     .ctrl-group{display:flex;width:100%;align-items:center;justify-content:space-between;}
     th,td{padding:9px 10px;font-size:12px;}
+
+    /* ---------- kompaktabb "Feljelentett ügyek" kártya mobilon ---------- */
+    .stat-card.bad.big{padding:16px 16px 18px;gap:4px;}
+    .donut-wrap{width:104px;height:104px;margin:8px auto 2px;}
+    .donut-center-label{font-size:9.5px;margin-bottom:2px;}
+    .donut-center-value{font-size:13px;}
+    .reported-breakdown{display:flex;flex-direction:row;gap:8px;max-width:none;margin:10px auto 0;}
+    .rb-row{flex:1;display:flex;flex-direction:column;align-items:center;text-align:center;
+      padding:8px 6px;margin:0;border-radius:10px;border:1px solid var(--border);background:var(--surface);}
+    .rb-row.pending{border-color:var(--bad-border);background:var(--bad-bg);}
+    .rb-row.recovered{border-color:var(--good-border);background:var(--good-bg);}
+    .rb-value{font-size:16px;line-height:1.2;}
+    .rb-label{font-size:10.5px;margin-top:2px;}
+    .rb-foot{margin-top:8px;padding-top:0;}
   }
 
   /* ---------- card-style table on narrow screens ---------- */
@@ -531,7 +550,7 @@ window.SITE_CONFIG = {
     .table-wrap td.empty::before{content:"";}
   }
 
-  /* ---------- Legutóbbi ügyek: 7 napos összefoglaló, „Továbbiak” ---------- */
+  /* ---------- Legutóbbi ügyek: 2 napos összefoglaló, „Továbbiak” ---------- */
   .panel-head{display:flex;justify-content:space-between;align-items:baseline;gap:10px;margin:0 0 12px;}
   .panel-head h3{margin:0;}
   .panel-head .win{font-size:11px;color:var(--text-faint);white-space:nowrap;}
@@ -584,6 +603,9 @@ window.SITE_CONFIG = {
         <button class="icon-btn app-act" id="pushToggle" type="button" aria-label="Értesítést kérek"><svg id="pushIcon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></svg></button>
         <button class="icon-btn" id="themeToggle" aria-label="Téma váltása" title="Világos / sötét téma">
           <svg id="themeIcon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"></svg>
+        </button>
+        <button class="icon-btn" id="tutorialHelp" type="button" aria-label="Ismerd meg az oldalt" title="Ismerd meg az oldalt">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9.5 9a2.5 2.5 0 0 1 4.9.8c0 1.7-2.4 2-2.4 3.7"/><line x1="12" y1="17" x2="12" y2="17.1"/><circle cx="12" cy="12" r="9.5"/></svg>
         </button>
         <div class="pwa-callout" id="pwaCallout" aria-hidden="true" hidden></div>
       </div>
@@ -662,7 +684,7 @@ window.SITE_CONFIG = {
     </div>
     <div class="col-stack">
     <div class="panel">
-      <div class="panel-head"><h3 data-i18n="itemsPanelTitle">Legutóbbi ügyek</h3><span class="win" data-i18n="recentWindow">elmúlt 7 nap</span></div>
+      <div class="panel-head"><h3 data-i18n="itemsPanelTitle">Legutóbbi ügyek</h3><span class="win" data-i18n="recentWindow">elmúlt 2 nap</span></div>
       <div class="recent-sum" id="recentSummary"></div>
       <div class="table-wrap">
         <table>
@@ -707,7 +729,7 @@ window.SITE_CONFIG = {
         <a href="#" id="linkPrivacy" data-i18n="footPrivacy">Adatvédelem</a>
         <a href="#" id="linkContact" data-i18n="footContact">Kapcsolat</a>
         <a href="#" id="linkAbout" data-i18n="footAbout">Rólam</a>
-        <a href="#" id="linkAiApp" class="foot-ai"><span class="foot-ai-icon" aria-hidden="true">✨</span><span data-i18n="footAiApp">Saját AI-app?</span></a>
+        <a href="#" id="linkAiApp" class="foot-ai"><span class="foot-ai-icon" aria-hidden="true">✨</span><span data-i18n="footAiApp">Saját AI appot szeretne?</span></a>
         <a href="#" id="linkSupport" data-i18n="footSupport" hidden>Támogatás</a>
       </div>
     </div>
@@ -754,19 +776,20 @@ window.SITE_CONFIG = {
       brand:"Vagyonvisszaszerzési Monitor", tagline:"Forintról forintra…",
       timeMachineLabel:"Időgép", today:"Ma",
       statRecoveredLabel:"Visszaszerzés (igazolt)", statSavedLabel:"Megtakarítás (bejelentett)",
-      statEuLabel:"EU-forrás — megállapodott / beérkezett / elveszett", statEuLabelShort:"EU-forrás — megáll. / beérk. / elveszett", lostLabel:"Elveszett források", lostShort:"Elveszett", agreedOrigLabel:"Eredetileg megállapodott", agreedTotalLabel:"Megállapodott teljes összeg", lostDateLabel:"Elvesztés bejelentve", footAbout:"Rólam", footAiApp:"Saját AI-app?", footSupport:"Támogatás", visitorsLabel:"Látogatók száma:", descLabel:"Leírás",
+      statEuLabel:"EU-forrás — megállapodott / beérkezett / elveszett", statEuLabelShort:"EU-forrás — megáll. / beérk. / elveszett", lostLabel:"Elveszett források", lostShort:"Elveszett", agreedOrigLabel:"Eredetileg megállapodott", agreedTotalLabel:"Megállapodott teljes összeg", lostDateLabel:"Elvesztés bejelentve", footAbout:"Rólam", footAiApp:"Saját AI appot szeretne?", footSupport:"Támogatás", visitorsLabel:"Látogatók száma:", descLabel:"Leírás",
       statReportedLabel:"Feljelentett ügyek összege",
       reportedPanelTitle:"Feljelentett ügyek állapota", recoveredLabel:"Visszaszerezve", pendingLabel:"Vizsgálat alatt",
       euPanelTitle:"EU-forrás állapota", agreedLabel:"Megállapodott", receivedLabel:"Beérkezett",
       categoryPanelTitle:"Főbb tételek összehasonlítása", mrdFt:"milliárd Ft",
       catRecovered:"Visszaszerzés", catSaved:"Megtakarítás", catEu:"EU-forrás",
       macroPanelTitle:"Makrogazdasági mutatók", debt:"Államadósság", inflationYear:"Éves infláció", inflationExpected:"Várható éves infláció (MNB)",
-      itemsPanelTitle:"Legutóbbi ügyek", recentWindow:"elmúlt 7 nap", recentReported:"Feljelentett ügy", recentUpdated:"frissítve", recentOfficial:"Hivatalos lista", recentUnchanged:"változatlan", caseWord:"ügy", moreBtn:"Továbbiak", lessBtn:"Kevesebb", colDate:"Dátum", colCategory:"Kategória", colSubject:"Téma", colAmount:"Összeg", colStatus:"Állapot", colSource:"Forrás",
+      itemsPanelTitle:"Legutóbbi ügyek", recentWindow:"elmúlt 2 nap", recentReported:"Feljelentett ügy", recentUpdated:"frissítve", recentOfficial:"Hivatalos lista", recentUnchanged:"változatlan", caseWord:"ügy", moreBtn:"Továbbiak", lessBtn:"Kevesebb", colDate:"Dátum", colCategory:"Kategória", colSubject:"Téma", colAmount:"Összeg", colStatus:"Állapot", colSource:"Forrás",
       loading:"Betöltés…", noItems:"Nincs a kiválasztott dátumig rögzített tétel.",
       footNote:"Automatikusan frissül minden ütemezett futás (06:00, 12:00 és 17:00, Európa/Budapest) után; nyitva tartott oldal esetén emellett 5 percenként is frissülnek az adatok.",
       footSources:"Adatforrások", footPrivacy:"Adatvédelem", footContact:"Kapcsolat",
       lastUpdatedLabel:"A legutóbbi frissítés:", lastUpdatedNever:"Adatok betöltése…",
       timeBanner: d => `Időgép aktív — az oldal a(z) ${d} napi állapotot mutatja.`,
+      updatedBadge: d => `Frissítve: ${d}`,
       catVerified:"Ellenőrzött", catReview:"Felülvizsgálandó", catRejected:"Elutasított",
       catVisszaszerzes:"Visszaszerzés", catMegtakaritas:"Megtakarítás", catEuForras:"EU-forrás",
       tetel:"tétel", caseCount:"Az ügyek száma:", mrd:"Mrd Ft", noteLabel:"Megjegyzés", openSource:"Forrás megnyitása",
@@ -784,19 +807,20 @@ window.SITE_CONFIG = {
       brand:"Asset Recovery Monitor", tagline:"Forint by forint…",
       timeMachineLabel:"Time machine", today:"Today",
       statRecoveredLabel:"Recovered assets (verified)", statSavedLabel:"Savings (reported)",
-      statEuLabel:"EU funds — agreed / received / lost", statEuLabelShort:"EU funds — agreed / rec. / lost", lostLabel:"Lost funds", lostShort:"Lost", agreedOrigLabel:"Originally agreed", agreedTotalLabel:"Total agreed amount", lostDateLabel:"Loss announced", footAbout:"About me", footAiApp:"Your AI App?", footSupport:"Support", visitorsLabel:"Visitors:", descLabel:"Description",
+      statEuLabel:"EU funds — agreed / received / lost", statEuLabelShort:"EU funds — agreed / rec. / lost", lostLabel:"Lost funds", lostShort:"Lost", agreedOrigLabel:"Originally agreed", agreedTotalLabel:"Total agreed amount", lostDateLabel:"Loss announced", footAbout:"About me", footAiApp:"Want your own AI app?", footSupport:"Support", visitorsLabel:"Visitors:", descLabel:"Description",
       statReportedLabel:"Total value of reported cases",
       reportedPanelTitle:"Reported case status", recoveredLabel:"Recovered", pendingLabel:"Under investigation",
       euPanelTitle:"EU funds status", agreedLabel:"Agreed", receivedLabel:"Received",
       categoryPanelTitle:"Key figures compared", mrdFt:"HUF billion",
       catRecovered:"Recovered", catSaved:"Savings", catEu:"EU funds",
       macroPanelTitle:"Macroeconomic indicators", debt:"National debt", inflationYear:"Annual inflation", inflationExpected:"Expected annual inflation (MNB)",
-      itemsPanelTitle:"Recent items", recentWindow:"last 7 days", recentReported:"Reported cases", recentUpdated:"updated", recentOfficial:"Official list", recentUnchanged:"unchanged", caseWord:"cases", moreBtn:"Show more", lessBtn:"Show less", colDate:"Date", colCategory:"Category", colSubject:"Subject", colAmount:"Amount", colStatus:"Status", colSource:"Source",
+      itemsPanelTitle:"Recent items", recentWindow:"last 2 days", recentReported:"Reported cases", recentUpdated:"updated", recentOfficial:"Official list", recentUnchanged:"unchanged", caseWord:"cases", moreBtn:"Show more", lessBtn:"Show less", colDate:"Date", colCategory:"Category", colSubject:"Subject", colAmount:"Amount", colStatus:"Status", colSource:"Source",
       loading:"Loading…", noItems:"No items recorded up to the selected date.",
       footNote:"Refreshes automatically after every scheduled run (06:00, 12:00 & 17:00, Europe/Budapest); while the page stays open, it also refreshes every 5 minutes.",
       footSources:"Data sources", footPrivacy:"Privacy", footContact:"Contact",
       lastUpdatedLabel:"Last updated:", lastUpdatedNever:"Loading data…",
       timeBanner: d => `Time machine active — showing state as of ${d}.`,
+      updatedBadge: d => `Updated: ${d}`,
       catVerified:"Verified", catReview:"Needs review", catRejected:"Rejected",
       catVisszaszerzes:"Recovered", catMegtakaritas:"Savings", catEuForras:"EU funds",
       tetel:"item", caseCount:"Number of cases:", mrd:"HUF bn", noteLabel:"Note", openSource:"Open source",
@@ -1006,8 +1030,8 @@ window.SITE_CONFIG = {
       <p class="ai-company">Assignments are taken on through my own company, MS Tanácsadó és Kereskedelmi Kft.</p>`
   };
 
-  const MODAL_TITLES = { hu:{sources:"Adatforrások", privacy:"Adatvédelmi tájékoztató", contact:"Kapcsolat", about:"Rólam", aiapp:"Saját AI-alkalmazás"},
-                          en:{sources:"Data sources", privacy:"Privacy notice", contact:"Contact", about:"About me", aiapp:"Your own AI application"} };
+  const MODAL_TITLES = { hu:{sources:"Adatforrások", privacy:"Adatvédelmi tájékoztató", contact:"Kapcsolat", about:"Rólam", aiapp:"Saját AI-alkalmazás", tutorialIntro:"Ismerd meg az oldalt"},
+                          en:{sources:"Data sources", privacy:"Privacy notice", contact:"Contact", about:"About me", aiapp:"Your own AI application", tutorialIntro:"Get to know the site"} };
 
   /* ---------- modal navigation stack ----------
      showModalView(renderFn) opens a new view on top of whatever is currently shown
@@ -1088,6 +1112,12 @@ window.SITE_CONFIG = {
     } else if(kind === "contact"){
       body = `<div class="contact-box"><span class="contact-label">✉️ Email</span><a href="mailto:${CONTACT_EMAIL}">${CONTACT_EMAIL}</a></div>
         <p>${lang==="hu"?"Kérdés, észrevétel, hibajelzés vagy helyesbítési kérés esetén írj erre a címre.":"For questions, feedback, bug reports or correction requests, write to this address."}</p>`;
+    } else if(kind === "tutorialIntro"){
+      body = `<p>${lang==="hu"?"Itt indítható el egy rövid, végigvezető bemutató az oldal fő funkcióiról.":"From here you can start a short guided tour of the site's main features."}</p>
+        <div class="pwa-actions">
+          <button class="btn" id="tutorialExit" type="button">${lang==="hu"?"Kilépés":"Exit"}</button>
+          <button class="btn primary" id="tutorialStart" type="button">${lang==="hu"?"Bemutató indítása":"Start tour"}</button>
+        </div>`;
     }
     document.getElementById("modalBody").innerHTML = body;
   }
@@ -1108,6 +1138,10 @@ window.SITE_CONFIG = {
     showModalView(()=>renderFooterModal(kind));
   });
   document.getElementById("linkSupport").addEventListener("click", e=>{ e.preventDefault(); showModalView(()=>renderFooterModal("support"), {resetStack:true}); });
+  document.getElementById("tutorialHelp").addEventListener("click", ()=>{ showModalView(()=>renderFooterModal("tutorialIntro"), {resetStack:true}); });
+  document.getElementById("modalBody").addEventListener("click", e=>{
+    if(e.target.closest("#tutorialExit") || e.target.closest("#tutorialStart")) closeModal();
+  });
   document.getElementById("modalClose").addEventListener("click", closeModal);
   (function(){
     const body = document.getElementById("modalBody"), hint = document.getElementById("scrollHint");
@@ -1261,26 +1295,41 @@ window.SITE_CONFIG = {
     handleRowActivate(e);
   });
 
+  /* ---------- rendezés: elsődlegesen updated_at szerint, csökkenő sorrendben ---------- */
+  function updatedAtSortKey(d, fallback){ return d.updated_at || (fallback ? d[fallback] : null) || "0000-00-00"; }
+  function byUpdatedAtDesc(fallback){
+    return (a,b) => { const ka = updatedAtSortKey(a, fallback), kb = updatedAtSortKey(b, fallback);
+      return ka < kb ? 1 : ka > kb ? -1 : 0; };
+  }
+  /* "Frissítve: {dátum}" jelzés — csak akkor, ha a tétel a bejelentése (first_seen_at) óta ténylegesen frissült */
+  function updatedBadgeHtml(d){
+    if(!d.updated_at || !d.first_seen_at) return "";
+    const u = String(d.updated_at).slice(0,10), f = String(d.first_seen_at).slice(0,10);
+    if(u <= f) return "";
+    return ` <span class="updated-badge">${I18N[lang].updatedBadge(u)}</span>`;
+  }
+
   /* ---------- category detail (clickable top stat cards) ---------- */
   function renderCategoryList(catKey){
     const t = I18N[lang];
-    let list, title, kind;
+    let list, title, kind, dateField;
     if(catKey === "recovered"){
       list = CURRENT_ITEMS_FILTERED.filter(d=>d.category==="visszaszerzes" && d.status==="verified");
-      title = t.statRecoveredLabel; kind = "item";
+      title = t.statRecoveredLabel; kind = "item"; dateField = "event_date";
     } else if(catKey === "saved"){
       list = CURRENT_ITEMS_FILTERED.filter(d=>d.category==="megtakaritas");
-      title = t.statSavedLabel; kind = "item";
+      title = t.statSavedLabel; kind = "item"; dateField = "event_date";
     } else if(catKey === "reported"){
       const aggDoc = CURRENT_REPORTED_FILTERED.find(d=> d.is_aggregate === true);
       list = aggDoc ? CURRENT_REPORTED_FILTERED.filter(d=>d!==aggDoc) : CURRENT_REPORTED_FILTERED.slice();
-      title = t.statReportedLabel; kind = "reported";
+      title = t.statReportedLabel; kind = "reported"; dateField = "report_date";
     } else if(catKey === "eu"){
       list = CURRENT_ITEMS_FILTERED.filter(d=>d.category==="eu_forras" && d.status==="verified");
-      title = t.statEuLabel; kind = "item";
+      title = t.statEuLabel; kind = "item"; dateField = "event_date";
     } else if(catKey === "macro"){
       renderMacroList(); return;
     } else { return; }
+    list = list.slice().sort(byUpdatedAtDesc(dateField));
 
     const amountField = kind === "reported" ? "alleged_amount_huf" : "amount_huf";
     const totalHuf = list.reduce((a,d)=> a + (typeof d[amountField]==="number"?d[amountField]:0), 0);
@@ -1295,7 +1344,7 @@ window.SITE_CONFIG = {
         return `<div class="cat-list-row" data-idx="${idx}" tabindex="0" role="button">
           <div class="cat-list-main">
             <div class="cat-list-subject">${d.subject || d.case_name || d.id || t.statReportedLabel}</div>
-            <div class="cat-list-meta"><span class="mono">${d.report_date||"–"}</span></div>
+            <div class="cat-list-meta"><span class="mono">${d.report_date||"–"}</span>${updatedBadgeHtml(d)}</div>
           </div>
           <div class="cat-list-side">
             <div class="cat-list-amount mono">${fmtMrd(d.alleged_amount_huf)} ${t.mrd}</div>
@@ -1306,11 +1355,10 @@ window.SITE_CONFIG = {
       return `<div class="cat-list-row" data-idx="${idx}" tabindex="0" role="button">
         <div class="cat-list-main">
           <div class="cat-list-subject">${d.subject||""}</div>
-          <div class="cat-list-meta"><span class="mono">${d.event_date||"–"}</span> · <span class="pill status-${st}">${t[STATUS_KEY[st]]||st}</span></div>
+          <div class="cat-list-meta"><span class="mono">${d.event_date||"–"}</span> · <span class="pill status-${st}">${t[STATUS_KEY[st]]||st}</span>${updatedBadgeHtml(d)}</div>
         </div>
         <div class="cat-list-side">
           <div class="cat-list-amount mono">${fmtMrd(d.category==="eu_forras" ? euAmt(d) : d.amount_huf)} ${t.mrd}</div>
-          ${d.source_url ? `<a class="src-link" href="${d.source_url}" target="_blank" rel="noopener">${t.openSource} ↗</a>` : ""}
         </div>
       </div>`;
     }).join("") : `<p class="empty">${catKey==="eu" ? t.euNoItems : t.noItems}</p>`;
@@ -1322,7 +1370,7 @@ window.SITE_CONFIG = {
       if(lost.length){
         lostHtml = `<div class="cat-list-group lost" style="margin-top:18px;">${t.lostLabel}</div><div class="cat-list">` + lost.map((l,i)=>`<div class="cat-list-row" data-lost-idx="${i}" tabindex="0" role="button">
           <div class="cat-list-main"><div class="cat-list-subject">${l.subject||""}</div><div class="cat-list-meta"><span class="mono">${l.lost_date||"–"}</span></div></div>
-          <div class="cat-list-side"><div class="cat-list-amount mono lost">${fmtMrd(l.amount_huf)} ${t.mrd}</div>${l.source_url?`<a class="src-link" href="${l.source_url}" target="_blank" rel="noopener">${t.openSource} ↗</a>`:""}</div></div>`).join("") + `</div>`;
+          <div class="cat-list-side"><div class="cat-list-amount mono lost">${fmtMrd(l.amount_huf)} ${t.mrd}</div></div></div>`).join("") + `</div>`;
       }
     }
     document.getElementById("modalBody").innerHTML = summary + `<div data-list class="cat-list">${rowsHtml}</div>` + lostHtml;
@@ -1680,8 +1728,8 @@ window.SITE_CONFIG = {
     });
   }
 
-  /* ---------- Legutóbbi ügyek: 7 napos összefoglaló és „Továbbiak” gomb ---------- */
-  const ROW_LIMIT = 3, RECENT_DAYS = 7;
+  /* ---------- Legutóbbi ügyek: 2 napos összefoglaló és „Továbbiak” gomb ---------- */
+  const ROW_LIMIT = 3, RECENT_DAYS = 2;
   const CHEVRON = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>';
   let ITEMS_EXPANDED = false;
   function isoMinusDays(iso, n){ const d = new Date(iso + "T00:00:00Z"); d.setUTCDate(d.getUTCDate() - n); return d.toISOString().slice(0,10); }
@@ -1855,11 +1903,11 @@ window.SITE_CONFIG = {
       document.getElementById("macroInflExp").innerHTML = cell(sh[2], macro.inflacio_varhato_eves_szazalek!=null?macro.inflacio_varhato_eves_szazalek+"%":"–", "MNB");
     }
 
-    /* items table (merged: items + reported cases, most recent first) */
+    /* items table (merged: items + reported cases, most recently UPDATED first) */
     const reportedForTable = reported.filter(d => !d.is_aggregate);
     const merged = [
-      ...items.map(d => ({kind:"item", data:d, sortDate:d.event_date || "0000-00-00"})),
-      ...reportedForTable.map(d => ({kind:"reported", data:d, sortDate:d.report_date || "0000-00-00"})),
+      ...items.map(d => ({kind:"item", data:d, sortDate:updatedAtSortKey(d, "event_date")})),
+      ...reportedForTable.map(d => ({kind:"reported", data:d, sortDate:updatedAtSortKey(d, "report_date")})),
     ];
     merged.sort((a,b) => a.sortDate < b.sortDate ? 1 : a.sortDate > b.sortDate ? -1 : 0);
     const rows = merged;
@@ -1870,7 +1918,7 @@ window.SITE_CONFIG = {
         const st = d.status || "";
         const srcUrl = d.report_source && d.report_source.url;
         return `<tr data-idx="${idx}" tabindex="0" role="button">
-          <td class="mono" data-label="${t.colDate}">${d.report_date||"–"}</td>
+          <td class="mono" data-label="${t.colDate}">${d.report_date||"–"}${updatedBadgeHtml(d)}</td>
           <td data-label="${t.colCategory}"><span class="cat-dot reported"><i></i>${t.catReportedCase}</span></td>
           <td class="subject" data-label="${t.colSubject}">${d.subject||""}</td>
           <td class="amount" data-label="${t.colAmount}">${fmtMrd(d.alleged_amount_huf)} ${t.mrd}</td>
@@ -1883,7 +1931,7 @@ window.SITE_CONFIG = {
       const st = d.status || "";
       const amount = d.category==="eu_forras" ? euAgreedAt(d) : d.amount_huf;
       return `<tr data-idx="${idx}" tabindex="0" role="button">
-        <td class="mono" data-label="${t.colDate}">${d.event_date||"–"}</td>
+        <td class="mono" data-label="${t.colDate}">${d.event_date||"–"}${updatedBadgeHtml(d)}</td>
         <td data-label="${t.colCategory}"><span class="cat-dot ${cat}"><i></i>${t[CAT_KEY[cat]]||cat}</span></td>
         <td class="subject" data-label="${t.colSubject}">${d.subject||""}</td>
         <td class="amount" data-label="${t.colAmount}">${fmtMrd(amount)} ${t.mrd}</td>
