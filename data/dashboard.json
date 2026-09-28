@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-27T15:55:13+00:00",
+ "generated_at": "2026-09-28T04:00:24+00:00",
  "summary": {
   "megtakaritas_verified_huf": 987800000000,
   "visszaszerzes_verified_huf": 1520170000000,
@@ -1449,13 +1449,14 @@
  },
  "last_run": {
   "errors": [
-   "hirkereso.hu és hirkereso.hu/politika ebben a futásban is 404-es hibával nem volt elérhető.",
-   "Az ÁKK hivatalos oldala (akk.hu) nem volt közvetlenül lekérhető ebben a futásban; az államadósság-adat változatlanul a legutóbbi (2026-09-27 16:56-os) pillanatkép szerinti (2026-07-31-i, Magyar Nemzet/ÁKK-hivatkozás) állapotot tükrözi.",
-   "Ez a futás alig kb. 55 perccel az előző (2026-09-27 16:56–17:20) alapos futás után indult; abban a futásban sem volt új tétel (items_new 0, reported_cases_new/updated 0), és ebben a futásban végzett kiegészítő keresés (Schobert-villa, NAK/kamarai botrány büntetőjogi részletei, MKIF M1-Bicske 77 millió Ft/óra idézet) sem talált olyan új, jelenlegi megtakarítást/visszaszerzést/EU-forrást vagy feljelentést, amely még nem szerepelne az adattárban — a Schobert-villa hirdetése magánjogi ingatlanértékesítés, nem állami vagyonvisszaszerzés, ezért nem került fel.",
-   "Az NVVH első négy kiemelt ügyét a sajtó (Világgazdaság) szerint 2026-09-28-án (hétfőn) jelentik be — ebben a futásban még nincs konkrét adat, a következő futásban ellenőrizendő."
+   "Az NVVH (Nemzeti Vagyonvisszaszerzési és Vagyonvédelmi Hivatal) első négy, átvett ügyének bejelentése a beharangozások szerint 2026.09.28-án (a mai napon) várható, de a kutatás időpontjában még nem történt meg — konkrét ügy/összeg nem rögzíthető, következő futásban ellenőrizendő.",
+   "hirkereso.hu/politika ismét 404-es hibát adott, nem volt elérhető.",
+   "Az ÁKK hivatalos statisztikai oldala (akk.hu/hu/statisztika/allamadossag-finanszirozas) JavaScript-alapú, ezért a WebFetch nem tudta kiolvasni az aktuális összesített államadósság-számot; sajtóforrásokból (Világgazdaság, Magyar Nemzet) csak részleges, egymásnak nem teljesen megfeleltethető havi változás-adatok (pl. 'idén augusztus végéig 6508,4 milliárd forinttal nőtt az adósság') voltak fellelhetők, megbízható, egyértelmű augusztus végi teljes összeg nélkül — az allamadossag_huf mező ezért változatlanul a 2026-07-31-i (Magyar Nemzet/ÁKK-hivatkozás) állapotot tükrözi, új macro_snapshots dokumentum ebben a futásban nem készült.",
+   "A Világgazdaság M5/M6 vs. MKIF koncesszió-összehasonlító cikke (2026-09-25, autopalya-koncesszio-meszaros-lorinc-mkif-m5-m6-palocz) elemző/összehasonlító jellegű, konkrét jelenlegi megtakarítási/visszaszerzési eseményt vagy új feljelentést nem tartalmaz, ezért nem került fel sem az items, sem a reported_cases kollekcióba.",
+   "Az atlatszo.hu 2026-05-19-i cikke (578 milliárd forint uniós támogatási előleg visszakövetelése) a 3 napos figyelési ablakon kívül esik és nem egyértelműsíthető, hogy önálló, még nem rögzített eseményről van-e szó vagy a meglévő EU-forrás/KEKVA tételek részét képezi — alaposabb, célzott utánajárást igényel egy következő futásban."
   ],
   "eu_lost_items_new": 0,
-  "finished_at": "2026-09-27T18:10:00+02:00",
+  "finished_at": "2026-09-28T06:10:00+02:00",
   "items_duplicate": 12,
   "items_found_total": 12,
   "items_needs_review": 0,
@@ -1463,32 +1464,39 @@
   "reported_cases_new": 0,
   "reported_cases_updated": 0,
   "sources_checked": [
-   "kormany.hu/atlathato/feljelentes (közvetlenül elérhető, 37 ügy / 2221 Mrd Ft, 2026-09-23-i állapot — változatlan)",
-   "mnvvh.hu/hirek (elérhető, csak 2026-09-13-i állásajánlatok, új ügyadat nincs)",
-   "k-monitor.hu (WebSearch, célzott keresések)",
-   "hirkereso.hu/ és /politika (404-es hiba, nem elérhető ebben a futásban is)",
+   "kormany.hu/atlathato/feljelentes (37 ügy, 2221 Mrd Ft, 2026-09-23-i állapot — teljes lista tételesen ellenőrizve, változatlan az előző futáshoz képest)",
+   "mnvvh.hu/hirek (csak szervezeti közlemények, konkrét új ügyadat nincs; az NVVH első 4 ügyének bejelentése a keresés időpontjában még nem történt meg, csak a mai napra ('2026.09.28') van beharangozva)",
+   "k-monitor.hu (célzott keresés, nincs releváns, még nem rögzített új találat)",
+   "hirkereso.hu/politika (404-es hiba, nem elérhető ebben a futásban is)",
    "telex.hu",
    "444.hu",
    "index.hu",
    "portfolio.hu",
-   "hvg.hu",
    "economx.hu",
    "vg.hu",
-   "infostart.hu",
-   "forbes.hu",
+   "hvg.hu",
+   "24.hu",
+   "origo.hu",
    "nepszava.hu",
+   "mfor.hu",
+   "infostart.hu",
    "penzcentrum.hu",
    "atlatszo.hu",
-   "privatbankar.hu",
-   "mfor.hu",
-   "origo.hu",
-   "hirnavigator.hu",
-   "szmo.hu"
+   "mnb.hu/arfolyamok (EUR/HUF fixing, 2026-09-25: 364,42 Ft/EUR — változatlan, nincs újabb munkanapi fixing)",
+   "akk.hu (JS-alapú statisztikai oldal ismét nem adott ki számadatot; sajtóforrásokból sem sikerült megbízhatóan, egyértelműen forrásolt augusztus végi összesített államadósság-adatot azonosítani)"
   ],
-  "started_at": "2026-09-27T17:52:00+02:00",
-  "id": "2026-09-27T17-52"
+  "started_at": "2026-09-28T05:55:00+02:00",
+  "id": "2026-09-28T05-55"
  },
  "run_history": [
+  {
+   "finished_at": "2026-09-28T06:10:00+02:00",
+   "started_at": "2026-09-28T05:55:00+02:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
   {
    "finished_at": "2026-09-27T18:10:00+02:00",
    "started_at": "2026-09-27T17:52:00+02:00",
