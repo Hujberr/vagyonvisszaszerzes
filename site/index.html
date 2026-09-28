@@ -515,7 +515,13 @@ window.SITE_CONFIG = {
     opacity:0;transition:top .28s ease,left .28s ease,opacity .2s ease;
   }
   #tutorialBubble.show{opacity:1;}
-  #tutorialStepCount{font-size:11px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--accent);margin-bottom:6px;}
+  #tutorialBubbleClose{
+    position:absolute;top:10px;right:10px;width:26px;height:26px;border-radius:8px;
+    background:var(--surface-2);border:1px solid var(--border);color:var(--text-dim);
+    display:flex;align-items:center;justify-content:center;font-size:13px;line-height:1;cursor:pointer;
+  }
+  #tutorialBubbleClose:hover{color:var(--text);border-color:var(--text-faint);}
+  #tutorialStepCount{font-size:11px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--accent);margin:0 34px 6px 0;}
   #tutorialText{font-size:13.5px;line-height:1.55;color:var(--text-dim);margin:0 0 14px;}
   #tutorialText b{color:var(--text);}
   .tutorial-nav{display:flex;justify-content:flex-end;gap:8px;}
@@ -806,6 +812,7 @@ window.SITE_CONFIG = {
   <div id="tutorialSpot"></div>
   <button id="tutorialExit" type="button">✕ <span id="tutorialExitLabel">Kilépés</span></button>
   <div id="tutorialBubble" role="dialog" aria-modal="true">
+    <button id="tutorialBubbleClose" type="button" aria-label="Kilépés">✕</button>
     <div id="tutorialStepCount"></div>
     <p id="tutorialText"></p>
     <div class="tutorial-nav">
@@ -873,13 +880,13 @@ window.SITE_CONFIG = {
       tutTimeMachine:"<b>Időgép.</b> Itt választhat egy múltbeli dátumot, és az oldal az akkori állapotot mutatja. A „Ma” gombbal egy kattintással visszatérhet a mai állapothoz.",
       tutPwa:"<b>Telepítés és értesítés.</b> A telepítés gombbal az oldalt alkalmazásként telepítheti a készülékére. A feliratkozás gombbal értesítést kap az új tételekről, a leiratkozás gombbal ezt bármikor kikapcsolhatja.",
       tutLangTheme:"<b>Nyelv és megjelenés.</b> Váltson magyar és angol nyelv, valamint sötét és világos téma között.",
-      tutRecovered:"<b>Visszaszerzés.</b> Az államhoz igazoltan visszakerült pénz és vagyon, kitől szerezték vissza.",
-      tutDetails:"<b>Részletek.</b> A „Részletek ›” gombbal megnyitható a tételes lista, minden tételnél forráslinkkel, hogy bármi ellenőrizhető legyen. A többi kártyánál is ugyanígy működik.",
-      tutSaved:"<b>Megtakarítás.</b> Állami intézkedésekből származó megtakarítások és a tételek száma.",
-      tutEu:"<b>EU-források.</b> Megállapodott, ténylegesen beérkezett és véglegesen elveszett uniós pénzek egy helyen.",
-      tutReported:"<b>Feljelentett ügyek.</b> Olyan ügyek, ahol a pénz még nincs teljesen visszaszerezve. A kör a függőben lévő és a rendezett részt mutatja.",
-      tutMacro:"<b>Makrogazdasági mutatók.</b> Az államadósság és az infláció (havi, éves, várható) hivatalos forrásból.",
-      tutRecent:"<b>Legutóbbi ügyek.</b> Az elmúlt két nap új és frissített tételei, a legfrissebbek elöl. A „Frissítve” jelzés tényleges változást jelent.",
+      tutRecovered:"<b>Visszaszerzés.</b> Az államhoz igazoltan visszakerült pénz és vagyon, kitől szerezték vissza. További részletekért kattintson a kártyára.",
+      tutDetails:"<b>Részletek.</b> A „Részletek ›” gombbal megnyitható a tételes lista, minden tételnél forráslinkkel, hogy bármi ellenőrizhető legyen. További részletekért kattintson az egyes ügyek kártyájára.",
+      tutSaved:"<b>Megtakarítás.</b> Állami intézkedésekből származó megtakarítások és a tételek száma. További részletekért kattintson a kártyára.",
+      tutEu:"<b>EU-források.</b> Megállapodott, ténylegesen beérkezett és véglegesen elveszett uniós pénzek egy helyen. További részletekért kattintson a kártyára.",
+      tutReported:"<b>Feljelentett ügyek.</b> Olyan ügyek, ahol a pénz még nincs teljesen visszaszerezve. A kör a függőben lévő és a rendezett részt mutatja. További részletekért kattintson a kártyára.",
+      tutMacro:"<b>Makrogazdasági mutatók.</b> Az államadósság és az infláció (havi, éves, várható) hivatalos forrásból. További részletekért kattintson a kártyára.",
+      tutRecent:"<b>Legutóbbi ügyek.</b> Az elmúlt két nap új és frissített tételei, a legfrissebbek elöl. A „Frissítve” jelzés tényleges változást jelent. További részletekért kattintson a kártyára.",
       tutFooter:"<b>Háttér.</b> Itt találja az adatforrásokat, az adatvédelmi tájékoztatót, a kapcsolatot és a „Rólam” oldalt.",
       tutEnd:"<b>Ennyi az egész.</b> A bemutatót a fejléc kérdőjel ikonjával bármikor újraindíthatja."
     },
@@ -917,13 +924,13 @@ window.SITE_CONFIG = {
       tutTimeMachine:"<b>Time machine.</b> Pick a past date and the page shows the data as it stood then. The “Today” button takes you back to the current state in one click.",
       tutPwa:"<b>Install and notifications.</b> The install button adds the page to your device as an app. Subscribe to get notified about new items, and unsubscribe any time.",
       tutLangTheme:"<b>Language and theme.</b> Switch between Hungarian and English, and between dark and light mode.",
-      tutRecovered:"<b>Recovery.</b> Money and assets verifiably returned to the state, and from whom.",
-      tutDetails:"<b>Details.</b> “Details ›” opens the itemised list, with a source link on every item so anything can be checked. The other cards work the same way.",
-      tutSaved:"<b>Savings.</b> Savings from government measures and the number of items.",
-      tutEu:"<b>EU funds.</b> Agreed, actually received and permanently lost EU funds in one place.",
-      tutReported:"<b>Reported cases.</b> Cases where the money has not yet been fully recovered. The chart shows the pending and settled shares.",
-      tutMacro:"<b>Macroeconomic indicators.</b> State debt and inflation (monthly, annual, expected) from official sources.",
-      tutRecent:"<b>Latest items.</b> New and updated entries from the past two days, newest first. “Updated” means a real change.",
+      tutRecovered:"<b>Recovery.</b> Money and assets verifiably returned to the state, and from whom. For more details, click the card.",
+      tutDetails:"<b>Details.</b> “Details ›” opens the itemised list, with a source link on every item so anything can be checked. For more details, click each case's card.",
+      tutSaved:"<b>Savings.</b> Savings from government measures and the number of items. For more details, click the card.",
+      tutEu:"<b>EU funds.</b> Agreed, actually received and permanently lost EU funds in one place. For more details, click the card.",
+      tutReported:"<b>Reported cases.</b> Cases where the money has not yet been fully recovered. The chart shows the pending and settled shares. For more details, click the card.",
+      tutMacro:"<b>Macroeconomic indicators.</b> State debt and inflation (monthly, annual, expected) from official sources. For more details, click the card.",
+      tutRecent:"<b>Latest items.</b> New and updated entries from the past two days, newest first. “Updated” means a real change. For more details, click the card.",
       tutFooter:"<b>Background.</b> Find the data sources, privacy notice, contact and the “About” page here.",
       tutEnd:"<b>That's it.</b> You can restart the tour any time with the question mark icon in the header."
     }
@@ -1177,6 +1184,18 @@ window.SITE_CONFIG = {
     document.body.style.overflow = "";
     currentModalRender = null;
   }
+  /* Szinkron, azonnali bezárás — a closeModal() a böngésző history.back()-jére
+     támaszkodik, ami aszinkron (popstate-en keresztül fut le); a tutorial
+     indításakor/lezárásakor ez versenyhelyzetet okozhatna (a régi ablak egy
+     pillanatra, vagy hiba esetén tartósan is nyitva maradhatna a tutorial
+     alatt), ezért ott ezt a szinkron változatot használjuk. */
+  function forceCloseModal(){
+    modalStack = [];
+    currentModalRender = null;
+    histDepth = 0;
+    document.getElementById("modalOverlay").classList.remove("show");
+    document.body.style.overflow = "";
+  }
 
   function renderFooterModal(kind){
     document.getElementById("modalTitle").textContent = MODAL_TITLES[lang][kind];
@@ -1234,7 +1253,7 @@ window.SITE_CONFIG = {
   document.getElementById("tutorialHelp").addEventListener("click", ()=>{ showModalView(()=>renderFooterModal("tutorialIntro"), {resetStack:true}); });
   document.getElementById("modalBody").addEventListener("click", e=>{
     if(e.target.closest("#tutorialIntroExit")){ closeModal(); return; }
-    if(e.target.closest("#tutorialStart")){ closeModal(); startTutorial(); }
+    if(e.target.closest("#tutorialStart")){ forceCloseModal(); startTutorial(); }
   });
   document.getElementById("modalClose").addEventListener("click", closeModal);
   (function(){
@@ -1260,8 +1279,8 @@ window.SITE_CONFIG = {
     { key:"langTheme", targets:[".toggle","#themeToggle"] },
     { key:"recovered", targets:['.stat-card[data-cat="recovered"]'] },
     { key:"details", targets:["#modalOverlay.show .modal"],
-      before: ()=>{ if(!tutorialCatModalOpen){ showModalView(()=>renderCategoryList("recovered"), {resetStack:true}); tutorialCatModalOpen = true; } },
-      after: ()=>{ if(tutorialCatModalOpen){ closeModal(); tutorialCatModalOpen = false; } } },
+      before: ()=>{ showModalView(()=>renderCategoryList("recovered"), {resetStack:true}); tutorialCatModalOpen = true; },
+      after: ()=>{ forceCloseModal(); tutorialCatModalOpen = false; } },
     { key:"saved", targets:['.stat-card[data-cat="saved"]'] },
     { key:"eu", targets:['.stat-card[data-cat="eu"]'] },
     { key:"reported", targets:['.stat-card[data-cat="reported"]'] },
@@ -1363,6 +1382,7 @@ window.SITE_CONFIG = {
     });
   }
   function startTutorial(){
+    forceCloseModal();
     tutorialActive = true;
     tutorialStep = -1;
     tutorialCatModalOpen = false;
@@ -1374,6 +1394,7 @@ window.SITE_CONFIG = {
     if(!tutorialActive) return;
     const step = tutorialStep >= 0 ? TUTORIAL_STEPS[tutorialStep] : null;
     if(step && step.after) step.after();
+    forceCloseModal();
     tutorialActive = false;
     tutorialStep = -1;
     document.getElementById("tutorialBlock").classList.remove("show");
@@ -1382,6 +1403,7 @@ window.SITE_CONFIG = {
     document.body.style.overflow = "";
   }
   document.getElementById("tutorialExit").addEventListener("click", endTutorial);
+  document.getElementById("tutorialBubbleClose").addEventListener("click", endTutorial);
   document.getElementById("tutorialNext").addEventListener("click", ()=>{
     if(tutorialStep >= TUTORIAL_STEPS.length - 1){ endTutorial(); return; }
     showStep(tutorialStep + 1, 1);
