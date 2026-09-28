@@ -515,14 +515,9 @@ window.SITE_CONFIG = {
     opacity:0;transition:top .28s ease,left .28s ease,opacity .2s ease;
   }
   #tutorialBubble.show{opacity:1;}
-  #tutorialBubbleClose{
-    position:absolute;top:10px;right:10px;width:26px;height:26px;border-radius:8px;
-    background:var(--surface-2);border:1px solid var(--border);color:var(--text-dim);
-    display:flex;align-items:center;justify-content:center;font-size:13px;line-height:1;cursor:pointer;
-  }
-  #tutorialBubbleClose:hover{color:var(--text);border-color:var(--text-faint);}
-  #tutorialStepCount{font-size:11px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--accent);margin:0 34px 6px 0;}
-  #tutorialText{font-size:13.5px;line-height:1.55;color:var(--text-dim);margin:0 0 14px;}
+  #tutorialBubbleClose{position:absolute;top:12px;right:12px;}
+  #tutorialStepCount{font-size:11px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--accent);margin:0 40px 6px 0;}
+  #tutorialText{font-size:13.5px;line-height:1.55;color:color-mix(in srgb, var(--text-dim) 55%, var(--text) 45%);margin:0 0 14px;}
   #tutorialText b{color:var(--text);}
   .tutorial-nav{display:flex;justify-content:flex-end;gap:8px;}
   .tutorial-nav .btn{padding:8px 14px;font-size:13px;}
@@ -812,7 +807,7 @@ window.SITE_CONFIG = {
   <div id="tutorialSpot"></div>
   <button id="tutorialExit" type="button">✕ <span id="tutorialExitLabel">Kilépés</span></button>
   <div id="tutorialBubble" role="dialog" aria-modal="true">
-    <button id="tutorialBubbleClose" type="button" aria-label="Kilépés">✕</button>
+    <button class="modal-close" id="tutorialBubbleClose" type="button" aria-label="Kilépés">✕</button>
     <div id="tutorialStepCount"></div>
     <p id="tutorialText"></p>
     <div class="tutorial-nav">
