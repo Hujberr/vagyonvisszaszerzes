@@ -200,6 +200,7 @@ window.SITE_CONFIG = {
     .stat-card.clickable,.panel.clickable{transition:transform .18s ease,border-color .18s,box-shadow .18s;}
     .stat-card.clickable:hover,.panel.clickable:hover{transform:translateY(-3px);box-shadow:0 10px 26px rgba(0,0,0,.28);}
     .stat-card.clickable:hover::after,.panel.clickable:hover::after,.stat-card.clickable:hover .rb-more,.stat-card.clickable:hover .stat-foot::after{text-decoration:underline;text-underline-offset:3px;}
+    .table-wrap tbody tr:not(.empty-row):hover .td-details::before{text-decoration:underline;text-underline-offset:3px;}
   }
 
   .panel.clickable{position:relative;cursor:pointer;transition:transform .15s ease,border-color .15s;}
@@ -560,7 +561,10 @@ window.SITE_CONFIG = {
     }
     .table-wrap td.subject::before{display:block;margin-bottom:2px;}
     .table-wrap td.empty::before{content:"";}
-    .table-wrap td.td-details::before{color:var(--accent);font-weight:700;}
+    .table-wrap td.td-details::before{
+      content:var(--more-label);text-transform:none;letter-spacing:.02em;
+      font-size:12px;font-weight:700;color:var(--accent);
+    }
   }
 
   /* ---------- Legutóbbi ügyek: 2 napos összefoglaló, „Továbbiak” ---------- */
