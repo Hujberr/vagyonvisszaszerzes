@@ -2149,6 +2149,10 @@ window.SITE_CONFIG = {
         const lp = Math.min(euLostTotal/euAgreed*100, 100), rp = Math.min(euReceived/euAgreed*100, 100-lp);
         barEl.style.background = `linear-gradient(to top, var(--bad) 0 ${lp}%, var(--good) ${lp}% ${lp+rp}%, var(--eu) ${lp+rp}% 100%)`;
       }
+      if(i===3 && reportedTotal>0 && reportedRecovered>0){
+        const gp = Math.min(reportedRecovered/reportedTotal*100, 100);
+        barEl.style.background = `linear-gradient(to top, var(--good) 0 ${gp}%, var(--bad) ${gp}% 100%)`;
+      }
       barEl.style.color = cols[i];
       if(!prefersReducedMotion){
         barEl.classList.remove("pulse"); void barEl.offsetWidth; barEl.classList.add("pulse");
