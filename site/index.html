@@ -11,7 +11,17 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="black">
 <title>Forintról forintra – Vagyonvisszaszerzési Monitor</title>
 <meta name="description" content="Nyilvános források alapján összesített adatok a visszaszerzett vagyonról, a kormányzati megtakarításokról, az uniós forrásokról és a feljelentett közpénzügyekről.">
-<!-- Élesítéskor: <link rel="canonical" href="https://FODOMAIN.hu/"> -->
+<link rel="canonical" href="https://visszavesszuk.hu/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="hu_HU">
+<meta property="og:site_name" content="Forintról forintra">
+<meta property="og:title" content="Forintról forintra – Vagyonvisszaszerzési Monitor">
+<meta property="og:description" content="Nyilvános források alapján összesített adatok a visszaszerzett vagyonról, a kormányzati megtakarításokról, az uniós forrásokról és a feljelentett közpénzügyekről.">
+<meta property="og:url" content="https://visszavesszuk.hu/">
+<meta property="og:image" content="https://visszavesszuk.hu/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
 <script>
 /* Honlap-beállítások — élesítéskor itt kapcsolhatók be az egyes elemek. */
 window.SITE_CONFIG = {
@@ -20,10 +30,24 @@ window.SITE_CONFIG = {
   supportEnabled: false,       // „Támogatás” link és ablak
   stripeUrl: "",               // Stripe fizetési link
   paypalUrl: "",               // PayPal link
+  canonicalHost: "visszavesszuk.hu", // csak ezen a hosztnéven (és a localhoston) kapcsolható be a hirdetés, a PWA és az értesítés
   adsEnabled: false,           // hirdetési hely (AdSense-jóváhagyás után)
+  adsClient: "",               // AdSense kiadói azonosító, pl. "ca-pub-1234567890123456"
+  adsSlot: "",                 // a hirdetési egység azonosítója (számsor)
   pushEnabled: false,          // push-értesítés (a tárhelyen a push-subscribe.php beállítása után)
   pushUrl: "push-subscribe.php"
 };
+(function(){
+  var C = window.SITE_CONFIG, h = location.hostname.replace(/^www\./, "");
+  C.isMain = h === C.canonicalHost || h === "localhost" || h === "127.0.0.1";
+  /* AdSense-kód: csak a főlapon, és csak megadott kiadói azonosítóval (a hozzájárulás-kezelő sávot ez a kód hozza). */
+  if(C.isMain && C.adsClient){
+    var m = document.createElement("meta"); m.name = "google-adsense-account"; m.content = C.adsClient; document.head.appendChild(m);
+    var a = document.createElement("script"); a.async = true; a.crossOrigin = "anonymous";
+    a.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=" + encodeURIComponent(C.adsClient);
+    document.head.appendChild(a);
+  }
+})();
 </script>
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700;800&family=Public+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600&display=swap">
@@ -390,7 +414,8 @@ window.SITE_CONFIG = {
 
   /* ---------- ad + footer ---------- */
   [hidden]{display:none!important;}
-  .ad-slot{margin:20px 0 0;min-height:90px;display:flex;align-items:center;justify-content:center;}
+  .ad-slot{margin:20px 0 0;min-height:90px;display:flex;flex-direction:column;align-items:center;justify-content:center;}
+  .ad-label{font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--text-faint);margin-bottom:4px;align-self:flex-start;}
   .visitor-count{font-family:"JetBrains Mono",monospace;font-size:11.5px;color:var(--text-faint);text-align:center;margin-top:14px;font-variant-numeric:tabular-nums;}
   .support-intro{margin:0 0 14px;}
   .support-btns{display:flex;flex-direction:column;gap:10px;}
@@ -785,6 +810,8 @@ window.SITE_CONFIG = {
         <a href="#" id="linkSources" data-i18n="footSources">Adatforrások</a>
         <a href="#" id="linkPrivacy" data-i18n="footPrivacy">Adatvédelem</a>
         <a href="#" id="linkContact" data-i18n="footContact">Kapcsolat</a>
+        <a href="modszertan.html" data-i18n="footMethod">Módszertan</a>
+        <a href="gyik.html" data-i18n="footFaq">GYIK</a>
         <a href="#" id="linkAbout" data-i18n="footAbout">Rólam</a>
         <div class="foot-ai-row"><a href="#" id="linkAiApp" class="foot-ai"><span class="foot-ai-icon" aria-hidden="true">✨</span><span data-i18n="footAiApp">Saját AI appot szeretne?</span></a></div>
         <a href="#" id="linkSupport" data-i18n="footSupport" hidden>Támogatás</a>
@@ -848,7 +875,7 @@ window.SITE_CONFIG = {
       brand:"Vagyonvisszaszerzési Monitor", tagline:"Forintról forintra…",
       timeMachineLabel:"Időgép", today:"Ma",
       statRecoveredLabel:"Visszaszerzés (igazolt)", statSavedLabel:"Megtakarítás (bejelentett)",
-      statEuLabel:"EU-forrás — megállapodott / beérkezett / elveszett", statEuLabelShort:"EU-forrás — megáll. / beérk. / elveszett", lostLabel:"Elveszett források", lostShort:"Elveszett", agreedOrigLabel:"Eredetileg megállapodott", agreedTotalLabel:"Megállapodott teljes összeg", lostDateLabel:"Elvesztés bejelentve", footAbout:"Rólam", footAiApp:"Saját AI appot szeretne?", footCopy:"© 2026 Hujber Richárd – Forintról forintra… Vagyonvisszaszerzési Monitor. Minden jog fenntartva.",footSupport:"Támogatás", visitorsLabel:"Látogatók száma:", descLabel:"Leírás",
+      statEuLabel:"EU-forrás — megállapodott / beérkezett / elveszett", statEuLabelShort:"EU-forrás — megáll. / beérk. / elveszett", lostLabel:"Elveszett források", lostShort:"Elveszett", agreedOrigLabel:"Eredetileg megállapodott", agreedTotalLabel:"Megállapodott teljes összeg", lostDateLabel:"Elvesztés bejelentve", footAbout:"Rólam", footMethod:"Módszertan", footFaq:"GYIK", footAiApp:"Saját AI appot szeretne?", footCopy:"© 2026 Hujber Richárd – Forintról forintra… Vagyonvisszaszerzési Monitor. Minden jog fenntartva.",footSupport:"Támogatás", visitorsLabel:"Látogatók száma:", descLabel:"Leírás",
       statReportedLabel:"Feljelentett ügyek összege",
       reportedPanelTitle:"Feljelentett ügyek állapota", recoveredLabel:"Visszaszerezve", pendingLabel:"Vizsgálat alatt",
       euPanelTitle:"EU-forrás állapota", agreedLabel:"Megállapodott", receivedLabel:"Beérkezett",
@@ -892,7 +919,7 @@ window.SITE_CONFIG = {
       brand:"Asset Recovery Monitor", tagline:"Forint by forint…",
       timeMachineLabel:"Time machine", today:"Today",
       statRecoveredLabel:"Recovered assets (verified)", statSavedLabel:"Savings (reported)",
-      statEuLabel:"EU funds — agreed / received / lost", statEuLabelShort:"EU funds — agreed / rec. / lost", lostLabel:"Lost funds", lostShort:"Lost", agreedOrigLabel:"Originally agreed", agreedTotalLabel:"Total agreed amount", lostDateLabel:"Loss announced", footAbout:"About me", footAiApp:"Want your own AI app?", footCopy:"© 2026 Richárd Hujber – Forintról forintra… Asset Recovery Monitor. All rights reserved.",footSupport:"Support", visitorsLabel:"Visitors:", descLabel:"Description",
+      statEuLabel:"EU funds — agreed / received / lost", statEuLabelShort:"EU funds — agreed / rec. / lost", lostLabel:"Lost funds", lostShort:"Lost", agreedOrigLabel:"Originally agreed", agreedTotalLabel:"Total agreed amount", lostDateLabel:"Loss announced", footAbout:"About me", footMethod:"Methodology", footFaq:"FAQ", footAiApp:"Want your own AI app?", footCopy:"© 2026 Richárd Hujber – Forintról forintra… Asset Recovery Monitor. All rights reserved.",footSupport:"Support", visitorsLabel:"Visitors:", descLabel:"Description",
       statReportedLabel:"Total value of reported cases",
       reportedPanelTitle:"Reported case status", recoveredLabel:"Recovered", pendingLabel:"Under investigation",
       euPanelTitle:"EU funds status", agreedLabel:"Agreed", receivedLabel:"Received",
@@ -1969,7 +1996,12 @@ window.SITE_CONFIG = {
   function initOptionalBlocks(){
     const C = window.SITE_CONFIG || {};
     if(C.supportEnabled && (C.stripeUrl || C.paypalUrl)) document.getElementById("linkSupport").hidden = false;
-    if(C.adsEnabled) document.getElementById("adSlot").hidden = false;
+    if(C.adsEnabled && C.isMain && C.adsClient && C.adsSlot){
+      const slot = document.getElementById("adSlot");
+      slot.innerHTML = '<div class="ad-label">Hirdetés</div><ins class="adsbygoogle" style="display:block;width:100%" data-ad-client="' + C.adsClient + '" data-ad-slot="' + C.adsSlot + '" data-ad-format="auto" data-full-width-responsive="true"></ins>';
+      slot.hidden = false;
+      try{ (window.adsbygoogle = window.adsbygoogle || []).push({}); }catch(e){}
+    }
   }
 
   async function boot(){
@@ -2216,6 +2248,7 @@ window.SITE_CONFIG = {
 
   /* ---------- Kezdőképernyő (telepíthető webalkalmazás) és push-értesítés ---------- */
   (function(){
+    if(!(window.SITE_CONFIG && window.SITE_CONFIG.isMain)) return; /* PWA és értesítés csak a főlapon */
     const PT = {
       hu:{ install:"Kezdőképernyőre", notify:"Értesítést kérek", unsub:"Leiratkozás az értesítésről",
         coInstall:"Tedd ki a kezdőképernyőre, mint egy appot", coNotify:"Kérj értesítést, ha új ügy kerül fel",
