@@ -1,13 +1,13 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-29T10:02:05+00:00",
+ "generated_at": "2026-09-29T15:31:55+00:00",
  "summary": {
   "megtakaritas_verified_huf": 987800000000,
   "visszaszerzes_verified_huf": 1520170000000,
   "eu_forras_verified_huf": 5986000000000,
   "eu_forras_lost_huf": 730000000000,
   "items_count": 17,
-  "reported_cases_count": 27
+  "reported_cases_count": 29
  },
  "items": [
   {
@@ -1026,8 +1026,8 @@
    "subject": "Ganz-MaVag International, Magyar Vagon Dunakeszi és Ganz-MaVag Invest — csődbűntett gyanúja",
    "verification_notes": "ÚJ TÉTEL (2026-09-29 futás). Legalább négy független forrás (HVG, Telex, Népszava, Zsaruhírek) egyezően számol be az ügyről. Ez az eljárás (NAV Bűnügyi Főigazgatóság, állami felszámoló megbízásából eljáró ügyvéd feljelentésére, csődbűntett gyanújával) más jogi csatornán és más konkrét vádponton (osztalékfizetéssel történő vagyonkivonás) fut, mint a kormány hivatalos feljelentési listáján szereplő 'Egyiptomi Államvasutak (ENR)' tétel (l. reported-eximbank-egyiptomi-vasut-2026, Gazdasági és Energetikai Minisztérium feljelentése, 640 Mrd Ft, az Eximbank-hitel eredeti odaítéléséről) — mindkettő ugyanahhoz az egyiptomi vasúti kocsi szállítási projekthez kapcsolódik, de eltérő jogsértést (hitelodaítélés vs. csődbűntett/vagyonkivonás) és eltérő céget/időszakot érint, ezért külön tételként rögzítve, nem összevonva. Nem szerepel a kormany.hu/atlathato/feljelentes hivatalos listáján (2026-09-29-i ellenőrzés szerint, 37 ügy / 2221 Mrd Ft, változatlan).",
    "id": "reported-ganzmavag-dunakeszi-csodbuntett-2026-09",
-   "updated_at": "2026-09-29T10:02:05+00:00",
-   "first_seen_at": "2026-09-29T10:02:05+00:00"
+   "first_seen_at": "2026-09-29T10:02:05+00:00",
+   "updated_at": "2026-09-29T10:02:05+00:00"
   },
   {
    "alleged_amount_huf": 17300000000,
@@ -1406,10 +1406,42 @@
    },
    "status": "under_investigation",
    "subject": "Kormányzati feljelentések hivatalos összesítője (37 ügy, ~11 minisztérium/hatóság)",
-   "verification_notes": "FRISSÍTVE 2026-09-23 (esti futás): a kormany.hu/atlathato/feljelentes oldal 2026-09-23-i állapota szerint 37 ügy, 2221 Mrd Ft (előző ellenőrzés reggel: 32 ügy, 2216 Mrd Ft). Az új 5 ügy (mind 09-17/18 dátummal) a reported-egyeb-miniszteriumi-18ugy-2026 gyűjtőtételbe került be. FRISSÍTVE 2026-09-25: újbóli közvetlen ellenőrzés megerősítette a 37 ügy / 2221 Mrd Ft állapotot, érdemi változás nem történt 09-23 óta; a tárcaszám az oldal egyik lekérdezése szerint 11 volt (korábban 10-zel számoltunk) — ezt átvezettük, további megerősítésre vár. A confirmed_recovered_huf mező (126 Mrd Ft, Duna Aszfalt) változatlanul a jelenleg ismert, ténylegesen igazolt visszaszerzést jelzi. EZ EGY ÖSSZESÍTŐ REFERENCIA-TÉTEL, ne add hozzá a négy Eximbank-tételhez, az M6-tételhez vagy a gyűjtőtételhez, mert azok már ennek részét képezik (dupla számlálás elkerülandő).",
+   "verification_notes": "FRISSÍTVE 2026-09-23 (esti futás): a kormany.hu/atlathato/feljelentes oldal 2026-09-23-i állapota szerint 37 ügy, 2221 Mrd Ft (előző ellenőrzés reggel: 32 ügy, 2216 Mrd Ft). Az új 5 ügy (mind 09-17/18 dátummal) a reported-egyeb-miniszteriumi-18ugy-2026 gyűjtőtételbe került be. FRISSÍTVE 2026-09-25: újbóli közvetlen ellenőrzés megerősítette a 37 ügy / 2221 Mrd Ft állapotot, érdemi változás nem történt 09-23 óta; a tárcaszám az oldal egyik lekérdezése szerint 11 volt (korábban 10-zel számoltunk) — ezt átvezettük, további megerősítésre vár. A confirmed_recovered_huf mező (126 Mrd Ft, Duna Aszfalt) változatlanul a jelenleg ismert, ténylegesen igazolt visszaszerzést jelzi. EZ EGY ÖSSZESÍTŐ REFERENCIA-TÉTEL, ne add hozzá a négy Eximbank-tételhez, az M6-tételhez vagy a gyűjtőtételhez, mert azok már ennek részét képezik (dupla számlálás elkerülandő). FRISSÍTVE 2026-09-29: ismételt közvetlen ellenőrzés (WebFetch) is megerősítette a 37 ügy / 2221 Mrd Ft állapotot, változatlan 2026-09-23 óta. Ugyanezen futásban két új, sajtóból ismert miniszteri feljelentés (Miniszterelnökség — p2m Informatika/Consulting, 455 M Ft; Vidék- és Településfejlesztési Minisztérium — Veszprém-Balaton 2023 Zrt., 1,8 Mrd Ft) került fel önálló tételként, mivel a hivatalos kormany.hu listán még nem jelentek meg; ezért NEM része ennek az összesítőnek, amíg hivatalosan is felkerülnek.",
    "id": "reported-osszesito-2026-09",
    "first_seen_at": "2026-09-28T15:02:40+00:00",
-   "updated_at": "2026-09-28T15:02:40+00:00"
+   "updated_at": "2026-09-29T15:31:55+00:00"
+  },
+  {
+   "additional_sources": [
+    {
+     "name": "Portfolio.hu",
+     "published_date": "2026-09-29",
+     "url": "https://www.portfolio.hu/gazdasag/20260929/a-miniszterelnokseg-feljelentest-tett-455-millio-forintnyi-kifogasolt-megrendeles-miatt-866044"
+    },
+    {
+     "name": "mfor.hu",
+     "published_date": "2026-09-29",
+     "url": "https://mfor.hu/cikkek/kozelet/ketto-osszesen-22-milliard-forintos-ugyben-tett-feljelentest-ket-miniszter-is.html"
+    }
+   ],
+   "alleged_amount_huf": 455000000,
+   "alleged_amount_text": "mintegy 455 millió forint (16, keretszerződés hatókörén kívülinek ítélt megrendelés)",
+   "confirmed_recovered_huf": 0,
+   "description": "A Miniszterelnökség feljelentést tett a Nemzeti Nyomozó Irodánál a p2m Informatika Szolgáltató Kft. és a p2m Consulting Szolgáltató és Tanácsadó Kft. alkotta konzorciummal 2023 és 2026 között kötött szerződések miatt. A minisztérium szerint a 17 egyedi megrendelésből 16 – összesen mintegy 455 millió forint értékben – nem tartozott a szervezetfejlesztési keretszerződés tárgyi hatálya alá, a cégek önálló kutatási és elemzési anyagokat szállítottak szervezetfejlesztési szolgáltatás helyett, külön közbeszerzési eljárás nélkül. A feljelentés költségvetési csalás, hűtlen kezelés és hivatali visszaélés gyanúját veti fel.",
+   "ministry": "Miniszterelnökség",
+   "recovered_item_id": null,
+   "report_date": "2026-09-29",
+   "report_source": {
+    "name": "Index",
+    "published_date": "2026-09-29",
+    "url": "https://index.hu/belfold/2026/09/29/miniszterelnokseg-feljelentes-p2m-informatika-megrendeles-koltsegvetesi-csalas-hutlen-kezeles-hivatali-visszaeles-gyanu/"
+   },
+   "status": "reported",
+   "subject": "Miniszterelnökségi feljelentés a p2m Informatika/p2m Consulting cégek szerződései miatt",
+   "verification_notes": "ÚJ TÉTEL (2026-09-29 futás). Két független sajtóforrás (Index, Portfolio) egyezően közli a Miniszterelnökség feljelentését, az mfor.hu összesítve is megerősíti. A kormany.hu/atlathato/feljelentes hivatalos oldal 2026-09-29-i közvetlen ellenőrzésekor még a 2026-09-23-i állapotot (37 ügy, 2221 Mrd Ft) mutatta, ez az új ügy még nem jelent meg rajta — hivatalos megjelenéskor a status és a report_source frissítendő. FONTOS, nem tévesztendő össze: a reported-egyeb-miniszteriumi-18ugy-2026 gyűjtőtételben már szerepel egy másik, hasonló nevű 'p2m/Balásy Gyula-csoport (3,3 Mrd Ft)' ügy, amelyet más tárca (Tudományos és Technológiai Minisztérium) jelentett a kormany.hu listáján 2026.09.15-i dátummal — az a hat szerződéses ügy különbözik ettől az itt rögzített, kizárólag a Miniszterelnökség által, a p2m Informatika/Consulting konzorciummal szemben tett, 455 M Ft-os feljelentéstől.",
+   "id": "reported-pmo-p2m-informatika-2026-09",
+   "updated_at": "2026-09-29T15:31:55+00:00",
+   "first_seen_at": "2026-09-29T15:31:55+00:00"
   },
   {
    "alleged_amount_huf": 12600000000,
@@ -1517,6 +1549,33 @@
    "id": "reported-volan-buszbeszerzes-2026-09",
    "first_seen_at": "2026-09-28T15:02:40+00:00",
    "updated_at": "2026-09-29T04:00:47+00:00"
+  },
+  {
+   "additional_sources": [
+    {
+     "name": "mfor.hu",
+     "published_date": "2026-09-29",
+     "url": "https://mfor.hu/cikkek/kozelet/ketto-osszesen-22-milliard-forintos-ugyben-tett-feljelentest-ket-miniszter-is.html"
+    }
+   ],
+   "alleged_amount_huf": 1800000000,
+   "alleged_amount_text": "1,8 milliárd forint (vissza nem térítendő állami támogatás)",
+   "confirmed_recovered_huf": 0,
+   "description": "A Vidék- és Településfejlesztési Minisztérium feljelentést tett a Nemzeti Adó- és Vámhivatalnál a Veszprém-Balaton 2023 Zrt. részére 2026 januárjában megítélt, 1,8 milliárd forint összegű vissza nem térítendő állami támogatás ügyében. A feljelentés szerint a támogatás jóváhagyásakor összeférhetetlenséget okozott, hogy egy állami tisztségviselő egyidejűleg a támogatást kapó cég vezető tisztségviselője is volt. A feljelentés költségvetési csalás, hűtlen kezelés és hivatali visszaélés gyanúját veti fel.",
+   "ministry": "Vidék- és Településfejlesztési Minisztérium",
+   "recovered_item_id": null,
+   "report_date": "2026-09-29",
+   "report_source": {
+    "name": "Portfolio.hu",
+    "published_date": "2026-09-29",
+    "url": "https://www.portfolio.hu/gazdasag/20260929/feljelentest-tett-a-videk-es-telepulesfejlesztesi-miniszter-koltsegvetesi-csalas-hutlen-kezeles-es-hivatali-visszaeles-gyanuja-miatt-866048"
+   },
+   "status": "reported",
+   "subject": "Vidék- és Településfejlesztési Minisztérium feljelentése a Veszprém-Balaton 2023 Zrt. támogatása ügyében",
+   "verification_notes": "ÚJ TÉTEL (2026-09-29 futás). Sajtóforrás: Portfolio.hu eredeti cikke, az mfor.hu összesítve (két miniszteri feljelentés, összesen kb. 2,2 Mrd Ft) is megerősíti. A kormany.hu/atlathato/feljelentes hivatalos oldal 2026-09-29-i közvetlen ellenőrzésekor még a 2026-09-23-i állapotot (37 ügy, 2221 Mrd Ft) mutatta, ez az új ügy még nem jelent meg rajta — hivatalos megjelenéskor a status és a report_source frissítendő.",
+   "id": "reported-vtm-veszprem-balaton-2023-2026-09",
+   "updated_at": "2026-09-29T15:31:55+00:00",
+   "first_seen_at": "2026-09-29T15:31:55+00:00"
   }
  ],
  "macro": {
@@ -1752,18 +1811,19 @@
  },
  "last_run": {
   "errors": [
-   "Az Alkotmánybíróság 2026-09-24-i döntése szerint a szolidáritási hozzájárulás beszedése alaptvény-ellenes volt, ezért az államnak esetlegesen többszáz milliárd forintot vissza kell fizetnie az önkormányzatoknak — ez az állam számára kiadás/visszafizetési kötelezettség, nem vagyon-visszaszerzés vagy megtakarítás, ezért nem került fel az items kollekcióba (hasonlóan a korábbi futásokban már jelzett, 350 Mrd Ft-os törvénytelen adóbeszedési ügyhöz).",
-   "A Világgazdság 2026-09-15-i cikke az M6 autópálya északi szakaszáról (MKIF, 149→44 Mrd Ft, háromszoros túlarazás) ellenőrzéskor azonosnak bizonyult a már rögzített M6 Dunaujváros–Érdi tető üggyel (azonos összegek, azonos szereplők) — nem került fel újként.",
-   "Az AKK hivatalos oldaláról (akk.hu) ebben a futásban sem volt közvetlenül lekérhető friss, egyértelmű összesített államadósság-adat; az allamadossag_huf mező változatlanul a legutóbbi (2026-07-31-i, Magyar Nemzet/ÁKK-hivatkozás) állapotot tükrözi.",
-   "A 'spórolt az állam' keresés csak egy régebbi (2026 július), több évre vetített, becsült kamattámogatási megtakarítást (Otthon Start Program, kb. 7,6 Mrd Ft/5 év) hozott, amely sem a 3 napos figyelési ablakba nem esik, sem konkrét, már realizált megtakarításnak nem tekinthető — nem került fel."
+   "Az Óbudai korrupciós ügy (47 gyanúsított, Bús Balázs) az ügyészségi oldalon megjelent, de nem azonosítható egyértelműen konkrét, ebben a futásban rögzíthető közpénz-összeghez vagy új tényhez képest a korábban ismerthez; nem került fel önálló tételként.",
+   "Kiss-B. Attila (Operettszínház) felfüggesztése konkrét forintösszeg nélkül jelent meg, ezért nem került fel önálló tételként.",
+   "A kormany.hu hivatalos listája (37 ügy, 2221 Mrd Ft) ebben a futásban sem tartalmazza a 2026-09-29-én sajtóban megjelent két új miniszteri feljelentést (p2m Informatika/Consulting; Veszprém-Balaton 2023 Zrt.) — ezek egyelőre csak sajtóforrásból ismertek, önálló reported_cases tételként kerültek fel, státuszuk a hivatalos listán való megjelenéskor frissítendő.",
+   "Az ÁKK hivatalos oldala (akk.hu) ebben a futásban sem volt közvetlenül lekérhető; az államadósság-adat a legutóbbi (2026-09-29 11:55, Magyar Nemzet/ÁKK-hivatkozás, 2026-07-31-i állapot) pillanatképből változatlan.",
+   "Új makro-pillanatkép ebben a futásban nem készült: a legutóbbi (2026-09-29 11:55) pillanatkép mindössze kb. 3,5 órával korábbi és minden mutatót lefedett (aznapi EUR/HUF fixinggel együtt); azóta nem volt azonosítható új KSH/MNB/ÁKK publikáció."
   ],
   "eu_lost_items_new": 0,
-  "finished_at": "2026-09-29T12:15:00+02:00",
+  "finished_at": "2026-09-29T17:55:00+02:00",
   "items_duplicate": 0,
-  "items_found_total": 1,
+  "items_found_total": 2,
   "items_needs_review": 0,
   "items_new": 0,
-  "reported_cases_new": 1,
+  "reported_cases_new": 2,
   "reported_cases_updated": 1,
   "sources_checked": [
    "24.hu",
@@ -1805,17 +1865,24 @@
    "partizan.hu",
    "okoshir.hu",
    "szmo.hu",
-   "kormany.hu/atlathato/feljelentes (37 ügy, 2221 Mrd Ft, 2026-09-23-i állapot — változatlan)",
+   "kormany.hu/atlathato/feljelentes (37 ügy, 2221 Mrd Ft, 2026-09-23-i állapot — közvetlenül ellenőrizve, változatlan)",
    "k-monitor.hu (WebSearch)",
    "hirkereso.hu",
    "mnvvh.hu/hirek",
-   "ugyeszseg.hu (Kozponti Nyomozo Fougyeszseg)",
-   "mnb.hu/arfolyamok"
+   "ugyeszseg.hu (Kozponti Nyomozo Fougyeszseg)"
   ],
-  "started_at": "2026-09-29T11:30:00+02:00",
-  "id": "2026-09-29T11-55"
+  "started_at": "2026-09-29T17:25:00+02:00",
+  "id": "2026-09-29T15-25"
  },
  "run_history": [
+  {
+   "finished_at": "2026-09-29T17:55:00+02:00",
+   "started_at": "2026-09-29T17:25:00+02:00",
+   "items_new": 0,
+   "reported_cases_new": 2,
+   "reported_cases_updated": 1,
+   "eu_lost_items_new": 0
+  },
   {
    "finished_at": "2026-09-29T12:15:00+02:00",
    "started_at": "2026-09-29T11:30:00+02:00",
