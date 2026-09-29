@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-28T15:02:40+00:00",
+ "generated_at": "2026-09-29T04:00:47+00:00",
  "summary": {
   "megtakaritas_verified_huf": 987800000000,
   "visszaszerzes_verified_huf": 1520170000000,
@@ -1036,8 +1036,8 @@
    "subject": "HM Zrínyi Nonprofit Kft. és a Lounge Event toborzási célú katonai élményparkjainak szerződései",
    "verification_notes": "ÚJ TÉTEL (2026-09-28 esti futás). Elsődleges forrás az Átlátszó eredeti oknyomozása (2026-09-28), megerősítve az Okoshír.hu másodközlésével. Kapcsolódó, de KÜLÖNBÖZŐ ügy a 2026.08.06-án bejelentett, kisebb (800 millió forintos) HM Zrínyi Kft.–Lounge Event szerződéscsomag (ugyanaz a miniszter, ugyanaz a cégkör, de más, korábbi szerződések) — a két összeget NEM szabad összeadni, az augusztusi 800 milliós tétel valószínűleg RÉSZHALMAZA ennek a tágabb, 4,5 milliárdos élménypark-vizsgálatnak. Nem szerepel a kormany.hu/atlathato/feljelentes hivatalos listáján (2026-09-28-i ellenőrzés szerint).",
    "id": "reported-hm-elmenyparkok-lounge-event-2026-09",
-   "updated_at": "2026-09-28T15:02:40+00:00",
-   "first_seen_at": "2026-09-28T15:02:40+00:00"
+   "first_seen_at": "2026-09-28T15:02:40+00:00",
+   "updated_at": "2026-09-28T15:02:40+00:00"
   },
   {
    "alleged_amount_huf": 12000000000,
@@ -1263,10 +1263,10 @@
    },
    "status": "under_investigation",
    "subject": "Önkormányzati parkfenntartási és közétkeztetési közbeszerzések — több önkormányzati ciklust átívelő korrupciós gyanú",
-   "verification_notes": "ÚJ TÉTEL (2026-09-28 futás). Az NVVH szerint ez a magyar politikai korrupció egyik tankönyvi példája, több politikai ciklust és oldalt érintő gyakorlat. FRISSÍTVE 2026-09-28 (esti ellenőrzés, Népszava): a 2026-09-28-i cikk szerint az ügy 2011–2024 közötti, több fővárosi kerületet érintő parkfenntartási cég vezetőjéhez köthető, aki a gyanú szerint összesen több mint 2 milliárd forintot juttatott politikusoknak (több párt képviselőinek egyaránt) a megbízások megtartásáért — ez az első konkrét összeg- és időszakadat az ügyben; érintett önkormányzat vagy cégnév továbbra sem ismert.",
+   "verification_notes": "ÚJ TÉTEL (2026-09-28 futás). Az NVVH szerint ez a magyar politikai korrupció egyik tankönyvi példája, több politikai ciklust és oldalt érintő gyakorlat. FRISSÍTVE 2026-09-28 (esti ellenőrzés, Népszava): a 2026-09-28-i cikk szerint az ügy 2011–2024 közötti, több fővárosi kerületet érintő parkfenntartási cég vezetőjéhez köthető, aki a gyanú szerint összesen több mint 2 milliárd forintot juttatott politikusoknak (több párt képviselőinek egyaránt) a megbízások megtartásáért — ez az első konkrét összeg- és időszakadat az ügyben; érintett önkormányzat vagy cégnév továbbra sem ismert. FRISSÍTVE 2026-09-29: az ügy azonosítható az ügyészség és több sajtóforrás (HVG, Világgazdaság, Magyar Hang, Infostart, Forbes, Origo, 10perc, Népszava, mind 2026-09-11) által 'óbudai korrupciós ügy' néven tárgyalt, jóval korábban induló nyomozással: a Központi Nyomozó Főügyészség 2026-09-11-én további 14 gyanúsítottat hallgatott ki, ezzel 47-re nőtt az összes gyanúsított száma; köztük Fidesz és MSZP oldali önkormányzati politikusok is (pl. Bús Balázs volt III. kerületi polgármester, Puskás Péter volt III. kerületi alpolgármester, Őrsi Gergely II. kerületi polgármester, Láng Zsolt volt II. kerületi polgármester, Molnár Zsolt volt MSZP-s országgyűlési képviselő, valamint Momentum-os önkormányzati képviselők), illetve Veres Tibort (Wallis Csoport, az egyik leggazdagabb magyar) is gyanúsítottként hallgatták ki. Hét gyanúsított továbbra is letartóztatásban van. A 2 milliárd forintos vesztegetési összeg és a 2011–2024-es időszak megegyezik a korábban rögzített adatokkal, ez tehát ugyanaz az ügy, csak kiegészítve a nyomozás korábbi (2026-09-11-i és azt megelőző) szakaszának részleteivel. Konkrét, az államhoz ténylegesen visszakerült összeg továbbra sem ismert, a confirmed_recovered_huf ezért változatlanul 0.",
    "id": "reported-onkormanyzati-parkfenntartas-etkeztetes-korrupcio-2026-09",
    "first_seen_at": "2026-09-28T15:02:40+00:00",
-   "updated_at": "2026-09-28T15:02:40+00:00"
+   "updated_at": "2026-09-29T04:00:47+00:00"
   },
   {
    "additional_sources": [
@@ -1476,10 +1476,10 @@
    },
    "status": "under_investigation",
    "subject": "Túlárazott Volán-buszbeszerzések (2015–2018)",
-   "verification_notes": "Rendőrségi (NNI) nyomozás, nem kormányzati/minisztériumi feljelentés, ezért nem szerepel a kormany.hu/atlathato/feljelentes hivatalos listáján. Egyetlen forrásból (Portfolio, 2026-09-10) ismert eddig a korábbi futásban. FRISSÍTVE 2026-09-26: legalább hét további független forrás (Telex, HVG, Index, Népszava, Origo, Zsaruhírek, Kecskemét365) megerősíti a 2026-09-10-i gyanúsítást (nyolc egykori vezető, köztük az MNV volt vezérigazgatója). Új részlet: a kecskeméti Volán-székház túlárazott megvásárlása önmagában legalább 550 millió forint kárt okozott, ez a kb. 10 milliárd forintos összkár része. FRISSÍTVE 2026-09-27: Index, Telex, 444.hu, HVG és Euronews (2026-09-15 – 09-17) szerint a nyolc gyanúsított közül Szivek Norbertet (MNV volt vezérigazgatója) és Jellinek Dániel vállalkozót (Tiborcz István üzlettársa) előállították, a bíróság pedig egy hónapra letartóztatásba helyezte mindkettőjüket — ez érdemi eljárási eszkaláció a korábbi puszta gyanúsítotti státuszhoz képest, de tényleges vagyon-visszaszerzés még nem történt, a confirmed_recovered_huf ezért változatlanul 0.",
+   "verification_notes": "Rendőrségi (NNI) nyomozás, nem kormányzati/minisztériumi feljelentés, ezért nem szerepel a kormany.hu/atlathato/feljelentes hivatalos listáján. Egyetlen forrásból (Portfolio, 2026-09-10) ismert eddig a korábbi futásban. FRISSÍTVE 2026-09-26: legalább hét további független forrás (Telex, HVG, Index, Népszava, Origo, Zsaruhírek, Kecskemét365) megerősíti a 2026-09-10-i gyanúsítást (nyolc egykori vezető, köztük az MNV volt vezérigazgatója). Új részlet: a kecskeméti Volán-székház túlárazott megvásárlása önmagában legalább 550 millió forint kárt okozott, ez a kb. 10 milliárd forintos összkár része. FRISSÍTVE 2026-09-27: Index, Telex, 444.hu, HVG és Euronews (2026-09-15 – 09-17) szerint a nyolc gyanúsított közül Szivek Norbertet (MNV volt vezérigazgatója) és Jellinek Dániel vállalkozót (Tiborcz István üzlettársa) előállították, a bíróság pedig egy hónapra letartóztatásba helyezte mindkettőjüket — ez érdemi eljárási eszkaláció a korábbi puszta gyanúsítotti státuszhoz képest, de tényleges vagyon-visszaszerzés még nem történt, a confirmed_recovered_huf ezért változatlanul 0. FRISSÍTVE 2026-09-29: az NVVH bejelentése és az Infostart (2026-09-28) szerint az ügyben mintegy 3 milliárd forint értékben vagyonelemeket (ingatlan, jármű, egyéb vagyontárgyak) biztosítottak (zároltak) biztosítási intézkedéssel, a korábban feltárt, több mint 11 milliárd forintos jogtalan előny fedezeteként. Ez egyelőre vagyonzárolás/biztosítási intézkedés, NEM végleges, ténylegesen az államhoz visszakerült vagyon, ezért a confirmed_recovered_huf mező (0) és a status (under_investigation) egyelőre nem változik; ha a zárolt vagyon ténylegesen, véglegesen az államhoz kerül (pl. elkobzás vagy vagyonelkobzási ítélet révén), azt egy items/visszaszerzes tételben és a confirmed_recovered_huf frissítésével kell majd rögzíteni. Forrás: https://infostart.hu/belfold/2026/09/28/vagyonvisszaszerzes-3-milliard-forint-ertekben-kerult-sor-vagyonelemek-biztositasara",
    "id": "reported-volan-buszbeszerzes-2026-09",
    "first_seen_at": "2026-09-28T15:02:40+00:00",
-   "updated_at": "2026-09-28T15:02:40+00:00"
+   "updated_at": "2026-09-29T04:00:47+00:00"
   }
  ],
  "macro": {
@@ -1489,7 +1489,7 @@
    "url": "https://magyarnemzet.hu/gazdasag/2026/09/allamadossag-novekedes"
   },
   "allamadossag_huf": 65716000000000,
-  "collected_at": "2026-09-28T12:02:00+02:00",
+  "collected_at": "2026-09-29T09:30:00+02:00",
   "elozo": {
    "allamadossag": {
     "period": null,
@@ -1530,8 +1530,8 @@
     "key": "munkanelkulisegi_rata",
     "label_en": "Unemployment rate",
     "label_hu": "Munkanélküliségi ráta",
-    "note_en": "229 thousand unemployed in August (men 4.5%, women 5.1%). The June–August three-month average was 4.8% (previous, May–July average: 4.6%).",
-    "note_hu": "229 ezer munkanélküli augusztusban (férfiak 4,5%, nők 5,1%). A június–augusztusi háromhavi átlag 4,8% volt (előző, május–júliusi átlag: 4,6%). Júliushoz képest a foglalkoztatottak száma 21 ezerrel csökkent, a munkanélkülieké 7 ezerrel nőtt; a munkanélküliek 33,7%-a már egy évnél régebb óta álláskereső.",
+    "note_en": "229 thousand unemployed in August. The June–August three-month average was 4.8%.",
+    "note_hu": "229 ezer munkanélküli augusztusban (férfiak 4,5%, nők 5,1%). A június–augusztusi háromhavi átlag 4,8% volt.",
     "period": "2026-08",
     "prev_period": "2026-07",
     "prev_value": 4.5,
@@ -1547,8 +1547,8 @@
     "key": "foglalkoztatottak",
     "label_en": "Employed persons (aged 15–74)",
     "label_hu": "Foglalkoztatottak száma (15–74 évesek)",
-    "note_en": "Primary labour market employment (4,467 thousand) is 36 thousand lower than a year earlier.",
-    "note_hu": "Az elsődleges munkaerőpiacon dolgozók száma (4 467 ezer fő) egy évvel korábbihoz képest 36 ezerrel kevesebb.",
+    "note_en": "Primary labour market employment is 36 thousand lower than a year earlier.",
+    "note_hu": "Az elsődleges munkaerőpiacon dolgozók száma egy évvel korábbihoz képest 36 ezerrel kevesebb.",
     "period": "2026-08",
     "prev_period": "2026-07",
     "prev_value": 4675,
@@ -1565,7 +1565,7 @@
     "label_en": "Employment rate (aged 15–64)",
     "label_hu": "Foglalkoztatási ráta (15–64 évesek)",
     "note_en": "Essentially unchanged from the previous period.",
-    "note_hu": "Az előző (május–július) időszakhoz képest gyakorlatilag változatlan.",
+    "note_hu": "Az előző időszakhoz képest gyakorlatilag változatlan.",
     "period": "2026 június–augusztus",
     "prev_period": "2026 május–július",
     "prev_value": 75.3,
@@ -1598,8 +1598,8 @@
     "key": "eur_huf",
     "label_en": "Official EUR/HUF rate (MNB)",
     "label_hu": "Euró hivatalos árfolyama (MNB)",
-    "note_en": "USD: 322.97 HUF (2026-09-28 fixing).",
-    "note_hu": "Dollár: 322,97 Ft (2026-09-28-i fixing).",
+    "note_en": "USD: 322.97 HUF (2026-09-28 fixing). The 2026-09-29 fixing could not be reliably retrieved in this run.",
+    "note_hu": "Dollár: 322,97 Ft (2026-09-28-i fixing). A 2026-09-29-i friss fixing ebben a futásban nem volt megbízhatóan lekérdezhető.",
     "period": "2026-09-28",
     "prev_period": "2026-09-25",
     "prev_value": 364.42,
@@ -1665,7 +1665,7 @@
     "label_en": "Central government deficit (year to date)",
     "label_hu": "Központi alrendszer hiánya (év eleje óta)",
     "note_en": "72.7% of the revised annual target (7,109.5 bn HUF).",
-    "note_hu": "A módosított éves hiánycél (7 109,5 Mrd Ft) 72,7%-a. Az augusztusi havi hiány 2 311,2 Mrd Ft volt, döntően a helyreállítási alap (RRF) előfinanszírozása miatt.",
+    "note_hu": "A módosított éves hiánycél (7 109,5 Mrd Ft) 72,7%-a.",
     "period": "2026 január–augusztus",
     "prev_period": "2026 január–július",
     "prev_value": 2857.9,
@@ -1707,54 +1707,80 @@
   "inflacio_varhato_eves_szazalek": 1.8,
   "inflacio_varhato_forras": {
    "forecaster": "MNB",
-   "name": "Portfolio.hu (MNB Inflaciós jelentés, 2026-ra 1,8% változatlan, 2027-re felfelé módosítva)",
+   "name": "Portfolio.hu (MNB Inflációs jelentés, 2026-ra 1,8% változatlan)",
    "publish_date": "2026-09-22",
    "url": "https://www.portfolio.hu/gazdasag/20260922/itt-az-mnb-uj-elorejelzese-hiaba-a-nemzetkozi-kockazatok-mersekelt-marad-az-idei-inflacio-864484"
   },
-  "id": "2026-09-28T12-02"
+  "id": "2026-09-29T09-30"
  },
  "last_run": {
-  "errors": [
-   "hirkereso.hu/politika ismét 404-es hibát adott; a gyökér oldal (hirkereso.hu) helyettesítő ellenőrzését végeztük el helyette, ez érdemi találatot hozott.",
-   "A Sajó-völgyi Tisza-közösség kezdeményezésére napirendre került dédestapolcsányi (Rogán Antal feleségének szülőfaluja) Serényi-kastély ügyében az NVVH-hoz fordulás egyelőre csak civil kezdeményezés/felhívás, nem hivatalosan megindított NVVH-vizsgálat — egyelőre nem került fel az adattárba, következő futásban figyelendő, hogy az NVVH hivatalosan eljárást indít-e.",
-   "A K-Monitor által jelzett Fauszt Zoltán/Kréta-Neptun-Poszeidon ügy (kb. 100 Mrd Ft) tartalmilag megegyezik a kormany.hu hivatalos listáján már szereplő, a reported-egyeb-miniszteriumi-18ugy-2026 gyűjtőtételben rögzített 'Kréta/Neptun/Poszeidon rendszerek (100 milliárd Ft)' tétellel — nem hozott új adatot, nem került külön rögzítésre.",
-   "Egy sajtóhír szerint 350 milliárd forint korábban törvénytelenül beszedett adót kell visszafizetnie a költségvetésnek — ez a költségvetés egy kiadási/visszafizetési kötelezettsége, nem az állam általi vagyon-visszaszerzés vagy megtakarítás, ezért nem került fel az items kollekcióba.",
-   "Az ÁKK hivatalos statisztikai oldala (akk.hu) ezúttal sem szolgáltatott közvetlenül lekérhető, egyértelmű aktuális összesített államadósság-adatot; egy economx.hu cikk csak a 2026-os tervezett bruttó állampapír-kibocsátás (20 414 Mrd Ft) adatát közölte, ami nem azonos az államadósság állományával, ezért nem került felhasználásra.",
-   "Új makro-pillanatkép ebben a futásban nem készült: a legutóbbi (2026-09-28 12:02) pillanatkép alig 5 órával korábbi és minden mutatót (EUR/HUF aznapi fixinggel együtt) lefedett, azóta nem volt azonosítható új KSH/MNB/ÁKK publikáció."
-  ],
+  "errors": [],
   "eu_lost_items_new": 0,
-  "finished_at": "2026-09-28T17:02:00+02:00",
+  "finished_at": "2026-09-29T09:35:00+02:00",
   "items_duplicate": 0,
-  "items_found_total": 10,
+  "items_found_total": 0,
   "items_needs_review": 0,
   "items_new": 0,
-  "reported_cases_new": 1,
+  "reported_cases_new": 0,
   "reported_cases_updated": 2,
   "sources_checked": [
-   "kormany.hu/atlathato/feljelentes (37 ügy, 2221 Mrd Ft, 2026-09-23-i állapot — közvetlenül ellenőrizve, változatlan)",
-   "k-monitor.hu (WebSearch, site:k-monitor.hu)",
-   "hirkereso.hu (gyökér oldal, a /politika 404-et adott)",
-   "mnvvh.hu/hirek",
-   "atlatszo.hu",
-   "okoshir.hu",
-   "telex.hu",
+   "24.hu",
    "444.hu",
-   "index.hu",
-   "portfolio.hu",
-   "hvg.hu",
+   "168.hu",
+   "atlatszo.hu",
+   "demokrata.hu",
+   "direkt36.hu",
    "economx.hu",
-   "vg.hu",
+   "es.hu",
+   "forbes.hu",
+   "g7.hu",
+   "hirtv.hu",
+   "hvg.hu",
+   "index.hu",
+   "infostart.hu",
+   "jelen.media",
+   "klubradio.hu",
+   "magyarhang.org",
+   "magyarhirlap.hu",
+   "magyarnemzet.hu",
+   "makronom.hu",
+   "mandiner.hu",
+   "media1.hu",
+   "mfor.hu",
+   "merce.hu",
+   "mti.hu",
    "nepszava.hu",
    "origo.hu",
-   "infostart.hu",
-   "eGov Hírlevél",
-   "magyarnarancs.hu",
-   "borsod24.hu"
+   "penzcentrum.hu",
+   "portfolio.hu",
+   "privatbankar.hu",
+   "szabadeuropa.hu",
+   "telex.hu",
+   "trendfm.hu",
+   "ujegyenloseg.hu",
+   "valaszonline.hu",
+   "vg.hu",
+   "partizan.hu",
+   "okoshir.hu",
+   "szmo.hu",
+   "kormany.hu/atlathato/feljelentes",
+   "k-monitor.hu (WebSearch)",
+   "hirkereso.hu",
+   "mnvvh.hu/hirek",
+   "ugyeszseg.hu (Kozponti Nyomozo Fougyeszseg)"
   ],
-  "started_at": "2026-09-28T16:56:00+02:00",
-  "id": "2026-09-28T16-56"
+  "started_at": "2026-09-29T09:00:00+02:00",
+  "id": "2026-09-29T09-35"
  },
  "run_history": [
+  {
+   "finished_at": "2026-09-29T09:35:00+02:00",
+   "started_at": "2026-09-29T09:00:00+02:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 2,
+   "eu_lost_items_new": 0
+  },
   {
    "finished_at": "2026-09-28T17:02:00+02:00",
    "started_at": "2026-09-28T16:56:00+02:00",
