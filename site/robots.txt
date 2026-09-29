@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /admin.php
+Disallow: /counter.php
+Disallow: /push-
+
+Sitemap: https://visszavesszuk.hu/sitemap.xml
