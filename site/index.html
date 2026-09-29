@@ -429,6 +429,19 @@ window.SITE_CONFIG = {
   .ad-slot .ad-cta{background:#1a73e8;color:#fff;border:0;border-radius:6px;padding:9px 16px;font-size:13px;font-weight:700;cursor:pointer;white-space:nowrap;}
   .ad-fine{font-size:10.5px;color:var(--text-faint);text-align:right;margin-top:4px;}
 
+  /* ---------- megosztás ---------- */
+  .share{margin:26px 0 0;text-align:center;}
+  .share-title{font-size:12.5px;color:var(--text-dim);margin:0 0 12px;}
+  .share-row{display:flex;flex-wrap:wrap;justify-content:center;gap:12px;}
+  .share-btn{width:48px;height:48px;border-radius:14px;display:inline-flex;align-items:center;justify-content:center;color:#fff;text-decoration:none;transition:transform .15s ease;}
+  .share-btn:hover{transform:translateY(-2px);color:#fff;}
+  .share-btn:focus-visible{outline:2px solid var(--accent);outline-offset:3px;}
+  .share-fb{background:linear-gradient(135deg,#1877F2 0%,#2A1FA0 100%);box-shadow:0 6px 14px rgba(24,119,242,.35);}
+  .share-msg{background:linear-gradient(135deg,#00B2FF 0%,#7B3FF2 60%,#E0407A 100%);box-shadow:0 6px 14px rgba(123,63,242,.35);}
+  .share-wa{background:linear-gradient(135deg,#00F260 0%,#0BA85A 100%);box-shadow:0 6px 14px rgba(11,168,90,.35);}
+  .share-x{background:linear-gradient(135deg,#25004D 0%,#000 100%);box-shadow:0 6px 14px rgba(120,60,200,.30);}
+  @media (hover:hover) and (pointer:fine){ .share-msg{display:none;} }
+
   footer{margin-top:30px;padding:18px 0;border-top:1px solid var(--border);color:var(--text-dim);font-size:12px;}
   .foot-row{display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px;}
   .foot-left{display:flex;flex-direction:column;gap:4px;min-width:0;}
@@ -800,6 +813,16 @@ window.SITE_CONFIG = {
 
   <div class="ad-slot" id="adSlot" aria-label="Hirdetés" hidden></div>
 
+  <section class="share" aria-labelledby="shareTitle">
+    <p class="share-title" id="shareTitle" data-i18n="shareTitle">Ossza meg, hogy minél többen lássák</p>
+    <div class="share-row">
+      <a class="share-btn share-fb" id="shareFb" target="_blank" rel="noopener noreferrer" aria-label="Megosztás Facebookon"><svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true" focusable="false"><path fill="currentColor" d="M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978.401 0 .955.042 1.468.103a8.68 8.68 0 0 1 1.141.195v3.325a8.623 8.623 0 0 0-.653-.036 26.805 26.805 0 0 0-.733-.009c-.707 0-1.259.096-1.675.309a1.686 1.686 0 0 0-.679.622c-.258.42-.374.995-.374 1.752v1.297h3.919l-.386 2.103-.287 1.564h-3.246v8.245C19.396 23.238 24 18.179 24 12.044c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.628 3.874 10.35 9.101 11.647Z"/></svg></a>
+      <a class="share-btn share-msg" id="shareMsg" rel="noopener noreferrer" aria-label="Megosztás Messengeren"><svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true" focusable="false"><path fill="currentColor" d="M12 0C5.24 0 0 4.952 0 11.64c0 3.499 1.434 6.521 3.769 8.61a.96.96 0 0 1 .323.683l.065 2.135a.96.96 0 0 0 1.347.85l2.381-1.053a.96.96 0 0 1 .641-.046A13 13 0 0 0 12 23.28c6.76 0 12-4.952 12-11.64S18.76 0 12 0m6.806 7.44c.522-.03.971.567.63 1.094l-4.178 6.457a.707.707 0 0 1-.977.208l-3.87-2.504a.44.44 0 0 0-.49.007l-4.363 3.01c-.637.438-1.415-.317-.995-.966l4.179-6.457a.706.706 0 0 1 .977-.21l3.87 2.505c.15.097.344.094.491-.007l4.362-3.008a.7.7 0 0 1 .364-.13"/></svg></a>
+      <a class="share-btn share-wa" id="shareWa" target="_blank" rel="noopener noreferrer" aria-label="Megosztás WhatsAppon"><svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true" focusable="false"><path fill="currentColor" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg></a>
+      <a class="share-btn share-x" id="shareX" target="_blank" rel="noopener noreferrer" aria-label="Megosztás X-en"><svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true" focusable="false"><path fill="currentColor" d="M14.234 10.162 22.977 0h-2.072l-7.591 8.824L7.251 0H.258l9.168 13.343L.258 24H2.33l8.016-9.318L16.749 24h6.993zm-2.837 3.299-.929-1.329L3.076 1.56h3.182l5.965 8.532.929 1.329 7.754 11.09h-3.182z"/></svg></a>
+    </div>
+  </section>
+
   <footer>
     <div class="foot-row">
       <div class="foot-left">
@@ -875,7 +898,7 @@ window.SITE_CONFIG = {
       brand:"Vagyonvisszaszerzési Monitor", tagline:"Forintról forintra…",
       timeMachineLabel:"Időgép", today:"Ma",
       statRecoveredLabel:"Visszaszerzés (igazolt)", statSavedLabel:"Megtakarítás (bejelentett)",
-      statEuLabel:"EU-forrás — megállapodott / beérkezett / elveszett", statEuLabelShort:"EU-forrás — megáll. / beérk. / elveszett", lostLabel:"Elveszett források", lostShort:"Elveszett", agreedOrigLabel:"Eredetileg megállapodott", agreedTotalLabel:"Megállapodott teljes összeg", lostDateLabel:"Elvesztés bejelentve", footAbout:"Rólam", footMethod:"Módszertan", footFaq:"GYIK", footAiApp:"Saját AI appot szeretne?", footCopy:"© 2026 Hujber Richárd – Forintról forintra… Vagyonvisszaszerzési Monitor. Minden jog fenntartva.",footSupport:"Támogatás", visitorsLabel:"Látogatók száma:", descLabel:"Leírás",
+      statEuLabel:"EU-forrás — megállapodott / beérkezett / elveszett", statEuLabelShort:"EU-forrás — megáll. / beérk. / elveszett", lostLabel:"Elveszett források", lostShort:"Elveszett", agreedOrigLabel:"Eredetileg megállapodott", agreedTotalLabel:"Megállapodott teljes összeg", lostDateLabel:"Elvesztés bejelentve", shareTitle:"Ossza meg, hogy minél többen lássák", shareText:"Forintról forintra – Vagyonvisszaszerzési Monitor", shareFb:"Megosztás Facebookon", shareMsg:"Megosztás Messengeren", shareWa:"Megosztás WhatsAppon", shareX:"Megosztás X-en", footAbout:"Rólam", footMethod:"Módszertan", footFaq:"GYIK", footAiApp:"Saját AI appot szeretne?", footCopy:"© 2026 Hujber Richárd – Forintról forintra… Vagyonvisszaszerzési Monitor. Minden jog fenntartva.",footSupport:"Támogatás", visitorsLabel:"Látogatók száma:", descLabel:"Leírás",
       statReportedLabel:"Feljelentett ügyek összege",
       reportedPanelTitle:"Feljelentett ügyek állapota", recoveredLabel:"Visszaszerezve", pendingLabel:"Vizsgálat alatt",
       euPanelTitle:"EU-forrás állapota", agreedLabel:"Megállapodott", receivedLabel:"Beérkezett",
@@ -919,7 +942,7 @@ window.SITE_CONFIG = {
       brand:"Asset Recovery Monitor", tagline:"Forint by forint…",
       timeMachineLabel:"Time machine", today:"Today",
       statRecoveredLabel:"Recovered assets (verified)", statSavedLabel:"Savings (reported)",
-      statEuLabel:"EU funds — agreed / received / lost", statEuLabelShort:"EU funds — agreed / rec. / lost", lostLabel:"Lost funds", lostShort:"Lost", agreedOrigLabel:"Originally agreed", agreedTotalLabel:"Total agreed amount", lostDateLabel:"Loss announced", footAbout:"About me", footMethod:"Methodology", footFaq:"FAQ", footAiApp:"Want your own AI app?", footCopy:"© 2026 Richárd Hujber – Forintról forintra… Asset Recovery Monitor. All rights reserved.",footSupport:"Support", visitorsLabel:"Visitors:", descLabel:"Description",
+      statEuLabel:"EU funds — agreed / received / lost", statEuLabelShort:"EU funds — agreed / rec. / lost", lostLabel:"Lost funds", lostShort:"Lost", agreedOrigLabel:"Originally agreed", agreedTotalLabel:"Total agreed amount", lostDateLabel:"Loss announced", shareTitle:"Share it so more people see it", shareText:"Forintról forintra – Asset Recovery Monitor", shareFb:"Share on Facebook", shareMsg:"Share on Messenger", shareWa:"Share on WhatsApp", shareX:"Share on X", footAbout:"About me", footMethod:"Methodology", footFaq:"FAQ", footAiApp:"Want your own AI app?", footCopy:"© 2026 Richárd Hujber – Forintról forintra… Asset Recovery Monitor. All rights reserved.",footSupport:"Support", visitorsLabel:"Visitors:", descLabel:"Description",
       statReportedLabel:"Total value of reported cases",
       reportedPanelTitle:"Reported case status", recoveredLabel:"Recovered", pendingLabel:"Under investigation",
       euPanelTitle:"EU funds status", agreedLabel:"Agreed", receivedLabel:"Received",
@@ -973,6 +996,15 @@ window.SITE_CONFIG = {
     document.getElementById("langHu").setAttribute("aria-pressed", String(lang==="hu"));
     document.getElementById("langEn").setAttribute("aria-pressed", String(lang==="en"));
     document.documentElement.lang = lang;
+    updateShare(t);
+  }
+  function updateShare(t){
+    const url = "https://visszavesszuk.hu/", txt = t.shareText;
+    const set = (id, href, label) => { const a = document.getElementById(id); if(!a) return; a.href = href; a.setAttribute("aria-label", label); };
+    set("shareFb", "https://www.facebook.com/sharer/sharer.php?u=" + encodeURIComponent(url), t.shareFb);
+    set("shareMsg", "fb-messenger://share/?link=" + encodeURIComponent(url), t.shareMsg);
+    set("shareWa", "https://wa.me/?text=" + encodeURIComponent(txt + " " + url), t.shareWa);
+    set("shareX", "https://twitter.com/intent/tweet?text=" + encodeURIComponent(txt) + "&url=" + encodeURIComponent(url), t.shareX);
   }
   document.getElementById("langHu").addEventListener("click", ()=>{ lang="hu"; try{localStorage.setItem("elszamoltatas_lang","hu");}catch(e){} applyI18n(); render(); });
   document.getElementById("langEn").addEventListener("click", ()=>{ lang="en"; try{localStorage.setItem("elszamoltatas_lang","en");}catch(e){} applyI18n(); render(); });
