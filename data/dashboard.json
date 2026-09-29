@@ -1,13 +1,13 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-29T04:00:47+00:00",
+ "generated_at": "2026-09-29T10:02:05+00:00",
  "summary": {
   "megtakaritas_verified_huf": 987800000000,
   "visszaszerzes_verified_huf": 1520170000000,
   "eu_forras_verified_huf": 5986000000000,
   "eu_forras_lost_huf": 730000000000,
   "items_count": 17,
-  "reported_cases_count": 26
+  "reported_cases_count": 27
  },
  "items": [
   {
@@ -113,10 +113,10 @@
    "source_url": "https://telex.hu/kulfold/2026/05/29/magyar-peter-ursula-von-der-leyen-unios-penzek-targyalas-helyreallitasi-alap-kohezios-penzek",
    "status": "verified",
    "subject": "Befagyasztott EU-s (RRF + kohéziós) források feloldásáról szóló megállapodás",
-   "verification_notes": "FRISSÍTVE 2026-09-24: Vitézy Dávid 2026.09.23-i nyilatkozata (Világgazdaság) szerint a korábban 'befagyasztottként' nyilvántartott kb. 2 milliárd euróból már NEM csak befagyasztásról, hanem VÉGLEGES ELVESZTÉSRŐL van szó (1 mrd EUR 2024 végén, 1 mrd EUR 2025 végén veszett el a feltételek nem teljesítése miatt). A 4,2 milliárd eurós bizottsági javaslat (2026.09.23) továbbra is csak javaslat, tényleges kifizetés nem történt, a received_huf mező ezért változatlanul 0. FRISSÍTVE 2026-09-25: a 2 mrd EUR elvesztés a 6,3 mrd EUR-s kohéziós keretből történt (VG, Forbes, Portfolio; a Bizottság 4,2 mrd EUR-s javaslata ezzel konzisztens), ezért az agreed_huf 5986 → 5256 Mrd Ft-ra csökkentve; agreed_original_huf és lost_items mezők felvéve. FRISSÍTVE 2026-09-25 (felhasználói döntés): a megállapodott összeg az eredeti 16,4 mrd EUR (5986 Mrd Ft) marad, az elvesztett összeget NEM vonjuk le belőle; az elveszett források külön, a lost_items/lost_huf mezőkben szerepelnek. FRISSÍTVE 2026-09-27: az eGov Hírlevél szerint az uniós tagállamok vezetői várhatóan 2026. október 15–16-án szavaznak a Tanácsban a Bizottság 4,2 milliárd eurós kohéziós javaslatáról; ez csak eljárási ütemezési részlet, összeg és a received_huf (0) nem változott.",
+   "verification_notes": "FRISSÍTVE 2026-09-24: Vitézy Dávid 2026.09.23-i nyilatkozata (Világgazdaság) szerint a korábban 'befagyasztottként' nyilvántartott kb. 2 milliárd euróból már NEM csak befagyasztásról, hanem VÉGLEGES ELVESZTÉSRŐL van szó (1 mrd EUR 2024 végén, 1 mrd EUR 2025 végén veszett el a feltételek nem teljesítése miatt). A 4,2 milliárd eurós bizottsági javaslat (2026.09.23) továbbra is csak javaslat, tényleges kifizetés nem történt, a received_huf mező ezért változatlanul 0. FRISSÍTVE 2026-09-25: a 2 mrd EUR elvesztés a 6,3 mrd EUR-s kohéziós keretből történt (VG, Forbes, Portfolio; a Bizottság 4,2 mrd EUR-s javaslata ezzel konzisztens), ezért az agreed_huf 5986 → 5256 Mrd Ft-ra csökkentve; agreed_original_huf és lost_items mezők felvéve. FRISSÍTVE 2026-09-25 (felhasználói döntés): a megállapodott összeg az eredeti 16,4 mrd EUR (5986 Mrd Ft) marad, az elvesztett összeget NEM vonjuk le belőle; az elveszett források külön, a lost_items/lost_huf mezőkben szerepelnek. FRISSÍTVE 2026-09-27: az eGov Hírlevél szerint az uniós tagállamok vezetői várhatóan 2026. október 15–16-án szavaznak a Tanácsban a Bizottság 4,2 milliárd eurós kohéziós javaslatáról; ez csak eljárási ütemezési részlet, összeg és a received_huf (0) nem változott. FRISSÍTVE 2026-09-29: a kormány 2026. szeptember 30-i határidővel nyújtja be a helyreállítási (RRF) forrásokra vonatkozó záró kifizetési kérelmet és az igazoló dokumentumokat az Európai Bizottságnak; a Bizottság ezt követően vizsgálja a vállalások teljesülését, a tényleges kifizetés a korábban jelzett ütemezés (döntés dec. 18-ig, kifizetés dec. 31-ig) szerint várható. A received_huf változatlanul 0.",
    "id": "eu-forras-megallapodas-2026-05",
    "first_seen_at": "2026-09-28T15:02:40+00:00",
-   "updated_at": "2026-09-28T15:02:40+00:00"
+   "updated_at": "2026-09-29T10:02:05+00:00"
   },
   {
    "additional_sources": [
@@ -947,10 +947,10 @@
    },
    "status": "under_investigation",
    "subject": "Egyiptomi vasúti kocák gyártásának finanszrozása (Eximbank-hitel)",
-   "verification_notes": "A kormány hivatalos, folyamatosan frissülő feljelentési listájának része. FRISSÍTVE 2026-09-22: az összeg a hivatalos kormany.hu adat szerint 640 Mrd Ft (az eredeti Index-cikk 576 Mrd Ft-ot írt 2026-09-02-én) — a felhasználói utasítás szerint hivatalos forrás esetén ez az irányadó.",
+   "verification_notes": "A kormány hivatalos, folyamatosan frissülő feljelentési listájának része. FRISSÍTVE 2026-09-22: az összeg a hivatalos kormany.hu adat szerint 640 Mrd Ft (az eredeti Index-cikk 576 Mrd Ft-ot írt 2026-09-02-én) — a felhasználói utasítás szerint hivatalos forrás esetén ez az irányadó. FRISSÍTVE 2026-09-29: az ügyhöz kapcsolódó vállalatcsoport (Ganz-MaVag International, Magyar Vagon Dunakeszi, Ganz-MaVag Invest) ellen külön, csődbűntett gyanújával indított büntetőeljárás is folyik (l. reported-ganzmavag-dunakeszi-csodbuntett-2026-09) — ez különálló, kiegészítő tétel, az itt szereplő 640 Mrd Ft-os összeget nem érinti.",
    "id": "reported-eximbank-egyiptomi-vasut-2026",
    "first_seen_at": "2026-09-28T15:02:40+00:00",
-   "updated_at": "2026-09-28T15:02:40+00:00"
+   "updated_at": "2026-09-29T10:02:05+00:00"
   },
   {
    "alleged_amount_huf": 360000000000,
@@ -991,6 +991,43 @@
    "id": "reported-eximbank-sofitel-tiborcz-2026",
    "first_seen_at": "2026-09-28T15:02:40+00:00",
    "updated_at": "2026-09-28T15:02:40+00:00"
+  },
+  {
+   "additional_sources": [
+    {
+     "name": "Telex",
+     "published_date": "2026-09-29",
+     "url": "https://telex.hu/gazdasag/2026/09/29/dunakeszi-egyiptomi-vasutszerzodes-vitezy-david-kbm"
+    },
+    {
+     "name": "Népszava",
+     "published_date": "2026-09-29",
+     "url": "https://nepszava.hu/3333801_egyiptom-vasuti-vasutszerzodesek-feljelentes-csodbuntett-gyanu"
+    },
+    {
+     "name": "Zsaruhírek",
+     "published_date": "2026-09-29",
+     "url": "https://zsaruhirek.hu/kornyezetunk-kozelet/2026/09/29/csodbuntett-gyanuja-feljelentes/"
+    }
+   ],
+   "alleged_amount_huf": null,
+   "alleged_amount_text": "több tízmillió euró (a 2022–2024 közötti időszakban a cégekből osztalékfizetés és egyéb tranzakciók révén kivont összeg; pontos forintösszeg nem ismert)",
+   "confirmed_recovered_huf": 0,
+   "description": "Az egyiptomi vasúti kocsik gyártására és szállítására kötött szerződéshez kapcsolódó, felszámolás alatt álló vállalatcsoport (Ganz-MaVag International Kft., Magyar Vagon Dunakeszi Kft., Ganz-MaVag Invest Zrt.) ellen csődbűntett gyanújával tettek feljelentést a Nemzeti Adó- és Vámhivatalnál. A kirendelt szakértői vizsgálat szerint a cégek 2022 és 2024 között indokolatlan mértékű osztalékfizetésekkel és egyéb tranzakciókkal csökkentették vagyonukat, miközben a vállalatok pénzügyi nehézségekkel küzdöttek.",
+   "ministry": "Nemzeti Adó- és Vámhivatal Bűnügyi Főigazgatósága — az egyiptomi vasúti kocsi szállítási szerződéshez kapcsolódó, felszámolás alatt álló vállalatcsoport",
+   "recovered_item_id": null,
+   "report_date": "2026-09-29",
+   "report_source": {
+    "name": "HVG",
+    "published_date": "2026-09-29",
+    "url": "https://hvg.hu/gazdasag/20260929_csodbuntett-gfeljelentes-ner-vasutszerzodes-egyiptom-hernadi-tombor"
+   },
+   "status": "reported",
+   "subject": "Ganz-MaVag International, Magyar Vagon Dunakeszi és Ganz-MaVag Invest — csődbűntett gyanúja",
+   "verification_notes": "ÚJ TÉTEL (2026-09-29 futás). Legalább négy független forrás (HVG, Telex, Népszava, Zsaruhírek) egyezően számol be az ügyről. Ez az eljárás (NAV Bűnügyi Főigazgatóság, állami felszámoló megbízásából eljáró ügyvéd feljelentésére, csődbűntett gyanújával) más jogi csatornán és más konkrét vádponton (osztalékfizetéssel történő vagyonkivonás) fut, mint a kormány hivatalos feljelentési listáján szereplő 'Egyiptomi Államvasutak (ENR)' tétel (l. reported-eximbank-egyiptomi-vasut-2026, Gazdasági és Energetikai Minisztérium feljelentése, 640 Mrd Ft, az Eximbank-hitel eredeti odaítéléséről) — mindkettő ugyanahhoz az egyiptomi vasúti kocsi szállítási projekthez kapcsolódik, de eltérő jogsértést (hitelodaítélés vs. csődbűntett/vagyonkivonás) és eltérő céget/időszakot érint, ezért külön tételként rögzítve, nem összevonva. Nem szerepel a kormany.hu/atlathato/feljelentes hivatalos listáján (2026-09-29-i ellenőrzés szerint, 37 ügy / 2221 Mrd Ft, változatlan).",
+   "id": "reported-ganzmavag-dunakeszi-csodbuntett-2026-09",
+   "updated_at": "2026-09-29T10:02:05+00:00",
+   "first_seen_at": "2026-09-29T10:02:05+00:00"
   },
   {
    "alleged_amount_huf": 17300000000,
@@ -1489,7 +1526,7 @@
    "url": "https://magyarnemzet.hu/gazdasag/2026/09/allamadossag-novekedes"
   },
   "allamadossag_huf": 65716000000000,
-  "collected_at": "2026-09-29T09:30:00+02:00",
+  "collected_at": "2026-09-29T11:55:00+02:00",
   "elozo": {
    "allamadossag": {
     "period": null,
@@ -1598,18 +1635,18 @@
     "key": "eur_huf",
     "label_en": "Official EUR/HUF rate (MNB)",
     "label_hu": "Euró hivatalos árfolyama (MNB)",
-    "note_en": "USD: 322.97 HUF (2026-09-28 fixing). The 2026-09-29 fixing could not be reliably retrieved in this run.",
-    "note_hu": "Dollár: 322,97 Ft (2026-09-28-i fixing). A 2026-09-29-i friss fixing ebben a futásban nem volt megbízhatóan lekérdezhető.",
-    "period": "2026-09-28",
-    "prev_period": "2026-09-25",
-    "prev_value": 364.42,
+    "note_en": "USD: 324.30 HUF (2026-09-29 fixing).",
+    "note_hu": "Dollár: 324,30 Ft (2026-09-29-i fixing).",
+    "period": "2026-09-29",
+    "prev_period": "2026-09-28",
+    "prev_value": 367.38,
     "source": {
      "name": "MNB hivatalos árfolyamok",
-     "publish_date": "2026-09-28",
+     "publish_date": "2026-09-29",
      "url": "https://www.mnb.hu/arfolyamok"
     },
     "unit": "Ft/EUR",
-    "value": 367.38
+    "value": 367.98
    },
    {
     "key": "brutto_atlagkereset",
@@ -1711,18 +1748,23 @@
    "publish_date": "2026-09-22",
    "url": "https://www.portfolio.hu/gazdasag/20260922/itt-az-mnb-uj-elorejelzese-hiaba-a-nemzetkozi-kockazatok-mersekelt-marad-az-idei-inflacio-864484"
   },
-  "id": "2026-09-29T09-30"
+  "id": "2026-09-29T11-55"
  },
  "last_run": {
-  "errors": [],
+  "errors": [
+   "Az Alkotmánybíróság 2026-09-24-i döntése szerint a szolidáritási hozzájárulás beszedése alaptvény-ellenes volt, ezért az államnak esetlegesen többszáz milliárd forintot vissza kell fizetnie az önkormányzatoknak — ez az állam számára kiadás/visszafizetési kötelezettség, nem vagyon-visszaszerzés vagy megtakarítás, ezért nem került fel az items kollekcióba (hasonlóan a korábbi futásokban már jelzett, 350 Mrd Ft-os törvénytelen adóbeszedési ügyhöz).",
+   "A Világgazdság 2026-09-15-i cikke az M6 autópálya északi szakaszáról (MKIF, 149→44 Mrd Ft, háromszoros túlarazás) ellenőrzéskor azonosnak bizonyult a már rögzített M6 Dunaujváros–Érdi tető üggyel (azonos összegek, azonos szereplők) — nem került fel újként.",
+   "Az AKK hivatalos oldaláról (akk.hu) ebben a futásban sem volt közvetlenül lekérhető friss, egyértelmű összesített államadósság-adat; az allamadossag_huf mező változatlanul a legutóbbi (2026-07-31-i, Magyar Nemzet/ÁKK-hivatkozás) állapotot tükrözi.",
+   "A 'spórolt az állam' keresés csak egy régebbi (2026 július), több évre vetített, becsült kamattámogatási megtakarítást (Otthon Start Program, kb. 7,6 Mrd Ft/5 év) hozott, amely sem a 3 napos figyelési ablakba nem esik, sem konkrét, már realizált megtakarításnak nem tekinthető — nem került fel."
+  ],
   "eu_lost_items_new": 0,
-  "finished_at": "2026-09-29T09:35:00+02:00",
+  "finished_at": "2026-09-29T12:15:00+02:00",
   "items_duplicate": 0,
-  "items_found_total": 0,
+  "items_found_total": 1,
   "items_needs_review": 0,
   "items_new": 0,
-  "reported_cases_new": 0,
-  "reported_cases_updated": 2,
+  "reported_cases_new": 1,
+  "reported_cases_updated": 1,
   "sources_checked": [
    "24.hu",
    "444.hu",
@@ -1763,16 +1805,25 @@
    "partizan.hu",
    "okoshir.hu",
    "szmo.hu",
-   "kormany.hu/atlathato/feljelentes",
+   "kormany.hu/atlathato/feljelentes (37 ügy, 2221 Mrd Ft, 2026-09-23-i állapot — változatlan)",
    "k-monitor.hu (WebSearch)",
    "hirkereso.hu",
    "mnvvh.hu/hirek",
-   "ugyeszseg.hu (Kozponti Nyomozo Fougyeszseg)"
+   "ugyeszseg.hu (Kozponti Nyomozo Fougyeszseg)",
+   "mnb.hu/arfolyamok"
   ],
-  "started_at": "2026-09-29T09:00:00+02:00",
-  "id": "2026-09-29T09-35"
+  "started_at": "2026-09-29T11:30:00+02:00",
+  "id": "2026-09-29T11-55"
  },
  "run_history": [
+  {
+   "finished_at": "2026-09-29T12:15:00+02:00",
+   "started_at": "2026-09-29T11:30:00+02:00",
+   "items_new": 0,
+   "reported_cases_new": 1,
+   "reported_cases_updated": 1,
+   "eu_lost_items_new": 0
+  },
   {
    "finished_at": "2026-09-29T09:35:00+02:00",
    "started_at": "2026-09-29T09:00:00+02:00",
