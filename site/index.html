@@ -28,6 +28,7 @@ window.SITE_CONFIG = {
   dataUrl: "https://raw.githubusercontent.com/Hujberr/vagyonvisszaszerzes/main/data/dashboard.json",
   counterUrl: "counter.php",   // a tárhelyen futó látogatószámláló; ha nem érhető el, a számláló rejtve marad
   supportEnabled: false,       // „Támogatás” link és ablak
+  supportBar: true,            // visszafogott támogatási sáv a lábléc fölött (csak ha a támogatás be van kapcsolva)
   stripeUrl: "",               // Stripe fizetési link
   paypalUrl: "",               // PayPal link
   canonicalHost: "visszavesszuk.hu", // csak ezen a hosztnéven (és a localhoston) kapcsolható be a hirdetés, a PWA és az értesítés
@@ -417,6 +418,14 @@ window.SITE_CONFIG = {
   .ad-slot{margin:20px 0 0;min-height:90px;display:flex;flex-direction:column;align-items:center;justify-content:center;}
   .ad-label{font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--text-faint);margin-bottom:4px;align-self:flex-start;}
   .visitor-count{font-family:"JetBrains Mono",monospace;font-size:11.5px;color:var(--text-faint);text-align:center;margin-top:14px;font-variant-numeric:tabular-nums;}
+  .support-bar{margin:20px 0 0;padding:14px 18px;display:flex;align-items:center;gap:14px;background:var(--surface);border:1px solid var(--border);border-radius:14px;}
+  .support-bar-icon{flex:none;width:36px;height:36px;border-radius:50%;display:grid;place-items:center;background:var(--bad-bg);border:1px solid var(--bad-border);color:var(--bad);font-size:16px;line-height:1;}
+  .support-bar-text{flex:1;min-width:0;}
+  .support-bar-text b{display:block;font-family:"Manrope",sans-serif;font-size:14.5px;color:var(--text);}
+  .support-bar-text span{display:block;margin-top:2px;font-size:12.5px;line-height:1.45;color:var(--text-dim);}
+  .support-bar-btn{flex:none;cursor:pointer;background:var(--blue-bg);border:1px solid var(--blue-border);color:var(--accent);border-radius:999px;padding:9px 18px;font:700 13px "Manrope",sans-serif;transition:box-shadow .15s,transform .15s;}
+  .support-bar-btn:hover{box-shadow:var(--blue-glow);transform:translateY(-1px);}
+  @media (max-width:560px){ .support-bar{flex-wrap:wrap;} .support-bar-text{flex-basis:calc(100% - 52px);} .support-bar-btn{width:100%;} }
   .support-intro{margin:0 0 14px;}
   .support-btns{display:flex;flex-direction:column;gap:10px;}
   .support-btn{display:flex;flex-direction:column;gap:2px;padding:13px 16px;border-radius:14px;background:var(--surface-2);border:1px solid var(--border);color:var(--text);text-decoration:none;}
@@ -800,6 +809,13 @@ window.SITE_CONFIG = {
 
   <div class="ad-slot" id="adSlot" aria-label="Hirdetés" hidden></div>
 
+  <section class="support-bar" id="supportBar" aria-label="Támogatás" hidden>
+    <span class="support-bar-icon" aria-hidden="true">♥</span>
+    <div class="support-bar-text"><b data-i18n="supportTitle">Támogassa a munkánkat</b><span data-i18n="supportSub">Támogatásával az adatgyűjtés, a forrásellenőrzés és az oldal üzemeltetése költségeihez járul hozzá.</span></div>
+    <button class="support-bar-btn" id="supportBarBtn" type="button" data-i18n="supportCta">Támogatom</button>
+  </section>
+
+
   <footer>
     <div class="foot-row">
       <div class="foot-left">
@@ -875,7 +891,7 @@ window.SITE_CONFIG = {
       brand:"Vagyonvisszaszerzési Monitor", tagline:"Forintról forintra…",
       timeMachineLabel:"Időgép", today:"Ma",
       statRecoveredLabel:"Visszaszerzés (igazolt)", statSavedLabel:"Megtakarítás (bejelentett)",
-      statEuLabel:"EU-forrás — megállapodott / beérkezett / elveszett", statEuLabelShort:"EU-forrás — megáll. / beérk. / elveszett", lostLabel:"Elveszett források", lostShort:"Elveszett", agreedOrigLabel:"Eredetileg megállapodott", agreedTotalLabel:"Megállapodott teljes összeg", lostDateLabel:"Elvesztés bejelentve", footAbout:"Rólam", footMethod:"Módszertan", footFaq:"GYIK", footAiApp:"Saját AI appot szeretne?", footCopy:"© 2026 Hujber Richárd – Forintról forintra… Vagyonvisszaszerzési Monitor. Minden jog fenntartva.",footSupport:"Támogatás", visitorsLabel:"Látogatók száma:", descLabel:"Leírás",
+      statEuLabel:"EU-forrás — megállapodott / beérkezett / elveszett", statEuLabelShort:"EU-forrás — megáll. / beérk. / elveszett", lostLabel:"Elveszett források", lostShort:"Elveszett", agreedOrigLabel:"Eredetileg megállapodott", agreedTotalLabel:"Megállapodott teljes összeg", lostDateLabel:"Elvesztés bejelentve", footAbout:"Rólam", footMethod:"Módszertan", footFaq:"GYIK", supportTitle:"Támogassa a munkánkat", supportSub:"Támogatásával az adatgyűjtés, a forrásellenőrzés és az oldal üzemeltetése költségeihez járul hozzá.", supportCta:"Támogatom", footAiApp:"Saját AI appot szeretne?", footCopy:"© 2026 Hujber Richárd – Forintról forintra… Vagyonvisszaszerzési Monitor. Minden jog fenntartva.",footSupport:"Támogatás", visitorsLabel:"Látogatók száma:", descLabel:"Leírás",
       statReportedLabel:"Feljelentett ügyek összege",
       reportedPanelTitle:"Feljelentett ügyek állapota", recoveredLabel:"Visszaszerezve", pendingLabel:"Vizsgálat alatt",
       euPanelTitle:"EU-forrás állapota", agreedLabel:"Megállapodott", receivedLabel:"Beérkezett",
@@ -919,7 +935,7 @@ window.SITE_CONFIG = {
       brand:"Asset Recovery Monitor", tagline:"Forint by forint…",
       timeMachineLabel:"Time machine", today:"Today",
       statRecoveredLabel:"Recovered assets (verified)", statSavedLabel:"Savings (reported)",
-      statEuLabel:"EU funds — agreed / received / lost", statEuLabelShort:"EU funds — agreed / rec. / lost", lostLabel:"Lost funds", lostShort:"Lost", agreedOrigLabel:"Originally agreed", agreedTotalLabel:"Total agreed amount", lostDateLabel:"Loss announced", footAbout:"About me", footMethod:"Methodology", footFaq:"FAQ", footAiApp:"Want your own AI app?", footCopy:"© 2026 Richárd Hujber – Forintról forintra… Asset Recovery Monitor. All rights reserved.",footSupport:"Support", visitorsLabel:"Visitors:", descLabel:"Description",
+      statEuLabel:"EU funds — agreed / received / lost", statEuLabelShort:"EU funds — agreed / rec. / lost", lostLabel:"Lost funds", lostShort:"Lost", agreedOrigLabel:"Originally agreed", agreedTotalLabel:"Total agreed amount", lostDateLabel:"Loss announced", footAbout:"About me", footMethod:"Methodology", footFaq:"FAQ", supportTitle:"Support our work", supportSub:"Your support helps cover the costs of data collection, source verification and running the site.", supportCta:"Support", footAiApp:"Want your own AI app?", footCopy:"© 2026 Richárd Hujber – Forintról forintra… Asset Recovery Monitor. All rights reserved.",footSupport:"Support", visitorsLabel:"Visitors:", descLabel:"Description",
       statReportedLabel:"Total value of reported cases",
       reportedPanelTitle:"Reported case status", recoveredLabel:"Recovered", pendingLabel:"Under investigation",
       euPanelTitle:"EU funds status", agreedLabel:"Agreed", receivedLabel:"Received",
@@ -1274,6 +1290,7 @@ window.SITE_CONFIG = {
     const kind = a.getAttribute("data-open-modal");
     showModalView(()=>renderFooterModal(kind));
   });
+  document.getElementById("supportBarBtn").addEventListener("click", ()=>showModalView(()=>renderFooterModal("support"), {resetStack:true}));
   document.getElementById("linkSupport").addEventListener("click", e=>{ e.preventDefault(); showModalView(()=>renderFooterModal("support"), {resetStack:true}); });
   document.getElementById("tutorialHelp").addEventListener("click", ()=>{ showModalView(()=>renderFooterModal("tutorialIntro"), {resetStack:true}); });
   document.getElementById("modalBody").addEventListener("click", e=>{
@@ -1995,7 +2012,10 @@ window.SITE_CONFIG = {
   }
   function initOptionalBlocks(){
     const C = window.SITE_CONFIG || {};
-    if(C.supportEnabled && (C.stripeUrl || C.paypalUrl)) document.getElementById("linkSupport").hidden = false;
+    if(C.supportEnabled && (C.stripeUrl || C.paypalUrl)){
+      document.getElementById("linkSupport").hidden = false;
+      if(C.supportBar !== false) document.getElementById("supportBar").hidden = false;
+    }
     if(C.adsEnabled && C.isMain && C.adsClient && C.adsSlot){
       const slot = document.getElementById("adSlot");
       slot.innerHTML = '<div class="ad-label">Hirdetés</div><ins class="adsbygoogle" style="display:block;width:100%" data-ad-client="' + C.adsClient + '" data-ad-slot="' + C.adsSlot + '" data-ad-format="auto" data-full-width-responsive="true"></ins>';
