@@ -314,7 +314,7 @@ window.SITE_CONFIG = {
     .panel.in-view,.stat-card.in-view{opacity:1;transform:none;}
   }
 
-  .bars{display:flex;align-items:flex-end;gap:22px;height:126px;padding-top:8px;}
+  .bars{display:flex;align-items:flex-end;gap:14px;height:126px;padding-top:8px;}
   .bar-col{display:flex;flex-direction:column;justify-content:flex-end;align-items:center;gap:6px;flex:1;height:100%;}
   .bar-col .bar{width:100%;max-width:52px;min-height:4px;border-radius:6px 6px 0 0;transition:height 1.05s cubic-bezier(.19,1,.22,1),background-color .3s;}
   .bar-col .bar.pulse{animation:barGlow .8s ease-out;}
@@ -767,6 +767,7 @@ window.SITE_CONFIG = {
         <div class="bar-col"><div class="bv">–</div><div class="bar" style="height:2px;background:var(--good)"></div><div class="bl" data-i18n="catRecovered">Visszaszerzés</div></div>
         <div class="bar-col"><div class="bv">–</div><div class="bar" style="height:2px;background:var(--blue)"></div><div class="bl" data-i18n="catSaved">Megtakarítás</div></div>
         <div class="bar-col"><div class="bv">–</div><div class="bar" style="height:2px;background:var(--eu)"></div><div class="bl" data-i18n="catEu">EU-forrás</div></div>
+        <div class="bar-col"><div class="bv">–</div><div class="bar" style="height:2px;background:var(--bad)"></div><div class="bl" data-i18n="catReported">Feljelentett ügyek</div></div>
       </div>
     </div>
     </div>
@@ -852,7 +853,7 @@ window.SITE_CONFIG = {
       reportedPanelTitle:"Feljelentett ügyek állapota", recoveredLabel:"Visszaszerezve", pendingLabel:"Vizsgálat alatt",
       euPanelTitle:"EU-forrás állapota", agreedLabel:"Megállapodott", receivedLabel:"Beérkezett",
       categoryPanelTitle:"Főbb tételek összehasonlítása", mrdFt:"milliárd Ft",
-      catRecovered:"Visszaszerzés", catSaved:"Megtakarítás", catEu:"EU-forrás",
+      catRecovered:"Visszaszerzés", catSaved:"Megtakarítás", catEu:"EU-forrás", catReported:"Feljelentett ügyek",
       macroPanelTitle:"Makrogazdasági mutatók", debt:"Államadósság", inflationYear:"Éves infláció", inflationExpected:"Várható éves infláció (MNB)",
       itemsPanelTitle:"Legutóbbi ügyek", recentWindow:"elmúlt 2 nap", recentReported:"Feljelentett ügy", recentUpdated:"frissítve", recentOfficial:"Hivatalos lista", recentUnchanged:"változatlan", caseWord:"ügy", moreBtn:"Továbbiak", lessBtn:"Kevesebb", colDate:"Dátum", colCategory:"Kategória", colSubject:"Téma", colAmount:"Összeg", colStatus:"Állapot", colSource:"Forrás", colDetails:"Részletek",
       loading:"Betöltés…", noItems:"Nincs a kiválasztott dátumig rögzített tétel.",
@@ -896,7 +897,7 @@ window.SITE_CONFIG = {
       reportedPanelTitle:"Reported case status", recoveredLabel:"Recovered", pendingLabel:"Under investigation",
       euPanelTitle:"EU funds status", agreedLabel:"Agreed", receivedLabel:"Received",
       categoryPanelTitle:"Key figures compared", mrdFt:"HUF billion",
-      catRecovered:"Recovered", catSaved:"Savings", catEu:"EU funds",
+      catRecovered:"Recovered", catSaved:"Savings", catEu:"EU funds", catReported:"Reported cases",
       macroPanelTitle:"Macroeconomic indicators", debt:"National debt", inflationYear:"Annual inflation", inflationExpected:"Expected annual inflation (MNB)",
       itemsPanelTitle:"Recent items", recentWindow:"last 2 days", recentReported:"Reported cases", recentUpdated:"updated", recentOfficial:"Official list", recentUnchanged:"unchanged", caseWord:"cases", moreBtn:"Show more", lessBtn:"Show less", colDate:"Date", colCategory:"Category", colSubject:"Subject", colAmount:"Amount", colStatus:"Status", colSource:"Source", colDetails:"Details",
       loading:"Loading…", noItems:"No items recorded up to the selected date.",
@@ -2134,16 +2135,20 @@ window.SITE_CONFIG = {
     countUp(document.getElementById("euLostN"), toMrd(euLostTotal), v=>fmtMrdNum(v)+" Mrd Ft");
 
     /* category bars */
-    const maxVal = Math.max(recoveredTotal, savedTotal, euAgreed, 1);
+    const maxVal = Math.max(recoveredTotal, savedTotal, euAgreed, reportedTotal, 1);
     const bars = document.getElementById("categoryBars").children;
-    const vals = [recoveredTotal, savedTotal, euAgreed];
-    const cols = ["var(--good)","var(--blue)","var(--eu)"];
-    for(let i=0;i<3;i++){
+    const vals = [recoveredTotal, savedTotal, euAgreed, reportedTotal];
+    const cols = ["var(--good)","var(--blue)","var(--eu)","var(--bad)"];
+    for(let i=0;i<4;i++){
       const barEl = bars[i].querySelector(".bar");
       const h = Math.max((vals[i]/maxVal)*100, 3);
       barEl.style.transitionDelay = prefersReducedMotion ? "0ms" : (i*90) + "ms";
       barEl.style.height = h + "%";
       barEl.style.background = cols[i];
+      if(i===2 && euAgreed>0){
+        const lp = Math.min(euLostTotal/euAgreed*100, 100), rp = Math.min(euReceived/euAgreed*100, 100-lp);
+        barEl.style.background = `linear-gradient(to top, var(--bad) 0 ${lp}%, var(--good) ${lp}% ${lp+rp}%, var(--eu) ${lp+rp}% 100%)`;
+      }
       barEl.style.color = cols[i];
       if(!prefersReducedMotion){
         barEl.classList.remove("pulse"); void barEl.offsetWidth; barEl.classList.add("pulse");
