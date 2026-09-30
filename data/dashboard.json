@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-30T04:01:25+00:00",
+ "generated_at": "2026-09-30T09:59:56+00:00",
  "summary": {
   "megtakaritas_verified_huf": 987800000000,
   "visszaszerzes_verified_huf": 1520170000000,
@@ -1182,8 +1182,20 @@
    "updated_at": "2026-09-28T15:02:40+00:00"
   },
   {
+   "additional_sources": [
+    {
+     "name": "Világgazdaság (M1 Bicske–M0 szakasz)",
+     "published_date": "2026-09-25",
+     "url": "https://www.vg.hu/vilaggazdasag-magyar-gazdasag/2026/09/vitezy-david-mkif-m1-autopalya-meszaros-szijj-felvetel"
+    },
+    {
+     "name": "G7 / Telex (részletes oknyomozás)",
+     "published_date": "2026-09-30",
+     "url": "https://telex.hu/g7/vallalat/2026/09/30/sztardakoncesszio-koltseg-fidesz-kormany-mkif-tularazas"
+    }
+   ],
    "alleged_amount_huf": 5000000000000,
-   "alleged_amount_text": "legalább 5000 milliárd forint (a teljes szerződéses futamidőre vetített többletfizetés a 2023-as szerződésmódosítás miatt); más elemzés szerint a módosításokból eredő költségnövekedés akár 8000 milliárd forint is lehet a kb. 23-26 ezer milliárd forintos teljes szerződéses érték mellett",
+   "alleged_amount_text": "legalább 5000 milliárd forint (a teljes szerződéses futamidőre vetített többletfizetés a 2023-as szerződésmódosítás miatt); más elemzés szerint a módosításokból eredő költségnövekedés akár 8000 milliárd forint is lehet a kb. 23-26 ezer milliárd forintos teljes szerződéses érték mellett; a G7/Telex 2026-09-30-i részletes oknyomozása szerint a szerződéses érték 2022 és 2026 között 17,3 ezer milliárd forintról 25,9 ezer milliárd forintra nőtt (8,6 ezer milliárd Ft növekedés), ebből az infláció és árfolyamhatás kiszűrése után mintegy 4,4 ezer milliárd forint számít indokolatlan többletköltségnek; az üzemeltetés önmagában évi kb. 160-170 milliárd forinttal kerül többe, mint piaci szereplőnél (MKIF: 176 millió Ft/km/év a Magyar Közút 61 és az M6 Duna 56 millió Ft/km/év üzemeltetési költségéhez képest)",
    "confirmed_recovered_huf": 0,
    "description": "35 éves autópálya-üzemeltetési koncesszió (Magyar Koncessziós Infrastruktúrafejlesztő Zrt., MKIF), amelyben Mészáros Lőrinc és Szíjj László érdekeltségei 50-50%-os tulajdonrésszel bírnak. A 2022 májusi szerződést Rogán Antal (akkori Miniszterelnöki Kabinetiroda) 2023 decemberében rendkívüli kormányrendelettel módosította, ami a sajtó szerint jogellenesen az államra hárította az építési költség- és kamatnövekedés kockázatát. A kormány közbeszerzési és büntetőeljárást indított, a szerződést 2026 végéig fel kívánja számolni.",
    "ministry": "Közlekedési és Beruházási Minisztérium",
@@ -1196,10 +1208,10 @@
    },
    "status": "under_investigation",
    "subject": "Autópálya-koncesszió (MKIF, kb. az ország autópálya-hálózatának kétharmada) szerződésmódosítása",
-   "verification_notes": "FRISSÍTVE 2026-09-26: a Világgazdaság (2026-09-25) új dokumentumokra hivatkozva arról ír, hogy az M1-es autópálya Bicske–M0 közötti szakaszát is versenyeztetés nélkül, 'forgalomszervezési' indokkal adták át az MKIF-nek (Mészáros Lőrinc/Szíjj László érdekeltsége) — ez az MKIF-koncessziós ügy egy további, korábban nem rögzített részlete, önálló forintösszeg nélkül. Forrás: https://www.vg.hu/vilaggazdasag-magyar-gazdasag/2026/09/vitezy-david-mkif-m1-autopalya-meszaros-szijj-felvetel . FRISSÍTVE 2026-09-26 (második ellenőrzés): az Economx (2026-09-25) szerint a 2026-09-18-i felszámolási bejelentés óta már kb. 13 milliárd forint 'ketyeg'; korábbi elemzés szerint a koncesszorok már a beruházás elején 47,5 milliárd forintnyi osztalékot vettek ki a társaságból. Az előző megjegyzés (a nyomozás elrendeléséről, hűtlen kezelés/hivatali visszaélés gyanújával, 2026-09-21) változatlanul érvényes.",
+   "verification_notes": "FRISSÍTVE 2026-09-26: a Világgazdaság (2026-09-25) új dokumentumokra hivatkozva arról ír, hogy az M1-es autópálya Bicske–M0 közötti szakaszát is versenyeztetés nélkül, 'forgalomszervezési' indokkal adták át az MKIF-nek (Mészáros Lőrinc/Szíjj László érdekeltsége) — ez az MKIF-koncessziós ügy egy további, korábban nem rögzített részlete, önálló forintösszeg nélkül. FRISSÍTVE 2026-09-26 (második ellenőrzés): az Economx (2026-09-25) szerint a 2026-09-18-i felszámolási bejelentés óta már kb. 13 milliárd forint 'ketyeg'; korábbi elemzés szerint a koncesszorok már a beruházás elején 47,5 milliárd forintnyi osztalékot vettek ki a társaságból. Az előző megjegyzés (a nyomozás elrendeléséről, hűtlen kezelés/hivatali visszaélés gyanújával, 2026-09-21) változatlanul érvényes. FRISSÍTVE 2026-09-30: a G7/Telex részletes oknyomozása (2026-09-30) önálló, dokumentumokra alapozott számítást közölt: a teljes szerződéses érték 2022 és 2026 között 17,3 ezer milliárd Ft-ról 25,9 ezer milliárd Ft-ra nőtt, ebből az infláció/árfolyamhatás kiszűrése után kb. 4,4 ezer milliárd Ft indokolatlan többletköltségnek számít; az üzemeltetési díj (176 millió Ft/km/év) mintegy háromszorosa a Magyar Közút és az M6 Duna üzemeltetőjének díjának, ez évi kb. 160-170 milliárd forint többletköltséget jelent. Ez sajtó (nem hivatalos kormányzati) becslés, ezért az alleged_amount_huf mező (5000 Mrd Ft, a korábbi legalacsonyabb becslés) egyelőre változatlan, az alleged_amount_text-ben rögzítve a széles becslési tartomány (4,4-8 ezer milliárd Ft).",
    "id": "reported-mkif-autopalya-koncesszio-2026-09",
    "first_seen_at": "2026-09-28T15:02:40+00:00",
-   "updated_at": "2026-09-28T15:02:40+00:00"
+   "updated_at": "2026-09-30T09:59:56+00:00"
   },
   {
    "alleged_amount_huf": null,
@@ -1856,26 +1868,30 @@
  },
  "last_run": {
   "errors": [
-   "Economx.hu 'NVVH-t bíráló ügyész' cikk (2026-09-29/30) 404-es hibával nem volt közvetlenül elérhető a tippelt URL-en; a cikk tartalma (kritikai vélemény, konkrét új ügy/összeg nélkül) nem volt ellenőrizhető, ezért nem került be az adattárba.",
-   "Az MNB hivatalos EUR/HUF fixingje ebben a futásban is a 2026-09-29-i (367,98 Ft/EUR) maradt a legfrissebb elérhető érték; új macro_snapshots dokumentum ezért nem készült, a 2026-09-29T11-55 pillanatkép marad érvényben.",
-   "A kormany.hu/atlathato/feljelentes oldal állapota (37 ügy, 2221 Mrd Ft, 2026-09-23) ebben a futásban is változatlan volt.",
-   "A Dunakeszi Járműjavító csődbűntett-ügy és a Miniszterelnökség p2m-feljelentése az előző (2026-09-29 15:31-es) futásban már rögzítésre került; ebben a futásban csak további független sajtóforrásokkal (additional_sources) lettek kiegészítve, érdemi tény/összeg nem változott."
+   "Az ÁKK hivatalos statisztikai oldala (akk.hu/hu/statisztika/allamadossag-finanszirozas) ebben a futásban is JavaScript-alapú, betöltés nélküli tartalmat adott vissza; friss, egyértelmű összesített államadósság-adat nem volt kinyerhető, az érték változatlanul a 2026-07-31-i (Magyar Nemzet/ÁKK-hivatkozás) állapotot tükrözi.",
+   "Az MNB hivatalos EUR/HUF fixingje ebben a futásban is a 2026-09-29-i (367,98 Ft/EUR) maradt a legfrissebb elérhető hivatalos érték (a 2026-09-30 reggeli, kb. 366,63 Ft/EUR piaci árfolyam csak napközbeni kereskedési adat, nem hivatalos fixing); új macro_snapshots dokumentum ezért nem készült, a 2026-09-29T11-55 pillanatkép marad érvényben.",
+   "KSH infláció: nem jelent meg új (2026-08 utáni) gyorstájékoztató ebben a futásban; a legutóbbi ismert érték (2026-08: havi 0,2%, éves 1,3%) változatlan.",
+   "A kormány 2026-09-29-i, 119 milliárd forintos rezsivédelmi átcsoportosítása (Magyar Közlöny 141. szám) állami kiadási/kompenzációs döntés, nem megtakarítás vagy vagyon-visszaszerzés, ezért nem került fel az items kollekcióba (a korábbi futásokban a hasonló szolidaritási hozzájárulás-visszafizetéshez alkalmazott elvvel összhangban).",
+   "Az NVVH 2026-09-28-i bejelentésének négy ügye (vízumbiznisz, önkormányzati parkfenntartás/étkeztetés, állami vállalat/beruházás, propaganda/rendezvényköltés) mindegyike már korábban, önálló tételként rögzítve van az adattárban (Orbán Áron-kör, önkormányzati parkfenntartás, állami beruházás-vesztegetés, Szuverenitásvédelmi Hivatal) — ebben a futásban csak megerősítést kaptak (ügyészségi hír, K-Monitor-keresés alapján), új tényt nem hoztak.",
+   "A Volánbusz-ügyben említett 3 milliárd forintos vagyonelem-biztosítás (Infostart, Origo, 2026-09-28) a korábbi (2026-09-29-es) futásban már rögzítésre került a reported-volan-buszbeszerzes-2026-09 tételben, ebben a futásban csak megerősítést kapott.",
+   "A G7/Telex 2026-09-30-i, MKIF-koncesszióról szóló részletes oknyomozása (17,3→25,9 ezer Mrd Ft szerződéses érték, 4,4 ezer Mrd Ft inflációval korrigált túlárazás, évi 160-170 Mrd Ft üzemeltetési többletköltség) új, sajtó által számított adatként bekerült a reported-mkif-autopalya-koncesszio-2026-09 tétel verification_notes és alleged_amount_text mezőjébe.",
+   "A Portfolio.hu 'leggazdagabb magyarok listája a vagyonvisszaszerzés küszöbén' (2026-09-30) általános kontextus-cikk, konkrét új esemény vagy összeg nélkül, nem került fel.",
+   "Privátbankár állampapír-hozam cikkek (114 Mrd Ft, 6,5 Mrd Ft) rutinszerű állampapírpiaci hozamváltozások, nem elszámoltatási jellegű megtakarítás, a korábbi futások elvével összhangban nem kerültek fel."
   ],
   "eu_lost_items_new": 0,
-  "finished_at": "2026-09-30T06:45:00+02:00",
-  "items_duplicate": 2,
-  "items_found_total": 8,
+  "finished_at": "2026-09-30T12:20:00+02:00",
+  "items_duplicate": 0,
+  "items_found_total": 6,
   "items_needs_review": 0,
   "items_new": 0,
   "reported_cases_new": 0,
-  "reported_cases_updated": 2,
+  "reported_cases_updated": 1,
   "sources_checked": [
-   "kormany.hu/atlathato/feljelentes (37 ügy, 2221 Mrd Ft, 2026-09-23-i állapot — változatlan)",
-   "mnvvh.hu/hirek (nincs új konkrét ügyadat, csak az NVVH 09-28-i bejelentésének visszautalása)",
-   "ugyeszseg.hu/category/hirek/kozponti-nyomozo-fougyeszseg (Volánbusz, óbudai korrupciós ügy — mindkettő már rögzítve, nincs új közlemény)",
-   "k-monitor.hu (WebSearch, nincs releváns új találat)",
-   "hirkereso.hu (Politika/Gazdaság rovat áttekintve)",
-   "MNB (mnb.hu/arfolyamok — legfrissebb fixing még mindig 09-29, nincs új adat)",
+   "kormany.hu/atlathato/feljelentes (közvetlenül ellenőrizve, WebFetch: 37 ügy, 2221 Mrd Ft, 2026-09-23-i állapot — változatlan az előző, 2026-09-30 05:55-ös futáshoz képest)",
+   "ugyeszseg.hu/category/hirek/kozponti-nyomozo-fougyeszseg (Volánbusz és óbudai korrupciós ügy — mindkettő már rögzítve, nincs új közlemény)",
+   "mnvvh.hu/hirek (nincs új konkrét ügyadat)",
+   "k-monitor.hu (WebSearch, nincs releváns még nem rögzített új találat)",
+   "hirkereso.hu (WebSearch-csel, a közvetlen /politika URL korábbi futásokban is 404-et adott)",
    "telex.hu",
    "444.hu",
    "index.hu",
@@ -1883,20 +1899,29 @@
    "hvg.hu",
    "economx.hu",
    "vg.hu",
+   "g7.hu (Telex-en keresztül)",
    "nepszava.hu",
    "infostart.hu",
-   "magyarhirlap.hu",
-   "atv.hu",
-   "penzcentrum.hu",
-   "origo.hu",
    "mfor.hu",
-   "10perc.hu",
-   "zsaruhirek.hu"
+   "penzcentrum.hu",
+   "privatbankar.hu",
+   "origo.hu",
+   "mnb.hu/arfolyamok",
+   "akk.hu (statisztikai oldal)",
+   "magyarkozlony.hu"
   ],
-  "started_at": "2026-09-30T05:55:00+02:00",
-  "id": "2026-09-30T05-55"
+  "started_at": "2026-09-30T11:55:00+02:00",
+  "id": "2026-09-30T11-55"
  },
  "run_history": [
+  {
+   "finished_at": "2026-09-30T12:20:00+02:00",
+   "started_at": "2026-09-30T11:55:00+02:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 1,
+   "eu_lost_items_new": 0
+  },
   {
    "finished_at": "2026-09-30T06:45:00+02:00",
    "started_at": "2026-09-30T05:55:00+02:00",
