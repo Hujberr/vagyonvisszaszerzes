@@ -5,7 +5,7 @@
 Options -Indexes
 AddType application/manifest+json .webmanifest
 <IfModule mod_headers.c>
-  <Files "sw.js">
+  <FilesMatch "^(sw\.js|manifest\.webmanifest|.*\.html)$">
     Header set Cache-Control "no-cache"
-  </Files>
+  </FilesMatch>
 </IfModule>

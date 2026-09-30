@@ -8,7 +8,7 @@ self.addEventListener("fetch", e => {
   if (e.request.mode !== "navigate") return;
   const u = new URL(e.request.url);
   if (u.origin !== location.origin || !(u.pathname.endsWith("/") || u.pathname.endsWith("/index.html"))) return;
-  e.respondWith(fetch(e.request).then(r => {
+  e.respondWith(fetch(e.request, { cache: "no-cache" }).then(r => {
     if (r.ok) { const c = r.clone(); caches.open(CACHE).then(x => x.put("./", c)); }
     return r;
   }).catch(() => caches.match("./").then(r => r || Response.error())));

@@ -36,7 +36,7 @@
 window.SITE_CONFIG = {
   dataUrl: "https://raw.githubusercontent.com/Hujberr/vagyonvisszaszerzes/main/data/dashboard.json",
   counterUrl: "counter.php",   // a tárhelyen futó látogatószámláló; ha nem érhető el, a számláló rejtve marad
-  supportEnabled: false,       // „Támogatás” link és ablak
+  supportEnabled: true,        // „Támogatás” link és ablak
   supportBar: true,            // visszafogott támogatási sáv a lábléc fölött (csak ha a támogatás be van kapcsolva)
   stripeUrl: "",               // Stripe fizetési link
   paypalUrl: "",               // PayPal link
@@ -1212,8 +1212,8 @@ window.SITE_CONFIG = {
       <p class="ai-company">Assignments are taken on through my own company, MS Tanácsadó és Kereskedelmi Kft.</p>`
   };
 
-  const MODAL_TITLES = { hu:{sources:"Adatforrások", privacy:"Adatvédelmi tájékoztató", contact:"Kapcsolat", about:"Rólam", aiapp:"Saját AI-alkalmazás", tutorialIntro:"Ismerd meg az oldalt"},
-                          en:{sources:"Data sources", privacy:"Privacy notice", contact:"Contact", about:"About me", aiapp:"Your own AI application", tutorialIntro:"Get to know the site"} };
+  const MODAL_TITLES = { hu:{sources:"Adatforrások", privacy:"Adatvédelmi tájékoztató", contact:"Kapcsolat", about:"Rólam", aiapp:"Saját AI-alkalmazás", tutorialIntro:"Ismerd meg az oldalt", support:"Támogassa a munkámat", supportSoon:"Támogatás"},
+                          en:{sources:"Data sources", privacy:"Privacy notice", contact:"Contact", about:"About me", aiapp:"Your own AI application", tutorialIntro:"Get to know the site", support:"Support my work", supportSoon:"Support"} };
 
   /* ---------- modal navigation stack ----------
      showModalView(renderFn) opens a new view on top of whatever is currently shown
@@ -1297,12 +1297,15 @@ window.SITE_CONFIG = {
       body = AI_APP_HTML[lang]();
     } else if(kind === "support"){
       const C = window.SITE_CONFIG || {};
-      const btn = (url, title, sub) => url ? `<a class="support-btn" href="${url}" target="_blank" rel="noopener"><b>${title}</b><span>${sub}</span></a>` : "";
+      const btn = (url, title, sub) => url ? `<a class="support-btn" href="${url}" target="_blank" rel="noopener"><b>${title}</b><span>${sub}</span></a>` : `<a class="support-btn" href="#" data-open-modal="supportSoon"><b>${title}</b><span>${sub}</span></a>`;
       body = `<p class="support-intro">${lang==="hu"?"Támogatásával az adatgyűjtés, a forrásellenőrzés és az oldal üzemeltetése költségeihez járul hozzá.":"Your support helps cover the costs of data collection, source verification and running the site."}</p>
         <div class="support-btns">
           ${btn(C.stripeUrl, lang==="hu"?"Bankkártya vagy Google Pay":"Card or Google Pay", lang==="hu"?"Biztonságos fizetés a Stripe-on keresztül":"Secure payment via Stripe")}
           ${btn(C.paypalUrl, "PayPal", lang==="hu"?"PayPal-fiókkal vagy kártyával":"With a PayPal account or card")}
         </div>`;
+    } else if(kind === "supportSoon"){
+      body = `<p class="support-intro">${lang==="hu"?"Hamarosan elérhető lesz.":"Coming soon."}</p>
+        <div class="pwa-actions"><button class="btn primary" id="supportSoonClose" type="button">${lang==="hu"?"Bezárás":"Close"}</button></div>`;
     } else if(kind === "contact"){
       body = `<div class="contact-box"><span class="contact-label">✉️ Email</span><a href="mailto:${CONTACT_EMAIL}">${CONTACT_EMAIL}</a></div>
         <p>${lang==="hu"?"Kérdés, észrevétel, hibajelzés vagy helyesbítési kérés esetén írj erre a címre.":"For questions, feedback, bug reports or correction requests, write to this address."}</p>`;
@@ -1335,7 +1338,7 @@ window.SITE_CONFIG = {
   document.getElementById("linkSupport").addEventListener("click", e=>{ e.preventDefault(); showModalView(()=>renderFooterModal("support"), {resetStack:true}); });
   document.getElementById("tutorialHelp").addEventListener("click", ()=>{ showModalView(()=>renderFooterModal("tutorialIntro"), {resetStack:true}); });
   document.getElementById("modalBody").addEventListener("click", e=>{
-    if(e.target.closest("#tutorialIntroExit")){ closeModal(); return; }
+    if(e.target.closest("#tutorialIntroExit") || e.target.closest("#supportSoonClose")){ closeModal(); return; }
     if(e.target.closest("#tutorialStart")){ forceCloseModal(); startTutorial(); }
   });
   document.getElementById("modalClose").addEventListener("click", closeModal);
@@ -2054,7 +2057,7 @@ window.SITE_CONFIG = {
   }
   function initOptionalBlocks(){
     const C = window.SITE_CONFIG || {};
-    if(C.supportEnabled && (C.stripeUrl || C.paypalUrl)){
+    if(C.supportEnabled){
       document.getElementById("linkSupport").hidden = false;
       if(C.supportBar !== false) document.getElementById("supportBar").hidden = false;
     }
