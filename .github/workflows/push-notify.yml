@@ -19,6 +19,6 @@ jobs:
             echo "A push-értesítés még nincs beállítva (PUSH_URL / PUSH_TOKEN titok) — kihagyva."
             exit 0
           fi
-          code=$(curl -sS --retry 3 --retry-delay 20 -o /tmp/resp.txt -w "%{http_code}" -X POST -H "X-Push-Token: $PUSH_TOKEN" "$PUSH_URL?sha=${{ github.sha }}")
+          code=$(curl -sS -A "Mozilla/5.0 (compatible; ForintrolForintra-Notify/1.0)" --retry 3 --retry-delay 20 -o /tmp/resp.txt -w "%{http_code}" -X POST -H "X-Push-Token: $PUSH_TOKEN" "$PUSH_URL?sha=${{ github.sha }}")
           echo "HTTP $code"; head -c 500 /tmp/resp.txt; echo
           [ "$code" -lt 400 ]
