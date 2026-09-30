@@ -40,7 +40,7 @@ window.SITE_CONFIG = {
   supportEnabled: true,        // „Támogatás” link és ablak
   supportBar: true,            // visszafogott támogatási sáv a lábléc fölött (csak ha a támogatás be van kapcsolva)
   stripeUrl: "https://donate.stripe.com/cNi4gAcnm6uGc2k9iHfUQ00",               // Stripe fizetési link
-  paypalUrl: "",               // PayPal link
+  paypalUrl: "https://www.paypal.com/ncp/payment/6BXKX4VJTMGTS",               // PayPal link
   canonicalHost: "visszavesszuk.hu", // csak ezen a hosztnéven (és a localhoston) kapcsolható be a hirdetés, a PWA és az értesítés
   adsEnabled: false,           // hirdetési hely (AdSense-jóváhagyás után)
   adsClient: "",               // AdSense kiadói azonosító, pl. "ca-pub-1234567890123456"
@@ -1298,10 +1298,10 @@ window.SITE_CONFIG = {
       body = AI_APP_HTML[lang]();
     } else if(kind === "support"){
       const C = window.SITE_CONFIG || {};
-      const btn = (url, title, sub) => url ? `<a class="support-btn" href="${url}" target="_blank" rel="noopener"><b>${title}</b><span>${sub}</span></a>` : `<a class="support-btn" href="#" data-open-modal="supportSoon"><b>${title}</b><span>${sub}</span></a>`;
+      const btn = (url, title, sub, same) => url ? `<a class="support-btn" href="${url}"${same?"":' target="_blank" rel="noopener"'}><b>${title}</b><span>${sub}</span></a>` : `<a class="support-btn" href="#" data-open-modal="supportSoon"><b>${title}</b><span>${sub}</span></a>`;
       body = `<p class="support-intro">${lang==="hu"?"Támogatásával az adatgyűjtés, a forrásellenőrzés és az oldal üzemeltetése költségeihez járul hozzá.":"Your support helps cover the costs of data collection, source verification and running the site."}</p>
         <div class="support-btns">
-          ${btn(C.stripeUrl, lang==="hu"?"Bankkártya vagy Google Pay":"Card or Google Pay", lang==="hu"?"Biztonságos fizetés a Stripe-on keresztül":"Secure payment via Stripe")}
+          ${btn(C.stripeUrl, lang==="hu"?"Bankkártya vagy Google Pay":"Card or Google Pay", lang==="hu"?"Biztonságos fizetés a Stripe-on keresztül":"Secure payment via Stripe", true)}
           ${btn(C.paypalUrl, "PayPal", lang==="hu"?"PayPal-fiókkal vagy kártyával":"With a PayPal account or card")}
         </div>`;
     } else if(kind === "supportSoon"){
