@@ -685,6 +685,19 @@ window.SITE_CONFIG = {
   .more-btn svg{width:14px;height:14px;transition:transform .2s;}
   .more-btn[aria-expanded="true"] svg{transform:rotate(180deg);}
   @media (max-width:640px){ .recent-grid{grid-template-columns:repeat(2,minmax(0,1fr));} }
+  /* Az utolsó futásban új / frissült kártyák kiemelése */
+  :root{--hl-new:#FF8A1F;--hl-upd:#A66CFF;}
+  .table-wrap tr.hl-new td:first-child{box-shadow:inset 4px 0 0 var(--hl-new);}
+  .table-wrap tr.hl-upd td:first-child{box-shadow:inset 4px 0 0 var(--hl-upd);}
+  .hl-legend{display:flex;gap:14px;flex-wrap:wrap;margin:0 0 10px;font-size:11.5px;color:var(--text-dim);}
+  .hl-legend[hidden]{display:none;}
+  .hl-legend i{display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:5px;vertical-align:-1px;}
+  .hl-legend .n i{background:var(--hl-new);} .hl-legend .u i{background:var(--hl-upd);}
+  @media (max-width:640px){
+    .table-wrap tr.hl-new{border:2px solid var(--hl-new);padding:11px 13px;}
+    .table-wrap tr.hl-upd{border:2px solid var(--hl-upd);padding:11px 13px;}
+    .table-wrap tr.hl-new td:first-child,.table-wrap tr.hl-upd td:first-child{box-shadow:none;}
+  }
 </style>
 </head>
 <body>
@@ -799,6 +812,7 @@ window.SITE_CONFIG = {
     <div class="panel" id="recentItemsPanel">
       <div class="panel-head"><h3 data-i18n="itemsPanelTitle">Legutóbbi ügyek</h3><span class="win" data-i18n="recentWindow">elmúlt 2 nap</span></div>
       <div class="recent-sum" id="recentSummary"></div>
+      <div class="hl-legend" id="hlLegend" hidden></div>
       <div class="table-wrap">
         <table>
           <thead>
@@ -931,7 +945,7 @@ window.SITE_CONFIG = {
       categoryPanelTitle:"Főbb tételek összehasonlítása", mrdFt:"milliárd Ft",
       catRecovered:"Visszaszerzés", catSaved:"Megtakarítás", catEu:"EU-forrás", catReported:"Feljelentve",
       macroPanelTitle:"Makrogazdasági mutatók", debt:"Államadósság", inflationYear:"Éves infláció", inflationExpected:"Várható éves infláció (MNB)",
-      itemsPanelTitle:"Legutóbbi ügyek", recentWindow:"elmúlt 2 nap", recentReported:"Feljelentett ügy", recentUpdated:"frissítve", recentOfficial:"Hivatalos lista", recentUnchanged:"változatlan", caseWord:"ügy", moreBtn:"Továbbiak", lessBtn:"Kevesebb", colDate:"Dátum", colCategory:"Kategória", colSubject:"Téma", colAmount:"Összeg", colStatus:"Állapot", colSource:"Forrás", colDetails:"Részletek",
+      itemsPanelTitle:"Legutóbbi ügyek", recentWindow:"elmúlt 2 nap", recentReported:"Feljelentett ügy", recentUpdated:"frissítve", hlNew:"Új az utolsó frissítésben", hlUpd:"Frissült az utolsó frissítésben", recentOfficial:"Hivatalos lista", recentUnchanged:"változatlan", caseWord:"ügy", moreBtn:"Továbbiak", lessBtn:"Kevesebb", colDate:"Dátum", colCategory:"Kategória", colSubject:"Téma", colAmount:"Összeg", colStatus:"Állapot", colSource:"Forrás", colDetails:"Részletek",
       loading:"Betöltés…", noItems:"Nincs a kiválasztott dátumig rögzített tétel.",
       footNote:"Automatikusan frissül minden ütemezett futás (06:00, 12:00 és 17:00, Európa/Budapest) után; nyitva tartott oldal esetén emellett 5 percenként is frissülnek az adatok.",
       footSources:"Adatforrások", footPrivacy:"Adatvédelem", footContact:"Kapcsolat",
@@ -975,7 +989,7 @@ window.SITE_CONFIG = {
       categoryPanelTitle:"Key figures compared", mrdFt:"HUF billion",
       catRecovered:"Recovered", catSaved:"Savings", catEu:"EU funds", catReported:"Reported",
       macroPanelTitle:"Macroeconomic indicators", debt:"National debt", inflationYear:"Annual inflation", inflationExpected:"Expected annual inflation (MNB)",
-      itemsPanelTitle:"Recent items", recentWindow:"last 2 days", recentReported:"Reported cases", recentUpdated:"updated", recentOfficial:"Official list", recentUnchanged:"unchanged", caseWord:"cases", moreBtn:"Show more", lessBtn:"Show less", colDate:"Date", colCategory:"Category", colSubject:"Subject", colAmount:"Amount", colStatus:"Status", colSource:"Source", colDetails:"Details",
+      itemsPanelTitle:"Recent items", recentWindow:"last 2 days", recentReported:"Reported cases", recentUpdated:"updated", hlNew:"New in the latest update", hlUpd:"Changed in the latest update", recentOfficial:"Official list", recentUnchanged:"unchanged", caseWord:"cases", moreBtn:"Show more", lessBtn:"Show less", colDate:"Date", colCategory:"Category", colSubject:"Subject", colAmount:"Amount", colStatus:"Status", colSource:"Source", colDetails:"Details",
       loading:"Loading…", noItems:"No items recorded up to the selected date.",
       footNote:"Refreshes automatically after every scheduled run (06:00, 12:00 & 17:00, Europe/Budapest); while the page stays open, it also refreshes every 5 minutes.",
       footSources:"Data sources", footPrivacy:"Privacy", footContact:"Contact",
@@ -2274,6 +2288,12 @@ window.SITE_CONFIG = {
 
     /* items table (merged: items + reported cases, most recently UPDATED first) */
     const reportedForTable = reported.filter(d => !d.is_aggregate);
+    /* Kiemelés: az utolsó futás időbélyegét viselő tételek (új = first_seen_at azonos, frissült = csak updated_at). */
+    const runEnd = RUNS.reduce((m,r) => { const x = Date.parse(r.finished_at || ""); return x > m ? x : m; }, 0);
+    let hlStamp = "", hlMs = 0;
+    [...items, ...reported].forEach(d => { const m = Date.parse(d.updated_at || ""); if(m > hlMs){ hlMs = m; hlStamp = d.updated_at; } });
+    const hlOn = hlMs > 0 && (!runEnd || (runEnd - hlMs <= 90*60000 && hlMs <= runEnd + 60*60000));
+    const hlClass = d => !hlOn || d.updated_at !== hlStamp ? "" : (d.first_seen_at === d.updated_at ? " hl-new" : " hl-upd");
     const merged = [
       ...items.map(d => ({kind:"item", data:d, sortDate:updatedAtSortKey(d, "event_date")})),
       ...reportedForTable.map(d => ({kind:"reported", data:d, sortDate:updatedAtSortKey(d, "report_date")})),
@@ -2286,7 +2306,7 @@ window.SITE_CONFIG = {
         const d = row.data;
         const st = d.status || "";
         const srcUrl = d.report_source && d.report_source.url;
-        return `<tr data-idx="${idx}" tabindex="0" role="button">
+        return `<tr data-idx="${idx}" tabindex="0" role="button" class="${hlClass(d).trim()}">
           <td class="mono" data-label="${t.colDate}">${d.report_date||"–"}${updatedBadgeHtml(d)}</td>
           <td data-label="${t.colCategory}"><span class="cat-dot reported"><i></i>${t.catReportedCase}</span></td>
           <td class="subject" data-label="${t.colSubject}">${d.subject||""}</td>
@@ -2299,7 +2319,7 @@ window.SITE_CONFIG = {
       const cat = d.category || "";
       const st = d.status || "";
       const amount = d.category==="eu_forras" ? euAgreedAt(d) : d.amount_huf;
-      return `<tr data-idx="${idx}" tabindex="0" role="button">
+      return `<tr data-idx="${idx}" tabindex="0" role="button" class="${hlClass(d).trim()}">
         <td class="mono" data-label="${t.colDate}">${d.event_date||"–"}${updatedBadgeHtml(d)}</td>
         <td data-label="${t.colCategory}"><span class="cat-dot ${cat}"><i></i>${t[CAT_KEY[cat]]||cat}</span></td>
         <td class="subject" data-label="${t.colSubject}">${d.subject||""}</td>
@@ -2310,6 +2330,12 @@ window.SITE_CONFIG = {
     }).join("") : `<tr class="empty-row"><td colspan="6" class="empty">${t.noItems}</td></tr>`;
     applyItemsLimit();
     renderRecentSummary(cutoff);
+    const lg = document.getElementById("hlLegend");
+    if(lg){
+      const nN = rows.filter(r => hlClass(r.data) === " hl-new").length, nU = rows.filter(r => hlClass(r.data) === " hl-upd").length;
+      lg.hidden = !(nN || nU);
+      lg.innerHTML = (nN ? `<span class="n"><i></i>${t.hlNew}: ${nN}</span>` : "") + (nU ? `<span class="u"><i></i>${t.hlUpd}: ${nU}</span>` : "");
+    }
   }
 
   /* ---------- Kezdőképernyő (telepíthető webalkalmazás) és push-értesítés ---------- */
