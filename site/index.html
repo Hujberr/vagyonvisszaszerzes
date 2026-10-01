@@ -945,7 +945,7 @@ window.SITE_CONFIG = {
       categoryPanelTitle:"Főbb tételek összehasonlítása", mrdFt:"milliárd Ft",
       catRecovered:"Visszaszerzés", catSaved:"Megtakarítás", catEu:"EU-forrás", catReported:"Feljelentve",
       macroPanelTitle:"Makrogazdasági mutatók", debt:"Államadósság", inflationYear:"Éves infláció", inflationExpected:"Várható éves infláció (MNB)",
-      itemsPanelTitle:"Legutóbbi ügyek", recentWindow:"elmúlt 2 nap", recentReported:"Feljelentett ügy", recentUpdated:"frissítve", hlNew:"Új az utolsó frissítésben", hlUpd:"Frissült az utolsó frissítésben", recentOfficial:"Hivatalos lista", recentUnchanged:"változatlan", caseWord:"ügy", moreBtn:"Továbbiak", lessBtn:"Kevesebb", colDate:"Dátum", colCategory:"Kategória", colSubject:"Téma", colAmount:"Összeg", colStatus:"Állapot", colSource:"Forrás", colDetails:"Részletek",
+      itemsPanelTitle:"Legutóbbi ügyek", recentWindow:"elmúlt 2 nap", recentReported:"Feljelentett ügy", recentUpdated:"frissítve", hlNew:"Új az utolsó frissítésben", firstSeenLabel:"Bekerült az adattárba", lastUpdLabel:"Utoljára frissítve", hlUpd:"Frissült az utolsó frissítésben", recentOfficial:"Hivatalos lista", recentUnchanged:"változatlan", caseWord:"ügy", moreBtn:"Továbbiak", lessBtn:"Kevesebb", colDate:"Dátum", colCategory:"Kategória", colSubject:"Téma", colAmount:"Összeg", colStatus:"Állapot", colSource:"Forrás", colDetails:"Részletek",
       loading:"Betöltés…", noItems:"Nincs a kiválasztott dátumig rögzített tétel.",
       footNote:"Automatikusan frissül minden ütemezett futás (06:00, 12:00 és 17:00, Európa/Budapest) után; nyitva tartott oldal esetén emellett 5 percenként is frissülnek az adatok.",
       footSources:"Adatforrások", footPrivacy:"Adatvédelem", footContact:"Kapcsolat",
@@ -989,7 +989,7 @@ window.SITE_CONFIG = {
       categoryPanelTitle:"Key figures compared", mrdFt:"HUF billion",
       catRecovered:"Recovered", catSaved:"Savings", catEu:"EU funds", catReported:"Reported",
       macroPanelTitle:"Macroeconomic indicators", debt:"National debt", inflationYear:"Annual inflation", inflationExpected:"Expected annual inflation (MNB)",
-      itemsPanelTitle:"Recent items", recentWindow:"last 2 days", recentReported:"Reported cases", recentUpdated:"updated", hlNew:"New in the latest update", hlUpd:"Changed in the latest update", recentOfficial:"Official list", recentUnchanged:"unchanged", caseWord:"cases", moreBtn:"Show more", lessBtn:"Show less", colDate:"Date", colCategory:"Category", colSubject:"Subject", colAmount:"Amount", colStatus:"Status", colSource:"Source", colDetails:"Details",
+      itemsPanelTitle:"Recent items", recentWindow:"last 2 days", recentReported:"Reported cases", recentUpdated:"updated", hlNew:"New in the latest update", firstSeenLabel:"Added to the database", lastUpdLabel:"Last updated", hlUpd:"Changed in the latest update", recentOfficial:"Official list", recentUnchanged:"unchanged", caseWord:"cases", moreBtn:"Show more", lessBtn:"Show less", colDate:"Date", colCategory:"Category", colSubject:"Subject", colAmount:"Amount", colStatus:"Status", colSource:"Source", colDetails:"Details",
       loading:"Loading…", noItems:"No items recorded up to the selected date.",
       footNote:"Refreshes automatically after every scheduled run (06:00, 12:00 & 17:00, Europe/Budapest); while the page stays open, it also refreshes every 5 minutes.",
       footSources:"Data sources", footPrivacy:"Privacy", footContact:"Contact",
@@ -1586,6 +1586,7 @@ window.SITE_CONFIG = {
     document.getElementById("modalTitle").textContent = item.subject || t[CAT_KEY[item.category]] || item.category || "";
     const fields = [
       [t.colDate, item.event_date || "–"],
+      ...trackFields(item),
       [t.colCategory, t[CAT_KEY[item.category]] || item.category || "–"],
       [t.colStatus, t[STATUS_KEY[item.status]] || item.status || "–"],
     ];
@@ -1622,6 +1623,7 @@ window.SITE_CONFIG = {
     document.getElementById("modalTitle").textContent = item.subject || item.case_name || item.id || t.statReportedLabel;
     const fields = [
       [t.colDate, item.report_date || "–"],
+      ...trackFields(item),
       [t.colStatus, t[REPORTED_STATUS_KEY[item.status]] || item.status || "–"],
     ];
     if(item.ministry) fields.push([lang==="hu"?"Tárca":"Ministry", item.ministry]);
@@ -1661,6 +1663,20 @@ window.SITE_CONFIG = {
   function byUpdatedAtDesc(fallback){
     return (a,b) => { const ka = updatedAtSortKey(a, fallback), kb = updatedAtSortKey(b, fallback);
       return ka < kb ? 1 : ka > kb ? -1 : 0; };
+  }
+  /* Időbélyeg → budapesti naptári nap (ÉÉÉÉ-HH-NN) */
+  function localDay(iso){
+    if(!iso) return "";
+    const m = Date.parse(iso);
+    if(isNaN(m)) return String(iso).slice(0,10);
+    try{ return new Intl.DateTimeFormat("sv-SE",{timeZone:"Europe/Budapest",year:"numeric",month:"2-digit",day:"2-digit"}).format(new Date(m)); }
+    catch(_){ return String(iso).slice(0,10); }
+  }
+  function trackFields(d){
+    const t = I18N[lang], f = localDay(d.first_seen_at), u = localDay(d.updated_at), out = [];
+    if(f) out.push([t.firstSeenLabel, f]);
+    if(u && u !== f) out.push([t.lastUpdLabel, u]);
+    return out;
   }
   /* "Frissítve: {dátum}" jelzés — csak akkor, ha a tétel a bejelentése (first_seen_at) óta ténylegesen frissült */
   function updatedBadgeHtml(d){
@@ -2307,7 +2323,7 @@ window.SITE_CONFIG = {
         const st = d.status || "";
         const srcUrl = d.report_source && d.report_source.url;
         return `<tr data-idx="${idx}" tabindex="0" role="button" class="${hlClass(d).trim()}">
-          <td class="mono" data-label="${t.colDate}">${d.report_date||"–"}${updatedBadgeHtml(d)}</td>
+          <td class="mono" data-label="${t.colDate}">${localDay(d.updated_at||d.first_seen_at)||d.report_date||"–"}</td>
           <td data-label="${t.colCategory}"><span class="cat-dot reported"><i></i>${t.catReportedCase}</span></td>
           <td class="subject" data-label="${t.colSubject}">${d.subject||""}</td>
           <td class="amount" data-label="${t.colAmount}">${fmtMrd(d.alleged_amount_huf)} ${t.mrd}</td>
@@ -2320,7 +2336,7 @@ window.SITE_CONFIG = {
       const st = d.status || "";
       const amount = d.category==="eu_forras" ? euAgreedAt(d) : d.amount_huf;
       return `<tr data-idx="${idx}" tabindex="0" role="button" class="${hlClass(d).trim()}">
-        <td class="mono" data-label="${t.colDate}">${d.event_date||"–"}${updatedBadgeHtml(d)}</td>
+        <td class="mono" data-label="${t.colDate}">${localDay(d.updated_at||d.first_seen_at)||d.event_date||"–"}</td>
         <td data-label="${t.colCategory}"><span class="cat-dot ${cat}"><i></i>${t[CAT_KEY[cat]]||cat}</span></td>
         <td class="subject" data-label="${t.colSubject}">${d.subject||""}</td>
         <td class="amount" data-label="${t.colAmount}">${fmtMrd(amount)} ${t.mrd}</td>
