@@ -2101,21 +2101,34 @@ window.SITE_CONFIG = {
     }
   }
 
+  /* A kiemelt (kerettel jelölt) kártyák: az utolsó push-értesítésben szereplő tételek. Hiba esetén nincs kiemelés. */
+  let HL = { new:new Set(), upd:new Set() };
+  async function fetchHighlights(){
+    const C = window.SITE_CONFIG || {};
+    if(!(C.pushEnabled && C.isMain && C.pushUrl)) return;
+    try{
+      const r = await fetch(C.pushUrl + "?action=highlights", { cache:"no-store" });
+      if(!r.ok) throw 0;
+      const j = await r.json();
+      HL = { new:new Set(j.new || []), upd:new Set(j.upd || []) };
+    }catch(_){ HL = { new:new Set(), upd:new Set() }; }
+  }
+
   async function boot(){
     initOptionalBlocks();
     initVisitorCounter();
     setLoading(I18N[lang].loading);
-    await fetchData();
+    await fetchData(); await fetchHighlights();
     render();
     // Nyitva tartott lap esetén 5 percenkénti automatikus frissítés.
     setInterval(async ()=>{
-      await fetchData();
+      await fetchData(); await fetchHighlights();
       render();
     }, AUTO_REFRESH_MS);
     document.addEventListener("visibilitychange", async ()=>{
       if(document.hidden) return;
       const before = lastUpdatedAt && lastUpdatedAt.getTime();
-      await fetchData();
+      await fetchData(); await fetchHighlights();
       if(!lastUpdatedAt || lastUpdatedAt.getTime() !== before) render();
     });
   }
@@ -2305,15 +2318,14 @@ window.SITE_CONFIG = {
 
     /* items table (merged: items + reported cases, most recently UPDATED first) */
     const reportedForTable = reported.filter(d => !d.is_aggregate);
-    /* Kiemelés: az utolsó futás időbélyegét viselő tételek (új = first_seen_at azonos, frissült = csak updated_at). */
-    const runEnd = RUNS.reduce((m,r) => { const x = Date.parse(r.finished_at || ""); return x > m ? x : m; }, 0);
-    let hlStamp = "", hlMs = 0;
-    [...items, ...reported].forEach(d => { const m = Date.parse(d.updated_at || ""); if(m > hlMs){ hlMs = m; hlStamp = d.updated_at; } });
-    const hlOn = hlMs > 0 && (!runEnd || (runEnd - hlMs <= 90*60000 && hlMs <= runEnd + 60*60000));
-    const hlClass = d => !hlOn || d.updated_at !== hlStamp ? "" : (d.first_seen_at === d.updated_at ? " hl-new" : " hl-upd");
+    /* Kiemelés: csak az a kártya, amely szerepelt a kiküldött push-értesítésben (új = narancs, frissült = lila). */
+    const hlClass = (d, kind) => { const k = (kind === "reported" ? "r:" : "i:") + (d.id || ""); return HL.new.has(k) ? " hl-new" : HL.upd.has(k) ? " hl-upd" : ""; };
+    /* Időrend: a frissítés napja szerint; ha nincs frissítés, az eredeti dátum szerint. Azonos napon a frissült tétel megelőzi a nem frissültet. */
+    const sortKey = (d, orig) => { const f = localDay(d.first_seen_at), u = localDay(d.updated_at), upd = !!(u && f && u > f);
+      return (upd ? u : (d[orig] || "0000-00-00")) + "|" + (upd ? 1 : 0) + "|" + (d.updated_at || ""); };
     const merged = [
-      ...items.map(d => ({kind:"item", data:d, sortDate:updatedAtSortKey(d, "event_date")})),
-      ...reportedForTable.map(d => ({kind:"reported", data:d, sortDate:updatedAtSortKey(d, "report_date")})),
+      ...items.map(d => ({kind:"item", data:d, sortDate:sortKey(d, "event_date")})),
+      ...reportedForTable.map(d => ({kind:"reported", data:d, sortDate:sortKey(d, "report_date")})),
     ];
     merged.sort((a,b) => a.sortDate < b.sortDate ? 1 : a.sortDate > b.sortDate ? -1 : 0);
     const rows = merged;
@@ -2323,7 +2335,7 @@ window.SITE_CONFIG = {
         const d = row.data;
         const st = d.status || "";
         const srcUrl = d.report_source && d.report_source.url;
-        return `<tr data-idx="${idx}" tabindex="0" role="button" class="${hlClass(d).trim()}">
+        return `<tr data-idx="${idx}" tabindex="0" role="button" class="${hlClass(d,"reported").trim()}">
           <td class="mono" data-label="${t.colDate}"><span class="nw">${d.report_date||"–"}</span>${updatedBadgeHtml(d)}</td>
           <td data-label="${t.colCategory}"><span class="cat-dot reported"><i></i>${t.catReportedCase}</span></td>
           <td class="subject" data-label="${t.colSubject}">${d.subject||""}</td>
@@ -2336,7 +2348,7 @@ window.SITE_CONFIG = {
       const cat = d.category || "";
       const st = d.status || "";
       const amount = d.category==="eu_forras" ? euAgreedAt(d) : d.amount_huf;
-      return `<tr data-idx="${idx}" tabindex="0" role="button" class="${hlClass(d).trim()}">
+      return `<tr data-idx="${idx}" tabindex="0" role="button" class="${hlClass(d,"item").trim()}">
         <td class="mono" data-label="${t.colDate}"><span class="nw">${d.event_date||"–"}</span>${updatedBadgeHtml(d)}</td>
         <td data-label="${t.colCategory}"><span class="cat-dot ${cat}"><i></i>${t[CAT_KEY[cat]]||cat}</span></td>
         <td class="subject" data-label="${t.colSubject}">${d.subject||""}</td>
@@ -2349,7 +2361,7 @@ window.SITE_CONFIG = {
     renderRecentSummary(cutoff);
     const lg = document.getElementById("hlLegend");
     if(lg){
-      const nN = rows.filter(r => hlClass(r.data) === " hl-new").length, nU = rows.filter(r => hlClass(r.data) === " hl-upd").length;
+      const nN = rows.filter(r => hlClass(r.data, r.kind) === " hl-new").length, nU = rows.filter(r => hlClass(r.data, r.kind) === " hl-upd").length;
       lg.hidden = !(nN || nU);
       lg.innerHTML = (nN ? `<span class="n"><i></i>${t.hlNew}: ${nN}</span>` : "") + (nU ? `<span class="u"><i></i>${t.hlUpd}: ${nU}</span>` : "");
     }

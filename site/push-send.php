@@ -55,6 +55,8 @@ try {
     }
     push_state_set($pdo, 'seen', json_encode(array_values(array_unique(array_merge($seen ?? [], array_keys($current))))));
     push_state_set($pdo, 'ver', json_encode(array_map(fn($v) => $v[2], $current)));
+    /* A honlapon színes kerettel kiemelt kártyák = az ebben a futásban kiküldött értesítés tételei. */
+    push_state_set($pdo, 'hl', json_encode(['new' => array_keys($new), 'upd' => array_keys($upd)]));
     if ($seen === null) out(['initialized' => true, 'known' => count($current)]);
     if (!$new && !$upd) out(['new' => 0, 'updated' => 0, 'sent' => 0]);
 

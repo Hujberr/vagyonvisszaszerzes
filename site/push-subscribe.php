@@ -3,6 +3,7 @@
  * Értesítési feliratkozás kezelése.
  *   GET  ?action=key                 → {"key": VAPID nyilvános kulcs}
  *   GET  ?action=latest&ep=<cím>     → a legutóbbi értesítés szövege (a service worker kéri le)
+ *   GET  ?action=highlights          → az utolsó értesítésben szereplő új / frissített tételek kulcsai
  *   POST {"action":"subscribe","endpoint":…,"lang":"hu|en"}
  *   POST {"action":"unsubscribe","endpoint":…}
  * Csak a böngésző által adott feliratkozási címet és a nyelvet tárolja.
@@ -22,6 +23,10 @@ try {
     if ($_SERVER['REQUEST_METHOD'] === 'GET') {
         $action = (string)($_GET['action'] ?? '');
         if ($action === 'key') out(['key' => $cfg['vapid_public']]);
+        if ($action === 'highlights') {
+            $hl = json_decode(push_state_get($pdo, 'hl') ?? 'null', true);
+            out(is_array($hl) ? ['new' => array_values($hl['new'] ?? []), 'upd' => array_values($hl['upd'] ?? [])] : ['new' => [], 'upd' => []]);
+        }
         if ($action === 'latest') {
             $ep = (string)($_GET['ep'] ?? '');
             $lang = 'hu';
