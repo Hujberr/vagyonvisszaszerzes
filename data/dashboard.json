@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-30T15:02:24+00:00",
+ "generated_at": "2026-10-01T04:00:24+00:00",
  "summary": {
   "megtakaritas_verified_huf": 987800000000,
   "visszaszerzes_verified_huf": 1520170000000,
@@ -1868,30 +1868,28 @@
  },
  "last_run": {
   "errors": [
-   "Az ÁKK hivatalos statisztikai oldala (akk.hu) ebben a futásban sem volt közvetlenül lekérhető; az államadósság értéke változatlanul a 2026-07-31-i (Magyar Nemzet/ÁKK-hivatkozás) állapotot tükrözi.",
-   "KSH: nem jelent meg új (2026-08 utáni) inflációs gyorstájékoztató ebben a futásban; a szeptemberi adat várhatóan csak október közepén jelenik meg. A legutóbbi ismert érték (2026-08: havi 0,2%, éves 1,3%) változatlan.",
-   "MNB EUR/HUF hivatalos fixing frissült (2026-09-30: 366,31 Ft/EUR, USD 322,48 Ft) a 2026-09-29-i (367,98 Ft/EUR) állapothoz képest — rutinszerű árfolyamfrissítés, a macro_snapshots dokumentumban rögzítve.",
-   "A GKI 2026-09-01-i elemzése (Privátbankár), amely a GDP 4,7%-ának megfelelő elméleti költségvetési tartalékot azonosított (gazdasági ügyek, kamatteher, kultúra/sport/egyház területén), egy think-tank projekció/ajánlás, nem tényleges, realizált megtakarítás vagy kormányzati döntés, ezért nem került fel az items kollekcióba.",
-   "Az mfor.hu 2026-08-24-i cikke a 2026-os költségvetés-módosítás 703 milliárd forintos megtakarítási célját részletezi tételes bontásban (pl. térítési/IT-szolgáltatások 88 Mrd Ft, támogatási programok 57 Mrd Ft, kormányzati működés 41 Mrd Ft, infrastruktúra 217 Mrd Ft) — ez a már rögzített megtakaritas-korm-intezkedesek-400mrd-2026-08 és megtakaritas-koltsegvetes-tervezett-300mrd-2026-q4 tételek részletesebb kifejtése, nem új esemény, ezért nem hozott létre új items dokumentumot.",
-   "Az Állami Számvevőszék (ÁSZ) sport-tao rendszer korm ányzati átvételére vonatkozó javaslata (kb. évi 125 Mrd Ft) egyelőre csak ajánlás, nem megvalósult intézkedés, ezért nem került fel.",
-   "Az uniós RRF-forrás (kb. 10 milliárd euró) végső kifizetési kérelmét a kormány 2026-09-30-i határidővel nyújtja be az Európai Bizottságnak; tényleges kifizetés továbbra sincs, az eu-forras-megallapodas-2026-05 tétel received_huf mezője (0) változatlan.",
-   "A kormany.hu hivatalos feljelentési listája (37 ügy, 2221 Mrd Ft, 2026-09-23-i állapot) ebben a futásban is változatlan volt.",
-   "Az Orbán Áron-kör, önkormányzati parkfenntartás, állami beruházás-vesztegetés NVVH-ügyek (2026-09-28-i bejelentés) ebben a futásban is csak megerősítést kaptak, új tényt nem hoztak."
+   "Minden ebben a futásban talált releváns hír (Vitézy Dávid 2 Mrd EUR elveszett EU-forrás, Kőnig-alapítvány 4,3 Mrd Ft visszafizetés, Miniszterelnökség p2m Informatika feljelentés 455 M Ft, Fauszt Zoltán/KRÉTA-Neptun-Poszeidon ügy, Duna Aszfalt kötvény-visszafizetés) az adattárban már korábbi futásokból rögzítve volt, érdemi új tény vagy összeg nem került elő.",
+   "A kormany.hu/atlathato/feljelentes hivatalos oldal állapota (37 ügy, 2221 Mrd Ft, 2026-09-23-i állapot) ebben a futásban is változatlan volt.",
+   "Az 'Ötmilliárd forint közpénzt öntöttek Orbán török bizalmasának alapítványába (Gül Baba Türbéje Örökségvédő Alapítvány)' c. cikk (hirnavigator.hu/Forbes.hu, 2026-10-01) kizárólag egy korábbi (2025-ös) támogatás kritikus bemutatása, jelenlegi hatósági lépés (feljelentés/vizsgálat/visszakövetelés) nélkül — a felhasználói szűrési szabály szerint nem került fel sem az items, sem a reported_cases kollekcióba.",
+   "A 289 Mrd Ft-os szén-dioxid-kvótaadó-visszafizetés és a 350 Mrd Ft-os törvénytelen adóbeszedés visszafizetése az állam kiadási/visszafizetési kötelezettsége, nem vagyon-visszaszerzés vagy megtakarítás, ezért nem került fel (korábbi futások elvével összhangban).",
+   "Az ÁKK hivatalos statisztikai oldala (akk.hu) ebben a futásban sem volt közvetlenül lekérhető; az államadósság-érték változatlanul a 2026-07-31-i (Magyar Nemzet/ÁKK-hivatkozás) állapotot tükrözi.",
+   "KSH: nem jelent meg új (2026-08 utáni) inflációs gyorstájékoztató; a szeptemberi adat várhatóan október közepén jelenik meg. A legutóbbi ismert érték (2026-08: havi 0,2%, éves 1,3%) változatlan.",
+   "MNB EUR/HUF hivatalos fixing ebben a futásban is a 2026-09-30-i (366,31 Ft/EUR) maradt a legfrissebb; új macro_snapshots dokumentum ezért nem készült, a 2026-09-30T16-55 pillanatkép marad érvényben."
   ],
   "eu_lost_items_new": 0,
-  "finished_at": "2026-09-30T18:05:00+02:00",
-  "items_duplicate": 4,
-  "items_found_total": 6,
+  "finished_at": "2026-10-01T06:10:00+02:00",
+  "items_duplicate": 10,
+  "items_found_total": 10,
   "items_needs_review": 0,
   "items_new": 0,
   "reported_cases_new": 0,
-  "reported_cases_updated": 3,
+  "reported_cases_updated": 0,
   "sources_checked": [
-   "kormany.hu/atlathato/feljelentes (közvetlenül ellenőrizve, WebFetch: 37 ügy, 2221 Mrd Ft, 2026-09-23-i állapot — változatlan az előző, 2026-09-30 11:55-ös futáshoz képest)",
-   "mnvvh.hu/hirek (csak eljárási/politikai hírek — ÁVH-monitor elindítása Fidesz részéről, Seszták letartóztatás — nincs új konkrét ügyadat)",
-   "ugyeszseg.hu/category/hirek/kozponti-nyomozo-fougyeszseg (Volánbusz és óbudai korrupciós ügy — mindkettő már rögzítve, nincs új közlemény)",
-   "k-monitor.hu (WebSearch, két célzott keresés, nincs releváns még nem rögzített új találat)",
-   "hirkereso.hu/gazdasag/friss (áttekintve, minden releváns hír már rögzítve; a /politika alrovat 404-et adott)",
+   "kormany.hu/atlathato/feljelentes (közvetlenül ellenőrizve, WebFetch: 37 ügy, 2221 Mrd Ft, 2026-09-23-i állapot — változatlan az előző, 2026-09-30 16:55-ös futáshoz képest)",
+   "mnvvh.hu/hirek",
+   "ugyeszseg.hu/category/hirek/kozponti-nyomozo-fougyeszseg (Volánbusz, óbudai korrupciós ügy — mindkettő már rögzítve, nincs új közlemény)",
+   "k-monitor.hu (WebSearch, több célzott keresés)",
+   "hirkereso.hu/gazdasag/friss",
    "telex.hu",
    "444.hu",
    "index.hu",
@@ -1907,14 +1905,25 @@
    "privatbankar.hu",
    "origo.hu",
    "forbes.hu",
-   "mnb.hu/arfolyamok",
-   "ksh.hu (gyorstájékoztatók)",
-   "akk.hu (statisztikai oldal)"
+   "atv.hu",
+   "atlatszo.hu",
+   "magyarhirlap.hu",
+   "mnb.hu/arfolyamok (EUR/HUF fixing)",
+   "ksh.hu (infláció, sajtón keresztül)",
+   "akk.hu (államadósság, sajtón keresztül)"
   ],
-  "started_at": "2026-09-30T16:55:00+02:00",
-  "id": "2026-09-30T16-55"
+  "started_at": "2026-10-01T05:30:00+02:00",
+  "id": "2026-10-01T05-58"
  },
  "run_history": [
+  {
+   "finished_at": "2026-10-01T06:10:00+02:00",
+   "started_at": "2026-10-01T05:30:00+02:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
   {
    "finished_at": "2026-09-30T18:05:00+02:00",
    "started_at": "2026-09-30T16:55:00+02:00",
