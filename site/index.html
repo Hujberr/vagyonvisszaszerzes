@@ -685,6 +685,8 @@ window.SITE_CONFIG = {
   .more-btn svg{width:14px;height:14px;transition:transform .2s;}
   .more-btn[aria-expanded="true"] svg{transform:rotate(180deg);}
   @media (max-width:640px){ .recent-grid{grid-template-columns:repeat(2,minmax(0,1fr));} }
+  .nw{white-space:nowrap;}
+  @media (max-width:640px){ .table-wrap td.mono{flex-wrap:wrap;} }
   /* Az utolsó futásban új / frissült kártyák kiemelése */
   :root{--hl-new:#FF8A1F;--hl-upd:#A66CFF;}
   .table-wrap tr.hl-new td:first-child{box-shadow:inset 4px 0 0 var(--hl-new);}
@@ -2323,7 +2325,7 @@ window.SITE_CONFIG = {
         const st = d.status || "";
         const srcUrl = d.report_source && d.report_source.url;
         return `<tr data-idx="${idx}" tabindex="0" role="button" class="${hlClass(d).trim()}">
-          <td class="mono" data-label="${t.colDate}">${localDay(d.updated_at||d.first_seen_at)||d.report_date||"–"}</td>
+          <td class="mono" data-label="${t.colDate}"><span class="nw">${d.report_date||"–"}</span>${updatedBadgeHtml(d)}</td>
           <td data-label="${t.colCategory}"><span class="cat-dot reported"><i></i>${t.catReportedCase}</span></td>
           <td class="subject" data-label="${t.colSubject}">${d.subject||""}</td>
           <td class="amount" data-label="${t.colAmount}">${fmtMrd(d.alleged_amount_huf)} ${t.mrd}</td>
@@ -2336,7 +2338,7 @@ window.SITE_CONFIG = {
       const st = d.status || "";
       const amount = d.category==="eu_forras" ? euAgreedAt(d) : d.amount_huf;
       return `<tr data-idx="${idx}" tabindex="0" role="button" class="${hlClass(d).trim()}">
-        <td class="mono" data-label="${t.colDate}">${localDay(d.updated_at||d.first_seen_at)||d.event_date||"–"}</td>
+        <td class="mono" data-label="${t.colDate}"><span class="nw">${d.event_date||"–"}</span>${updatedBadgeHtml(d)}</td>
         <td data-label="${t.colCategory}"><span class="cat-dot ${cat}"><i></i>${t[CAT_KEY[cat]]||cat}</span></td>
         <td class="subject" data-label="${t.colSubject}">${d.subject||""}</td>
         <td class="amount" data-label="${t.colAmount}">${fmtMrd(amount)} ${t.mrd}</td>
