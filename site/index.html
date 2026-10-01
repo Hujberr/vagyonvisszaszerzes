@@ -2320,9 +2320,9 @@ window.SITE_CONFIG = {
     const reportedForTable = reported.filter(d => !d.is_aggregate);
     /* Kiemelés: csak az a kártya, amely szerepelt a kiküldött push-értesítésben (új = narancs, frissült = lila). */
     const hlClass = (d, kind) => { const k = (kind === "reported" ? "r:" : "i:") + (d.id || ""); return HL.new.has(k) ? " hl-new" : HL.upd.has(k) ? " hl-upd" : ""; };
-    /* Időrend: a frissítés napja szerint; ha nincs frissítés, az eredeti dátum szerint. Azonos napon a frissült tétel megelőzi a nem frissültet. */
+    /* Időrend: a frissítés napja szerint; ha nincs frissítés, a bekerülés napja (updated_at = first_seen_at). Azonos időbélyegnél a frissült tétel, majd az újabb eredeti dátum az első. */
     const sortKey = (d, orig) => { const f = localDay(d.first_seen_at), u = localDay(d.updated_at), upd = !!(u && f && u > f);
-      return (upd ? u : (d[orig] || "0000-00-00")) + "|" + (upd ? 1 : 0) + "|" + (d.updated_at || ""); };
+      return (u || f || d[orig] || "0000-00-00") + "|" + (d.updated_at || d.first_seen_at || "") + "|" + (upd ? 1 : 0) + "|" + (d[orig] || ""); };
     const merged = [
       ...items.map(d => ({kind:"item", data:d, sortDate:sortKey(d, "event_date")})),
       ...reportedForTable.map(d => ({kind:"reported", data:d, sortDate:sortKey(d, "report_date")})),
