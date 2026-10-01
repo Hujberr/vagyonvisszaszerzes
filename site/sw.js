@@ -17,12 +17,20 @@ self.addEventListener("fetch", e => {
 /* Tartalom nélküli push: a szöveget a szerverről kérjük le. */
 self.addEventListener("push", e => {
   e.waitUntil((async () => {
-    let d = { title: "Vagyonvisszaszerzési Monitor", body: "Új tétel került fel.", url: "./" };
-    try {
-      const s = await self.registration.pushManager.getSubscription();
-      const r = await fetch("push-subscribe.php?action=latest&ep=" + encodeURIComponent(s ? s.endpoint : ""), { cache: "no-store" });
-      if (r.ok) d = Object.assign(d, await r.json());
-    } catch (_) {}
+    let d = { title: "Vagyonvisszaszerzési Monitor", body: "Új vagy frissített tétel került fel.", url: "./" };
+    let ep = "";
+    try { const s = await self.registration.pushManager.getSubscription(); ep = s ? s.endpoint : ""; } catch (_) {}
+    /* A telefon a push után gyakran még nincs online: legfeljebb 5 próbálkozás, növekvő várakozással. */
+    for (let i = 0; i < 5; i++) {
+      try {
+        const c = new AbortController(); const to = setTimeout(() => c.abort(), 8000);
+        const r = await fetch("push-subscribe.php?action=latest&ep=" + encodeURIComponent(ep), { cache: "no-store", signal: c.signal });
+        clearTimeout(to);
+        if (r.ok) { d = Object.assign(d, await r.json()); break; }
+        if (r.status === 404) break;
+      } catch (_) {}
+      await new Promise(res => setTimeout(res, 1500 * (i + 1)));
+    }
     await self.registration.showNotification(d.title, { body: d.body, icon: "icon-192.png", badge: "icon-192.png", tag: "vv-new", data: { url: d.url } });
   })());
 });
