@@ -324,7 +324,7 @@ window.SITE_CONFIG = {
   .split-bar .seg{display:flex;align-items:center;justify-content:center;font-family:"JetBrains Mono",monospace;font-size:11.5px;font-weight:600;color:#04140F;min-width:0;white-space:nowrap;overflow:hidden;position:relative;transition:width 1.05s cubic-bezier(.19,1,.22,1);}
   .split-bar .seg.recovered{background:var(--good);}
   .split-bar .seg.pending{background:var(--bad);color:#2B0A0A;}
-  .split-bar .seg.received{background:var(--eu);}
+  .split-bar .seg.received{background:var(--good);}
   .split-bar .seg.agreed-rest{background:var(--surface-2);color:var(--text-dim);}
   .split-bar .seg.recovered::after,.split-bar .seg.received::after{
     content:"";position:absolute;inset:0;pointer-events:none;
@@ -2022,7 +2022,7 @@ window.SITE_CONFIG = {
   document.getElementById("resetToday").addEventListener("click", ()=>{ timeInput.value = todayISO(); render(); });
   timeInput.addEventListener("change", render);
 
-  let ITEMS = [], REPORTED = [], MACRO = [], RUNS = [], CURRENT_ROWS = [], CURRENT_ITEMS_FILTERED = [], CURRENT_CAT_ITEMS = [], CURRENT_REPORTED_FILTERED = [];
+  let RSUM = null, RHIST = [], ITEMS = [], REPORTED = [], MACRO = [], RUNS = [], CURRENT_ROWS = [], CURRENT_ITEMS_FILTERED = [], CURRENT_CAT_ITEMS = [], CURRENT_REPORTED_FILTERED = [];
   let loaded = false;
   let lastUpdatedAt = null;
   const AUTO_REFRESH_MS = 5 * 60 * 1000; // 5 perc
@@ -2055,6 +2055,8 @@ window.SITE_CONFIG = {
       REPORTED = data.reported_cases || [];
       MACRO = data.macro ? [data.macro] : [];
       RUNS = Array.isArray(data.run_history) ? data.run_history : (data.last_run ? [data.last_run] : []);
+      RSUM = data.run_summary || null;
+      RHIST = Array.isArray(data.run_summary_history) ? data.run_summary_history : [];
       loaded = true;
       lastUpdatedAt = data.generated_at ? new Date(data.generated_at) : new Date();
       try{ if(data.generated_at){ var ld=document.getElementById('ldJson'); var j=JSON.parse(ld.textContent); j['@graph'].forEach(function(n){ if(n['@type']==='Dataset'||n['@type']==='WebPage') n.dateModified=new Date(data.generated_at).toISOString(); }); ld.textContent=JSON.stringify(j); } }catch(e){}
@@ -2104,6 +2106,10 @@ window.SITE_CONFIG = {
   /* A kiemelt (kerettel jelölt) kártyák: az utolsó push-értesítésben szereplő tételek. Hiba esetén nincs kiemelés. */
   let HL = { new:new Set(), upd:new Set() };
   async function fetchHighlights(){
+    if(RSUM){
+      HL = { new:new Set(RSUM.new_ids || []), upd:new Set([].concat(RSUM.modified_ids || [], RSUM.confirmed_ids || [])) };
+      return;
+    }
     const C = window.SITE_CONFIG || {};
     if(!(C.pushEnabled && C.isMain && C.pushUrl)) return;
     try{
@@ -2125,12 +2131,22 @@ window.SITE_CONFIG = {
       await fetchData(); await fetchHighlights();
       render();
     }, AUTO_REFRESH_MS);
-    document.addEventListener("visibilitychange", async ()=>{
-      if(document.hidden) return;
-      const before = lastUpdatedAt && lastUpdatedAt.getTime();
-      await fetchData(); await fetchHighlights();
-      if(!lastUpdatedAt || lastUpdatedAt.getTime() !== before) render();
-    });
+    let lastPull = Date.now(), pulling = false;
+    const refreshNow = async ()=>{
+      if(pulling || document.hidden || Date.now() - lastPull < 15000) return;
+      pulling = true;
+      try{
+        const before = lastUpdatedAt && lastUpdatedAt.getTime();
+        await fetchData(); await fetchHighlights();
+        lastPull = Date.now();
+        if(!lastUpdatedAt || lastUpdatedAt.getTime() !== before) render();
+      } finally { pulling = false; }
+    };
+    document.addEventListener("visibilitychange", refreshNow);
+    window.addEventListener("pageshow", refreshNow);
+    window.addEventListener("focus", refreshNow);
+    window.addEventListener("online", refreshNow);
+    document.addEventListener("resume", refreshNow);
   }
 
   /* ---------- Legutóbbi ügyek: 2 napos összefoglaló és „Továbbiak” gomb ---------- */
@@ -2147,8 +2163,10 @@ window.SITE_CONFIG = {
     const cnt = cat => ITEMS.filter(d => d.category === cat && inWin(d.collected_at)).length;
     const runs = RUNS.filter(r => inWin(r.finished_at || r.started_at));
     const rSum = k => runs.reduce((a,r) => a + (Number(r[k]) || 0), 0);
-    const repNew = RUNS.length ? rSum("reported_cases_new") : REPORTED.filter(d => !d.is_aggregate && inWin(d.report_date)).length;
-    const repUpd = rSum("reported_cases_updated");
+    const hruns = RHIST.filter(r => inWin(r.run_id));
+    const hSum = k => hruns.reduce((a,r) => a + (Number(((r.by_section || {}).reported_cases || {})[k]) || 0), 0);
+    const repNew = RHIST.length ? hSum("new") : (RUNS.length ? rSum("reported_cases_new") : REPORTED.filter(d => !d.is_aggregate && inWin(d.report_date)).length);
+    const repUpd = RHIST.length ? hSum("modified") + hSum("confirmed_only") : rSum("reported_cases_updated");
     const tile = (cls, label, n, extra) => `<div class="recent-tile"><span class="cat-dot ${cls}"><i></i>${label}</span><div class="n${n>0?"":" zero"}">${n>0?"+"+n:"0"}${extra||""}</div></div>`;
     let html = `<div class="recent-grid">`
       + tile("visszaszerzes", t.catVisszaszerzes, cnt("visszaszerzes"))
@@ -2270,7 +2288,7 @@ window.SITE_CONFIG = {
     /* eu split bar */
     const euPct = euAgreed>0 ? Math.max((euReceived/euAgreed)*100, euReceived>0?4:0) : 0;
     buildSplitBar("euBar", euAgreed>0, euPct,
-      euReceived>0?fmtMrd(euReceived):"", "received",
+      (euReceived>0 && euPct>=14)?fmtMrd(euReceived):"", "received",
       fmtMrd(euAgreed-euReceived), "agreed-rest");
     countUp(document.getElementById("euAgreedN"), toMrd(euAgreed), v=>fmtMrdNum(v)+" Mrd Ft");
     countUp(document.getElementById("euReceivedN"), toMrd(euReceived), v=>fmtMrdNum(v)+" Mrd Ft");
@@ -2362,8 +2380,9 @@ window.SITE_CONFIG = {
     const lg = document.getElementById("hlLegend");
     if(lg){
       const nN = rows.filter(r => hlClass(r.data, r.kind) === " hl-new").length, nU = rows.filter(r => hlClass(r.data, r.kind) === " hl-upd").length;
-      lg.hidden = !(nN || nU);
-      lg.innerHTML = (nN ? `<span class="n"><i></i>${t.hlNew}: ${nN}</span>` : "") + (nU ? `<span class="u"><i></i>${t.hlUpd}: ${nU}</span>` : "");
+      const sN = RSUM ? Number(RSUM.new) || 0 : nN, sU = RSUM ? (Number(RSUM.modified) || 0) + (Number(RSUM.confirmed_only) || 0) : nU;
+      lg.hidden = !(sN || sU);
+      lg.innerHTML = (sN ? `<span class="n"><i></i>${t.hlNew}: ${sN}</span>` : "") + (sU ? `<span class="u"><i></i>${t.hlUpd}: ${sU}</span>` : "");
     }
   }
 

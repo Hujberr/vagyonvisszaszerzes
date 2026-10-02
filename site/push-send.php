@@ -31,6 +31,26 @@ try {
     $data = $code === 200 ? json_decode((string)$raw, true) : null;
     if (!is_array($data)) out(['error' => 'data_unavailable'], 502);
 
+    /* Egységes összesítő: ha az adatfájlban van run_summary, az értesítés szövege és a kiemelés abból készül
+       (ugyanazok a számok, mint az oldalon és a Claude futás összefoglalójában). */
+    $rs = $data['run_summary'] ?? null;
+    if (is_array($rs) && isset($rs['run_id'])) {
+        $pdo = push_db($cfg);
+        $hl = ['new' => array_values($rs['new_ids'] ?? []), 'upd' => array_values(array_merge($rs['modified_ids'] ?? [], $rs['confirmed_ids'] ?? []))];
+        push_state_set($pdo, 'hl', json_encode($hl));
+        $touched = (int)($rs['touched'] ?? 0);
+        $lastRun = push_state_get($pdo, 'last_run');
+        if ($touched === 0 || $lastRun === (string)$rs['run_id']) out(['touched' => $touched, 'sent' => 0, 'duplicate' => $lastRun === (string)$rs['run_id']]);
+        $n = (int)($rs['new'] ?? 0); $m = (int)($rs['modified'] ?? 0); $c = (int)($rs['confirmed_only'] ?? 0);
+        $msg = [
+            'hu' => ['title' => 'Vagyonvisszaszerzési Monitor', 'body' => "Új: $n · Módosult: $m · Megerősítve: $c", 'url' => './'],
+            'en' => ['title' => 'Asset Recovery Monitor', 'body' => "New: $n · Changed: $m · Confirmed: $c", 'url' => './'],
+        ];
+        push_state_set($pdo, 'latest', json_encode($msg, JSON_UNESCAPED_UNICODE));
+        push_state_set($pdo, 'last_run', (string)$rs['run_id']);
+        out(['new' => $n, 'modified' => $m, 'confirmed' => $c] + push_send($pdo, $cfg));
+    }
+
     $cat = ['hu' => ['visszaszerzes' => 'Visszaszerzés', 'megtakaritas' => 'Megtakarítás', 'eu_forras' => 'EU-forrás', 'rc' => 'Feljelentett ügy'],
             'en' => ['visszaszerzes' => 'Recovered assets', 'megtakaritas' => 'Savings', 'eu_forras' => 'EU funds', 'rc' => 'Reported case']];
     $current = [];
