@@ -2142,6 +2142,20 @@ window.SITE_CONFIG = {
         if(!lastUpdatedAt || lastUpdatedAt.getTime() !== before) render();
       } finally { pulling = false; }
     };
+    // Ha a lap legalább 3 percig háttérben volt, visszatéréskor teljes újratöltés
+    // (újra lejátszódik a betöltési animáció, a lap tetejére ugrik, friss adat).
+    const RELOAD_AFTER_MS = 3 * 60 * 1000;
+    let hiddenAt = 0, reloading = false;
+    const markHidden = ()=>{ if(!hiddenAt) hiddenAt = Date.now(); };
+    const checkReload = ()=>{
+      if(reloading || document.hidden || !hiddenAt) return;
+      const away = Date.now() - hiddenAt;
+      hiddenAt = 0;
+      if(away >= RELOAD_AFTER_MS){ reloading = true; location.reload(); }
+    };
+    document.addEventListener("visibilitychange", ()=>{ document.hidden ? markHidden() : checkReload(); });
+    window.addEventListener("pagehide", markHidden);
+    window.addEventListener("pageshow", checkReload);
     document.addEventListener("visibilitychange", refreshNow);
     window.addEventListener("pageshow", refreshNow);
     window.addEventListener("focus", refreshNow);
