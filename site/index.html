@@ -2,6 +2,8 @@
 <html lang="hu">
 <head>
 <meta charset="utf-8">
+<meta name="google-adsense-account" content="ca-pub-3034770235423341">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3034770235423341" crossorigin="anonymous"></script>
 <script>if(/(^|\.)github\.io$/.test(location.hostname)){location.replace("https://visszavesszuk.hu/"+location.search+location.hash);}</script>
 <link rel="preconnect" href="https://raw.githubusercontent.com" crossorigin>
 <link rel="icon" type="image/png" href="icon-192.png">
@@ -52,7 +54,7 @@ window.SITE_CONFIG = {
   var C = window.SITE_CONFIG, h = location.hostname.replace(/^www\./, "");
   C.isMain = h === C.canonicalHost || h === "localhost" || h === "127.0.0.1";
   /* AdSense-kód: csak a főlapon, és csak megadott kiadói azonosítóval (a hozzájárulás-kezelő sávot ez a kód hozza). */
-  if(C.isMain && C.adsClient){
+  if(C.isMain && C.adsClient && !document.querySelector('script[src*="adsbygoogle.js"]')){
     var m = document.createElement("meta"); m.name = "google-adsense-account"; m.content = C.adsClient; document.head.appendChild(m);
     var a = document.createElement("script"); a.async = true; a.crossOrigin = "anonymous";
     a.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=" + encodeURIComponent(C.adsClient);
