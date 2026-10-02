@@ -2483,6 +2483,7 @@ window.SITE_CONFIG = {
       const b = atob((s + "===".slice((s.length + 3) % 4)).replace(/-/g, "+").replace(/_/g, "/"));
       return Uint8Array.from(b, c => c.charCodeAt(0));
     }
+    const subKeys = sub => { try{ const j = sub.toJSON(); return j && j.keys ? j.keys : undefined; }catch(_){ return undefined; } };
     async function post(body){
       const r = await fetch(C.pushUrl, { method:"POST", headers:{ "Content-Type":"application/json" }, body:JSON.stringify(body) });
       if(!r.ok) throw new Error("push_server");
@@ -2496,7 +2497,7 @@ window.SITE_CONFIG = {
         const k = await (await fetch(C.pushUrl + "?action=key", { cache:"no-store" })).json();
         const sub = (await reg.pushManager.getSubscription()) ||
                     await reg.pushManager.subscribe({ userVisibleOnly:true, applicationServerKey:b64uToU8(k.key) });
-        await post({ action:"subscribe", endpoint:sub.endpoint, lang });
+        await post({ action:"subscribe", endpoint:sub.endpoint, lang, keys:subKeys(sub) });
         subscribed = true; update(); result(T().nOk);
       }catch(e){ result(T().nFail); }
     }
@@ -2613,7 +2614,7 @@ window.SITE_CONFIG = {
     /* Nyelvváltáskor a feliratkozás nyelve is frissül. */
     ["langHu", "langEn"].forEach(id => $(id).addEventListener("click", () => {
       update();
-      if(subscribed && swReg) swReg.pushManager.getSubscription().then(s => s && post({ action:"subscribe", endpoint:s.endpoint, lang })).catch(() => {});
+      if(subscribed && swReg) swReg.pushManager.getSubscription().then(s => s && post({ action:"subscribe", endpoint:s.endpoint, lang, keys:subKeys(s) })).catch(() => {});
     }));
 
     /* Felugró tájékoztató: 1 mp késleltetéssel, kb. 8 mp-ig; az időgép + nyelvválasztó fölé kerül,
@@ -2644,7 +2645,7 @@ window.SITE_CONFIG = {
       navigator.serviceWorker.register("sw.js").then(reg => {
         swReg = reg;
         return pushSupported && Notification.permission === "granted" ? reg.pushManager.getSubscription() : null;
-      }).then(s => { subscribed = !!s; update(); }).catch(() => {});
+      }).then(s => { subscribed = !!s; update(); if(s) post({ action:"subscribe", endpoint:s.endpoint, lang, keys:subKeys(s) }).catch(() => {}); }).catch(() => {});
     const LS_FIRST = "elszamoltatas_app_first";
     if(isStandalone() && lsGet(LS_FIRST) !== "1"){ lsSet(LS_FIRST, "1"); track("first_app"); }
     if(isMobile) setTimeout(() => { Promise.race([stateReady, new Promise(r => setTimeout(r, 1500))]).then(showCallout); }, 1000);

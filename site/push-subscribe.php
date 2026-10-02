@@ -4,9 +4,10 @@
  *   GET  ?action=key                 → {"key": VAPID nyilvános kulcs}
  *   GET  ?action=latest&ep=<cím>     → a legutóbbi értesítés szövege (a service worker kéri le)
  *   GET  ?action=highlights          → az utolsó értesítésben szereplő új / frissített tételek kulcsai
- *   POST {"action":"subscribe","endpoint":…,"lang":"hu|en"}
+ *   POST {"action":"subscribe","endpoint":…,"lang":"hu|en","keys":{"p256dh":…,"auth":…}}
  *   POST {"action":"unsubscribe","endpoint":…}
- * Csak a böngésző által adott feliratkozási címet és a nyelvet tárolja.
+ * Csak a böngésző által adott feliratkozási címet, a nyelvet és az üzenet titkosításához szükséges nyilvános
+ * feliratkozási kulcsokat tárolja.
  */
 declare(strict_types=1);
 header('Content-Type: application/json; charset=utf-8');
@@ -58,8 +59,12 @@ try {
         $lang = ($in['lang'] ?? '') === 'en' ? 'en' : 'hu';
         $x = $pdo->prepare('SELECT 1 FROM subs WHERE endpoint = ?'); $x->execute([$ep]);
         if (!$x->fetchColumn()) push_log($pdo, 'new');
-        $pdo->prepare('INSERT INTO subs (endpoint, lang, created) VALUES (?, ?, ?)
-            ON CONFLICT(endpoint) DO UPDATE SET lang = excluded.lang')->execute([$ep, $lang, gmdate('c')]);
+        $k = is_array($in['keys'] ?? null) ? $in['keys'] : [];
+        $p256 = isset($k['p256dh']) ? (string)$k['p256dh'] : null; $au = isset($k['auth']) ? (string)$k['auth'] : null;
+        if (!push_valid_keys($p256, $au)) { $p256 = null; $au = null; }
+        $pdo->prepare('INSERT INTO subs (endpoint, lang, created, p256dh, auth) VALUES (?, ?, ?, ?, ?)
+            ON CONFLICT(endpoint) DO UPDATE SET lang = excluded.lang,
+              p256dh = COALESCE(excluded.p256dh, subs.p256dh), auth = COALESCE(excluded.auth, subs.auth)')->execute([$ep, $lang, gmdate('c'), $p256, $au]);
         out(['ok' => true]);
     }
     if (($in['action'] ?? '') === 'unsubscribe') {

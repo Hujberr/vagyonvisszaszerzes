@@ -14,14 +14,16 @@ self.addEventListener("fetch", e => {
   }).catch(() => caches.match("./").then(r => r || Response.error())));
 });
 
-/* Tartalom nélküli push: a szöveget a szerverről kérjük le. */
+/* A szöveg a push-üzenetben érkezik (titkosítva); ha nincs benne (régi feliratkozás vagy hiba), a szerverről kérjük le. */
 self.addEventListener("push", e => {
   e.waitUntil((async () => {
     let d = { title: "Vagyonvisszaszerzési Monitor", body: "Új vagy frissített tétel került fel.", url: "./" };
+    let got = false;
+    try { const j = e.data ? e.data.json() : null; if (j && j.title) { d = Object.assign(d, j); got = true; } } catch (_) {}
     let ep = "";
-    try { const s = await self.registration.pushManager.getSubscription(); ep = s ? s.endpoint : ""; } catch (_) {}
+    if (!got) try { const s = await self.registration.pushManager.getSubscription(); ep = s ? s.endpoint : ""; } catch (_) {}
     /* A telefon a push után gyakran még nincs online: legfeljebb 5 próbálkozás, növekvő várakozással. */
-    for (let i = 0; i < 5; i++) {
+    for (let i = 0; i < (got ? 0 : 5); i++) {
       try {
         const c = new AbortController(); const to = setTimeout(() => c.abort(), 8000);
         const r = await fetch("push-subscribe.php?action=latest&ep=" + encodeURIComponent(ep), { cache: "no-store", signal: c.signal });
