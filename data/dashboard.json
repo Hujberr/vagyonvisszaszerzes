@@ -1,13 +1,13 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-02T04:02:49+00:00",
+ "generated_at": "2026-10-02T10:01:19+00:00",
  "summary": {
   "megtakaritas_verified_huf": 1005800000000,
   "visszaszerzes_verified_huf": 1520170000000,
   "eu_forras_verified_huf": 5986000000000,
   "eu_forras_lost_huf": 730000000000,
   "items_count": 18,
-  "reported_cases_count": 32
+  "reported_cases_count": 33
  },
  "items": [
   {
@@ -824,6 +824,33 @@
   }
  ],
  "reported_cases": [
+  {
+   "additional_sources": [
+    {
+     "name": "Infostart.hu",
+     "published_date": "2026-10-02",
+     "url": "https://infostart.hu/belfold/2026/10/02/magas-fizetesek-onmagukat-kinevezo-vezetok-az-alapjogokert-kozpontnal-feljelentest-tett-a-kormany"
+    }
+   ],
+   "alleged_amount_huf": 188500000,
+   "alleged_amount_text": "188,5 millió forinttal kell elszámolnia a szervezetnek; a 2021–2024 közötti teljes állami támogatás 410 millió forint volt",
+   "confirmed_recovered_huf": 0,
+   "description": "A Miniszterelnökség 2026. október 2-án feljelentést tett ismeretlen tettes ellen költségvetési csalás és hűtlen kezelés gyanújával az Alapjogokért Központot működtető Jogállam és Igazság Nonprofit Kft. állami támogatása ügyében. A feljelentés szerint a szervezet három vezetője 2021-ben havi bruttó mintegy 1,43 millió forint, 2023 júniusától pedig már 1,57 millió forint megbízási díjat állapított meg saját magának, miközben a 2021 és 2024 közötti, összesen 410 millió forintos állami támogatásból 188,5 millió forint felhasználása nincs megfelelően alátámasztva (hiányzó szerződés-jóváhagyási dokumentáció, nem igazolt teljesítés, hiányos pénzügyi alátámasztás).",
+   "ministry": "Miniszterelnökség",
+   "recovered_item_id": null,
+   "report_date": "2026-10-02",
+   "report_source": {
+    "name": "Economx",
+    "published_date": "2026-10-02",
+    "url": "https://www.economx.hu/magyar-gazdasag/2026/10/02/alapjogokert-kozpont-miniszterium-feljelentes/"
+   },
+   "status": "reported",
+   "subject": "Alapjogokért Központ (Jogállam és Igazság Nonprofit Kft.) — vezetői fizetések és elszámolási hiányosságok",
+   "verification_notes": "ÚJ TÉTEL (2026-10-02 11:58-as futás). Két független sajtóforrás (Economx, Infostart.hu) egyezően közli az ügyet. FONTOS MEGKÜLÖNBÖZTETÉS: ez egy KÜLÖNÁLLÓ feljelentés, nem azonos a már korábban rögzített reported-alapjogokert-kozpont-romanowski-2026-09 tétellel — az korábbi (2026-09-23-i, a Nemzeti Nyomozó Iroda által indított) ügy a lengyel Marcin Romanowski politikus háttércégen keresztüli foglalkoztatásáról szól, ez a mostani (2026-10-02-i, a Miniszterelnökség által tett) feljelentés pedig a szervezet vezetőinek önmaguknak megállapított fizetéséről és a 410 millió forintos állami támogatás 188,5 millió forintnyi elszámolási hiányáról. Mindkét ügy ugyanazt a szervezetet (Alapjogokért Központ) érinti, de eltérő jogalap, eltérő feljelentő és eltérő összeg — ezért külön tételként rögzítve, hogy ne keveredjenek össze egy esetleges összesítésnél. Nem szerepel a kormany.hu/atlathato/feljelentes hivatalos listáján (2026-10-02-i közvetlen ellenőrzés szerint a lista változatlanul 37 ügy / 2221 Mrd Ft, 2026-09-23-i állapotot mutat).",
+   "id": "reported-alapjogokert-kozpont-fizetes-2026-10",
+   "updated_at": "2026-10-02T10:01:19+00:00",
+   "first_seen_at": "2026-10-02T10:01:19+00:00"
+  },
   {
    "additional_sources": [
     {
@@ -1791,7 +1818,7 @@
    "url": "https://magyarnemzet.hu/gazdasag/2026/09/allamadossag-novekedes"
   },
   "allamadossag_huf": 65716000000000,
-  "collected_at": "2026-10-02T05:55:00+02:00",
+  "collected_at": "2026-10-02T11:58:00+02:00",
   "elozo": {
    "allamadossag": {
     "period": null,
@@ -1815,7 +1842,7 @@
     "key": "gdp_novekedes_eves",
     "label_en": "GDP growth (year-on-year)",
     "label_hu": "GDP-növekedés (éves)",
-    "note_en": "Quarter-on-quarter growth of 0.5%. Household consumption +4.1%, investment −6.3%, agriculture −12.4% due to drought.",
+    "note_en": "Quarter-on-quarter growth of 0.5%. Household consumption +4.1%, investment -6.3%, agriculture -12.4% due to drought.",
     "note_hu": "Az előző negyedévhez képest 0,5%-os bővülés. A háztartások fogyasztása 4,1%-kal nőtt, a beruházások 6,3%-kal csökkentek, a mezőgazdaság az aszály miatt 12,4%-kal esett vissza.",
     "period": "2026 Q2",
     "prev_period": "2026 Q1",
@@ -1832,7 +1859,7 @@
     "key": "munkanelkulisegi_rata",
     "label_en": "Unemployment rate",
     "label_hu": "Munkanélküliségi ráta",
-    "note_en": "229 thousand unemployed in August. The June–August three-month average was 4.8%.",
+    "note_en": "229 thousand unemployed in August. The June-August three-month average was 4.8%.",
     "note_hu": "229 ezer munkanélküli augusztusban. A június–augusztusi háromhavi átlag 4,8% volt.",
     "period": "2026-08",
     "prev_period": "2026-07",
@@ -1847,7 +1874,7 @@
    },
    {
     "key": "foglalkoztatottak",
-    "label_en": "Employed persons (aged 15–74)",
+    "label_en": "Employed persons (aged 15-74)",
     "label_hu": "Foglalkoztatottak száma (15–74 évesek)",
     "note_en": "Primary labour market employment is 36 thousand lower than a year earlier.",
     "note_hu": "Az elsődleges munkaerőpiacon dolgozók száma egy évvel korábbihoz képest 36 ezerrel kevesebb.",
@@ -1864,7 +1891,7 @@
    },
    {
     "key": "foglalkoztatasi_rata",
-    "label_en": "Employment rate (aged 15–64)",
+    "label_en": "Employment rate (aged 15-64)",
     "label_hu": "Foglalkoztatási ráta (15–64 évesek)",
     "note_en": "Essentially unchanged from the previous period.",
     "note_hu": "Az előző időszakhoz képest gyakorlatilag változatlan.",
@@ -1900,18 +1927,18 @@
     "key": "eur_huf",
     "label_en": "Official EUR/HUF rate (MNB)",
     "label_hu": "Euró hivatalos árfolyama (MNB)",
-    "note_en": "USD: 326.18 HUF (2026-10-01 fixing).",
-    "note_hu": "Dollár: 326,18 Ft (2026-10-01-i fixing).",
-    "period": "2026-10-01",
-    "prev_period": "2026-09-30",
-    "prev_value": 366.31,
+    "note_en": "USD: 326.94 HUF (2026-10-02 fixing).",
+    "note_hu": "Dollár: 326,94 Ft (2026-10-02-i fixing).",
+    "period": "2026-10-02",
+    "prev_period": "2026-10-01",
+    "prev_value": 368.32,
     "source": {
      "name": "MNB hivatalos árfolyamok",
-     "publish_date": "2026-10-01",
+     "publish_date": "2026-10-02",
      "url": "https://www.mnb.hu/arfolyamok"
     },
     "unit": "Ft/EUR",
-    "value": 368.32
+    "value": 367.87
    },
    {
     "key": "brutto_atlagkereset",
@@ -2013,56 +2040,56 @@
    "publish_date": "2026-09-22",
    "url": "https://www.portfolio.hu/gazdasag/20260922/itt-az-mnb-uj-elorejelzese-hiaba-a-nemzetkozi-kockazatok-mersekelt-marad-az-idei-inflacio-864484"
   },
-  "id": "2026-10-02T05-55"
+  "id": "2026-10-02T11-58"
  },
  "last_run": {
   "errors": [
-   "A kormany.hu/atlathato/feljelentes oldal állapota változatlan (37 ügy, 2221 Mrd Ft, 2026-09-23-i állapot) — új ügy vagy összegváltozás nem jelent meg.",
-   "A Kapitány István-féle 'kétmilliárdos balatoni projekt' feljelentés (adozona.hu, telex.hu, hvg.hu, 2026-10-01) azonos a már rögzített reported-beloiannisz-fonyod-sportszallo-2026-10 tétellel (Beloiannisz hajó + fonyódi sportszmálló) — csak további megerősítő források kerültek hozzáadásra, új tétel nem jött létre.",
-   "A '2000-es kormányhatározatok' általi, választás előtti kb. 500 milliárd forintos titkos pénzosztás ügye (HVG, 444.hu, 2026-09-02) átnézve, de konkrét, egyetlen célzott feljelentés/vizsgálat nélkül, és részben már rögzített egyedi ügyekkel (pl. NKA/Hankó, Századvég) átfedő jelleggel — önálló reported_cases tételként nem vettem fel ebben a futásban, következő futásban érdemes újra nézni, ha konkrét feljelentés történik.",
-   "Az ÁKK hivatalos statisztikai oldala (akk.hu) ebben a futásban sem volt közvetlenül lekérhető; az államadósság értéke változatlanul a 2026-07-31-i (Magyar Nemzet/ÁKK-adatra hivatkozó) állapotot tükrözi.",
-   "A RePowerEU 919,6 millió eurós előleg (Portfolio.hu, 2026-10-01) frissítésre került az eu-forras-megallapodas-2026-05 tétel received_huf mezőjében, mivel ez ténylegesen már Magyarországhoz eljutott összeg (2023-2024-es folyósítás), bár nem a 2026-os feloldási folyamat eredménye — l. verification_notes."
+   "Az ÁKK hivatalos statisztikai oldala (akk.hu) ebben a futásban sem adott közvetlenül leolvasható aktuális államadósság-összeget (JS-betöltésű diagram) — az allamadossag_huf mező változatlanul a 2026-07-31-i (Magyar Nemzet/ÁKK-hivatkozás) állapotot tükrözi.",
+   "Az Index 2026-10-01-i 'Felzabálta a költségvetést...' cikke egy új, kb. 2800 milliárd forintos hiányadatot említ, de a pontos időszak (hónapok) és a mögöttes mutató (központi alrendszer vs. ESA-szemléletű kormányzati szektor hiánya) nem volt egyértelműen megállapítható a cikk elérhető részletéből — ezért a kozponti_alrendszer_hiany mutató ebben a futásban változatlanul a korábbi (2026 január-augusztus, 5169,1 Mrd Ft) értéket tükrözi; egy következő futásban egyértelműsítendő, melyik mutatóról van szó.",
+   "A Forbes.hu két cikke (NKA-botrány 610 millió forintos részlet, illetve az MKIF-koncesszió EU-felülvizsgálata) 403-as hibával nem volt elérhető WebFetch-csel, ezért ezek a kiegészítő részletek nem kerültek be az adattárba.",
+   "A kormany.hu/atlathato/feljelentes oldal állapota (37 ügy, 2221 Mrd Ft, 2026-09-23-i állapot) változatlan — új ügy vagy összegváltozás nem jelent meg.",
+   "Az mnvvh.hu/hirek és a K-Monitor keresés nem hozott új, még nem rögzített konkrét ügyet vagy összeget.",
+   "A Lake Balaton/Beloiannisz-Fonyód ügy (index.hu, 2026-10-01) és az NKA-Hankó ügy újabb részlete (Forbes, 610 M Ft) már rögzített tételek megerősítése/részletezése, nem új tétel."
   ],
   "eu_lost_items_new": 0,
-  "finished_at": "2026-10-02T06:10:00+02:00",
-  "items_duplicate": 0,
-  "items_found_total": 3,
+  "finished_at": "2026-10-02T12:15:00+02:00",
+  "items_duplicate": 2,
+  "items_found_total": 2,
   "items_needs_review": 0,
   "items_new": 0,
-  "reported_cases_new": 0,
-  "reported_cases_updated": 2,
+  "reported_cases_new": 1,
+  "reported_cases_updated": 0,
   "sources_checked": [
    "kormany.hu/atlathato/feljelentes",
-   "kormany.hu/hirek",
-   "K-Monitor (site:k-monitor.hu keresés)",
-   "hirkereso.hu",
    "mnvvh.hu/hirek",
-   "ugyeszseg.hu (Központi Nyomozó Főügyészség)",
+   "ugyeszseg.hu/category/hirek/kozponti-nyomozo-fougyeszseg",
+   "K-Monitor (site:k-monitor.hu keresés)",
+   "hirkereso.hu/gazdasag/friss",
+   "akk.hu (nem elérhető közvetlenül, JS-betöltés)",
+   "mnb.hu/arfolyamok",
+   "Economx",
+   "Infostart.hu",
+   "Index",
+   "Forbes.hu (403, nem elérhető)",
    "Telex",
    "444.hu",
    "HVG",
-   "Index",
    "Portfolio.hu",
-   "Economx",
    "Világgazdaság",
-   "Infostart.hu",
-   "Pénzcentrum",
-   "Magyar Hirlap",
-   "Népszava",
-   "ATV",
-   "Euronews",
-   "mfor.hu",
-   "Forbes.hu",
-   "Adozona.hu",
-   "Hirvonal.hu",
-   "Contextus.hu",
-   "MTI",
-   "Szabad Európa"
+   "Pénzcentrum"
   ],
-  "started_at": "2026-10-02T05:55:00+02:00",
-  "id": "2026-10-02T05-55"
+  "started_at": "2026-10-02T11:45:00+02:00",
+  "id": "2026-10-02T11-58"
  },
  "run_history": [
+  {
+   "finished_at": "2026-10-02T12:15:00+02:00",
+   "started_at": "2026-10-02T11:45:00+02:00",
+   "items_new": 0,
+   "reported_cases_new": 1,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
   {
    "finished_at": "2026-10-02T06:10:00+02:00",
    "started_at": "2026-10-02T05:55:00+02:00",
@@ -2324,6 +2351,624 @@
    "finished_at": "2026-09-22T10:40:00+02:00",
    "started_at": "2026-09-22T10:21:00+02:00",
    "items_new": 2
+  }
+ ],
+ "run_summary": {
+  "run_id": "2026-10-02T10:01:19+00:00",
+  "new": 1,
+  "modified": 0,
+  "confirmed_only": 0,
+  "touched": 1,
+  "pending_review": 1,
+  "by_section": {
+   "items": {
+    "new": 0,
+    "modified": 0,
+    "confirmed_only": 0
+   },
+   "reported_cases": {
+    "new": 1,
+    "modified": 0,
+    "confirmed_only": 0
+   }
+  },
+  "new_ids": [
+   "r:reported-alapjogokert-kozpont-fizetes-2026-10"
+  ],
+  "modified_ids": [],
+  "confirmed_ids": []
+ },
+ "run_summary_history": [
+  {
+   "run_id": "2026-10-02T12:15:00+02:00",
+   "legacy": true,
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 1,
+     "modified": 0,
+     "confirmed_only": 0
+    }
+   }
+  },
+  {
+   "run_id": "2026-10-02T06:10:00+02:00",
+   "legacy": true,
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 0,
+     "modified": 2,
+     "confirmed_only": 0
+    }
+   }
+  },
+  {
+   "run_id": "2026-10-01T17:30:00+02:00",
+   "legacy": true,
+   "by_section": {
+    "items": {
+     "new": 1,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 1,
+     "modified": 1,
+     "confirmed_only": 0
+    }
+   }
+  },
+  {
+   "run_id": "2026-10-01T12:40:00+02:00",
+   "legacy": true,
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 2,
+     "modified": 1,
+     "confirmed_only": 0
+    }
+   }
+  },
+  {
+   "run_id": "2026-10-01T06:10:00+02:00",
+   "legacy": true,
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    }
+   }
+  },
+  {
+   "run_id": "2026-09-30T18:05:00+02:00",
+   "legacy": true,
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 0,
+     "modified": 3,
+     "confirmed_only": 0
+    }
+   }
+  },
+  {
+   "run_id": "2026-09-30T12:20:00+02:00",
+   "legacy": true,
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 0,
+     "modified": 1,
+     "confirmed_only": 0
+    }
+   }
+  },
+  {
+   "run_id": "2026-09-30T06:45:00+02:00",
+   "legacy": true,
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 0,
+     "modified": 2,
+     "confirmed_only": 0
+    }
+   }
+  },
+  {
+   "run_id": "2026-09-29T17:55:00+02:00",
+   "legacy": true,
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 2,
+     "modified": 1,
+     "confirmed_only": 0
+    }
+   }
+  },
+  {
+   "run_id": "2026-09-29T12:15:00+02:00",
+   "legacy": true,
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 1,
+     "modified": 1,
+     "confirmed_only": 0
+    }
+   }
+  },
+  {
+   "run_id": "2026-09-29T09:35:00+02:00",
+   "legacy": true,
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 0,
+     "modified": 2,
+     "confirmed_only": 0
+    }
+   }
+  },
+  {
+   "run_id": "2026-09-28T17:02:00+02:00",
+   "legacy": true,
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 1,
+     "modified": 2,
+     "confirmed_only": 0
+    }
+   }
+  },
+  {
+   "run_id": "2026-09-28T12:10:00+02:00",
+   "legacy": true,
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 4,
+     "modified": 3,
+     "confirmed_only": 0
+    }
+   }
+  },
+  {
+   "run_id": "2026-09-28T06:10:00+02:00",
+   "legacy": true,
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    }
+   }
+  },
+  {
+   "run_id": "2026-09-27T18:10:00+02:00",
+   "legacy": true,
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    }
+   }
+  },
+  {
+   "run_id": "2026-09-27T17:20:00+02:00",
+   "legacy": true,
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    }
+   }
+  },
+  {
+   "run_id": "2026-09-27T12:15:00+02:00",
+   "legacy": true,
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    }
+   }
+  },
+  {
+   "run_id": "2026-09-27T06:01:00+02:00",
+   "legacy": true,
+   "by_section": {
+    "items": {
+     "new": 1,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 0,
+     "modified": 2,
+     "confirmed_only": 0
+    }
+   }
+  },
+  {
+   "run_id": "2026-09-26T17:20:00+02:00",
+   "legacy": true,
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 1,
+     "modified": 1,
+     "confirmed_only": 0
+    }
+   }
+  },
+  {
+   "run_id": "2026-09-26T13:05:00+02:00",
+   "legacy": true,
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    }
+   }
+  },
+  {
+   "run_id": "2026-09-26T12:10:00+02:00",
+   "legacy": true,
+   "by_section": {
+    "items": {
+     "new": 2,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 0,
+     "modified": 8,
+     "confirmed_only": 0
+    }
+   }
+  },
+  {
+   "run_id": "2026-09-26T08:05:00+02:00",
+   "legacy": true,
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 1,
+     "modified": 0,
+     "confirmed_only": 0
+    }
+   }
+  },
+  {
+   "run_id": "2026-09-26T06:47:00+02:00",
+   "legacy": true,
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 0,
+     "modified": 3,
+     "confirmed_only": 0
+    }
+   }
+  },
+  {
+   "run_id": "2026-09-26T06:20:00+02:00",
+   "legacy": true,
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    }
+   }
+  },
+  {
+   "run_id": "2026-09-25T23:45:00+02:00",
+   "legacy": true,
+   "by_section": {
+    "items": {
+     "new": 2,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 2,
+     "modified": 3,
+     "confirmed_only": 0
+    }
+   }
+  },
+  {
+   "run_id": "2026-09-25T17:50:00+02:00",
+   "legacy": true,
+   "by_section": {
+    "items": {
+     "new": 1,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    }
+   }
+  },
+  {
+   "run_id": "2026-09-25T12:45:00+02:00",
+   "legacy": true,
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 1,
+     "modified": 1,
+     "confirmed_only": 0
+    }
+   }
+  },
+  {
+   "run_id": "2026-09-25T07:10:00+02:00",
+   "legacy": true,
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 1,
+     "modified": 0,
+     "confirmed_only": 0
+    }
+   }
+  },
+  {
+   "run_id": "2026-09-24T17:40:00+02:00",
+   "legacy": true,
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 1,
+     "modified": 0,
+     "confirmed_only": 0
+    }
+   }
+  },
+  {
+   "run_id": "2026-09-24T12:35:00+02:00",
+   "legacy": true,
+   "by_section": {
+    "items": {
+     "new": 1,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 0,
+     "modified": 1,
+     "confirmed_only": 0
+    }
+   }
+  },
+  {
+   "run_id": "2026-09-24T06:30:00+02:00",
+   "legacy": true,
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 2,
+     "modified": 0,
+     "confirmed_only": 0
+    }
+   }
+  },
+  {
+   "run_id": "2026-09-23T17:35:00+02:00",
+   "legacy": true,
+   "by_section": {
+    "items": {
+     "new": 1,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 3,
+     "modified": 2,
+     "confirmed_only": 0
+    }
+   }
+  },
+  {
+   "run_id": "2026-09-23T09:45:00+02:00",
+   "legacy": true,
+   "by_section": {
+    "items": {
+     "new": 2,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 3,
+     "modified": 2,
+     "confirmed_only": 0
+    }
+   }
+  },
+  {
+   "run_id": "2026-09-22T11:10:00+02:00",
+   "legacy": true,
+   "by_section": {
+    "items": {
+     "new": 4,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    }
+   }
+  },
+  {
+   "run_id": "2026-09-22T10:55:00+02:00",
+   "legacy": true,
+   "by_section": {
+    "items": {
+     "new": 2,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    }
+   }
+  },
+  {
+   "run_id": "2026-09-22T10:40:00+02:00",
+   "legacy": true,
+   "by_section": {
+    "items": {
+     "new": 2,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    }
+   }
+  },
+  {
+   "run_id": "2026-10-02T10:01:19+00:00",
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 1,
+     "modified": 0,
+     "confirmed_only": 0
+    }
+   }
   }
  ]
 }
