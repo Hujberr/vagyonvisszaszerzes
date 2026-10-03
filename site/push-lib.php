@@ -106,7 +106,7 @@ function push_send_one(string $endpoint, array $cfg, ?string $body = null): int 
     $u = parse_url($endpoint);
     $jwt = push_jwt($u['scheme'] . '://' . $u['host'], $cfg);
     $body = $body ?? '';
-    $hdr = ['TTL: 86400', 'Urgency: normal', 'Content-Length: ' . strlen($body),
+    $hdr = ['TTL: 86400', 'Urgency: high', 'Content-Length: ' . strlen($body),
         'Authorization: vapid t=' . $jwt . ', k=' . $cfg['vapid_public']];
     if ($body !== '') { $hdr[] = 'Content-Encoding: aes128gcm'; $hdr[] = 'Content-Type: application/octet-stream'; }
     $ch = curl_init($endpoint);
