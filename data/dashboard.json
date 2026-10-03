@@ -1,13 +1,13 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-02T15:05:08+00:00",
+ "generated_at": "2026-10-03T04:04:34+00:00",
  "summary": {
-  "megtakaritas_verified_huf": 1005800000000,
-  "visszaszerzes_verified_huf": 1520170000000,
+  "megtakaritas_verified_huf": 1006035000000,
+  "visszaszerzes_verified_huf": 1544207000000,
   "eu_forras_verified_huf": 5986000000000,
   "eu_forras_lost_huf": 730000000000,
-  "items_count": 18,
-  "reported_cases_count": 33
+  "items_count": 21,
+  "reported_cases_count": 34
  },
  "items": [
   {
@@ -501,6 +501,44 @@
    "additional_sources": [
     {
      "name": "444.hu",
+     "published_date": "2026-09-16",
+     "url": "https://444.hu/2026/09/16/nagy-marton-minisztersege-alatt-a-titkarsagvezetoje-negy-evre-kapott-szingapuri-diplomata-allast-nyelvvizsga-nelkul"
+    },
+    {
+     "name": "ATV",
+     "published_date": "2026-09-16",
+     "url": "https://www.atv.hu/belfold/20260916/nyelvvizsga-nelkul-diplomata-szingapur/"
+    },
+    {
+     "name": "Népszava",
+     "published_date": "2026-09-16",
+     "url": "https://nepszava.hu/3332959_noszticsa-agnes-nincs-nyelvvizsga-szingapur"
+    }
+   ],
+   "amount_huf": 235000000,
+   "amount_text": "230-240 millió forint (hivatalos, kormany.hu szerint)",
+   "category": "megtakaritas",
+   "collected_at": "2026-10-03T05:55:00+02:00",
+   "currency_note": null,
+   "dedup_key": "megtakaritas|szingapuri diplomata allas megszuntetese nosztics|235000000",
+   "description": "A Nemzetgazdasági Minisztérium egy korábbi titkárságvezetője 2026-ban, nyelvvizsga nélkül kapott négyéves diplomata állást Szingapúrban. A tisztviselőt hazarendelték, az álláshelyet megszüntették; a kormány becslése szerint ez a lépés 230-240 millió forint megtakarítást jelent a költségvetésnek.",
+   "duplicate_of": null,
+   "event_date": "2026-09-16",
+   "from_whom": null,
+   "source_name": "Telex",
+   "source_published_date": "2026-09-16",
+   "source_url": "https://telex.hu/gazdasag/2026/09/16/boda-nikoletta-nagy-marton-diplomata-szingapur-nosztics-agnes",
+   "status": "verified",
+   "subject": "Szingapúri turisztikai diplomata állás megszüntetése",
+   "verification_notes": "ÚJ TÉTEL (2026-10-03 05:55-ös futás). Legalább négy független sajtóforrás (Telex, 444.hu, ATV, Népszava) számolt be 2026-09-16-án a szingapúri diplomata-állás ügyéről; a kormany.hu hivatalos 'Megtakarítás' listája szerint a tisztviselő hazarendelése és az állás megszüntetése 230-240 millió forint megtakarítást jelent — hivatalos forrás megerősítette az összeget (középértékkel, 235 M Ft rögzítve).",
+   "id": "megtakaritas-szingapuri-diplomata-allas-megszuntetes-2026-09",
+   "updated_at": "2026-10-03T04:04:34+00:00",
+   "first_seen_at": "2026-10-03T04:04:34+00:00"
+  },
+  {
+   "additional_sources": [
+    {
+     "name": "444.hu",
      "published_date": "2026-08-30",
      "url": "https://444.hu/2026/08/30/vitezy-miniszteriuma-100-milliard-forint-erteku-vagyont-vesz-vissza-a-felszamolt-kekvaktol"
     },
@@ -573,10 +611,58 @@
    "source_url": "https://www.economx.hu/magyar-gazdasag/2026/09/18/duna-aszfalt-kongoi-hidprojekt-kotvenyek-visszavaltas/",
    "status": "verified",
    "subject": "Duna Aszfalt GED Africa kötvény-visszaváltás (EXIM/MFB)",
-   "verification_notes": "Három független forrás (Portfolio bejelentés aug. 25, Index aug. 24, Economx a lezárás megerősítése szept. 18) egyező összeget és ügymenetet közöl; a vizsgálat a visszafizetéstől függetlenül folytatódik a visszaelés gyanuja miatt.",
+   "verification_notes": "Három független forrás (Portfolio bejelentés aug. 25, Index aug. 24, Economx a lezárás megerősítése szept. 18) egyező összeget és ügymenetet közöl; a vizsgálat a visszafizetéstől függetlenül folytatódik a visszaelés gyanuja miatt. FRISSÍTVE 2026-10-03: a kormany.hu hivatalos \"Visszafizetve\" listája a Duna Aszfalt-ügyhöz külön, önálló 211 millió forintos tételt is feltüntet — ez egy kisebb, elkülönült elszámolási elem, NEM azonos és nem adódik hozzá az itt rögzített 126 milliárd forintos kötvény-visszaváltáshoz (eltérő nagyságrend és forrás); a 211 M Ft pontos jogcíme a hivatalos oldalon nincs részletezve.",
    "id": "visszaszerzes-duna-aszfalt-kotveny-2026-09",
    "first_seen_at": "2026-09-28T15:02:40+00:00",
-   "updated_at": "2026-09-28T15:02:40+00:00"
+   "updated_at": "2026-10-03T04:04:34+00:00"
+  },
+  {
+   "additional_sources": [
+    {
+     "name": "Telex",
+     "published_date": "2026-05-15",
+     "url": "https://telex.hu/techtud/2026/05/15/krausz-ferenc-elvonal-alapitvany-allami-tamogatas-magyar-peter-kormany-felbontja"
+    },
+    {
+     "name": "Klubrádió",
+     "published_date": "2026-05-16",
+     "url": "https://www.klubradio.hu/hirek/keri-vissza-a-22-milliardot-a-nobel-dijas-krausz-ferenc-fele-kozpenzzel-kitomott-alapitvanytol-magyar-160779"
+    },
+    {
+     "name": "444.hu",
+     "published_date": "2026-05-15",
+     "url": "https://444.hu/2026/05/15/a-magyar-kormany-felbontja-a-krausz-ferenc-alapitvanyaval-kotott-2617-milliard-forintos-szerzodest"
+    },
+    {
+     "name": "HVG",
+     "published_date": "2026-08-12",
+     "url": "https://hvg.hu/gazdasag/20260812_krausz-ferenc-elvonal-alapitvany-cmf-allami-atvetel"
+    },
+    {
+     "name": "Portfolio.hu",
+     "published_date": "2026-08-12",
+     "url": "https://www.portfolio.hu/gazdasag/20260812/allami-kezbe-kerul-krausz-ferenc-kutatokozpontja-855668"
+    }
+   ],
+   "amount_huf": 23086000000,
+   "amount_text": "23,086 milliárd forint (hivatalos, kormany.hu szerint; a sajtóban korábban 22 milliárd forintként szerepelt kérésként)",
+   "category": "visszaszerzes",
+   "collected_at": "2026-10-03T05:55:00+02:00",
+   "currency_note": null,
+   "dedup_key": "visszaszerzes|elvonal alapitvany krausz ferenc visszafizetes|23086000000",
+   "description": "A kormány 2026 májusában felbontotta a Krausz Ferenc Nobel-díjas kutató vezette Élvonal Alapítvánnyal kötött, 261,7 milliárd forint értékű állami támogatási szerződést. Az alapítvány ennek nyomán 2026 augusztus végén és szeptember elején összesen 23,086 milliárd forintot fizetett vissza az államnak a korábban folyósított támogatásból.",
+   "duplicate_of": null,
+   "event_date": "2026-09-03",
+   "from_whom": "Élvonal Alapítvány (Krausz Ferenc Nobel-díjas kutató alapítványa)",
+   "source_name": "Kormany.hu – Feljelentett billiók",
+   "source_published_date": "2026-09-03",
+   "source_url": "https://kormany.hu/atlathato/feljelentes",
+   "status": "verified",
+   "subject": "Élvonal Alapítvány (Krausz Ferenc) állami támogatásának visszafizetése",
+   "verification_notes": "ÚJ TÉTEL (2026-10-03 05:55-ös futás). A kormany.hu/atlathato/feljelentes hivatalos oldal 'Visszafizetve' listája szerint az Élvonal Alapítvány 2026.08.31 és 09.03 között összesen 23,086 milliárd forintot utalt vissza az államnak — ez a pontos, hivatalos összeg, szemben a sajtóban korábban (2026-05-15/16) közölt, kerekített 22 milliárd forintos kéréssel; a forrás-hitelességi szabály szerint a hivatalos összeg irányadó. Ez a tétel ELTÉR a visszaszerzes-kekva-2026-08 tételben rögzített 1284 milliárd forintos KEKVA-vagyonátvételtől: az ott szereplő összeg a felszámolt alapítványok VAGYONÁNAK (cégrészesedések, ingatlanok) értékét jelenti, ez a tétel pedig egy KÜLÖN, konkrét KÉSZPÉNZ-visszafizetés egy korábban folyósított, de visszakért támogatásból — a kettő nem fedi egymást, nem szabad összeadni vagy helyettesíteni egymással.",
+   "id": "visszaszerzes-elvonal-alapitvany-krausz-2026-09",
+   "updated_at": "2026-10-03T04:04:34+00:00",
+   "first_seen_at": "2026-10-03T04:04:34+00:00"
   },
   {
    "additional_sources": [
@@ -821,6 +907,44 @@
    "id": "visszaszerzes-prime-tech-etoll-2026-08",
    "first_seen_at": "2026-09-28T15:02:40+00:00",
    "updated_at": "2026-09-28T15:02:40+00:00"
+  },
+  {
+   "additional_sources": [
+    {
+     "name": "Zaol.hu",
+     "published_date": "2026-08-24",
+     "url": "https://www.zaol.hu/helyi-kozelet/2026/08/zalazone-kekva-allami-vagyon"
+    },
+    {
+     "name": "Index",
+     "published_date": "2026-08-24",
+     "url": "https://index.hu/belfold/2026/08/24/tanacs-oltan-kekva-rendszer-allami-vagyon-zalazone-elvonal-alapitvany-atalakitas/"
+    },
+    {
+     "name": "Portfolio.hu",
+     "published_date": "2026-08-24",
+     "url": "https://www.portfolio.hu/uzlet/20260824/a-kekva-modell-atalakitasaval-tobb-mint-110-milliard-forint-vandorol-vissza-az-allamhoz-857964"
+    }
+   ],
+   "amount_huf": 951000000,
+   "amount_text": "951 millió forint (hivatalos, kormany.hu szerint)",
+   "category": "visszaszerzes",
+   "collected_at": "2026-10-03T05:55:00+02:00",
+   "currency_note": null,
+   "dedup_key": "visszaszerzes|zalazone alapitvany visszafizetes kekva|951000000",
+   "description": "A ZalaZone közérdekű vagyonkezelő alapítvány 2026 augusztus végén 951 millió forintot fizetett vissza az államnak a korábban kapott támogatásból, a közérdekű vagyonkezelő alapítványi rendszer megszüntetésének részeként.",
+   "duplicate_of": null,
+   "event_date": "2026-08-31",
+   "from_whom": "ZalaZone Alapítvány",
+   "source_name": "Kormany.hu – Feljelentett billiók",
+   "source_published_date": "2026-08-31",
+   "source_url": "https://kormany.hu/atlathato/feljelentes",
+   "status": "verified",
+   "subject": "ZalaZone Alapítvány állami támogatásának visszafizetése",
+   "verification_notes": "ÚJ TÉTEL (2026-10-03 05:55-ös futás). A kormany.hu hivatalos 'Visszafizetve' listája szerint a ZalaZone Alapítvány 2026.08.31-én 951 millió forintot fizetett vissza. Ez a konkrét készpénz-visszafizetés különbözik a visszaszerzes-kekva-2026-08 tételben (1284 Mrd Ft) és a visszaszerzes-4alapitvany-kbm-2026-08 tételben (100 Mrd Ft) rögzített, szélesebb KEKVA-vagyonátvételi összegektől — azok a felszámolt alapítványok teljes vagyonának (cégrészesedések stb.) értékét jelentik, ez pedig egy önálló, konkrét pénzvisszafizetés, nem adható hozzá azokhoz.",
+   "id": "visszaszerzes-zalazone-alapitvany-2026-09",
+   "updated_at": "2026-10-03T04:04:34+00:00",
+   "first_seen_at": "2026-10-03T04:04:34+00:00"
   }
  ],
  "reported_cases": [
@@ -1052,10 +1176,10 @@
    "updated_at": "2026-10-02T15:05:08+00:00"
   },
   {
-   "alleged_amount_huf": 998758880000,
-   "alleged_amount_text": "kb. 998,14 milliárd forint (27, egyedileg megnevezett tétel összege a kormany.hu hivatalos listája alapján, 2026-09-23-i állapot, az Eximbank-ügyek és az M6-koncessziós ügy nélkül — azok önálló tételekben; +6 további, összeg nélkül említett ügy)",
+   "alleged_amount_huf": 995088880000,
+   "alleged_amount_text": "kb. 995,09 milliárd forint (26, egyedileg megnevezett tétel összege a kormany.hu hivatalos listája alapján, 2026-10-02-i állapot, az Eximbank-ügyek, az M6-koncessziós ügy és a Szuverenitásvédelmi Hivatal konzorciumi szerződése nélkül — azok önálló tételekben; +6 további, összeg nélkül említett ügy)",
    "confirmed_recovered_huf": 0,
-   "description": "A kormány hivatalos feljelentési listáján szereplő további minisztériumi ügyek gyűjtőtétele. Főbb ügyek: lélegeztetőgép-beszerzés (300 milliárd Ft), Mohácsi Duna-híd előleg (155,8 milliárd Ft), Kréta/Neptun/Poszeidón rendszerek (100 milliárd Ft), Gondosóra-program (100 milliárd Ft), Waberer's MFB-finanszírozás (77 milliárd Ft), OMSZ járműbeszerzés (70 milliárd Ft), veglegestorles.hu (39,6 milliárd Ft), ortodox akadémia (38,2 milliárd Ft), Observer médiamonitoring (31 milliárd Ft), Kommentár Alapítvány (27,8 milliárd Ft), Fradivárosi projekt (24,9 milliárd Ft), kínai kazánbeszerzés (10,5 milliárd Ft), Triton Communications (4,2 milliárd Ft), Papp László Budapest Sportaréna tízéves bérbeadása (4,012 milliárd Ft), miniszteri delegációs utazások (4 milliárd Ft), BTR-80 harcjárművek értékesítése Szerbiának (0,577 milliárd Ft), Szuverenitásvédelmi Hivatal propagandacélú költségei (3,67 milliárd Ft), p2m/Balásy-csoport (3,3 milliárd Ft), civil szervezetek (1,5 milliárd Ft), Puskás Aréna – az MLSZ-nek átengedett páholyok (1,01 milliárd Ft), Kárpát-medencei Tehetséggondozó (0,825 milliárd Ft), Szuverenitásvédelmi Hivatal ügyvédi megbízásai (0,0464 milliárd Ft), MIKK (0,3 milliárd Ft), nyuszimotor-vásárlások (0,239 milliárd Ft), BOK Sportcsarnok bérletei (0,13 milliárd Ft), pénzügyminisztériumi támogatási visszaélés (0,09 milliárd Ft), pártpropaganda/Tartalom Előkészítő Osztály (0,05 milliárd Ft), HM Zrínyi Kft. MATASZ megbízási szerződések (9,58 millió Ft), valamint a Kovács Katalin Nemzeti Kajak-Kenu Akadémia Alapítvány ügye (összeg nélkül).",
+   "description": "A kormány hivatalos feljelentési listáján szereplő további minisztériumi ügyek gyűjtőtétele. Főbb ügyek: lélegeztetőgép-beszerzés (300 milliárd Ft), Mohácsi Duna-híd előleg (155,8 milliárd Ft), Kréta/Neptun/Poszeidón rendszerek (100 milliárd Ft), Gondosóra-program (100 milliárd Ft), Waberer's MFB-finanszírozás (77 milliárd Ft), OMSZ járműbeszerzés (70 milliárd Ft), veglegestorles.hu (39,6 milliárd Ft), ortodox akadémia (38,2 milliárd Ft), Observer médiamonitoring (31 milliárd Ft), Kommentár Alapítvány (27,8 milliárd Ft), Fradivárosi projekt (24,9 milliárd Ft), kínai kazánbeszerzés (10,5 milliárd Ft), Triton Communications (4,2 milliárd Ft), Papp László Budapest Sportaréna tízéves bérbeadása (4,012 milliárd Ft), miniszteri delegációs utazások (4 milliárd Ft), BTR-80 harcjárművek értékesítése Szerbiának (0,577 milliárd Ft), p2m/Balásy-csoport (3,3 milliárd Ft), civil szervezetek (1,5 milliárd Ft), Puskás Aréna – az MLSZ-nek átengedett páholyok (1,01 milliárd Ft), Kárpát-medencei Tehetséggondozó (0,825 milliárd Ft), Szuverenitásvédelmi Hivatal ügyvédi megbízásai (0,0464 milliárd Ft), MIKK (0,3 milliárd Ft), nyuszimotor-vásárlások (0,239 milliárd Ft), BOK Sportcsarnok bérletei (0,13 milliárd Ft), pénzügyminisztériumi támogatási visszaélés (0,09 milliárd Ft), pártpropaganda/Tartalom Előkészítő Osztály (0,05 milliárd Ft), HM Zrínyi Kft. MATASZ megbízási szerződések (9,58 millió Ft), valamint a Kovács Katalin Nemzeti Kajak-Kenu Akadémia Alapítvány ügye (összeg nélkül).",
    "ministry": "Több tárca (Közlekedési és Beruházási, Tudományos, Egészségügyi, Miniszterelnkség, Belügy, Szociális, Társadalmi Kapcsolatokért Felelős, Pénzügy)",
    "recovered_item_id": null,
    "report_date": "2026-09-02",
@@ -1066,10 +1190,10 @@
    },
    "status": "under_investigation",
    "subject": "További 18 minisztériumi feljelentés (összeg egyenként nem publikált)",
-   "verification_notes": "FRISSÍTVE 2026-10-02 (16:56-os futás): a kormany.hu hivatalos oldal teljes listájának ismételt, részletes átnézése két korábban nem rögzített tételt azonosított: 'BTR-80 harcjárművek értékesítése Szerbiának' (576,7 millió Ft, Honvédelmi Minisztérium, 2026.09.29 — a harcjárművek tényleges eladása már 2024-ben megtörtént, a feljelentés/hivatalos listázás erről a korábbi tranzakcióról szól; független sajtóforrás 2026-ból nem található hozzá, kizárólag a hivatalos forrás alapján rögzítve) és 'Szuverenitásvédelmi Hivatal ügyvédi megbízásai' (46,4 millió Ft, Miniszterelnökség, 2026.09.29 — megkülönböztetendő a már korábban rögzített, 3,67 Mrd Ft-os propagandacélú költségek tételtől, ugyanazon hivatal más jellegű kiadása). Mindkét új tétel hozzáadva a gyűjtő leírásához és összegéhez (998,14 Mrd Ft → 998,76 Mrd Ft). (Korábbi megjegyzések megőrizve, l. előző verzió.)",
+   "verification_notes": "FRISSÍTVE 2026-10-03 05:55-ös futás: a 'Szuverenitásvédelmi Hivatal propagandacélú költségei' (3,67 Mrd Ft) tétel kiemelve ebből a gyűjtőből, mert az NVVH 2026-09-28-án saját hatáskörébe vonta ezt a konkrét ügyet (l. önálló tétel: reported-szuverenitasvedelmi-hivatal-konzorcium-nvvh-2026-09). Összeg ennek megfelelően csökkentve: 998,76 Mrd Ft → 995,09 Mrd Ft. FRISSÍTVE 2026-10-02 (16:56-os futás): a kormany.hu hivatalos oldal teljes listájának ismételt, részletes átnézése két korábban nem rögzített tételt azonosított: 'BTR-80 harcjárművek értékesítése Szerbiának' (576,7 millió Ft, Honvédelmi Minisztérium, 2026.09.29 — a harcjárművek tényleges eladása már 2024-ben megtörtént, a feljelentés/hivatalos listázás erről a korábbi tranzakcióról szól; független sajtóforrás 2026-ból nem található hozzá, kizárólag a hivatalos forrás alapján rögzítve) és 'Szuverenitásvédelmi Hivatal ügyvédi megbízásai' (46,4 millió Ft, Miniszterelnökség, 2026.09.29 — megkülönböztetendő a most kiemelt, 3,67 Mrd Ft-os propagandacélú költségek tételtől, ugyanazon hivatal más jellegű kiadása). (Korábbi megjegyzések megőrizve, l. előző verzió.)",
    "id": "reported-egyeb-miniszteriumi-18ugy-2026",
    "first_seen_at": "2026-09-28T15:02:40+00:00",
-   "updated_at": "2026-10-02T15:05:08+00:00"
+   "updated_at": "2026-10-03T04:04:34+00:00"
   },
   {
    "alleged_amount_huf": 63000000000,
@@ -1641,10 +1765,10 @@
    },
    "status": "under_investigation",
    "subject": "Kormányzati feljelentések hivatalos összesítője (37 ügy, ~11 minisztérium/hatóság)",
-   "verification_notes": "FRISSÍTVE 2026-10-02 (16:56-os futás): a kormany.hu/atlathato/feljelentes oldal közvetlen ellenőrzése szerint az ügyszám 37-ről 47-re, az összesített érték 2221 Mrd Ft-ról 2255 Mrd Ft-ra nőtt. Az oldal emellett két új, korábban nem közölt összesítő mutatót is feltüntet: 'Megjelent nyomozás: 12 ügy' és 'Visszafizetve/megtakarítva: 25,0 milliárd forint'. FONTOS: ez a 25 Mrd Ft a kormany.hu SAJÁT, valószínűleg szűkebb körű elszámolása (feltehetően csak a hivatalos listán szereplő ügyekhez köthető, ténylegesen megtérült/megtakarított összeg), és NEM azonos a jelen adattár confirmed_recovered_huf mezőjével (126 Mrd Ft), amely a Duna Aszfalt-kötvény visszaváltásából (l. items/visszaszerzes-duna-aszfalt-kotveny-2026-09) ered és nem feltétlenül szerepel a kormany.hu saját 47 uges listáján — a két szám ezért átmenetileg nem összevonható, további tisztázásra vár. A legalább 10 új, korábban nem azonosított ügy között azonosítottuk: BTR-80 harcjárművek értékesítése Szerbiának (576,7 M Ft, HM, 2026.09.29), Szuverenitásvédelmi Hivatal ügyvédi megbízásai (46,4 M Ft, Miniszterelnökség, 2026.09.29) — ezek a reported-egyeb-miniszteriumi-18ugy-2026 gyűjtőtételbe kerültek. Emellett a hivatalos lista immár tartalmazza (korábban csak sajtóból ismert, önálló tételként rögzített) ügyeket is: Veszprém-Balaton 2023 Zrt. (1,8 Mrd, 09.29), Beloiannisz Hajóért Alapítvány + Pelso Polgári Sportegyesület (együtt 2,371 Mrd, 09.23), p2m Miniszterelnökségi szerződések (455 M, 09.29), E-ING rendszer (16 Mrd, 09.25), HM AdWA/NAMTL tanácsadói szerződés (12 Mrd, 09.23) + Magánutak/vadászatbiztosítás (összeg nélkül, 09.23), Miniszteri delegációk utazásai (4 Mrd, 09.15, l. Szijjártó-tétel), Alapjogokért Központ állami támogatásai (410 M, 09.29) — ezek az önálló tételeiknél frissítve lettek, ezért NEM része ennek az összesítő referencia-tételnek (dupla számolás elkerülése). EZ EGY ÖSSZESÍTŐ REFERENCIA-TÉTEL, ne add hozzá a négy Eximbank-tételhez, az M6-tételhez, a fent felsorolt önálló tételekhez vagy a gyűjtőtételhez, mert azok már ennek részét képezik. (Korábbi megjegyzések megőrizve:) FRISSÍTVE 2026-09-23: 37 ügy, 2221 Mrd Ft. FRISSÍTVE 2026-09-25, 09-29, 10-01: ismételt ellenőrzések, változatlan állapot.",
+   "verification_notes": "FRISSÍTVE 2026-10-02 (16:56-os futás): a kormany.hu/atlathato/feljelentes oldal közvetlen ellenőrzése szerint az ügyszám 37-ről 47-re, az összesített érték 2221 Mrd Ft-ról 2255 Mrd Ft-ra nőtt. Az oldal emellett két új, korábban nem közölt összesítő mutatót is feltüntet: 'Megjelent nyomozás: 12 ügy' és 'Visszafizetve/megtakarítva: 25,0 milliárd forint'. FONTOS: ez a 25 Mrd Ft a kormany.hu SAJÁT, valószínűleg szűkebb körű elszámolása (feltehetően csak a hivatalos listán szereplő ügyekhez köthető, ténylegesen megtérült/megtakarított összeg), és NEM azonos a jelen adattár confirmed_recovered_huf mezőjével (126 Mrd Ft), amely a Duna Aszfalt-kötvény visszaváltásából (l. items/visszaszerzes-duna-aszfalt-kotveny-2026-09) ered és nem feltétlenül szerepel a kormany.hu saját 47 uges listáján — a két szám ezért átmenetileg nem összevonható, további tisztázásra vár. A legalább 10 új, korábban nem azonosított ügy között azonosítottuk: BTR-80 harcjárművek értékesítése Szerbiának (576,7 M Ft, HM, 2026.09.29), Szuverenitásvédelmi Hivatal ügyvédi megbízásai (46,4 M Ft, Miniszterelnökség, 2026.09.29) — ezek a reported-egyeb-miniszteriumi-18ugy-2026 gyűjtőtételbe kerültek. Emellett a hivatalos lista immár tartalmazza (korábban csak sajtóból ismert, önálló tételként rögzített) ügyeket is: Veszprém-Balaton 2023 Zrt. (1,8 Mrd, 09.29), Beloiannisz Hajóért Alapítvány + Pelso Polgári Sportegyesület (együtt 2,371 Mrd, 09.23), p2m Miniszterelnökségi szerződések (455 M, 09.29), E-ING rendszer (16 Mrd, 09.25), HM AdWA/NAMTL tanácsadói szerződés (12 Mrd, 09.23) + Magánutak/vadászatbiztosítás (összeg nélkül, 09.23), Miniszteri delegációk utazásai (4 Mrd, 09.15, l. Szijjártó-tétel), Alapjogokért Központ állami támogatásai (410 M, 09.29) — ezek az önálló tételeiknél frissítve lettek, ezért NEM része ennek az összesítő referencia-tételnek (dupla számolás elkerülése). EZ EGY ÖSSZESÍTŐ REFERENCIA-TÉTEL, ne add hozzá a négy Eximbank-tételhez, az M6-tételhez, a fent felsorolt önálló tételekhez vagy a gyűjtőtételhez, mert azok már ennek részét képezik. (Korábbi megjegyzések megőrizve:) FRISSÍTVE 2026-09-23: 37 ügy, 2221 Mrd Ft. FRISSÍTVE 2026-09-25, 09-29, 10-01: ismételt ellenőrzések, változatlan állapot. FRISSÍTVE 2026-10-03 05:55-ös futás: a kormany.hu saját \"Visszafizetve/megtakarítva: 25,0 milliárd forint\" összesítője feloldva — ebből 23,086 Mrd Ft az Élvonal Alapítvány (l. items/visszaszerzes-elvonal-alapitvany-krausz-2026-09), 951 M Ft a ZalaZone Alapítvány (l. items/visszaszerzes-zalazone-alapitvany-2026-09), 211 M Ft a Duna Aszfalt-ügy egy önálló, kisebb tétele (nem azonos az items/visszaszerzes-duna-aszfalt-kotveny-2026-09 126 Mrd Ft-os kötvény-visszaváltásával), a maradék kb. 0,74 Mrd Ft pedig a szingapúri diplomata-állás megszüntetéséből (l. items/megtakaritas-szingapuri-diplomata-allas-megszuntetes-2026-09) és más apró megtakarításokból adódik. Ez a 25,0 Mrd Ft így NEM azonos és NEM összeadható a jelen adattár confirmed_recovered_huf mezőjével (126 Mrd Ft, a Duna Aszfalt-kötvény visszaváltásából), a két szám továbbra is külön kezelendő.",
    "id": "reported-osszesito-2026-09",
    "first_seen_at": "2026-09-28T15:02:40+00:00",
-   "updated_at": "2026-10-02T15:05:08+00:00"
+   "updated_at": "2026-10-03T04:04:34+00:00"
   },
   {
    "additional_sources": [
@@ -1781,6 +1905,48 @@
    "updated_at": "2026-10-02T15:05:08+00:00"
   },
   {
+   "additional_sources": [
+    {
+     "name": "HVG",
+     "published_date": "2026-09-28",
+     "url": "https://hvg.hu/itthon/20260928_nvvh-ugyek-vagyonvisszaszerzesi-hivatal"
+    },
+    {
+     "name": "Forbes.hu",
+     "published_date": "2026-09-28",
+     "url": "https://www.forbes.hu/uzlet/a-negy-ugy-vagyonvisszaszerzes-nvvh-unger-anna/"
+    },
+    {
+     "name": "Világgazdaság",
+     "published_date": "2026-09-28",
+     "url": "https://www.vg.hu/vilaggazdasag-magyar-gazdasag/2026/09/nvvh-vagyonvedelmi-hivatal-korrupcio-mentelmi-jog"
+    },
+    {
+     "name": "Economx",
+     "published_date": "2026-09-28",
+     "url": "https://www.economx.hu/gazdasag/2026/09/28/befolyassal-uzerkedes-vesztegetes-hutlen-kezeles-nemzeti-vagyonvisszaszerzesi-es-vagyonvedelmi-hivatal/"
+    }
+   ],
+   "alleged_amount_huf": 3670000000,
+   "alleged_amount_text": "több mint 3,6 milliárd forint (három, 2024 és 2026 között kötött keretszerződés alapján egy konzorciumnak kifizetve)",
+   "confirmed_recovered_huf": 0,
+   "description": "Az NVVH 2026. szeptember 28-án saját hatáskörébe vonta a Szuverenitásvédelmi Hivatal ügyét: a hivatal 2024 és 2026 között három keretszerződés alapján összesen több mint 3,6 milliárd forintot fizetett ki egy konzorciumnak kommunikációs anyagok és rendezvények szervezéséért, miközben a hivatal saját szervezeti egységei is el tudták volna végezni ezeket a feladatokat. A gyanú hűtlen kezelés.",
+   "ministry": "Nemzeti Vagyonvisszaszerzési és Vagyonvédelmi Hivatal (NVVH) — érintett szervezet: Szuverenitásvédelmi Hivatal",
+   "recovered_item_id": null,
+   "report_date": "2026-09-28",
+   "report_source": {
+    "name": "Index",
+    "published_date": "2026-09-28",
+    "url": "https://index.hu/belfold/2026/09/28/nemzeti-vagyonvisszaszerzesi-vagyonvedelmi-hivatal-nvvh-kozlemeny/"
+   },
+   "status": "under_investigation",
+   "subject": "Szuverenitásvédelmi Hivatal kommunikációs és rendezvényszervezési keretszerződései (NVVH-vizsgálat)",
+   "verification_notes": "ÚJ, ÖNÁLLÓ TÉTEL (2026-10-03 05:55-ös futás) — kiemelve a reported-egyeb-miniszteriumi-18ugy-2026 gyűjtőtételből, mert az NVVH 2026-09-28-án saját hatáskörébe vonta ezt a konkrét ügyet (a hivatal első négy kiemelt ügyének egyike). A kormany.hu hivatalos listáján korábban 'Szuverenitásvédelmi Hivatal propagandacélú költségei' néven, 3,67 milliárd forinttal szerepelt (Miniszterelnökség, 2026.09.08) — ugyanaz az ügy, csak most NVVH-vizsgálat alá kerül. A gyűjtő reported-egyeb-miniszteriumi-18ugy-2026 tételből ez a komponens kivonásra került a dupla számolás elkerülése végett. FONTOS: ettől különböző, a gyűjtőben változatlanul megmaradó tétel a 'Szuverenitásvédelmi Hivatal ügyvédi megbízásai' (46,4 M Ft) — az a hivatal más jellegű kiadása, nem ennek a konzorciumi szerződésnek a része.",
+   "id": "reported-szuverenitasvedelmi-hivatal-konzorcium-nvvh-2026-09",
+   "updated_at": "2026-10-03T04:04:34+00:00",
+   "first_seen_at": "2026-10-03T04:04:34+00:00"
+  },
+  {
    "alleged_amount_huf": 10000000000,
    "alleged_amount_text": "hozzávetőleg 10 milliárd forint vagyoni hátrány (608 használt busz túlárazott beszerzése), ezen belül a kecskeméti székházépület túlárazott megvásárlása külön legalább 550 millió forint vagyoni hátránnyal",
    "confirmed_recovered_huf": 0,
@@ -1840,7 +2006,7 @@
    "url": "https://magyarnemzet.hu/gazdasag/2026/09/allamadossag-novekedes"
   },
   "allamadossag_huf": 65716000000000,
-  "collected_at": "2026-10-02T16:56:00+02:00",
+  "collected_at": "2026-10-03T05:55:00+02:00",
   "elozo": {
    "allamadossag": {
     "period": null,
@@ -1949,8 +2115,8 @@
     "key": "eur_huf",
     "label_en": "Official EUR/HUF rate (MNB)",
     "label_hu": "Euró hivatalos árfolyama (MNB)",
-    "note_en": "USD: 326.94 HUF (2026-10-02 fixing).",
-    "note_hu": "Dollár: 326,94 Ft (2026-10-02-i fixing).",
+    "note_en": "USD: 326.94 HUF (2026-10-02 fixing). No new business-day fixing as of this run (Saturday, 2026-10-03).",
+    "note_hu": "Dollár: 326,94 Ft (2026-10-02-i fixing). Ebben a futásban (2026-10-03, szombat) nem volt újabb munkanapi fixing.",
     "period": "2026-10-02",
     "prev_period": "2026-10-01",
     "prev_value": 368.32,
@@ -2062,47 +2228,59 @@
    "publish_date": "2026-09-22",
    "url": "https://www.portfolio.hu/gazdasag/20260922/itt-az-mnb-uj-elorejelzese-hiaba-a-nemzetkozi-kockazatok-mersekelt-marad-az-idei-inflacio-864484"
   },
-  "id": "2026-10-02T16-56"
+  "id": "2026-10-03T05-55"
  },
  "last_run": {
   "errors": [
-   "Az ÁKK hivatalos statisztikai oldala (akk.hu) ebben a futásban nem volt közvetlenül lekérdezve (JS-betöltésű diagram korábbi futásokban sem adott eredményt); az allamadossag_huf mező változatlanul a 2026-07-31-i állapotot tükrözi.",
-   "A kormany.hu/atlathato/feljelentes oldal teljes (47 ügyes) listájának WebFetch-es kinyerése végén a modell megjegyzése szerint csak 42 egyedi tételt sorolt fel explicit módon; a fennmaradó különbség (kb. 5 ügy és a pontos 2255 Mrd Ft-os összeg közötti maradék) nem volt tételesen azonosítható ebben a futásban, ezért a reported-osszesito-2026-09 és reported-egyeb-miniszteriumi-18ugy-2026 tételek összege csak részben rekonstruálható pontosan a hivatalos aggregátumból; a verification_notes jelzi a bizonytalanságot, további futásban finomítandó.",
-   "A Demjén Ferenc/MVM szponzoráció (444.hu, HVG, 2026-10-02) és a László Csaba-féle 'több ezer milliárdos vagyon visszaszerezhető' becslés (Piacesprofit) nem került be önálló tételként, mert előbbinél nincs konkrét feljelentés/vizsgálat ténye, utóbbi pedig csak egy közgazdász általános becslése, nem konkrét ügy.",
-   "A Klebelsberg Központ 2026-10-01/02-i feljelentése (hivatali visszaélés egy tankerületi igazgatói pályázat kapcsán) nem került be a reported_cases közé, mert nem közpénz-sikkasztási/hűtlen kezelési ügy, hanem személyzeti döntéshozatali eljárási visszaélés gyanúja, összeg nélkül."
+   "mnvvh.hu/hirek közvetlen lekérése HTTP 503 hibával elutasítva ebben a futásban; helyette WebSearch-csel azonosítottuk az NVVH négy kiemelt ügyét (köztük egy korábban csak a gyűjtő reported_cases tételben szereplő Szuverenitásvédelmi Hivatal-ügyet, amit most önálló tétellé emeltünk).",
+   "hirkereso.hu/politika közvetlen alrovat-URL-je 404-et adott, a főoldal lapszemléjét használtuk helyette.",
+   "A kormany.hu 'Megtakarítás/Visszafizetve' listáján szereplő három kisebb tétel (Rothschild tanácsadói szerződés ~220 M Ft, Igazságügyi Minisztérium szerződései 46 M Ft, Igazságügyi Minisztérium kommunikáció 35 M Ft) pontos háttere ebben a futásban sajtóforrásból nem volt azonosítható, ezért ezeket nem rögzítettük önálló tételként — további futásban tisztázandó.",
+   "Az 'aranykonvoj-ügy' (2026.10.02, Központi Nyomozó Ügyészség, 27 milliárd Ft lefoglalt arany/valuta) elsődlegesen jogellenes fogvatartási/emberrablási büntetőügy, nem közpénz-visszaszerzési vagy korábbi kormányzati közpénzügyi feljelentés, ezért nem került be a reported_cases kollekcióba.",
+   "Az ÁKK hivatalos statisztikai oldala (akk.hu) ebben a futásban sem volt közvetlenül lekérhető; az államadósság értéke változatlanul a 2026-07-31-i állapotot tükrözi.",
+   "Az MNB EUR/HUF fixing ebben a futásban (2026-10-03, szombat) nem frissült újabb munkanapi adattal; a 2026-10-02-i érték maradt érvényben."
   ],
   "eu_lost_items_new": 0,
-  "finished_at": "2026-10-02T17:40:00+02:00",
+  "finished_at": "2026-10-03T06:10:00+02:00",
   "items_duplicate": 0,
-  "items_found_total": 0,
+  "items_found_total": 6,
   "items_needs_review": 0,
-  "items_new": 0,
-  "reported_cases_new": 0,
-  "reported_cases_updated": 10,
+  "items_new": 3,
+  "reported_cases_new": 1,
+  "reported_cases_updated": 2,
   "sources_checked": [
    "kormany.hu/atlathato/feljelentes",
-   "mnvvh.hu/hirek",
-   "ugyeszseg.hu/category/hirek/kozponti-nyomozo-fougyeszseg",
-   "K-Monitor (site:k-monitor.hu keresés)",
-   "hirkereso.hu",
-   "Index",
-   "444.hu",
    "Telex",
+   "444.hu",
+   "Index",
    "HVG",
-   "Economx",
-   "Infostart",
    "Portfolio.hu",
+   "Economx",
    "Világgazdaság",
-   "Pénzcentrum",
-   "mfor.hu",
+   "Infostart.hu",
    "Origo",
+   "Forbes.hu",
+   "ATV",
    "Népszava",
-   "Eduline"
+   "Klubrádió",
+   "Zaol.hu",
+   "mnb.hu/arfolyamok",
+   "ugyeszseg.hu (Központi Nyomozó Főügyészség)",
+   "hirkereso.hu",
+   "K-Monitor (site-search)",
+   "mnvvh.hu (search, nem fetch)"
   ],
-  "started_at": "2026-10-02T16:45:00+02:00",
-  "id": "2026-10-02T16-56"
+  "started_at": "2026-10-03T05:55:00+02:00",
+  "id": "2026-10-03T05-55"
  },
  "run_history": [
+  {
+   "finished_at": "2026-10-03T06:10:00+02:00",
+   "started_at": "2026-10-03T05:55:00+02:00",
+   "items_new": 3,
+   "reported_cases_new": 1,
+   "reported_cases_updated": 2,
+   "eu_lost_items_new": 0
+  },
   {
    "finished_at": "2026-10-02T17:40:00+02:00",
    "started_at": "2026-10-02T16:45:00+02:00",
@@ -2383,36 +2561,35 @@
   }
  ],
  "run_summary": {
-  "run_id": "2026-10-02T15:05:08+00:00",
-  "new": 0,
-  "modified": 3,
-  "confirmed_only": 5,
-  "touched": 8,
+  "run_id": "2026-10-03T04:04:34+00:00",
+  "new": 4,
+  "modified": 1,
+  "confirmed_only": 1,
+  "touched": 6,
   "pending_review": 1,
   "by_section": {
    "items": {
-    "new": 0,
+    "new": 3,
     "modified": 0,
-    "confirmed_only": 0
+    "confirmed_only": 1
    },
    "reported_cases": {
-    "new": 0,
-    "modified": 3,
-    "confirmed_only": 5
+    "new": 1,
+    "modified": 1,
+    "confirmed_only": 0
    }
   },
-  "new_ids": [],
+  "new_ids": [
+   "i:megtakaritas-szingapuri-diplomata-allas-megszuntetes-2026-09",
+   "i:visszaszerzes-elvonal-alapitvany-krausz-2026-09",
+   "i:visszaszerzes-zalazone-alapitvany-2026-09",
+   "r:reported-szuverenitasvedelmi-hivatal-konzorcium-nvvh-2026-09"
+  ],
   "modified_ids": [
-   "r:reported-beloiannisz-fonyod-sportszallo-2026-10",
-   "r:reported-egyeb-miniszteriumi-18ugy-2026",
-   "r:reported-szijjarto-maganrepulo-2026-09"
+   "r:reported-egyeb-miniszteriumi-18ugy-2026"
   ],
   "confirmed_ids": [
-   "r:reported-alapjogokert-kozpont-fizetes-2026-10",
-   "r:reported-e-ing-ingatlan-nyilvantartas-2026-09",
-   "r:reported-hm-tanacsadoi-szerzodes-2026-09",
-   "r:reported-pmo-p2m-informatika-2026-09",
-   "r:reported-vtm-veszprem-balaton-2023-2026-09"
+   "i:visszaszerzes-duna-aszfalt-kotveny-2026-09"
   ]
  },
  "run_summary_history": [
@@ -3019,6 +3196,21 @@
      "new": 0,
      "modified": 3,
      "confirmed_only": 5
+    }
+   }
+  },
+  {
+   "run_id": "2026-10-03T04:04:34+00:00",
+   "by_section": {
+    "items": {
+     "new": 3,
+     "modified": 0,
+     "confirmed_only": 1
+    },
+    "reported_cases": {
+     "new": 1,
+     "modified": 1,
+     "confirmed_only": 0
     }
    }
   }
