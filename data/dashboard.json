@@ -1,12 +1,12 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-03T10:07:22+00:00",
+ "generated_at": "2026-10-03T15:04:22+00:00",
  "summary": {
-  "megtakaritas_verified_huf": 1006510700000,
+  "megtakaritas_verified_huf": 1006545700000,
   "visszaszerzes_verified_huf": 1544418000000,
   "eu_forras_verified_huf": 5986000000000,
   "eu_forras_lost_huf": 730000000000,
-  "items_count": 25,
+  "items_count": 26,
   "reported_cases_count": 35
  },
  "items": [
@@ -251,8 +251,30 @@
    "subject": "Igazságügyi Minisztérium egyéb, meg nem valósult kiadásai",
    "verification_notes": "ÚJ TÉTEL (2026-10-03 11:56-os futás). Hivatalos forrás (kormany.hu, 'meg nem valósult kiadás' lista, komponensek: Poszeidon rendszer 15,6 M Ft, egy ügyvédi iroda 25,1 M Ft és mások). FONTOS ÁTFEDÉSI FIGYELMEZTETÉS: ugyanezen a napon a sajtó (Infostart, Telex, ATV, Index, HVG, Privátbankár, Okoshír, Zsaruhírek, gondola.hu) arról számolt be, hogy a Miniszterelnökség feljelentést tett/kiegészített, mert a Szuverenitásvédelmi Hivatal verseny nélkül fizetett ki 46 millió forintot két ügyvédi irodának (ebből 19 M Ft egy pár nap alatt elkészült, el nem található tanulmányért) — ez a reported_cases/reported-egyeb-miniszteriumi-18ugy-2026 gyűjtőtételben már szereplő 'Szuverenitásvédelmi Hivatal ügyvédi megbízásai' (46,4 M Ft) tétellel azonos vagy nagyon hasonló összegű és nagyrészt azonos szereplőjű (pl. Nagy és Trócsányi Iroda) lehet. A két adatpont (kormany.hu 'meg nem valósult kiadás' 46,0 M Ft és a feljelentésben szereplő 46,4 M Ft) pontos viszonya (ugyanaz az ügy két nézőpontból, vagy két különböző tétel) jelen futásban nem tisztázható egyértelműen; összeadásuk elkerülve, mindkettő külön nyilvántartva, további tisztázásra vár.",
    "id": "megtakaritas-igazsagugyi-miniszterium-egyeb-szerzodesek-2026-10",
-   "updated_at": "2026-10-03T10:07:22+00:00",
-   "first_seen_at": "2026-10-03T10:07:22+00:00"
+   "first_seen_at": "2026-10-03T10:07:22+00:00",
+   "updated_at": "2026-10-03T10:07:22+00:00"
+  },
+  {
+   "additional_sources": [],
+   "amount_huf": 35000000,
+   "amount_text": "nettó 35 millió forint meg nem valósult kiadás",
+   "category": "megtakaritas",
+   "collected_at": "2026-10-03T16:56:00+02:00",
+   "currency_note": null,
+   "dedup_key": "megtakaritas|igazsagugyi miniszterium kommunikacios ugynoksegi feladatok|35000000",
+   "description": "A kormány hivatalos elszámolása szerint az Igazságügyi Minisztérium egy kommunikációs ügynökségi feladatok ellátására kötött szerződéséből 35 millió forint tervezett kiadás végül nem valósult meg.",
+   "duplicate_of": null,
+   "event_date": "2026-10-03",
+   "from_whom": null,
+   "source_name": "Kormany.hu – Feljelentett billiók",
+   "source_published_date": "2026-10-03",
+   "source_url": "https://kormany.hu/atlathato/feljelentes",
+   "status": "verified",
+   "subject": "Igazságügyi Minisztérium kommunikációs ügynökségi feladatainak meg nem valósult kiadása",
+   "verification_notes": "ÚJ TÉTEL (2026-10-03 16:56-os futás). Hivatalos forrás (kormany.hu, 'meg nem valósult kiadás' lista) — az oldal immár külön tételként tünteti fel az Igazságügyi Minisztérium kommunikációs ügynökségi feladatainak 35 millió forintos meg nem valósult kiadását, megkülönböztetve a korábban rögzített 'Igazságügyi Minisztérium egyéb szerződései' (46,0 millió Ft, öt tétel) tételtől — a két tétel külön, nem összeadva szerepel az oldalon.",
+   "id": "megtakaritas-im-kommunikacios-ugynoksegi-feladatok-2026-10",
+   "updated_at": "2026-10-03T15:04:22+00:00",
+   "first_seen_at": "2026-10-03T15:04:22+00:00"
   },
   {
    "additional_sources": [
@@ -538,8 +560,8 @@
    "subject": "Rothschild tanácsadói díjigényének elengedése",
    "verification_notes": "ÚJ TÉTEL (2026-10-03 11:56-os futás). Hivatalos forrás (kormany.hu/atlathato/feljelentes, 'Visszafizetve/meg nem valósult kiadás' lista) alapján rögzítve; a pontos esemény-dátumot a hivatalos oldal nem közli, ezért a mai ellenőrzés dátuma (2026-10-03) került be event_date-ként és source_published_date-ként.",
    "id": "megtakaritas-rothschild-tanacsadoi-szerzodes-2026-10",
-   "updated_at": "2026-10-03T10:07:22+00:00",
-   "first_seen_at": "2026-10-03T10:07:22+00:00"
+   "first_seen_at": "2026-10-03T10:07:22+00:00",
+   "updated_at": "2026-10-03T10:07:22+00:00"
   },
   {
    "additional_sources": [
@@ -598,8 +620,8 @@
    "subject": "Szuverenitásvédelmi Hivatal kommunikációs szerződésének alulteljesítése",
    "verification_notes": "ÚJ TÉTEL (2026-10-03 11:56-os futás). Hivatalos forrás (kormany.hu, 'meg nem valósult kiadás' lista). Megkülönböztetendő a reported_cases/reported-szuverenitasvedelmi-hivatal-konzorcium-nvvh-2026-09 tételtől (3,67 milliárd forintos, vesztegetés gyanújával vizsgált konzorciumi szerződés) — ez utóbbi egy másik, nagyobb szerződés, amelynek kifizetését az NVVH vizsgálja, nem egy alulteljesített/megtakarított tétel.",
    "id": "megtakaritas-szuverenitasvedelmi-hivatal-kommunikacio-nemkoltott-2026-10",
-   "updated_at": "2026-10-03T10:07:22+00:00",
-   "first_seen_at": "2026-10-03T10:07:22+00:00"
+   "first_seen_at": "2026-10-03T10:07:22+00:00",
+   "updated_at": "2026-10-03T10:07:22+00:00"
   },
   {
    "additional_sources": [
@@ -668,8 +690,8 @@
    "subject": "Duna Aszfalt — kisebb, önálló visszafizetés a Zambia–Kongó projekthez kapcsolódóan",
    "verification_notes": "ÚJ TÉTEL (2026-10-03 11:56-os futás). Hivatalos forrás (kormany.hu, 'Visszafizetve' lista) — a 211 M Ft korábban csak a visszaszerzes-duna-aszfalt-kotveny-2026-09 tétel verification_notes mezőjében volt megemlítve, mint elkülönült tétel; most önálló dokumentumba került, nem adódik hozzá a 126 Mrd Ft-os kötvény-visszaváltáshoz.",
    "id": "visszaszerzes-duna-aszfalt-kisebb-visszafizetes-2026-10",
-   "updated_at": "2026-10-03T10:07:22+00:00",
-   "first_seen_at": "2026-10-03T10:07:22+00:00"
+   "first_seen_at": "2026-10-03T10:07:22+00:00",
+   "updated_at": "2026-10-03T10:07:22+00:00"
   },
   {
    "additional_sources": [
@@ -1290,7 +1312,7 @@
    "description": "A Nemzetgazdasági Minisztérium döntött a kötvényjegyzésről az Eximbank igazgatósága helyett; magas kockázati besorolású projekt. A Duna Aszfalt azóta visszaváltotta a kötvényeket, a tőke és a kamatok visszaáramlottak az állami pénzintézetekhez (l. Visszaszerzés kategória).",
    "ministry": "Gazdasági és Energetikai Minisztérium",
    "recovered_item_id": "visszaszerzes-duna-aszfalt-kotveny-2026-09",
-   "report_date": "2026-09-02",
+   "report_date": "2026-07-23",
    "report_source": {
     "name": "Index",
     "published_date": "2026-09-02",
@@ -1298,10 +1320,10 @@
    },
    "status": "recovered",
    "subject": "Zambia-Kongó közötti útepítés (Duna Aszfalt projekt, Eximbank-kezesség)",
-   "verification_notes": "A Duna Aszfalt 2026 szeptemberére önként visszaváltotta a kötvényeket (l. items/visszaszerzes-duna-aszfalt-kotveny-2026-09), a visszaélés gyanújával kapcsolatos vizsgálat külön folytatódik. FRISSÍTVE 2026-09-22: a feljelentett összeg a hivatalos kormany.hu adat szerint 63 Mrd Ft (az eredeti Index-cikk kb. 101 Mrd Ft-ot írt) — hivatalos forrás irányadó. [2026-09-25: a korábbi, technikai megjegyzést tartalmazó leírás: A Nemzetgazdasági Minisztérium döntött a kötvényjegyzésről az Eximbank igazgatósága helyett; magas kockázati kategriájú projekt. EZ AZ ÜGY MÁR RÉSZBEN/EGÉSZBEN RENDEZőDöTT: lásd a kapcsolódó visszaszerzési tételt.]",
+   "verification_notes": "A Duna Aszfalt 2026 szeptemberére önként visszaváltotta a kötvényeket (l. items/visszaszerzes-duna-aszfalt-kotveny-2026-09), a visszaélés gyanújával kapcsolatos vizsgálat külön folytatódik. FRISSÍTVE 2026-09-22: a feljelentett összeg a hivatalos kormany.hu adat szerint 63 Mrd Ft (az eredeti Index-cikk kb. 101 Mrd Ft-ot írt) — hivatalos forrás irányadó. FRISSÍTVE 2026-10-03: a kormany.hu hivatalos oldal egyedi dátumot közöl ehhez az ügyhöz (2026.07.23) — a report_date erre frissítve (a korábbi 2026-09-02 a sajtó, Index aggregáló cikkének megjelenési napja volt, nem a hivatalos feljelentés dátuma). [2026-09-25: a korábbi, technikai megjegyzést tartalmazó leírás: A Nemzetgazdasági Minisztérium döntött a kötvényjegyzésről az Eximbank igazgatósága helyett; magas kockázati kategriájú projekt. EZ AZ ÜGY MÁR RÉSZBEN/EGÉSZBEN RENDEZőDöTT: lásd a kapcsolódó visszaszerzési tételt.]",
    "id": "reported-eximbank-duna-aszfalt-kongo-2026",
    "first_seen_at": "2026-09-28T15:02:40+00:00",
-   "updated_at": "2026-09-28T15:02:40+00:00"
+   "updated_at": "2026-10-03T15:04:22+00:00"
   },
   {
    "alleged_amount_huf": 640000000000,
@@ -1310,7 +1332,7 @@
    "description": "Az egyiptomi állami vasút 1300 vasúti kocsijának megvásárlására nyújtott Eximbank-hitel; az orosz fél kiszállása és a magyar gyártók csődje után a projekt új konstrukcióban folytatódott, közben több mint 200 kocsi nem készült el.",
    "ministry": "Gazdasági és Energetikai Minisztérium",
    "recovered_item_id": null,
-   "report_date": "2026-09-02",
+   "report_date": "2026-07-23",
    "report_source": {
     "name": "Index",
     "published_date": "2026-09-02",
@@ -1318,10 +1340,10 @@
    },
    "status": "under_investigation",
    "subject": "Egyiptomi vasúti kocák gyártásának finanszrozása (Eximbank-hitel)",
-   "verification_notes": "A kormány hivatalos, folyamatosan frissülő feljelentési listájának része. FRISSÍTVE 2026-09-22: az összeg a hivatalos kormany.hu adat szerint 640 Mrd Ft (az eredeti Index-cikk 576 Mrd Ft-ot írt 2026-09-02-én) — a felhasználói utasítás szerint hivatalos forrás esetén ez az irányadó. FRISSÍTVE 2026-09-29: az ügyhöz kapcsolódó vállalatcsoport (Ganz-MaVag International, Magyar Vagon Dunakeszi, Ganz-MaVag Invest) ellen külön, csődbűntett gyanújával indított büntetőeljárás is folyik (l. reported-ganzmavag-dunakeszi-csodbuntett-2026-09) — ez különálló, kiegészítő tétel, az itt szereplő 640 Mrd Ft-os összeget nem érinti.",
+   "verification_notes": "A kormány hivatalos, folyamatosan frissülő feljelentési listájának része. FRISSÍTVE 2026-09-22: az összeg a hivatalos kormany.hu adat szerint 640 Mrd Ft (az eredeti Index-cikk 576 Mrd Ft-ot írt 2026-09-02-én) — a felhasználói utasítás szerint hivatalos forrás esetén ez az irányadó. FRISSÍTVE 2026-09-29: az ügyhöz kapcsolódó vállalatcsoport (Ganz-MaVag International, Magyar Vagon Dunakeszi, Ganz-MaVag Invest) ellen külön, csődbűntett gyanújával indított büntetőeljárás is folyik (l. reported-ganzmavag-dunakeszi-csodbuntett-2026-09) — ez különálló, kiegészítő tétel, az itt szereplő 640 Mrd Ft-os összeget nem érinti. FRISSÍTVE 2026-10-03: a kormany.hu hivatalos oldal immár egyedi dátumot is közöl ehhez az ügyhöz (2026.07.23) — a report_date erre frissítve (a korábbi 2026-09-02 a sajtó, Index aggregáló cikkének megjelenési napja volt, nem a hivatalos feljelentés dátuma).",
    "id": "reported-eximbank-egyiptomi-vasut-2026",
    "first_seen_at": "2026-09-28T15:02:40+00:00",
-   "updated_at": "2026-09-29T10:02:05+00:00"
+   "updated_at": "2026-10-03T15:04:22+00:00"
   },
   {
    "alleged_amount_huf": 360000000000,
@@ -1330,7 +1352,7 @@
    "description": "Szabad felhasználású állami hitel Eszak-Macedóniának kedvezményes kamattal; a kamatkiegyenlítés több mint 90 milliárd forinttal terheli a magyar költségvetést.",
    "ministry": "Gazdasági és Energetikai Minisztérium",
    "recovered_item_id": null,
-   "report_date": "2026-09-02",
+   "report_date": "2026-07-23",
    "report_source": {
     "name": "Index",
     "published_date": "2026-09-02",
@@ -1338,10 +1360,10 @@
    },
    "status": "under_investigation",
    "subject": "Észak-macedón államhitel (Eximbank)",
-   "verification_notes": "A kormány hivatalos, 22 ügyet felsoroló feljelentési listájának része.",
+   "verification_notes": "A kormány hivatalos, 22 ügyet felsoroló feljelentési listájának része. FRISSÍTVE 2026-10-03: a kormany.hu hivatalos oldal egyedi dátumot közöl ehhez az ügyhöz (2026.07.23) — a report_date erre frissítve (a korábbi 2026-09-02 a sajtó, Index aggregáló cikkének megjelenési napja volt, nem a hivatalos feljelentés dátuma).",
    "id": "reported-eximbank-macedon-hitel-2026",
    "first_seen_at": "2026-09-28T15:02:40+00:00",
-   "updated_at": "2026-09-28T15:02:40+00:00"
+   "updated_at": "2026-10-03T15:04:22+00:00"
   },
   {
    "alleged_amount_huf": 60000000000,
@@ -1350,7 +1372,7 @@
    "description": "Tiborcz István érdekeltségi köréhez kapcsolódó beruházás; az Eximbank saját bosorolása szerint magas kockázatú ügylet.",
    "ministry": "Gazdasági és Energetikai Minisztérium",
    "recovered_item_id": null,
-   "report_date": "2026-09-02",
+   "report_date": "2026-07-23",
    "report_source": {
     "name": "Index",
     "published_date": "2026-09-02",
@@ -1358,10 +1380,10 @@
    },
    "status": "under_investigation",
    "subject": "Sofitel-szálloda és MALÉV Irodáház átalakítás (Eximbank-hitel)",
-   "verification_notes": "A kormány hivatalos, folyamatosan frissülő feljelentési listájának része. FRISSÍTVE 2026-09-22: az összeg a hivatalos kormany.hu adat szerint 60 Mrd Ft (az eredeti Index-cikk 59 Mrd Ft-ot írt) — hivatalos forrás irányadó.",
+   "verification_notes": "A kormány hivatalos, folyamatosan frissülő feljelentési listájának része. FRISSÍTVE 2026-09-22: az összeg a hivatalos kormany.hu adat szerint 60 Mrd Ft (az eredeti Index-cikk 59 Mrd Ft-ot írt) — hivatalos forrás irányadó. FRISSÍTVE 2026-10-03: a kormany.hu hivatalos oldal egyedi dátumot közöl ehhez az ügyhöz (2026.07.23) — a report_date erre frissítve (a korábbi 2026-09-02 a sajtó, Index aggregáló cikkének megjelenési napja volt, nem a hivatalos feljelentés dátuma).",
    "id": "reported-eximbank-sofitel-tiborcz-2026",
    "first_seen_at": "2026-09-28T15:02:40+00:00",
-   "updated_at": "2026-09-28T15:02:40+00:00"
+   "updated_at": "2026-10-03T15:04:22+00:00"
   },
   {
    "additional_sources": [
@@ -1442,8 +1464,8 @@
    "subject": "Habsburg Ottó Alapítvány állami támogatásai — jogosultság és elszámolás vizsgálata",
    "verification_notes": "ÚJ TÉTEL (2026-10-03 11:56-os futás, K-Monitor-keresésen keresztül azonosítva). A feljelentés dátuma (2026-07-30) kívül esik a 3 napos figyelési ablakon, de a korábbi futások adattárában még nem szerepelt, ezért most felvételre került. Nem szerepel a kormany.hu/atlathato/feljelentes hivatalos listáján (2026-10-03-i ellenőrzés szerint), mivel ez civil szervezet (Hungary in Exile) feljelentésére indult NAV-vizsgálat, nem kormányzati/minisztériumi eljárás. Konkrét, egyértelműen megjelölt sikkasztott/ellopott összeg nincs — a feljelentés a teljes támogatási konstrukció jogosságát és néhány konkrét kisebb kiadási tételt kérdőjelez meg.",
    "id": "reported-habsburg-otto-alapitvany-nav-2026-07",
-   "updated_at": "2026-10-03T10:07:22+00:00",
-   "first_seen_at": "2026-10-03T10:07:22+00:00"
+   "first_seen_at": "2026-10-03T10:07:22+00:00",
+   "updated_at": "2026-10-03T10:07:22+00:00"
   },
   {
    "alleged_amount_huf": 17300000000,
@@ -1460,10 +1482,10 @@
    },
    "status": "partially_recovered",
    "subject": "Hankó Balázs korábbi kulturális miniszter — Nemzeti Kulturális Alap (NKA) forrásainak választási kampányra fordítása",
-   "verification_notes": "Több független forrás megerősíti (444.hu, Index, Telex, HVG, Economx, Klubrádió, Zsaruhírek — mind 2026-09-22/23). A mentelmi jog felfüggesztéséről az Országgyűlés 2026-09-28-án döntött (444.hu). Nem szerepel a kormany.hu/atlathato/feljelentes hivatalos listáján (2026-09-24-i ellenőrzés szerint), mivel ez ügyészségi büntetőeljárás, nem kormányzati/minisztériumi feljelentés. FRISSÍTVE 2026-09-26: kiderült, hogy a kulturális tárca (Tarr Zoltán) saját, korábbi felhívására a kedvezményezettek már 2026 július végéig önkéntesen több mint 3,3 milliárd forintot visszafizettek az NKA ideiglenes kollégiumának támogatásaiból (l. items/visszaszerzes-nka-hanko-onkentes-visszafizetes-2026-07) — ez a Legfőbb Ügyészség jelen büntetőeljárásától független, korábbi esemény, de ugyanazt az NKA-botrányt érinti. Emiatt confirmed_recovered_huf 3,3 milliárd forintra frissítve, a recovered_item_id a kapcsolódó items tételre mutat, a status partially_recovered-re változott (a teljes 17,3 milliárd forintos gyanúsított összeghez képest eddig csak részleges, önkéntes megtérülés történt). FRISSÍTVE 2026-09-28: az Országgyűlés a jelzett napon felfüggesztette Hankó Balázs mentelmi jogát is (139 igen szavazat) — eljárási előrelépés, a confirmed_recovered_huf és a status nem változik. FRISSÍTVE 2026-09-30/10-01: a Bács-Kiskun Vármegyei Főügyészség előzetes letartóztatását indítványozta Hankó Balázsnak és egy társának; az ügyészség szerint miniszterként több száz pályázat révén összesen 17+ milliárd forint állami támogatást osztott szét szabálytalanul, részben Fidesz-kampányra és magáncélra fordítva. A Kecskeméti Járásbíróság nyomozási bírája 2026. október 1-jén döntött a letartóztatási indítványról. Ez további eljárási eszkaláció, tényleges új vagyon-visszaszerzés nem történt, a confirmed_recovered_huf (3,3 Mrd Ft) és a status (partially_recovered) változatlan. FRISSÍTVE 2026-10-02: legalább nyolc független forrás (Magyar Hírlap, MTI, Index, Economx, Euronews, Telex, alon.hu, roviden.hu) megerősíti, hogy a bíróság ténylegesen el is rendelte Hankó Balázs egy hónapos előzetes letartóztatását; a védelem fellebbezett, a másodfokú döntést a Kecskeméti Törvényszék hozza meg. Ez eljárási megerősítés, nem új vagyon-visszaszerzés, a confirmed_recovered_huf és a status változatlan marad.",
+   "verification_notes": "Több független forrás megerősíti (444.hu, Index, Telex, HVG, Economx, Klubrádió, Zsaruhírek — mind 2026-09-22/23). A mentelmi jog felfüggesztéséről az Országgyűlés 2026-09-28-án döntött (444.hu). Nem szerepel a kormany.hu/atlathato/feljelentes hivatalos listáján (2026-09-24-i ellenőrzés szerint), mivel ez ügyészségi büntetőeljárás, nem kormányzati/minisztériumi feljelentés. FRISSÍTVE 2026-09-26: kiderült, hogy a kulturális tárca (Tarr Zoltán) saját, korábbi felhívására a kedvezményezettek már 2026 július végéig önkéntesen több mint 3,3 milliárd forintot visszafizettek az NKA ideiglenes kollégiumának támogatásaiból (l. items/visszaszerzes-nka-hanko-onkentes-visszafizetes-2026-07) — ez a Legfőbb Ügyészség jelen büntetőeljárásától független, korábbi esemény, de ugyanazt az NKA-botrányt érinti. Emiatt confirmed_recovered_huf 3,3 milliárd forintra frissítve, a recovered_item_id a kapcsolódó items tételre mutat, a status partially_recovered-re változott (a teljes 17,3 milliárd forintos gyanúsított összeghez képest eddig csak részleges, önkéntes megtérülés történt). FRISSÍTVE 2026-09-28: az Országgyűlés a jelzett napon felfüggesztette Hankó Balázs mentelmi jogát is (139 igen szavazat) — eljárási előrelépés, a confirmed_recovered_huf és a status nem változik. FRISSÍTVE 2026-09-30/10-01: a Bács-Kiskun Vármegyei Főügyészség előzetes letartóztatását indítványozta Hankó Balázsnak és egy társának; az ügyészség szerint miniszterként több száz pályázat révén összesen 17+ milliárd forint állami támogatást osztott szét szabálytalanul, részben Fidesz-kampányra és magáncélra fordítva. A Kecskeméti Járásbíróság nyomozási bírája 2026. október 1-jén döntött a letartóztatási indítványról. Ez további eljárási eszkaláció, tényleges új vagyon-visszaszerzés nem történt, a confirmed_recovered_huf (3,3 Mrd Ft) és a status (partially_recovered) változatlan. FRISSÍTVE 2026-10-02: legalább nyolc független forrás (Magyar Hírlap, MTI, Index, Economx, Euronews, Telex, alon.hu, roviden.hu) megerősíti, hogy a bíróság ténylegesen el is rendelte Hankó Balázs egy hónapos előzetes letartóztatását; a védelem fellebbezett, a másodfokú döntést a Kecskeméti Törvényszék hozza meg. Ez eljárási megerősítés, nem új vagyon-visszaszerzés, a confirmed_recovered_huf és a status változatlan marad. FRISSÍTVE 2026-10-03: a Miniszterelnökség 2026-10-02-én nyilvánosan kereshetővé tette, mely szervezetek kaptak NKA-támogatást (origo.hu); ismert továbbá a botrány egy korábbi, önálló szála, a győri NKA-ügy (2026-06-16, Kósa Roland alpolgármester feljelentése, négy, látszólag fiktív egyesület, összesen 105 millió forint támogatás, NAV-nyomozás) — ez a győri rész-ügy a jelen, 17,3 milliárd forintos összesített Hankó-ügy részeként értendő, nem önálló tételként nyilvántartva, a dupla számolás elkerülése végett.",
    "id": "reported-hanko-balazs-nka-sikkasztas-2026-09",
    "first_seen_at": "2026-09-28T15:02:40+00:00",
-   "updated_at": "2026-10-02T04:02:49+00:00"
+   "updated_at": "2026-10-03T15:04:22+00:00"
   },
   {
    "additional_sources": [
@@ -1546,7 +1568,7 @@
    "description": "A Közlekedési és Beruházási Minisztérium feljelentést tett a korábbi üzemeltetési szerződés túlárazása miatt, egyúttal a szerződést újratárgyalta: 149 milliárd forint helyett 44 milliárd forint lett az új ár. A kormány hivatalos feljelentési listáján „M6 Concession” néven, 100 milliárd forintos összeggel szerepel.",
    "ministry": "Közlekedési és Beruházási Minisztérium",
    "recovered_item_id": "megtakaritas-m6-dunaujvaros-erdi-teto-2026-09",
-   "report_date": "2026-09-05",
+   "report_date": "2026-08-14",
    "report_source": {
     "name": "Portfolio.hu",
     "published_date": "2026-09-05",
@@ -1554,10 +1576,10 @@
    },
    "status": "partially_recovered",
    "subject": "M6 autópálya Dunaújváros–Érdi tető szakasz üzemeltetésének korábbi túlárazása",
-   "verification_notes": "FRISSÍTVE 2026-09-23: önálló tétellé emelve a gyűjtő dokumentumból. A 105 Mrd Ft/11 év (akár 300 Mrd Ft teljes futamidőre) inkább jövőbeli megtakarítás (a szerződés újratárgyalásából), nem közvetlen vagyon-visszaszerzés, ezért 'partially_recovered' státusz, nem 'recovered'. [2026-09-25: a korábbi, technikai megjegyzést tartalmazó leírás: A Közlekedési és Beruházási Minisztérium feljelentést tett a korábbi üzemeltetési szerződés túlárazása miatt, egyúttal a szerződést újratárgyalta: 149 Mrd Ft helyett 44 Mrd Ft lett az új ár. A kormany.hu hivatalos feljelentési listáján 'M6 Concession' néven, 100 milliárd forintos összeggel szerepel — ez korábban az egyéb miniszteriumi gyűjtőtételben (reported-egyeb-miniszteriumi-18ugy-2026) volt beszámítva, most abból kiemelve, önálló tételként, mert konkrét hozzá kapcsolódó megtakarítási esemény ismert.] FRISSÍTVE 2026-09-26: sajtóhírek (Privátbankár, 2026-09-18 körüli) szerint a rendőrség elrendelte a nyomozást a KBM feljelentése nyomán; a cikkek szerint a szerződés a Magyar Közút áraihoz képest több mint kétszeresen, egyes elemeiben akár háromszorosan túlárazott volt. Ez csak eljárási részlet, a confirmed_recovered_huf (105 Mrd Ft) és a status (partially_recovered) nem változik.",
+   "verification_notes": "FRISSÍTVE 2026-09-23: önálló tétellé emelve a gyűjtő dokumentumból. A 105 Mrd Ft/11 év (akár 300 Mrd Ft teljes futamidőre) inkább jövőbeli megtakarítás (a szerződés újratárgyalásából), nem közvetlen vagyon-visszaszerzés, ezért 'partially_recovered' státusz, nem 'recovered'. FRISSÍTVE 2026-09-26: sajtóhírek (Privátbankár, 2026-09-18 körüli) szerint a rendőrség elrendelte a nyomozást a KBM feljelentése nyomán; a cikkek szerint a szerződés a Magyar Közút áraihoz képest több mint kétszeresen, egyes elemeiben akár háromszorosan túlárazott volt. Ez csak eljárási részlet, a confirmed_recovered_huf (105 Mrd Ft) és a status (partially_recovered) nem változik. FRISSÍTVE 2026-10-03: a kormany.hu hivatalos oldal egyedi dátumot közöl ehhez az ügyhöz (2026.08.14) — a report_date ennek megfelelően 2026-09-05-ről 2026-08-14-re frissítve (a korábbi dátum a Portfolio.hu 2026-09-05-i cikkének megjelenési napja volt, nem a hivatalos feljelentés dátuma).",
    "id": "reported-m6-dunaujvaros-erdi-teto-tularazas-2026",
    "first_seen_at": "2026-09-28T15:02:40+00:00",
-   "updated_at": "2026-09-28T15:02:40+00:00"
+   "updated_at": "2026-10-03T15:04:22+00:00"
   },
   {
    "alleged_amount_huf": 600000000,
@@ -2340,45 +2362,58 @@
  },
  "last_run": {
   "errors": [
-   "Az ÁKK hivatalos statisztikai oldala (akk.hu) ebben a futásban sem volt közvetlenül lekérhető; egy sajtó-összefoglaló (WebSearch) 67 048,1 Mrd Ft-os, 2026-08-31-i államadósság-összeget említett, de ez több közvetlen cikk- és PDF-forrásból (Index, Infostart, VG, Economx, kormany.hu PDF) sem volt ellenőrizhető/megtalálható konkrét szövegként, ezért nem használtuk fel — az államadósság értéke változatlanul a 2026-07-31-i (Magyar Nemzet/ÁKK-adatra hivatkozó) állapotot tükrözi.",
-   "Az 'aranykonvoj' ügyet (TEK által lefoglalt kb. 27 milliárd forint értékű arany/valuta, jogtalan fogás gyanúja, Orbán Viktor érintettségének vizsgálata) áttekintettük, de nem vettük fel az items/reported_cases kollekciókba: ez egy jogtalan fogással/szabadságmegvonással kapcsolatos büntetőügy, nem korábbi közpénzügyi visszaélés vagy állami vagyon-visszaszerzés.",
-   "A Dubai Expo 2020 magyar pavilon (676 M Ft bontási költség egy 10 Mrd Ft-os építmény után) egy 2022-2023-as, pusztán retrospektív pénzügyi beszámoló, új feljelentés vagy megtakarítási esemény nélkül, ezért nem került be.",
-   "A '981 milliárd forintos túlárazás' címszó alatt talált hír valójában egy rutinszerű előirányzat-túllépési engedély az uniós programok lebonyolítására, nem túlárazás/korrupció, ezért nem került be.",
-   "A kormany.hu/atlathato/feljelentes oldalon a 'Szuverenitásvédelmi Hivatal ügyvédi megbízásai' (46,4 M Ft) és az Igazságügyi Minisztérium 'meg nem valósult kiadás' listájának 46,0 M Ft-os tétele valószínűleg átfedő, de ez a futás ezt nem tudta egyértelműen tisztázni — mindkettő külön rögzítve, további tisztázásra vár."
+   "hirkereso.hu/politika ebben a futásban is 404-es hibával nem volt elérhető (ismétlődő probléma korábbi futásokból).",
+   "Makro-pillanatkép nem készült ebben a futásban: a legutóbbi (2026-10-03 11:56) pillanatkép óta — szombat lévén — egyik figyelt mutatóban (KSH, MNB, ÁKK, PM) sem volt új hivatalos publikáció; a legutóbbi pillanatkép marad érvényben.",
+   "Az Aranykonvoj-ügy (Központi Nyomozó Főügyészség, 2026-10-02, jogellenes fogvatartás gyanúja) nem közpénzügyi/korrupciós tárgyú, ezért a felhasználói szűrési szabály szerint nem került a reported_cases kollekcióba.",
+   "Az Integritás Hatóság 2026-10-01-i, 551 fős vagyonnyilatkozat-kockázati listája rendszerszintű szűrési folyamat, nem egyedi, nevesített, konkrét összegű közpénzügyi ügy, ezért egyelőre nem kapott önálló reported_cases tételt; a fejlemény figyelendő.",
+   "A Dubai Világkiállítás magyar pavilonjának bontási költsége (mfor.hu) 2023-as esemény, jelenlegi kormányzati intézkedés vagy feljelentés nélkül, ezért nem került be az items kollekcióba.",
+   "A Portfolio.hu 2026-10-02-i állami járműbeszerzési cikke a már rögzített MÁV/Magyar Közút flottabeszerzési tételt (megtakaritas-mav-kozut-jarmubeszerzes-2026-08) ismétli meg új adat nélkül — duplikátumként azonosítva, nem hozott létre új tételt."
   ],
   "eu_lost_items_new": 0,
-  "finished_at": "2026-10-03T12:40:00+02:00",
-  "items_duplicate": 0,
-  "items_found_total": 4,
+  "finished_at": "2026-10-03T17:20:00+02:00",
+  "items_duplicate": 1,
+  "items_found_total": 10,
   "items_needs_review": 0,
-  "items_new": 4,
-  "reported_cases_new": 1,
-  "reported_cases_updated": 2,
+  "items_new": 1,
+  "reported_cases_new": 0,
+  "reported_cases_updated": 6,
   "sources_checked": [
    "kormany.hu/atlathato/feljelentes",
-   "K-Monitor (site search)",
    "mnvvh.hu/hirek",
-   "ugyeszseg.hu (Központi Nyomozó Főügyészség hírek)",
-   "hirkereso.hu",
-   "Portfolio.hu",
+   "k-monitor.hu (WebSearch)",
+   "hirkereso.hu/politika (404-es hiba)",
+   "ugyeszseg.hu/kategoria/hirek/kozponti-nyomozo-fougyeszseg",
    "Telex",
-   "444.hu",
    "Index",
+   "444.hu",
    "HVG",
-   "Infostart.hu",
-   "ATV",
+   "Portfolio.hu",
    "Economx",
-   "Forbes.hu",
-   "mfor.hu",
    "Világgazdaság",
+   "Népszava",
+   "mfor.hu",
+   "Forbes.hu",
+   "Magyar Nemzet",
+   "Pénzcentrum",
+   "Infostart.hu",
    "10perc.hu",
-   "Kontroll.hu",
-   "Origo"
+   "szeretlekmagyarorszag.hu",
+   "mandiner.hu",
+   "origo.hu",
+   "atv.hu"
   ],
-  "started_at": "2026-10-03T11:56:00+02:00",
-  "id": "2026-10-03T11-56"
+  "started_at": "2026-10-03T16:35:00+02:00",
+  "id": "2026-10-03T16-56"
  },
  "run_history": [
+  {
+   "finished_at": "2026-10-03T17:20:00+02:00",
+   "started_at": "2026-10-03T16:35:00+02:00",
+   "items_new": 1,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 6,
+   "eu_lost_items_new": 0
+  },
   {
    "finished_at": "2026-10-03T12:40:00+02:00",
    "started_at": "2026-10-03T11:56:00+02:00",
@@ -2675,34 +2710,35 @@
   }
  ],
  "run_summary": {
-  "run_id": "2026-10-03T10:07:22+00:00",
-  "new": 5,
+  "run_id": "2026-10-03T15:04:22+00:00",
+  "new": 1,
   "modified": 0,
-  "confirmed_only": 1,
-  "touched": 6,
+  "confirmed_only": 6,
+  "touched": 7,
   "pending_review": 1,
   "by_section": {
    "items": {
-    "new": 4,
+    "new": 1,
     "modified": 0,
     "confirmed_only": 0
    },
    "reported_cases": {
-    "new": 1,
+    "new": 0,
     "modified": 0,
-    "confirmed_only": 1
+    "confirmed_only": 6
    }
   },
   "new_ids": [
-   "i:megtakaritas-igazsagugyi-miniszterium-egyeb-szerzodesek-2026-10",
-   "i:megtakaritas-rothschild-tanacsadoi-szerzodes-2026-10",
-   "i:megtakaritas-szuverenitasvedelmi-hivatal-kommunikacio-nemkoltott-2026-10",
-   "i:visszaszerzes-duna-aszfalt-kisebb-visszafizetes-2026-10",
-   "r:reported-habsburg-otto-alapitvany-nav-2026-07"
+   "i:megtakaritas-im-kommunikacios-ugynoksegi-feladatok-2026-10"
   ],
   "modified_ids": [],
   "confirmed_ids": [
-   "r:reported-egyeb-miniszteriumi-18ugy-2026"
+   "r:reported-eximbank-duna-aszfalt-kongo-2026",
+   "r:reported-eximbank-egyiptomi-vasut-2026",
+   "r:reported-eximbank-macedon-hitel-2026",
+   "r:reported-eximbank-sofitel-tiborcz-2026",
+   "r:reported-hanko-balazs-nka-sikkasztas-2026-09",
+   "r:reported-m6-dunaujvaros-erdi-teto-tularazas-2026"
   ]
  },
  "run_summary_history": [
@@ -3339,6 +3375,21 @@
      "new": 1,
      "modified": 0,
      "confirmed_only": 1
+    }
+   }
+  },
+  {
+   "run_id": "2026-10-03T15:04:22+00:00",
+   "by_section": {
+    "items": {
+     "new": 1,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 6
     }
    }
   }
