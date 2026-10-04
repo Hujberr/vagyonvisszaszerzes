@@ -1,13 +1,13 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-03T15:04:22+00:00",
+ "generated_at": "2026-10-04T04:00:40+00:00",
  "summary": {
   "megtakaritas_verified_huf": 1006545700000,
   "visszaszerzes_verified_huf": 1544418000000,
   "eu_forras_verified_huf": 5986000000000,
   "eu_forras_lost_huf": 730000000000,
   "items_count": 26,
-  "reported_cases_count": 35
+  "reported_cases_count": 36
  },
  "items": [
   {
@@ -113,10 +113,10 @@
    "source_url": "https://telex.hu/kulfold/2026/05/29/magyar-peter-ursula-von-der-leyen-unios-penzek-targyalas-helyreallitasi-alap-kohezios-penzek",
    "status": "verified",
    "subject": "Befagyasztott EU-s (RRF + kohéziós) források feloldásáról szóló megállapodás",
-   "verification_notes": "FRISSÍTVE 2026-09-24: Vitézy Dávid 2026.09.23-i nyilatkozata (Világgazdaság) szerint a korábban 'befagyasztottként' nyilvántartott kb. 2 milliárd euróból már NEM csak befagyasztásról, hanem VÉGLEGES ELVESZTÉSRŐL van szó (1 mrd EUR 2024 végén, 1 mrd EUR 2025 végén veszett el a feltételek nem teljesítése miatt). A 4,2 milliárd eurós bizottsági javaslat (2026.09.23) továbbra is csak javaslat, tényleges kifizetés nem történt, a received_huf mező ezért változatlanul 0. FRISSÍTVE 2026-09-25: a 2 mrd EUR elvesztés a 6,3 mrd EUR-s kohéziós keretből történt (VG, Forbes, Portfolio; a Bizottság 4,2 mrd EUR-s javaslata ezzel konzisztens), ezért az agreed_huf 5986 → 5256 Mrd Ft-ra csökkentve; agreed_original_huf és lost_items mezők felvéve. FRISSÍTVE 2026-09-25 (felhasználói döntés): a megállapodott összeg az eredeti 16,4 mrd EUR (5986 Mrd Ft) marad, az elvesztett összeget NEM vonjuk le belőle; az elveszett források külön, a lost_items/lost_huf mezőkben szerepelnek. FRISSÍTVE 2026-09-27: az eGov Hírlevél szerint az uniós tagállamok vezetői várhatóan 2026. október 15–16-án szavaznak a Tanácsban a Bizottság 4,2 milliárd eurós kohéziós javaslatáról; ez csak eljárási ütemezési részlet, összeg és a received_huf (0) nem változott. FRISSÍTVE 2026-09-29: a kormány 2026. szeptember 30-i határidővel nyújtja be a helyreállítási (RRF) forrásokra vonatkozó záró kifizetési kérelmet és az igazoló dokumentumokat az Európai Bizottságnak; a Bizottság ezt követően vizsgálja a vállalások teljesülését, a tényleges kifizetés a korábban jelzett ütemezés (döntés dec. 18-ig, kifizetés dec. 31-ig) szerint várható. A received_huf változatlanul 0. FRISSÍTVE 2026-09-30: a Világgazdaság szerint Brüsszel megkapta Magyarország beadványát a jogállamisági feltételek teljesítéséről, és a 4,2 milliárd eurós kohéziós forrás feloldásáról az Európai Tanács várhatóan 2026. október 13-án dönt (a korábban jelzett október 15–16-i időpont helyett) — ez csak eljárási ütemezési pontosítás, tényleges kifizetés továbbra sincs, a received_huf (0) nem változik. FRISSÍTVE 2026-10-01: a Portfolio.hu szerint a kormány a 2026.09.30-i határidőre valóban benyújtotta az RRF-forrásokra vonatkozó záró kifizetési kérelmet; emellett egy második, 2,2 milliárd eurós kohéziós tranche-hoz újabb magyar önértékelés benyújtása szükséges, amelyet a kormány várhatóan októberben nyújt be. A két tétel (4,2 + 2,2 milliárd euró) együtt 6,4 milliárd eurót (kb. 2300 milliárd forintot) tesz ki. A Bizottságnak december 31-ig kell jóváhagynia és kifizetnie az elfogadott RRF-összegeket, ezen időpont után RRF-kifizetés már nem lehetséges. Tényleges, a 2026-os feloldási folyamathoz köthető ÚJ kifizetés 2026-10-01-i állapot szerint továbbra sincs. FRISSÍTVE 2026-10-02: a Portfolio.hu (2026-10-01) és egy korábbi, a RePowerEU-fejezet 2023-2024-es jóváhagyását tárgyaló cikk (Szabad Európa) szerint Magyarország a kb. 10 milliárd eurós RRF-keretből eddig összesen 919,6 millió eurót (kb. 338,7 Mrd Ft) kapott meg ténylegesen — ez azonban a RePowerEU-fejezet 2023.12.28-i (779,5 millió euró) és 2024 januári (140,1 millió euró) előlege, amelyet MÉG A 2026-OS FELOLDÁSI FOLYAMAT ELŐTT, egy külön (nem a korrupciós feltételességi eljáráshoz kötött) csatornán fizettek ki. Mivel ez korábbi, már a megállapodás előtt is létező pénzmozgás volt, a received_huf mezőt erre az összegre frissítettük (338,7 Mrd Ft), hogy az oldal pontosan tükrözze a ténylegesen Magyarországhoz már eljutott összeget; a 2026-os feltételteljesítés nyomán várt újabb kifizetés (a fennmaradó kb. 9,1 milliárd euró/5647 Mrd Ft) továbbra sem érkezett meg.",
+   "verification_notes": "FRISSÍTVE 2026-09-24: Vitézy Dávid 2026.09.23-i nyilatkozata (Világgazdaság) szerint a korábban 'befagyasztottként' nyilvántartott kb. 2 milliárd euróból már NEM csak befagyasztásról, hanem VÉGLEGES ELVESZTÉSRŐL van szó (1 mrd EUR 2024 végén, 1 mrd EUR 2025 végén veszett el a feltételek nem teljesítése miatt). A 4,2 milliárd eurós bizottsági javaslat (2026.09.23) továbbra is csak javaslat, tényleges kifizetés nem történt, a received_huf mező ezért változatlanul 0. FRISSÍTVE 2026-09-25: a 2 mrd EUR elvesztés a 6,3 mrd EUR-s kohéziós keretből történt (VG, Forbes, Portfolio; a Bizottság 4,2 mrd EUR-s javaslata ezzel konzisztens), ezért az agreed_huf 5986 → 5256 Mrd Ft-ra csökkentve; agreed_original_huf és lost_items mezők felvéve. FRISSÍTVE 2026-09-25 (felhasználói döntés): a megállapodott összeg az eredeti 16,4 mrd EUR (5986 Mrd Ft) marad, az elvesztett összeget NEM vonjuk le belőle; az elveszett források külön, a lost_items/lost_huf mezőkben szerepelnek. FRISSÍTVE 2026-09-27: az eGov Hírlevél szerint az uniós tagállamok vezetői várhatóan 2026. október 15–16-án szavaznak a Tanácsban a Bizottság 4,2 milliárd eurós kohéziós javaslatáról; ez csak eljárási ütemezési részlet, összeg és a received_huf (0) nem változott. FRISSÍTVE 2026-09-29: a kormány 2026. szeptember 30-i határidővel nyújtja be a helyreállítási (RRF) forrásokra vonatkozó záró kifizetési kérelmet és az igazoló dokumentumokat az Európai Bizottságnak; a Bizottság ezt követően vizsgálja a vállalások teljesülését, a tényleges kifizetés a korábban jelzett ütemezés (döntés dec. 18-ig, kifizetés dec. 31-ig) szerint várható. A received_huf változatlanul 0. FRISSÍTVE 2026-09-30: a Világgazdaság szerint Brüsszel megkapta Magyarország beadványát a jogállamisági feltételek teljesítéséről, és a 4,2 milliárd eurós kohéziós forrás feloldásáról az Európai Tanács várhatóan 2026. október 13-án dönt (a korábban jelzett október 15–16-i időpont helyett) — ez csak eljárási ütemezési pontosítás, tényleges kifizetés továbbra sincs, a received_huf (0) nem változik. FRISSÍTVE 2026-10-01: a Portfolio.hu szerint a kormány a 2026.09.30-i határidőre valóban benyújtotta az RRF-forrásokra vonatkozó záró kifizetési kérelmet; emellett egy második, 2,2 milliárd eurós kohéziós tranche-hoz újabb magyar önértékelés benyújtása szükséges, amelyet a kormány várhatóan októberben nyújt be. A két tétel (4,2 + 2,2 milliárd euró) együtt 6,4 milliárd eurót (kb. 2300 milliárd forintot) tesz ki. A Bizottságnak december 31-ig kell jóváhagynia és kifizetnie az elfogadott RRF-összegeket, ezen időpont után RRF-kifizetés már nem lehetséges. Tényleges, a 2026-os feloldási folyamathoz köthető ÚJ kifizetés 2026-10-01-i állapot szerint továbbra sincs. FRISSÍTVE 2026-10-02: a Portfolio.hu (2026-10-01) és egy korábbi, a RePowerEU-fejezet 2023-2024-es jóváhagyását tárgyaló cikk (Szabad Európa) szerint Magyarország a kb. 10 milliárd eurós RRF-keretből eddig összesen 919,6 millió eurót (kb. 338,7 Mrd Ft) kapott meg ténylegesen — ez azonban a RePowerEU-fejezet 2023.12.28-i (779,5 millió euró) és 2024 januári (140,1 millió euró) előlege, amelyet MÉG A 2026-OS FELOLDÁSI FOLYAMAT ELŐTT, egy külön (nem a korrupciós feltételességi eljáráshoz kötött) csatornán fizettek ki. Mivel ez korábbi, már a megállapodás előtt is létező pénzmozgás volt, a received_huf mezőt erre az összegre frissítettük (338,7 Mrd Ft), hogy az oldal pontosan tükrözze a ténylegesen Magyarországhoz már eljutott összeget; a 2026-os feltételteljesítés nyomán várt újabb kifizetés (a fennmaradó kb. 9,1 milliárd euró/5647 Mrd Ft) továbbra sem érkezett meg. FRISSÍTVE 2026-10-04: az Európai Parlament egy háromtagú delegációja 2026. október 2-án Budapesten tartott vizitet a feltételek teljesülésének felmérésére; a delegáció szerint \"elegendő eredmény látható\" a 4,2 milliárd eurós kohéziós forrás feloldásához, de további előrelépés szükséges a tágabb, 7. cikk szerinti eljárás lezárásához. A delegáció megerősítette, hogy továbbra is 2,2 milliárd euró marad blokkolva horizontális (alapjogi) feltételek miatt. Az Európai Parlamentnek nincs döntési jogköre a forrásfeloldás kérdésében, a tényleges döntést az EU Tanácsa hozza meg októberben. A received_huf (0) és a lost_huf (730 Mrd Ft) nem változott.",
    "id": "eu-forras-megallapodas-2026-05",
    "first_seen_at": "2026-09-28T15:02:40+00:00",
-   "updated_at": "2026-10-02T04:02:49+00:00"
+   "updated_at": "2026-10-04T04:00:40+00:00"
   },
   {
    "additional_sources": [
@@ -273,8 +273,8 @@
    "subject": "Igazságügyi Minisztérium kommunikációs ügynökségi feladatainak meg nem valósult kiadása",
    "verification_notes": "ÚJ TÉTEL (2026-10-03 16:56-os futás). Hivatalos forrás (kormany.hu, 'meg nem valósult kiadás' lista) — az oldal immár külön tételként tünteti fel az Igazságügyi Minisztérium kommunikációs ügynökségi feladatainak 35 millió forintos meg nem valósult kiadását, megkülönböztetve a korábban rögzített 'Igazságügyi Minisztérium egyéb szerződései' (46,0 millió Ft, öt tétel) tételtől — a két tétel külön, nem összeadva szerepel az oldalon.",
    "id": "megtakaritas-im-kommunikacios-ugynoksegi-feladatok-2026-10",
-   "updated_at": "2026-10-03T15:04:22+00:00",
-   "first_seen_at": "2026-10-03T15:04:22+00:00"
+   "first_seen_at": "2026-10-03T15:04:22+00:00",
+   "updated_at": "2026-10-03T15:04:22+00:00"
   },
   {
    "additional_sources": [
@@ -1903,6 +1903,43 @@
   {
    "additional_sources": [
     {
+     "name": "Economx",
+     "published_date": "2026-09-28",
+     "url": "https://www.economx.hu/belfold/2026/09/28/nyomozas-nav-rakay-philip-petofi-film-allami-tamogatas/"
+    },
+    {
+     "name": "444.hu",
+     "published_date": "2026-09-28",
+     "url": "https://444.hu/2026/09/28/nyomoz-a-nav-rakay-philip-petofi-filmje-miatt"
+    },
+    {
+     "name": "Népszava",
+     "published_date": "2026-09-28",
+     "url": "https://nepszava.hu/3333792_nyomozas-adohatosag-rakay-philip-most-vagy-soha-nav"
+    }
+   ],
+   "alleged_amount_huf": 4700000000,
+   "alleged_amount_text": "4,7 milliárd forint közvetlen állami (Nemzeti Filmintézet) támogatás; a 30%-os filmipari adókedvezménnyel együtt összesen kb. 6,1-7 milliárd forint állami forrás",
+   "confirmed_recovered_huf": 0,
+   "description": "A Nemzeti Adó- és Vámhivatal 2026 szeptemberében költségvetési csalás gyanúja miatt nyomozást indított a Rákay Philip rendezte, Petőfi Sándorról szóló \"Most vagy soha!\" című film állami támogatásának felhasználása ügyében. A film 4,7 milliárd forint közvetlen állami támogatást kapott a Nemzeti Filmintézettől, amely a filmipari adókedvezménnyel együtt összesen mintegy 6,1-7 milliárd forint közpénzt jelentett; a film mozis jegyeladásból (kötelező iskolai vetítéseket is beleértve) mindössze kb. 339 millió forint bevételt hozott.",
+   "ministry": "Nemzeti Adó- és Vámhivatal (NAV) — érintett szervezet: Nemzeti Filmintézet / a film producerei (Rákay Philip, Szente Vajk)",
+   "recovered_item_id": null,
+   "report_date": "2026-09-28",
+   "report_source": {
+    "name": "Index",
+    "published_date": "2026-09-28",
+    "url": "https://index.hu/kultur/2026/09/28/nav-rakay-philip-most-vagy-soha-film-nyomozas/"
+   },
+   "status": "under_investigation",
+   "subject": "Rákay Philip \"Most vagy soha!\" (Petőfi) című filmje — állami támogatás felhasználása",
+   "verification_notes": "ÚJ TÉTEL (2026-10-04 futás). Legalább négy független sajtóforrás (Index, Economx, 444.hu, Népszava) egyezően számol be a NAV 2026-09-28 körüli nyomozásáról. Nem szerepel a kormany.hu/atlathato/feljelentes hivatalos listáján (2026-10-04-i ellenőrzés szerint, a lista változatlanul 47 ügy/2255 Mrd Ft, 2026-10-02-i állapot) — ez a NAV önálló, nem kormányzati/minisztériumi feljelentésen alapuló nyomozása. Tényleges visszaszerzés vagy vádemelés még nem történt.",
+   "id": "reported-petofi-film-rakay-2026-09",
+   "updated_at": "2026-10-04T04:00:40+00:00",
+   "first_seen_at": "2026-10-04T04:00:40+00:00"
+  },
+  {
+   "additional_sources": [
+    {
      "name": "Portfolio.hu",
      "published_date": "2026-09-29",
      "url": "https://www.portfolio.hu/gazdasag/20260929/a-miniszterelnokseg-feljelentest-tett-455-millio-forintnyi-kifogasolt-megrendeles-miatt-866044"
@@ -2136,7 +2173,7 @@
    "url": "https://magyarnemzet.hu/gazdasag/2026/09/allamadossag-novekedes"
   },
   "allamadossag_huf": 65716000000000,
-  "collected_at": "2026-10-03T11:56:00+02:00",
+  "collected_at": "2026-10-04T05:58:00+02:00",
   "elozo": {
    "allamadossag": {
     "period": null,
@@ -2245,8 +2282,8 @@
     "key": "eur_huf",
     "label_en": "Official EUR/HUF rate (MNB)",
     "label_hu": "Euró hivatalos árfolyama (MNB)",
-    "note_en": "USD: 326.94 HUF (2026-10-02 fixing). No new business-day fixing as of this run (Saturday, 2026-10-03).",
-    "note_hu": "Dollár: 326,94 Ft (2026-10-02-i fixing). Ebben a futásban (2026-10-03, szombat) nem volt újabb munkanapi fixing.",
+    "note_en": "USD: 326.94 HUF (2026-10-02 fixing). No new business-day fixing as of this run (weekend).",
+    "note_hu": "Dollár: 326,94 Ft (2026-10-02-i fixing). 2026-10-03 (szombat) és 2026-10-04 (vasárnap) nem munkanap, nincs új fixing.",
     "period": "2026-10-02",
     "prev_period": "2026-10-01",
     "prev_value": 368.32,
@@ -2358,54 +2395,57 @@
    "publish_date": "2026-09-22",
    "url": "https://www.portfolio.hu/gazdasag/20260922/itt-az-mnb-uj-elorejelzese-hiaba-a-nemzetkozi-kockazatok-mersekelt-marad-az-idei-inflacio-864484"
   },
-  "id": "2026-10-03T11-56"
+  "id": "2026-10-04T05-58"
  },
  "last_run": {
   "errors": [
-   "hirkereso.hu/politika ebben a futásban is 404-es hibával nem volt elérhető (ismétlődő probléma korábbi futásokból).",
-   "Makro-pillanatkép nem készült ebben a futásban: a legutóbbi (2026-10-03 11:56) pillanatkép óta — szombat lévén — egyik figyelt mutatóban (KSH, MNB, ÁKK, PM) sem volt új hivatalos publikáció; a legutóbbi pillanatkép marad érvényben.",
-   "Az Aranykonvoj-ügy (Központi Nyomozó Főügyészség, 2026-10-02, jogellenes fogvatartás gyanúja) nem közpénzügyi/korrupciós tárgyú, ezért a felhasználói szűrési szabály szerint nem került a reported_cases kollekcióba.",
-   "Az Integritás Hatóság 2026-10-01-i, 551 fős vagyonnyilatkozat-kockázati listája rendszerszintű szűrési folyamat, nem egyedi, nevesített, konkrét összegű közpénzügyi ügy, ezért egyelőre nem kapott önálló reported_cases tételt; a fejlemény figyelendő.",
-   "A Dubai Világkiállítás magyar pavilonjának bontási költsége (mfor.hu) 2023-as esemény, jelenlegi kormányzati intézkedés vagy feljelentés nélkül, ezért nem került be az items kollekcióba.",
-   "A Portfolio.hu 2026-10-02-i állami járműbeszerzési cikke a már rögzített MÁV/Magyar Közút flottabeszerzési tételt (megtakaritas-mav-kozut-jarmubeszerzes-2026-08) ismétli meg új adat nélkül — duplikátumként azonosítva, nem hozott létre új tételt."
+   "hirkereso.hu/politika aloldal 404-et adott, helyette a főoldal (hirkereso.hu) áttekintése történt",
+   "Az ÁKK hivatalos statisztikai oldala (akk.hu) ebben a futásban sem volt közvetlenül lekérhető; az államadósság értéke változatlanul a 2026-07-31-i (Magyar Nemzet/ÁKK-adatra hivatkozó) állapotot tükrözi; új abszolút Ft-összeg nem volt található, csak relatív/finanszirozasi terv adatok",
+   "MNB EUR/HUF: ebben a futásban (2026-10-04, vasárnap) nem volt új munkanapi fixing, a 2026-10-02-i állapot maradt érvényben",
+   "A kormany.hu/atlathato/feljelentes oldal tartalma (47 ügy, 2255 Mrd Ft, 25,0 Mrd Ft visszafizetve/megtakarítva) változatlan volt az előző (2026-10-03 17:04) futáshoz képest — nem volt szükség frissítésre a reported-osszesito-2026-09 tételen",
+   "Az 'aranykonvoj'-ügy (ukán pénzszállítók jogtalan fogva tartása) az NVVH saját nyilatkozata szerint nem sorolható be a közvagyonnal kapcsolatos korrupciós ügyek közé, ezért nem került be az adattárba",
+   "A rezsivédelmi célra átcsoportosított 119 Mrd Ft (2026-09-29, Magyar Közlöny) folyamatban lévő kiádás, nem megtakarítás/visszaszerzés, nem került be"
   ],
   "eu_lost_items_new": 0,
-  "finished_at": "2026-10-03T17:20:00+02:00",
-  "items_duplicate": 1,
-  "items_found_total": 10,
+  "finished_at": "2026-10-04T06:10:00+02:00",
+  "items_duplicate": 0,
+  "items_found_total": 2,
   "items_needs_review": 0,
-  "items_new": 1,
-  "reported_cases_new": 0,
-  "reported_cases_updated": 6,
+  "items_new": 0,
+  "reported_cases_new": 1,
+  "reported_cases_updated": 0,
   "sources_checked": [
    "kormany.hu/atlathato/feljelentes",
-   "mnvvh.hu/hirek",
-   "k-monitor.hu (WebSearch)",
-   "hirkereso.hu/politika (404-es hiba)",
-   "ugyeszseg.hu/kategoria/hirek/kozponti-nyomozo-fougyeszseg",
-   "Telex",
    "Index",
-   "444.hu",
-   "HVG",
-   "Portfolio.hu",
    "Economx",
-   "Világgazdaság",
+   "444.hu",
    "Népszava",
-   "mfor.hu",
-   "Forbes.hu",
-   "Magyar Nemzet",
-   "Pénzcentrum",
+   "Telex",
+   "Portfolio.hu",
+   "Világgazdaság",
+   "HVG",
    "Infostart.hu",
-   "10perc.hu",
-   "szeretlekmagyarorszag.hu",
-   "mandiner.hu",
-   "origo.hu",
-   "atv.hu"
+   "K-Monitor (WebSearch)",
+   "Ügyészség.hu (Központi Nyomozó Főügyészség rovat)",
+   "mnvvh.hu/hirek",
+   "hirkereso.hu",
+   "Pénzcentrum",
+   "Magyar Nemzet",
+   "ORIGO",
+   "mfor.hu"
   ],
-  "started_at": "2026-10-03T16:35:00+02:00",
-  "id": "2026-10-03T16-56"
+  "started_at": "2026-10-04T05:50:00+02:00",
+  "id": "2026-10-04T05-58"
  },
  "run_history": [
+  {
+   "finished_at": "2026-10-04T06:10:00+02:00",
+   "started_at": "2026-10-04T05:50:00+02:00",
+   "items_new": 0,
+   "reported_cases_new": 1,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
   {
    "finished_at": "2026-10-03T17:20:00+02:00",
    "started_at": "2026-10-03T16:35:00+02:00",
@@ -2710,35 +2750,30 @@
   }
  ],
  "run_summary": {
-  "run_id": "2026-10-03T15:04:22+00:00",
+  "run_id": "2026-10-04T04:00:40+00:00",
   "new": 1,
   "modified": 0,
-  "confirmed_only": 6,
-  "touched": 7,
+  "confirmed_only": 1,
+  "touched": 2,
   "pending_review": 1,
   "by_section": {
    "items": {
+    "new": 0,
+    "modified": 0,
+    "confirmed_only": 1
+   },
+   "reported_cases": {
     "new": 1,
     "modified": 0,
     "confirmed_only": 0
-   },
-   "reported_cases": {
-    "new": 0,
-    "modified": 0,
-    "confirmed_only": 6
    }
   },
   "new_ids": [
-   "i:megtakaritas-im-kommunikacios-ugynoksegi-feladatok-2026-10"
+   "r:reported-petofi-film-rakay-2026-09"
   ],
   "modified_ids": [],
   "confirmed_ids": [
-   "r:reported-eximbank-duna-aszfalt-kongo-2026",
-   "r:reported-eximbank-egyiptomi-vasut-2026",
-   "r:reported-eximbank-macedon-hitel-2026",
-   "r:reported-eximbank-sofitel-tiborcz-2026",
-   "r:reported-hanko-balazs-nka-sikkasztas-2026-09",
-   "r:reported-m6-dunaujvaros-erdi-teto-tularazas-2026"
+   "i:eu-forras-megallapodas-2026-05"
   ]
  },
  "run_summary_history": [
@@ -3390,6 +3425,21 @@
      "new": 0,
      "modified": 0,
      "confirmed_only": 6
+    }
+   }
+  },
+  {
+   "run_id": "2026-10-04T04:00:40+00:00",
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 1
+    },
+    "reported_cases": {
+     "new": 1,
+     "modified": 0,
+     "confirmed_only": 0
     }
    }
   }
