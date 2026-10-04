@@ -1,13 +1,13 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-04T10:00:07+00:00",
+ "generated_at": "2026-10-04T15:01:51+00:00",
  "summary": {
   "megtakaritas_verified_huf": 1006545700000,
   "visszaszerzes_verified_huf": 1544418000000,
   "eu_forras_verified_huf": 5986000000000,
   "eu_forras_lost_huf": 730000000000,
   "items_count": 26,
-  "reported_cases_count": 36
+  "reported_cases_count": 37
  },
  "items": [
   {
@@ -1542,6 +1542,43 @@
    "updated_at": "2026-10-02T15:05:08+00:00"
   },
   {
+   "additional_sources": [
+    {
+     "name": "Telex",
+     "published_date": "2026-08-28",
+     "url": "https://telex.hu/belfold/2026/08/28/hvg-hutlen-kezeles-gyanuja-nyomozas-rendorseg-lazar-janos-tartozas-elengedes"
+    },
+    {
+     "name": "Index (eredeti feltárás)",
+     "published_date": "2026-05-20",
+     "url": "https://index.hu/belfold/2026/05/20/lazar-janos-mav-vasut-vonat-kozlekedes-valasztas-kampany-tartozas-onkormanyzat/"
+    },
+    {
+     "name": "Magyar Hang",
+     "published_date": "2026-08-28",
+     "url": "https://hang.hu/belfold/nyomozas-indult-miutan-lazar-tobb-milliardnyi-mav-tartozast-engedett-el-191769"
+    }
+   ],
+   "alleged_amount_huf": 4100000000,
+   "alleged_amount_text": "több mint 4,1 milliárd forint (Kecskemét 2 milliárd, Salgótarján 1 milliárd, Nyíregyháza kb. 600 millió, Szombathely kb. 500 millió forint)",
+   "confirmed_recovered_huf": 0,
+   "description": "Lázár János akkori építési és közlekedési miniszter a 2026-os választás előtt utasítást adott, hogy a MÁV Személyszállítási Zrt. engedje el több önkormányzat helyi személyszállítási tartozását. A legnagyobb összegek Kecskemétnek (2 milliárd forint) és Salgótarjánnak (1 milliárd forint) jutottak, Nyíregyháza mintegy 600 millió, az ellenzéki vezetésű Szombathely mintegy 500 millió forintos elengedést kapott. A Készenléti Rendőrség Nemzeti Nyomozó Irodája 2026. augusztus 23-án állampolgári feljelentés alapján hűtlen kezelés gyanúja miatt indított büntetőeljárást ismeretlen tettes ellen.",
+   "ministry": "Készenléti Rendőrség Nemzeti Nyomozó Irodája (rendőrségi nyomozás, állampolgári feljelentésre; nem kormányzati/minisztériumi feljelentés) — érintett korábbi tárca: Építési és Közlekedési Minisztérium",
+   "recovered_item_id": null,
+   "report_date": "2026-08-23",
+   "report_source": {
+    "name": "HVG360",
+    "published_date": "2026-08-28",
+    "url": "https://hvg.hu/360/20260828_lazar-janos-volanbusz-mav-tartozas-elengedes-hutlen-kezeles-nyomozas"
+   },
+   "status": "under_investigation",
+   "subject": "Lázár János korábbi építési és közlekedési miniszter — MÁV-tartozások elengedése önkormányzatoknak a választás előtt",
+   "verification_notes": "ÚJ TÉTEL (2026-10-04 16:55-ös futás). Az ügyet eredetileg az Index tárta fel 2026-05-20-án (választás előtti tartozáselengedés), a formális rendőrségi nyomozást (ORFK/Készenléti Rendőrség NNI) állampolgári feljelentés alapján 2026-08-23-án indították, erről 2026-08-28-án számolt be részletesen a HVG360 (és nyomán a Telex), valamint több további forrás (Magyar Hang, Esti Hírlap, ACNews, Contextus, Nyugati Fény, Hírnavigátor). Nem szerepel a kormany.hu/atlathato/feljelentes hivatalos listáján (2026-10-04-i ellenőrzés szerint), mivel ez állampolgári feljelentésre indult rendőrségi eljárás, nem kormányzati/minisztériumi feljelentés. Tényleges, az államhoz visszakerült vagyon nincs; a tartozáselengedés maga okozta az állítólagos kárt (a MÁV-nak nem fizették be a tartozásokat).",
+   "id": "reported-lazar-mav-tartozaselengedes-2026-08",
+   "updated_at": "2026-10-04T15:01:51+00:00",
+   "first_seen_at": "2026-10-04T15:01:51+00:00"
+  },
+  {
    "alleged_amount_huf": 21000000000,
    "alleged_amount_text": "legalább 21 milliárd forint költségvetési veszteség (Transparency International becslése); a programban összesen kb. 1,67 milliárd euró (kb. 519 milliárd forint) érkezett be a kötvényvásárlóktól",
    "confirmed_recovered_huf": 0,
@@ -2173,7 +2210,7 @@
    "url": "https://magyarnemzet.hu/gazdasag/2026/09/allamadossag-novekedes"
   },
   "allamadossag_huf": 65716000000000,
-  "collected_at": "2026-10-04T11:58:00+02:00",
+  "collected_at": "2026-10-04T17:00:00+02:00",
   "elozo": {
    "allamadossag": {
     "period": null,
@@ -2266,7 +2303,7 @@
     "label_en": "Central bank base rate",
     "label_hu": "Jegybanki alapkamat",
     "note_en": "The Monetary Council left the base rate unchanged after a total 75 basis point cut over the summer.",
-    "note_hu": "A Monetáris Tanács nem változtatott az alapkamaton, a nyári, összesen 75 bázispontos csökkentést követően.",
+    "note_hu": "A Monetáris Tanács nem változtatott az alapkamáton, a nyári, összesen 75 bázispontos csökkentést követően.",
     "period": "2026-09-22",
     "prev_period": "2026-08-25 előtt",
     "prev_value": 5.75,
@@ -2283,7 +2320,7 @@
     "label_en": "Official EUR/HUF rate (MNB)",
     "label_hu": "Euró hivatalos árfolyama (MNB)",
     "note_en": "USD: 326.94 HUF (2026-10-02 fixing). No new business-day fixing as of this run (weekend).",
-    "note_hu": "Dollár: 326,94 Ft (2026-10-02-i fixing). 2026-10-03 (szombat) és 2026-10-04 (vasárnap) nem munkanap, nincs új fixing.",
+    "note_hu": "Dollár: 326,94 Ft (2026-10-02-i fixing). 2026-10-03 és 2026-10-04 nem munkanap, nincs új fixing ebben a futásban sem.",
     "period": "2026-10-02",
     "prev_period": "2026-10-01",
     "prev_value": 368.32,
@@ -2395,30 +2432,60 @@
    "publish_date": "2026-09-22",
    "url": "https://www.portfolio.hu/gazdasag/20260922/itt-az-mnb-uj-elorejelzese-hiaba-a-nemzetkozi-kockazatok-mersekelt-marad-az-idei-inflacio-864484"
   },
-  "id": "2026-10-04T11-58"
+  "id": "2026-10-04T17-00"
  },
  "last_run": {
-  "errors": [],
+  "errors": [
+   "telex.hu közvetlen lekérése (WebFetch) 403-at adott egy cikknél, de a hvg360 eredeti forrás és más portálok megerősítették a tartalmat",
+   "hirkereso.hu/politika aloldal 404-et adott, a főoldal (hirkereso.hu) helyette sikerrel lekérve",
+   "az ÁKK honlapjának (akk.hu) közvetlen lekérése nem adott ki konkrét államadósság-számot, ezért a korábbi (2026-07-31-i, Magyar Nemzet/ÁKK) adat változatlanul megmaradt, új, megbízhatóan ellenőrizhető frissebb hivatalos számot ebben a futásban nem találtunk"
+  ],
   "eu_lost_items_new": 0,
-  "finished_at": "2026-10-04T12:05:00+02:00",
+  "finished_at": "2026-10-04T17:10:00+02:00",
   "items_duplicate": 0,
-  "items_found_total": 0,
+  "items_found_total": 1,
   "items_needs_review": 0,
   "items_new": 0,
-  "reported_cases_new": 0,
+  "reported_cases_new": 1,
   "reported_cases_updated": 0,
   "sources_checked": [
-   "kormany.hu/atlathato/feljelentes (hivatalos forrás, teljes lista összevetve: változatlanul 47 ügy / 2255 Mrd Ft / 12 nyomozás / 25,0 Mrd Ft megtérült)",
-   "K-Monitor (k-monitor.hu, adatbazis.k-monitor.hu) - site-kereséssel",
+   "kormany.hu/atlathato/feljelentes",
+   "24.hu",
+   "444.hu",
+   "Telex",
+   "HVG",
+   "Index",
+   "Portfolio.hu",
+   "Economx",
+   "Infostart.hu",
+   "Világgazdaság",
+   "Origo",
+   "Mandiner",
+   "mfor.hu",
+   "Pénzcentrum",
+   "Privátbankár",
+   "Forbes.hu",
+   "Szeretlek Magyarország",
+   "Okoshír",
+   "K-Monitor (WebSearch)",
    "mnvvh.hu/hirek",
-   "ugyeszseg.hu/category/hirek/kozponti-nyomozo-fougyeszseg/",
+   "ugyeszseg.hu (Központi Nyomozó Főügyészség)",
    "hirkereso.hu",
-   "WebSearch lapszemle-jellegű és tematikus keresések (24.hu, Telex, HVG, Index, Portfolio, Világgazdaság, Economx, 444.hu, Infostart, Origo, Forbes, Mandiner, Népszava, mfor.hu, Pénzcentrum, Magyar Hírlap, Magyar Nemzet, ATV, Euronews HU stb. - megtakarítás, visszaszerzés, feljelentés, elveszett uniós forrás, túlárazás, pazarlás kulcsszavakkal)"
+   "MNB (árfolyamok)",
+   "ÁKK"
   ],
-  "started_at": "2026-10-04T11:50:00+02:00",
-  "id": "2026-10-04T11-58"
+  "started_at": "2026-10-04T16:55:00+02:00",
+  "id": "2026-10-04T17-00"
  },
  "run_history": [
+  {
+   "finished_at": "2026-10-04T17:10:00+02:00",
+   "started_at": "2026-10-04T16:55:00+02:00",
+   "items_new": 0,
+   "reported_cases_new": 1,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
   {
    "finished_at": "2026-10-04T12:05:00+02:00",
    "started_at": "2026-10-04T11:50:00+02:00",
@@ -2739,11 +2806,11 @@
   }
  ],
  "run_summary": {
-  "run_id": "2026-10-04T10:00:07+00:00",
-  "new": 0,
+  "run_id": "2026-10-04T15:01:51+00:00",
+  "new": 1,
   "modified": 0,
   "confirmed_only": 0,
-  "touched": 0,
+  "touched": 1,
   "pending_review": 1,
   "by_section": {
    "items": {
@@ -2752,12 +2819,14 @@
     "confirmed_only": 0
    },
    "reported_cases": {
-    "new": 0,
+    "new": 1,
     "modified": 0,
     "confirmed_only": 0
    }
   },
-  "new_ids": [],
+  "new_ids": [
+   "r:reported-lazar-mav-tartozaselengedes-2026-08"
+  ],
   "modified_ids": [],
   "confirmed_ids": []
  },
@@ -3438,6 +3507,21 @@
     },
     "reported_cases": {
      "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    }
+   }
+  },
+  {
+   "run_id": "2026-10-04T15:01:51+00:00",
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 1,
      "modified": 0,
      "confirmed_only": 0
     }
