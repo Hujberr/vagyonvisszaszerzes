@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-04T04:00:40+00:00",
+ "generated_at": "2026-10-04T10:00:07+00:00",
  "summary": {
   "megtakaritas_verified_huf": 1006545700000,
   "visszaszerzes_verified_huf": 1544418000000,
@@ -1934,8 +1934,8 @@
    "subject": "Rákay Philip \"Most vagy soha!\" (Petőfi) című filmje — állami támogatás felhasználása",
    "verification_notes": "ÚJ TÉTEL (2026-10-04 futás). Legalább négy független sajtóforrás (Index, Economx, 444.hu, Népszava) egyezően számol be a NAV 2026-09-28 körüli nyomozásáról. Nem szerepel a kormany.hu/atlathato/feljelentes hivatalos listáján (2026-10-04-i ellenőrzés szerint, a lista változatlanul 47 ügy/2255 Mrd Ft, 2026-10-02-i állapot) — ez a NAV önálló, nem kormányzati/minisztériumi feljelentésen alapuló nyomozása. Tényleges visszaszerzés vagy vádemelés még nem történt.",
    "id": "reported-petofi-film-rakay-2026-09",
-   "updated_at": "2026-10-04T04:00:40+00:00",
-   "first_seen_at": "2026-10-04T04:00:40+00:00"
+   "first_seen_at": "2026-10-04T04:00:40+00:00",
+   "updated_at": "2026-10-04T04:00:40+00:00"
   },
   {
    "additional_sources": [
@@ -2173,7 +2173,7 @@
    "url": "https://magyarnemzet.hu/gazdasag/2026/09/allamadossag-novekedes"
   },
   "allamadossag_huf": 65716000000000,
-  "collected_at": "2026-10-04T05:58:00+02:00",
+  "collected_at": "2026-10-04T11:58:00+02:00",
   "elozo": {
    "allamadossag": {
     "period": null,
@@ -2395,49 +2395,38 @@
    "publish_date": "2026-09-22",
    "url": "https://www.portfolio.hu/gazdasag/20260922/itt-az-mnb-uj-elorejelzese-hiaba-a-nemzetkozi-kockazatok-mersekelt-marad-az-idei-inflacio-864484"
   },
-  "id": "2026-10-04T05-58"
+  "id": "2026-10-04T11-58"
  },
  "last_run": {
-  "errors": [
-   "hirkereso.hu/politika aloldal 404-et adott, helyette a főoldal (hirkereso.hu) áttekintése történt",
-   "Az ÁKK hivatalos statisztikai oldala (akk.hu) ebben a futásban sem volt közvetlenül lekérhető; az államadósság értéke változatlanul a 2026-07-31-i (Magyar Nemzet/ÁKK-adatra hivatkozó) állapotot tükrözi; új abszolút Ft-összeg nem volt található, csak relatív/finanszirozasi terv adatok",
-   "MNB EUR/HUF: ebben a futásban (2026-10-04, vasárnap) nem volt új munkanapi fixing, a 2026-10-02-i állapot maradt érvényben",
-   "A kormany.hu/atlathato/feljelentes oldal tartalma (47 ügy, 2255 Mrd Ft, 25,0 Mrd Ft visszafizetve/megtakarítva) változatlan volt az előző (2026-10-03 17:04) futáshoz képest — nem volt szükség frissítésre a reported-osszesito-2026-09 tételen",
-   "Az 'aranykonvoj'-ügy (ukán pénzszállítók jogtalan fogva tartása) az NVVH saját nyilatkozata szerint nem sorolható be a közvagyonnal kapcsolatos korrupciós ügyek közé, ezért nem került be az adattárba",
-   "A rezsivédelmi célra átcsoportosított 119 Mrd Ft (2026-09-29, Magyar Közlöny) folyamatban lévő kiádás, nem megtakarítás/visszaszerzés, nem került be"
-  ],
+  "errors": [],
   "eu_lost_items_new": 0,
-  "finished_at": "2026-10-04T06:10:00+02:00",
+  "finished_at": "2026-10-04T12:05:00+02:00",
   "items_duplicate": 0,
-  "items_found_total": 2,
+  "items_found_total": 0,
   "items_needs_review": 0,
   "items_new": 0,
-  "reported_cases_new": 1,
+  "reported_cases_new": 0,
   "reported_cases_updated": 0,
   "sources_checked": [
-   "kormany.hu/atlathato/feljelentes",
-   "Index",
-   "Economx",
-   "444.hu",
-   "Népszava",
-   "Telex",
-   "Portfolio.hu",
-   "Világgazdaság",
-   "HVG",
-   "Infostart.hu",
-   "K-Monitor (WebSearch)",
-   "Ügyészség.hu (Központi Nyomozó Főügyészség rovat)",
+   "kormany.hu/atlathato/feljelentes (hivatalos forrás, teljes lista összevetve: változatlanul 47 ügy / 2255 Mrd Ft / 12 nyomozás / 25,0 Mrd Ft megtérült)",
+   "K-Monitor (k-monitor.hu, adatbazis.k-monitor.hu) - site-kereséssel",
    "mnvvh.hu/hirek",
+   "ugyeszseg.hu/category/hirek/kozponti-nyomozo-fougyeszseg/",
    "hirkereso.hu",
-   "Pénzcentrum",
-   "Magyar Nemzet",
-   "ORIGO",
-   "mfor.hu"
+   "WebSearch lapszemle-jellegű és tematikus keresések (24.hu, Telex, HVG, Index, Portfolio, Világgazdaság, Economx, 444.hu, Infostart, Origo, Forbes, Mandiner, Népszava, mfor.hu, Pénzcentrum, Magyar Hírlap, Magyar Nemzet, ATV, Euronews HU stb. - megtakarítás, visszaszerzés, feljelentés, elveszett uniós forrás, túlárazás, pazarlás kulcsszavakkal)"
   ],
-  "started_at": "2026-10-04T05:50:00+02:00",
-  "id": "2026-10-04T05-58"
+  "started_at": "2026-10-04T11:50:00+02:00",
+  "id": "2026-10-04T11-58"
  },
  "run_history": [
+  {
+   "finished_at": "2026-10-04T12:05:00+02:00",
+   "started_at": "2026-10-04T11:50:00+02:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
   {
    "finished_at": "2026-10-04T06:10:00+02:00",
    "started_at": "2026-10-04T05:50:00+02:00",
@@ -2750,31 +2739,27 @@
   }
  ],
  "run_summary": {
-  "run_id": "2026-10-04T04:00:40+00:00",
-  "new": 1,
+  "run_id": "2026-10-04T10:00:07+00:00",
+  "new": 0,
   "modified": 0,
-  "confirmed_only": 1,
-  "touched": 2,
+  "confirmed_only": 0,
+  "touched": 0,
   "pending_review": 1,
   "by_section": {
    "items": {
     "new": 0,
     "modified": 0,
-    "confirmed_only": 1
+    "confirmed_only": 0
    },
    "reported_cases": {
-    "new": 1,
+    "new": 0,
     "modified": 0,
     "confirmed_only": 0
    }
   },
-  "new_ids": [
-   "r:reported-petofi-film-rakay-2026-09"
-  ],
+  "new_ids": [],
   "modified_ids": [],
-  "confirmed_ids": [
-   "i:eu-forras-megallapodas-2026-05"
-  ]
+  "confirmed_ids": []
  },
  "run_summary_history": [
   {
@@ -3438,6 +3423,21 @@
     },
     "reported_cases": {
      "new": 1,
+     "modified": 0,
+     "confirmed_only": 0
+    }
+   }
+  },
+  {
+   "run_id": "2026-10-04T10:00:07+00:00",
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 0,
      "modified": 0,
      "confirmed_only": 0
     }
