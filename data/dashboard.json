@@ -1,13 +1,13 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-05T04:03:09+00:00",
+ "generated_at": "2026-10-05T10:07:29+00:00",
  "summary": {
   "megtakaritas_verified_huf": 1009045700000,
   "visszaszerzes_verified_huf": 1545118000000,
   "eu_forras_verified_huf": 5986000000000,
   "eu_forras_lost_huf": 730000000000,
   "items_count": 27,
-  "reported_cases_count": 37
+  "reported_cases_count": 38
  },
  "items": [
   {
@@ -651,8 +651,8 @@
    "subject": "Szolnoki különleges erők laktanyájának felújítása — felesleges munkák leállítása",
    "verification_notes": "ÚJ TÉTEL (2026-10-05 06:00-ás futás). Legalább nyolc független sajtóforrás (Világgazdaság, Index, HVG, Telex, Magyar Hírlap, Portfolio.hu, Népszava, szoljon.hu, 10perc.hu) egyezően számol be a 2026-10-01-i miniszteri bejelentésről — a felhasználói szabály szerint (több független sajtóforrás) a tétel verified státuszban rögzíthető. Nem szerepel a kormany.hu/atlathato/feljelentes hivatalos listáján (2026-10-05-i ellenőrzés szerint, a lista változatlanul 47 ügy/2255 Mrd Ft, 2026-10-02-i állapot), mivel ez nem formális feljelentés, csak egy beruházási szerződés átalakítása/munkák leállítása.",
    "id": "megtakaritas-szolnok-laktanya-tularazott-munkak-2026-10",
-   "updated_at": "2026-10-05T04:03:09+00:00",
-   "first_seen_at": "2026-10-05T04:03:09+00:00"
+   "first_seen_at": "2026-10-05T04:03:09+00:00",
+   "updated_at": "2026-10-05T04:03:09+00:00"
   },
   {
    "additional_sources": [],
@@ -1998,6 +1998,48 @@
   {
    "additional_sources": [
     {
+     "name": "HVG",
+     "published_date": "2026-10-05",
+     "url": "https://hvg.hu/gazdasag/20261005_paksi-foldmutyi-hadhazy-akos-sarosi-jozsef-szekszard-tisza-part"
+    },
+    {
+     "name": "Index",
+     "published_date": "2026-10-05",
+     "url": "https://index.hu/gazdasag/2026/10/05/hadhazy-akos-tisza-part-paks-tularazas-foldvasarlas"
+    },
+    {
+     "name": "Népszava",
+     "published_date": "2026-10-05",
+     "url": "https://nepszava.hu/3334180_hadhazy-akos-paks-foldmutyi-sarosi-jozsef"
+    },
+    {
+     "name": "Origo",
+     "published_date": "2026-10-05",
+     "url": "https://www.origo.hu/belpol/2026/10/sarosi-jozsef-hadhazy-akos-foldmutyi-paks"
+    }
+   ],
+   "alleged_amount_huf": null,
+   "alleged_amount_text": "Összesített kár nincs közölve, csak egyedi példák: egy 20 hektáros legelőért 3 milliárd forintot fizettek (piaci ár kb. 1-1,5 millió forint/hektár lett volna), egy 5,5 hektáros terület vásárlása 557 millió forintba került",
+   "confirmed_recovered_huf": 0,
+   "description": "Hadházy Ákos országgyűlési képviselő feljelentése szerint a Paksi Ipari Park Kft. 2019 és 2020 között mezőgazdasági földterületeket a piaci árak sokszorosáért, egyes esetekben százszoros áron vásárolt meg. A rendőrség nyomozást rendelt el az ügyben; Hadházy 2026 október elején új bizonyítékokkal egészítette ki korábbi feljelentését.",
+   "ministry": "Rendőrség (Hadházy Ákos országgyűlési képviselő feljelentésére indult nyomozás) — érintett szervezet: Paksi Ipari Park Kft. (állami hátterű ipari park fejlesztő cég)",
+   "recovered_item_id": null,
+   "report_date": "2026-10-05",
+   "report_source": {
+    "name": "Telex",
+    "published_date": "2026-10-05",
+    "url": "https://telex.hu/belfold/2026/10/05/sarosi-jozsef-hadhazy-akos-foldvasarlas-feljelentes-tisza-part-paksi-ipari-park-kft"
+   },
+   "status": "under_investigation",
+   "subject": "Paksi Ipari Park Kft. — mezőgazdasági földterületek túlárazott megvásárlása (2019–2020)",
+   "verification_notes": "ÚJ TÉTEL (2026-10-05 12:00-ás futás). Legalább négy független sajtóforrás (Telex, HVG, Index, Népszava, Origo) egyezően számol be az ügyről, mind 2026-10-05-i dátummal. Hadházy Ákos állítása szerint Sárosi József, Szekszárd jelenlegi tiszás országgyűlési képviselője (akkor a paksi városüzemeltető cég vezetője) 2019-2020-ban közvetítőként sikerdíjat kapott a földtulajdonosoktól, miközben a Paksi Ipari Park Kft. a piaci ár sokszorosáért vásárolt fel földeket. Sárosi József tagadja a szabálytalanságot, állítása szerint minden törvényesen zajlott. A rendőrség korábban, egy előzetes Hadházy-feljelentés alapján már elrendelte a nyomozást; a pontos eredeti feljelentés dátuma a cikkekben nem szerepel. Nem szerepel a kormany.hu/atlathato/feljelentes hivatalos listáján (2026-10-05-i ellenőrzés szerint, a lista változatlanul 47 ügy/2255 Mrd Ft, 2026-10-02-i állapot), mivel ez képviselői (nem kormányzati/minisztériumi) feljelentésre indult rendőrségi eljárás. Összesített kárösszeg nincs közölve, csak egyedi tranzakciós példák; tényleges, az államhoz/önkormányzathoz visszakerült vagyon nincs.",
+   "id": "reported-paksi-ipari-park-foldvasarlas-2026-10",
+   "updated_at": "2026-10-05T10:07:29+00:00",
+   "first_seen_at": "2026-10-05T10:07:29+00:00"
+  },
+  {
+   "additional_sources": [
+    {
      "name": "Economx",
      "published_date": "2026-09-28",
      "url": "https://www.economx.hu/belfold/2026/09/28/nyomozas-nav-rakay-philip-petofi-film-allami-tamogatas/"
@@ -2268,7 +2310,7 @@
    "url": "https://magyarnemzet.hu/gazdasag/2026/09/allamadossag-novekedes"
   },
   "allamadossag_huf": 65716000000000,
-  "collected_at": "2026-10-04T17:00:00+02:00",
+  "collected_at": "2026-10-05T12:00:00+02:00",
   "elozo": {
    "allamadossag": {
     "period": null,
@@ -2308,7 +2350,7 @@
    {
     "key": "munkanelkulisegi_rata",
     "label_en": "Unemployment rate",
-    "label_hu": "Munkanélküliségi ráta",
+    "label_hu": "Munkanélküliégi ráta",
     "note_en": "229 thousand unemployed in August. The June-August three-month average was 4.8%.",
     "note_hu": "229 ezer munkanélküli augusztusban. A június–augusztusi háromhavi átlag 4,8% volt.",
     "period": "2026-08",
@@ -2377,8 +2419,8 @@
     "key": "eur_huf",
     "label_en": "Official EUR/HUF rate (MNB)",
     "label_hu": "Euró hivatalos árfolyama (MNB)",
-    "note_en": "USD: 326.94 HUF (2026-10-02 fixing). No new business-day fixing as of this run (weekend).",
-    "note_hu": "Dollár: 326,94 Ft (2026-10-02-i fixing). 2026-10-03 és 2026-10-04 nem munkanap, nincs új fixing ebben a futásban sem.",
+    "note_en": "USD: 326.94 HUF (2026-10-02 fixing). No new confirmed business-day fixing as of this run.",
+    "note_hu": "Dollár: 326,94 Ft (2026-10-02-i fixing). 2026-10-03 és 2026-10-04 hétvégén nincs új fixing, és ebben a futásban (2026-10-05) sem erősíthető meg megbízhatóan új munkanapi jegyzés.",
     "period": "2026-10-02",
     "prev_period": "2026-10-01",
     "prev_value": 368.32,
@@ -2490,54 +2532,56 @@
    "publish_date": "2026-09-22",
    "url": "https://www.portfolio.hu/gazdasag/20260922/itt-az-mnb-uj-elorejelzese-hiaba-a-nemzetkozi-kockazatok-mersekelt-marad-az-idei-inflacio-864484"
   },
-  "id": "2026-10-04T17-00"
+  "id": "2026-10-05T12-00"
  },
  "last_run": {
   "errors": [
-   "A kormany.hu/atlathato/feljelentes oldal tartalma (47 ügy, 2255 Mrd Ft, 24,2 Mrd Ft visszafizetve/megtakarítva, 12 ügyben nyomozás) ebben a futásban is változatlan volt a 2026-10-02-i állapothoz képest — nem volt szükség frissítésre a reported-osszesito-2026-09 tételen.",
-   "Új makró-pillanatkép nem készült ebben a futásban: a legutóbbi (2026-10-04 17:00) pillanatkép óta nem jelent meg új KSH/MNB/ÁKK publikáció (a következő KSH fogyasztói ár gyorstájékoztató 2026-10-07-én várható); a legutóbbi pillanatkép marad érvényben.",
-   "hirkereso.hu/politika közvetlen alcím-URL-je 404-es hibát adott, helyette a főoldal (hirkereso.hu) rovatai kerültek áttekintésre.",
-   "Az 'aranykonvoj-ügy' (2026-10-02, Központi Nyomozó Ügyészség saját hatáskörbe vonása) jogellenes fogdaügyre/lefoglalt arany-csempészetre vonatkozik, nem állami közpénz-sikkasztásra vagy visszaszerzésre — a felhasználói szűrési szabály szerint nem került fel az items/reported_cases kollekciókba.",
-   "A Pikó András-féle józsefvárosi feljelentés (Fidesz-kampányalapítvány, 5 millió Ft PMO-támogatás) 2026-08-19-i, a 3 napos ablakon kívüli és összegében csekély ügy, korábbi futásokban sem rögzített — alacsony jelentősége miatt egyelőre nem vettük fel, figyelendő, ha összeg/jelentőség nő.",
-   "A Dobrev Klára mentelmi jogi ügy (2026 januári feljelentés, Hankó Balázs rágalmazási ügye) nem közpénz-visszaszerzési/megtakarítási téma, ezért nem került az adattárba."
+   "hirkereso.hu/politika 404-et adott (az oldal szerkezete megváltozhatott, ebben a futásban nem volt átnézhető)",
+   "ugyeszseg.hu/category/hirek/kozponti-nyomozo-fougyeszseg/ 503-at adott (ideiglenesen nem elérhető)",
+   "Az államadósság (allamadossag_huf) frissítéséhez nem találtunk egyértelmű, egyetlen cikk által világosan közölt, ÁKK-ra hivatkozó új teljes összeget (több cikk csak a finanszírozási terv módosításáról írt, nem a teljes állományról) — a korábbi, 2026-07-31-i állapot maradt érvényben.",
+   "A legfrissebb EUR/HUF munkanapi fixing (2026-10-05 vagy azután) nem volt megbízhatóan megerősíthető ebben a futásban, ezért a 2026-10-02-i érték maradt érvényben."
   ],
   "eu_lost_items_new": 0,
-  "finished_at": "2026-10-05T06:45:00+02:00",
-  "items_duplicate": 8,
-  "items_found_total": 9,
+  "finished_at": "2026-10-05T12:30:00+02:00",
+  "items_duplicate": 6,
+  "items_found_total": 16,
   "items_needs_review": 0,
-  "items_new": 1,
-  "reported_cases_new": 0,
-  "reported_cases_updated": 1,
+  "items_new": 0,
+  "reported_cases_new": 1,
+  "reported_cases_updated": 0,
   "sources_checked": [
    "kormany.hu/atlathato/feljelentes",
+   "WebSearch (10+ tematikus keresés)",
+   "K-Monitor (k-monitor.hu, két célzott keresés)",
    "mnvvh.hu/hirek",
-   "ugyeszseg.hu/category/hirek/kozponti-nyomozo-fougyeszseg",
-   "k-monitor.hu (WebSearch)",
+   "ugyeszseg.hu (Kozponti Nyomozo Fougyeszseg hirek)",
    "hirkereso.hu",
-   "telex.hu",
+   "Telex",
    "444.hu",
-   "index.hu",
-   "hvg.hu",
-   "portfolio.hu",
-   "economx.hu",
-   "vg.hu",
-   "nepszava.hu",
-   "origo.hu",
-   "magyarhirlap.hu",
-   "penzcentrum.hu",
-   "infostart.hu",
-   "atv.hu",
-   "10perc.hu",
-   "szoljon.hu",
-   "contextus.hu",
-   "ksh.hu (search)",
-   "mnb.hu (search)"
+   "HVG",
+   "Index",
+   "Portfolio.hu",
+   "Economx",
+   "Vilaggazdasag",
+   "Nepszava",
+   "Origo",
+   "Forbes.hu",
+   "Infostart.hu",
+   "Magyar Nemzet",
+   "Szabad Europa"
   ],
-  "started_at": "2026-10-05T06:00:00+02:00",
-  "id": "2026-10-05T06-00"
+  "started_at": "2026-10-05T11:50:00+02:00",
+  "id": "2026-10-05T12-00"
  },
  "run_history": [
+  {
+   "finished_at": "2026-10-05T12:30:00+02:00",
+   "started_at": "2026-10-05T11:50:00+02:00",
+   "items_new": 0,
+   "reported_cases_new": 1,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
   {
    "finished_at": "2026-10-05T06:45:00+02:00",
    "started_at": "2026-10-05T06:00:00+02:00",
@@ -2874,31 +2918,28 @@
   }
  ],
  "run_summary": {
-  "run_id": "2026-10-05T04:03:09+00:00",
+  "run_id": "2026-10-05T10:07:29+00:00",
   "new": 1,
-  "modified": 2,
+  "modified": 0,
   "confirmed_only": 0,
-  "touched": 3,
+  "touched": 1,
   "pending_review": 1,
   "by_section": {
    "items": {
-    "new": 1,
-    "modified": 1,
+    "new": 0,
+    "modified": 0,
     "confirmed_only": 0
    },
    "reported_cases": {
-    "new": 0,
-    "modified": 1,
+    "new": 1,
+    "modified": 0,
     "confirmed_only": 0
    }
   },
   "new_ids": [
-   "i:megtakaritas-szolnok-laktanya-tularazott-munkak-2026-10"
+   "r:reported-paksi-ipari-park-foldvasarlas-2026-10"
   ],
-  "modified_ids": [
-   "i:visszaszerzes-nka-hanko-onkentes-visszafizetes-2026-07",
-   "r:reported-hanko-balazs-nka-sikkasztas-2026-09"
-  ],
+  "modified_ids": [],
   "confirmed_ids": []
  },
  "run_summary_history": [
@@ -3609,6 +3650,21 @@
     "reported_cases": {
      "new": 0,
      "modified": 1,
+     "confirmed_only": 0
+    }
+   }
+  },
+  {
+   "run_id": "2026-10-05T10:07:29+00:00",
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 1,
+     "modified": 0,
      "confirmed_only": 0
     }
    }
