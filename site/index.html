@@ -38,6 +38,7 @@
 /* Honlap-beállítások — élesítéskor itt kapcsolhatók be az egyes elemek. */
 window.SITE_CONFIG = {
   dataUrl: "https://raw.githubusercontent.com/Hujberr/vagyonvisszaszerzes/main/data/dashboard.json",
+  historyUrl: "https://raw.githubusercontent.com/Hujberr/vagyonvisszaszerzes/main/data/history.json", // napi pillanatképek a heti jelvényhez és a grafikonhoz
   counterUrl: "counter.php",   // a tárhelyen futó látogatószámláló; ha nem érhető el, a számláló rejtve marad
   supportEnabled: true,        // „Támogatás” link és ablak
   supportBar: true,            // visszafogott támogatási sáv a lábléc fölött (csak ha a támogatás be van kapcsolva)
@@ -233,6 +234,37 @@ window.SITE_CONFIG = {
   .rb-count b{font-family:"JetBrains Mono",monospace;}
   .rb-more{font-size:12px;font-weight:700;letter-spacing:.02em;color:var(--accent);white-space:nowrap;}
   .rb-more::before{content:var(--more-label);}
+
+  /* ---------- heti változás jelvény (a kártyák jobb felső sarkában) ---------- */
+  .wk-badge{position:absolute;top:12px;right:12px;min-width:70px;padding:5px 9px;border-radius:12px;display:flex;flex-direction:column;align-items:center;gap:1px;line-height:1.25;pointer-events:none;background:rgba(139,151,172,.16);}
+  .wk-badge[hidden],.wk-pill[hidden]{display:none;}
+  .wk-l{font-size:10.5px;font-weight:600;letter-spacing:.02em;color:var(--text-dim);}
+  .wk-n{font-family:"JetBrains Mono",monospace;font-size:13.5px;font-weight:700;color:var(--text-dim);}
+  .wk-badge.up,.wk-pill.up{background:var(--good-bg);} .wk-badge.up .wk-n,.wk-pill.up .wk-n{color:var(--good);}
+  .wk-badge.down,.wk-pill.down{background:var(--bad-bg);} .wk-badge.down .wk-n,.wk-pill.down .wk-n{color:var(--bad);}
+  .wk-pill{display:inline-flex;align-items:baseline;gap:6px;margin-top:6px;padding:2px 9px;border-radius:8px;background:rgba(139,151,172,.16);}
+  .wk-pill .wk-n{font-size:12px;}
+  .stat-card.has-wk .stat-top{padding-right:84px;}
+  .stat-card.bad.big.has-wk .stat-top{justify-content:flex-start;}
+
+  /* ---------- grafikon a részletező lapon ---------- */
+  .chart-card{margin:0 0 14px;padding:10px 12px 6px;border:1px solid var(--border);border-radius:12px;background:var(--surface-2);cursor:pointer;}
+  .chart-card:hover{border-color:var(--text-faint);}
+  .chart-card:focus-visible{outline:2px solid var(--accent);outline-offset:2px;}
+  .chart-card-head{display:flex;justify-content:space-between;align-items:baseline;font-size:12.5px;font-weight:600;color:var(--text);margin-bottom:2px;}
+  .chart-zoom{font-size:12px;font-weight:700;color:var(--accent);white-space:nowrap;}
+  .chart-box{position:relative;width:100%;min-height:104px;}
+  .chart-box.full{min-height:250px;}
+  .chart-box svg{display:block;width:100%;height:auto;overflow:visible;}
+  .chart-ctrl{display:flex;flex-wrap:wrap;gap:10px;justify-content:space-between;margin-bottom:10px;}
+  .ch-seg{display:inline-flex;border:1px solid var(--border);border-radius:999px;overflow:hidden;}
+  .ch-seg button{background:transparent;border:0;color:var(--text-dim);font:inherit;font-size:12.5px;padding:5px 14px;cursor:pointer;}
+  .ch-seg button.on{background:var(--accent);color:var(--surface-2);font-weight:700;}
+  .chart-sub{font-size:12px;color:var(--text-dim);margin-bottom:6px;}
+  .chart-note{font-size:11.5px;color:var(--text-faint);margin:10px 0 0;}
+  .ch-tip{position:absolute;top:0;pointer-events:none;background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:6px 9px;font-size:11.5px;line-height:1.45;color:var(--text);box-shadow:0 6px 18px rgba(0,0,0,.3);white-space:nowrap;z-index:2;}
+  .ch-tip b{font-family:"JetBrains Mono",monospace;font-weight:700;}
+  .ch-tip span{color:var(--text-dim);}
   @media (hover:hover){
     .stat-card.clickable,.panel.clickable{transition:transform .18s ease,border-color .18s,box-shadow .18s;}
     .stat-card.clickable:hover,.panel.clickable:hover{transform:translateY(-3px);box-shadow:0 10px 26px rgba(0,0,0,.28);}
@@ -747,7 +779,8 @@ window.SITE_CONFIG = {
 <main class="wrap">
 
   <section class="stat-grid" id="statGrid" aria-label="Kulcsmutatók">
-    <div class="stat-card good clickable" data-cat="recovered" tabindex="0" role="button">
+    <div class="stat-card good clickable has-wk" data-cat="recovered" tabindex="0" role="button">
+      <div class="wk-badge" id="wkRecovered" hidden><span class="wk-l" data-i18n="wkLabel">heti</span><span class="wk-n">–</span></div>
       <div class="stat-top">
         <div class="stat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="8" cy="10" r="5"/><circle cx="16" cy="14" r="5"/></svg></div>
         <div class="stat-label" data-i18n="statRecoveredLabel">Visszaszerzés (igazolt)</div>
@@ -755,7 +788,8 @@ window.SITE_CONFIG = {
       <div class="stat-value mono" id="statRecovered">–</div>
       <div class="stat-foot" id="statRecoveredFoot">–</div>
     </div>
-    <div class="stat-card blue clickable" data-cat="saved" tabindex="0" role="button">
+    <div class="stat-card blue clickable has-wk" data-cat="saved" tabindex="0" role="button">
+      <div class="wk-badge" id="wkSaved" hidden><span class="wk-l" data-i18n="wkLabel">heti</span><span class="wk-n">–</span></div>
       <div class="stat-top">
         <div class="stat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3l7 3v6c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6z"/></svg></div>
         <div class="stat-label" data-i18n="statSavedLabel">Megtakarítás (bejelentett)</div>
@@ -771,11 +805,12 @@ window.SITE_CONFIG = {
       <div class="split-bar" id="euBar"></div>
       <div class="split-nums eu-nums">
         <div><div class="n mono" style="color:var(--eu)" id="euAgreedN">–</div><div class="l" data-i18n="agreedLabel">Megállapodott</div></div>
-        <div><div class="n mono" id="euReceivedN">–</div><div class="l" data-i18n="receivedLabel">Beérkezett</div></div>
+        <div><div class="n mono" id="euReceivedN">–</div><div class="l" data-i18n="receivedLabel">Beérkezett</div><div class="wk-pill" id="wkEu" hidden><span class="wk-n">–</span><span class="wk-l" data-i18n="wkLabel">heti</span></div></div>
         <div class="lost"><div class="n mono" id="euLostN">–</div><div class="l" data-i18n="lostLabel">Elveszett források</div></div>
       </div>
     </div>
-    <div class="stat-card bad big clickable" data-cat="reported" tabindex="0" role="button">
+    <div class="stat-card bad big clickable has-wk" data-cat="reported" tabindex="0" role="button">
+      <div class="wk-badge" id="wkReported" hidden><span class="wk-l" data-i18n="wkLabel">heti</span><span class="wk-n">–</span></div>
       <div class="stat-top">
         <div class="stat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 4l6 3 6-3M6 4v9c0 3.5 2.6 6.3 6 7 3.4-.7 6-3.5 6-7V4"/></svg></div>
         <div class="stat-label" data-i18n="statReportedLabel">Feljelentett ügyek összege</div>
@@ -980,6 +1015,11 @@ window.SITE_CONFIG = {
       tutMacro:"<b>Makrogazdasági mutatók.</b> Az államadósság és az infláció (havi, éves, várható) hivatalos forrásból. További részletekért kattintson a kártyára.",
       tutRecent:"<b>Legutóbbi ügyek.</b> Az elmúlt két nap új és frissített tételei, a legfrissebbek elöl. A „Frissítve” jelzés tényleges változást jelent. További részletekért kattintson a kártyára.",
       tutFooter:"<b>Háttér.</b> Itt találja az adatforrásokat, az adatvédelmi tájékoztatót, a kapcsolatot és a „Rólam” oldalt.",
+      wkLabel:"heti", chartTitle:"Összeg alakulása", chartZoom:"Nagyítás ›", chartLine:"Vonal", chartBar:"Oszlop", chartWeekly:"Heti", chartMonthly:"Havi",
+      chartNoData:"Még nincs elég adat a grafikonhoz.", chartTotalSub:"Összeg az időszak végén, Mrd Ft", chartChangeSub:"Változás az előző időszakhoz képest, Mrd Ft",
+      chartNote: d => `Az adatgyűjtés kezdete: ${d}. Az utolsó pont az éppen zajló időszakot mutatja.`, chartChangeWord:"Változás",
+      tutWeekly:"<b>Heti változás.</b> A jobb felső sarokban az aktuális naptári hét (hétfő 0:00-tól) változása látható milliárd forintban: zöld a növekedés, piros a csökkenés, szürke a változatlan érték.",
+      tutChart:"<b>Grafikon.</b> A részletező lap tetején az összeg alakulása látható a követés kezdete óta. A grafikonra kattintva nagyobb ablakban nyílik meg, ahol vonal és oszlop, valamint heti és havi nézet között lehet váltani.",
       tutEnd:"<b>Ennyi az egész.</b> A bemutatót a fejléc kérdőjel ikonjával bármikor újraindíthatja."
     },
     en:{
@@ -1024,6 +1064,11 @@ window.SITE_CONFIG = {
       tutMacro:"<b>Macroeconomic indicators.</b> State debt and inflation (monthly, annual, expected) from official sources. For more details, click the card.",
       tutRecent:"<b>Latest items.</b> New and updated entries from the past two days, newest first. “Updated” means a real change. For more details, click the card.",
       tutFooter:"<b>Background.</b> Find the data sources, privacy notice, contact and the “About” page here.",
+      wkLabel:"weekly", chartTitle:"Total over time", chartZoom:"Enlarge ›", chartLine:"Line", chartBar:"Bars", chartWeekly:"Weekly", chartMonthly:"Monthly",
+      chartNoData:"Not enough data for the chart yet.", chartTotalSub:"Total at period end, HUF bn", chartChangeSub:"Change versus previous period, HUF bn",
+      chartNote: d => `Tracking started on ${d}. The last point shows the period still in progress.`, chartChangeWord:"Change",
+      tutWeekly:"<b>Weekly change.</b> The top-right badge shows the change in the current calendar week (since Monday 00:00), in HUF billion: green means an increase, red a decrease, grey no change.",
+      tutChart:"<b>Chart.</b> The top of the details window shows how the total has developed since tracking began. Click it to open a larger view where you can switch between line and bars, and between weekly and monthly.",
       tutEnd:"<b>That's it.</b> You can restart the tour any time with the question mark icon in the header."
     }
   };
@@ -1383,7 +1428,11 @@ window.SITE_CONFIG = {
     { key:"pwa", targets:["#pwaInstall","#pushToggle"] },
     { key:"langTheme", targets:[".toggle","#themeToggle"] },
     { key:"recovered", targets:['.stat-card[data-cat="recovered"]'] },
+    { key:"weekly", targets:["#wkRecovered"] },
     { key:"details", targets:["#modalOverlay.show .modal"],
+      before: ()=>{ showModalView(()=>renderCategoryList("recovered"), {resetStack:true}); tutorialCatModalOpen = true; },
+      after: ()=>{ forceCloseModal(); tutorialCatModalOpen = false; } },
+    { key:"chart", targets:["#modalOverlay.show .chart-card"],
       before: ()=>{ showModalView(()=>renderCategoryList("recovered"), {resetStack:true}); tutorialCatModalOpen = true; },
       after: ()=>{ forceCloseModal(); tutorialCatModalOpen = false; } },
     { key:"saved", targets:['.stat-card[data-cat="saved"]'] },
@@ -1396,7 +1445,7 @@ window.SITE_CONFIG = {
   ];
   const TUT_TEXT_KEY = {
     timeMachine:"tutTimeMachine", pwa:"tutPwa", langTheme:"tutLangTheme", recovered:"tutRecovered",
-    details:"tutDetails", saved:"tutSaved", eu:"tutEu", reported:"tutReported", macro:"tutMacro",
+    details:"tutDetails", weekly:"tutWeekly", chart:"tutChart", saved:"tutSaved", eu:"tutEu", reported:"tutReported", macro:"tutMacro",
     recent:"tutRecent", footer:"tutFooter", end:"tutEnd"
   };
 
@@ -1755,7 +1804,9 @@ window.SITE_CONFIG = {
           <div class="cat-list-bottom"><div class="cat-list-meta"><span class="mono">${l.lost_date||"–"}</span></div><span class="cat-list-more"></span></div></div>`).join("") + `</div>`;
       }
     }
-    document.getElementById("modalBody").innerHTML = summary + `<div data-list class="cat-list">${rowsHtml}</div>` + lostHtml;
+    const chartHtml = (catKey === "recovered" || catKey === "saved" || catKey === "reported") ? chartCardHtml(catKey) : "";
+    document.getElementById("modalBody").innerHTML = summary + chartHtml + `<div data-list class="cat-list">${rowsHtml}</div>` + lostHtml;
+    if(chartHtml){ drawCompactChart(catKey); requestAnimationFrame(()=>drawCompactChart(catKey)); }
   }
 
   /* ---------- macro detail ---------- */
@@ -1955,6 +2006,214 @@ window.SITE_CONFIG = {
   const fmtMrd = huf => typeof huf === "number" ? fmtMrdNum(toMrd(huf)) : "–";
   const todayISO = () => new Date().toISOString().slice(0,10);
 
+  /* ---------- történet (history.json), heti jelvény és grafikon ---------- */
+  let HISTORY = [];
+  const HIST_FIELD = {recovered:"r", saved:"s", eu:"e", reported:"f"};
+  const CHART_COLOR = {recovered:"var(--good)", saved:"var(--blue)", reported:"var(--bad)"};
+  let chartType = "line", chartPeriod = null;   /* null = automatikus: 12 hétig heti, utána havi */
+  let chartModalCat = null;
+
+  async function loadHistory(){
+    const u = window.SITE_CONFIG && window.SITE_CONFIG.historyUrl;
+    if(!u) return null;
+    try{
+      const r = await fetch(u + "?t=" + Math.floor(Date.now()/60000), {cache:"no-store"});
+      if(!r.ok) return null;
+      const d = await r.json();
+      return Array.isArray(d) ? d.filter(h => h && h.t).sort((a,b)=> a.t < b.t ? -1 : a.t > b.t ? 1 : 0) : null;
+    }catch(e){ return null; }
+  }
+  /* a hét hétfője (ÉÉÉÉ-HH-NN) */
+  function weekStartISO(day){
+    const d = new Date(day + "T00:00:00Z");
+    d.setUTCDate(d.getUTCDate() - (d.getUTCDay() + 6) % 7);
+    return d.toISOString().slice(0,10);
+  }
+  function addDaysISO(day, n){ const d = new Date(day + "T00:00:00Z"); d.setUTCDate(d.getUTCDate() + n); return d.toISOString().slice(0,10); }
+  /* A nézet „mai napja” budapesti idő szerint; az időgépnél a kiválasztott nap. */
+  function viewDay(cutoff){ return cutoff >= todayISO() ? localDay(new Date().toISOString()) : cutoff; }
+  function histUpTo(cutoff){ const d = viewDay(cutoff); return HISTORY.filter(h => localDay(h.t) <= d); }
+
+  /* Az aktuális naptári hét (hétfő 0:00-tól, budapesti idő) változása; a viszonyítási alap az előző vasárnap
+     utolsó pillanatképe (az első követési hétnél a legelső pillanatkép). Mrd Ft, 3 tizedesre kerekítve. */
+  function weekDelta(key, cutoff, liveMrd){
+    const f = HIST_FIELD[key], upto = histUpTo(cutoff);
+    if(!upto.length) return null;
+    const monday = weekStartISO(viewDay(cutoff));
+    let base = null;
+    for(const h of upto){ if(localDay(h.t) < monday) base = h; else break; }
+    if(!base) base = upto[0];
+    const cur = (typeof liveMrd === "number" && cutoff >= todayISO()) ? liveMrd : upto[upto.length - 1][f];
+    return Math.round((cur - base[f]) * 1000) / 1000;
+  }
+  function setWk(id, delta){
+    const el = document.getElementById(id);
+    if(!el) return;
+    if(delta === null || typeof delta !== "number" || isNaN(delta)){ el.hidden = true; return; }
+    el.hidden = false;
+    el.classList.toggle("up", delta > 0);
+    el.classList.toggle("down", delta < 0);
+    const num = Math.abs(delta).toLocaleString(lang==="hu"?"hu-HU":"en-GB", {minimumFractionDigits:3, maximumFractionDigits:3});
+    el.querySelector(".wk-n").textContent = (delta > 0 ? "+" : delta < 0 ? "−" : "") + num;
+  }
+  function renderWeekly(cutoff, live){
+    setWk("wkRecovered", weekDelta("recovered", cutoff, live.recovered));
+    setWk("wkSaved", weekDelta("saved", cutoff, live.saved));
+    setWk("wkEu", weekDelta("eu", cutoff, live.eu));
+    setWk("wkReported", weekDelta("reported", cutoff, live.reported));
+  }
+
+  /* Időszakok szerinti sorozat: minden időszakból a legutolsó pillanatkép; d = változás az előző időszakhoz képest. */
+  function chartSeries(key, cutoff, period){
+    const f = HIST_FIELD[key], upto = histUpTo(cutoff);
+    if(!upto.length) return [];
+    const map = new Map();
+    upto.forEach(h => { const d = localDay(h.t); map.set(period === "m" ? d.slice(0,7) : weekStartISO(d), h); });
+    let prev = upto[0][f];
+    return Array.from(map.entries()).map(([k, h]) => { const v = h[f], o = {k, v, d: Math.round((v - prev) * 1000) / 1000}; prev = v; return o; });
+  }
+  /* A követés első 12 hetében heti, utána havi nézet az alapértelmezett. */
+  function autoPeriod(cutoff){
+    if(!HISTORY.length) return "w";
+    const a = Date.parse(localDay(HISTORY[0].t) + "T00:00:00Z"), b = Date.parse(viewDay(cutoff) + "T00:00:00Z");
+    return (b - a) / 86400000 >= 84 ? "m" : "w";
+  }
+  function niceTicks(lo, hi, n){
+    if(!(hi > lo)){ const p = Math.abs(lo) * 0.05 || 1; lo -= p; hi += p; }
+    const raw = (hi - lo) / Math.max(n - 1, 1), mag = Math.pow(10, Math.floor(Math.log10(raw))), fr = raw / mag;
+    const step = Math.round((fr <= 1 ? 1 : fr <= 2 ? 2 : fr <= 2.5 ? 2.5 : fr <= 5 ? 5 : 10) * mag * 1e6) / 1e6;
+    const min = Math.floor(lo / step + 1e-9) * step, max = Math.ceil(hi / step - 1e-9) * step, ticks = [];
+    for(let v = min; v <= max + step / 2; v += step) ticks.push(Math.round(v * 1e6) / 1e6);
+    return {ticks, step, min: ticks[0], max: ticks[ticks.length - 1]};
+  }
+  const chartRO = ("ResizeObserver" in window) ? new ResizeObserver(es => es.forEach(e => {
+    const b = e.target;
+    if(b._redraw && Math.abs(b.clientWidth - (b._w || 0)) > 2) b._redraw();
+  })) : null;
+
+  function drawChart(box, series, o){
+    if(!box) return;
+    const t = I18N[lang], loc = lang === "hu" ? "hu-HU" : "en-GB";
+    box._redraw = () => drawChart(box, series, o);
+    if(chartRO && !box._ro){ chartRO.disconnect(); chartRO.observe(box); box._ro = true; }
+    if(!series.length){ box.innerHTML = `<p class="empty">${t.chartNoData}</p>`; return; }
+    const W = Math.max(box.clientWidth || 300, 220), H = o.full ? 250 : 104;
+    box._w = box.clientWidth;
+    const m = {l: o.full ? 48 : 42, r: 10, t: 8, b: 20}, bar = o.type === "bar", n = series.length;
+    const vals = series.map(s => bar ? s.d : s.v);
+    let lo = Math.min(...vals), hi = Math.max(...vals);
+    if(bar){ lo = Math.min(lo, 0); hi = Math.max(hi, 0); if(lo === hi) hi = 1; }
+    else { const pad = (hi - lo) * 0.1; lo -= pad; hi += pad; }
+    const ax = niceTicks(lo, hi, o.full ? 5 : 3);
+    const dec = Math.min(3, (String(ax.step).split(".")[1] || "").length);
+    const fmtT = v => v.toLocaleString(loc, {minimumFractionDigits: dec, maximumFractionDigits: dec});
+    const iw = W - m.l - m.r, ih = H - m.t - m.b;
+    const X = i => m.l + (bar ? iw * (i + 0.5) / n : (n === 1 ? iw / 2 : iw * i / (n - 1)));
+    const Y = v => m.t + ih * (1 - (v - ax.min) / (ax.max - ax.min));
+    const xLab = k => o.period === "m"
+      ? new Date(k + "-15T00:00:00Z").toLocaleDateString(loc, {month:"short", year:"2-digit", timeZone:"UTC"})
+      : k.slice(5);
+    let g = "";
+    ax.ticks.forEach(v => {
+      const y = Y(v).toFixed(1);
+      g += `<line x1="${m.l}" x2="${W - m.r}" y1="${y}" y2="${y}" stroke="var(--border)" stroke-width="1"/>` +
+           `<text x="${m.l - 6}" y="${(+y + 3.5).toFixed(1)}" text-anchor="end" font-size="10.5" fill="var(--text-dim)" font-family="JetBrains Mono,monospace">${fmtT(v)}</text>`;
+    });
+    const stepL = Math.ceil(n / Math.max(2, Math.floor(iw / 56)));
+    series.forEach((s, i) => {
+      if(i % stepL) return;
+      g += `<text x="${X(i).toFixed(1)}" y="${H - 5}" text-anchor="middle" font-size="10.5" fill="var(--text-dim)">${xLab(s.k)}</text>`;
+    });
+    let shape = "";
+    if(bar){
+      const bw = Math.min(28, iw / n * 0.6), y0 = Y(0);
+      shape += `<line x1="${m.l}" x2="${W - m.r}" y1="${y0.toFixed(1)}" y2="${y0.toFixed(1)}" stroke="var(--text-faint)" stroke-width="1"/>`;
+      series.forEach((s, i) => {
+        const y = Y(s.d);
+        shape += `<rect x="${(X(i) - bw / 2).toFixed(1)}" y="${Math.min(y, y0).toFixed(1)}" width="${bw.toFixed(1)}" height="${Math.max(Math.abs(y0 - y), 1).toFixed(1)}" rx="3" fill="currentColor"/>`;
+      });
+    } else {
+      const pts = series.map((s, i) => `${X(i).toFixed(1)},${Y(s.v).toFixed(1)}`), base = (H - m.b).toFixed(1);
+      if(n > 1){
+        shape += `<path d="M${pts.join(" L")} L${X(n - 1).toFixed(1)},${base} L${X(0).toFixed(1)},${base} Z" fill="currentColor" opacity=".12"/>` +
+                 `<polyline points="${pts.join(" ")}" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>`;
+      }
+      series.forEach((s, i) => { if(o.full || i === n - 1) shape += `<circle cx="${X(i).toFixed(1)}" cy="${Y(s.v).toFixed(1)}" r="${o.full ? 3.5 : 3}" fill="currentColor" stroke="var(--surface-2)" stroke-width="2"/>`; });
+    }
+    const guide = o.full ? `<line id="chGuide" x1="0" x2="0" y1="${m.t}" y2="${H - m.b}" stroke="var(--text-faint)" stroke-width="1" stroke-dasharray="3 3" visibility="hidden"/>` : "";
+    const label = `${t.chartTitle}: ` + series.map(s => `${xLab(s.k)} ${fmtT(bar ? s.d : s.v)}`).join(", ");
+    box.innerHTML = `<svg viewBox="0 0 ${W} ${H}" style="color:${o.color};touch-action:pan-y" role="img" aria-label="${label}">${g}${shape}${guide}</svg>` + (o.full ? `<div class="ch-tip" hidden></div>` : "");
+    if(!o.full) return;
+    const svg = box.querySelector("svg"), tip = box.querySelector(".ch-tip"), gl = svg.querySelector("#chGuide");
+    const rangeText = s => {
+      if(o.period === "m") return new Date(s.k + "-15T00:00:00Z").toLocaleDateString(loc, {month:"long", year:"numeric", timeZone:"UTC"});
+      return s.k + " – " + addDaysISO(s.k, 6);
+    };
+    const show = e => {
+      const r = svg.getBoundingClientRect(), px = (e.clientX - r.left) * (W / r.width);
+      let best = 0, bd = Infinity;
+      series.forEach((s, i) => { const d = Math.abs(X(i) - px); if(d < bd){ bd = d; best = i; } });
+      const s = series[best], sign = s.d > 0 ? "+" : s.d < 0 ? "−" : "";
+      gl.setAttribute("x1", X(best)); gl.setAttribute("x2", X(best)); gl.setAttribute("visibility", "visible");
+      tip.innerHTML = `<span>${rangeText(s)}</span><br><b>${fmtMrdNum(s.v)} ${t.mrd}</b><br><span>${t.chartChangeWord}: ${sign}${Math.abs(s.d).toLocaleString(loc, {minimumFractionDigits:3, maximumFractionDigits:3})}</span>`;
+      tip.hidden = false;
+      const left = X(best) * (r.width / W), tw = tip.offsetWidth;
+      tip.style.left = Math.max(0, Math.min(left - tw / 2, r.width - tw)) + "px";
+    };
+    svg.addEventListener("pointermove", show);
+    svg.addEventListener("pointerdown", show);
+    svg.addEventListener("pointerleave", () => { tip.hidden = true; gl.setAttribute("visibility", "hidden"); });
+  }
+
+  /* kis grafikonkártya a részletező lap tetején */
+  function chartCardHtml(catKey){
+    if(!chartSeries(catKey, currentCutoff(), autoPeriod(currentCutoff())).length) return "";
+    const t = I18N[lang];
+    return `<div class="chart-card" data-chart-cat="${catKey}" tabindex="0" role="button" aria-label="${t.chartTitle}">
+      <div class="chart-card-head"><span>${t.chartTitle}</span><span class="chart-zoom">${t.chartZoom}</span></div>
+      <div class="chart-box" id="chartBoxCompact"></div></div>`;
+  }
+  function drawCompactChart(catKey){
+    const cutoff = currentCutoff(), period = autoPeriod(cutoff);
+    drawChart(document.getElementById("chartBoxCompact"), chartSeries(catKey, cutoff, period), {type:"line", full:false, color:CHART_COLOR[catKey], period});
+  }
+  /* nagy grafikon ablak: vonal/oszlop és heti/havi váltóval */
+  function drawFullChart(){
+    const t = I18N[lang], cutoff = currentCutoff(), period = chartPeriod || autoPeriod(cutoff);
+    const sub = document.getElementById("chartSub");
+    if(sub) sub.textContent = chartType === "bar" ? t.chartChangeSub : t.chartTotalSub;
+    drawChart(document.getElementById("chartBoxFull"), chartSeries(chartModalCat, cutoff, period), {type:chartType, full:true, color:CHART_COLOR[chartModalCat], period});
+  }
+  function renderChartModal(catKey){
+    chartModalCat = catKey;
+    const t = I18N[lang], cutoff = currentCutoff(), period = chartPeriod || autoPeriod(cutoff);
+    document.getElementById("modalTitle").textContent = catKey === "recovered" ? t.statRecoveredLabel : catKey === "saved" ? t.statSavedLabel : t.statReportedLabel;
+    const seg = (attr, cur, opts) => `<div class="ch-seg" role="group">` + opts.map(([v, l]) => `<button type="button" data-${attr}="${v}" class="${cur === v ? "on" : ""}" aria-pressed="${cur === v}">${l}</button>`).join("") + `</div>`;
+    const first = HISTORY.length ? localDay(HISTORY[0].t) : "–";
+    document.getElementById("modalBody").innerHTML =
+      `<div class="chart-ctrl">${seg("chart-type", chartType, [["line", t.chartLine], ["bar", t.chartBar]])}${seg("chart-period", period, [["w", t.chartWeekly], ["m", t.chartMonthly]])}</div>` +
+      `<div class="chart-sub" id="chartSub"></div><div class="chart-box full" id="chartBoxFull"></div><p class="chart-note">${t.chartNote(first)}</p>`;
+    drawFullChart();
+    requestAnimationFrame(drawFullChart);
+  }
+  function handleChartClick(e){
+    const card = e.target.closest(".chart-card[data-chart-cat]");
+    if(card){ const k = card.dataset.chartCat; showModalView(() => renderChartModal(k)); return; }
+    const bt = e.target.closest("[data-chart-type]"), bp = e.target.closest("[data-chart-period]");
+    if(!bt && !bp) return;
+    if(bt) chartType = bt.dataset.chartType;
+    if(bp) chartPeriod = bp.dataset.chartPeriod;
+    const grp = (bt || bp).parentElement;
+    grp.querySelectorAll("button").forEach(b => { const on = b === (bt || bp); b.classList.toggle("on", on); b.setAttribute("aria-pressed", String(on)); });
+    drawFullChart();
+  }
+  document.getElementById("modalBody").addEventListener("click", handleChartClick);
+  document.getElementById("modalBody").addEventListener("keydown", e => {
+    if((e.key !== "Enter" && e.key !== " ") || !e.target.closest(".chart-card[data-chart-cat]")) return;
+    e.preventDefault();
+    handleChartClick(e);
+  });
+
   /* ---------- animation helpers ---------- */
   const prefersReducedMotion = !!(window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches);
   const easeOutExpo = x => x >= 1 ? 1 : 1 - Math.pow(2, -10 * x);
@@ -2050,9 +2309,12 @@ window.SITE_CONFIG = {
   async function fetchData(){
     try{
       const url = (window.SITE_CONFIG && window.SITE_CONFIG.dataUrl) + "?t=" + Math.floor(Date.now()/60000);
+      const histP = loadHistory();
       const r = await fetch(url, {cache:"no-store"});
       if(!r.ok) return false;
       const data = await r.json();
+      const hist = await histP;
+      if(hist) HISTORY = hist;
       ITEMS = (data.items || []).filter(d=>d && d.status !== "rejected");
       REPORTED = data.reported_cases || [];
       MACRO = data.macro ? [data.macro] : [];
@@ -2283,6 +2545,7 @@ window.SITE_CONFIG = {
     countUp(document.getElementById("statSaved"), toMrd(savedTotal), v=>fmtMrdNum(v)+" Mrd Ft");
     document.getElementById("statSavedFoot").textContent = `${savedCount} ${t.tetel}`;
     countUp(document.getElementById("statReported"), toMrd(reportedTotal), v=>fmtMrdNum(v)+" Mrd Ft");
+    renderWeekly(cutoff, {recovered:toMrd(recoveredTotal), saved:toMrd(savedTotal), eu:toMrd(euReceived), reported:toMrd(reportedTotal)});
 
     /* reported donut */
     const pendingFrac = reportedTotal>0 ? reportedPending/reportedTotal : 0;

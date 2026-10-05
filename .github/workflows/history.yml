@@ -1,0 +1,36 @@
+name: Történet-pillanatkép (history.json)
+on:
+  push:
+    branches: [main]
+    paths: ["data/dashboard.json"]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: history
+  cancel-in-progress: false
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Pillanatkép hozzáadása
+        run: python3 scripts/update_history.py data/dashboard.json data/history.json
+      - name: Mentés, ha változott
+        run: |
+          if git diff --quiet -- data/history.json; then
+            echo "Nincs változás."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/history.json
+          git commit -m "Történet-pillanatkép frissítése"
+          for i in 1 2 3; do
+            git pull --rebase origin main && git push origin HEAD:main && exit 0
+            sleep 5
+          done
+          exit 1
