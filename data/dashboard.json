@@ -1,13 +1,13 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-05T10:07:29+00:00",
+ "generated_at": "2026-10-05T15:07:04+00:00",
  "summary": {
-  "megtakaritas_verified_huf": 1009045700000,
+  "megtakaritas_verified_huf": 1735245700000,
   "visszaszerzes_verified_huf": 1545118000000,
-  "eu_forras_verified_huf": 5986000000000,
+  "eu_forras_verified_huf": 6188000000000,
   "eu_forras_lost_huf": 730000000000,
-  "items_count": 27,
-  "reported_cases_count": 38
+  "items_count": 29,
+  "reported_cases_count": 39
  },
  "items": [
   {
@@ -117,6 +117,63 @@
    "id": "eu-forras-megallapodas-2026-05",
    "first_seen_at": "2026-09-28T15:02:40+00:00",
    "updated_at": "2026-10-04T04:00:40+00:00"
+  },
+  {
+   "additional_sources": [
+    {
+     "name": "ATV",
+     "published_date": "2026-07-02",
+     "url": "https://www.atv.hu/kulfold/20260702/magyarorszag-euro-energia/"
+    },
+    {
+     "name": "Index",
+     "published_date": "2026-07-02",
+     "url": "https://index.hu/gazdasag/2026/07/02/europai-bizottsag-beruhazasi-bank-penz-finanszirozas-energia-tamogatas-magyarorszag/"
+    },
+    {
+     "name": "Népszava",
+     "published_date": "2026-07-02",
+     "url": "https://nepszava.hu/3328046_europai-bizottsag-552-millio-euro-modernizacios-alap-magyarorszag"
+    },
+    {
+     "name": "Privátbankár.hu",
+     "published_date": "2026-07-02",
+     "url": "https://privatbankar.hu/cikkek/makro/552-milliard-euros-jo-hirt-kapott-brusszelbol-magyarorszag.html"
+    }
+   ],
+   "agreed_huf": 202000000000,
+   "agreed_original_huf": 202000000000,
+   "agreed_text": "552,3 millió euró (kb. 202 milliárd forint) — az Európai Bizottság és az Európai Beruházási Bank által jóváhagyott, 2026 júliusában kifizetett támogatás",
+   "amount_huf": 202000000000,
+   "amount_text": "552,3 millió euró (kb. 202 milliárd forint)",
+   "category": "eu_forras",
+   "collected_at": "2026-10-05T16:56:00+02:00",
+   "currency_note": "552,3 millió euró, kb. 365 Ft/EUR árfolyamon forintra becsülve",
+   "dedup_key": "eu_forras|modernizacios alap energia halozat digitalizalas tamogatas|202000000",
+   "description": "Az Európai Bizottság és az Európai Beruházási Bank 2026. július 2-án bejelentette, hogy a Modernizációs Alap (az uniós kibocsátáskereskedelmi rendszer bevételeiből finanszírozott, klímavédelmi célú uniós mechanizmus) keretében 552,3 millió eurót (mintegy 202 milliárd forintot) folyósított Magyarországnak a villamosenergia-hálózat digitalizálására és fejlesztésére. Ez a támogatás független a korábban befagyasztott helyreállítási (RRF) és kohéziós forrásoktól, azokhoz jogállamisági feltételesség nem kapcsolódik.",
+   "disbursement_as_of": "2026-07-02",
+   "disbursement_source": {
+    "name": "HVG",
+    "published_date": "2026-07-02",
+    "url": "https://hvg.hu/gazdasag/20260702_eu-modernizacios-alap-magyarorszag-552-millio-euro"
+   },
+   "duplicate_of": null,
+   "event_date": "2026-07-02",
+   "from_whom": null,
+   "lost_huf": 0,
+   "lost_items": [],
+   "lost_text": null,
+   "received_huf": 202000000000,
+   "received_text": "A teljes összeg (552,3 millió euró, kb. 202 milliárd forint) kifizetése 2026. július 2-án megtörtént.",
+   "source_name": "HVG",
+   "source_published_date": "2026-07-02",
+   "source_url": "https://hvg.hu/gazdasag/20260702_eu-modernizacios-alap-magyarorszag-552-millio-euro",
+   "status": "verified",
+   "subject": "Modernizációs Alap — villamosenergia-hálózati fejlesztési támogatás",
+   "verification_notes": "ÚJ TÉTEL (2026-10-05 16:56-os futás, régebbi — 2026 júliusi — esemény, amely a korábbi futások adattárában még nem szerepelt). Legalább öt független sajtóforrás (HVG, ATV, Index, Népszava, Privátbankár) és az Európai Bizottság saját közleménye egyezően közli a 552,3 millió eurós kifizetést. Agreed/received/lost mezők nem relevánsak ennél a tételnél, mivel ez nem a feltételes (befagyasztott majd feloldott) RRF/kohéziós forrásfolyamat része, hanem egy önálló, feltételhez nem kötött uniós mechanizmus (Modernizációs Alap) már megtörtént kifizetése — ezért NEM adódik hozzá és nem vonható össze az eu-forras-megallapodas-2026-05 tétel agreed_huf/received_huf számaival.",
+   "id": "eu-forras-modernizacios-alap-2026-07",
+   "updated_at": "2026-10-05T15:07:04+00:00",
+   "first_seen_at": "2026-10-05T15:07:04+00:00"
   },
   {
    "additional_sources": [
@@ -275,6 +332,44 @@
    "id": "megtakaritas-im-kommunikacios-ugynoksegi-feladatok-2026-10",
    "first_seen_at": "2026-10-03T15:04:22+00:00",
    "updated_at": "2026-10-03T15:04:22+00:00"
+  },
+  {
+   "additional_sources": [
+    {
+     "name": "Piac és Profit",
+     "published_date": "2026-10-05",
+     "url": "https://piacesprofit.hu/cikkek/gazdasag/726-milliard-forintot-koszonhet-a-koltsegvetes-a-forint-jobb-arfolyama-miatti-kamatkiadas-csokkenesnek.html"
+    },
+    {
+     "name": "Telex",
+     "published_date": "2026-10-05",
+     "url": "https://telex.hu/gazdasag/2026/10/05/kozponti-alrendszer-hiany-2026-szeptember-penzugyminiszterium-karman-andras"
+    },
+    {
+     "name": "Népszava",
+     "published_date": "2026-10-05",
+     "url": "https://nepszava.hu/3334195_allamhaztartas-koltsegvetesi-hiany-adatok-2026-szeptember-karman-andras"
+    }
+   ],
+   "amount_huf": 726200000000,
+   "amount_text": "726,2 milliárd forint (23,4%-os éves csökkenés)",
+   "category": "megtakaritas",
+   "collected_at": "2026-10-05T16:56:00+02:00",
+   "currency_note": null,
+   "dedup_key": "megtakaritas|allamadossag kamatkiadas csokkenes forint arfolyam kilenchonap|726200000000",
+   "description": "A Pénzügyminisztérium 2026. szeptemberi gyorsjelentése szerint az év első kilenc hónapjában a forint erősödése miatt 726,2 milliárd forinttal, 23,4%-kal csökkent az államadósság kamatkiadása az előző év azonos időszakához képest: 2026 január–szeptemberben 2375,2 milliárd forintot fordítottak kamatkiadásra, szemben az egy évvel korábbi 3101,4 milliárd forinttal.",
+   "duplicate_of": null,
+   "event_date": "2026-09-30",
+   "from_whom": null,
+   "source_name": "Index (Pénzügyminisztérium gyorsjelentése, Kármán András pénzügyminiszter)",
+   "source_published_date": "2026-10-05",
+   "source_url": "https://index.hu/gazdasag/2026/10/05/penzugyminiszterium-koltsegvetes-karman-andras-kormany-allamhaztartas-allamadossag/",
+   "status": "verified",
+   "subject": "Államadósság kamatkiadásának csökkenése a forint erősödése miatt (2026 I–III. negyedév)",
+   "verification_notes": "ÚJ TÉTEL (2026-10-05 16:56-os futás). Hivatalos forrás: Pénzügyminisztérium szeptemberi gyorsjelentése, Kármán András pénzügyminiszter közlése, legalább hét sajtóforrás (Piac és Profit, Telex, Index, Népszava, Világgazdaság, Privátbankár, Hang.hu) egyezően ismerteti. FONTOS MEGKÜLÖNBÖZTETÉS: ez EGY KÜLÖNBÖZŐ mutató, mint a 2026 augusztusában/szeptemberében (HVG, G7/Telex, Forbes, Piac és Profit) közölt, kb. 1500-1536 milliárd forintos, a forint erősödéséből adódó államadósság-átértékelési, a cikkek szerint explicit módon csak PAPÍRON jelentkező, a devizakötvények lejáratakor realizálódó nyereség — az itt rögzített 726,2 Mrd Ft egy TÉNYLEGES, már kifizetett (cash-flow alapú) kamatkiadás-csökkenés. A kettő emiatt NEM adható össze és nem ugyanaz a tétel; az 1500 Mrd Ft-os átértékelési hatást a jelen futás szándékosan NEM vette fel önálló tételként, mert az nem realizált, csak számviteli/becsült hatás.",
+   "id": "megtakaritas-kamatkiadas-csokkenes-forintarfolyam-2026-q3",
+   "updated_at": "2026-10-05T15:07:04+00:00",
+   "first_seen_at": "2026-10-05T15:07:04+00:00"
   },
   {
    "additional_sources": [
@@ -1823,6 +1918,38 @@
   {
    "additional_sources": [
     {
+     "name": "Állami Számvevőszék (ÁSZ) jelentés",
+     "published_date": "2026-04-03",
+     "url": "https://www.asz.hu/dokumentumok/25036.pdf"
+    },
+    {
+     "name": "Index",
+     "published_date": "2026-08-26",
+     "url": "https://index.hu/gazdasag/2026/08/26/mnb-vizsgalobizottsag-tisza-part-tisza-kormany-fidesz-orban-viktor-matolcsy-gyorgy-csoszi-attila/"
+    }
+   ],
+   "alleged_amount_huf": 144000000000,
+   "alleged_amount_text": "144 milliárd forint állami támogatás (2020–2021), ebből 127,5 milliárd forintot az alapítvány az Optima Investment Zrt. (a Magyar Nemzeti Bankhoz köthető PADME Alapítvány cége) mindössze 2,5%-os hozamú, lengyel részvényekkel fedezett kötvényeibe fektetett",
+   "confirmed_recovered_huf": 0,
+   "description": "A Neumann János Egyetemet és a kecskeméti Tudásváros fejlesztést támogató Neumann János Egyetemért Alapítvány 2020–2021-ben összesen 144 milliárd forint állami támogatást kapott. Ebből 127,5 milliárd forintot az alapítvány a Magyar Nemzeti Bankhoz köthető PADME Alapítvány Optima Investment Zrt. nevű cégének mindössze 2,5 százalékos hozamú, lengyel részvényekkel fedezett kötvényeibe fektetett, miközben a fedezetül szolgáló részvények piaci értéke később a felére esett. Az Állami Számvevőszék vizsgálata szerint az ügylet jelentős vagyonvesztést okozhatott; az Optima a lejáratkor nem tudta visszavásárolni a kötvényeket. Az ügyben hűtlen kezelés gyanújával büntetőeljárás indult, és az Országgyűlés MNB-alapítványokat vizsgáló bizottsága is foglalkozik az üggyel; a fejlesztésből végül egy befejezetlen, 'szellemvárosként' jellemzett kecskeméti beruházás lett.",
+   "ministry": "Állami Számvevőszék (ÁSZ) vizsgálat + rendőrségi nyomozás hűtlen kezelés gyanújával — érintett szervezet: Neumann János Egyetemért Alapítvány (MNB-alapítványi kör)",
+   "recovered_item_id": null,
+   "report_date": "2026-08-24",
+   "report_source": {
+    "name": "Pénzcentrum",
+    "published_date": "2026-08-24",
+    "url": "https://www.penzcentrum.hu/gazdasag/20260824/igy-lett-a-144-milliardos-allami-tamogatasbol-szellemvaros-mar-vizsgaljak-hova-uszott-el-a-rengeteg-adofizetoi-penz-1204330"
+   },
+   "status": "under_investigation",
+   "subject": "Neumann János Egyetemért Alapítvány — Tudásváros projekt és Optima Investment kötvényvásárlás",
+   "verification_notes": "ÚJ TÉTEL (2026-10-05 16:56-os futás, régebbi — 2026 tavasza óta futó — ügy, amely a korábbi futások adattárában még nem szerepelt). Az ügy szorosan kapcsolódik, de ELKÜLÖNÜLŐ, konkrétan számszerűsített komponense a reported-mnb-matolcsy-alapitvanyok-2026-09 (300 Mrd Ft, általános Matolcsy-kör ügy) és a reported-mnb-ingatlan-tularazas-2026-09 (MNB-ingatlanok túlárazása) tételeknek: ez a Neumann János Egyetemért Alapítvány 144 milliárd forintos állami támogatásának és az abból 127,5 milliárd forintért vásárolt PADME/Optima-kötvényeknek a konkrét ügye, önálló ÁSZ-jelentéssel és önálló országgyűlési vizsgálóbizottsági foglalkozással. NEM adandó hozzá a 300 Mrd Ft-os általános tételhez a dupla számolás elkerülése végett. Tényleges, az államhoz visszakerült vagyon nincs; a kötvényeket az Optima a lejáratkor nem tudta visszafizetni.",
+   "id": "reported-neumann-egyetem-optima-kotveny-2026-08",
+   "updated_at": "2026-10-05T15:07:04+00:00",
+   "first_seen_at": "2026-10-05T15:07:04+00:00"
+  },
+  {
+   "additional_sources": [
+    {
      "name": "Világgazdaság",
      "published_date": "2026-09-28",
      "url": "https://www.vg.hu/vilaggazdasag-magyar-gazdasag/2026/09/nvvh-vagyonvedelmi-hivatal-korrupcio-mentelmi-jog"
@@ -2034,8 +2161,8 @@
    "subject": "Paksi Ipari Park Kft. — mezőgazdasági földterületek túlárazott megvásárlása (2019–2020)",
    "verification_notes": "ÚJ TÉTEL (2026-10-05 12:00-ás futás). Legalább négy független sajtóforrás (Telex, HVG, Index, Népszava, Origo) egyezően számol be az ügyről, mind 2026-10-05-i dátummal. Hadházy Ákos állítása szerint Sárosi József, Szekszárd jelenlegi tiszás országgyűlési képviselője (akkor a paksi városüzemeltető cég vezetője) 2019-2020-ban közvetítőként sikerdíjat kapott a földtulajdonosoktól, miközben a Paksi Ipari Park Kft. a piaci ár sokszorosáért vásárolt fel földeket. Sárosi József tagadja a szabálytalanságot, állítása szerint minden törvényesen zajlott. A rendőrség korábban, egy előzetes Hadházy-feljelentés alapján már elrendelte a nyomozást; a pontos eredeti feljelentés dátuma a cikkekben nem szerepel. Nem szerepel a kormany.hu/atlathato/feljelentes hivatalos listáján (2026-10-05-i ellenőrzés szerint, a lista változatlanul 47 ügy/2255 Mrd Ft, 2026-10-02-i állapot), mivel ez képviselői (nem kormányzati/minisztériumi) feljelentésre indult rendőrségi eljárás. Összesített kárösszeg nincs közölve, csak egyedi tranzakciós példák; tényleges, az államhoz/önkormányzathoz visszakerült vagyon nincs.",
    "id": "reported-paksi-ipari-park-foldvasarlas-2026-10",
-   "updated_at": "2026-10-05T10:07:29+00:00",
-   "first_seen_at": "2026-10-05T10:07:29+00:00"
+   "first_seen_at": "2026-10-05T10:07:29+00:00",
+   "updated_at": "2026-10-05T10:07:29+00:00"
   },
   {
    "additional_sources": [
@@ -2310,7 +2437,7 @@
    "url": "https://magyarnemzet.hu/gazdasag/2026/09/allamadossag-novekedes"
   },
   "allamadossag_huf": 65716000000000,
-  "collected_at": "2026-10-05T12:00:00+02:00",
+  "collected_at": "2026-10-05T16:56:00+02:00",
   "elozo": {
    "allamadossag": {
     "period": null,
@@ -2419,18 +2546,18 @@
     "key": "eur_huf",
     "label_en": "Official EUR/HUF rate (MNB)",
     "label_hu": "Euró hivatalos árfolyama (MNB)",
-    "note_en": "USD: 326.94 HUF (2026-10-02 fixing). No new confirmed business-day fixing as of this run.",
-    "note_hu": "Dollár: 326,94 Ft (2026-10-02-i fixing). 2026-10-03 és 2026-10-04 hétvégén nincs új fixing, és ebben a futásban (2026-10-05) sem erősíthető meg megbízhatóan új munkanapi jegyzés.",
-    "period": "2026-10-02",
-    "prev_period": "2026-10-01",
-    "prev_value": 368.32,
+    "note_en": "USD: 327.98 HUF (2026-10-05 fixing).",
+    "note_hu": "Dollár: 327,98 Ft (2026-10-05-i fixing).",
+    "period": "2026-10-05",
+    "prev_period": "2026-10-02",
+    "prev_value": 367.87,
     "source": {
      "name": "MNB hivatalos árfolyamok",
-     "publish_date": "2026-10-02",
+     "publish_date": "2026-10-05",
      "url": "https://www.mnb.hu/arfolyamok"
     },
     "unit": "Ft/EUR",
-    "value": 367.87
+    "value": 367.73
    },
    {
     "key": "brutto_atlagkereset",
@@ -2532,48 +2659,61 @@
    "publish_date": "2026-09-22",
    "url": "https://www.portfolio.hu/gazdasag/20260922/itt-az-mnb-uj-elorejelzese-hiaba-a-nemzetkozi-kockazatok-mersekelt-marad-az-idei-inflacio-864484"
   },
-  "id": "2026-10-05T12-00"
+  "id": "2026-10-05T16-56"
  },
  "last_run": {
   "errors": [
-   "hirkereso.hu/politika 404-et adott (az oldal szerkezete megváltozhatott, ebben a futásban nem volt átnézhető)",
-   "ugyeszseg.hu/category/hirek/kozponti-nyomozo-fougyeszseg/ 503-at adott (ideiglenesen nem elérhető)",
-   "Az államadósság (allamadossag_huf) frissítéséhez nem találtunk egyértelmű, egyetlen cikk által világosan közölt, ÁKK-ra hivatkozó új teljes összeget (több cikk csak a finanszírozási terv módosításáról írt, nem a teljes állományról) — a korábbi, 2026-07-31-i állapot maradt érvényben.",
-   "A legfrissebb EUR/HUF munkanapi fixing (2026-10-05 vagy azután) nem volt megbízhatóan megerősíthető ebben a futásban, ezért a 2026-10-02-i érték maradt érvényben."
+   "consilium.europa.eu közvetlen lekérése 403 hibát adott, csak websearch-csel volt elérhető",
+   "hvg.hu/360 cikk (washingtoni nagykövetség) 403 hibát adott WebFetch-csel, csak websearch-csel volt feldolgozható",
+   "forbes.hu cikk (28 milliárdos Kommentár Alapítvány) 403 hibát adott WebFetch-csel",
+   "hirkereso.hu/politika útvonal 404-et adott, helyette a /gazdasag/friss/ útvonal lett használva"
   ],
   "eu_lost_items_new": 0,
-  "finished_at": "2026-10-05T12:30:00+02:00",
-  "items_duplicate": 6,
-  "items_found_total": 16,
+  "finished_at": "2026-10-05T17:35:00+02:00",
+  "items_duplicate": 0,
+  "items_found_total": 20,
   "items_needs_review": 0,
-  "items_new": 0,
+  "items_new": 2,
   "reported_cases_new": 1,
   "reported_cases_updated": 0,
   "sources_checked": [
    "kormany.hu/atlathato/feljelentes",
-   "WebSearch (10+ tematikus keresés)",
-   "K-Monitor (k-monitor.hu, két célzott keresés)",
-   "mnvvh.hu/hirek",
-   "ugyeszseg.hu (Kozponti Nyomozo Fougyeszseg hirek)",
-   "hirkereso.hu",
-   "Telex",
-   "444.hu",
    "HVG",
+   "Telex",
    "Index",
+   "444.hu",
    "Portfolio.hu",
+   "Világgazdaság",
+   "Népszava",
    "Economx",
-   "Vilaggazdasag",
-   "Nepszava",
-   "Origo",
-   "Forbes.hu",
    "Infostart.hu",
-   "Magyar Nemzet",
-   "Szabad Europa"
+   "Magyar Hírlap",
+   "Forbes.hu",
+   "Privátbankár",
+   "Piac és Profit",
+   "Tőzsdeforum",
+   "ATV",
+   "Okoshír",
+   "Origo",
+   "K-Monitor (websearch)",
+   "hirkereso.hu",
+   "mnvvh.hu/hirek",
+   "ugyeszseg.hu (Központi Nyomozó Főügyészség)",
+   "MNB (mnb.hu/arfolyamok)",
+   "ec.europa.eu / consilium.europa.eu (websearch)"
   ],
-  "started_at": "2026-10-05T11:50:00+02:00",
-  "id": "2026-10-05T12-00"
+  "started_at": "2026-10-05T16:56:00+02:00",
+  "id": "2026-10-05T16-56"
  },
  "run_history": [
+  {
+   "finished_at": "2026-10-05T17:35:00+02:00",
+   "started_at": "2026-10-05T16:56:00+02:00",
+   "items_new": 2,
+   "reported_cases_new": 1,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
   {
    "finished_at": "2026-10-05T12:30:00+02:00",
    "started_at": "2026-10-05T11:50:00+02:00",
@@ -2918,15 +3058,15 @@
   }
  ],
  "run_summary": {
-  "run_id": "2026-10-05T10:07:29+00:00",
-  "new": 1,
+  "run_id": "2026-10-05T15:07:04+00:00",
+  "new": 3,
   "modified": 0,
   "confirmed_only": 0,
-  "touched": 1,
+  "touched": 3,
   "pending_review": 1,
   "by_section": {
    "items": {
-    "new": 0,
+    "new": 2,
     "modified": 0,
     "confirmed_only": 0
    },
@@ -2937,7 +3077,9 @@
    }
   },
   "new_ids": [
-   "r:reported-paksi-ipari-park-foldvasarlas-2026-10"
+   "i:eu-forras-modernizacios-alap-2026-07",
+   "i:megtakaritas-kamatkiadas-csokkenes-forintarfolyam-2026-q3",
+   "r:reported-neumann-egyetem-optima-kotveny-2026-08"
   ],
   "modified_ids": [],
   "confirmed_ids": []
@@ -3659,6 +3801,21 @@
    "by_section": {
     "items": {
      "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 1,
+     "modified": 0,
+     "confirmed_only": 0
+    }
+   }
+  },
+  {
+   "run_id": "2026-10-05T15:07:04+00:00",
+   "by_section": {
+    "items": {
+     "new": 2,
      "modified": 0,
      "confirmed_only": 0
     },
