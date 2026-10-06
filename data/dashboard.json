@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-06T04:06:23+00:00",
+ "generated_at": "2026-10-06T10:01:35+00:00",
  "summary": {
   "megtakaritas_verified_huf": 1735245700000,
   "visszaszerzes_verified_huf": 1545118000000,
@@ -2663,19 +2663,15 @@
  },
  "last_run": {
   "errors": [
-   "telex.hu/gazdasag HTTP 403 WebFetch-csel nem volt közvetlenül elérhető; helyette WebSearch-alapú tematikus keresésekkel ellenőrizve.",
-   "444.hu/belfold rovat URL 404-es hibával nem volt elérhető; a 444.hu tartalma WebSearch találatokon keresztül lett ellenőrizve.",
-   "hirkereso.hu/politika 404-es hibával nem volt elérhető; a főoldal áttekintése nem hozott új, még nem rögzített konkrét ügyet.",
-   "A kormany.hu/atlathato/feljelentes oldal tartalma (47 ügy, 2255 Mrd Ft, 24,2 Mrd Ft visszafizetve/megtakarítva, 0,7 Mrd Ft meg nem valósult kiadás, 12 ügyben nyomozás) a 2026-10-02-i állapothoz képest változatlan volt, nem volt szükség frissítésre a reported-osszesito-2026-09 tételen.",
-   "Az origo.hu 2026-10-02-i cikke (Szuverenitásvédelmi Hivatal, két ügyvédi iroda, 46,4 M Ft) tartalmilag megegyezik a már rögzített reported-egyeb-miniszteriumi-18ugy-2026 tétel 2026-10-03-i frissítésében leírt esettel, új tételként nem került fel.",
-   "Az economx.hu NKA-cikke (Molnár Áron, további Fidesz-közeli kifizetések) 2026-08-06-i kelteű, korábbi (a jelen 3 napos ablakon kívü li) hír, érdemi új összeget nem közöl a már rögzített reported-hanko-balazs-nka-sikkasztas-2026-09 tételhez képest, nem hozott létre frissítést.",
-   "ÁKK (akk.hu) ebben a futásban sem volt közvetlenül lekérhető; az államadósság értéke változatlanul a 2026-07-31-i (Magyar Nemzet/ÁKK-hivatkozás) állapotot tükrözi.",
-   "KSH szeptemberi inflációs adat még nem publikált (a havi adatok többnyire október 9-10 körül jelennek meg), az augusztusi (1,3% éves, 0,2% havi) adat maradt érvényben.",
-   "MNB EUR/HUF hivatalos fixing: ebben a futásban (2026-10-06 kora reggel) még a 2026-10-05-i (367,73 Ft/EUR) érték volt látható az mnb.hu/arfolyamok oldalon, új fixing nem jelent meg.",
-   "Ez a futás az előző (2026-10-05 16:56-os) futáshoz képest kevés mint 14 órával később indult; a szűk időablakban (12-15 témas kereséssel, a kiegészítő forrásokat is beleértve) nem volt azonosítható új, korábban nem rögzített tény vagy esemény; minden találat már a meglévő items/reported_cases tételekben szerepel vagy a figyelt forráslistán kívüli/irreleváns (pl. 2021-es inflaciós cikk, általános vagyoni statisztikák)."
+   "Ez a futás az előző (2026-10-06 06:04-es) futáshoz képest kb. 6 órával később indult; a 12 tematikus keresés és a kiegészítő forrás-ellenőrzés nem talált új, korábban nem rögzített tényt vagy eseményt — minden találat már a meglévő items/reported_cases tételekben szerepel (pl. M6, Duna Aszfalt, MKIF, Volánbusz, Gondosóra, Eximbank-ügyek) vagy irreleváns/túl régi (pl. 2025-ös inflációs cikkek).",
+   "A mnvvh.hu/hirek 2026-10-06-i bejegyzése ('Hankó Balázshoz köthető támogatási döntések felgyorsultak, 2026 H1: 3,63 Mrd Ft vs 2025: 1,83 Mrd Ft') és a hirkereso.hu '21 milliárd forint tao-visszakövetelés' és 'Hankó két hónap alatt kétszer annyi pénzt osztott ki' említése önálló keresésekkel nem volt megerősíthető konkrét, forrással alátámasztható cikkel — a már rögzített reported-hanko-balazs-nka-sikkasztas-2026-09 tételen túli, önállóan rögzíthető új tényt nem lehetett azonosítani, ezért nem került be az adattárba.",
+   "ugyeszseg.hu/category/hirek/kozponti-nyomozo-fougyeszseg/ két kísérletre is HTTP 503-at adott, ebben a futásban nem volt ellenőrizhető.",
+   "KSH szeptemberi inflációs gyorstájékoztató még nem publikált (várható időpont kb. 2026-10-09/10); a 2026-08-i (1,3% éves, 0,2% havi) adat maradt érvényben, nem készült új macro_snapshot ebben a futásban (a 2026-10-06 06:04-es pillanatkép maradt érvényben).",
+   "MNB EUR/HUF hivatalos fixing: nem volt megbízhatóan megerősíthető újabb (2026-10-06-i) érték, a 06:04-es pillanatkép 2026-10-05-i (367,73 Ft/EUR) adata maradt érvényben.",
+   "Az ÁKK (akk.hu) hivatalos államadósság-adata ebben a futásban sem volt közvetlenül lekérhető; az érték változatlanul a 2026-07-31-i (Magyar Nemzet/ÁKK-hivatkozás) állapotot tükrözi."
   ],
   "eu_lost_items_new": 0,
-  "finished_at": "2026-10-06T06:04:00+02:00",
+  "finished_at": "2026-10-06T12:00:00+02:00",
   "items_duplicate": 0,
   "items_found_total": 0,
   "items_needs_review": 0,
@@ -2683,16 +2679,16 @@
   "reported_cases_new": 0,
   "reported_cases_updated": 0,
   "sources_checked": [
-   "kormany.hu/atlathato/feljelentes (47 ügy, 2255 Mrd Ft, 2026-10-02-i állapát — változatlan)",
+   "kormany.hu/atlathato/feljelentes (47 ügy, 2255 Mrd Ft, 24,2 Mrd Ft visszafizetve/megtakarítva, 12 ügyben nyomozás — 2026-10-02-i állapot, változatlan)",
    "mnvvh.hu/hirek",
+   "hirkereso.hu",
    "k-monitor.hu (WebSearch)",
-   "hirkereso.hu (gyökér oldal, /politika 404-es hibával)",
-   "ugyeszseg.hu/kozponti-nyomozo-fougyeszseg",
-   "telex.hu (403, nem elérhető)",
-   "444.hu (404, nem elérhető a próbált URL)",
-   "Portfolio.hu",
-   "Index.hu",
+   "ugyeszseg.hu/kozponti-nyomozo-fougyeszseg (503, nem elérhető)",
+   "Telex",
+   "444.hu",
    "HVG",
+   "Index",
+   "Portfolio.hu",
    "Economx",
    "Világgazdaság",
    "Infostart.hu",
@@ -2701,14 +2697,22 @@
    "Pénzcentrum",
    "mfor.hu",
    "Privátbankár",
-   "Okoshír.hu",
-   "MNB (mnb.hu/arfolyamok)",
-   "adozona.hu (kereséseken keresztül)"
+   "Adózóna (keresésen keresztül)",
+   "MNB (árfolyam-keresés)",
+   "KSH (inflációs adat keresés)"
   ],
-  "started_at": "2026-10-06T05:40:00+02:00",
-  "id": "2026-10-06T06-04"
+  "started_at": "2026-10-06T11:40:00+02:00",
+  "id": "2026-10-06T12-00"
  },
  "run_history": [
+  {
+   "finished_at": "2026-10-06T12:00:00+02:00",
+   "started_at": "2026-10-06T11:40:00+02:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
   {
    "finished_at": "2026-10-06T06:04:00+02:00",
    "started_at": "2026-10-06T05:40:00+02:00",
@@ -3069,7 +3073,7 @@
   }
  ],
  "run_summary": {
-  "run_id": "2026-10-06T04:06:23+00:00",
+  "run_id": "2026-10-06T10:01:35+00:00",
   "new": 0,
   "modified": 0,
   "confirmed_only": 0,
@@ -3835,6 +3839,21 @@
   },
   {
    "run_id": "2026-10-06T04:06:23+00:00",
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    }
+   }
+  },
+  {
+   "run_id": "2026-10-06T10:01:35+00:00",
    "by_section": {
     "items": {
      "new": 0,
