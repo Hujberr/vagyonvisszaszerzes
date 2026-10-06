@@ -2570,10 +2570,21 @@ window.SITE_CONFIG = {
     }
 
     /* eu split bar */
-    const euPct = euAgreed>0 ? Math.max((euReceived/euAgreed)*100, euReceived>0?4:0) : 0;
-    buildSplitBar("euBar", euAgreed>0, euPct,
-      (euReceived>0 && euPct>=14)?fmtMrd(euReceived):"", "received",
-      fmtMrd(euAgreed-euReceived), "agreed-rest");
+    {
+      const el = document.getElementById("euBar");
+      if(euAgreed>0){
+        const pR = euReceived>0 ? Math.max(euReceived/euAgreed*100, 4) : 0;
+        const pL = euLostTotal>0 ? Math.max(euLostTotal/euAgreed*100, 4) : 0;
+        const pO = Math.max(100 - pR - pL, 0);
+        const openAmt = Math.max(euAgreed - euReceived - euLostTotal, 0);
+        const seg = (cls, p, label) => p>0 ? `<div class="seg ${cls}" data-w="${p}" style="width:0%">${p>=9?label:""}</div>` : "";
+        el.innerHTML = seg("received", pR, fmtMrd(euReceived)) + seg("agreed-rest", pO, fmtMrd(openAmt)) + seg("pending", pL, fmtMrd(euLostTotal));
+      } else {
+        el.innerHTML = `<div class="seg agreed-rest" data-w="100" style="width:0%">–</div>`;
+      }
+      const setW = () => el.querySelectorAll(".seg").forEach(x => { x.style.width = x.dataset.w + "%"; });
+      if(prefersReducedMotion){ setW(); } else { requestAnimationFrame(()=>requestAnimationFrame(setW)); }
+    }
     countUp(document.getElementById("euAgreedN"), toMrd(euAgreed), v=>fmtMrdNum(v)+" Mrd Ft");
     countUp(document.getElementById("euReceivedN"), toMrd(euReceived), v=>fmtMrdNum(v)+" Mrd Ft");
     countUp(document.getElementById("euLostN"), toMrd(euLostTotal), v=>fmtMrdNum(v)+" Mrd Ft");
