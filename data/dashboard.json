@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-06T10:01:35+00:00",
+ "generated_at": "2026-10-06T15:01:36+00:00",
  "summary": {
   "megtakaritas_verified_huf": 1735245700000,
   "visszaszerzes_verified_huf": 1545118000000,
@@ -1963,6 +1963,11 @@
      "name": "444.hu",
      "published_date": "2026-09-28",
      "url": "https://444.hu/2026/09/28/kozzetette-melyik-negy-uggyel-kezdi-meg-a-munkat-az-nvvh"
+    },
+    {
+     "name": "Index",
+     "published_date": "2026-10-06",
+     "url": "https://index.hu/belfold/2026/10/06/orsi-gergely-korrupcio-gyanusitas-interju/"
     }
    ],
    "alleged_amount_huf": 2000000000,
@@ -1979,10 +1984,10 @@
    },
    "status": "under_investigation",
    "subject": "Önkormányzati parkfenntartási és közétkeztetési közbeszerzések — több önkormányzati ciklust átívelő korrupciós gyanú",
-   "verification_notes": "ÚJ TÉTEL (2026-09-28 futás). Az NVVH szerint ez a magyar politikai korrupció egyik tankönyvi példája, több politikai ciklust és oldalt érintő gyakorlat. FRISSÍTVE 2026-09-28 (esti ellenőrzés, Népszava): a 2026-09-28-i cikk szerint az ügy 2011–2024 közötti, több fővárosi kerületet érintő parkfenntartási cég vezetőjéhez köthető, aki a gyanú szerint összesen több mint 2 milliárd forintot juttatott politikusoknak (több párt képviselőinek egyaránt) a megbízások megtartásáért — ez az első konkrét összeg- és időszakadat az ügyben; érintett önkormányzat vagy cégnév továbbra sem ismert. FRISSÍTVE 2026-09-29: az ügy azonosítható az ügyészség és több sajtóforrás (HVG, Világgazdaság, Magyar Hang, Infostart, Forbes, Origo, 10perc, Népszava, mind 2026-09-11) által 'óbudai korrupciós ügy' néven tárgyalt, jóval korábban induló nyomozással: a Központi Nyomozó Főügyészség 2026-09-11-én további 14 gyanúsítottat hallgatott ki, ezzel 47-re nőtt az összes gyanúsított száma; köztük Fidesz és MSZP oldali önkormányzati politikusok is (pl. Bús Balázs volt III. kerületi polgármester, Puskás Péter volt III. kerületi alpolgármester, Őrsi Gergely II. kerületi polgármester, Láng Zsolt volt II. kerületi polgármester, Molnár Zsolt volt MSZP-s országgyűlési képviselő, valamint Momentum-os önkormányzati képviselők), illetve Veres Tibort (Wallis Csoport, az egyik leggazdagabb magyar) is gyanúsítottként hallgatták ki. Hét gyanúsított továbbra is letartóztatásban van. A 2 milliárd forintos vesztegetési összeg és a 2011–2024-es időszak megegyezik a korábban rögzített adatokkal, ez tehát ugyanaz az ügy, csak kiegészítve a nyomozás korábbi (2026-09-11-i és azt megelőző) szakaszának részleteivel. Konkrét, az államhoz ténylegesen visszakerült összeg továbbra sem ismert, a confirmed_recovered_huf ezért változatlanul 0.",
+   "verification_notes": "FRISSÍTVE 2026-10-06: az Index interjúja szerint Őrsi Gergely (II. kerületi polgármester) tagadja a vádakat; a vádhatóság állítása szerint 2021-ben 70, 2022-ben 90, 2023-ban pedig 100 millió forintot (összesen kb. 260-290 millió forintot) kapott kenőpénzként, ez képezi a nála felmerülő gyanú konkrét összegét az ügy 2 milliárd forintos teljes, több politikust érintő összegén belül. Előzetes letartóztatását megszüntették, jelenleg bűnügyi felügyelet (elektronikus nyomkövető eszköz) alatt áll. Az ügy teljes, 2011-2024 közötti időszaka és a 2+ milliárd forintos összesített gyanúsított összeg nem változott, tényleges visszaszerzés továbbra sincs. (Korábbi megjegyzések megőrizve, l. előző verzió.) FRISSÍTVE 2026-09-28 (esti ellenőrzés, Népszava): a 2026-09-28-i cikk szerint az ügy 2011–2024 közötti, több fővárosi kerületet érintő parkfenntartási cég vezetőjéhez köthető, aki a gyanú szerint összesen több mint 2 milliárd forintot juttatott politikusoknak (több párt képviselőinek egyaránt) a megbízások megtartásáért — ez az első konkrét összeg- és időszakadat az ügyben; érintett önkormányzat vagy cégnév továbbra sem ismert. FRISSÍTVE 2026-09-29: az ügy azonosítható az ügyészség és több sajtóforrás (HVG, Világgazdaság, Magyar Hang, Infostart, Forbes, Origo, 10perc, Népszava, mind 2026-09-11) által 'óbudai korrupciós ügy' néven tárgyalt, jóval korábban induló nyomozással: a Központi Nyomozó Főügyészség 2026-09-11-én további 14 gyanúsítottat hallgatott ki, ezzel 47-re nőtt az összes gyanúsított száma; köztük Fidesz és MSZP oldali önkormányzati politikusok is (pl. Bús Balázs volt III. kerületi polgármester, Puskás Péter volt III. kerületi alpolgármester, Őrsi Gergely II. kerületi polgármester, Láng Zsolt volt II. kerületi polgármester, Molnár Zsolt volt MSZP-s országgyűlési képviselő, valamint Momentum-os önkormányzati képviselők), illetve Veres Tibort (Wallis Csoport, az egyik leggazdagabb magyar) is gyanúsítottként hallgatták ki. Hét gyanúsított továbbra is letartóztatásban van. A 2 milliárd forintos vesztegetési összeg és a 2011–2024-es időszak megegyezik a korábban rögzített adatokkal, ez tehát ugyanaz az ügy, csak kiegészítve a nyomozás korábbi (2026-09-11-i és azt megelőző) szakaszának részleteivel. Konkrét, az államhoz ténylegesen visszakerült összeg továbbra sem ismert, a confirmed_recovered_huf ezért változatlanul 0.",
    "id": "reported-onkormanyzati-parkfenntartas-etkeztetes-korrupcio-2026-09",
    "first_seen_at": "2026-09-28T15:02:40+00:00",
-   "updated_at": "2026-09-29T04:00:47+00:00"
+   "updated_at": "2026-10-06T15:01:36+00:00"
   },
   {
    "additional_sources": [
@@ -2437,7 +2442,7 @@
    "url": "https://magyarnemzet.hu/gazdasag/2026/09/allamadossag-novekedes"
   },
   "allamadossag_huf": 65716000000000,
-  "collected_at": "2026-10-06T06:04:00+02:00",
+  "collected_at": "2026-10-06T16:56:00+02:00",
   "elozo": {
    "allamadossag": {
     "period": null,
@@ -2546,18 +2551,18 @@
     "key": "eur_huf",
     "label_en": "Official EUR/HUF rate (MNB)",
     "label_hu": "Euró hivatalos árfolyama (MNB)",
-    "note_en": "USD: 327.98 HUF (2026-10-05 fixing). As of 2026-10-06 the official page still showed the 2026-10-05 fixing; no newer value was available.",
-    "note_hu": "Dollár: 327,98 Ft (2026-10-05-i fixing). 2026-10-06-án a hivatalos oldal még a 2026-10-05-i fixinget mutatta, új érték nem volt elérhető.",
-    "period": "2026-10-05",
-    "prev_period": "2026-10-02",
-    "prev_value": 367.87,
+    "note_en": "USD: 324.98 HUF (2026-10-06 fixing).",
+    "note_hu": "Dollár: 324,98 Ft (2026-10-06-i fixing).",
+    "period": "2026-10-06",
+    "prev_period": "2026-10-05",
+    "prev_value": 367.73,
     "source": {
      "name": "MNB hivatalos árfolyamok",
-     "publish_date": "2026-10-05",
+     "publish_date": "2026-10-06",
      "url": "https://www.mnb.hu/arfolyamok"
     },
     "unit": "Ft/EUR",
-    "value": 367.73
+    "value": 365.38
    },
    {
     "key": "brutto_atlagkereset",
@@ -2659,31 +2664,31 @@
    "publish_date": "2026-09-22",
    "url": "https://www.portfolio.hu/gazdasag/20260922/itt-az-mnb-uj-elorejelzese-hiaba-a-nemzetkozi-kockazatok-mersekelt-marad-az-idei-inflacio-864484"
   },
-  "id": "2026-10-06T06-04"
+  "id": "2026-10-06T16-56"
  },
  "last_run": {
   "errors": [
-   "Ez a futás az előző (2026-10-06 06:04-es) futáshoz képest kb. 6 órával később indult; a 12 tematikus keresés és a kiegészítő forrás-ellenőrzés nem talált új, korábban nem rögzített tényt vagy eseményt — minden találat már a meglévő items/reported_cases tételekben szerepel (pl. M6, Duna Aszfalt, MKIF, Volánbusz, Gondosóra, Eximbank-ügyek) vagy irreleváns/túl régi (pl. 2025-ös inflációs cikkek).",
-   "A mnvvh.hu/hirek 2026-10-06-i bejegyzése ('Hankó Balázshoz köthető támogatási döntések felgyorsultak, 2026 H1: 3,63 Mrd Ft vs 2025: 1,83 Mrd Ft') és a hirkereso.hu '21 milliárd forint tao-visszakövetelés' és 'Hankó két hónap alatt kétszer annyi pénzt osztott ki' említése önálló keresésekkel nem volt megerősíthető konkrét, forrással alátámasztható cikkel — a már rögzített reported-hanko-balazs-nka-sikkasztas-2026-09 tételen túli, önállóan rögzíthető új tényt nem lehetett azonosítani, ezért nem került be az adattárba.",
-   "ugyeszseg.hu/category/hirek/kozponti-nyomozo-fougyeszseg/ két kísérletre is HTTP 503-at adott, ebben a futásban nem volt ellenőrizhető.",
-   "KSH szeptemberi inflációs gyorstájékoztató még nem publikált (várható időpont kb. 2026-10-09/10); a 2026-08-i (1,3% éves, 0,2% havi) adat maradt érvényben, nem készült új macro_snapshot ebben a futásban (a 2026-10-06 06:04-es pillanatkép maradt érvényben).",
-   "MNB EUR/HUF hivatalos fixing: nem volt megbízhatóan megerősíthető újabb (2026-10-06-i) érték, a 06:04-es pillanatkép 2026-10-05-i (367,73 Ft/EUR) adata maradt érvényben.",
-   "Az ÁKK (akk.hu) hivatalos államadósság-adata ebben a futásban sem volt közvetlenül lekérhető; az érték változatlanul a 2026-07-31-i (Magyar Nemzet/ÁKK-hivatkozás) állapotot tükrözi."
+   "ugyeszseg.hu/category/hirek/kozponti-nyomozo-fougyeszseg/ ismét HTTP 503-at adott (már a 12:00-ás futásban is), ebben a futásban sem volt ellenőrizhető.",
+   "A 12 tematikus keresés és a kiegészítő források (K-Monitor, hirkereso.hu, mnvvh.hu) nem hoztak önállóan rögzíthető, konkrét összeghez köthető ÚJ tényt a megtakarítás/visszaszerzés/eu_forras kategóriákban; a mai (2026-10-06) hirkereso.hu/Index találatok közül a Józsefváros-Főváros közötti 1,5 milliárd forintos elvonás önkormányzatközi forráselvonási vita, nem minisztériumi megtakarítás/visszaszerzés/EU-forrás esemény, ezért nem került be. A Lánczi Tamás (volt Szuverenitásvédelmi Hivatal vezető) elleni vizsgálatról szóló cikk konkrét új összeget vagy eljárási tényt nem közölt, csak általános nyilatkozatokat, ezért önállóan nem rögzíthető.",
+   "Az Őrsi Gergely elleni vád egyedi (260-290 M Ft) összege és a bűnügyi felügyeletre váltás ténye a meglévő reported-onkormanyzati-parkfenntartas-etkeztetes-korrupcio-2026-09 tétel frissítéseként került rögzítésre (verification_notes + additional_sources), nem önálló tételként, mivel ugyanannak az óbudai korrupciós ügynek a része.",
+   "KSH szeptemberi inflációs gyorstájékoztató még nem publikált (várható kb. 2026-10-09/10), az augusztusi adat maradt érvényben.",
+   "ÁKK (akk.hu) hivatalos államadósság-adata ebben a futásban sem volt közvetlenül lekérhető; az érték változatlanul a 2026-07-31-i (Magyar Nemzet/ÁKK-hivatkozás) állapotot tükrözi.",
+   "MNB EUR/HUF hivatalos fixing frissítve 2026-10-06-i (365,38 Ft/EUR) értékre, új macro_snapshot létrehozva."
   ],
   "eu_lost_items_new": 0,
-  "finished_at": "2026-10-06T12:00:00+02:00",
+  "finished_at": "2026-10-06T17:35:00+02:00",
   "items_duplicate": 0,
   "items_found_total": 0,
   "items_needs_review": 0,
   "items_new": 0,
   "reported_cases_new": 0,
-  "reported_cases_updated": 0,
+  "reported_cases_updated": 1,
   "sources_checked": [
    "kormany.hu/atlathato/feljelentes (47 ügy, 2255 Mrd Ft, 24,2 Mrd Ft visszafizetve/megtakarítva, 12 ügyben nyomozás — 2026-10-02-i állapot, változatlan)",
    "mnvvh.hu/hirek",
    "hirkereso.hu",
-   "k-monitor.hu (WebSearch)",
    "ugyeszseg.hu/kozponti-nyomozo-fougyeszseg (503, nem elérhető)",
+   "k-monitor.hu (WebSearch)",
    "Telex",
    "444.hu",
    "HVG",
@@ -2697,14 +2702,20 @@
    "Pénzcentrum",
    "mfor.hu",
    "Privátbankár",
-   "Adózóna (keresésen keresztül)",
-   "MNB (árfolyam-keresés)",
-   "KSH (inflációs adat keresés)"
+   "MNB (mnb.hu/arfolyamok)"
   ],
-  "started_at": "2026-10-06T11:40:00+02:00",
-  "id": "2026-10-06T12-00"
+  "started_at": "2026-10-06T16:56:00+02:00",
+  "id": "2026-10-06T16-56"
  },
  "run_history": [
+  {
+   "finished_at": "2026-10-06T17:35:00+02:00",
+   "started_at": "2026-10-06T16:56:00+02:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 1,
+   "eu_lost_items_new": 0
+  },
   {
    "finished_at": "2026-10-06T12:00:00+02:00",
    "started_at": "2026-10-06T11:40:00+02:00",
@@ -3073,11 +3084,11 @@
   }
  ],
  "run_summary": {
-  "run_id": "2026-10-06T10:01:35+00:00",
+  "run_id": "2026-10-06T15:01:36+00:00",
   "new": 0,
   "modified": 0,
-  "confirmed_only": 0,
-  "touched": 0,
+  "confirmed_only": 1,
+  "touched": 1,
   "pending_review": 1,
   "by_section": {
    "items": {
@@ -3088,12 +3099,14 @@
    "reported_cases": {
     "new": 0,
     "modified": 0,
-    "confirmed_only": 0
+    "confirmed_only": 1
    }
   },
   "new_ids": [],
   "modified_ids": [],
-  "confirmed_ids": []
+  "confirmed_ids": [
+   "r:reported-onkormanyzati-parkfenntartas-etkeztetes-korrupcio-2026-09"
+  ]
  },
  "run_summary_history": [
   {
@@ -3864,6 +3877,21 @@
      "new": 0,
      "modified": 0,
      "confirmed_only": 0
+    }
+   }
+  },
+  {
+   "run_id": "2026-10-06T15:01:36+00:00",
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 1
     }
    }
   }
