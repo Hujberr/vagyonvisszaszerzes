@@ -1588,6 +1588,11 @@ window.SITE_CONFIG = {
     if(typeof d.agreed_original_huf === "number") return d.agreed_original_huf;
     return d.agreed_huf!=null ? d.agreed_huf : d.amount_huf;
   }
+  /* Kártyán/táblázatban mutatott összeg: saját megállapodás nélküli (csak beérkezett) tételnél a beérkezett összeg */
+  function euShownAmt(d){
+    const a = Number(euAgreedAt(d)) || 0;
+    return a > 0 ? a : (Number(d.received_huf) || 0);
+  }
   function euChartHtml(list){
     const t = I18N[lang];
     const agreed = list.reduce((a,d)=>a+(Number(euAgreedAt(d))||0),0);
@@ -1645,7 +1650,7 @@ window.SITE_CONFIG = {
     ];
     if(item.category === "eu_forras"){
       const lostAmt = euLost(item);
-      fields.push([t.agreedLabel, fmtMrd(euAgreedAt(item)) + " " + t.mrd]);
+      if((Number(euAgreedAt(item)) || 0) > 0) fields.push([t.agreedLabel, fmtMrd(euAgreedAt(item)) + " " + t.mrd]);
       fields.push([t.receivedLabel, fmtMrd(item.received_huf) + " " + t.mrd]);
       fields.push([t.lostLabel, `<span style="color:var(--bad)">${fmtMrd(lostAmt)} ${t.mrd}</span>`]);
     } else {
@@ -1764,7 +1769,7 @@ window.SITE_CONFIG = {
     const totalHuf = list.reduce((a,d)=> a + (typeof d[amountField]==="number"?d[amountField]:0), 0);
     document.getElementById("modalTitle").textContent = title;
     CURRENT_CAT_ITEMS = list.map(d=>({kind, data:d}));
-    const euAmt = d => euAgreedAt(d);
+    const euAmt = d => euShownAmt(d);
     const summary = catKey === "eu"
       ? euChartHtml(list)
       : `<p class="cat-list-summary">${list.length} ${t.tetel} · ${fmtMrd(totalHuf)} ${t.mrd}</p>`;
@@ -2644,7 +2649,7 @@ window.SITE_CONFIG = {
       const d = row.data;
       const cat = d.category || "";
       const st = d.status || "";
-      const amount = d.category==="eu_forras" ? euAgreedAt(d) : d.amount_huf;
+      const amount = d.category==="eu_forras" ? euShownAmt(d) : d.amount_huf;
       return `<tr data-idx="${idx}" tabindex="0" role="button" class="${hlClass(d,"item").trim()}">
         <td class="mono" data-label="${t.colDate}"><span class="nw">${d.event_date||"–"}</span>${updatedBadgeHtml(d)}</td>
         <td data-label="${t.colCategory}"><span class="cat-dot ${cat}"><i></i>${t[CAT_KEY[cat]]||cat}</span></td>

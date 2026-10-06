@@ -4,7 +4,7 @@
  "summary": {
   "megtakaritas_verified_huf": 1735245700000,
   "visszaszerzes_verified_huf": 1545118000000,
-  "eu_forras_verified_huf": 6188000000000,
+  "eu_forras_verified_huf": 5986000000000,
   "eu_forras_lost_huf": 730000000000,
   "items_count": 29,
   "reported_cases_count": 39
@@ -141,8 +141,8 @@
      "url": "https://privatbankar.hu/cikkek/makro/552-milliard-euros-jo-hirt-kapott-brusszelbol-magyarorszag.html"
     }
    ],
-   "agreed_huf": 202000000000,
-   "agreed_original_huf": 202000000000,
+   "agreed_huf": 0,
+   "agreed_original_huf": 0,
    "agreed_text": "552,3 millió euró (kb. 202 milliárd forint) — az Európai Bizottság és az Európai Beruházási Bank által jóváhagyott, 2026 júliusában kifizetett támogatás",
    "amount_huf": 202000000000,
    "amount_text": "552,3 millió euró (kb. 202 milliárd forint)",

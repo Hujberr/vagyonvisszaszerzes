@@ -186,7 +186,10 @@ def main(src, dst):
         "summary": {
             "megtakaritas_verified_huf": total("megtakaritas"),
             "visszaszerzes_verified_huf": total("visszaszerzes"),
-            "eu_forras_verified_huf": total("eu_forras"),
+            # a "megállapodott" összeg fix keret: a saját megállapodás nélküli (csak beérkezett) tételek nem adódnak hozzá
+            "eu_forras_verified_huf": sum(
+                (d.get("agreed_original_huf") if isinstance(d.get("agreed_original_huf"), (int, float)) else (d.get("amount_huf") or 0))
+                for d in items if d.get("category") == "eu_forras" and d.get("status") == "verified"),
             "eu_forras_lost_huf": sum((d.get("lost_huf") or 0) for d in items
                                       if d.get("category") == "eu_forras" and d.get("status") == "verified"),
             "items_count": len(items),
