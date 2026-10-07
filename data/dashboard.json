@@ -1,12 +1,12 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-07T10:05:44+00:00",
+ "generated_at": "2026-10-07T15:02:30+00:00",
  "summary": {
   "megtakaritas_verified_huf": 1735245700000,
-  "visszaszerzes_verified_huf": 1545118000000,
+  "visszaszerzes_verified_huf": 1547098000000,
   "eu_forras_verified_huf": 6188000000000,
   "eu_forras_lost_huf": 730000000000,
-  "items_count": 29,
+  "items_count": 30,
   "reported_cases_count": 39
  },
  "items": [
@@ -1188,6 +1188,49 @@
   {
    "additional_sources": [
     {
+     "name": "Telex",
+     "published_date": "2026-10-06",
+     "url": "https://telex.hu/belfold/2026/10/06/tao-tamogatas-visszaigenyles-nav-belugyminiszterium-kalnoki-kiss-attila-sport"
+    },
+    {
+     "name": "Economx",
+     "published_date": "2026-10-06",
+     "url": "https://www.economx.hu/gazdasag/2026/10/06/sportgazdasag-tao-tamogatas-sportszervezetek-visszafizetes-nav-vegrehajtas/"
+    },
+    {
+     "name": "Kisalföld",
+     "published_date": "2026-10-06",
+     "url": "https://www.kisalfold.hu/helyi-sport/2026/10/tao-visszafizetes-tamogatas"
+    },
+    {
+     "name": "Okoshír.hu",
+     "published_date": "2026-10-07",
+     "url": "https://www.okoshir.hu/2026/10/07/21-milliard-forint-tao-tamogatast-kovetel-vissza-a-sportallamtitkarsag-a-kluboktol/"
+    }
+   ],
+   "amount_huf": 1980000000,
+   "amount_text": "eddig több mint 1,98 milliárd forint ténylegesen behajtva (a 21 milliárd forint feletti visszakövetelt összegből)",
+   "category": "visszaszerzes",
+   "collected_at": "2026-10-07T16:56:00+02:00",
+   "currency_note": null,
+   "dedup_key": "visszaszerzes|tao sporttamogatas vegrehajtas behajtas nav|1980000000",
+   "description": "A Sportért Felelős Államtitkárság a 2022–2026 közötti társaságiadó- (tao-) elszámolások felülvizsgálata nyomán több mint 500 esetben, összesen 21 milliárd forint feletti vissza nem fizetett sporttámogatást követelt vissza a hat látványcsapatsportágban (labdarúgás, kézilabda, kosárlabda, röplabda, jégkorong, vízilabda) működő szervezetektől, amelyek az elmarasztaló záróhatározat után sem fizették vissza a kapott közpénzt. A Nemzeti Adó- és Vámhivatal végrehajtása eddig több mint 1,98 milliárd forintot hajtott be, további 241 ügyben (összesen 10,3 milliárd forint) folyamatban van a behajtás. 120 ügyben — összesen több mint 7 milliárd forint értékben — azonban a végrehajtás meghiúsult, ez a pénz nem térült meg az államkasszába.",
+   "duplicate_of": null,
+   "event_date": "2026-10-06",
+   "from_whom": "Hat látványcsapatsportág (labdarúgás, kézilabda, kosárlabda, röplabda, jégkorong, vízilabda) mintegy 2500 szervezete — 2022–2026 közötti tao-elszámolások",
+   "source_name": "444.hu",
+   "source_published_date": "2026-10-06",
+   "source_url": "https://444.hu/2026/10/06/tobb-mint-7-milliard-forintnyi-tao-tamogatast-nem-sikerult-visszaszerezni-a-sportszervezetektol",
+   "status": "verified",
+   "subject": "Vissza nem fizetett tao-sporttámogatások végrehajtása",
+   "verification_notes": "ÚJ TÉTEL (2026-10-07 16:56-os futás). Legalább nyolc független sajtóforrás (444.hu, Telex, Economx, Kisalföld, Esti Hírlap, Napiújság, Okoshír, Hírnavigátor, Mai Kurír) egyezően számol be az ügyről, mind 2026-10-06/07-i dátummal. Az amount_huf szándékosan a TÉNYLEGESEN már behajtott összeget (1,98 Mrd Ft) tükrözi, nem a teljes 21+ Mrd Ft-os visszakövetelt összeget, mert abból jelentős rész (7+ Mrd Ft, 120 ügyben) véglegesen meghiúsult, további 10,3 Mrd Ft (241 ügy) pedig még folyamatban van — ezt a description részletesen tartalmazza. Nem szerepel a kormany.hu/atlathato/feljelentes hivatalos listáján (2026-10-07-i ellenőrzés szerint, változatlanul 47 ügy/2255 Mrd Ft, 2026-10-02-i állapot), mivel ez a Sportért Felelős Államtitkárság/NAV önálló közigazgatási végrehajtási eljárása, nem kormányzati feljelentés.",
+   "id": "visszaszerzes-tao-sporttamogatas-vegrehajtas-2026-10",
+   "updated_at": "2026-10-07T15:02:30+00:00",
+   "first_seen_at": "2026-10-07T15:02:30+00:00"
+  },
+  {
+   "additional_sources": [
+    {
      "name": "Zaol.hu",
      "published_date": "2026-08-24",
      "url": "https://www.zaol.hu/helyi-kozelet/2026/08/zalazone-kekva-allami-vagyon"
@@ -1635,6 +1678,13 @@
    "updated_at": "2026-10-03T10:07:22+00:00"
   },
   {
+   "additional_sources": [
+    {
+     "name": "444.hu (NKA-elszámolás elemzés)",
+     "published_date": "2026-10-06",
+     "url": "https://444.hu/2026/10/06/a-kormany-szerint-hanko-ket-honap-alatt-tobb-nka-s-penzt-osztott-szet-mint-2025-egeszeben"
+    }
+   ],
    "alleged_amount_huf": 17300000000,
    "alleged_amount_text": "17,3 milliárd forint (1079 pályázat/támogatás keretében)",
    "confirmed_recovered_huf": 4000000000,
@@ -1649,10 +1699,10 @@
    },
    "status": "partially_recovered",
    "subject": "Hankó Balázs korábbi kulturális miniszter — Nemzeti Kulturális Alap (NKA) forrásainak választási kampányra fordítása",
-   "verification_notes": "FRISSÍTVE 2026-10-05 06:00-ás futás: a kapcsolódó items/visszaszerzes-nka-hanko-onkentes-visszafizetes-2026-07 tétel szerint az önkéntes NKA-visszafizetések összege 2026-08-19-ig 4 milliárd forintra nőtt (korábban 3,3 Mrd Ft) — a confirmed_recovered_huf ennek megfelelően frissítve; a status (partially_recovered) és a 17,3 milliárd forintos gyanúsított összeg változatlan. (Korábbi megjegyzések megőrizve:) FRISSÍTVE 2026-09-26: kiderült, hogy a kulturális tárca (Tarr Zoltán) saját, korábbi felhívására a kedvezményezettek már 2026 július végéig önkéntesen több mint 3,3 milliárd forintot visszafizettek az NKA ideiglenes kollégiumának támogatásaiból — ez a Legfőbb Ügyészség jelen büntetőeljárásától független, korábbi esemény, de ugyanazt az NKA-botrányt érinti. FRISSÍTVE 2026-09-28: az Országgyűlés felfüggesztette Hankó Balázs mentelmi jogát (139 igen szavazat). FRISSÍTVE 2026-09-30/10-01: előzetes letartóztatás indítványozva, majd elrendelve (2026-10-02, legalább nyolc független forrás). FRISSÍTVE 2026-10-02: a Miniszterelnökség nyilvánosan kereshetővé tette az NKA-támogatásokat; a győri NKA-ügy (105 millió Ft) a jelen összesített ügy részeként értendő, nem önálló tétel.",
+   "verification_notes": "FRISSÍTVE 2026-10-07 16:56-os futás: a kormány 2026-10-06-i elemzése (444.hu) szerint Hankó Balázs 2026 március-áprilisában (a választás előtti időszakban) 107 tételben összesen 3,63 milliárd forintot osztott szét az NKA-ból, ez önmagában meghaladja a teljes 2025-ös évi 1,83 milliárd forintos keretösszeget; az elemzés szerint a támogatott szervezetek 38%-a (2+ milliárd Ft) korábban nem támogatott szervezet volt, közel egyharmada (1,7 Mrd Ft) pedig nyereségérdekelt cég. Ez kiegészítő kontextus a már rögzített 17,3 milliárd forintos gyanúsított összeghez és a 4 milliárd forintos önkéntes visszafizetéshez képest, az alleged_amount_huf és a status nem változik. (Korábbi megjegyzések megőrizve, l. előző verzió.) FRISSÍTVE 2026-10-05 06:00-ás futás: a kapcsolódó items/visszaszerzes-nka-hanko-onkentes-visszafizetes-2026-07 tétel szerint az önkéntes NKA-visszafizetések összege 2026-08-19-ig 4 milliárd forintra nőtt (korábban 3,3 Mrd Ft) — a confirmed_recovered_huf ennek megfelelően frissítve; a status (partially_recovered) és a 17,3 milliárd forintos gyanúsított összeg változatlan. (Korábbi megjegyzések megőrizve:) FRISSÍTVE 2026-09-26: kiderült, hogy a kulturális tárca (Tarr Zoltán) saját, korábbi felhívására a kedvezményezettek már 2026 július végéig önkéntesen több mint 3,3 milliárd forintot visszafizettek az NKA ideiglenes kollégiumának támogatásaiból — ez a Legfőbb Ügyészség jelen büntetőeljárásától független, korábbi esemény, de ugyanazt az NKA-botrányt érinti. FRISSÍTVE 2026-09-28: az Országgyűlés felfüggesztette Hankó Balázs mentelmi jogát (139 igen szavazat). FRISSÍTVE 2026-09-30/10-01: előzetes letartóztatás indítványozva, majd elrendelve (2026-10-02, legalább nyolc független forrás). FRISSÍTVE 2026-10-02: a Miniszterelnökség nyilvánosan kereshetővé tette az NKA-támogatásokat; a győri NKA-ügy (105 millió Ft) a jelen összesített ügy részeként értendő, nem önálló tétel.",
    "id": "reported-hanko-balazs-nka-sikkasztas-2026-09",
    "first_seen_at": "2026-09-28T15:02:40+00:00",
-   "updated_at": "2026-10-05T04:03:09+00:00"
+   "updated_at": "2026-10-07T15:02:30+00:00"
   },
   {
    "additional_sources": [
@@ -2456,7 +2506,7 @@
    "url": "https://magyarnemzet.hu/gazdasag/2026/09/allamadossag-novekedes"
   },
   "allamadossag_huf": 65716000000000,
-  "collected_at": "2026-10-07T12:01:00+02:00",
+  "collected_at": "2026-10-07T16:56:00+02:00",
   "elozo": {
    "allamadossag": {
     "period": null,
@@ -2547,7 +2597,7 @@
    {
     "key": "jegybanki_alapkamat",
     "label_en": "Central bank base rate",
-    "label_hu": "Jegybanki alapkamat",
+    "label_hu": "Jegybanki alapkamát",
     "note_en": "The Monetary Council left the base rate unchanged after a total 75 basis point cut over the summer.",
     "note_hu": "A Monetáris Tanács nem változtatott az alapkamáton, a nyári, összesen 75 bázispontos csökkentést követően.",
     "period": "2026-09-22",
@@ -2678,72 +2728,55 @@
    "publish_date": "2026-09-22",
    "url": "https://www.portfolio.hu/gazdasag/20260922/itt-az-mnb-uj-elorejelzese-hiaba-a-nemzetkozi-kockazatok-mersekelt-marad-az-idei-inflacio-864484"
   },
-  "id": "2026-10-07T12-01"
+  "id": "2026-10-07T16-56"
  },
  "last_run": {
   "errors": [
-   "ugyeszseg.hu (Kozponti Nyomozo Fougyeszseg hirrovat) HTTP 503 Service Unavailable, nem volt elerheto ebben a futasban",
-   "KSH szeptemberi inflacios adat meg nem jelent meg (a kereses egymasnak ellentmondo, korabbi evekbol szarmazo talalatokat adott 3,0% / 4,9% / 5,5% ertekkel), ezert a macro_snapshot valtozatlanul az augusztusi (1,3%) adatot tartalmazza",
-   "uj, megbizhato allamadossag-allomany (HUF) adat nem volt talalhato szeptember vegere, a korabbi (2026-07-31-i) ertek maradt ervenyben"
+   "ugyeszseg.hu: HTTP 503 Service Unavailable, kétszeri próbálkozás után sem volt elérhető ebben a futásban",
+   "k-monitor.hu: a site:k-monitor.hu keresés ebben a futásban nem adott közvetlenül a domainről származó találatot"
   ],
   "eu_lost_items_new": 0,
-  "finished_at": "2026-10-07T13:30:00+02:00",
+  "finished_at": "2026-10-07T18:10:00+02:00",
   "items_duplicate": 0,
-  "items_found_total": 1,
+  "items_found_total": 2,
   "items_needs_review": 0,
-  "items_new": 0,
+  "items_new": 1,
   "reported_cases_new": 0,
-  "reported_cases_updated": 2,
+  "reported_cases_updated": 1,
   "sources_checked": [
-   "kormany.hu/atlathato/feljelentes",
-   "24.hu",
+   "kormany.hu/atlathato/feljelentes (hivatalos)",
+   "mnvvh.hu/hirek",
+   "hirkereso.hu",
+   "k-monitor.hu (WebSearch, nem adott új találatot)",
+   "ugyeszseg.hu/category/hirek/kozponti-nyomozo-fougyeszseg/ (nem elérhető, 503)",
+   "telex.hu",
    "444.hu",
-   "168.hu",
-   "atlatszo.hu",
-   "demokrata.hu",
-   "direkt36.hu",
    "economx.hu",
-   "es.hu",
-   "forbes.hu",
-   "g7.hu",
-   "hirtv.hu",
    "hvg.hu",
    "index.hu",
-   "infostart.hu",
-   "jelen.media",
-   "klubradio.hu",
-   "magyarhang.org",
-   "magyarhirlap.hu",
-   "magyarnemzet.hu",
-   "makronom.hu",
-   "mandiner.hu",
-   "media1.hu",
-   "mfor.hu",
-   "merce.hu",
-   "mti.hu",
-   "nepszava.hu",
-   "origo.hu",
-   "penzcentrum.hu",
    "portfolio.hu",
    "privatbankar.hu",
-   "szabadeuropa.hu",
-   "telex.hu",
-   "trendfm.hu",
-   "ujegyenloseg.hu",
-   "valaszonline.hu",
    "vg.hu",
-   "partizan.hu",
+   "infostart.hu",
+   "kisalfold.hu",
    "okoshir.hu",
-   "szmo.hu",
-   "k-monitor.hu (websearch only)",
-   "hirkereso.hu",
-   "mnvvh.hu/hirek",
-   "ugyeszseg.hu/category/hirek/kozponti-nyomozo-fougyeszseg/ (503, elerhetetlen)"
+   "napiujsag.hu",
+   "estihirlap.hu",
+   "hirnavigator.hu",
+   "origo.hu"
   ],
-  "started_at": "2026-10-07T12:01:00+02:00",
-  "id": "2026-10-07T12-01"
+  "started_at": "2026-10-07T16:56:00+02:00",
+  "id": "2026-10-07T16-56"
  },
  "run_history": [
+  {
+   "finished_at": "2026-10-07T18:10:00+02:00",
+   "started_at": "2026-10-07T16:56:00+02:00",
+   "items_new": 1,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 1,
+   "eu_lost_items_new": 0
+  },
   {
    "finished_at": "2026-10-07T13:30:00+02:00",
    "started_at": "2026-10-07T12:01:00+02:00",
@@ -3136,17 +3169,17 @@
   }
  ],
  "run_summary": {
-  "run_id": "2026-10-07T10:05:44+00:00",
-  "new": 0,
+  "run_id": "2026-10-07T15:02:30+00:00",
+  "new": 1,
   "modified": 0,
-  "confirmed_only": 3,
-  "touched": 3,
+  "confirmed_only": 1,
+  "touched": 2,
   "pending_review": 1,
   "by_section": {
    "items": {
-    "new": 0,
+    "new": 1,
     "modified": 0,
-    "confirmed_only": 2
+    "confirmed_only": 0
    },
    "reported_cases": {
     "new": 0,
@@ -3154,12 +3187,12 @@
     "confirmed_only": 1
    }
   },
-  "new_ids": [],
+  "new_ids": [
+   "i:visszaszerzes-tao-sporttamogatas-vegrehajtas-2026-10"
+  ],
   "modified_ids": [],
   "confirmed_ids": [
-   "i:eu-forras-modernizacios-alap-2026-07",
-   "i:megtakaritas-m6-dunaujvaros-erdi-teto-2026-09",
-   "r:reported-m6-dunaujvaros-erdi-teto-tularazas-2026"
+   "r:reported-hanko-balazs-nka-sikkasztas-2026-09"
   ]
  },
  "run_summary_history": [
@@ -3986,6 +4019,21 @@
      "new": 0,
      "modified": 0,
      "confirmed_only": 2
+    },
+    "reported_cases": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 1
+    }
+   }
+  },
+  {
+   "run_id": "2026-10-07T15:02:30+00:00",
+   "by_section": {
+    "items": {
+     "new": 1,
+     "modified": 0,
+     "confirmed_only": 0
     },
     "reported_cases": {
      "new": 0,
