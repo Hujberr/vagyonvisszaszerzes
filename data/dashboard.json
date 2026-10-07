@@ -1,10 +1,10 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-07T10:02:15+00:00",
+ "generated_at": "2026-10-07T10:05:44+00:00",
  "summary": {
   "megtakaritas_verified_huf": 1735245700000,
   "visszaszerzes_verified_huf": 1545118000000,
-  "eu_forras_verified_huf": 5986000000000,
+  "eu_forras_verified_huf": 6188000000000,
   "eu_forras_lost_huf": 730000000000,
   "items_count": 29,
   "reported_cases_count": 39
@@ -71,6 +71,8 @@
    },
    "duplicate_of": null,
    "event_date": "2026-05-29",
+   "framework_label": "Eredeti megállapodás",
+   "framework_type": "eredeti",
    "from_whom": null,
    "lost_huf": 730000000000,
    "lost_items": [
@@ -116,7 +118,7 @@
    "verification_notes": "FRISSÍTVE 2026-09-24: Vitézy Dávid 2026.09.23-i nyilatkozata (Világgazdaság) szerint a korábban 'befagyasztottként' nyilvántartott kb. 2 milliárd euróból már NEM csak befagyasztásról, hanem VÉGLEGES ELVESZTÉSRŐL van szó (1 mrd EUR 2024 végén, 1 mrd EUR 2025 végén veszett el a feltételek nem teljesítése miatt). A 4,2 milliárd eurós bizottsági javaslat (2026.09.23) továbbra is csak javaslat, tényleges kifizetés nem történt, a received_huf mező ezért változatlanul 0. FRISSÍTVE 2026-09-25: a 2 mrd EUR elvesztés a 6,3 mrd EUR-s kohéziós keretből történt (VG, Forbes, Portfolio; a Bizottság 4,2 mrd EUR-s javaslata ezzel konzisztens), ezért az agreed_huf 5986 → 5256 Mrd Ft-ra csökkentve; agreed_original_huf és lost_items mezők felvéve. FRISSÍTVE 2026-09-25 (felhasználói döntés): a megállapodott összeg az eredeti 16,4 mrd EUR (5986 Mrd Ft) marad, az elvesztett összeget NEM vonjuk le belőle; az elveszett források külön, a lost_items/lost_huf mezőkben szerepelnek. FRISSÍTVE 2026-09-27: az eGov Hírlevél szerint az uniós tagállamok vezetői várhatóan 2026. október 15–16-án szavaznak a Tanácsban a Bizottság 4,2 milliárd eurós kohéziós javaslatáról; ez csak eljárási ütemezési részlet, összeg és a received_huf (0) nem változott. FRISSÍTVE 2026-09-29: a kormány 2026. szeptember 30-i határidővel nyújtja be a helyreállítási (RRF) forrásokra vonatkozó záró kifizetési kérelmet és az igazoló dokumentumokat az Európai Bizottságnak; a Bizottság ezt követően vizsgálja a vállalások teljesülését, a tényleges kifizetés a korábban jelzett ütemezés (döntés dec. 18-ig, kifizetés dec. 31-ig) szerint várható. A received_huf változatlanul 0. FRISSÍTVE 2026-09-30: a Világgazdaság szerint Brüsszel megkapta Magyarország beadványát a jogállamisági feltételek teljesítéséről, és a 4,2 milliárd eurós kohéziós forrás feloldásáról az Európai Tanács várhatóan 2026. október 13-án dönt (a korábban jelzett október 15–16-i időpont helyett) — ez csak eljárási ütemezési pontosítás, tényleges kifizetés továbbra sincs, a received_huf (0) nem változik. FRISSÍTVE 2026-10-01: a Portfolio.hu szerint a kormány a 2026.09.30-i határidőre valóban benyújtotta az RRF-forrásokra vonatkozó záró kifizetési kérelmet; emellett egy második, 2,2 milliárd eurós kohéziós tranche-hoz újabb magyar önértékelés benyújtása szükséges, amelyet a kormány várhatóan októberben nyújt be. A két tétel (4,2 + 2,2 milliárd euró) együtt 6,4 milliárd eurót (kb. 2300 milliárd forintot) tesz ki. A Bizottságnak december 31-ig kell jóváhagynia és kifizetnie az elfogadott RRF-összegeket, ezen időpont után RRF-kifizetés már nem lehetséges. Tényleges, a 2026-os feloldási folyamathoz köthető ÚJ kifizetés 2026-10-01-i állapot szerint továbbra sincs. FRISSÍTVE 2026-10-02: a Portfolio.hu (2026-10-01) és egy korábbi, a RePowerEU-fejezet 2023-2024-es jóváhagyását tárgyaló cikk (Szabad Európa) szerint Magyarország a kb. 10 milliárd eurós RRF-keretből eddig összesen 919,6 millió eurót (kb. 338,7 Mrd Ft) kapott meg ténylegesen — ez azonban a RePowerEU-fejezet 2023.12.28-i (779,5 millió euró) és 2024 januári (140,1 millió euró) előlege, amelyet MÉG A 2026-OS FELOLDÁSI FOLYAMAT ELŐTT, egy külön (nem a korrupciós feltételességi eljáráshoz kötött) csatornán fizettek ki. Mivel ez korábbi, már a megállapodás előtt is létező pénzmozgás volt, a received_huf mezőt erre az összegre frissítettük (338,7 Mrd Ft), hogy az oldal pontosan tükrözze a ténylegesen Magyarországhoz már eljutott összeget; a 2026-os feltételteljesítés nyomán várt újabb kifizetés (a fennmaradó kb. 9,1 milliárd euró/5647 Mrd Ft) továbbra sem érkezett meg. FRISSÍTVE 2026-10-04: az Európai Parlament egy háromtagú delegációja 2026. október 2-án Budapesten tartott vizitet a feltételek teljesülésének felmérésére; a delegáció szerint \"elegendő eredmény látható\" a 4,2 milliárd eurós kohéziós forrás feloldásához, de további előrelépés szükséges a tágabb, 7. cikk szerinti eljárás lezárásához. A delegáció megerősítette, hogy továbbra is 2,2 milliárd euró marad blokkolva horizontális (alapjogi) feltételek miatt. Az Európai Parlamentnek nincs döntési jogköre a forrásfeloldás kérdésében, a tényleges döntést az EU Tanácsa hozza meg októberben. A received_huf (0) és a lost_huf (730 Mrd Ft) nem változott.",
    "id": "eu-forras-megallapodas-2026-05",
    "first_seen_at": "2026-09-28T15:02:40+00:00",
-   "updated_at": "2026-10-07T10:02:15+00:00"
+   "updated_at": "2026-10-04T04:00:40+00:00"
   },
   {
    "additional_sources": [
@@ -141,9 +143,9 @@
      "url": "https://privatbankar.hu/cikkek/makro/552-milliard-euros-jo-hirt-kapott-brusszelbol-magyarorszag.html"
     }
    ],
-   "agreed_huf": 0,
-   "agreed_original_huf": 0,
-   "agreed_text": null,
+   "agreed_huf": 202000000000,
+   "agreed_original_huf": 202000000000,
+   "agreed_text": "552,3 millió euró (kb. 202 milliárd forint) — a Modernizációs Alapból, az Európai Bizottság és az Európai Beruházási Bank által jóváhagyott, 2026 júliusában kifizetett támogatás",
    "amount_huf": 202000000000,
    "amount_text": "552,3 millió euró (kb. 202 milliárd forint)",
    "category": "eu_forras",
@@ -159,6 +161,8 @@
    },
    "duplicate_of": null,
    "event_date": "2026-07-02",
+   "framework_label": "Modernizációs Alap",
+   "framework_type": "kiegeszito",
    "from_whom": null,
    "lost_huf": 0,
    "lost_items": [],
@@ -170,10 +174,10 @@
    "source_url": "https://hvg.hu/gazdasag/20260702_eu-modernizacios-alap-magyarorszag-552-millio-euro",
    "status": "verified",
    "subject": "Modernizációs Alap — villamosenergia-hálózati fejlesztési támogatás",
-   "verification_notes": "JAVÍTVA 2026-10-07 06:00: a tétel agreed_huf/agreed_original_huf mezője hibásan 202 milliárd forintra (a kifizetett összegre) volt állítva egy korábbi futásban, a felhasználói MEGÁLLAPODOTT ÖSSZEG SZABÁLYA ellenére, amely kifejezetten ezt a tételt (Modernizációs Alap, önálló, feltételhez nem kötött uniós mechanizmus kifizetése) hozza fel példaként arra, hogy agreed_huf=0 és agreed_original_huf=0 legyen, mert ez nem maga a megállapodás, csak egy beérkezett kifizetés. A mező most 0-ra javítva; a received_huf (202 Mrd Ft) változatlan és helyes. ÚJ TÉTEL (2026-10-05 16:56-os futás, régebbi — 2026 júliusi — esemény, amely a korábbi futások adattárában még nem szerepelt). Legalább öt független sajtóforrás (HVG, ATV, Index, Népszava, Privátbankár) és az Európai Bizottság saját közleménye egyezően közli a 552,3 millió eurós kifizetést. Agreed/received/lost mezők nem relevánsak ennél a tételnél, mivel ez nem a feltételes (befagyasztott majd feloldott) RRF/kohéziós forrásfolyamat része, hanem egy önálló, feltételhez nem kötött uniós mechanizmus (Modernizációs Alap) már megtörtént kifizetése — ezért NEM adódik hozzá és nem vonható össze az eu-forras-megallapodas-2026-05 tétel agreed_huf/received_huf számaival.",
+   "verification_notes": "FRISSÍTVE 2026-10-07 12:01-es futás: a felhasználó állandó, minden futásra érvényes EU-KERETEK SZABÁLYA kifejezetten előírja, hogy ez a tétel önálló kiegészítő keretként (framework_type: kiegeszito, framework_label: Modernizációs Alap) szerepeljen, saját 202 milliárd forintos megállapodott kerettel, és hogy a framework_type/framework_label mezőket ne töröljük. Egy 2026-10-07 06:00 körüli futás ennek ellentmondva 0-ra állította az agreed_huf/agreed_original_huf mezőket és törölte a framework mezőket (l. korábbi megjegyzés alább) — ez a módosítás tévesen, a 2026-10-05-i eredeti, a szabálynak megfelelő döntés felülírásával történt (a build_json.py-ban eközben a scripts 5bb0120 commitja változatlanul a keretek összeadásával (5986+202=6188 Mrd Ft) számol, ami csak akkor ad helyes eredményt, ha ez a mező 202 Mrd Ft). A mezők ezért most visszaállítva az eredeti, szabály szerinti állapotra (agreed_huf=202 Mrd Ft, framework mezők megtartva); a received_huf (202 Mrd Ft, ugyanebből a kifizetésből) nem változott, nem duplikálódik. (Megőrzött korábbi, időközben felülbírált megjegyzés:) JAVÍTVA 2026-10-07 06:00: a tétel agreed_huf/agreed_original_huf mezője hibásan 202 milliárd forintra volt állítva — ez a megjegyzés tévesnek bizonyult, l. fent.",
    "id": "eu-forras-modernizacios-alap-2026-07",
    "first_seen_at": "2026-10-05T15:07:04+00:00",
-   "updated_at": "2026-10-07T10:02:15+00:00"
+   "updated_at": "2026-10-07T10:05:44+00:00"
   },
   {
    "additional_sources": [
@@ -478,7 +482,7 @@
    "verification_notes": "FRISSÍTVE 2026-10-07: a Telex és az Origo 2026-10-06-i cikke szerint a Közlekedési és Beruházási Minisztérium aláírta a végleges koncessziós szerződést az M6 Duna Autópálya Koncessziós Zrt.-vel (a korábbi, szeptemberben bejelentett 44 milliárd forintos, 11 éves megállapodás szerint), közvetlenül az október 8-i határidő előtt, amikor egyébként a szakasz a magasabb árú MKIF-hez került volna. Ez a korábban csak bejelentésként (szept. 5.) rögzített megállapodás végleges, aláírt szerződéssé vált; az összeg (105 Mrd Ft megtakarítás) és a status (verified) nem változott.",
    "id": "megtakaritas-m6-dunaujvaros-erdi-teto-2026-09",
    "first_seen_at": "2026-09-28T15:02:40+00:00",
-   "updated_at": "2026-10-07T10:02:15+00:00"
+   "updated_at": "2026-10-07T10:05:44+00:00"
   },
   {
    "additional_sources": [
@@ -1779,7 +1783,7 @@
    "verification_notes": "FRISSÍTVE 2026-10-07: a Telex és az Origo 2026-10-06-i cikke megerősíti, hogy a minisztérium aláírta a végleges szerződést a korábbi üzemeltetővel (M6 Duna) 44 milliárd forintért, 11 évre, elkerülve, hogy a szakasz 2026. október 8-tól a magasabb árú MKIF-hez kerüljön. (Korábbi megjegyzések megőrizve:) FRISSÍTVE 2026-09-23: önálló tétellé emelve a gyűjtő dokumentumból. FRISSÍTVE 2026-09-26: rendőrségi nyomozás a KBM feljelentése nyomán. FRISSÍTVE 2026-10-03: report_date pontosítva (2026-08-14, kormany.hu szerint).",
    "id": "reported-m6-dunaujvaros-erdi-teto-tularazas-2026",
    "first_seen_at": "2026-09-28T15:02:40+00:00",
-   "updated_at": "2026-10-07T10:02:15+00:00"
+   "updated_at": "2026-10-07T10:05:44+00:00"
   },
   {
    "alleged_amount_huf": 600000000,
@@ -3132,16 +3136,16 @@
   }
  ],
  "run_summary": {
-  "run_id": "2026-10-07T10:02:15+00:00",
+  "run_id": "2026-10-07T10:05:44+00:00",
   "new": 0,
-  "modified": 1,
+  "modified": 0,
   "confirmed_only": 3,
-  "touched": 4,
+  "touched": 3,
   "pending_review": 1,
   "by_section": {
    "items": {
     "new": 0,
-    "modified": 1,
+    "modified": 0,
     "confirmed_only": 2
    },
    "reported_cases": {
@@ -3151,11 +3155,9 @@
    }
   },
   "new_ids": [],
-  "modified_ids": [
-   "i:eu-forras-modernizacios-alap-2026-07"
-  ],
+  "modified_ids": [],
   "confirmed_ids": [
-   "i:eu-forras-megallapodas-2026-05",
+   "i:eu-forras-modernizacios-alap-2026-07",
    "i:megtakaritas-m6-dunaujvaros-erdi-teto-2026-09",
    "r:reported-m6-dunaujvaros-erdi-teto-tularazas-2026"
   ]
@@ -3978,11 +3980,11 @@
    }
   },
   {
-   "run_id": "2026-10-07T10:02:15+00:00",
+   "run_id": "2026-10-07T10:05:44+00:00",
    "by_section": {
     "items": {
      "new": 0,
-     "modified": 1,
+     "modified": 0,
      "confirmed_only": 2
     },
     "reported_cases": {
