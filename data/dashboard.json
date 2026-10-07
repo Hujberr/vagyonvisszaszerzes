@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-06T15:01:36+00:00",
+ "generated_at": "2026-10-07T04:01:36+00:00",
  "summary": {
   "megtakaritas_verified_huf": 1735245700000,
   "visszaszerzes_verified_huf": 1545118000000,
@@ -143,7 +143,7 @@
    ],
    "agreed_huf": 0,
    "agreed_original_huf": 0,
-   "agreed_text": "552,3 millió euró (kb. 202 milliárd forint) — az Európai Bizottság és az Európai Beruházási Bank által jóváhagyott, 2026 júliusában kifizetett támogatás",
+   "agreed_text": null,
    "amount_huf": 202000000000,
    "amount_text": "552,3 millió euró (kb. 202 milliárd forint)",
    "category": "eu_forras",
@@ -170,10 +170,10 @@
    "source_url": "https://hvg.hu/gazdasag/20260702_eu-modernizacios-alap-magyarorszag-552-millio-euro",
    "status": "verified",
    "subject": "Modernizációs Alap — villamosenergia-hálózati fejlesztési támogatás",
-   "verification_notes": "ÚJ TÉTEL (2026-10-05 16:56-os futás, régebbi — 2026 júliusi — esemény, amely a korábbi futások adattárában még nem szerepelt). Legalább öt független sajtóforrás (HVG, ATV, Index, Népszava, Privátbankár) és az Európai Bizottság saját közleménye egyezően közli a 552,3 millió eurós kifizetést. Agreed/received/lost mezők nem relevánsak ennél a tételnél, mivel ez nem a feltételes (befagyasztott majd feloldott) RRF/kohéziós forrásfolyamat része, hanem egy önálló, feltételhez nem kötött uniós mechanizmus (Modernizációs Alap) már megtörtént kifizetése — ezért NEM adódik hozzá és nem vonható össze az eu-forras-megallapodas-2026-05 tétel agreed_huf/received_huf számaival.",
+   "verification_notes": "JAVÍTVA 2026-10-07 06:00: a tétel agreed_huf/agreed_original_huf mezője hibásan 202 milliárd forintra (a kifizetett összegre) volt állítva egy korábbi futásban, a felhasználói MEGÁLLAPODOTT ÖSSZEG SZABÁLYA ellenére, amely kifejezetten ezt a tételt (Modernizációs Alap, önálló, feltételhez nem kötött uniós mechanizmus kifizetése) hozza fel példaként arra, hogy agreed_huf=0 és agreed_original_huf=0 legyen, mert ez nem maga a megállapodás, csak egy beérkezett kifizetés. A mező most 0-ra javítva; a received_huf (202 Mrd Ft) változatlan és helyes. ÚJ TÉTEL (2026-10-05 16:56-os futás, régebbi — 2026 júliusi — esemény, amely a korábbi futások adattárában még nem szerepelt). Legalább öt független sajtóforrás (HVG, ATV, Index, Népszava, Privátbankár) és az Európai Bizottság saját közleménye egyezően közli a 552,3 millió eurós kifizetést. Agreed/received/lost mezők nem relevánsak ennél a tételnél, mivel ez nem a feltételes (befagyasztott majd feloldott) RRF/kohéziós forrásfolyamat része, hanem egy önálló, feltételhez nem kötött uniós mechanizmus (Modernizációs Alap) már megtörtént kifizetése — ezért NEM adódik hozzá és nem vonható össze az eu-forras-megallapodas-2026-05 tétel agreed_huf/received_huf számaival.",
    "id": "eu-forras-modernizacios-alap-2026-07",
    "first_seen_at": "2026-10-05T15:07:04+00:00",
-   "updated_at": "2026-10-05T15:07:04+00:00"
+   "updated_at": "2026-10-07T04:01:36+00:00"
   },
   {
    "additional_sources": [
@@ -2668,46 +2668,52 @@
  },
  "last_run": {
   "errors": [
-   "ugyeszseg.hu/category/hirek/kozponti-nyomozo-fougyeszseg/ ismét HTTP 503-at adott (már a 12:00-ás futásban is), ebben a futásban sem volt ellenőrizhető.",
-   "A 12 tematikus keresés és a kiegészítő források (K-Monitor, hirkereso.hu, mnvvh.hu) nem hoztak önállóan rögzíthető, konkrét összeghez köthető ÚJ tényt a megtakarítás/visszaszerzés/eu_forras kategóriákban; a mai (2026-10-06) hirkereso.hu/Index találatok közül a Józsefváros-Főváros közötti 1,5 milliárd forintos elvonás önkormányzatközi forráselvonási vita, nem minisztériumi megtakarítás/visszaszerzés/EU-forrás esemény, ezért nem került be. A Lánczi Tamás (volt Szuverenitásvédelmi Hivatal vezető) elleni vizsgálatról szóló cikk konkrét új összeget vagy eljárási tényt nem közölt, csak általános nyilatkozatokat, ezért önállóan nem rögzíthető.",
-   "Az Őrsi Gergely elleni vád egyedi (260-290 M Ft) összege és a bűnügyi felügyeletre váltás ténye a meglévő reported-onkormanyzati-parkfenntartas-etkeztetes-korrupcio-2026-09 tétel frissítéseként került rögzítésre (verification_notes + additional_sources), nem önálló tételként, mivel ugyanannak az óbudai korrupciós ügynek a része.",
-   "KSH szeptemberi inflációs gyorstájékoztató még nem publikált (várható kb. 2026-10-09/10), az augusztusi adat maradt érvényben.",
-   "ÁKK (akk.hu) hivatalos államadósság-adata ebben a futásban sem volt közvetlenül lekérhető; az érték változatlanul a 2026-07-31-i (Magyar Nemzet/ÁKK-hivatkozás) állapotot tükrözi.",
-   "MNB EUR/HUF hivatalos fixing frissítve 2026-10-06-i (365,38 Ft/EUR) értékre, új macro_snapshot létrehozva."
+   "ugyeszseg.hu/category/hirek/kozponti-nyomozo-fougyeszseg/ nem volt elérhető (HTTP 503, kétszeri kísérlet után is)",
+   "KSH szeptemberi inflációs gyorsjelentés a futás időpontjában (06:00) még nem jelent meg (a tervezett publikálás 08:30-kor várható), ezért a macro_snapshot az augusztusi (2026-08) adatokat tartja érvényben"
   ],
   "eu_lost_items_new": 0,
-  "finished_at": "2026-10-06T17:35:00+02:00",
+  "finished_at": "2026-10-07T06:00:00+02:00",
   "items_duplicate": 0,
   "items_found_total": 0,
   "items_needs_review": 0,
   "items_new": 0,
   "reported_cases_new": 0,
-  "reported_cases_updated": 1,
+  "reported_cases_updated": 0,
   "sources_checked": [
-   "kormany.hu/atlathato/feljelentes (47 ügy, 2255 Mrd Ft, 24,2 Mrd Ft visszafizetve/megtakarítva, 12 ügyben nyomozás — 2026-10-02-i állapot, változatlan)",
+   "kormany.hu/atlathato/feljelentes (hivatalos, teljes lista ellenőrizve, változatlan: 47 ügy, 2255 Mrd Ft, 24,2 Mrd Ft visszafizetve, 0,7 Mrd Ft meg nem valósult kiadás)",
    "mnvvh.hu/hirek",
-   "hirkereso.hu",
-   "ugyeszseg.hu/kozponti-nyomozo-fougyeszseg (503, nem elérhető)",
-   "k-monitor.hu (WebSearch)",
+   "hirkereso.hu (Politika/Gazdaság)",
+   "K-Monitor (általános keresés, site-specifikus találat nélkül)",
    "Telex",
-   "444.hu",
-   "HVG",
    "Index",
+   "HVG",
+   "444.hu",
+   "24.hu",
+   "G7",
+   "Direkt36",
    "Portfolio.hu",
-   "Economx",
    "Világgazdaság",
    "Infostart.hu",
+   "Economx.hu",
+   "Privátbankár.hu",
+   "Mandiner",
+   "Magyar Nemzet",
    "Népszava",
    "Origo",
-   "Pénzcentrum",
-   "mfor.hu",
-   "Privátbankár",
-   "MNB (mnb.hu/arfolyamok)"
+   "Pénzcentrum"
   ],
-  "started_at": "2026-10-06T16:56:00+02:00",
-  "id": "2026-10-06T16-56"
+  "started_at": "2026-10-07T05:56:00+02:00",
+  "id": "2026-10-07T06-00"
  },
  "run_history": [
+  {
+   "finished_at": "2026-10-07T06:00:00+02:00",
+   "started_at": "2026-10-07T05:56:00+02:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
   {
    "finished_at": "2026-10-06T17:35:00+02:00",
    "started_at": "2026-10-06T16:56:00+02:00",
@@ -3084,29 +3090,29 @@
   }
  ],
  "run_summary": {
-  "run_id": "2026-10-06T15:01:36+00:00",
+  "run_id": "2026-10-07T04:01:36+00:00",
   "new": 0,
-  "modified": 0,
-  "confirmed_only": 1,
+  "modified": 1,
+  "confirmed_only": 0,
   "touched": 1,
   "pending_review": 1,
   "by_section": {
    "items": {
     "new": 0,
-    "modified": 0,
+    "modified": 1,
     "confirmed_only": 0
    },
    "reported_cases": {
     "new": 0,
     "modified": 0,
-    "confirmed_only": 1
+    "confirmed_only": 0
    }
   },
   "new_ids": [],
-  "modified_ids": [],
-  "confirmed_ids": [
-   "r:reported-onkormanyzati-parkfenntartas-etkeztetes-korrupcio-2026-09"
-  ]
+  "modified_ids": [
+   "i:eu-forras-modernizacios-alap-2026-07"
+  ],
+  "confirmed_ids": []
  },
  "run_summary_history": [
   {
@@ -3892,6 +3898,36 @@
      "new": 0,
      "modified": 0,
      "confirmed_only": 1
+    }
+   }
+  },
+  {
+   "run_id": "2026-10-07T04:00:47+00:00",
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 1,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    }
+   }
+  },
+  {
+   "run_id": "2026-10-07T04:01:36+00:00",
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 1,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
     }
    }
   }
