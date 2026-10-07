@@ -925,7 +925,6 @@ window.SITE_CONFIG = {
         <a href="gyik.html" data-i18n="footFaq">GYIK</a>
         <a href="#" id="linkAbout" data-i18n="footAbout">Rólam</a>
         <div class="foot-ai-row"><a href="#" id="linkAiApp" class="foot-ai"><span class="foot-ai-icon" aria-hidden="true">✨</span><span data-i18n="footAiApp">Saját AI appot szeretne?</span></a></div>
-        <a href="#" id="linkSupport" data-i18n="footSupport" hidden>Támogatás</a>
       </div>
     </div>
     <div class="visitor-count" id="visitorCount" hidden></div>
@@ -1408,7 +1407,6 @@ window.SITE_CONFIG = {
     showModalView(()=>renderFooterModal(kind));
   });
   document.getElementById("supportBarBtn").addEventListener("click", ()=>showModalView(()=>renderFooterModal("support"), {resetStack:true}));
-  document.getElementById("linkSupport").addEventListener("click", e=>{ e.preventDefault(); showModalView(()=>renderFooterModal("support"), {resetStack:true}); });
   document.getElementById("tutorialHelp").addEventListener("click", ()=>{ showModalView(()=>renderFooterModal("tutorialIntro"), {resetStack:true}); });
   document.getElementById("modalBody").addEventListener("click", e=>{
     if(e.target.closest("#tutorialIntroExit") || e.target.closest("#supportSoonClose")){ closeModal(); return; }
@@ -2374,7 +2372,6 @@ window.SITE_CONFIG = {
   function initOptionalBlocks(){
     const C = window.SITE_CONFIG || {};
     if(C.supportEnabled){
-      document.getElementById("linkSupport").hidden = false;
       if(C.supportBar !== false) document.getElementById("supportBar").hidden = false;
     }
     if(C.adsEnabled && C.isMain && C.adsClient && C.adsSlot){
