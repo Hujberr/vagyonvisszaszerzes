@@ -296,6 +296,14 @@ window.SITE_CONFIG = {
   .eu-chart{margin:0 0 14px;padding-bottom:14px;border-bottom:1px solid var(--border);}
   .eu-chart-head{display:flex;justify-content:space-between;align-items:baseline;gap:10px;margin-bottom:10px;font-size:12px;color:var(--text-dim);}
   .eu-chart-head b{font-size:18px;color:var(--eu);}
+  .eu-frames{margin-bottom:14px;border:1px solid var(--border);border-radius:12px;padding:10px 12px;font-size:12.5px;color:var(--text-dim);}
+  .eu-frames-h{font-size:11.5px;margin-bottom:4px;}
+  .eu-frame{display:flex;justify-content:space-between;align-items:baseline;gap:10px;padding:3px 0;}
+  .eu-frame small{opacity:.75;}
+  .eu-frame b{color:var(--text);font-size:13px;white-space:nowrap;}
+  .eu-frame.tot{border-top:1px solid var(--border);margin-top:5px;padding-top:7px;color:var(--eu);font-weight:700;}
+  .eu-frame.tot b{color:var(--eu);font-size:15px;}
+  .eu-parts{font-size:11px;color:var(--text-dim);margin-top:3px;}
   .eu-chart-bar{display:flex;height:34px;border-radius:9px;overflow:hidden;background:rgba(199,125,255,.18);
     border:1px solid var(--eu-border);box-shadow:0 0 18px rgba(199,125,255,.18) inset;}
   .eu-seg{height:100%;display:flex;align-items:center;justify-content:center;overflow:hidden;white-space:nowrap;
@@ -805,7 +813,7 @@ window.SITE_CONFIG = {
       </div>
       <div class="split-bar" id="euBar"></div>
       <div class="split-nums eu-nums">
-        <div><div class="n mono" style="color:var(--eu)" id="euAgreedN">–</div><div class="l" data-i18n="agreedLabel">Megállapodott</div></div>
+        <div><div class="n mono" style="color:var(--eu)" id="euAgreedN">–</div><div class="l" data-i18n="agreedLabel">Megállapodott</div><div class="eu-parts mono" id="euAgreedParts"></div></div>
         <div><div class="n mono" id="euReceivedN">–</div><div class="l" data-i18n="receivedLabel">Beérkezett</div><div class="wk-pill" id="wkEu" hidden><span class="wk-n">–</span><span class="wk-l" data-i18n="wkLabel">heti</span></div></div>
         <div class="lost"><div class="n mono" id="euLostN">–</div><div class="l" data-i18n="lostLabel">Elveszett források</div></div>
       </div>
@@ -978,7 +986,7 @@ window.SITE_CONFIG = {
       brand:"Vagyonvisszaszerzési Monitor", tagline:"Forintról forintra…",
       timeMachineLabel:"Időgép", today:"Ma",
       statRecoveredLabel:"Visszaszerzés (igazolt)", statSavedLabel:"Megtakarítás (bejelentett)",
-      supportTitle:"Támogassa a munkámat", supportSub:"Támogatásával az adatgyűjtés, a forrásellenőrzés és az oldal üzemeltetése költségeihez járul hozzá.", supportCta:"Támogatom", statEuLabel:"EU-forrás — megállapodott / beérkezett / elveszett", statEuLabelShort:"EU-forrás — megáll. / beérk. / elveszett", lostLabel:"Elveszett források", lostShort:"Elveszett", agreedOrigLabel:"Eredetileg megállapodott", agreedTotalLabel:"Megállapodott teljes összeg", lostDateLabel:"Elvesztés bejelentve", shareTitle:"Ossza meg, hogy minél többen lássák", shareText:"Forintról forintra – Vagyonvisszaszerzési Monitor", shareFb:"Megosztás Facebookon", shareMsg:"Megosztás Messengeren", shareWa:"Megosztás WhatsAppon", shareX:"Megosztás X-en", footAbout:"Rólam", footMethod:"Módszertan", footFaq:"GYIK", footAiApp:"Saját AI appot szeretne?", footCopy:"© 2026 Hujber Richárd – Forintról forintra… Vagyonvisszaszerzési Monitor. Minden jog fenntartva.",footSupport:"Támogatás", visitorsLabel:"Látogatók száma:", descLabel:"Leírás",
+      supportTitle:"Támogassa a munkámat", supportSub:"Támogatásával az adatgyűjtés, a forrásellenőrzés és az oldal üzemeltetése költségeihez járul hozzá.", supportCta:"Támogatom", statEuLabel:"EU-forrás — megállapodott / beérkezett / elveszett", statEuLabelShort:"EU-forrás — megáll. / beérk. / elveszett", lostLabel:"Elveszett források", lostShort:"Elveszett", agreedOrigLabel:"Eredetileg megállapodott", agreedTotalLabel:"Megállapodott teljes összeg", framesLabel:"Megállapodott keretek", lostDateLabel:"Elvesztés bejelentve", shareTitle:"Ossza meg, hogy minél többen lássák", shareText:"Forintról forintra – Vagyonvisszaszerzési Monitor", shareFb:"Megosztás Facebookon", shareMsg:"Megosztás Messengeren", shareWa:"Megosztás WhatsAppon", shareX:"Megosztás X-en", footAbout:"Rólam", footMethod:"Módszertan", footFaq:"GYIK", footAiApp:"Saját AI appot szeretne?", footCopy:"© 2026 Hujber Richárd – Forintról forintra… Vagyonvisszaszerzési Monitor. Minden jog fenntartva.",footSupport:"Támogatás", visitorsLabel:"Látogatók száma:", descLabel:"Leírás",
       statReportedLabel:"Feljelentett ügyek összege",
       reportedPanelTitle:"Feljelentett ügyek állapota", recoveredLabel:"Visszaszerezve", pendingLabel:"Vizsgálat alatt",
       euPanelTitle:"EU-forrás állapota", agreedLabel:"Megállapodott", receivedLabel:"Beérkezett",
@@ -1027,7 +1035,7 @@ window.SITE_CONFIG = {
       brand:"Asset Recovery Monitor", tagline:"Forint by forint…",
       timeMachineLabel:"Time machine", today:"Today",
       statRecoveredLabel:"Recovered assets (verified)", statSavedLabel:"Savings (reported)",
-      supportTitle:"Support my work", supportSub:"Your support helps cover the costs of data collection, source verification and running the site.", supportCta:"Support", statEuLabel:"EU funds — agreed / received / lost", statEuLabelShort:"EU funds — agreed / rec. / lost", lostLabel:"Lost funds", lostShort:"Lost", agreedOrigLabel:"Originally agreed", agreedTotalLabel:"Total agreed amount", lostDateLabel:"Loss announced", shareTitle:"Share it so more people see it", shareText:"Forintról forintra – Asset Recovery Monitor", shareFb:"Share on Facebook", shareMsg:"Share on Messenger", shareWa:"Share on WhatsApp", shareX:"Share on X", footAbout:"About me", footMethod:"Methodology", footFaq:"FAQ", footAiApp:"Want your own AI app?", footCopy:"© 2026 Richárd Hujber – Forintról forintra… Asset Recovery Monitor. All rights reserved.",footSupport:"Support", visitorsLabel:"Visitors:", descLabel:"Description",
+      supportTitle:"Support my work", supportSub:"Your support helps cover the costs of data collection, source verification and running the site.", supportCta:"Support", statEuLabel:"EU funds — agreed / received / lost", statEuLabelShort:"EU funds — agreed / rec. / lost", lostLabel:"Lost funds", lostShort:"Lost", agreedOrigLabel:"Originally agreed", agreedTotalLabel:"Total agreed amount", framesLabel:"Agreed frameworks", lostDateLabel:"Loss announced", shareTitle:"Share it so more people see it", shareText:"Forintról forintra – Asset Recovery Monitor", shareFb:"Share on Facebook", shareMsg:"Share on Messenger", shareWa:"Share on WhatsApp", shareX:"Share on X", footAbout:"About me", footMethod:"Methodology", footFaq:"FAQ", footAiApp:"Want your own AI app?", footCopy:"© 2026 Richárd Hujber – Forintról forintra… Asset Recovery Monitor. All rights reserved.",footSupport:"Support", visitorsLabel:"Visitors:", descLabel:"Description",
       statReportedLabel:"Total value of reported cases",
       reportedPanelTitle:"Reported case status", recoveredLabel:"Recovered", pendingLabel:"Under investigation",
       euPanelTitle:"EU funds status", agreedLabel:"Agreed", receivedLabel:"Received",
@@ -1601,11 +1609,15 @@ window.SITE_CONFIG = {
     const lost = list.reduce((a,d)=>a+euLost(d),0);
     const pct = x => agreed>0 ? (x>0 ? Math.max(x/agreed*100, 1.5) : 0) : 0;
     const pR = pct(received), pL = pct(lost), pA = Math.max(100 - pR - pL, 0);
-    const seg = (cls, p, val) => p>0 ? `<div class="eu-seg ${cls}" data-w="${p}" style="width:0%"><span>${fmtMrd(val)}</span></div>` : "";
+    const seg = (cls, p, val) => p>0 ? `<div class="eu-seg ${cls}" data-w="${p}" style="width:0%">${p>=8?`<span>${fmtMrd(val)}</span>`:""}</div>` : "";
+    const frames = list.filter(d=>(Number(euAgreedAt(d))||0)>0).slice().sort((a,b)=>String(a.event_date||"").localeCompare(String(b.event_date||"")));
+    const open = Math.max(agreed - received - lost, 0);
+    const frameRows = frames.map((d,i)=>`<div class="eu-frame"><span>${i>0?"+ ":""}${d.framework_label||d.subject||""}${d.event_date?` <small>(${d.event_date})</small>`:""}</span><b class="mono">${fmtMrd(euAgreedAt(d))} ${t.mrd}</b></div>`).join("");
+    const framesBox = frames.length>1 ? `<div class="eu-frames"><div class="eu-frames-h">${t.framesLabel}</div>${frameRows}<div class="eu-frame tot"><span>${t.agreedTotalLabel}</span><b class="mono">${fmtMrd(agreed)} ${t.mrd}</b></div></div>` : "";
     const html = `<div class="eu-chart">
-      <div class="eu-chart-head"><span>${t.agreedTotalLabel}</span><b class="mono">${fmtMrd(agreed)} ${t.mrd}</b></div>
+      ${framesBox || `<div class="eu-chart-head"><span>${t.agreedTotalLabel}</span><b class="mono">${fmtMrd(agreed)} ${t.mrd}</b></div>`}
       <div class="eu-chart-bar" role="img" aria-label="${t.agreedLabel} ${fmtMrd(agreed)}, ${t.receivedLabel} ${fmtMrd(received)}, ${t.lostLabel} ${fmtMrd(lost)} ${t.mrd}">
-        ${seg("received", pR, received)}${pA>0?`<div class="eu-seg open" data-w="${pA}" style="width:0%"></div>`:""}${seg("lost", pL, lost)}
+        ${seg("received", pR, received)}${pA>0?`<div class="eu-seg open" data-w="${pA}" style="width:0%">${pA>=14?`<span>${fmtMrd(open)}</span>`:""}</div>`:""}${seg("lost", pL, lost)}
       </div>
       <div class="eu-chart-legend">
         <div><i class="sw agreed"></i><span>${t.agreedLabel}</span><b class="mono">${fmtMrd(agreed)} ${t.mrd}</b></div>
@@ -2585,6 +2597,11 @@ window.SITE_CONFIG = {
       }
       const setW = () => el.querySelectorAll(".seg").forEach(x => { x.style.width = x.dataset.w + "%"; });
       if(prefersReducedMotion){ setW(); } else { requestAnimationFrame(()=>requestAnimationFrame(setW)); }
+    }
+    {
+      const parts = euItems.filter(d=>(Number(euAgreedAt(d))||0)>0).slice().sort((a,b)=>String(a.event_date||"").localeCompare(String(b.event_date||""))).map(d=>fmtMrd(euAgreedAt(d)));
+      const pe = document.getElementById("euAgreedParts");
+      if(pe) pe.textContent = parts.length>1 ? parts.join(" + ") : "";
     }
     countUp(document.getElementById("euAgreedN"), toMrd(euAgreed), v=>fmtMrdNum(v)+" Mrd Ft");
     countUp(document.getElementById("euReceivedN"), toMrd(euReceived), v=>fmtMrdNum(v)+" Mrd Ft");
