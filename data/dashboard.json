@@ -1,12 +1,12 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-08T04:03:18+00:00",
+ "generated_at": "2026-10-08T10:02:23+00:00",
  "summary": {
   "megtakaritas_verified_huf": 1735245700000,
   "visszaszerzes_verified_huf": 1547098000000,
   "eu_forras_verified_huf": 6188000000000,
   "eu_forras_lost_huf": 730000000000,
-  "items_count": 30,
+  "items_count": 31,
   "reported_cases_count": 39
  },
  "items": [
@@ -935,6 +935,28 @@
    "id": "visszaszerzes-elvonal-alapitvany-krausz-2026-09",
    "first_seen_at": "2026-10-03T04:04:34+00:00",
    "updated_at": "2026-10-03T04:04:34+00:00"
+  },
+  {
+   "additional_sources": [],
+   "amount_huf": 9890000000,
+   "amount_text": "közel 10 milliárd forint hozam (az 50 milliárd forintos állami befektetés 59,89 milliárd forintként térült meg)",
+   "category": "visszaszerzes",
+   "collected_at": "2026-10-08T11:59:00+02:00",
+   "currency_note": null,
+   "dedup_key": "visszaszerzes|gordiusz magantokealap tiborcz mfb krizis tokeprogram|9890000000",
+   "description": "A Magyar Fejlesztési Bank (MFB) 2021-ben, a Krízis Tőkeprogram keretében 50 milliárd forintot fektetett a Gránit Alapkezelő Zrt. által kezelt Gordiusz Magántőkealapba. Az alap 2026 márciusában 59,89 milliárd forintot fizetett vissza az MFB-nek, így az állami fejlesztési bank mintegy 10 milliárd forint hozamot ért el a befektetésen.",
+   "duplicate_of": null,
+   "event_date": "2026-03-31",
+   "from_whom": "Gordiusz Magántőkealap (Gránit Alapkezelő Zrt., amelyben a Transparency International szerint Tiborcz István 99 százalékos tulajdoni részesedéssel rendelkezik)",
+   "source_name": "Index (az Economx MFB-nek és a Gránit Alapkezelőnek tett megkeresése alapján)",
+   "source_published_date": "2026-10-07",
+   "source_url": "https://index.hu/gazdasag/2026/10/07/tiborcz-istvan-gordiusz-magantokealap-mfb-zrt-befektetes/",
+   "status": "needs_review",
+   "subject": "Gordiusz Magántőkealap — állami krízis tőkebefektetés lezárása",
+   "verification_notes": "ÚJ TÉTEL (2026-10-08 12:00-ás futás). Egyetlen közvetlen sajtóforrásból (Index, 2026-10-07) ismert, amely az Economx MFB-nek és a Gránit Alapkezelőnek tett megkeresésén és az MFB megerősítésén alapul; önálló második, független sajtóforrás egyelőre nem található, ezért needs_review. Megjegyzendő, hogy ez NEM visszaélésből/túlárazásból eredő vagyon-visszaszerzés, hanem egy 2021-es állami krízis-tőkebefektetés (Krízis Tőkeprogram) sikeres, nyereséges lezárása egy Tiborcz István-érdekeltségű alapnál — politikai jelentősége a Tiborcz-kapcsolat miatt van, a tétel emiatt került az adattárba. Különbözik a reported_cases/reported-baross-gabor-tokeprogram-281-milliard-feljelentes-2026-07 tételtől (az egy másik, Baross Gábor Tőkeprogram nevű konstrukció, amelyben a TI feljelentést tett 281 milliárd forint nyomon nem követhető állami forrás miatt).",
+   "id": "visszaszerzes-gordiusz-tiborcz-2026-10",
+   "updated_at": "2026-10-08T10:02:23+00:00",
+   "first_seen_at": "2026-10-08T10:02:23+00:00"
   },
   {
    "additional_sources": [
@@ -2506,7 +2528,7 @@
    "url": "https://magyarnemzet.hu/gazdasag/2026/09/allamadossag-novekedes"
   },
   "allamadossag_huf": 65716000000000,
-  "collected_at": "2026-10-08T06:01:00+02:00",
+  "collected_at": "2026-10-08T11:59:00+02:00",
   "elozo": {
    "allamadossag": {
     "period": null,
@@ -2615,18 +2637,18 @@
     "key": "eur_huf",
     "label_en": "Official EUR/HUF rate (MNB)",
     "label_hu": "Euró hivatalos árfolyama (MNB)",
-    "note_en": "USD: 327.52 HUF (2026-10-07 fixing).",
-    "note_hu": "Dollár: 327,52 Ft (2026-10-07-i fixing).",
-    "period": "2026-10-07",
-    "prev_period": "2026-10-06",
-    "prev_value": 365.38,
+    "note_en": "USD: 327.48 HUF (2026-10-08 fixing).",
+    "note_hu": "Dollár: 327,48 Ft (2026-10-08-i fixing).",
+    "period": "2026-10-08",
+    "prev_period": "2026-10-07",
+    "prev_value": 366.76,
     "source": {
      "name": "MNB hivatalos árfolyamok",
-     "publish_date": "2026-10-07",
+     "publish_date": "2026-10-08",
      "url": "https://www.mnb.hu/arfolyamok"
     },
     "unit": "Ft/EUR",
-    "value": 366.76
+    "value": 366.45
    },
    {
     "key": "brutto_atlagkereset",
@@ -2728,45 +2750,53 @@
    "publish_date": "2026-09-22",
    "url": "https://www.portfolio.hu/gazdasag/20260922/itt-az-mnb-uj-elorejelzese-hiaba-a-nemzetkozi-kockazatok-mersekelt-marad-az-idei-inflacio-864484"
   },
-  "id": "2026-10-08T06-01"
+  "id": "2026-10-08T11-59"
  },
  "last_run": {
   "errors": [
-   "ugyeszseg.hu nem volt elérhető (HTTP 503 Service Unavailable, két kísérlet)",
-   "24.hu cikkek (Mészáros-Szíjj MKIF-koncesszió felbontás, meddőségi intézetek államosítása) közvetlenül nem tölthetők le (WebFetch elutasítja); csak keresési összefoglalókból, közvetett forrásból volt információ, önálló/új, megerősített tényt nem adtak hozzá a meglévő tételekhez",
-   "KSH szeptemberi inflációs adat ebben a futásban még nem jelent meg (a közzététel jellemzően október 9-10 körül várható), ezért a macro_snapshot az augusztusi (2026-08) adatot tartotta meg"
+   "ugyeszseg.hu/category/hirek/kozponti-nyomozo-fougyeszseg: HTTP 503 Service Unavailable, nem volt elérhető ebben a futásban",
+   "k-monitor.hu: a site: operátoros WebSearch nem adott vissza közvetlen k-monitor.hu találatot egyik lekérdezésnél sem (csak más lapok cikkei), így a K-Monitor saját elemzéseit ebben a futásban nem sikerült külön ellenőrizni",
+   "Konkrét, 2026 október 1-8 közötti új megtakarítási/visszaszerzési/EU-forrás hír csak egy esetben (Gordiusz Magántőkealap, Index 2026-10-07) került elő; a reported_cases és a kormany.hu/atlathato/feljelentes hivatalos lista a 2026-10-02-i állapothoz képest változatlan maradt"
   ],
   "eu_lost_items_new": 0,
-  "finished_at": "2026-10-08T06:02:38+02:00",
+  "finished_at": "2026-10-08T12:01:04+02:00",
   "items_duplicate": 0,
-  "items_found_total": 0,
-  "items_needs_review": 0,
-  "items_new": 0,
+  "items_found_total": 1,
+  "items_needs_review": 1,
+  "items_new": 1,
   "reported_cases_new": 0,
   "reported_cases_updated": 0,
   "sources_checked": [
-   "kormany.hu/atlathato/feljelentes (hivatalos, 47 ügy / 2255 Mrd Ft, változatlan az előző 2026-10-02-i ellenőrzéshez képest)",
+   "kormany.hu/atlathato/feljelentes",
+   "mnvvh.hu/hirek",
+   "ugyeszseg.hu/category/hirek/kozponti-nyomozo-fougyeszseg",
+   "k-monitor.hu (WebSearch, site: operátorral)",
+   "hirkereso.hu",
+   "index.hu",
+   "economx.hu",
    "telex.hu",
    "444.hu",
-   "economx.hu",
-   "portfolio.hu",
-   "index.hu",
-   "vg.hu",
-   "infostart.hu",
    "hvg.hu",
-   "origo.hu",
+   "portfolio.hu",
    "privatbankar.hu",
-   "adozona.hu",
-   "k-monitor.hu (csak WebSearch, site: lekérdezés nem hozott k-monitor.hu találatot)",
-   "hirkereso.hu (Gazdaság rovat átnézve, Politika rovat nem jelent meg a lapon)",
-   "mnvvh.hu/hirek (átnézve, nincs önálló, még nem rögzített konkrét visszaszerzési/zárolási tétel)",
-   "ugyeszseg.hu/category/hirek/kozponti-nyomozo-fougyeszseg/ (sikertelen, l. errors)",
-   "mnb.hu/arfolyamok (EUR/USD napi árfolyam)"
+   "origo.hu",
+   "infostart.hu",
+   "vg.hu",
+   "mandiner.hu",
+   "mnb.hu/arfolyamok"
   ],
-  "started_at": "2026-10-08T05:56:00+02:00",
-  "id": "2026-10-08T05-56"
+  "started_at": "2026-10-08T11:30:00+02:00",
+  "id": "2026-10-08T11-59"
  },
  "run_history": [
+  {
+   "finished_at": "2026-10-08T12:01:04+02:00",
+   "started_at": "2026-10-08T11:30:00+02:00",
+   "items_new": 1,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
   {
    "finished_at": "2026-10-08T06:02:38+02:00",
    "started_at": "2026-10-08T05:56:00+02:00",
@@ -3175,12 +3205,12 @@
   }
  ],
  "run_summary": {
-  "run_id": "2026-10-08T04:03:18+00:00",
+  "run_id": "2026-10-08T10:02:23+00:00",
   "new": 0,
   "modified": 0,
   "confirmed_only": 0,
   "touched": 0,
-  "pending_review": 1,
+  "pending_review": 2,
   "by_section": {
    "items": {
     "new": 0,
@@ -4046,6 +4076,21 @@
   },
   {
    "run_id": "2026-10-08T04:03:18+00:00",
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    }
+   }
+  },
+  {
+   "run_id": "2026-10-08T10:02:23+00:00",
    "by_section": {
     "items": {
      "new": 0,
