@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-07T15:02:30+00:00",
+ "generated_at": "2026-10-08T04:03:18+00:00",
  "summary": {
   "megtakaritas_verified_huf": 1735245700000,
   "visszaszerzes_verified_huf": 1547098000000,
@@ -1225,8 +1225,8 @@
    "subject": "Vissza nem fizetett tao-sporttámogatások végrehajtása",
    "verification_notes": "ÚJ TÉTEL (2026-10-07 16:56-os futás). Legalább nyolc független sajtóforrás (444.hu, Telex, Economx, Kisalföld, Esti Hírlap, Napiújság, Okoshír, Hírnavigátor, Mai Kurír) egyezően számol be az ügyről, mind 2026-10-06/07-i dátummal. Az amount_huf szándékosan a TÉNYLEGESEN már behajtott összeget (1,98 Mrd Ft) tükrözi, nem a teljes 21+ Mrd Ft-os visszakövetelt összeget, mert abból jelentős rész (7+ Mrd Ft, 120 ügyben) véglegesen meghiúsult, további 10,3 Mrd Ft (241 ügy) pedig még folyamatban van — ezt a description részletesen tartalmazza. Nem szerepel a kormany.hu/atlathato/feljelentes hivatalos listáján (2026-10-07-i ellenőrzés szerint, változatlanul 47 ügy/2255 Mrd Ft, 2026-10-02-i állapot), mivel ez a Sportért Felelős Államtitkárság/NAV önálló közigazgatási végrehajtási eljárása, nem kormányzati feljelentés.",
    "id": "visszaszerzes-tao-sporttamogatas-vegrehajtas-2026-10",
-   "updated_at": "2026-10-07T15:02:30+00:00",
-   "first_seen_at": "2026-10-07T15:02:30+00:00"
+   "first_seen_at": "2026-10-07T15:02:30+00:00",
+   "updated_at": "2026-10-07T15:02:30+00:00"
   },
   {
    "additional_sources": [
@@ -2506,7 +2506,7 @@
    "url": "https://magyarnemzet.hu/gazdasag/2026/09/allamadossag-novekedes"
   },
   "allamadossag_huf": 65716000000000,
-  "collected_at": "2026-10-07T16:56:00+02:00",
+  "collected_at": "2026-10-08T06:01:00+02:00",
   "elozo": {
    "allamadossag": {
     "period": null,
@@ -2615,18 +2615,18 @@
     "key": "eur_huf",
     "label_en": "Official EUR/HUF rate (MNB)",
     "label_hu": "Euró hivatalos árfolyama (MNB)",
-    "note_en": "USD: 324.98 HUF (2026-10-06 fixing).",
-    "note_hu": "Dollár: 324,98 Ft (2026-10-06-i fixing).",
-    "period": "2026-10-06",
-    "prev_period": "2026-10-05",
-    "prev_value": 367.73,
+    "note_en": "USD: 327.52 HUF (2026-10-07 fixing).",
+    "note_hu": "Dollár: 327,52 Ft (2026-10-07-i fixing).",
+    "period": "2026-10-07",
+    "prev_period": "2026-10-06",
+    "prev_value": 365.38,
     "source": {
      "name": "MNB hivatalos árfolyamok",
-     "publish_date": "2026-10-06",
+     "publish_date": "2026-10-07",
      "url": "https://www.mnb.hu/arfolyamok"
     },
     "unit": "Ft/EUR",
-    "value": 365.38
+    "value": 366.76
    },
    {
     "key": "brutto_atlagkereset",
@@ -2728,47 +2728,53 @@
    "publish_date": "2026-09-22",
    "url": "https://www.portfolio.hu/gazdasag/20260922/itt-az-mnb-uj-elorejelzese-hiaba-a-nemzetkozi-kockazatok-mersekelt-marad-az-idei-inflacio-864484"
   },
-  "id": "2026-10-07T16-56"
+  "id": "2026-10-08T06-01"
  },
  "last_run": {
   "errors": [
-   "ugyeszseg.hu: HTTP 503 Service Unavailable, kétszeri próbálkozás után sem volt elérhető ebben a futásban",
-   "k-monitor.hu: a site:k-monitor.hu keresés ebben a futásban nem adott közvetlenül a domainről származó találatot"
+   "ugyeszseg.hu nem volt elérhető (HTTP 503 Service Unavailable, két kísérlet)",
+   "24.hu cikkek (Mészáros-Szíjj MKIF-koncesszió felbontás, meddőségi intézetek államosítása) közvetlenül nem tölthetők le (WebFetch elutasítja); csak keresési összefoglalókból, közvetett forrásból volt információ, önálló/új, megerősített tényt nem adtak hozzá a meglévő tételekhez",
+   "KSH szeptemberi inflációs adat ebben a futásban még nem jelent meg (a közzététel jellemzően október 9-10 körül várható), ezért a macro_snapshot az augusztusi (2026-08) adatot tartotta meg"
   ],
   "eu_lost_items_new": 0,
-  "finished_at": "2026-10-07T18:10:00+02:00",
+  "finished_at": "2026-10-08T06:02:38+02:00",
   "items_duplicate": 0,
-  "items_found_total": 2,
+  "items_found_total": 0,
   "items_needs_review": 0,
-  "items_new": 1,
+  "items_new": 0,
   "reported_cases_new": 0,
-  "reported_cases_updated": 1,
+  "reported_cases_updated": 0,
   "sources_checked": [
-   "kormany.hu/atlathato/feljelentes (hivatalos)",
-   "mnvvh.hu/hirek",
-   "hirkereso.hu",
-   "k-monitor.hu (WebSearch, nem adott új találatot)",
-   "ugyeszseg.hu/category/hirek/kozponti-nyomozo-fougyeszseg/ (nem elérhető, 503)",
+   "kormany.hu/atlathato/feljelentes (hivatalos, 47 ügy / 2255 Mrd Ft, változatlan az előző 2026-10-02-i ellenőrzéshez képest)",
    "telex.hu",
    "444.hu",
    "economx.hu",
-   "hvg.hu",
-   "index.hu",
    "portfolio.hu",
-   "privatbankar.hu",
+   "index.hu",
    "vg.hu",
    "infostart.hu",
-   "kisalfold.hu",
-   "okoshir.hu",
-   "napiujsag.hu",
-   "estihirlap.hu",
-   "hirnavigator.hu",
-   "origo.hu"
+   "hvg.hu",
+   "origo.hu",
+   "privatbankar.hu",
+   "adozona.hu",
+   "k-monitor.hu (csak WebSearch, site: lekérdezés nem hozott k-monitor.hu találatot)",
+   "hirkereso.hu (Gazdaság rovat átnézve, Politika rovat nem jelent meg a lapon)",
+   "mnvvh.hu/hirek (átnézve, nincs önálló, még nem rögzített konkrét visszaszerzési/zárolási tétel)",
+   "ugyeszseg.hu/category/hirek/kozponti-nyomozo-fougyeszseg/ (sikertelen, l. errors)",
+   "mnb.hu/arfolyamok (EUR/USD napi árfolyam)"
   ],
-  "started_at": "2026-10-07T16:56:00+02:00",
-  "id": "2026-10-07T16-56"
+  "started_at": "2026-10-08T05:56:00+02:00",
+  "id": "2026-10-08T05-56"
  },
  "run_history": [
+  {
+   "finished_at": "2026-10-08T06:02:38+02:00",
+   "started_at": "2026-10-08T05:56:00+02:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
   {
    "finished_at": "2026-10-07T18:10:00+02:00",
    "started_at": "2026-10-07T16:56:00+02:00",
@@ -3169,31 +3175,27 @@
   }
  ],
  "run_summary": {
-  "run_id": "2026-10-07T15:02:30+00:00",
-  "new": 1,
+  "run_id": "2026-10-08T04:03:18+00:00",
+  "new": 0,
   "modified": 0,
-  "confirmed_only": 1,
-  "touched": 2,
+  "confirmed_only": 0,
+  "touched": 0,
   "pending_review": 1,
   "by_section": {
    "items": {
-    "new": 1,
+    "new": 0,
     "modified": 0,
     "confirmed_only": 0
    },
    "reported_cases": {
     "new": 0,
     "modified": 0,
-    "confirmed_only": 1
+    "confirmed_only": 0
    }
   },
-  "new_ids": [
-   "i:visszaszerzes-tao-sporttamogatas-vegrehajtas-2026-10"
-  ],
+  "new_ids": [],
   "modified_ids": [],
-  "confirmed_ids": [
-   "r:reported-hanko-balazs-nka-sikkasztas-2026-09"
-  ]
+  "confirmed_ids": []
  },
  "run_summary_history": [
   {
@@ -4039,6 +4041,21 @@
      "new": 0,
      "modified": 0,
      "confirmed_only": 1
+    }
+   }
+  },
+  {
+   "run_id": "2026-10-08T04:03:18+00:00",
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
     }
    }
   }
