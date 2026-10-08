@@ -1,13 +1,13 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-08T10:02:23+00:00",
+ "generated_at": "2026-10-08T15:03:37+00:00",
  "summary": {
   "megtakaritas_verified_huf": 1735245700000,
   "visszaszerzes_verified_huf": 1547098000000,
   "eu_forras_verified_huf": 6188000000000,
   "eu_forras_lost_huf": 730000000000,
   "items_count": 31,
-  "reported_cases_count": 39
+  "reported_cases_count": 41
  },
  "items": [
   {
@@ -955,8 +955,8 @@
    "subject": "Gordiusz Magántőkealap — állami krízis tőkebefektetés lezárása",
    "verification_notes": "ÚJ TÉTEL (2026-10-08 12:00-ás futás). Egyetlen közvetlen sajtóforrásból (Index, 2026-10-07) ismert, amely az Economx MFB-nek és a Gránit Alapkezelőnek tett megkeresésén és az MFB megerősítésén alapul; önálló második, független sajtóforrás egyelőre nem található, ezért needs_review. Megjegyzendő, hogy ez NEM visszaélésből/túlárazásból eredő vagyon-visszaszerzés, hanem egy 2021-es állami krízis-tőkebefektetés (Krízis Tőkeprogram) sikeres, nyereséges lezárása egy Tiborcz István-érdekeltségű alapnál — politikai jelentősége a Tiborcz-kapcsolat miatt van, a tétel emiatt került az adattárba. Különbözik a reported_cases/reported-baross-gabor-tokeprogram-281-milliard-feljelentes-2026-07 tételtől (az egy másik, Baross Gábor Tőkeprogram nevű konstrukció, amelyben a TI feljelentést tett 281 milliárd forint nyomon nem követhető állami forrás miatt).",
    "id": "visszaszerzes-gordiusz-tiborcz-2026-10",
-   "updated_at": "2026-10-08T10:02:23+00:00",
-   "first_seen_at": "2026-10-08T10:02:23+00:00"
+   "first_seen_at": "2026-10-08T10:02:23+00:00",
+   "updated_at": "2026-10-08T10:02:23+00:00"
   },
   {
    "additional_sources": [
@@ -2216,6 +2216,33 @@
   {
    "additional_sources": [
     {
+     "name": "444.hu (eredeti feljelentés)",
+     "published_date": "2026-01-12",
+     "url": "https://444.hu/2026/01/12/az-oroszoknak-az-ev-utolso-napjaiban-elutalt-80-milliard-forint-miatt-feljelentest-tett-paks-2-ugyeben-tordai-bence"
+    }
+   ],
+   "alleged_amount_huf": 79633739000,
+   "alleged_amount_text": "79,633 milliárd forint (a sajtóban kerekítve 80 milliárd forintként)",
+   "confirmed_recovered_huf": 0,
+   "description": "A magyar állam 2025 decemberében 79,633 milliárd forint értékű tőkeemelést hajtott végre a Paks II. Atomerőmű Zrt.-ben, amelyet a társaság továbbutalt az orosz fővállalkozónak, az Atomsztrojexportnak. Az Európai Unió Bírósága 2025 szeptemberében jogerősen megsemmisítette az Európai Bizottság 2017-es, a magyar állami támogatást jóváhagyó határozatát. A Készenléti Rendőrség Nemzeti Nyomozó Irodája 2026 augusztus végén különösen jelentős vagyoni hátrányt okozó hűtlen kezelés gyanúja miatt nyomozást rendelt el az ügyben.",
+   "ministry": "Készenléti Rendőrség Nemzeti Nyomozó Irodája (rendőrségi nyomozás, Tordai Bence volt országgyűlési képviselő és egy magánszemély feljelentésére)",
+   "recovered_item_id": null,
+   "report_date": "2026-01-12",
+   "report_source": {
+    "name": "444.hu",
+    "published_date": "2026-08-28",
+    "url": "https://444.hu/2026/08/28/tordai-bence-nyomozas-indul-a-80-milliardos-hutlen-kezeles-miatt-paks-2-tokeemelesi-ugyeben"
+   },
+   "status": "under_investigation",
+   "subject": "Paks II tőkeemelés — 2025 decemberi, oroszországi fővállalkozónak utalt 79,6 milliárd forintos állami tőkeemelés",
+   "verification_notes": "ÚJ TÉTEL (2026-10-08 16:56-os futás). Tordai Bence volt országgyűlési képviselő 2026 januárjában tett első feljelentést, amit a Készenléti Rendőrség Nemzeti Nyomozó Irodája (NNI) akkor elutasított; 2026 májusában megismételt feljelentést, amely már Orbán Viktor korábbi miniszterelnököt, Nagy Márton és Szijjártó Péter korábbi minisztereket és Magyar Levente korábbi államtitkárt is megnevezte. Az NNI 2026. augusztus 27-28-án nyomozást rendelt el. Nem szerepel a kormany.hu/atlathato/feljelentes hivatalos listáján (2026-10-08-i ellenőrzés szerint, a lista változatlanul 47 ügy/2255 Mrd Ft), mivel ez Tordai Bence magánszemély/volt képviselő feljelentésére indult rendőrségi eljárás, nem kormányzati/minisztériumi feljelentés. Tényleges, az államhoz visszakerült vagyon nincs.",
+   "id": "reported-paks2-tokeemeles-tordai-2026-08",
+   "updated_at": "2026-10-08T15:03:37+00:00",
+   "first_seen_at": "2026-10-08T15:03:37+00:00"
+  },
+  {
+   "additional_sources": [
+    {
      "name": "HVG",
      "published_date": "2026-10-05",
      "url": "https://hvg.hu/gazdasag/20261005_paksi-foldmutyi-hadhazy-akos-sarosi-jozsef-szekszard-tisza-part"
@@ -2467,6 +2494,33 @@
    "id": "reported-szuverenitasvedelmi-hivatal-konzorcium-nvvh-2026-09",
    "first_seen_at": "2026-10-03T04:04:34+00:00",
    "updated_at": "2026-10-03T04:04:34+00:00"
+  },
+  {
+   "additional_sources": [
+    {
+     "name": "444.hu",
+     "published_date": "2026-07-24",
+     "url": "https://444.hu/2026/07/24/megis-nyomoz-a-rendorseg-az-utolso-nemzeti-konzultacio-miatt-hutlen-kezeles-a-gyanu"
+    }
+   ],
+   "alleged_amount_huf": 12000000000,
+   "alleged_amount_text": "12 milliárd forint (a 2025 őszi nemzeti konzultáció és a kísérő kommunikációs kampány központi költségvetésből finanszírozott költsége)",
+   "confirmed_recovered_huf": 0,
+   "description": "A 2025 őszén tartott, az akkori Fidesz-kormány által indított, a \"Tisza-adóról\" szóló nemzeti konzultáció és az azt kísérő kormányzati kommunikációs kampány mintegy 12 milliárd forintos költségét a központi költségvetésből, nem a Fidesz saját kampányköltségéből fedezték. A K-Monitor civil szervezet állítása szerint a konzultáció kérdései és az azokhoz csatolt kormányzati magyarázatok egyoldalú, kampányjellegű, vitatott állításokat tartalmaztak, a kapcsolódó szerződések pedig Balásy Gyula érdekeltségi köréhez tartozó cégekhez kerültek. Egy magánszemély eredeti feljelentését a rendőrség 2026 februárjában elutasította; a K-Monitor felülbírálati indítványára az ügyészség 2026 júliusában hűtlen kezelés gyanúja miatt nyomozás elrendelését írta elő.",
+   "ministry": "Rendőrség / ügyészség (a Fővárosi Gazdasági Ügyészség utasítására, a K-Monitor felülbírálati indítványára megismételt vizsgálat)",
+   "recovered_item_id": null,
+   "report_date": "2026-07-24",
+   "report_source": {
+    "name": "Telex",
+    "published_date": "2026-07-24",
+    "url": "https://telex.hu/belfold/2026/07/24/hutlen-kezeles-gyanuja-miatt-nyomoz-a-rendorseg-a-tisza-adorol-szolo-nemzeti-konzultacio-miatt"
+   },
+   "status": "under_investigation",
+   "subject": "\"Tisza-adó\" elnevezésű, 2025 őszi nemzeti konzultáció közpénzből finanszírozott kampánya",
+   "verification_notes": "ÚJ TÉTEL (2026-10-08 16:56-os futás, K-Monitor-keresésen keresztül azonosítva). Egy magánszemély 2025 őszén (a nemzeti konzultáció idején) tett feljelentést, amit a rendőrség 2026 februárjában elutasított, arra hivatkozva, hogy a konzultáció kérdései nem közvetlenül a Tisza Párt állítólagos programjáról szóltak. A K-Monitor felülbírálati indítványára (2023 óta bárki kérhet bírósági felülvizsgálatot, ha a hatóság közvagyont érintő feljelentést/eljárást zár le vagy utasít el) a Fővárosi Gazdasági Ügyészség megváltoztatta a rendőrségi döntést, és hűtlen kezelés gyanúja miatt nyomozás indult. Nem szerepel a kormany.hu/atlathato/feljelentes hivatalos listáján (2026-10-08-i ellenőrzés szerint), mivel ez civil szervezet (K-Monitor) felülbírálati indítványára induló rendőrségi/ügyészségi eljárás, nem kormányzati/minisztériumi feljelentés. Ez a korábbi (Fidesz-korszakbeli) kormány saját, a Tisza Párt elleni 2025-ös kampányához kapcsolódó közpénz-felhasználást érinti — a felhasználói szűrési szabály szerint ide tartozik, mert korábbi közpénzügyről van szó, amelyben hatósági vizsgálat indult, de a pénz nincs visszaszerezve.",
+   "id": "reported-tisza-ado-konzultacio-kmonitor-2026-07",
+   "updated_at": "2026-10-08T15:03:37+00:00",
+   "first_seen_at": "2026-10-08T15:03:37+00:00"
   },
   {
    "alleged_amount_huf": 10000000000,
@@ -2754,41 +2808,52 @@
  },
  "last_run": {
   "errors": [
-   "ugyeszseg.hu/category/hirek/kozponti-nyomozo-fougyeszseg: HTTP 503 Service Unavailable, nem volt elérhető ebben a futásban",
-   "k-monitor.hu: a site: operátoros WebSearch nem adott vissza közvetlen k-monitor.hu találatot egyik lekérdezésnél sem (csak más lapok cikkei), így a K-Monitor saját elemzéseit ebben a futásban nem sikerült külön ellenőrizni",
-   "Konkrét, 2026 október 1-8 közötti új megtakarítási/visszaszerzési/EU-forrás hír csak egy esetben (Gordiusz Magántőkealap, Index 2026-10-07) került elő; a reported_cases és a kormany.hu/atlathato/feljelentes hivatalos lista a 2026-10-02-i állapothoz képest változatlan maradt"
+   "ugyeszseg.hu HTTP 503 Service Unavailable, nem volt elérhető ebben a futásban (ismétlődő probléma korábbi futásokból)",
+   "KSH szeptemberi inflációs gyorsjelentés ebben a futásban még nem jelent meg (a közzététel 2026-10-09/10 körül várható), ezért nem készült új macro_snapshot",
+   "Új ÁKK-államadósság-adat vagy MNB-kamatdöntés nem volt azonosítható a 2026-10-08 11:59-es legutóbbi pillanatkép óta, ezért nem készült új macro_snapshot ebben a futásban",
+   "A Paks II tőkeemelés (Tordai Bence feljelentése, 79,6 Mrd Ft) és a 'Tisza-adó' nemzeti konzultáció ügye (K-Monitor, 12 Mrd Ft) régebbi (2026 január/július) események, amelyek a korábbi futások adattárában még nem szerepeltek — most felvételre kerültek a reported_cases kollekcióba"
   ],
   "eu_lost_items_new": 0,
-  "finished_at": "2026-10-08T12:01:04+02:00",
+  "finished_at": "2026-10-08T17:35:00+02:00",
   "items_duplicate": 0,
-  "items_found_total": 1,
-  "items_needs_review": 1,
-  "items_new": 1,
-  "reported_cases_new": 0,
+  "items_found_total": 0,
+  "items_needs_review": 0,
+  "items_new": 0,
+  "reported_cases_new": 2,
   "reported_cases_updated": 0,
   "sources_checked": [
-   "kormany.hu/atlathato/feljelentes",
-   "mnvvh.hu/hirek",
-   "ugyeszseg.hu/category/hirek/kozponti-nyomozo-fougyeszseg",
-   "k-monitor.hu (WebSearch, site: operátorral)",
-   "hirkereso.hu",
-   "index.hu",
-   "economx.hu",
+   "kormany.hu/atlathato/feljelentes (hivatalos, 47 ügy / 2255 Mrd Ft, 24,2 Mrd Ft visszafizetve, 0,7 Mrd Ft meg nem valósult kiadás — változatlan a 2026-10-02-i állapothoz képest)",
+   "mnvvh.hu/hirek (csak már ismert ügyek: Seszták-letartóztatás, NVVH 4 kiemelt ügye)",
+   "ugyeszseg.hu/category/hirek/kozponti-nyomozo-fougyeszseg/ (HTTP 503, nem volt elérhető)",
+   "k-monitor.hu (WebSearch, site: operátor nem adott közvetlen domain-találatot; témakeresésből azonosítva két új, korábban nem rögzített ügy)",
+   "hirkereso.hu (Gazdaság rovat átnézve, nincs releváns új találat; Politika rovat nem jelent meg)",
    "telex.hu",
    "444.hu",
-   "hvg.hu",
+   "index.hu",
    "portfolio.hu",
-   "privatbankar.hu",
-   "origo.hu",
+   "economx.hu",
+   "hvg.hu",
    "infostart.hu",
    "vg.hu",
-   "mandiner.hu",
-   "mnb.hu/arfolyamok"
+   "origo.hu",
+   "privatbankar.hu",
+   "adozona.hu",
+   "eduline.hu",
+   "hungarytoday.hu",
+   "mnb.hu/arfolyamok (sajtón keresztül)"
   ],
-  "started_at": "2026-10-08T11:30:00+02:00",
-  "id": "2026-10-08T11-59"
+  "started_at": "2026-10-08T16:30:00+02:00",
+  "id": "2026-10-08T16-56"
  },
  "run_history": [
+  {
+   "finished_at": "2026-10-08T17:35:00+02:00",
+   "started_at": "2026-10-08T16:30:00+02:00",
+   "items_new": 0,
+   "reported_cases_new": 2,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
   {
    "finished_at": "2026-10-08T12:01:04+02:00",
    "started_at": "2026-10-08T11:30:00+02:00",
@@ -3205,11 +3270,11 @@
   }
  ],
  "run_summary": {
-  "run_id": "2026-10-08T10:02:23+00:00",
-  "new": 0,
+  "run_id": "2026-10-08T15:03:37+00:00",
+  "new": 2,
   "modified": 0,
   "confirmed_only": 0,
-  "touched": 0,
+  "touched": 2,
   "pending_review": 2,
   "by_section": {
    "items": {
@@ -3218,12 +3283,15 @@
     "confirmed_only": 0
    },
    "reported_cases": {
-    "new": 0,
+    "new": 2,
     "modified": 0,
     "confirmed_only": 0
    }
   },
-  "new_ids": [],
+  "new_ids": [
+   "r:reported-paks2-tokeemeles-tordai-2026-08",
+   "r:reported-tisza-ado-konzultacio-kmonitor-2026-07"
+  ],
   "modified_ids": [],
   "confirmed_ids": []
  },
@@ -4099,6 +4167,21 @@
     },
     "reported_cases": {
      "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    }
+   }
+  },
+  {
+   "run_id": "2026-10-08T15:03:37+00:00",
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 2,
      "modified": 0,
      "confirmed_only": 0
     }
