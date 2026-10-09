@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-09T04:04:22+00:00",
+ "generated_at": "2026-10-09T10:06:01+00:00",
  "summary": {
   "megtakaritas_verified_huf": 1735245700000,
   "visszaszerzes_verified_huf": 1547098000000,
@@ -2582,7 +2582,7 @@
    "url": "https://magyarnemzet.hu/gazdasag/2026/09/allamadossag-novekedes"
   },
   "allamadossag_huf": 65716000000000,
-  "collected_at": "2026-10-09T06:02:00+02:00",
+  "collected_at": "2026-10-09T12:02:00+02:00",
   "elozo": {
    "allamadossag": {
     "period": null,
@@ -2691,18 +2691,18 @@
     "key": "eur_huf",
     "label_en": "Official EUR/HUF rate (MNB)",
     "label_hu": "Euró hivatalos árfolyama (MNB)",
-    "note_en": "USD: 327.48 HUF (2026-10-08 fixing). No newer fixing was published as of this run (2026-10-09).",
-    "note_hu": "Dollár: 327,48 Ft (2026-10-08-i fixing). Ebben a futásban (2026-10-09) nem jelent meg újabb fixing adat.",
-    "period": "2026-10-08",
-    "prev_period": "2026-10-07",
-    "prev_value": 366.76,
+    "note_en": "USD: 325.21 HUF (2026-10-09 fixing).",
+    "note_hu": "Dollár: 325,21 Ft (2026-10-09-i fixing).",
+    "period": "2026-10-09",
+    "prev_period": "2026-10-08",
+    "prev_value": 366.45,
     "source": {
      "name": "MNB hivatalos árfolyamok",
-     "publish_date": "2026-10-08",
+     "publish_date": "2026-10-09",
      "url": "https://www.mnb.hu/arfolyamok"
     },
     "unit": "Ft/EUR",
-    "value": 366.45
+    "value": 364.82
    },
    {
     "key": "brutto_atlagkereset",
@@ -2804,20 +2804,21 @@
    "publish_date": "2026-09-22",
    "url": "https://www.portfolio.hu/gazdasag/20260922/itt-az-mnb-uj-elorejelzese-hiaba-a-nemzetkozi-kockazatok-mersekelt-marad-az-idei-inflacio-864484"
   },
-  "id": "2026-10-09T06-02"
+  "id": "2026-10-09T12-02"
  },
  "last_run": {
   "errors": [
-   "Az ugyeszseg.hu/kategoria/hirek/kozponti-nyomozo-fougyeszseg oldal ebben a futásban kétszer is HTTP 503 hibával elutasította a lekérést (mind a megadott, mind az alternatív URL-formátummal) — a Központi Nyomozó Főügyészség híreinek ellenőrzése ezért ebben a futásban nem volt lehetséges.",
-   "A kormany.hu/atlathato/feljelentes oldal tartalma (47 ügy, 2255 Mrd Ft, 25,0 Mrd Ft visszafizetve/megtakarítva) változatlan volt a 2026-10-02-es állapothoz képest — nem volt szükség frissítésre a reported-osszesito-2026-09 és a kapcsolódó tételeken.",
-   "Az MNB hivatalos EUR/HUF és USD/HUF fixingje ebben a futásban is a 2026-10-08-i (366,45 Ft/EUR, 327,48 Ft/USD) állapotot mutatta, újabb (10-09-i) fixing még nem volt elérhető a lekérés időpontjában.",
-   "A KSH szeptemberi havi/éves inflációs gyorstájékoztatója ebben a futásban még nem volt elérhető (a legutóbbi publikált adat továbbra is 2026 augusztusi); az allamadossag_huf érték is változatlanul a 2026-07-31-i (Magyar Nemzet/ÁKK-adatra hivatkozó) állapotot tükrözi, az ÁKK 2026-09-i finanszírozási összefoglalója (Economx, Privátbankár) nem közölt pontos abszolút Ft-összegű államadósság-adatot.",
-   "A hirkereso.hu Politika rovatában talált 'Molnár Áron 450 millió forint NKA-s üres pályázat' (NLC, 2026-10-09) és a 444.hu-n talált 'Vasvár alapítvány 1+ milliárd Ft' és 'Brain Bar 173 millió Ft NKA/NKFIH' című cikkek (mind 2026-10-07) ellenőrzése nem talált hozzájuk kapcsolódó, ebben a futásban megerősíthető friss feljelentést vagy hatósági eljárást (a Molnár Áron-ügy a már rögzített reported-hanko-balazs-nka-sikkasztas-2026-09 tágabb NKA-botrány része, vita/tagadás állapotban, önálló összeg nélkül megerősítve); a felhasználói szűrési szabály szerint (csak feljelentéssel/vizsgálattal párosulva vehető fel) nem kerültek be önálló tételként.",
-   "A 444.hu-n talált 'Kartellgyanú miatt közétkeztető cégeket vizsgál a versenyhivatal' (2026-10-08, GVH-vizsgálat) cikk önálló GVH-eljárás, konkrét cégnév, összeg vagy a már rögzített reported-onkormanyzati-parkfenntartas-etkeztetes-korrupcio-2026-09 (NVVH) üggyel való kapcsolat nélkül; túl korai/általános ahhoz, hogy önálló tételként rögzíthető legyen, későbbi futásban követendő.",
-   "A kormany.hu hivatalos oldal és a sajtó (Telex, 444, Portfolio, Economx) ebben a futásban sem erősített meg tényleges, új RRF/kohéziós kifizetést (a received_huf mező a vonatkozó eu_forras tételeknél változatlan); az EU Tanácsának a 4,2 milliárd eurós kohéziós forrás feloldásáról szóló döntése a keresési eredmények szerint továbbra is október közepére (a korábbi futásokban jelzett október 13/15-16 körüli időpontra) várható, konkrét dátum erről a futásról sem erősíthető meg egyértelműen."
+   "Az ugyeszseg.hu/category/hirek/kozponti-nyomozo-fougyeszseg oldal ismét HTTP 503 hibával elutasította a lekérést, ebben a futásban sem volt ellenőrizhető.",
+   "A KSH szeptemberi havi/éves inflációs gyorstájékoztatója ebben a futásban (2026-10-09 déli órák) még nem volt elérhető; több keresés is csak az augusztusi (1,3% éves, 0,2% havi) adatot erősítette meg, egy talált, magas (5,5%) inflációs cikk ellenőrzése után kiderült, hogy nem a 2026 szeptemberi adatra vonatkozik (megbízhatatlan/félreazonosított forrás), ezért nem használtuk fel; a macro_snapshot az augusztusi adatot tartja érvényben.",
+   "Az ÁKK (akk.hu) államadósság-adata ebben a futásban sem volt közvetlenül lekérhető pontos, Ft-ban kifejezett abszolút összeggel; a szeptemberi ÁKK-összefoglalók (Economx) csak arányokról (nettó kibocsátás, finanszírozási terv teljesülése) szóltak, konkrét állományi adat nélkül, ezért az allamadossag_huf változatlanul a 2026-07-31-i (Magyar Nemzet/ÁKK-hivatkozás) állapotot tükrözi.",
+   "Az MNB hivatalos EUR/HUF és USD/HUF fixingje frissítve a 2026-10-09-i (364,82 Ft/EUR, 325,21 Ft/USD) állapotra; ez az egyetlen érdemi változás ebben a futásban, ezért külön macro_snapshot készült, items/reported_cases tétel nem.",
+   "A kormany.hu/atlathato/feljelentes oldal teljes tartalma (47 ügy, 2255 Mrd Ft, 25,0 Mrd Ft visszafizetve/megtakarítva, 12 ügyben nyomozás) változatlan volt a 2026-10-09 06:02-es állapothoz képest.",
+   "12+ tematikus kereséssel (megtakarítás, visszaszerzés, EU-forrás, elveszett uniós forrás, feljelentés, túlárazás, pazarlás-kontextus) sem sikerült olyan, korábban nem rögzített konkrét tényt találni, amely megfelelne a felvételi kritériumoknak; a hirkereso.hu-n és keresésekben felmerült vezetéknevek/ügyek (NVVH négy induló ügye, Hankó Balázs letartóztatása, Seszták Miklós/Volánbusz vagyonzárolás részletei) mind már a meglévő reported_cases tételekben szerepelnek, érdemi új adat nélkül.",
+   "Egy 2026 augusztusi (nem a jelen 3 napos ablakba eső), a HVG/444/Economx által feltárt, nem nyilvános kormányhatározatról szóló cikk (7,2 Mrd Ft-os brüsszeli luxusétterem-vásárlás, amely végül engedélyezési okból nem valósult meg) ellenőrzésre került, de sem megtakarításként (a vásárlás elmaradása nem a jelenlegi kormány döntésének, hanem engedélyezési akadálynak tudható be), sem feljelentésként nem azonosítható egyértelműen, ezért nem került be az adattárba.",
+   "A 4,2 milliárd eurós kohéziós forrás feloldásáról az EU Tanácsa ebben a futásban sem hozott megerősített döntést; a várható időpont továbbra is október közepi (EU-csúcstalálkozó), a vonatkozó eu_forras tételek received_huf mezője változatlan."
   ],
   "eu_lost_items_new": 0,
-  "finished_at": "2026-10-09T07:10:00+02:00",
+  "finished_at": "2026-10-09T12:15:00+02:00",
   "items_duplicate": 0,
   "items_found_total": 0,
   "items_needs_review": 0,
@@ -2825,11 +2826,14 @@
   "reported_cases_new": 0,
   "reported_cases_updated": 0,
   "sources_checked": [
-   "kormany.hu/atlathato/feljelentes",
+   "kormany.hu/atlathato/feljelentes (hivatalos, 47 ügy / 2255 Mrd Ft / 25,0 Mrd Ft visszafizetve-megtakarítva — változatlan a 2026-10-09 06:02-es állapothoz képest)",
    "mnvvh.hu/hirek",
-   "k-monitor.hu (WebSearch)",
+   "k-monitor.hu (WebSearch, site: operátor nem adott közvetlen domain-találatot)",
    "hirkereso.hu",
-   "ugyeszseg.hu/kategoria/hirek/kozponti-nyomozo-fougyeszseg",
+   "ugyeszseg.hu/category/hirek/kozponti-nyomozo-fougyeszseg (HTTP 503, nem elérhető)",
+   "KSH (inflációs gyorstájékoztató keresés)",
+   "MNB (mnb.hu/arfolyamok, hivatalos EUR/USD fixing)",
+   "ÁKK/finanszírozási adatok (sajtó útján)",
    "Telex",
    "444.hu",
    "HVG",
@@ -2842,18 +2846,23 @@
    "Pénzcentrum",
    "Origo",
    "Magyar Nemzet",
-   "Népszava",
-   "mfor.hu",
-   "Átlátszó",
+   "Mandiner",
    "Direkt36",
    "G7",
-   "MNB (árfolyamok)",
-   "KSH-ra hivatkozó sajtó"
+   "Adózóna"
   ],
-  "started_at": "2026-10-09T06:02:00+02:00",
-  "id": "2026-10-09T06-02"
+  "started_at": "2026-10-09T11:55:00+02:00",
+  "id": "2026-10-09T12-02"
  },
  "run_history": [
+  {
+   "finished_at": "2026-10-09T12:15:00+02:00",
+   "started_at": "2026-10-09T11:55:00+02:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
   {
    "finished_at": "2026-10-09T07:10:00+02:00",
    "started_at": "2026-10-09T06:02:00+02:00",
@@ -3286,7 +3295,7 @@
   }
  ],
  "run_summary": {
-  "run_id": "2026-10-09T04:04:22+00:00",
+  "run_id": "2026-10-09T10:06:01+00:00",
   "new": 0,
   "modified": 0,
   "confirmed_only": 0,
@@ -4202,6 +4211,21 @@
   },
   {
    "run_id": "2026-10-09T04:04:22+00:00",
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    }
+   }
+  },
+  {
+   "run_id": "2026-10-09T10:06:01+00:00",
    "by_section": {
     "items": {
      "new": 0,
