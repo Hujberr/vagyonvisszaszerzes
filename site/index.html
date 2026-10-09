@@ -1750,8 +1750,11 @@ window.SITE_CONFIG = {
   function updatedBadgeHtml(d){
     if(!d.updated_at || !d.first_seen_at) return "";
     const u = String(d.updated_at).slice(0,10), f = String(d.first_seen_at).slice(0,10);
-    if(u <= f) return "";
-    return ` <span class="updated-badge">${I18N[lang].updatedBadge(u)}</span>`;
+    if(u > f) return ` <span class="updated-badge">${I18N[lang].updatedBadge(u)}</span>`;
+    /* Utólag felvett, régi eseménydátumú tétel: a bekerülés napja mint "Frissítve" jelzés (>2 nap eltérés esetén) */
+    const od = String(d.report_date || d.event_date || "").slice(0,10), fd = localDay(d.first_seen_at) || f;
+    if(od && fd && (Date.parse(fd) - Date.parse(od)) / 864e5 > 2) return ` <span class="updated-badge">${I18N[lang].updatedBadge(fd)}</span>`;
+    return "";
   }
 
   /* ---------- category detail (clickable top stat cards) ---------- */
