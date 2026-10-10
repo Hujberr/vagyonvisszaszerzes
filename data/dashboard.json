@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-09T15:02:05+00:00",
+ "generated_at": "2026-10-10T04:00:53+00:00",
  "summary": {
   "megtakaritas_verified_huf": 1735245700000,
   "visszaszerzes_verified_huf": 1547098000000,
@@ -1309,7 +1309,7 @@
    "description": "A Miniszterelnökség 2026. október 2-án feljelentést tett ismeretlen tettes ellen költségvetési csalás és hűtlen kezelés gyanújával az Alapjogokért Központot működtető Jogállam és Igazság Nonprofit Kft. állami támogatása ügyében. A feljelentés szerint a szervezet három vezetője 2021-ben havi bruttó mintegy 1,43 millió forint, 2023 júniusától pedig már 1,57 millió forint megbízási díjat állapított meg saját magának, miközben a 2021 és 2024 közötti, összesen 410 millió forintos állami támogatásból 188,5 millió forint felhasználása nincs megfelelően alátámasztva (hiányzó szerződés-jóváhagyási dokumentáció, nem igazolt teljesítés, hiányos pénzügyi alátámasztás).",
    "ministry": "Miniszterelnökség",
    "recovered_item_id": null,
-   "report_date": "2026-09-29",
+   "report_date": "2026-10-01",
    "report_source": {
     "name": "Kormany.hu – Feljelentett billiók",
     "published_date": "2026-09-29",
@@ -1317,10 +1317,10 @@
    },
    "status": "reported",
    "subject": "Alapjogokért Központ (Jogállam és Igazság Nonprofit Kft.) — vezetői fizetések és elszámolási hiányosságok",
-   "verification_notes": "FRISSÍTVE 2026-10-02 (második, 16:56-os ellenőrzés): az ügy hivatalosan is megjelent a kormany.hu listáján ('Alapjogokért Központ állami támogatásai', 410 millió Ft — a teljes vizsgált 2021–2024-es támogatási összeg, ebből 188,5 millió Ft nincs alátámasztva, l. leírás —, Miniszterelnökség, 2026.09.29). A hivatalos dátum (09.29) korábbi, mint a sajtó (Economx, Infostart) általi feldolgozás (10.02); a forrás-hitelességi szabály szerint a hivatalos dátum irányadó, ezért a report_date 10.02-ről 09.29-re frissítve, a report_source a kormany.hu oldalra váltva, az Economx/Infostart az additional_sources-ba került. Az alleged_amount_huf (188,5 M Ft) változatlan, mivel ez a ténylegesen alá nem támasztott, vitatott összeg, nem a teljes támogatás. (Korábbi megjegyzés megőrizve.)",
+   "verification_notes": "FRISSÍTVE 2026-10-10 06:xx-os futás: a kormany.hu/atlathato/feljelentes oldal 2026-10-02 óta tartalmilag változatlan (47 ügy, 2255 Mrd Ft), de a tételes táblázat ennél az ügynél immár 2026.10.01-i feljelentési dátumot mutat (korábban 2026-09-29 volt rögzítve) — apró, a hivatalos oldal saját dátumpontosítéasából eredő eltérés, az összeg (410 M Ft, ebből 188,5 M Ft nem alátámasztott) és a leírás nem változott. FRISSÍTVE 2026-10-02 (második, 16:56-os ellenőrzés): az ügy hivatalosan is megjelent a kormany.hu listáján ('Alapjogokért Központ állami támogatásai', 410 millió Ft — a teljes vizsgált 2021–2024-es támogatási összeg, ebből 188,5 millió Ft nincs alátámasztva, l. leírás —, Miniszterelnökség). A hivatalos dátum korábban (09.29) korábbi volt, mint a sajtó (Economx, Infostart) általi feldolgozás (10.02); a forrás-hitelességi szabály szerint a hivatalos dátum irányadó. Az alleged_amount_huf (188,5 M Ft) változatlan, mivel ez a ténylegesen alá nem támasztott, vitatott összeg, nem a teljes támogatás. (Korábbi megjegyzés megőrizve.)",
    "id": "reported-alapjogokert-kozpont-fizetes-2026-10",
    "first_seen_at": "2026-10-02T10:01:19+00:00",
-   "updated_at": "2026-10-02T15:05:08+00:00"
+   "updated_at": "2026-10-10T04:00:53+00:00"
   },
   {
    "additional_sources": [
@@ -2808,22 +2808,29 @@
  },
  "last_run": {
   "errors": [
-   "telex.hu/gazdasag közvetlen lekérés 403-at adott (feltehetően robots/bot-blokk), ezért csak keresőmotoron keresztül, cím-szintű találatok alapján ellenőrizve.",
-   "ugyeszseg.hu/category/hirek/kozponti-nyomozo-fougyeszseg/ 503 Service Unavailable hibát adott mindkét lekérési próbálkozásnál ebben a futásban, nem sikerült közvetlenül ellenőrizni; a legutóbbi (korábbi futásban ellenőrzött) ügyészségi közlemények továbbra is érvényesek.",
-   "24.hu 2026-10-09-i cikke (Szerbiai fegyvereladás, HM Currus/BTR) nem volt közvetlenül lekérhető (fetch blokkolva); keresőmotoros ellenőrzés szerint a Hadházy Ákos által ismert, kisebb (935 ezer eurós) BTR-80-eladáshoz kapcsolódik, nem azonosítható belőle önálló, új, nagyobb összegű tétel.",
-   "k-monitor.hu site: operátoros keresés nem adott k-monitor.hu találatot (nem indexelt vagy a kereső nem támogatja a site: szűrést ezen a domainen); helyette általános kulcsszavas keresésekkel ellenőrizve."
+   "adozona.hu 'Öt ügyben összesen 106 milliárdos károkozás' című cikke HTTP 403-mal nem volt elérhető WebFetch-csel; a találat valószínűleg a már ismert, hivatalos kormany.hu listán szereplő Miniszterelnökségi feljelentésekkel (pl. veglegestorles.hu, Ortodox akadémia, Observer, Kommentár Alapítvány, Triton Communications — összesen kb. 106 Mrd Ft) azonos tartalmat takar, de ezt WebSearch-ből nem sikerült egyértelműen megerősíteni.",
+   "ugyeszseg.hu/category/hirek/kozponti-nyomozo-fougyeszseg ismételten HTTP 503 hibát adott, nem volt ellenőrizhető ebben a futásban.",
+   "KSH szeptemberi infláció gyorstájékoztatója ebben a futásban sem volt megbízhatóan azonosítható: a WebSearch egymásnak ellentmondó, részben irreleváns/régi találatokat adott (pl. 6,5%, 3,4%, 1,8% várható); a ksh.hu közvetlen oldala (gyorstájékoztatók) nem tartalmazott konkrét adatot. A macro_snapshot ezért nem frissült, a legutóbbi (2026-08: 1,3% éves, 0,2% havi) adat marad érvényben a dashboardon.",
+   "ÁKK (akk.hu) államadósság-adat ebben a futásban sem volt megbízhatóan azonosítható (a találatok a finanszírozási tervre, nem az állomány nagyságára vonatkoztak); az érték változatlanul a 2026-07-31-i (Magyar Nemzet/ÁKK-hivatkozás) állapotot tükrözi.",
+   "A Gordiusz Magántőkealap (Tiborcz, items/visszaszerzes-gordiusz-tiborcz-2026-10) tételhez továbbra sem található második, független sajtóforrás — a tétel needs_review státuszban marad.",
+   "Az EU Tanácsának a 4,2 milliárd eurós kohéziós forrás feloldásáról szóló döntése ebben a futásban sem erősíthető meg; a várható időpont továbbra is október közepe (esetleg október 13), de konkrét dátum nem megerősített.",
+   "12+ tematikus kereséssel (megtakarítás, visszaszerzés, EU-forrás, elveszett uniós forrás, feljelentés, túlárazás, pazarlás-kontextus, adófizetők pénze) sem sikerült olyan, korábban nem rögzített konkrét tényt találni, amely megfelelne a felvételi kritériumoknak; minden releváns találat már szerepel a meglévő items/reported_cases tételekben. Egyetlen apró korrekció történt: a kormany.hu hivatalos táblázata szerint az 'Alapjogokért Központ' ügy feljelentési dátuma 2026.10.01 (korábban 09.29 volt rögzítve) — ez technikai pontosítás, az összeg és a leírás nem változott."
   ],
   "eu_lost_items_new": 0,
-  "finished_at": "2026-10-09T18:10:00+02:00",
+  "finished_at": "2026-10-10T06:30:00+02:00",
   "items_duplicate": 0,
   "items_found_total": 0,
   "items_needs_review": 0,
   "items_new": 0,
-  "notes": "Ez a futás nem talált a meglévő adattárban még nem szereplő, önálló forintösszeggel alátámasztható új megtakarítási/visszaszerzési/EU-forrás/feljelentett ügyet. A kormany.hu/atlathato/feljelentes hivatalos oldal 2026-10-02 óta változatlan (47 ügy, 2255 Mrd Ft összesen) — a reported-osszesito-2026-09 dokumentum nem igényelt frissítést. Az mnvvh.hu friss hírei (Hankó Balázs 2026-10-01-i letartóztatása, az NVVH vezetőinek vagyonnyilatkozata, az 'aranykonvoj'-ügy átvétele) a meglévő tételek (reported-hanko-balazs-nka-sikkasztas-2026-09) korábbi frissítéseiben már szerepelnek, vagy (aranykonvoj) nem közpénz/vagyonvisszaszerzési ügy, ezért nem igényeltek új/frissített tételt. A macro_snapshots kollekcióba új pillanatkép készült (2026-10-09T16-55), a korábbi (ugyannapi, 12:02-es) snapshot óta nem jelent meg új hivatalos KSH/MNB/PM publikáció, ezért a mutatók változatlanul átvéve; az EUR/HUF árfolyam már az aznapi (10-09-i) hivatalos MNB-adatot tartalmazta.",
   "reported_cases_new": 0,
-  "reported_cases_updated": 0,
+  "reported_cases_updated": 1,
   "sources_checked": [
-   "kormany.hu/atlathato/feljelentes",
+   "kormany.hu/atlathato/feljelentes (WebFetch sikeres: 47 ügy, 2255 Mrd Ft, 25,0 Mrd Ft visszafizetve/megtakarítva — változatlan a 2026-10-02-i állapothoz képest)",
+   "mnvvh.hu/hirek",
+   "k-monitor.hu (WebSearch, site: operátor nem adott közvetlen domain-találatot)",
+   "hirkereso.hu",
+   "ugyeszseg.hu/category/hirek/kozponti-nyomozo-fougyeszseg (HTTP 503, nem elérhető)",
+   "adozona.hu (403, nem elérhető)",
    "24.hu",
    "444.hu",
    "168.hu",
@@ -2863,15 +2870,21 @@
    "partizan.hu",
    "okoshir.hu",
    "szmo.hu",
-   "k-monitor.hu",
-   "hirkereso.hu",
-   "mnvvh.hu",
-   "ugyeszseg.hu"
+   "mnb.hu/arfolyamok",
+   "ksh.hu"
   ],
-  "started_at": "2026-10-09T16:55:00+02:00",
-  "id": "2026-10-09T16-55"
+  "started_at": "2026-10-10T05:58:00+02:00",
+  "id": "2026-10-10T05-58"
  },
  "run_history": [
+  {
+   "finished_at": "2026-10-10T06:30:00+02:00",
+   "started_at": "2026-10-10T05:58:00+02:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 1,
+   "eu_lost_items_new": 0
+  },
   {
    "finished_at": "2026-10-09T18:10:00+02:00",
    "started_at": "2026-10-09T16:55:00+02:00",
@@ -3320,11 +3333,11 @@
   }
  ],
  "run_summary": {
-  "run_id": "2026-10-09T15:02:05+00:00",
+  "run_id": "2026-10-10T04:00:53+00:00",
   "new": 0,
   "modified": 0,
-  "confirmed_only": 0,
-  "touched": 0,
+  "confirmed_only": 1,
+  "touched": 1,
   "pending_review": 2,
   "by_section": {
    "items": {
@@ -3335,12 +3348,14 @@
    "reported_cases": {
     "new": 0,
     "modified": 0,
-    "confirmed_only": 0
+    "confirmed_only": 1
    }
   },
   "new_ids": [],
   "modified_ids": [],
-  "confirmed_ids": []
+  "confirmed_ids": [
+   "r:reported-alapjogokert-kozpont-fizetes-2026-10"
+  ]
  },
  "run_summary_history": [
   {
@@ -4276,6 +4291,21 @@
      "new": 0,
      "modified": 0,
      "confirmed_only": 0
+    }
+   }
+  },
+  {
+   "run_id": "2026-10-10T04:00:53+00:00",
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 1
     }
    }
   }
