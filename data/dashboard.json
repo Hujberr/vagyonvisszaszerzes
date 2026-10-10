@@ -1,13 +1,13 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-10T04:00:53+00:00",
+ "generated_at": "2026-10-10T10:06:19+00:00",
  "summary": {
   "megtakaritas_verified_huf": 1735245700000,
   "visszaszerzes_verified_huf": 1547098000000,
   "eu_forras_verified_huf": 6188000000000,
   "eu_forras_lost_huf": 730000000000,
   "items_count": 31,
-  "reported_cases_count": 41
+  "reported_cases_count": 42
  },
  "items": [
   {
@@ -2372,6 +2372,48 @@
    "updated_at": "2026-10-02T15:05:08+00:00"
   },
   {
+   "additional_sources": [
+    {
+     "name": "Telex",
+     "published_date": "2026-10-10",
+     "url": "https://telex.hu/belfold/2026/10/10/rakay-philip-racalmas-foldvasarlas-hankook-nyomozas"
+    },
+    {
+     "name": "Index",
+     "published_date": "2026-10-10",
+     "url": "https://index.hu/belfold/2026/10/10/rakay-philip-rendorseg-nyomozas-racalmas-foldvasarlas-hankook-brfk-szijjarto-peter/"
+    },
+    {
+     "name": "444.hu",
+     "published_date": "2026-10-10",
+     "url": "https://444.hu/2026/10/10/egy-evvel-korabban-megsejtette-rakay-philip-hogy-a-hankook-kiboviti-a-gumigyarat-masfel-milliardot-keresett-rajta-tisztan-nyomozas-indult"
+    },
+    {
+     "name": "mfor.hu",
+     "published_date": "2026-10-10",
+     "url": "https://mfor.hu/cikkek/kozelet/mar-rakay-philip-cege-utan-is-nyomoz-a-hatosag.html"
+    }
+   ],
+   "alleged_amount_huf": 1400000000,
+   "alleged_amount_text": "legalább 1,4 milliárd forint adózott nyereség, amelyet a cég állítólag előzetesen megszerzett, nem nyilvános információ felhasználásával ért el egy földügyleten",
+   "confirmed_recovered_huf": 0,
+   "description": "A Budapesti Rendőr-főkapitányság hivatali visszaélés gyanúja miatt nyomozást indított a Rákay Philip érdekkörébe tartozó Rácalmás Greendustry Projekt Zrt. ellen. A gyanú szerint a cég 2022 novemberében, még a Hankook gumigyár bővítési terveinek nyilvánosságra kerülése előtt vásárolt meg 42 hektár földet a gyár szomszédságában, majd ezt 2023-ban a Hankooknak továbbértékesítette, illetve elővásárlási jogot biztosított számára a maradék területre, mindezzel legalább 1,4 milliárd forint adózott nyereséget érve el. A nyomozás egy magánszemély feljelentésére indult.",
+   "ministry": "Budapesti Rendőr-főkapitányság (rendőrségi nyomozás, magánszemély feljelentésére; nem kormányzati/minisztériumi feljelentés)",
+   "recovered_item_id": null,
+   "report_date": "2026-10-10",
+   "report_source": {
+    "name": "Portfolio.hu",
+    "published_date": "2026-10-10",
+    "url": "https://www.portfolio.hu/gazdasag/20261010/hivatali-visszaeles-gyanujaval-nyomoz-a-rendorseg-rakay-philip-cegenek-milliardos-uzlete-miatt-868852"
+   },
+   "status": "under_investigation",
+   "subject": "Rákay Philip érdekkörébe tartozó cég rácalmási földügylete",
+   "verification_notes": "ÚJ TÉTEL (2026-10-10 12:02-es futás). Legalább nyolc független forrás (Telex, Portfolio, Index, 444.hu, mfor.hu, hang.hu, zsaruhírek.hu, budapestkornyeke.hu) egyezően számolt be 2026-10-10-én a BRFK nyomozásáról. Témában különbözik a reported-petofi-film-rakay-2026-09 tételtől (a 'Most vagy soha!' Petőfi-film NAV-vizsgálata) — ugyanazon személyhez (Rákay Philip) kapcsolódó, de más jellegű (NAV adóügyi vs. rendőrségi hivatali visszaélés) és más tárgyú (filmtámogatás vs. földügylet) két külön eset, ezért külön tételként rögzítve, nem összevonva. Nem szerepel a kormany.hu hivatalos listáján, mert ez rendőrségi, magánszemély feljelentésén alapuló eljárás. Az 1,4 milliárd forint a cég állítólagos nettó haszna egy ingatlanértékesítésen, nem közvetlen állami kárösszeg vagy közpénz-elvonás; a végleges jogi megítélés a nyomozás lezárásáig nyitott.",
+   "id": "reported-rakay-racalmas-foldugylet-2026-10",
+   "updated_at": "2026-10-10T10:06:19+00:00",
+   "first_seen_at": "2026-10-10T10:06:19+00:00"
+  },
+  {
    "alleged_amount_huf": 12600000000,
    "alleged_amount_text": "12,6 milliárd forint (a Legfőbb Ügyészség vádirata szerinti pontos bontásban: 7,076 Mrd Ft Volánbusz-hoz kapcsolódó cégektől 2015–2018 között, 3,7066 Mrd Ft buszbeszerzésekből 2015–2017 között, 1,0507 Mrd Ft egy építőipari cégtől, 270,165 millió Ft a Nemzeti Sportközpontok projektjeivel összefüggésben)",
    "confirmed_recovered_huf": 0,
@@ -2582,7 +2624,7 @@
    "url": "https://magyarnemzet.hu/gazdasag/2026/09/allamadossag-novekedes"
   },
   "allamadossag_huf": 65716000000000,
-  "collected_at": "2026-10-09T16:55:00+02:00",
+  "collected_at": "2026-10-10T12:02:00+02:00",
   "elozo": {
    "allamadossag": {
     "period": null,
@@ -2804,79 +2846,61 @@
    "publish_date": "2026-09-22",
    "url": "https://www.portfolio.hu/gazdasag/20260922/itt-az-mnb-uj-elorejelzese-hiaba-a-nemzetkozi-kockazatok-mersekelt-marad-az-idei-inflacio-864484"
   },
-  "id": "2026-10-09T16-55"
+  "id": "2026-10-10T12-02"
  },
  "last_run": {
   "errors": [
-   "adozona.hu 'Öt ügyben összesen 106 milliárdos károkozás' című cikke HTTP 403-mal nem volt elérhető WebFetch-csel; a találat valószínűleg a már ismert, hivatalos kormany.hu listán szereplő Miniszterelnökségi feljelentésekkel (pl. veglegestorles.hu, Ortodox akadémia, Observer, Kommentár Alapítvány, Triton Communications — összesen kb. 106 Mrd Ft) azonos tartalmat takar, de ezt WebSearch-ből nem sikerült egyértelműen megerősíteni.",
-   "ugyeszseg.hu/category/hirek/kozponti-nyomozo-fougyeszseg ismételten HTTP 503 hibát adott, nem volt ellenőrizhető ebben a futásban.",
-   "KSH szeptemberi infláció gyorstájékoztatója ebben a futásban sem volt megbízhatóan azonosítható: a WebSearch egymásnak ellentmondó, részben irreleváns/régi találatokat adott (pl. 6,5%, 3,4%, 1,8% várható); a ksh.hu közvetlen oldala (gyorstájékoztatók) nem tartalmazott konkrét adatot. A macro_snapshot ezért nem frissült, a legutóbbi (2026-08: 1,3% éves, 0,2% havi) adat marad érvényben a dashboardon.",
-   "ÁKK (akk.hu) államadósság-adat ebben a futásban sem volt megbízhatóan azonosítható (a találatok a finanszírozási tervre, nem az állomány nagyságára vonatkoztak); az érték változatlanul a 2026-07-31-i (Magyar Nemzet/ÁKK-hivatkozás) állapotot tükrözi.",
-   "A Gordiusz Magántőkealap (Tiborcz, items/visszaszerzes-gordiusz-tiborcz-2026-10) tételhez továbbra sem található második, független sajtóforrás — a tétel needs_review státuszban marad.",
-   "Az EU Tanácsának a 4,2 milliárd eurós kohéziós forrás feloldásáról szóló döntése ebben a futásban sem erősíthető meg; a várható időpont továbbra is október közepe (esetleg október 13), de konkrét dátum nem megerősített.",
-   "12+ tematikus kereséssel (megtakarítás, visszaszerzés, EU-forrás, elveszett uniós forrás, feljelentés, túlárazás, pazarlás-kontextus, adófizetők pénze) sem sikerült olyan, korábban nem rögzített konkrét tényt találni, amely megfelelne a felvételi kritériumoknak; minden releváns találat már szerepel a meglévő items/reported_cases tételekben. Egyetlen apró korrekció történt: a kormany.hu hivatalos táblázata szerint az 'Alapjogokért Központ' ügy feljelentési dátuma 2026.10.01 (korábban 09.29 volt rögzítve) — ez technikai pontosítás, az összeg és a leírás nem változott."
+   "Az ügyészség (ugyeszseg.hu) hírfolyama HTTP 503 hibával, két kísérletre sem volt elérhető ebben a futásban; a Legfőbb Ügyészség/Központi Nyomozó Főügyészség közleményeinek közvetlen ellenőrzése emiatt elmaradt.",
+   "A K-Monitor (k-monitor.hu) site: operátoros keresése ebben a futásban nem adott vissza k-monitor.hu találatot (a keresőmotor nem indexeli megbízhatóan a site: szűrést ezen a domainen); helyette általános kulcsszavas kereséssel történt az ellenőrzés, új, korábban nem azonosított ügyet nem hozott.",
+   "Az ÁKK hivatalos statisztikai oldala (akk.hu) ezúttal sem volt közvetlenül lekérhető; az államadósság értéke változatlanul a 2026-07-31-i (Magyar Nemzet/ÁKK-adatra hivatkozó) állapotot tükrözi, új hivatalos abszolút Ft-összeg nem került elő.",
+   "A kormany.hu/atlathato/feljelentes oldal tartalma (47 ügy, 2255 Mrd Ft, 2026-10-02-i állapot) ebben a futásban is változatlan volt az előző ellenőrzéshez képest — nem volt szükség frissítésre a reported-osszesito-2026-09 és a reported-egyeb-miniszteriumi-18ugy-2026 tételeken.",
+   "KSH/MNB új havi vagy negyedéves publikáció ebben a futásban nem volt azonosítható; a 2026-10-09 16:55-ös macro_snapshot értékei változatlanul érvényesek, ezért ez a futás egy újrabélyegzett pillanatképet rögzített, a mezők tartalma nem változott.",
+   "Az mnvvh.hu/hirek, a hirkereso.hu és több tematikus keresés (M86-M87 tender, MKIF/M6-M8 üzemeltetés, sportszövetségi összeférhetetlenség, Matolcsy-alapítványok, Rogán letelepedési kötvény) áttekintve: az új elemek mindegyike már rögzített ügyek (Hankó, Seszták, M6 Dunaújváros, MKIF-koncesszió, letelepedési kötvény, állami beruházás vesztegetés, Szuverenitásvédelmi Hivatal) részét képezi, vagy nem minősül önálló, forintosítható megtakarítási/visszaszerzési/feljelentési eseménynek (pl. politikai/eljárási hírek, jogszabály-tervezetek)."
   ],
   "eu_lost_items_new": 0,
-  "finished_at": "2026-10-10T06:30:00+02:00",
+  "finished_at": "2026-10-10T12:10:00+02:00",
   "items_duplicate": 0,
-  "items_found_total": 0,
+  "items_found_total": 1,
   "items_needs_review": 0,
   "items_new": 0,
-  "reported_cases_new": 0,
-  "reported_cases_updated": 1,
+  "reported_cases_new": 1,
+  "reported_cases_updated": 0,
   "sources_checked": [
-   "kormany.hu/atlathato/feljelentes (WebFetch sikeres: 47 ügy, 2255 Mrd Ft, 25,0 Mrd Ft visszafizetve/megtakarítva — változatlan a 2026-10-02-i állapothoz képest)",
+   "kormany.hu/atlathato/feljelentes",
    "mnvvh.hu/hirek",
-   "k-monitor.hu (WebSearch, site: operátor nem adott közvetlen domain-találatot)",
    "hirkereso.hu",
-   "ugyeszseg.hu/category/hirek/kozponti-nyomozo-fougyeszseg (HTTP 503, nem elérhető)",
-   "adozona.hu (403, nem elérhető)",
+   "K-Monitor (keresőmotoros ellenőrzés)",
    "24.hu",
    "444.hu",
-   "168.hu",
-   "atlatszo.hu",
-   "demokrata.hu",
-   "direkt36.hu",
-   "economx.hu",
-   "es.hu",
-   "forbes.hu",
-   "g7.hu",
-   "hirtv.hu",
-   "hvg.hu",
-   "index.hu",
-   "infostart.hu",
-   "jelen.media",
-   "klubradio.hu",
-   "magyarhang.org",
-   "magyarhirlap.hu",
-   "magyarnemzet.hu",
-   "makronom.hu",
-   "mandiner.hu",
-   "media1.hu",
+   "Telex",
+   "Portfolio.hu",
+   "Index.hu",
+   "HVG",
+   "Economx",
+   "Világgazdaság",
+   "Pénzcentrum",
+   "Privátbankár.hu",
+   "Infostart.hu",
    "mfor.hu",
-   "merce.hu",
-   "mti.hu",
-   "nepszava.hu",
-   "origo.hu",
-   "penzcentrum.hu",
-   "portfolio.hu",
-   "privatbankar.hu",
-   "szabadeuropa.hu",
-   "telex.hu",
-   "trendfm.hu",
-   "ujegyenloseg.hu",
-   "valaszonline.hu",
-   "vg.hu",
-   "partizan.hu",
-   "okoshir.hu",
-   "szmo.hu",
-   "mnb.hu/arfolyamok",
-   "ksh.hu"
+   "Origo",
+   "Népszava",
+   "Szabad Európa",
+   "adozona.hu",
+   "zsaruhírek.hu",
+   "ugyeszseg.hu (sikertelen, l. errors)"
   ],
-  "started_at": "2026-10-10T05:58:00+02:00",
-  "id": "2026-10-10T05-58"
+  "started_at": "2026-10-10T11:56:00+02:00",
+  "id": "2026-10-10T12-02"
  },
  "run_history": [
+  {
+   "finished_at": "2026-10-10T12:10:00+02:00",
+   "started_at": "2026-10-10T11:56:00+02:00",
+   "items_new": 0,
+   "reported_cases_new": 1,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
   {
    "finished_at": "2026-10-10T06:30:00+02:00",
    "started_at": "2026-10-10T05:58:00+02:00",
@@ -3333,10 +3357,10 @@
   }
  ],
  "run_summary": {
-  "run_id": "2026-10-10T04:00:53+00:00",
-  "new": 0,
+  "run_id": "2026-10-10T10:06:19+00:00",
+  "new": 1,
   "modified": 0,
-  "confirmed_only": 1,
+  "confirmed_only": 0,
   "touched": 1,
   "pending_review": 2,
   "by_section": {
@@ -3346,16 +3370,16 @@
     "confirmed_only": 0
    },
    "reported_cases": {
-    "new": 0,
+    "new": 1,
     "modified": 0,
-    "confirmed_only": 1
+    "confirmed_only": 0
    }
   },
-  "new_ids": [],
+  "new_ids": [
+   "r:reported-rakay-racalmas-foldugylet-2026-10"
+  ],
   "modified_ids": [],
-  "confirmed_ids": [
-   "r:reported-alapjogokert-kozpont-fizetes-2026-10"
-  ]
+  "confirmed_ids": []
  },
  "run_summary_history": [
   {
@@ -4306,6 +4330,21 @@
      "new": 0,
      "modified": 0,
      "confirmed_only": 1
+    }
+   }
+  },
+  {
+   "run_id": "2026-10-10T10:06:19+00:00",
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 1,
+     "modified": 0,
+     "confirmed_only": 0
     }
    }
   }
