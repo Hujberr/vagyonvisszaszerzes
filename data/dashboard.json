@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-10T10:06:19+00:00",
+ "generated_at": "2026-10-10T15:02:55+00:00",
  "summary": {
   "megtakaritas_verified_huf": 1735245700000,
   "visszaszerzes_verified_huf": 1547098000000,
@@ -2410,8 +2410,8 @@
    "subject": "Rákay Philip érdekkörébe tartozó cég rácalmási földügylete",
    "verification_notes": "ÚJ TÉTEL (2026-10-10 12:02-es futás). Legalább nyolc független forrás (Telex, Portfolio, Index, 444.hu, mfor.hu, hang.hu, zsaruhírek.hu, budapestkornyeke.hu) egyezően számolt be 2026-10-10-én a BRFK nyomozásáról. Témában különbözik a reported-petofi-film-rakay-2026-09 tételtől (a 'Most vagy soha!' Petőfi-film NAV-vizsgálata) — ugyanazon személyhez (Rákay Philip) kapcsolódó, de más jellegű (NAV adóügyi vs. rendőrségi hivatali visszaélés) és más tárgyú (filmtámogatás vs. földügylet) két külön eset, ezért külön tételként rögzítve, nem összevonva. Nem szerepel a kormany.hu hivatalos listáján, mert ez rendőrségi, magánszemély feljelentésén alapuló eljárás. Az 1,4 milliárd forint a cég állítólagos nettó haszna egy ingatlanértékesítésen, nem közvetlen állami kárösszeg vagy közpénz-elvonás; a végleges jogi megítélés a nyomozás lezárásáig nyitott.",
    "id": "reported-rakay-racalmas-foldugylet-2026-10",
-   "updated_at": "2026-10-10T10:06:19+00:00",
-   "first_seen_at": "2026-10-10T10:06:19+00:00"
+   "first_seen_at": "2026-10-10T10:06:19+00:00",
+   "updated_at": "2026-10-10T10:06:19+00:00"
   },
   {
    "alleged_amount_huf": 12600000000,
@@ -2624,7 +2624,7 @@
    "url": "https://magyarnemzet.hu/gazdasag/2026/09/allamadossag-novekedes"
   },
   "allamadossag_huf": 65716000000000,
-  "collected_at": "2026-10-10T12:02:00+02:00",
+  "collected_at": "2026-10-10T16:56:00+02:00",
   "elozo": {
    "allamadossag": {
     "period": null,
@@ -2664,7 +2664,7 @@
    {
     "key": "munkanelkulisegi_rata",
     "label_en": "Unemployment rate",
-    "label_hu": "Munkanélküliégi ráta",
+    "label_hu": "Munkanélküliségi ráta",
     "note_en": "229 thousand unemployed in August. The June-August three-month average was 4.8%.",
     "note_hu": "229 ezer munkanélküli augusztusban. A június–augusztusi háromhavi átlag 4,8% volt.",
     "period": "2026-08",
@@ -2715,7 +2715,7 @@
    {
     "key": "jegybanki_alapkamat",
     "label_en": "Central bank base rate",
-    "label_hu": "Jegybanki alapkamát",
+    "label_hu": "Jegybanki alapkamat",
     "note_en": "The Monetary Council left the base rate unchanged after a total 75 basis point cut over the summer.",
     "note_hu": "A Monetáris Tanács nem változtatott az alapkamáton, a nyári, összesen 75 bázispontos csökkentést követően.",
     "period": "2026-09-22",
@@ -2733,11 +2733,11 @@
     "key": "eur_huf",
     "label_en": "Official EUR/HUF rate (MNB)",
     "label_hu": "Euró hivatalos árfolyama (MNB)",
-    "note_en": "USD: 325.21 HUF (2026-10-09 fixing).",
-    "note_hu": "Dollár: 325,21 Ft (2026-10-09-i fixing).",
+    "note_en": "USD: 325.21 HUF (2026-10-09 fixing). No new fixing is published on Saturday (2026-10-10).",
+    "note_hu": "Dollár: 325,21 Ft (2026-10-09-i fixing). A hétvégén (szombat, 2026-10-10) nem jelenik meg új fixing.",
     "period": "2026-10-09",
-    "prev_period": "2026-10-08",
-    "prev_value": 366.45,
+    "prev_period": "2026-10-09",
+    "prev_value": 364.82,
     "source": {
      "name": "MNB hivatalos árfolyamok",
      "publish_date": "2026-10-09",
@@ -2846,53 +2846,57 @@
    "publish_date": "2026-09-22",
    "url": "https://www.portfolio.hu/gazdasag/20260922/itt-az-mnb-uj-elorejelzese-hiaba-a-nemzetkozi-kockazatok-mersekelt-marad-az-idei-inflacio-864484"
   },
-  "id": "2026-10-10T12-02"
+  "id": "2026-10-10T16-56"
  },
  "last_run": {
   "errors": [
-   "Az ügyészség (ugyeszseg.hu) hírfolyama HTTP 503 hibával, két kísérletre sem volt elérhető ebben a futásban; a Legfőbb Ügyészség/Központi Nyomozó Főügyészség közleményeinek közvetlen ellenőrzése emiatt elmaradt.",
-   "A K-Monitor (k-monitor.hu) site: operátoros keresése ebben a futásban nem adott vissza k-monitor.hu találatot (a keresőmotor nem indexeli megbízhatóan a site: szűrést ezen a domainen); helyette általános kulcsszavas kereséssel történt az ellenőrzés, új, korábban nem azonosított ügyet nem hozott.",
-   "Az ÁKK hivatalos statisztikai oldala (akk.hu) ezúttal sem volt közvetlenül lekérhető; az államadósság értéke változatlanul a 2026-07-31-i (Magyar Nemzet/ÁKK-adatra hivatkozó) állapotot tükrözi, új hivatalos abszolút Ft-összeg nem került elő.",
-   "A kormany.hu/atlathato/feljelentes oldal tartalma (47 ügy, 2255 Mrd Ft, 2026-10-02-i állapot) ebben a futásban is változatlan volt az előző ellenőrzéshez képest — nem volt szükség frissítésre a reported-osszesito-2026-09 és a reported-egyeb-miniszteriumi-18ugy-2026 tételeken.",
-   "KSH/MNB új havi vagy negyedéves publikáció ebben a futásban nem volt azonosítható; a 2026-10-09 16:55-ös macro_snapshot értékei változatlanul érvényesek, ezért ez a futás egy újrabélyegzett pillanatképet rögzített, a mezők tartalma nem változott.",
-   "Az mnvvh.hu/hirek, a hirkereso.hu és több tematikus keresés (M86-M87 tender, MKIF/M6-M8 üzemeltetés, sportszövetségi összeférhetetlenség, Matolcsy-alapítványok, Rogán letelepedési kötvény) áttekintve: az új elemek mindegyike már rögzített ügyek (Hankó, Seszták, M6 Dunaújváros, MKIF-koncesszió, letelepedési kötvény, állami beruházás vesztegetés, Szuverenitásvédelmi Hivatal) részét képezi, vagy nem minősül önálló, forintosítható megtakarítási/visszaszerzési/feljelentési eseménynek (pl. politikai/eljárási hírek, jogszabály-tervezetek)."
+   "ugyeszseg.hu/category/hirek/kozponti-nyomozo-fougyeszseg két kísérletre is 503 Service Unavailable hibával nem volt elérhető ebben a fullásban.",
+   "hirkereso.hu/politika 404-es hibával nem volt elérhető.",
+   "Ez a fullás mindössze kb. 5 órával a legutóbbi (2026-10-10 12:02-es) részletes fullás után indult; a 3 napos figyelési ablakban legalább 12 tematikus keresés, valamint a kiegészitő források átnézése után sem volt azonosítható olyan új tény, esemény vagy összeg, amely a legutóbbi fullás óta jelent meg és nem szerepel még az adattárban — minden találat (pl. aranykonvoj-ügy, Hankó NKA további részletei, Gordiusz/Tiborcz, Rákay-Rácalmás) már a meglévő tételekben szerepel, vagy (aranykonvoj-ügy: jogellenes fogság/kikényszerítés gyanúja, nem egyértelműen közpénzügy jellegű) nem felel meg a felhasználói szűrési szabálynak.",
+   "akk.hu (ÁKK) államadósság-statisztika ebben a fullásban sem volt közvetlenül lekérhető; az érték változatlanul a 2026-07-31-i (Magyar Nemzet/ÁKK-hivatkozás) állapotot tükrözi."
   ],
   "eu_lost_items_new": 0,
-  "finished_at": "2026-10-10T12:10:00+02:00",
+  "finished_at": "2026-10-10T17:40:00+02:00",
   "items_duplicate": 0,
-  "items_found_total": 1,
+  "items_found_total": 0,
   "items_needs_review": 0,
   "items_new": 0,
-  "reported_cases_new": 1,
+  "reported_cases_new": 0,
   "reported_cases_updated": 0,
   "sources_checked": [
-   "kormany.hu/atlathato/feljelentes",
-   "mnvvh.hu/hirek",
-   "hirkereso.hu",
-   "K-Monitor (keresőmotoros ellenőrzés)",
-   "24.hu",
+   "kormany.hu/atlathato/feljelentes (közvetlen WebFetch, 47 ügy / 2255 Mrd Ft, 2026-10-02-i állapot — változatlan a legutóbbi, ugyanezen napi 12:02-es fulláshoz képest)",
+   "mnvvh.hu/hirek (nincs új, konkrét ügy/összeg az ebben a fullásban vizsgált időszakra)",
+   "k-monitor.hu (WebSearch, célzott keresések, nincs új releváns találat)",
+   "ugyeszseg.hu/category/hirek/kozponti-nyomozo-fougyeszseg (503 Service Unavailable, nem elérhető)",
+   "hirkereso.hu/politika (404, nem elérhető)",
+   "mnb.hu/arfolyamok (EUR/HUF 364,82 Ft, 2026-10-09 — változatlan)",
+   "telex.hu",
    "444.hu",
-   "Telex",
-   "Portfolio.hu",
-   "Index.hu",
-   "HVG",
-   "Economx",
-   "Világgazdaság",
-   "Pénzcentrum",
-   "Privátbankár.hu",
-   "Infostart.hu",
+   "index.hu",
+   "portfolio.hu",
+   "hvg.hu",
+   "economx.hu",
+   "vg.hu",
+   "infostart.hu",
+   "nepszava.hu",
+   "origo.hu",
    "mfor.hu",
-   "Origo",
-   "Népszava",
-   "Szabad Európa",
-   "adozona.hu",
-   "zsaruhírek.hu",
-   "ugyeszseg.hu (sikertelen, l. errors)"
+   "privatbankar.hu",
+   "penzcentrum.hu",
+   "okoshir.hu"
   ],
-  "started_at": "2026-10-10T11:56:00+02:00",
-  "id": "2026-10-10T12-02"
+  "started_at": "2026-10-10T16:56:00+02:00",
+  "id": "2026-10-10T16-56"
  },
  "run_history": [
+  {
+   "finished_at": "2026-10-10T17:40:00+02:00",
+   "started_at": "2026-10-10T16:56:00+02:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
   {
    "finished_at": "2026-10-10T12:10:00+02:00",
    "started_at": "2026-10-10T11:56:00+02:00",
@@ -3357,11 +3361,11 @@
   }
  ],
  "run_summary": {
-  "run_id": "2026-10-10T10:06:19+00:00",
-  "new": 1,
+  "run_id": "2026-10-10T15:02:55+00:00",
+  "new": 0,
   "modified": 0,
   "confirmed_only": 0,
-  "touched": 1,
+  "touched": 0,
   "pending_review": 2,
   "by_section": {
    "items": {
@@ -3370,14 +3374,12 @@
     "confirmed_only": 0
    },
    "reported_cases": {
-    "new": 1,
+    "new": 0,
     "modified": 0,
     "confirmed_only": 0
    }
   },
-  "new_ids": [
-   "r:reported-rakay-racalmas-foldugylet-2026-10"
-  ],
+  "new_ids": [],
   "modified_ids": [],
   "confirmed_ids": []
  },
@@ -4343,6 +4345,21 @@
     },
     "reported_cases": {
      "new": 1,
+     "modified": 0,
+     "confirmed_only": 0
+    }
+   }
+  },
+  {
+   "run_id": "2026-10-10T15:02:55+00:00",
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 0,
      "modified": 0,
      "confirmed_only": 0
     }
