@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-10T15:02:55+00:00",
+ "generated_at": "2026-10-11T04:04:29+00:00",
  "summary": {
   "megtakaritas_verified_huf": 1735245700000,
   "visszaszerzes_verified_huf": 1547098000000,
@@ -2624,7 +2624,7 @@
    "url": "https://magyarnemzet.hu/gazdasag/2026/09/allamadossag-novekedes"
   },
   "allamadossag_huf": 65716000000000,
-  "collected_at": "2026-10-10T16:56:00+02:00",
+  "collected_at": "2026-10-11T06:02:00+02:00",
   "elozo": {
    "allamadossag": {
     "period": null,
@@ -2733,8 +2733,8 @@
     "key": "eur_huf",
     "label_en": "Official EUR/HUF rate (MNB)",
     "label_hu": "Euró hivatalos árfolyama (MNB)",
-    "note_en": "USD: 325.21 HUF (2026-10-09 fixing). No new fixing is published on Saturday (2026-10-10).",
-    "note_hu": "Dollár: 325,21 Ft (2026-10-09-i fixing). A hétvégén (szombat, 2026-10-10) nem jelenik meg új fixing.",
+    "note_en": "USD: 325.21 HUF (2026-10-09 fixing). No new fixing is published on weekends (2026-10-10/11).",
+    "note_hu": "Dollár: 325,21 Ft (2026-10-09-i fixing). Hétvégén (2026-10-10/11) nem jelenik meg új fixing.",
     "period": "2026-10-09",
     "prev_period": "2026-10-09",
     "prev_value": 364.82,
@@ -2846,17 +2846,17 @@
    "publish_date": "2026-09-22",
    "url": "https://www.portfolio.hu/gazdasag/20260922/itt-az-mnb-uj-elorejelzese-hiaba-a-nemzetkozi-kockazatok-mersekelt-marad-az-idei-inflacio-864484"
   },
-  "id": "2026-10-10T16-56"
+  "id": "2026-10-11T06-02"
  },
  "last_run": {
   "errors": [
-   "ugyeszseg.hu/category/hirek/kozponti-nyomozo-fougyeszseg két kísérletre is 503 Service Unavailable hibával nem volt elérhető ebben a fullásban.",
-   "hirkereso.hu/politika 404-es hibával nem volt elérhető.",
-   "Ez a fullás mindössze kb. 5 órával a legutóbbi (2026-10-10 12:02-es) részletes fullás után indult; a 3 napos figyelési ablakban legalább 12 tematikus keresés, valamint a kiegészitő források átnézése után sem volt azonosítható olyan új tény, esemény vagy összeg, amely a legutóbbi fullás óta jelent meg és nem szerepel még az adattárban — minden találat (pl. aranykonvoj-ügy, Hankó NKA további részletei, Gordiusz/Tiborcz, Rákay-Rácalmás) már a meglévő tételekben szerepel, vagy (aranykonvoj-ügy: jogellenes fogság/kikényszerítés gyanúja, nem egyértelműen közpénzügy jellegű) nem felel meg a felhasználói szűrési szabálynak.",
-   "akk.hu (ÁKK) államadósság-statisztika ebben a fullásban sem volt közvetlenül lekérhető; az érték változatlanul a 2026-07-31-i (Magyar Nemzet/ÁKK-hivatkozás) állapotot tükrözi."
+   "ugyeszseg.hu nem volt elérhető (503, két kísérlet)",
+   "ksh.hu nem volt elérhető (503) - a szeptemberi inflációs gyorstájékoztatót nem sikerült közvetlenül ellenőrizni, a legutóbbi (augusztusi) adat maradt érvényben",
+   "adozona.hu közvetlen lekérése sikertelen (403), a tartalmat keresési eredményből pótoltuk",
+   "hirkereso.hu/politika útvonal nem létezik (404), a főoldal (hirkereso.hu) tartalmát néztük át helyette"
   ],
   "eu_lost_items_new": 0,
-  "finished_at": "2026-10-10T17:40:00+02:00",
+  "finished_at": "2026-10-11T06:15:00+02:00",
   "items_duplicate": 0,
   "items_found_total": 0,
   "items_needs_review": 0,
@@ -2864,31 +2864,41 @@
   "reported_cases_new": 0,
   "reported_cases_updated": 0,
   "sources_checked": [
-   "kormany.hu/atlathato/feljelentes (közvetlen WebFetch, 47 ügy / 2255 Mrd Ft, 2026-10-02-i állapot — változatlan a legutóbbi, ugyanezen napi 12:02-es fulláshoz képest)",
-   "mnvvh.hu/hirek (nincs új, konkrét ügy/összeg az ebben a fullásban vizsgált időszakra)",
-   "k-monitor.hu (WebSearch, célzott keresések, nincs új releváns találat)",
-   "ugyeszseg.hu/category/hirek/kozponti-nyomozo-fougyeszseg (503 Service Unavailable, nem elérhető)",
-   "hirkereso.hu/politika (404, nem elérhető)",
-   "mnb.hu/arfolyamok (EUR/HUF 364,82 Ft, 2026-10-09 — változatlan)",
-   "telex.hu",
+   "kormany.hu/atlathato/feljelentes (hivatalos, 1b lépés - változatlan: 47 ügy, 2255 Mrd Ft, 2026-10-02-i állapot)",
+   "mnvvh.hu/hirek",
+   "K-Monitor (k-monitor.hu, keresésen keresztül)",
+   "hirkereso.hu",
+   "ugyeszseg.hu/category/hirek/kozponti-nyomozo-fougyeszseg (sikertelen, l. errors)",
+   "Telex",
    "444.hu",
-   "index.hu",
-   "portfolio.hu",
-   "hvg.hu",
-   "economx.hu",
-   "vg.hu",
-   "infostart.hu",
-   "nepszava.hu",
-   "origo.hu",
+   "HVG",
+   "Index",
+   "Portfolio.hu",
+   "Economx",
+   "Világgazdaság",
+   "Infostart.hu",
+   "Magyar Nemzet",
+   "Mandiner",
+   "Okoshír.hu",
+   "Privátbankár.hu",
    "mfor.hu",
-   "privatbankar.hu",
-   "penzcentrum.hu",
-   "okoshir.hu"
+   "Népszava",
+   "ATV",
+   "MNB (árfolyamok, Monetáris Tanács)",
+   "KSH-ra hivatkozó sajtóforrások"
   ],
-  "started_at": "2026-10-10T16:56:00+02:00",
-  "id": "2026-10-10T16-56"
+  "started_at": "2026-10-11T05:45:00+02:00",
+  "id": "2026-10-11T06-02"
  },
  "run_history": [
+  {
+   "finished_at": "2026-10-11T06:15:00+02:00",
+   "started_at": "2026-10-11T05:45:00+02:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
   {
    "finished_at": "2026-10-10T17:40:00+02:00",
    "started_at": "2026-10-10T16:56:00+02:00",
@@ -3361,7 +3371,7 @@
   }
  ],
  "run_summary": {
-  "run_id": "2026-10-10T15:02:55+00:00",
+  "run_id": "2026-10-11T04:04:29+00:00",
   "new": 0,
   "modified": 0,
   "confirmed_only": 0,
@@ -4352,6 +4362,21 @@
   },
   {
    "run_id": "2026-10-10T15:02:55+00:00",
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    }
+   }
+  },
+  {
+   "run_id": "2026-10-11T04:04:29+00:00",
    "by_section": {
     "items": {
      "new": 0,
