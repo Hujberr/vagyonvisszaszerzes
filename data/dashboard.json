@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-11T10:00:49+00:00",
+ "generated_at": "2026-10-11T15:05:04+00:00",
  "summary": {
   "megtakaritas_verified_huf": 1735245700000,
   "visszaszerzes_verified_huf": 1547098000000,
@@ -1904,10 +1904,10 @@
    },
    "status": "under_investigation",
    "subject": "Autópálya-koncesszió (MKIF, kb. az ország autópálya-hálózatának kétharmada) szerződésmódosítása",
-   "verification_notes": "FRISSÍTVE 2026-09-26: a Világgazdaság (2026-09-25) új dokumentumokra hivatkozva arról ír, hogy az M1-es autópálya Bicske–M0 közötti szakaszát is versenyeztetés nélkül, 'forgalomszervezési' indokkal adták át az MKIF-nek (Mészáros Lőrinc/Szíjj László érdekeltsége) — ez az MKIF-koncessziós ügy egy további, korábban nem rögzített részlete, önálló forintösszeg nélkül. FRISSÍTVE 2026-09-26 (második ellenőrzés): az Economx (2026-09-25) szerint a 2026-09-18-i felszámolási bejelentés óta már kb. 13 milliárd forint 'ketyeg'; korábbi elemzés szerint a koncesszorok már a beruházás elején 47,5 milliárd forintnyi osztalékot vettek ki a társaságból. Az előző megjegyzés (a nyomozás elrendeléséről, hűtlen kezelés/hivatali visszaélés gyanújával, 2026-09-21) változatlanul érvényes. FRISSÍTVE 2026-09-30: a G7/Telex részletes oknyomozása (2026-09-30) önálló, dokumentumokra alapozott számítást közölt: a teljes szerződéses érték 2022 és 2026 között 17,3 ezer milliárd Ft-ról 25,9 ezer milliárd Ft-ra nőtt, ebből az infláció/árfolyamhatás kiszűrése után kb. 4,4 ezer milliárd Ft indokolatlan többletköltségnek számít; az üzemeltetési díj (176 millió Ft/km/év) mintegy háromszorosa a Magyar Közút és az M6 Duna üzemeltetőjének díjának, ez évi kb. 160-170 milliárd forint többletköltséget jelent. Ez sajtó (nem hivatalos kormányzati) becslés, ezért az alleged_amount_huf mező (5000 Mrd Ft, a korábbi legalacsonyabb becslés) egyelőre változatlan, az alleged_amount_text-ben rögzítve a széles becslési tartomány (4,4-8 ezer milliárd Ft).",
+   "verification_notes": "FRISSÍTVE 2026-10-11: a 444.hu 2026-10-07-i cikke szerint Magyar Péter miniszterelnök bejelentette, hogy a Mészáros Lőrinc–Szíjj László-konzorcium elfogadta a kormány döntését, és a felek megkezdik a 35 éves koncessziós szerződés felbontására irányuló tárgyalásokat; az MKIF Zrt. is megerősítette, hogy folynak a tárgyalások a Közlekedési és Beruházási Minisztériummal. A cikk a teljes koncesszió szerződéses értékét 23 ezer milliárd forintra teszi (a G7/Telex 2026-09-30-i, 25,9 ezer milliárd forintos becsléséhez közeli nagyságrend), ez a TELJES szerződéses érték, nem az indokolatlan többletköltség (amelyet korábbi becslések 4,4-8 ezer milliárd forintra tettek) — az alleged_amount_huf mező ezért változatlanul az 5000 Mrd Ft-os korábbi becslésen marad. Tényleges felbontás, visszaszerzés vagy végleges jogi lépés még nem történt, a felek csak a tárgyalások megkezdésében egyeztek meg; a confirmed_recovered_huf (0) és a status (under_investigation) nem változik. (Korábbi megjegyzés megőrizve:) FRISSÍTVE 2026-09-26: a Világgazdaság (2026-09-25) új dokumentumokra hivatkozva arról ír, hogy az M1-es autópálya Bicske–M0 közötti szakaszát is versenyeztetés nélkül, 'forgalomszervezési' indokkal adták át az MKIF-nek (Mészáros Lőrinc/Szíjj László érdekeltsége) — ez az MKIF-koncessziós ügy egy további, korábban nem rögzített részlete, önálló forintösszeg nélkül. FRISSÍTVE 2026-09-26 (második ellenőrzés): az Economx (2026-09-25) szerint a 2026-09-18-i felszámolási bejelentés óta már kb. 13 milliárd forint 'ketyeg'; korábbi elemzés szerint a koncesszorok már a beruházás elején 47,5 milliárd forintnyi osztalékot vettek ki a társaságból. Az előző megjegyzés (a nyomozás elrendeléséről, hűtlen kezelés/hivatali visszaélés gyanújával, 2026-09-21) változatlanul érvényes. FRISSÍTVE 2026-09-30: a G7/Telex részletes oknyomozása (2026-09-30) önálló, dokumentumokra alapozott számítást közölt: a teljes szerződéses érték 2022 és 2026 között 17,3 ezer milliárd Ft-ról 25,9 ezer milliárd Ft-ra nőtt, ebből az infláció/árfolyamhatás kiszűrése után kb. 4,4 ezer milliárd Ft indokolatlan többletköltségnek számít; az üzemeltetési díj (176 millió Ft/km/év) mintegy háromszorosa a Magyar Közút és az M6 Duna üzemeltetőjének díjának, ez évi kb. 160-170 milliárd forint többletköltséget jelent. Ez sajtó (nem hivatalos kormányzati) becslés, ezért az alleged_amount_huf mező (5000 Mrd Ft, a korábbi legalacsonyabb becslés) egyelőre változatlan, az alleged_amount_text-ben rögzítve a széles becslési tartomány (4,4-8 ezer milliárd Ft).",
    "id": "reported-mkif-autopalya-koncesszio-2026-09",
    "first_seen_at": "2026-09-28T15:02:40+00:00",
-   "updated_at": "2026-09-30T09:59:56+00:00"
+   "updated_at": "2026-10-11T15:05:04+00:00"
   },
   {
    "alleged_amount_huf": null,
@@ -2624,19 +2624,19 @@
    "url": "https://magyarnemzet.hu/gazdasag/2026/09/allamadossag-novekedes"
   },
   "allamadossag_huf": 65716000000000,
-  "collected_at": "2026-10-11T11:59:00+02:00",
+  "collected_at": "2026-10-11T17:00:00+02:00",
   "elozo": {
    "allamadossag": {
     "period": null,
     "value_huf": null
    },
    "inflacio_eves": {
-    "period": "2026-07",
-    "value": 1.2
+    "period": "2026-08",
+    "value": 1.3
    },
    "inflacio_havi": {
-    "period": "2026-07",
-    "value": -0.1
+    "period": "2026-08",
+    "value": 0.2
    },
    "inflacio_varhato": {
     "period": "2026-06 (MNB Inflációs jelentés)",
@@ -2733,8 +2733,8 @@
     "key": "eur_huf",
     "label_en": "Official EUR/HUF rate (MNB)",
     "label_hu": "Euró hivatalos árfolyama (MNB)",
-    "note_en": "USD: 325.21 HUF (2026-10-09 fixing). No new fixing is published on weekends (2026-10-10/11).",
-    "note_hu": "Dollár: 325,21 Ft (2026-10-09-i fixing). Hétvégén (2026-10-10/11) nem jelenik meg új fixing.",
+    "note_en": "USD: 325.21 HUF (2026-10-09 fixing). No new fixing is published on weekends.",
+    "note_hu": "Dollár: 325,21 Ft (2026-10-09-i fixing). Hétvégén nem jelenik meg új fixing.",
     "period": "2026-10-09",
     "prev_period": "2026-10-09",
     "prev_value": 364.82,
@@ -2830,14 +2830,14 @@
     "value": 75.1
    }
   ],
-  "inflacio_eves_periodus": "2026-08",
-  "inflacio_eves_szazalek": 1.3,
+  "inflacio_eves_periodus": "2026-09",
+  "inflacio_eves_szazalek": 1.6,
   "inflacio_forras": {
-   "name": "ORIGO (KSH-adatra hivatkozva)",
-   "publish_date": "2026-09-08",
-   "url": "https://www.origo.hu/gazdasag/2026/09/inflacio-augusztus-arak-bevasarlas-uzemanyag"
+   "name": "Portfolio.hu (KSH gyorstájékoztató)",
+   "publish_date": "2026-10-07",
+   "url": "https://www.portfolio.hu/gazdasag/20261007/megerkezett-a-magyar-inflacios-adat-itt-az-ujabb-meglepetes-867870"
   },
-  "inflacio_havi_periodus": "2026-08",
+  "inflacio_havi_periodus": "2026-09",
   "inflacio_havi_szazalek": 0.2,
   "inflacio_varhato_eves_szazalek": 1.8,
   "inflacio_varhato_forras": {
@@ -2846,31 +2846,36 @@
    "publish_date": "2026-09-22",
    "url": "https://www.portfolio.hu/gazdasag/20260922/itt-az-mnb-uj-elorejelzese-hiaba-a-nemzetkozi-kockazatok-mersekelt-marad-az-idei-inflacio-864484"
   },
-  "id": "2026-10-11T11-59"
+  "id": "2026-10-11T17-00"
  },
  "last_run": {
   "errors": [
-   "hirkereso.hu/politika 404-es hibával nem volt elérhető ebben a futásban",
-   "Az NVVH munkatársainak kiadó csalók 2 milliárd forintos kísérlete (Telex, 2026-10-09) magánszemély sérelmére elkövetett csalási kísérlet, nem állami vagyonvisszaszerzési esemény, ezért nem került be az items/reported_cases kollekciókba",
-   "A kormany.hu/atlathato/feljelentes oldal tartalma (47 ügy, 2255 Mrd Ft, 12 vizsgálat, 25,0 Mrd Ft visszafizetve/megtakarítva) ebben a futásban is változatlan volt a 2026-10-02-i állapothoz képest — nem volt szükség frissítésre.",
-   "Az EU Tanácsának várható október 13-i szavazása a 4,2 milliárd eurós kohéziós forrás feloldásáról ebben a futásban még nem történt meg / eredménye nem publikus — a kapcsolódó eu_forras tétel változatlan.",
    "Az ÁKK hivatalos statisztikai oldala (akk.hu) ebben a futásban sem volt közvetlenül lekérhető; az államadósság értéke változatlanul a 2026-07-31-i állapotot tükrözi.",
-   "MNB EUR/HUF hivatalos fixing: hétvégén (vasárnap) nem jelenik meg új fixing, a 2026-10-09-i érték maradt érvényben.",
-   "Kiterjedt keresés (kb. 16 keresés + kormany.hu, ugyeszseg.hu, mnvvh.hu közvetlen lekérése) ebben a futásban nem talált a meglévő adattártól eltérő, új, ellenőrizhető tényt sem az items, sem a reported_cases kollekciókhoz."
+   "Az ugyeszseg.hu/category/hirek/kozponti-nyomozo-fougyeszseg oldal HTTP 503 hibával nem volt elérhető.",
+   "A hirkereso.hu/politika útvonal 404-es hibát adott; a főoldal tartalmát néztük át helyette.",
+   "A KSH gyorstájékoztató oldala (ksh.hu) közvetlenül nem tartalmazta a számadatokat (navigációs menü); a szeptemberi inflációs adat (1,6% éves, 0,2% havi) a Portfolio.hu KSH-ra hivatkozó cikkéből került rögzítésre a macro_snapshots dokumentumba.",
+   "A Hadházy Ákos-féle, augusztus 20-i rendezvényszervezési tűzijáték-közbeszerzés ügye (444.hu, 2026-10-07, rendőrségi nyomozás) a JELENLEGI (Tisza-)kormány alatti, nem Fidesz/Orbán-korszakbeli ügyre vonatkozik, ezért a felhasználói szűrési szabály szerint nem került be a reported_cases kollekcióba.",
+   "Az MKIF/M6-koncessziós ügyben (reported-mkif-autopalya-koncesszio-2026-09) a 444.hu 2026-10-07-i cikke alapján érdemi státuszfrissítés történt (a konzorcium elfogadta a felbontási döntést, tárgyalások kezdődnek) — a tétel verification_notes mezője frissítve, az alleged_amount_huf és a status nem változott.",
+   "A Gordiusz Magántőkealap (Tiborcz, items/visszaszerzes-gordiusz-tiborcz-2026-10) tételhez továbbra sem található második, független sajtóforrás — needs_review státuszban marad.",
+   "Kiterjedt keresés (20+ tematikus keresés, kormany.hu, mnvvh.hu, k-monitor.hu, hirkereso.hu) ebben a futásban nem talált a meglévő adattártól eltérő, új, önálló items/reported_cases tételt."
   ],
   "eu_lost_items_new": 0,
-  "finished_at": "2026-10-11T12:10:00+02:00",
+  "finished_at": "2026-10-11T17:05:00+02:00",
   "items_duplicate": 0,
   "items_found_total": 0,
   "items_needs_review": 0,
   "items_new": 0,
   "reported_cases_new": 0,
-  "reported_cases_updated": 0,
+  "reported_cases_updated": 1,
   "sources_checked": [
-   "kormany.hu/atlathato/feljelentes",
-   "ugyeszseg.hu (Központi Nyomozó Főügyészség)",
-   "mnvvh.hu/hirek",
-   "K-Monitor (kereséssel)",
+   "kormany.hu/atlathato/feljelentes (WebFetch sikeres: 47 ügy, 2255 Mrd Ft, 2026-10-02-i állapot — változatlan)",
+   "mnvvh.hu/hirek (nincs új, forintosítható visszaszerzési/zárolási tétel)",
+   "K-Monitor (k-monitor.hu, kereséssel)",
+   "hirkereso.hu (főoldal, 404 a /politika útvonalon)",
+   "ugyeszseg.hu/category/hirek/kozponti-nyomozo-fougyeszseg (503, nem elérhető)",
+   "MNB (mnb.hu/arfolyamok, EUR/HUF 364,82 Ft, 2026-10-09 — változatlan)",
+   "KSH szeptemberi inflációs gyorstájékoztató (Portfolio.hu közvetítésével)",
+   "ÁKK (akk.hu, nem elérhető)",
    "24.hu",
    "444.hu",
    "Telex",
@@ -2884,12 +2889,23 @@
    "Népszava",
    "Origo",
    "Pénzcentrum",
-   "adozona.hu (kiegészítő)"
+   "Magyar Nemzet",
+   "Mandiner",
+   "Demokrata",
+   "adozona.hu"
   ],
-  "started_at": "2026-10-11T11:56:00+02:00",
-  "id": "2026-10-11T11-59"
+  "started_at": "2026-10-11T16:56:00+02:00",
+  "id": "2026-10-11T16-56"
  },
  "run_history": [
+  {
+   "finished_at": "2026-10-11T17:05:00+02:00",
+   "started_at": "2026-10-11T16:56:00+02:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 1,
+   "eu_lost_items_new": 0
+  },
   {
    "finished_at": "2026-10-11T12:10:00+02:00",
    "started_at": "2026-10-11T11:56:00+02:00",
@@ -3378,11 +3394,11 @@
   }
  ],
  "run_summary": {
-  "run_id": "2026-10-11T10:00:49+00:00",
+  "run_id": "2026-10-11T15:05:04+00:00",
   "new": 0,
   "modified": 0,
-  "confirmed_only": 0,
-  "touched": 0,
+  "confirmed_only": 1,
+  "touched": 1,
   "pending_review": 2,
   "by_section": {
    "items": {
@@ -3393,12 +3409,14 @@
    "reported_cases": {
     "new": 0,
     "modified": 0,
-    "confirmed_only": 0
+    "confirmed_only": 1
    }
   },
   "new_ids": [],
   "modified_ids": [],
-  "confirmed_ids": []
+  "confirmed_ids": [
+   "r:reported-mkif-autopalya-koncesszio-2026-09"
+  ]
  },
  "run_summary_history": [
   {
@@ -4409,6 +4427,21 @@
      "new": 0,
      "modified": 0,
      "confirmed_only": 0
+    }
+   }
+  },
+  {
+   "run_id": "2026-10-11T15:05:04+00:00",
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 1
     }
    }
   }
