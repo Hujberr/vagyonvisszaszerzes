@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-11T04:04:29+00:00",
+ "generated_at": "2026-10-11T10:00:49+00:00",
  "summary": {
   "megtakaritas_verified_huf": 1735245700000,
   "visszaszerzes_verified_huf": 1547098000000,
@@ -2624,7 +2624,7 @@
    "url": "https://magyarnemzet.hu/gazdasag/2026/09/allamadossag-novekedes"
   },
   "allamadossag_huf": 65716000000000,
-  "collected_at": "2026-10-11T06:02:00+02:00",
+  "collected_at": "2026-10-11T11:59:00+02:00",
   "elozo": {
    "allamadossag": {
     "period": null,
@@ -2846,17 +2846,20 @@
    "publish_date": "2026-09-22",
    "url": "https://www.portfolio.hu/gazdasag/20260922/itt-az-mnb-uj-elorejelzese-hiaba-a-nemzetkozi-kockazatok-mersekelt-marad-az-idei-inflacio-864484"
   },
-  "id": "2026-10-11T06-02"
+  "id": "2026-10-11T11-59"
  },
  "last_run": {
   "errors": [
-   "ugyeszseg.hu nem volt elérhető (503, két kísérlet)",
-   "ksh.hu nem volt elérhető (503) - a szeptemberi inflációs gyorstájékoztatót nem sikerült közvetlenül ellenőrizni, a legutóbbi (augusztusi) adat maradt érvényben",
-   "adozona.hu közvetlen lekérése sikertelen (403), a tartalmat keresési eredményből pótoltuk",
-   "hirkereso.hu/politika útvonal nem létezik (404), a főoldal (hirkereso.hu) tartalmát néztük át helyette"
+   "hirkereso.hu/politika 404-es hibával nem volt elérhető ebben a futásban",
+   "Az NVVH munkatársainak kiadó csalók 2 milliárd forintos kísérlete (Telex, 2026-10-09) magánszemély sérelmére elkövetett csalási kísérlet, nem állami vagyonvisszaszerzési esemény, ezért nem került be az items/reported_cases kollekciókba",
+   "A kormany.hu/atlathato/feljelentes oldal tartalma (47 ügy, 2255 Mrd Ft, 12 vizsgálat, 25,0 Mrd Ft visszafizetve/megtakarítva) ebben a futásban is változatlan volt a 2026-10-02-i állapothoz képest — nem volt szükség frissítésre.",
+   "Az EU Tanácsának várható október 13-i szavazása a 4,2 milliárd eurós kohéziós forrás feloldásáról ebben a futásban még nem történt meg / eredménye nem publikus — a kapcsolódó eu_forras tétel változatlan.",
+   "Az ÁKK hivatalos statisztikai oldala (akk.hu) ebben a futásban sem volt közvetlenül lekérhető; az államadósság értéke változatlanul a 2026-07-31-i állapotot tükrözi.",
+   "MNB EUR/HUF hivatalos fixing: hétvégén (vasárnap) nem jelenik meg új fixing, a 2026-10-09-i érték maradt érvényben.",
+   "Kiterjedt keresés (kb. 16 keresés + kormany.hu, ugyeszseg.hu, mnvvh.hu közvetlen lekérése) ebben a futásban nem talált a meglévő adattártól eltérő, új, ellenőrizhető tényt sem az items, sem a reported_cases kollekciókhoz."
   ],
   "eu_lost_items_new": 0,
-  "finished_at": "2026-10-11T06:15:00+02:00",
+  "finished_at": "2026-10-11T12:10:00+02:00",
   "items_duplicate": 0,
   "items_found_total": 0,
   "items_needs_review": 0,
@@ -2864,33 +2867,37 @@
   "reported_cases_new": 0,
   "reported_cases_updated": 0,
   "sources_checked": [
-   "kormany.hu/atlathato/feljelentes (hivatalos, 1b lépés - változatlan: 47 ügy, 2255 Mrd Ft, 2026-10-02-i állapot)",
+   "kormany.hu/atlathato/feljelentes",
+   "ugyeszseg.hu (Központi Nyomozó Főügyészség)",
    "mnvvh.hu/hirek",
-   "K-Monitor (k-monitor.hu, keresésen keresztül)",
-   "hirkereso.hu",
-   "ugyeszseg.hu/category/hirek/kozponti-nyomozo-fougyeszseg (sikertelen, l. errors)",
-   "Telex",
+   "K-Monitor (kereséssel)",
+   "24.hu",
    "444.hu",
+   "Telex",
    "HVG",
    "Index",
    "Portfolio.hu",
    "Economx",
    "Világgazdaság",
    "Infostart.hu",
-   "Magyar Nemzet",
-   "Mandiner",
-   "Okoshír.hu",
    "Privátbankár.hu",
-   "mfor.hu",
    "Népszava",
-   "ATV",
-   "MNB (árfolyamok, Monetáris Tanács)",
-   "KSH-ra hivatkozó sajtóforrások"
+   "Origo",
+   "Pénzcentrum",
+   "adozona.hu (kiegészítő)"
   ],
-  "started_at": "2026-10-11T05:45:00+02:00",
-  "id": "2026-10-11T06-02"
+  "started_at": "2026-10-11T11:56:00+02:00",
+  "id": "2026-10-11T11-59"
  },
  "run_history": [
+  {
+   "finished_at": "2026-10-11T12:10:00+02:00",
+   "started_at": "2026-10-11T11:56:00+02:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
   {
    "finished_at": "2026-10-11T06:15:00+02:00",
    "started_at": "2026-10-11T05:45:00+02:00",
@@ -3371,7 +3378,7 @@
   }
  ],
  "run_summary": {
-  "run_id": "2026-10-11T04:04:29+00:00",
+  "run_id": "2026-10-11T10:00:49+00:00",
   "new": 0,
   "modified": 0,
   "confirmed_only": 0,
@@ -4377,6 +4384,21 @@
   },
   {
    "run_id": "2026-10-11T04:04:29+00:00",
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    }
+   }
+  },
+  {
+   "run_id": "2026-10-11T10:00:49+00:00",
    "by_section": {
     "items": {
      "new": 0,
