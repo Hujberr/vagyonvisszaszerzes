@@ -1,13 +1,13 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-11T15:05:04+00:00",
+ "generated_at": "2026-10-12T04:05:17+00:00",
  "summary": {
   "megtakaritas_verified_huf": 1735245700000,
   "visszaszerzes_verified_huf": 1547098000000,
   "eu_forras_verified_huf": 6188000000000,
   "eu_forras_lost_huf": 730000000000,
   "items_count": 31,
-  "reported_cases_count": 42
+  "reported_cases_count": 44
  },
  "items": [
   {
@@ -1538,6 +1538,27 @@
    "updated_at": "2026-10-03T10:07:22+00:00"
   },
   {
+   "additional_sources": [],
+   "alleged_amount_huf": null,
+   "alleged_amount_text": "A miniszter szerint az állam 56 milliárd forintot fektetett az alapba, amelynek Eximbank-becslés szerinti fennmaradó értéke mára kb. 22,5 milliárd forintra csökkent; az alapkezelő ezt vitatja, és a 2025.12.31-i auditált nettó eszközértékre (41,2 milliárd forint) hivatkozik. A miniszter emellett egy másik Eximbank-üggyel együtt összesen 166 milliárd forint értékben jelentett be két feljelentést.",
+   "confirmed_recovered_huf": 0,
+   "description": "Kapitány István gazdasági és energetikai miniszter szerint jelentősen csökkent az állam által az Eximbank által alapított, a GB & Partners Kockázati Tőkealap-kezelő Zrt. által kezelt Exportösztönző Magántőkealapba fektetett közpénz értéke. A minisztérium ezzel összefüggésben büntetőfeljelentést tett. Az alapkezelő cég vitatja az állítást, és saját, auditált adataira hivatkozva azt állítja, hogy nem történt vagyonvesztés.",
+   "ministry": "Gazdasági és Energetikai Minisztérium",
+   "recovered_item_id": null,
+   "report_date": "2026-10-11",
+   "report_source": {
+    "name": "Piac és Profit",
+    "published_date": "2026-10-11",
+    "url": "https://piacesprofit.hu/cikkek/gazdasag/a-rogan-antalhoz-kotheto-magantokealap-kezeloje-szerint-a-kormany-allitasaval-szemben-nem-tortent-vagyonvesztes.html"
+   },
+   "status": "needs_review",
+   "subject": "EXIM Exportösztönző Magántőkealap (GB & Partners) — állami tőkebefektetés állítólagos értékvesztése",
+   "verification_notes": "ÚJ TÉTEL (2026-10-12 06:01-es futás). Egyetlen sajtóforrásból (Piac és Profit, 2026-10-11) ismert eddig, amely a GB & Partners (az alapkezelő cég, amelynek többségi tulajdonosa Gubicza Ágoston, Rogán Antal korábbi feleségének jelenlegi férje) tagadó nyilatkozatán keresztül dolgozza fel a miniszteri állítást — maga az eredeti miniszteri bejelentés/feljelentés szövege vagy más sajtóforrás ezidáig nem található. A kormány állítása (22,5 Mrd Ft fennmaradó érték az 56 Mrd Ft-os befektetésből) és az alapkezelő állítása (41,2 Mrd Ft auditált nettó eszközérték 2025.12.31-én) jelentősen eltér, a tétel ezért needs_review. A GB & Partners egy 2015 végén elindult, régóta politikailag vitatott Eximbank-tőkealap-program kezelője (korábbi sajtó, pl. 444.hu 2017, Direkt36/Telex 2025, Rogán Antal-közeli kapcsolatokról ír); ez a konkrét, 2026-os miniszteri bejelentés azonban különbözik a korábbi, 2015-2019-es háttér-cikkektől. Második, független forrásra és/vagy hivatalos (kormany.hu) megerősítésre vár a következő futásban. Nem szerepel a kormany.hu/atlathato/feljelentes hivatalos listáján (2026-10-12-i ellenőrzés szerint).",
+   "id": "reported-exim-exportosztonzo-alap-gbpartners-2026-10",
+   "updated_at": "2026-10-12T04:05:17+00:00",
+   "first_seen_at": "2026-10-12T04:05:17+00:00"
+  },
+  {
    "alleged_amount_huf": 63000000000,
    "alleged_amount_text": "kb. 63 milliárd forint (hivatalos, kormany.hu szerint, 2026-09-22; korábbi sajtóhír kb. 101 Mrd Ft-ot közölt)",
    "confirmed_recovered_huf": 126000000000,
@@ -2565,6 +2586,33 @@
    "updated_at": "2026-10-08T15:03:37+00:00"
   },
   {
+   "additional_sources": [
+    {
+     "name": "Piac és Profit",
+     "published_date": "2026-10-11",
+     "url": "https://piacesprofit.hu/cikkek/gazdasag/levelet-kapott-meszaros-lorinc-vakarhatja-a-fejet.html"
+    }
+   ],
+   "alleged_amount_huf": null,
+   "alleged_amount_text": "A közlekedési miniszter becslése szerint legalább 50–100 milliárd forint kár érte az államot; emellett az Európai Bizottság figyelmeztetése szerint a projekt mintegy 320,4 milliárd forintnyi uniós támogatást veszíthet el a jelenlegi közbeszerzés miatt",
+   "confirmed_recovered_huf": 0,
+   "description": "A Közlekedési és Beruházási Minisztérium 2026. október 9-én bejelentette, hogy felmondja a Déli körvasút kivitelezésére kötött szerződést a V-Híd Zrt.-vel, és kizárja a céget valamennyi jelenleg futó vasútépítési beruházásból. A lépés az Európai Számvevőszék megállapítására épül, amely szerint a V-Híd a 2021-es közbeszerzési eljárás során összejátszott az ajánlatkérő oldalán dolgozó mérnöki céggel, amelyet később felvásárolt. A minisztérium büntetőfeljelentést és a projekt újbóli közbeszerzését is bejelentette.",
+   "ministry": "Közlekedési és Beruházási Minisztérium",
+   "recovered_item_id": null,
+   "report_date": "2026-10-09",
+   "report_source": {
+    "name": "444.hu",
+    "published_date": "2026-10-09",
+    "url": "https://444.hu/2026/10/09/magyar-nem-erti-miert-a-kisvarost-adja-a-kozmedia-a-miniszterelnoki-sajtotajekoztato-helyett"
+   },
+   "status": "reported",
+   "subject": "V-Híd — Déli körvasút kivitelezői szerződésének felmondása összejátszás gyanúja miatt",
+   "verification_notes": "ÚJ TÉTEL (2026-10-12 06:01-es futás). Elsődleges forrás a 2026-10-09-i Vitézy Dávid/Magyar Péter sajtótájékoztató (444.hu beszámolója), amely szerint az Európai Számvevőszék már 2026 januárjában jelezte az előző (Orbán-)kormánynak az összejátszás gyanúját, de az akkori kormány nem hozta nyilvánosságra és nem tett feljelentést. Az Európai Bizottság 2026 szeptemberében nem tartotta fenn a támogatási szerződést a jelenlegi közbeszerzés mellett, így a projekt jelenlegi formájában elveszítheti a kb. 320,4 milliárd forintos uniós támogatást — ez NEM azonos az állam kárával, hanem az EU-forrás elvesztésének kockázata (ezt a 4c. lépés szabályai szerint csak akkor kell az eu_forras lost_items közé felvenni, ha a veszteség véglegessé válik és konkrét EU-kerethez köthető; jelenleg még csak kockázat, nem végleges elvesztés, ezért items-be nem került). Vitézy a tényleges, államot érő kár minimális becslését 50-100 milliárd forintra tette. A cég még kezel egy 57 milliárd forintos előleget, amelynek elszámolása nyitott kérdés. A piacesprofit.hu 2026-10-11-i cikke megerősíti a szerződés felmondását (a kivitelezőnek küldött leállítási utasítás formájában), függetlenül dolgozva fel az ügyet, második forrásként. Formális büntetőfeljelentés benyújtását a minisztérium a sajtótájékoztatón bejelentette, de a feljelentés tényleges benyújtásáról még nincs megerősítés — ezt és a végleges kárösszeget egy következő futásban kell ellenőrizni. Nem szerepel még a kormany.hu/atlathato/feljelentes hivatalos listáján (2026-10-12-i ellenőrzés szerint, a lista változatlanul 47 ügy/2255 Mrd Ft, 2026-10-02-i állapot).",
+   "id": "reported-vhid-deli-korvasut-2026-10",
+   "updated_at": "2026-10-12T04:05:17+00:00",
+   "first_seen_at": "2026-10-12T04:05:17+00:00"
+  },
+  {
    "alleged_amount_huf": 10000000000,
    "alleged_amount_text": "hozzávetőleg 10 milliárd forint vagyoni hátrány (608 használt busz túlárazott beszerzése), ezen belül a kecskeméti székházépület túlárazott megvásárlása külön legalább 550 millió forint vagyoni hátránnyal",
    "confirmed_recovered_huf": 0,
@@ -2624,7 +2672,7 @@
    "url": "https://magyarnemzet.hu/gazdasag/2026/09/allamadossag-novekedes"
   },
   "allamadossag_huf": 65716000000000,
-  "collected_at": "2026-10-11T17:00:00+02:00",
+  "collected_at": "2026-10-12T06:01:00+02:00",
   "elozo": {
    "allamadossag": {
     "period": null,
@@ -2733,8 +2781,8 @@
     "key": "eur_huf",
     "label_en": "Official EUR/HUF rate (MNB)",
     "label_hu": "Euró hivatalos árfolyama (MNB)",
-    "note_en": "USD: 325.21 HUF (2026-10-09 fixing). No new fixing is published on weekends.",
-    "note_hu": "Dollár: 325,21 Ft (2026-10-09-i fixing). Hétvégén nem jelenik meg új fixing.",
+    "note_en": "USD: 325.21 HUF (2026-10-09 fixing). No newer fixing was published yet as of the 2026-10-12 check.",
+    "note_hu": "Dollár: 325,21 Ft (2026-10-09-i fixing). Hétvégén és a 2026-10-12-i ellenőrzéskor sem jelent még meg újabb fixing.",
     "period": "2026-10-09",
     "prev_period": "2026-10-09",
     "prev_value": 364.82,
@@ -2846,58 +2894,53 @@
    "publish_date": "2026-09-22",
    "url": "https://www.portfolio.hu/gazdasag/20260922/itt-az-mnb-uj-elorejelzese-hiaba-a-nemzetkozi-kockazatok-mersekelt-marad-az-idei-inflacio-864484"
   },
-  "id": "2026-10-11T17-00"
+  "id": "2026-10-12T06-01"
  },
  "last_run": {
   "errors": [
-   "Az ÁKK hivatalos statisztikai oldala (akk.hu) ebben a futásban sem volt közvetlenül lekérhető; az államadósság értéke változatlanul a 2026-07-31-i állapotot tükrözi.",
-   "Az ugyeszseg.hu/category/hirek/kozponti-nyomozo-fougyeszseg oldal HTTP 503 hibával nem volt elérhető.",
-   "A hirkereso.hu/politika útvonal 404-es hibát adott; a főoldal tartalmát néztük át helyette.",
-   "A KSH gyorstájékoztató oldala (ksh.hu) közvetlenül nem tartalmazta a számadatokat (navigációs menü); a szeptemberi inflációs adat (1,6% éves, 0,2% havi) a Portfolio.hu KSH-ra hivatkozó cikkéből került rögzítésre a macro_snapshots dokumentumba.",
-   "A Hadházy Ákos-féle, augusztus 20-i rendezvényszervezési tűzijáték-közbeszerzés ügye (444.hu, 2026-10-07, rendőrségi nyomozás) a JELENLEGI (Tisza-)kormány alatti, nem Fidesz/Orbán-korszakbeli ügyre vonatkozik, ezért a felhasználói szűrési szabály szerint nem került be a reported_cases kollekcióba.",
-   "Az MKIF/M6-koncessziós ügyben (reported-mkif-autopalya-koncesszio-2026-09) a 444.hu 2026-10-07-i cikke alapján érdemi státuszfrissítés történt (a konzorcium elfogadta a felbontási döntést, tárgyalások kezdődnek) — a tétel verification_notes mezője frissítve, az alleged_amount_huf és a status nem változott.",
-   "A Gordiusz Magántőkealap (Tiborcz, items/visszaszerzes-gordiusz-tiborcz-2026-10) tételhez továbbra sem található második, független sajtóforrás — needs_review státuszban marad.",
-   "Kiterjedt keresés (20+ tematikus keresés, kormany.hu, mnvvh.hu, k-monitor.hu, hirkereso.hu) ebben a futásban nem talált a meglévő adattártól eltérő, új, önálló items/reported_cases tételt."
+   "ugyeszseg.hu/category/hirek/kozponti-nyomozo-fougyeszseg/ nem volt elérhető (HTTP 503, két kísérlet)",
+   "k-monitor.hu közvetlen WebFetch 403 hibát adott, a site: WebSearch lekérdezés nem hozott k-monitor.hu találatot ebben a futásban",
+   "adozona.hu cikk (Déli körvasút) HTTP 403 hibát adott, más forrásból (444.hu, piacesprofit.hu) pótolva",
+   "RRF/kohéziós Tanácsi szavazás pontos október 13-i/aktuális állapotáról nem található 2026 október közepi friss hír ebben a futásban"
   ],
   "eu_lost_items_new": 0,
-  "finished_at": "2026-10-11T17:05:00+02:00",
+  "finished_at": "2026-10-12T06:30:00+02:00",
   "items_duplicate": 0,
   "items_found_total": 0,
   "items_needs_review": 0,
   "items_new": 0,
-  "reported_cases_new": 0,
-  "reported_cases_updated": 1,
+  "reported_cases_new": 2,
+  "reported_cases_updated": 0,
   "sources_checked": [
-   "kormany.hu/atlathato/feljelentes (WebFetch sikeres: 47 ügy, 2255 Mrd Ft, 2026-10-02-i állapot — változatlan)",
-   "mnvvh.hu/hirek (nincs új, forintosítható visszaszerzési/zárolási tétel)",
-   "K-Monitor (k-monitor.hu, kereséssel)",
-   "hirkereso.hu (főoldal, 404 a /politika útvonalon)",
-   "ugyeszseg.hu/category/hirek/kozponti-nyomozo-fougyeszseg (503, nem elérhető)",
-   "MNB (mnb.hu/arfolyamok, EUR/HUF 364,82 Ft, 2026-10-09 — változatlan)",
-   "KSH szeptemberi inflációs gyorstájékoztató (Portfolio.hu közvetítésével)",
-   "ÁKK (akk.hu, nem elérhető)",
-   "24.hu",
+   "kormany.hu/atlathato/feljelentes",
+   "mnvvh.hu/hirek",
+   "hirkereso.hu (gazdaság rovat)",
+   "k-monitor.hu (WebSearch site: lekérdezés, nem adott k-monitor.hu találatot)",
+   "mnb.hu/arfolyamok",
    "444.hu",
+   "Piac és Profit (piacesprofit.hu)",
    "Telex",
-   "HVG",
    "Index",
+   "HVG",
    "Portfolio.hu",
    "Economx",
-   "Világgazdaság",
-   "Infostart.hu",
-   "Privátbankár.hu",
-   "Népszava",
-   "Origo",
-   "Pénzcentrum",
-   "Magyar Nemzet",
-   "Mandiner",
-   "Demokrata",
-   "adozona.hu"
+   "Infostart",
+   "Privátbankár",
+   "adozona.hu (403 hiba)",
+   "Origo"
   ],
-  "started_at": "2026-10-11T16:56:00+02:00",
-  "id": "2026-10-11T16-56"
+  "started_at": "2026-10-12T05:56:00+02:00",
+  "id": "2026-10-12T06-01"
  },
  "run_history": [
+  {
+   "finished_at": "2026-10-12T06:30:00+02:00",
+   "started_at": "2026-10-12T05:56:00+02:00",
+   "items_new": 0,
+   "reported_cases_new": 2,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
   {
    "finished_at": "2026-10-11T17:05:00+02:00",
    "started_at": "2026-10-11T16:56:00+02:00",
@@ -3394,11 +3437,11 @@
   }
  ],
  "run_summary": {
-  "run_id": "2026-10-11T15:05:04+00:00",
-  "new": 0,
+  "run_id": "2026-10-12T04:05:17+00:00",
+  "new": 2,
   "modified": 0,
-  "confirmed_only": 1,
-  "touched": 1,
+  "confirmed_only": 0,
+  "touched": 2,
   "pending_review": 2,
   "by_section": {
    "items": {
@@ -3407,16 +3450,17 @@
     "confirmed_only": 0
    },
    "reported_cases": {
-    "new": 0,
+    "new": 2,
     "modified": 0,
-    "confirmed_only": 1
+    "confirmed_only": 0
    }
   },
-  "new_ids": [],
+  "new_ids": [
+   "r:reported-exim-exportosztonzo-alap-gbpartners-2026-10",
+   "r:reported-vhid-deli-korvasut-2026-10"
+  ],
   "modified_ids": [],
-  "confirmed_ids": [
-   "r:reported-mkif-autopalya-koncesszio-2026-09"
-  ]
+  "confirmed_ids": []
  },
  "run_summary_history": [
   {
@@ -4442,6 +4486,21 @@
      "new": 0,
      "modified": 0,
      "confirmed_only": 1
+    }
+   }
+  },
+  {
+   "run_id": "2026-10-12T04:05:17+00:00",
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 2,
+     "modified": 0,
+     "confirmed_only": 0
     }
    }
   }
