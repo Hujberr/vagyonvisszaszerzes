@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-13T10:05:56+00:00",
+ "generated_at": "2026-10-13T15:00:51+00:00",
  "summary": {
   "megtakaritas_verified_huf": 1735245700000,
   "visszaszerzes_verified_huf": 1547098000000,
@@ -2940,53 +2940,56 @@
  },
  "last_run": {
   "errors": [
-   "FŐ ESEMÉNY: az EU Tanácsa (Általános Ügyek Tanács) 2026-10-13-án formálisan elfogadta a feltételességi eljárást lezáró végrehajtási határozatot, felszabadítva a 4,2 milliárd eurós kohéziós forráskeretet (Erasmus+/Horizont Európa is megnyílik) — ez a korábbi futások által már hetek óta várt, a eu-forras-megallapodas-2026-05 tételhez kötött esemény végleges megtörténése; a received_huf mező továbbra is 0 marad, mert a cikkek csak a jogi/eljárási korlátozás feloldását igazolják, tényleges pénzbeérkezést nem. A javítás során kiderült, hogy egy korábbi (2026-10-02-i) futás verification_notes-ában leírt received_huf-frissítés (338,7 Mrd Ft RePowerEU-előleg) technikai okból nem lett elmentve a mezőbe — ez dokumentálva, a mező változatlanul 0, egy következő futásban eldöntendő, hogy a 338,7 Mrd Ft-ot be kell-e számítani.",
-   "A Telex 2026-10-13-i cikke szerint Kovács Zoltán (volt államtitkár) feleségének cége (Profi-Komfort Kft.) nyerte el a MAVIR 712,9 millió forintos, 3 éves takarítási tenderét úgy, hogy a beérkezett 18 ajánlatból 13-at érvénytelenítettek, és minden régióban csak ez a cég maradt érvényes ajánlattevő (Index, ATV, 10perc.hu is megerősítette) — ez önmagában csak újságírói feltárás, NINCS hozzá bejelentett kormányzati/hatósági feljelentés vagy vizsgálat, ezért a felhasználói szűrési szabály szerint (csak feljelentéssel/vizsgálattal kerül a reported_cases-be) ebben a futásban nem került fel; követendő, hogy indul-e hivatalos eljárás.",
-   "A hirkereso.hu-n talált 'MNB 11 milliárddal drágább ajánlat kiválasztása' (Forbes, Somlai Bálint cégeinek panasza) és a Vas megyei kormányhivatal bírságügyi vizsgálata (Forbes) csak cím-szintű teaser volt, az eredeti cikk nem volt elérhető/azonosítható, ezért önálló tételként nem rögzíthető; mindkettő figyelendő egy következő futásban.",
-   "A GVH állítólagos Déli körvasút/V-Híd eljárás-indítása (hirkereso.hu teaser alapján) ebben a futásban sem volt önálló, elsődleges forrásból megerősíthető; a reported-vhid-deli-korvasut-2026-10 tétel változatlan marad.",
-   "A hirkereso.hu-n talált '245 milliárd forintnyi jacht, kastély és magánrepülő tűnt el egy milliárdos könyveléséből' cím ELLENŐRZÉS UTÁN egy BBC/ICIJ-s Roman Abramovich (orosz oligarcha) ügyről szólt, NEM magyar vonatkozású — téves nyom, nem került be.",
-   "Az ÁKK hivatalos statisztikai oldala (akk.hu) ebben a futásban sem volt közvetlenül lekérhető; az államadósság értéke változatlanul a 2026-07-31-i (Magyar Nemzet/ÁKK-hivatkozás) állapotot tükrözi.",
-   "MNB EUR/HUF hivatalos fixing frissült (2026-10-13: 364,22 Ft/EUR, USD 325,72 Ft) a 2026-10-12-i (365,21 Ft/EUR) állapothoz képest — új macro_snapshots dokumentum készült, a többi mutató változatlan.",
-   "A kormany.hu/atlathato/feljelentes oldal tartalma (47 ügy, 2255 Mrd Ft, 2026-10-02-i állapot) ebben a futásban is változatlan volt, nem volt szükség frissítésre a reported_cases kollekcióban.",
-   "Az ugyeszseg.hu ebben a futásban elérhető volt (korábbi futásokban gyakran 503-at adott), de nem tartalmazott új, még nem rögzített közpénzügyi hírt (Volánbusz, Óbuda — mindkettő már rögzítve)."
+   "Az adozona.hu 'Öt ügyben összesen 106 milliárdos károkozás miatt tett feljelentést a Miniszterelnökség' cikke ebben a futásban végre elérhető volt WebFetch-csel: kiderült, hogy a négy számszerűsített tétel (Civil szervezetek 1,52 Mrd Ft, Observer 30,9 Mrd Ft, veglegestorles.hu kb. 40 Mrd Ft, Ortodox Exarchátus 34,3 Mrd Ft) megegyezik a kormany.hu hivatalos listáján már önálló tételként rögzített ügyekkel (Civil szervezetek, Observer médiafigyelés, veglegestorles.hu, Ortodox akadémia-támogatás) — csak lapszemle-jellegű ismétlés 2026.07.10/14-i cikkből, nem hozott új tételt vagy összeget.",
+   "A hirkereso.hu 2026-10-13-i lapszemléjében talált 'Mavir takarítási közbeszerzés — Kovács Zoltán (volt államtitkár) feleségének cége nyerte, 712,9 millió Ft' (Telex, Index, ATV, 10perc.hu) és 'Somlai Bálint cégei feljelentik az MNB-t egy 11 milliárddal drágább ajánlat kiválasztása miatt' (Forbes) híreket ellenőriztük: egyik mögött sincs kormányzati/hatósági feljelentés vagy hivatalosan megindított vizsgálat ebben a futásban — a Mavir-ügy újságírói feltárás (a felhasználói szűrési szabály szerint emiatt egyelőre nem kerül fel), a Somlai/MNB-ügyben pedig csak egy 2025-ös, a székházfelújítással kapcsolatos korábbi MNB-feljelentés azonosítható, a '11 milliárdos' állítás eredeti forrása nem volt megerősíthető; mindkettő figyelendő egy következő futásban, hogy indul-e hivatalos eljárás.",
+   "Az EXIM GB & Partners ügyhöz (reported-exim-exportosztonzo-alap-gbpartners-2026-10, needs_review) egy újabb, 2026-10-09-i 444.hu-cikk szerint Kapitány István miniszter összesen 166 milliárd forintos két feljelentést tett Eximbank-befektetések miatt (az egyik a GB & Partners-alap, 56→22,5 Mrd Ft állítólagos vagyonvesztéssel, a másik egy Jellinek Dániel-érdekeltségű céggel kapcsolatos kötvényvásárlás) — ez megerősíti és pontosítja a már rögzített tételt (166 Mrd Ft összesen a két ügyre), de önálló MÁSODIK FÜGGETLEN sajtóforrás a GB & Partners-tétel konkrét összegére (56/22,5 Mrd Ft) továbbra sem található, a tétel needs_review marad; a verification_notes-ba egy következő írási körben rögzítendő a 166 Mrd Ft-os összkontextus.",
+   "A Gordiusz Magántőkealap (items/visszaszerzes-gordiusz-tiborcz-2026-10, needs_review) tételhez továbbra sem található második, független, 2026-os sajtóforrás a konkrét 50→59,89 Mrd Ft-os tranzakcióra; a talált háttércikkek (Telex, Transparency International, 444.hu) a Gránit Alapkezelő/Tiborcz-kapcsolatot általánosságban írják le, de nem erősítik meg külön ezt a konkrét ügyletet — a tétel needs_review marad.",
+   "Az RRF/kohéziós EU-forrás ügyében (eu-forras-megallapodas-2026-05) ma (2026-10-13) semmilyen új fejlemény nem merült fel a 12:00-ás futáshoz képest (a Tanács október 13-i döntése már abban rögzítve lett); a received_huf mező változatlanul 0.",
+   "Az ÁKK hivatalos statisztikai oldala (akk.hu) ebben a futásban sem volt közvetlenül lekérhető; az államadósság-érték változatlanul a 2026-07-31-i (Magyar Nemzet/ÁKK-hivatkozás) állapotot tükrözi.",
+   "Új makro-pillanatkép ebben a futásban nem készült: a 2026-10-13T12-00-ás pillanatkép óta egyik mutató sem változott (EUR/HUF, USD/HUF, infláció, GDP, munkanélküliség stb. mind azonos), a legutóbbi pillanatkép marad érvényben."
   ],
   "eu_lost_items_new": 0,
-  "finished_at": "2026-10-13T12:30:00+02:00",
+  "finished_at": "2026-10-13T17:15:00+02:00",
   "items_duplicate": 0,
-  "items_found_total": 2,
+  "items_found_total": 0,
   "items_needs_review": 0,
   "items_new": 0,
   "reported_cases_new": 0,
   "reported_cases_updated": 0,
   "sources_checked": [
-   "kormany.hu/atlathato/feljelentes (hivatalos, 47 ügy / 2255 Mrd Ft — változatlan a 2026-10-02-i állapothoz képest)",
-   "mnvvh.hu/hirek",
-   "ugyeszseg.hu/category/hirek/kozponti-nyomozo-fougyeszseg (elérhető volt, nincs új tartalom)",
-   "k-monitor.hu (WebSearch, site: operátor nem adott közvetlen domain-találatot)",
-   "hirkereso.hu/gazdasag/friss",
-   "index.hu",
+   "kormany.hu/atlathato/feljelentes (hivatalos, teljes lista ellenőrizve WebFetch-csel: 47 ügy / 2255 Mrd Ft / 25,0 Mrd Ft visszafizetve-megtakarítva — változatlan a 2026-10-02-i állapothoz képest, nem volt szükség frissítésre)",
+   "mnvvh.hu/hirek (nincs új, konkrét ügyadat 2026-10-11 és 10-13 között; a legfrissebb tétel 2026-10-12, csak NAIH/állásközlemény)",
+   "ugyeszseg.hu/category/hirek/kozponti-nyomozo-fougyeszseg (elérhető volt, legfrissebb tétel 2026-10-09, már ismert — NVVH-csalási kísérlet, nem állami vagyonügy)",
+   "k-monitor.hu (WebSearch, site: operátor nem adott közvetlen domain-találatot ebben a futásban sem)",
+   "hirkereso.hu/gazdasag/friss (teljes 2026-10-12/13-i lapszemle átnézve)",
+   "mnb.hu/arfolyamok (EUR/HUF 364,22 Ft, USD 325,72 Ft — változatlan a 2026-10-13T12-00-ás pillanatképhez képest)",
    "telex.hu",
-   "portfolio.hu",
    "444.hu",
+   "index.hu",
+   "portfolio.hu",
    "hvg.hu",
    "economx.hu",
    "vg.hu",
-   "infostart.hu",
-   "privatbankar.hu",
-   "penzcentrum.hu",
    "origo.hu",
-   "forbes.hu (keresésen keresztül)",
-   "atv.hu",
-   "10perc.hu",
-   "mnb.hu/arfolyamok (EUR/HUF, USD/HUF fixing)",
-   "akk.hu (nem elérhető)",
-   "ksh.hu (sajtón keresztül, szeptemberi infláció már a 2026-10-12-i pillanatképben rögzítve)",
-   "euronews.hu / consilium.europa.eu (EU Tanács döntése, websearch)"
+   "infostart.hu",
+   "nepszava.hu",
+   "mfor.hu",
+   "penzcentrum.hu",
+   "privatbankar.hu",
+   "adozona.hu"
   ],
-  "started_at": "2026-10-13T11:56:00+02:00",
-  "id": "2026-10-13T12-00"
+  "started_at": "2026-10-13T16:35:00+02:00",
+  "id": "2026-10-13T16-58"
  },
  "run_history": [
+  {
+   "finished_at": "2026-10-13T17:15:00+02:00",
+   "started_at": "2026-10-13T16:35:00+02:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
   {
    "finished_at": "2026-10-13T12:30:00+02:00",
    "started_at": "2026-10-13T11:56:00+02:00",
@@ -3523,17 +3526,17 @@
   }
  ],
  "run_summary": {
-  "run_id": "2026-10-13T10:05:56+00:00",
+  "run_id": "2026-10-13T15:00:51+00:00",
   "new": 0,
   "modified": 0,
-  "confirmed_only": 1,
-  "touched": 1,
+  "confirmed_only": 0,
+  "touched": 0,
   "pending_review": 2,
   "by_section": {
    "items": {
     "new": 0,
     "modified": 0,
-    "confirmed_only": 1
+    "confirmed_only": 0
    },
    "reported_cases": {
     "new": 0,
@@ -3543,9 +3546,7 @@
   },
   "new_ids": [],
   "modified_ids": [],
-  "confirmed_ids": [
-   "i:eu-forras-megallapodas-2026-05"
-  ]
+  "confirmed_ids": []
  },
  "run_summary_history": [
   {
@@ -4641,6 +4642,21 @@
      "new": 0,
      "modified": 0,
      "confirmed_only": 1
+    },
+    "reported_cases": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    }
+   }
+  },
+  {
+   "run_id": "2026-10-13T15:00:51+00:00",
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
     },
     "reported_cases": {
      "new": 0,
