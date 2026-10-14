@@ -1,13 +1,13 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-14T04:00:28+00:00",
+ "generated_at": "2026-10-14T10:03:47+00:00",
  "summary": {
   "megtakaritas_verified_huf": 1735245700000,
   "visszaszerzes_verified_huf": 1547098000000,
   "eu_forras_verified_huf": 6188000000000,
   "eu_forras_lost_huf": 730000000000,
   "items_count": 31,
-  "reported_cases_count": 45
+  "reported_cases_count": 47
  },
  "items": [
   {
@@ -1548,9 +1548,15 @@
    "updated_at": "2026-10-03T10:07:22+00:00"
   },
   {
-   "additional_sources": [],
-   "alleged_amount_huf": null,
-   "alleged_amount_text": "A miniszter szerint az állam 56 milliárd forintot fektetett az alapba, amelynek Eximbank-becslés szerinti fennmaradó értéke mára kb. 22,5 milliárd forintra csökkent; az alapkezelő ezt vitatja, és a 2025.12.31-i auditált nettó eszközértékre (41,2 milliárd forint) hivatkozik. A miniszter emellett egy másik Eximbank-üggyel együtt összesen 166 milliárd forint értékben jelentett be két feljelentést.",
+   "additional_sources": [
+    {
+     "name": "444.hu",
+     "published_date": "2026-10-09",
+     "url": "https://444.hu/2026/10/09/ujabb-166-milliard-forintnyi-eximbank-befektetes-miatt-tett-feljelentest-kapitany-istvan"
+    }
+   ],
+   "alleged_amount_huf": 33500000000,
+   "alleged_amount_text": "az állam 56 milliárd forintot fektetett az EXIM Exportösztönző Magántőkealapba, ebből Kapitány István miniszter szerint mára már csak kb. 22,5 milliárd forint maradt, azaz több mint 33,5 milliárd forint (a befektetés közel 60%-a) veszett el; az alapkezelő cég (Gubicza Ágoston érdekeltsége) vitatja ezt, saját, 2025.12.31-i auditált adatára (41,2 milliárd forint) hivatkozva",
    "confirmed_recovered_huf": 0,
    "description": "Kapitány István gazdasági és energetikai miniszter szerint jelentősen csökkent az állam által az Eximbank által alapított, a GB & Partners Kockázati Tőkealap-kezelő Zrt. által kezelt Exportösztönző Magántőkealapba fektetett közpénz értéke. A minisztérium ezzel összefüggésben büntetőfeljelentést tett. Az alapkezelő cég vitatja az állítást, és saját, auditált adataira hivatkozva azt állítja, hogy nem történt vagyonvesztés.",
    "ministry": "Gazdasági és Energetikai Minisztérium",
@@ -1561,12 +1567,12 @@
     "published_date": "2026-10-11",
     "url": "https://piacesprofit.hu/cikkek/gazdasag/a-rogan-antalhoz-kotheto-magantokealap-kezeloje-szerint-a-kormany-allitasaval-szemben-nem-tortent-vagyonvesztes.html"
    },
-   "status": "needs_review",
+   "status": "reported",
    "subject": "EXIM Exportösztönző Magántőkealap (GB & Partners) — állami tőkebefektetés állítólagos értékvesztése",
-   "verification_notes": "ÚJ TÉTEL (2026-10-12 06:01-es futás). Egyetlen sajtóforrásból (Piac és Profit, 2026-10-11) ismert eddig, amely a GB & Partners (az alapkezelő cég, amelynek többségi tulajdonosa Gubicza Ágoston, Rogán Antal korábbi feleségének jelenlegi férje) tagadó nyilatkozatán keresztül dolgozza fel a miniszteri állítást — maga az eredeti miniszteri bejelentés/feljelentés szövege vagy más sajtóforrás ezidáig nem található. A kormány állítása (22,5 Mrd Ft fennmaradó érték az 56 Mrd Ft-os befektetésből) és az alapkezelő állítása (41,2 Mrd Ft auditált nettó eszközérték 2025.12.31-én) jelentősen eltér, a tétel ezért needs_review. A GB & Partners egy 2015 végén elindult, régóta politikailag vitatott Eximbank-tőkealap-program kezelője (korábbi sajtó, pl. 444.hu 2017, Direkt36/Telex 2025, Rogán Antal-közeli kapcsolatokról ír); ez a konkrét, 2026-os miniszteri bejelentés azonban különbözik a korábbi, 2015-2019-es háttér-cikkektől. Második, független forrásra és/vagy hivatalos (kormany.hu) megerősítésre vár a következő futásban. Nem szerepel a kormany.hu/atlathato/feljelentes hivatalos listáján (2026-10-12-i ellenőrzés szerint).",
+   "verification_notes": "FRISSÍTVE 2026-10-14 11:56-os futás: Kapitány István gazdasági és energetikai miniszter 2026-10-09-i Facebook-videójában hivatalosan is bejelentette a feljelentést (Nemzeti Nyomozó Irodánál, hűtlen kezelés, hanyag kezelés és hivatali visszaélés gyanújával, ismeretlen tettes ellen), ezt a 444.hu is megerősítette — ez a Piac és Profit (2026-10-11) egyetlen forrásán alapuló korábbi needs_review állapotot hivatalos miniszteri bejelentéssel és második sajtóforrással erősíti meg, ezért a tétel needs_review-ból reported-re váltva. A 444.hu szerint az alapkezelő cég neve a cikkben nem szerepel 'GB & Partners'-ként, csak 'Gubicza Ágoston cége'-ként, de az összegek (56 Mrd Ft befektetés, 22,5 Mrd Ft fennmaradó érték) megegyeznek a korábbi, Piac és Profit-forrású adatokkal, így ugyanarról az ügyről van szó. Kapitány ugyanebben a bejelentésben egy MÁSIK, önálló Eximbank-ügyet (Jellinek Dániel/Indotek-csoporthoz köthető, 110+ milliárd forintos kötvényvásárlás) is bejelentett — ez külön tételként (reported-eximbank-jellinek-kotveny-indotek-2026-10) került rögzítésre, nem adandó hozzá ehhez az összeghez. (Korábbi megjegyzés megőrizve, l. előző verzió.)",
    "id": "reported-exim-exportosztonzo-alap-gbpartners-2026-10",
    "first_seen_at": "2026-10-12T04:05:17+00:00",
-   "updated_at": "2026-10-12T04:05:17+00:00"
+   "updated_at": "2026-10-14T10:03:47+00:00"
   },
   {
    "alleged_amount_huf": 63000000000,
@@ -1607,6 +1613,27 @@
    "id": "reported-eximbank-egyiptomi-vasut-2026",
    "first_seen_at": "2026-09-28T15:02:40+00:00",
    "updated_at": "2026-10-03T15:04:22+00:00"
+  },
+  {
+   "additional_sources": [],
+   "alleged_amount_huf": 110000000000,
+   "alleged_amount_text": "több mint 110 milliárd forint (kötvényvásárlás), az állam a tőke 80%-áért vállalt kezességet",
+   "confirmed_recovered_huf": 0,
+   "description": "Kapitány István gazdasági és energetikai miniszter 2026. október 9-én bejelentette, hogy az Eximbank korábbi vezetése több mint 110 milliárd forint értékben vásárolt kötvényeket a Jellinek Dániel érdekeltségéhez köthető Indotek-csoport egyik cégétől, a Hungarian World State Financing Zrt.-től, megfelelő fedezet nélkül. Az állam a tőke 80 százalékáért vállalt kezességet, vagyis a veszteség nagy részét az adófizetők állták volna, ha a cég nem tud fizetni. Az Eximbank saját szakmai álláspontja szerint eredetileg is kockázatosnak ítélte az ügyletet, de az akkori (Fidesz-)kormány rendeleti úton felülírta a bank szokásos döntési eljárását, és mentesítette a bankot a spekulatív ingatlanfinanszírozást tiltó szabály alól.",
+   "ministry": "Gazdasági és Energetikai Minisztérium",
+   "recovered_item_id": null,
+   "report_date": "2026-10-09",
+   "report_source": {
+    "name": "444.hu",
+    "published_date": "2026-10-09",
+    "url": "https://444.hu/2026/10/09/ujabb-166-milliard-forintnyi-eximbank-befektetes-miatt-tett-feljelentest-kapitany-istvan"
+   },
+   "status": "reported",
+   "subject": "Eximbank kötvényvásárlás az Indotek-csoporttól (Jellinek Dániel) — megfelelő fedezet nélkül",
+   "verification_notes": "ÚJ TÉTEL (2026-10-14 11:56-os futás). Kapitány István miniszter ugyanazon 2026-10-09-i bejelentésében (Facebook-videó, Nemzeti Nyomozó Iroda, hűtlen kezelés/hanyag kezelés/hivatali visszaélés gyanúja) két KÜLÖNBÖZŐ Eximbank-ügyet jelentett be egyszerre, összesen 166 milliárd forint értékben: (1) az EXIM Exportösztönző Magántőkealap (l. reported-exim-exportosztonzo-alap-gbpartners-2026-10, 56 Mrd Ft befektetés, 33,5+ Mrd Ft veszteség) és (2) ez a kötvényvásárlási ügy (110+ Mrd Ft, Jellinek Dániel/Indotek). A két tételt emiatt NEM szabad összeadni egyetlen dokumentumba, önálló tételként rögzítve. A miniszter szerint az Eximbank-átvilágítás eddig összesen közel 1300 milliárd forint értékű ügyben vezetett feljelentéshez — ez egy tágabb összesítő szám, nem csak erre a két új ügyre vonatkozik. Nem szerepel még a kormany.hu/atlathato/feljelentes hivatalos listáján (2026-10-14-i ellenőrzés szerint, a lista változatlanul 47 ügy/2255 Mrd Ft, 2026-10-02-i állapot). Jellinek Dánielt egy másik, korábban rögzített ügyben (Volánbusz-beszerzés, l. reported-volan-buszbeszerzes-2026-09) már letartóztatták — ez egy KÜLÖNBÖZŐ, önálló jogi eljárás, nem azonos ezzel a kötvényvásárlási üggyel.",
+   "id": "reported-eximbank-jellinek-kotveny-indotek-2026-10",
+   "updated_at": "2026-10-14T10:03:47+00:00",
+   "first_seen_at": "2026-10-14T10:03:47+00:00"
   },
   {
    "alleged_amount_huf": 360000000000,
@@ -2271,10 +2298,10 @@
    },
    "status": "under_investigation",
    "subject": "Kormányzati feljelentések hivatalos összesítője (37 ügy, ~11 minisztérium/hatóság)",
-   "verification_notes": "FRISSÍTVE 2026-10-02 (16:56-os futás): a kormany.hu/atlathato/feljelentes oldal közvetlen ellenőrzése szerint az ügyszám 37-ről 47-re, az összesített érték 2221 Mrd Ft-ról 2255 Mrd Ft-ra nőtt. Az oldal emellett két új, korábban nem közölt összesítő mutatót is feltüntet: 'Megjelent nyomozás: 12 ügy' és 'Visszafizetve/megtakarítva: 25,0 milliárd forint'. FONTOS: ez a 25 Mrd Ft a kormany.hu SAJÁT, valószínűleg szűkebb körű elszámolása (feltehetően csak a hivatalos listán szereplő ügyekhez köthető, ténylegesen megtérült/megtakarított összeg), és NEM azonos a jelen adattár confirmed_recovered_huf mezőjével (126 Mrd Ft), amely a Duna Aszfalt-kötvény visszaváltásából (l. items/visszaszerzes-duna-aszfalt-kotveny-2026-09) ered és nem feltétlenül szerepel a kormany.hu saját 47 uges listáján — a két szám ezért átmenetileg nem összevonható, további tisztázásra vár. A legalább 10 új, korábban nem azonosított ügy között azonosítottuk: BTR-80 harcjárművek értékesítése Szerbiának (576,7 M Ft, HM, 2026.09.29), Szuverenitásvédelmi Hivatal ügyvédi megbízásai (46,4 M Ft, Miniszterelnökség, 2026.09.29) — ezek a reported-egyeb-miniszteriumi-18ugy-2026 gyűjtőtételbe kerültek. Emellett a hivatalos lista immár tartalmazza (korábban csak sajtóból ismert, önálló tételként rögzített) ügyeket is: Veszprém-Balaton 2023 Zrt. (1,8 Mrd, 09.29), Beloiannisz Hajóért Alapítvány + Pelso Polgári Sportegyesület (együtt 2,371 Mrd, 09.23), p2m Miniszterelnökségi szerződések (455 M, 09.29), E-ING rendszer (16 Mrd, 09.25), HM AdWA/NAMTL tanácsadói szerződés (12 Mrd, 09.23) + Magánutak/vadászatbiztosítás (összeg nélkül, 09.23), Miniszteri delegációk utazásai (4 Mrd, 09.15, l. Szijjártó-tétel), Alapjogokért Központ állami támogatásai (410 M, 09.29) — ezek az önálló tételeiknél frissítve lettek, ezért NEM része ennek az összesítő referencia-tételnek (dupla számolás elkerülése). EZ EGY ÖSSZESÍTŐ REFERENCIA-TÉTEL, ne add hozzá a négy Eximbank-tételhez, az M6-tételhez, a fent felsorolt önálló tételekhez vagy a gyűjtőtételhez, mert azok már ennek részét képezik. FRISSÍTVE 2026-10-03 (11:56-os futás): a kormany.hu oldal immár külön bontásban közli a 24,9 Mrd Ft-os összesítőt: 24,2 milliárd forint tényleges visszafizetés (Élvonal Alapítvány 23,086 Mrd + ZalaZone 0,951 Mrd + Duna Aszfalt kisebb tétel 0,211 Mrd = 24,248 Mrd, l. items) és 0,7 milliárd forint meg nem valósult kiadás/elengedett díjigény (szingapúri diplomata-állás 0,235 Mrd + Rothschild-tanácsadói díj elengedése 0,220 Mrd + Szuverenitásvédelmi Hivatal kommunikációs szerződés alulteljesítése 0,2097 Mrd + Igazságügyi Minisztérium egyéb szerződései 0,046 Mrd = 0,7107 Mrd, mind új items tételként rögzítve). Ez tisztázza a 2026-10-03 05:55-ös futásban még nyitott kérdést (a korábbi, kerekített 25,0 Mrd Ft-os összesítő pontos összetételét). Ügyszám és teljes összeg (47 ügy, 2255 Mrd Ft) változatlan. (Korábbi megjegyzések megőrizve:) FRISSÍTVE 2026-09-23: 37 ügy, 2221 Mrd Ft. FRISSÍTVE 2026-09-25, 09-29, 10-01: ismételt ellenőrzések, változatlan állapot. FRISSÍTVE 2026-10-03 05:55-ös futás: a kormany.hu saját \"Visszafizetve/megtakarítva: 25,0 milliárd forint\" összesítője feloldva — ebből 23,086 Mrd Ft az Élvonal Alapítvány (l. items/visszaszerzes-elvonal-alapitvany-krausz-2026-09), 951 M Ft a ZalaZone Alapítvány (l. items/visszaszerzes-zalazone-alapitvany-2026-09), 211 M Ft a Duna Aszfalt-ügy egy önálló, kisebb tétele (nem azonos az items/visszaszerzes-duna-aszfalt-kotveny-2026-09 126 Mrd Ft-os kötvény-visszaváltásával), a maradék kb. 0,74 Mrd Ft pedig a szingapúri diplomata-állás megszüntetéséből (l. items/megtakaritas-szingapuri-diplomata-allas-megszuntetes-2026-09) és más apró megtakarításokból adódik. Ez a 25,0 Mrd Ft így NEM azonos és NEM összeadható a jelen adattár confirmed_recovered_huf mezőjével (126 Mrd Ft, a Duna Aszfalt-kötvény visszaváltásából), a két szám továbbra is külön kezelendő.",
+   "verification_notes": "FRISSÍTVE 2026-10-14 11:56-os futás: a kormany.hu/atlathato/feljelentes oldal közvetlen ellenőrzése szerint az oldal tartalma változatlan 2026-10-02 óta (47 ügy, 2255 Mrd Ft, 12 ügyben megindult nyomozás, 25,0 Mrd Ft visszafizetve/megtakarítva) — nincs új ügy vagy összegváltozás a hivatalos oldalon. A 2026-10-09-i Eximbank-bejelentés (Kapitány István, 166 Mrd Ft, két új ügy: GB-alapkezelői és Jellinek/Indotek kötvényügy) egyelőre nem jelent meg a kormany.hu listáján, ezért nem része ennek az összesítőnek; önálló reported_cases tételekként rögzítve (l. reported-exim-exportosztonzo-alap-gbpartners-2026-10 és reported-eximbank-jellinek-kotveny-indotek-2026-10). (Korábbi megjegyzések megőrizve, l. előző verzió.)",
    "id": "reported-osszesito-2026-09",
    "first_seen_at": "2026-09-28T15:02:40+00:00",
-   "updated_at": "2026-10-03T10:07:22+00:00"
+   "updated_at": "2026-10-14T10:03:47+00:00"
   },
   {
    "additional_sources": [
@@ -2475,6 +2502,27 @@
    "id": "reported-rakay-racalmas-foldugylet-2026-10",
    "first_seen_at": "2026-10-10T10:06:19+00:00",
    "updated_at": "2026-10-10T10:06:19+00:00"
+  },
+  {
+   "additional_sources": [],
+   "alleged_amount_huf": 23000000,
+   "alleged_amount_text": "23 millió forint vissza nem térítendő állami támogatás (három részletben, 2025 szeptembere és 2026 februárja között)",
+   "confirmed_recovered_huf": 12388,
+   "description": "Rubint Réka tulajdonos-ügyvezetésével működő Norbi Duci Tréning Nonprofit Kft. összesen 23 millió forint vissza nem térítendő állami támogatást kapott a 2026 áprilisi választás előtti hónapokban a Miniszterelnöki Kabinetirodától (Rogán Antal akkori tárcája), közösségi sportfoglalkozások szervezésére és népszerűsítésére hivatkozva. A kedvezményezett eddig mindössze 12 388 forintot utalt vissza a fel nem használt keretből. A kabinetiroda jogutódja, a Ruff Bálint vezette Miniszterelnökség vizsgálja a támogatás odaítélésének, felhasználásának és elszámolásának körülményeit.",
+   "ministry": "Miniszterelnökség (jogutód; eredetileg Miniszterelnöki Kabinetiroda)",
+   "recovered_item_id": null,
+   "report_date": "2026-10-06",
+   "report_source": {
+    "name": "Economx (24.hu nyomán)",
+    "published_date": "2026-10-06",
+    "url": "https://www.economx.hu/belfold/valasztas-rubint-reka-cege-tamogatas-rogan/"
+   },
+   "status": "under_investigation",
+   "subject": "Rubint Réka cége (Norbi Duci Tréning Nkft.) — választás előtti állami támogatás vizsgálata",
+   "verification_notes": "ÚJ TÉTEL (2026-10-14 11:56-os futás). Egyetlen közvetlen sajtóforrásból (Economx, a 24.hu adatfeltárására hivatkozva) ismert eddig; a 24.hu eredeti cikke nem volt közvetlenül elérhető. A Miniszterelnökség vizsgálata zajlik, formális büntetőfeljelentésről vagy annak hiányáról a cikk nem ír, ezért a tétel a 'vizsgálatot indított' kategóriába sorolva (under_investigation) került fel, nem reported-ként. Második, független forrásra vár a következő futásban. Nem szerepel a kormany.hu/atlathato/feljelentes hivatalos listáján (2026-10-14-i ellenőrzés szerint).",
+   "id": "reported-rubint-reka-norbi-duci-2026-10",
+   "updated_at": "2026-10-14T10:03:47+00:00",
+   "first_seen_at": "2026-10-14T10:03:47+00:00"
   },
   {
    "alleged_amount_huf": 12600000000,
@@ -2714,7 +2762,7 @@
    "url": "https://magyarnemzet.hu/gazdasag/2026/09/allamadossag-novekedes"
   },
   "allamadossag_huf": 65716000000000,
-  "collected_at": "2026-10-14T05:59:00+02:00",
+  "collected_at": "2026-10-14T11:56:00+02:00",
   "elozo": {
    "allamadossag": {
     "period": null,
@@ -2936,49 +2984,78 @@
    "publish_date": "2026-09-22",
    "url": "https://www.portfolio.hu/gazdasag/20260922/itt-az-mnb-uj-elorejelzese-hiaba-a-nemzetkozi-kockazatok-mersekelt-marad-az-idei-inflacio-864484"
   },
-  "id": "2026-10-14T05-59"
+  "id": "2026-10-14T11-56"
  },
  "last_run": {
   "errors": [
-   "mnvvh.hu/hirek közvetlen lekérése 404-et adott, a tartalmat WebSearch-csel és a Google cache-elt összefoglalóval sikerült részben pótolni",
-   "akk.hu főoldala JS-alapú, a konkrét államadósság-összeg nem volt kinyerhető közvetlenül, a 2026-07-31-i Magyar Nemzet-hivatkozású adat maradt érvényben",
-   "KSH szeptemberi munkanélküliségi gyorstájékoztató ebben a futásban még nem jelent meg, az augusztusi adat maradt érvényben",
-   "MNB októberi kamatdöntésről/új EUR-HUF fixingről ebben a futásban nem található újabb publikáció a 2026-10-13-i adatnál"
+   "hirkereso.hu/politika 404-et adott vissza, a rovat nem volt elérhető ebben a futásban",
+   "a 3 napos ablakban (2026-10-11 – 10-14) a legtöbb figyelt portálnál nem volt WebSearch-csel azonosítható új, a szűrési kritériumoknak megfelelő megtakarítás/visszaszerzés/EU-forrás hír; a futás fő új eredménye két Eximbank-feljelentés (2026-10-09, Kapitány István) és egy egyetlen forrásból ismert ügy (Rubint Réka/Norbi Duci Tréning) volt"
   ],
   "eu_lost_items_new": 0,
-  "finished_at": "2026-10-14T06:10:00+02:00",
+  "finished_at": "2026-10-14T12:35:00+02:00",
   "items_duplicate": 0,
   "items_found_total": 0,
   "items_needs_review": 0,
   "items_new": 0,
-  "reported_cases_new": 0,
-  "reported_cases_updated": 0,
+  "reported_cases_new": 2,
+  "reported_cases_updated": 2,
   "sources_checked": [
-   "kormany.hu/atlathato/feljelentes",
    "24.hu",
    "444.hu",
-   "Telex",
-   "HVG",
-   "Index",
-   "Portfolio.hu",
-   "Economx",
-   "Privátbankár",
-   "Infostart",
-   "Világgazdaság",
+   "168.hu",
+   "atlatszo.hu",
+   "demokrata.hu",
+   "direkt36.hu",
+   "economx.hu",
+   "es.hu",
+   "forbes.hu",
+   "g7.hu",
+   "hirtv.hu",
+   "hvg.hu",
+   "index.hu",
+   "infostart.hu",
+   "jelen.media",
+   "klubradio.hu",
+   "magyarhang.org",
+   "magyarhirlap.hu",
+   "magyarnemzet.hu",
+   "makronom.hu",
+   "mandiner.hu",
+   "media1.hu",
    "mfor.hu",
-   "Adózóna",
-   "K-Monitor (WebSearch only)",
-   "Hírkereső",
-   "MNVVH (mnvvh.hu/hirek)",
-   "Ügyészség (ugyeszseg.hu Központi Nyomozó Főügyészség rovat)",
-   "KSH (via sajtó)",
-   "MNB (via sajtó)",
-   "ÁKK (akk.hu)"
+   "merce.hu",
+   "mti.hu",
+   "nepszava.hu",
+   "origo.hu",
+   "penzcentrum.hu",
+   "portfolio.hu",
+   "privatbankar.hu",
+   "szabadeuropa.hu",
+   "telex.hu",
+   "trendfm.hu",
+   "ujegyenloseg.hu",
+   "valaszonline.hu",
+   "vg.hu",
+   "partizan.hu",
+   "okoshir.hu",
+   "szmo.hu",
+   "k-monitor.hu (WebSearch)",
+   "mnvvh.hu/hirek",
+   "ugyeszseg.hu/kozponti-nyomozo-fougyeszseg",
+   "kormany.hu/atlathato/feljelentes"
   ],
-  "started_at": "2026-10-14T05:55:00+02:00",
-  "id": "2026-10-14T05-59"
+  "started_at": "2026-10-14T11:56:00+02:00",
+  "id": "2026-10-14T11-56"
  },
  "run_history": [
+  {
+   "finished_at": "2026-10-14T12:35:00+02:00",
+   "started_at": "2026-10-14T11:56:00+02:00",
+   "items_new": 0,
+   "reported_cases_new": 2,
+   "reported_cases_updated": 2,
+   "eu_lost_items_new": 0
+  },
   {
    "finished_at": "2026-10-14T06:10:00+02:00",
    "started_at": "2026-10-14T05:55:00+02:00",
@@ -3531,11 +3608,11 @@
   }
  ],
  "run_summary": {
-  "run_id": "2026-10-14T04:00:28+00:00",
-  "new": 0,
-  "modified": 0,
+  "run_id": "2026-10-14T10:03:47+00:00",
+  "new": 2,
+  "modified": 1,
   "confirmed_only": 0,
-  "touched": 0,
+  "touched": 3,
   "pending_review": 2,
   "by_section": {
    "items": {
@@ -3544,13 +3621,18 @@
     "confirmed_only": 0
    },
    "reported_cases": {
-    "new": 0,
-    "modified": 0,
+    "new": 2,
+    "modified": 1,
     "confirmed_only": 0
    }
   },
-  "new_ids": [],
-  "modified_ids": [],
+  "new_ids": [
+   "r:reported-eximbank-jellinek-kotveny-indotek-2026-10",
+   "r:reported-rubint-reka-norbi-duci-2026-10"
+  ],
+  "modified_ids": [
+   "r:reported-exim-exportosztonzo-alap-gbpartners-2026-10"
+  ],
   "confirmed_ids": []
  },
  "run_summary_history": [
@@ -4681,6 +4763,21 @@
     "reported_cases": {
      "new": 0,
      "modified": 0,
+     "confirmed_only": 0
+    }
+   }
+  },
+  {
+   "run_id": "2026-10-14T10:03:47+00:00",
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 2,
+     "modified": 1,
      "confirmed_only": 0
     }
    }
