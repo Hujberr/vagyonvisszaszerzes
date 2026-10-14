@@ -1,13 +1,13 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-14T10:03:47+00:00",
+ "generated_at": "2026-10-14T15:04:44+00:00",
  "summary": {
-  "megtakaritas_verified_huf": 1735245700000,
+  "megtakaritas_verified_huf": 1835245700000,
   "visszaszerzes_verified_huf": 1547098000000,
   "eu_forras_verified_huf": 6188000000000,
   "eu_forras_lost_huf": 730000000000,
-  "items_count": 31,
-  "reported_cases_count": 47
+  "items_count": 32,
+  "reported_cases_count": 48
  },
  "items": [
   {
@@ -573,6 +573,39 @@
    "id": "megtakaritas-miniszteri-fizetescsokkentes-2026-09",
    "first_seen_at": "2026-09-28T15:02:40+00:00",
    "updated_at": "2026-09-28T15:02:40+00:00"
+  },
+  {
+   "additional_sources": [
+    {
+     "name": "Index.hu",
+     "published_date": "2026-10-14",
+     "url": "https://index.hu/belfold/2026/10/14/orszaggyules-parlament-magyar-nemzeti-bank-mnb-jegybank-varga-mihaly-mnb-alapitvanyok/"
+    },
+    {
+     "name": "Magyar Hírlap",
+     "published_date": "2026-10-14",
+     "url": "https://magyarhirlap.hu/belfold/20261014-varga-mihaly-tobb-mint-szazmilliard-forint-elveszteset-akadalyoztuk-meg"
+    }
+   ],
+   "amount_huf": 100000000000,
+   "amount_text": "több mint 100 milliárd forint",
+   "category": "megtakaritas",
+   "collected_at": "2026-10-14T17:00:00+02:00",
+   "currency_note": null,
+   "dedup_key": "megtakaritas|mnb vagyonmentesi program veszteseg megakadalyozasa|100000000000",
+   "description": "Varga Mihály, a Magyar Nemzeti Bank elnöke 2026. október 14-én, az Országgyűlésben a jegybank 2025. évi beszámolójának ismertetésekor elmondta, hogy a jegybank vagyonmentési programja eddig több mint 100 milliárd forint értékű vagyonvesztést akadályozott meg. Elmondása szerint a jegybank vesztesége az előző évhez képest 234,7 milliárd forinttal csökkent, és a 2025. évi működési költségek közel 14,9 milliárd forinttal maradtak a tervezett szint alatt.",
+   "duplicate_of": null,
+   "event_date": "2026-10-14",
+   "from_whom": null,
+   "source_name": "Infostart.hu",
+   "source_published_date": "2026-10-14",
+   "source_url": "https://infostart.hu/belfold/2026/10/14/varga-mihaly-jegybankelnok-a-palamentben-vagyonmentesre-iranyulo-lepeseket-tettunk",
+   "status": "verified",
+   "subject": "Magyar Nemzeti Bank vagyonmentési programja — több mint 100 milliárd forintos veszteség megakadályozása",
+   "verification_notes": "ÚJ TÉTEL (2026-10-14 17:00-ás futás). Varga Mihály jegybankelnök hivatalos parlamenti nyilatkozata (a jegybank 2025-ös beszámolójának ismertetésekor), legalább három sajtóforrás (Infostart, Index, Magyar Hírlap) egyezően idézi a 100+ milliárd forintos összeget. Kapcsolódik, de elkülönül a reported_cases/reported-mnb-matolcsy-alapitvanyok-2026-09 és reported-mnb-ingatlan-tularazas-2026-09 tételektől (azok a Matolcsy-kör elleni büntetőeljárásokat rögzítik); ez a tétel a jegybank saját vagyonmentési programjának eddigi, bejelentett eredményét tükrözi. A pontos számítási módszertan a sajtóból nem ismert, saját becslés nem készült.",
+   "id": "megtakaritas-mnb-vagyonmentesi-program-2026-10",
+   "updated_at": "2026-10-14T15:04:44+00:00",
+   "first_seen_at": "2026-10-14T15:04:44+00:00"
   },
   {
    "additional_sources": [
@@ -1528,6 +1561,38 @@
    "updated_at": "2026-10-02T15:05:08+00:00"
   },
   {
+   "additional_sources": [
+    {
+     "name": "Telex",
+     "published_date": "2026-10-14",
+     "url": "https://telex.hu/belfold/2026/10/14/3-milliard-forintos-tanacsadoi-szerzodes-miatt-tett-feljelentest-a-miniszterelnokseg"
+    },
+    {
+     "name": "Hírnavigátor (24.hu-forrás)",
+     "published_date": "2026-10-14",
+     "url": "https://hirnavigator.hu/hir/10892255-volt-miniszter-cegehez-kerult-milliardok-miatt-tett-feljelentest-a-miniszterelnokseg"
+    }
+   ],
+   "alleged_amount_huf": 3000000000,
+   "alleged_amount_text": "közel 3 milliárd forint",
+   "confirmed_recovered_huf": 0,
+   "description": "A Miniszterelnökség 2026. október 14-én feljelentést tett egy korábbi, közel 3 milliárd forint értékű tanácsadói szerződés ügyében, amelyet egy korábbi (Orbán-kormánybeli) miniszter érdekeltségéhez köthető céggel, az EAC International-lel kötöttek, versenyeztetés nélkül. A feljelentés szerint a szerződést a kormány a koronavírus-járványra hivatkozva mentesítette a közbeszerzési eljárás alól, és a kifizetett közpénz nem állt arányban az elvégzett munkával; a kapcsolódó kormányhatározatot évtizedekre titkosították.",
+   "ministry": "Miniszterelnökség",
+   "recovered_item_id": null,
+   "report_date": "2026-10-14",
+   "report_source": {
+    "name": "Portfolio.hu",
+    "published_date": "2026-10-14",
+    "url": "https://www.portfolio.hu/gazdasag/20261014/kezirassal-szerepelt-a-kormanyhatarozaton-ki-kapja-a-milliardos-megbizast-ujabb-ugyben-tett-feljelentest-a-miniszterelnokseg-869700"
+   },
+   "status": "reported",
+   "subject": "EAC International (Fellegi Tamás) tanácsadói szerződése — a Miniszterelnökség feljelentése",
+   "verification_notes": "ÚJ TÉTEL (2026-10-14 17:00-ás futás). Legalább három forrás (Portfolio.hu, Telex, Hírnavigátor/24.hu) egyezően számol be a 2026-10-14-i miniszterelnökségi feljelentésről. A Portfolio szerint a titkosított kormányhatározaton kézírással szerepelt, melyik cég kapja a megbízást; a Telex szerint a szerződő fél az EAC International, amelynek akkori tulajdonosa és vezetője Fellegi Tamás, a második Orbán-kormány nemzeti fejlesztési minisztere volt. Nem szerepel még a kormany.hu/atlathato/feljelentes hivatalos listáján (2026-10-14-i ellenőrzés szerint, a lista változatlanul 47 ügy/2255 Mrd Ft, 2026-10-02-i állapot).",
+   "id": "reported-eac-international-fellegi-tanacsado-2026-10",
+   "updated_at": "2026-10-14T15:04:44+00:00",
+   "first_seen_at": "2026-10-14T15:04:44+00:00"
+  },
+  {
    "alleged_amount_huf": 995088880000,
    "alleged_amount_text": "kb. 995,09 milliárd forint (26, egyedileg megnevezett tétel összege a kormany.hu hivatalos listája alapján, 2026-10-02-i állapot, az Eximbank-ügyek, az M6-koncessziós ügy és a Szuverenitásvédelmi Hivatal konzorciumi szerződése nélkül — azok önálló tételekben; +6 további, összeg nélkül említett ügy)",
    "confirmed_recovered_huf": 0,
@@ -1632,8 +1697,8 @@
    "subject": "Eximbank kötvényvásárlás az Indotek-csoporttól (Jellinek Dániel) — megfelelő fedezet nélkül",
    "verification_notes": "ÚJ TÉTEL (2026-10-14 11:56-os futás). Kapitány István miniszter ugyanazon 2026-10-09-i bejelentésében (Facebook-videó, Nemzeti Nyomozó Iroda, hűtlen kezelés/hanyag kezelés/hivatali visszaélés gyanúja) két KÜLÖNBÖZŐ Eximbank-ügyet jelentett be egyszerre, összesen 166 milliárd forint értékben: (1) az EXIM Exportösztönző Magántőkealap (l. reported-exim-exportosztonzo-alap-gbpartners-2026-10, 56 Mrd Ft befektetés, 33,5+ Mrd Ft veszteség) és (2) ez a kötvényvásárlási ügy (110+ Mrd Ft, Jellinek Dániel/Indotek). A két tételt emiatt NEM szabad összeadni egyetlen dokumentumba, önálló tételként rögzítve. A miniszter szerint az Eximbank-átvilágítás eddig összesen közel 1300 milliárd forint értékű ügyben vezetett feljelentéshez — ez egy tágabb összesítő szám, nem csak erre a két új ügyre vonatkozik. Nem szerepel még a kormany.hu/atlathato/feljelentes hivatalos listáján (2026-10-14-i ellenőrzés szerint, a lista változatlanul 47 ügy/2255 Mrd Ft, 2026-10-02-i állapot). Jellinek Dánielt egy másik, korábban rögzített ügyben (Volánbusz-beszerzés, l. reported-volan-buszbeszerzes-2026-09) már letartóztatták — ez egy KÜLÖNBÖZŐ, önálló jogi eljárás, nem azonos ezzel a kötvényvásárlási üggyel.",
    "id": "reported-eximbank-jellinek-kotveny-indotek-2026-10",
-   "updated_at": "2026-10-14T10:03:47+00:00",
-   "first_seen_at": "2026-10-14T10:03:47+00:00"
+   "first_seen_at": "2026-10-14T10:03:47+00:00",
+   "updated_at": "2026-10-14T10:03:47+00:00"
   },
   {
    "alleged_amount_huf": 360000000000,
@@ -2521,8 +2586,8 @@
    "subject": "Rubint Réka cége (Norbi Duci Tréning Nkft.) — választás előtti állami támogatás vizsgálata",
    "verification_notes": "ÚJ TÉTEL (2026-10-14 11:56-os futás). Egyetlen közvetlen sajtóforrásból (Economx, a 24.hu adatfeltárására hivatkozva) ismert eddig; a 24.hu eredeti cikke nem volt közvetlenül elérhető. A Miniszterelnökség vizsgálata zajlik, formális büntetőfeljelentésről vagy annak hiányáról a cikk nem ír, ezért a tétel a 'vizsgálatot indított' kategóriába sorolva (under_investigation) került fel, nem reported-ként. Második, független forrásra vár a következő futásban. Nem szerepel a kormany.hu/atlathato/feljelentes hivatalos listáján (2026-10-14-i ellenőrzés szerint).",
    "id": "reported-rubint-reka-norbi-duci-2026-10",
-   "updated_at": "2026-10-14T10:03:47+00:00",
-   "first_seen_at": "2026-10-14T10:03:47+00:00"
+   "first_seen_at": "2026-10-14T10:03:47+00:00",
+   "updated_at": "2026-10-14T10:03:47+00:00"
   },
   {
    "alleged_amount_huf": 12600000000,
@@ -2762,7 +2827,7 @@
    "url": "https://magyarnemzet.hu/gazdasag/2026/09/allamadossag-novekedes"
   },
   "allamadossag_huf": 65716000000000,
-  "collected_at": "2026-10-14T11:56:00+02:00",
+  "collected_at": "2026-10-14T16:57:00+02:00",
   "elozo": {
    "allamadossag": {
     "period": null,
@@ -2802,7 +2867,7 @@
    {
     "key": "munkanelkulisegi_rata",
     "label_en": "Unemployment rate",
-    "label_hu": "Munkanélküliségi ráta",
+    "label_hu": "Munkanélküliégi ráta",
     "note_en": "229 thousand unemployed in August. The June-August three-month average was 4.8%.",
     "note_hu": "229 ezer munkanélküli augusztusban. A június–augusztusi háromhavi átlag 4,8% volt.",
     "period": "2026-08",
@@ -2984,70 +3049,56 @@
    "publish_date": "2026-09-22",
    "url": "https://www.portfolio.hu/gazdasag/20260922/itt-az-mnb-uj-elorejelzese-hiaba-a-nemzetkozi-kockazatok-mersekelt-marad-az-idei-inflacio-864484"
   },
-  "id": "2026-10-14T11-56"
+  "id": "2026-10-14T16-57"
  },
  "last_run": {
   "errors": [
-   "hirkereso.hu/politika 404-et adott vissza, a rovat nem volt elérhető ebben a futásban",
-   "a 3 napos ablakban (2026-10-11 – 10-14) a legtöbb figyelt portálnál nem volt WebSearch-csel azonosítható új, a szűrési kritériumoknak megfelelő megtakarítás/visszaszerzés/EU-forrás hír; a futás fő új eredménye két Eximbank-feljelentés (2026-10-09, Kapitány István) és egy egyetlen forrásból ismert ügy (Rubint Réka/Norbi Duci Tréning) volt"
+   "A kormany.hu/atlathato/feljelentes oldal tartalma (47 ugy, 2255 Mrd Ft, 2026-10-02-i allapot) valtozatlan volt a 2026-10-14 11:56-os futashoz kepest.",
+   "A Telex cikkeket (3 milliardos tanacsadoi szerzodes) WebFetch kozvetlenul 403-as hibaval elutasitotta; a reszletek WebSearch-csel (Portfolio.hu es tovabbi forrasok tartalmi osszefoglalasa alapjan) kerultek rogzitesre.",
+   "Kontroll.hu ket teaser-cikke (Rakay Philip Rege uti villaja Jaszai Gellertnek, illetve egy nyugalmazott volt svajci nagykovet kulugyi foglalkoztatasa) csak felteteles, hivatalos vizsgalat/feljelentes nelkuli ujsagiroi felvetes, osszeg vagy hatosagi lepes nelkul, ezert nem kerult fel a reported_cases kollekcioba.",
+   "Az MNB vagyonmentesi programjarol szolo tetel (100+ Mrd Ft) a Matolcsy-ugyektol elkulonitve, onallo megtakaritas-tetelkent rogzitve; a szamitasi metodologia a sajtobol nem ismert.",
+   "Az AKK hivatalos statisztikai oldala ezuttal sem volt kozvetlenul lekerheto; az allamadossag erteke valtozatlanul a 2026-07-31-i (Magyar Nemzet/AKK-adatra hivatkozo) allapotot tukrozi.",
+   "Ugyeszseg.hu legfrissebb (2026-10-09-i) tetele az NVVH neveben elkovetett csalasi kiserletrol szol, nem kozpenzugyi vizsgalat, ezert nem kerult fel.",
+   "MNVVH.hu oktoberi hirei (Hanko letartoztatas, NVVH vagyonnyilatkozatok, letszambovites) mar ismert tenyeket ismetelnek vagy nem kozpenzugyi jellegu hirek, uj tetel nem szukseges belolük."
   ],
   "eu_lost_items_new": 0,
-  "finished_at": "2026-10-14T12:35:00+02:00",
+  "finished_at": "2026-10-14T17:20:00+02:00",
   "items_duplicate": 0,
-  "items_found_total": 0,
+  "items_found_total": 2,
   "items_needs_review": 0,
-  "items_new": 0,
-  "reported_cases_new": 2,
-  "reported_cases_updated": 2,
+  "items_new": 2,
+  "reported_cases_new": 1,
+  "reported_cases_updated": 0,
   "sources_checked": [
-   "24.hu",
-   "444.hu",
-   "168.hu",
-   "atlatszo.hu",
-   "demokrata.hu",
-   "direkt36.hu",
-   "economx.hu",
-   "es.hu",
-   "forbes.hu",
-   "g7.hu",
-   "hirtv.hu",
-   "hvg.hu",
-   "index.hu",
-   "infostart.hu",
-   "jelen.media",
-   "klubradio.hu",
-   "magyarhang.org",
-   "magyarhirlap.hu",
-   "magyarnemzet.hu",
-   "makronom.hu",
-   "mandiner.hu",
-   "media1.hu",
-   "mfor.hu",
-   "merce.hu",
-   "mti.hu",
-   "nepszava.hu",
-   "origo.hu",
-   "penzcentrum.hu",
-   "portfolio.hu",
-   "privatbankar.hu",
-   "szabadeuropa.hu",
-   "telex.hu",
-   "trendfm.hu",
-   "ujegyenloseg.hu",
-   "valaszonline.hu",
-   "vg.hu",
-   "partizan.hu",
-   "okoshir.hu",
-   "szmo.hu",
-   "k-monitor.hu (WebSearch)",
+   "kormany.hu/atlathato/feljelentes",
+   "hirkereso.hu",
    "mnvvh.hu/hirek",
    "ugyeszseg.hu/kozponti-nyomozo-fougyeszseg",
-   "kormany.hu/atlathato/feljelentes"
+   "k-monitor.hu (WebSearch)",
+   "kontroll.hu",
+   "Telex",
+   "Portfolio.hu",
+   "Index.hu",
+   "444.hu",
+   "HVG",
+   "Economx",
+   "Infostart.hu",
+   "Magyar Hirlap",
+   "24.hu",
+   "Hirnavigator.hu"
   ],
-  "started_at": "2026-10-14T11:56:00+02:00",
-  "id": "2026-10-14T11-56"
+  "started_at": "2026-10-14T16:57:00+02:00",
+  "id": "2026-10-14T16-57"
  },
  "run_history": [
+  {
+   "finished_at": "2026-10-14T17:20:00+02:00",
+   "started_at": "2026-10-14T16:57:00+02:00",
+   "items_new": 2,
+   "reported_cases_new": 1,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
   {
    "finished_at": "2026-10-14T12:35:00+02:00",
    "started_at": "2026-10-14T11:56:00+02:00",
@@ -3608,31 +3659,29 @@
   }
  ],
  "run_summary": {
-  "run_id": "2026-10-14T10:03:47+00:00",
+  "run_id": "2026-10-14T15:04:44+00:00",
   "new": 2,
-  "modified": 1,
+  "modified": 0,
   "confirmed_only": 0,
-  "touched": 3,
+  "touched": 2,
   "pending_review": 2,
   "by_section": {
    "items": {
-    "new": 0,
+    "new": 1,
     "modified": 0,
     "confirmed_only": 0
    },
    "reported_cases": {
-    "new": 2,
-    "modified": 1,
+    "new": 1,
+    "modified": 0,
     "confirmed_only": 0
    }
   },
   "new_ids": [
-   "r:reported-eximbank-jellinek-kotveny-indotek-2026-10",
-   "r:reported-rubint-reka-norbi-duci-2026-10"
+   "i:megtakaritas-mnb-vagyonmentesi-program-2026-10",
+   "r:reported-eac-international-fellegi-tanacsado-2026-10"
   ],
-  "modified_ids": [
-   "r:reported-exim-exportosztonzo-alap-gbpartners-2026-10"
-  ],
+  "modified_ids": [],
   "confirmed_ids": []
  },
  "run_summary_history": [
@@ -4778,6 +4827,21 @@
     "reported_cases": {
      "new": 2,
      "modified": 1,
+     "confirmed_only": 0
+    }
+   }
+  },
+  {
+   "run_id": "2026-10-14T15:04:44+00:00",
+   "by_section": {
+    "items": {
+     "new": 1,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 1,
+     "modified": 0,
      "confirmed_only": 0
     }
    }
