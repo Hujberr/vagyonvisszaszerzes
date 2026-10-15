@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-15T10:02:51+00:00",
+ "generated_at": "2026-10-15T15:01:48+00:00",
  "summary": {
   "megtakaritas_verified_huf": 1847290700000,
   "visszaszerzes_verified_huf": 1575719300000,
@@ -2002,10 +2002,10 @@
    },
    "status": "partially_recovered",
    "subject": "Hankó Balázs korábbi kulturális miniszter — Nemzeti Kulturális Alap (NKA) forrásainak választási kampányra fordítása",
-   "verification_notes": "FRISSÍTVE 2026-10-15 05:59-es futás: a kapcsolódó items/visszaszerzes-nka-hanko-onkentes-visszafizetes-2026-07 tétel szerint a hivatalos kormany.hu adat 136 tételben 4,045 milliárd forintot mutat (korábban 4,0 Mrd Ft volt rögzítve) — a confirmed_recovered_huf ennek megfelelően frissítve; a status (partially_recovered) és a 17,3 milliárd forintos gyanúsított összeg változatlan. (Korábbi megjegyzések megőrizve, l. előző verzió.)",
+   "verification_notes": "FRISSÍTVE 2026-10-15 16:56-os futás: a Kecskeméti Járásbíróság nyomozási bírája 2026. október 1-jén egy hónapra elrendelte Hankó Balázs előzetes letartóztatását, bűnszervezetben elkövetett, különösen nagy vagyoni hátrányt okozó hűtlen kezelés gyanúja miatt (öt-tíz évig terjedő szabadságvesztéssel fenyegetett bűncselekmény). A döntés nem jogerős, Hankó és védője is fellebbezett; a végső döntést a Kecskemét Törvényszék tanácsa hozza meg. Legalább három független forrás (Infostart, 444.hu, Telex) megerősíti. Ez eljárási fejlemény, az alleged_amount_huf (17,3 Mrd Ft) és a confirmed_recovered_huf (4,045 Mrd Ft) nem változott. (Korábbi megjegyzések megőrizve:) FRISSÍTVE 2026-10-15 05:59-es futás: a kapcsolódó items/visszaszerzes-nka-hanko-onkentes-visszafizetes-2026-07 tétel szerint a hivatalos kormany.hu adat 136 tételben 4,045 milliárd forintot mutat (korábban 4,0 Mrd Ft volt rögzítve) — a confirmed_recovered_huf ennek megfelelően frissítve; a status (partially_recovered) és a 17,3 milliárd forintos gyanúsított összeg változatlan. (Korábbi megjegyzések megőrizve, l. előző verzió.)",
    "id": "reported-hanko-balazs-nka-sikkasztas-2026-09",
    "first_seen_at": "2026-09-28T15:02:40+00:00",
-   "updated_at": "2026-10-15T04:05:11+00:00"
+   "updated_at": "2026-10-15T15:01:48+00:00"
   },
   {
    "additional_sources": [
@@ -3010,7 +3010,7 @@
    "url": "https://magyarnemzet.hu/gazdasag/2026/09/allamadossag-novekedes"
   },
   "allamadossag_huf": 65716000000000,
-  "collected_at": "2026-10-15T11:56:00+02:00",
+  "collected_at": "2026-10-15T17:00:00+02:00",
   "elozo": {
    "allamadossag": {
     "period": null,
@@ -3232,79 +3232,41 @@
    "publish_date": "2026-09-22",
    "url": "https://www.portfolio.hu/gazdasag/20260922/itt-az-mnb-uj-elorejelzese-hiaba-a-nemzetkozi-kockazatok-mersekelt-marad-az-idei-inflacio-864484"
   },
-  "id": "2026-10-15T11-56"
+  "id": "2026-10-15T17-00"
  },
  "last_run": {
   "errors": [
-   "A kormany.hu/atlathato/feljelentes oldal tartalma (57 ugy, 3444 Mrd Ft, 74,0 Mrd Ft visszafizetve/megtakaritva) valtozatlan volt a 2026-10-15 05:59-es futashoz kepest, ellenorzes megtortent, frissites nem volt szukseges.",
-   "A hirkereso.hu lapszemleben talalt ket teaser-cim (\"Toth Andras lemondasa/feljelentese\" es \"Vitezy Davidi 11000 Mrd Ft-os beruhazasi felulvizsgalat\") eredeti cikkel nem volt megerositheto onallo WebSearch-csel; mivel az allitasok forrasa nem volt azonosithato, nem kerultek fel az adattarba, kovetkezo futasban erdemes ismet ellenorizni.",
-   "A gazkereskedelmi (gazmaffia) csalasi ugy (kb. 60-70 Mrd Ft kulfoldre vitt afa-csalas) nem kormanyzati/allami kozpenz-visszaeles, hanem maganszereplok kozotti adocsalas, ezert a felhasznaloi szuresi szabaly szerint nem kerult fel reported_cases-be.",
-   "Az mnvvh.hu 2026-10-09-i hire (ket ferfi az NVVH neveben 2 milliard Ft-ot probalt kicsalni egy aldozattol) csalasi kiserlet, nem kozpenzugyi visszaeles vizsgalata, ezert nem kerult fel.",
-   "Az AKK hivatalos statisztikai oldala (akk.hu) ebben a futasban sem volt kozvetlenul lekerheto; az allamadossag erteke valtozatlanul a 2026-07-31-i (Magyar Nemzet/AKK-adatra hivatkozo) allapotot tukrozi.",
-   "KSH szeptemberi/oktoberi uj munkanelkulisegi gyorstajekoztato ebben a futasban nem volt elerheto, az augusztusi adat maradt ervenyben.",
-   "Uj makropillanatkep keszult, kizarolag az MNB EUR/HUF es USD/HUF fixing frissitesevel (2026-10-15: 364,18 Ft/EUR, 324,70 Ft/USD); minden tobbi mutato valtozatlan maradt az elozo (05:59-es) pillanatkephez kepest."
+   "A kormany.hu/atlathato/feljelentes 2026-10-14-i állapota tartalmilag megegyezik a reggeli (05:59-es) futásban már rögzített adatokkal (57 ügy, 3444 Mrd Ft), új eltérés nem azonosítható.",
+   "A sajtókeresések többsége már korábban rögzített vagy régebbi (2024-2025-ös), nem releváns találatot adott; új, megbízhatóan második forrással alátámasztott tétel nem került elő ebben a futásban (egy eljárási frissítés történt: Hankó Balázs letártóztatása, 2026-10-01).",
+   "A K-Monitor célzott keresése (mentelmi jog, feljelentés közpénz) ebben a futásban nem hozott új, azonosítható találatot."
   ],
   "eu_lost_items_new": 0,
-  "finished_at": "2026-10-15T12:35:00+02:00",
+  "finished_at": "2026-10-15T17:05:00+02:00",
   "items_duplicate": 0,
   "items_found_total": 0,
   "items_needs_review": 0,
   "items_new": 0,
   "reported_cases_new": 0,
-  "reported_cases_updated": 0,
+  "reported_cases_updated": 1,
   "sources_checked": [
    "kormany.hu/atlathato/feljelentes",
-   "24.hu",
-   "444.hu",
-   "168.hu",
-   "atlatszo.hu",
-   "demokrata.hu",
-   "direkt36.hu",
-   "economx.hu",
-   "es.hu",
-   "forbes.hu",
-   "g7.hu",
-   "hirtv.hu",
-   "hvg.hu",
-   "index.hu",
-   "infostart.hu",
-   "jelen.media",
-   "klubradio.hu",
-   "magyarhang.org",
-   "magyarhirlap.hu",
-   "magyarnemzet.hu",
-   "makronom.hu",
-   "mandiner.hu",
-   "media1.hu",
-   "mfor.hu",
-   "merce.hu",
-   "mti.hu",
-   "nepszava.hu",
-   "origo.hu",
-   "penzcentrum.hu",
-   "portfolio.hu",
-   "privatbankar.hu",
-   "szabadeuropa.hu",
-   "telex.hu",
-   "trendfm.hu",
-   "ujegyenloseg.hu",
-   "valaszonline.hu",
-   "vg.hu",
-   "partizan.hu",
-   "okoshir.hu",
-   "szmo.hu",
-   "K-Monitor (WebSearch)",
-   "hirkereso.hu",
    "mnvvh.hu/hirek",
-   "ugyeszseg.hu/kozponti-nyomozo-fougyeszseg",
-   "MNB (arfolyamok)",
-   "KSH (via sajto)"
+   "ugyeszseg.hu (Központi Nyomozó Főügyészség)",
+   "hirkereso.hu",
+   "WebSearch: több mint 10 tematikus keresés (megtakarítás, visszaszerzés, EU-forrás, elveszett EU-forrás, feljelentés/túlrárazás, K-Monitor, gázmaffia, NAV)"
   ],
-  "started_at": "2026-10-15T11:56:00+02:00",
-  "version_note": "Futas: 2026-10-15 11:56 (Europe/Budapest)",
-  "id": "2026-10-15T11-56"
+  "started_at": "2026-10-15T16:56:00+02:00",
+  "id": "2026-10-15T17-00"
  },
  "run_history": [
+  {
+   "finished_at": "2026-10-15T17:05:00+02:00",
+   "started_at": "2026-10-15T16:56:00+02:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 1,
+   "eu_lost_items_new": 0
+  },
   {
    "finished_at": "2026-10-15T12:35:00+02:00",
    "started_at": "2026-10-15T11:56:00+02:00",
@@ -3889,11 +3851,11 @@
   }
  ],
  "run_summary": {
-  "run_id": "2026-10-15T10:02:51+00:00",
+  "run_id": "2026-10-15T15:01:48+00:00",
   "new": 0,
   "modified": 0,
-  "confirmed_only": 0,
-  "touched": 0,
+  "confirmed_only": 1,
+  "touched": 1,
   "pending_review": 2,
   "by_section": {
    "items": {
@@ -3904,12 +3866,14 @@
    "reported_cases": {
     "new": 0,
     "modified": 0,
-    "confirmed_only": 0
+    "confirmed_only": 1
    }
   },
   "new_ids": [],
   "modified_ids": [],
-  "confirmed_ids": []
+  "confirmed_ids": [
+   "r:reported-hanko-balazs-nka-sikkasztas-2026-09"
+  ]
  },
  "run_summary_history": [
   {
@@ -5100,6 +5064,21 @@
      "new": 0,
      "modified": 0,
      "confirmed_only": 0
+    }
+   }
+  },
+  {
+   "run_id": "2026-10-15T15:01:48+00:00",
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 1
     }
    }
   }
