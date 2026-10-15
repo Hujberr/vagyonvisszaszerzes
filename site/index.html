@@ -2943,6 +2943,12 @@ window.SITE_CONFIG = {
         swReg = reg;
         return pushSupported && Notification.permission === "granted" ? reg.pushManager.getSubscription() : null;
       }).then(s => { subscribed = !!s; update(); if(s) post({ action:"subscribe", endpoint:s.endpoint, lang, keys:subKeys(s) }).catch(() => {}); }).catch(() => {});
+    /* Megnyitáskor és előtérbe kerüléskor eltűnteti az app még látható értesítéseit az értesítési sávból. */
+    const clearNotifs = () => { try { if(!("serviceWorker" in navigator)) return;
+      navigator.serviceWorker.ready.then(r => r.getNotifications ? r.getNotifications().then(l => l.forEach(n => n.close())) : null).catch(() => {}); } catch(_){} };
+    clearNotifs();
+    document.addEventListener("visibilitychange", () => { if(!document.hidden) clearNotifs(); });
+    window.addEventListener("pageshow", clearNotifs);
     const LS_FIRST = "elszamoltatas_app_first";
     if(isStandalone() && lsGet(LS_FIRST) !== "1"){ lsSet(LS_FIRST, "1"); track("first_app"); }
     if(isMobile) setTimeout(() => { Promise.race([stateReady, new Promise(r => setTimeout(r, 1500))]).then(showCallout); }, 1000);
