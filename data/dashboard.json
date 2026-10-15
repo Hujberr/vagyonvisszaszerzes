@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-15T04:05:11+00:00",
+ "generated_at": "2026-10-15T10:02:51+00:00",
  "summary": {
   "megtakaritas_verified_huf": 1847290700000,
   "visszaszerzes_verified_huf": 1575719300000,
@@ -230,8 +230,8 @@
    "subject": "Norvég Alap / EGT Finanszírozási Mechanizmus (2021–2028 időszak) — megállapodás a forrás felszabadításáról",
    "verification_notes": "ÚJ TÉTEL / ÚJ KERET (2026-10-15 05:59-es futás). Az EU-keretek szabálya szerint ez egy ÖNÁLLÓ, új keret (nem az RRF/kohéziós 16,4 milliárd eurós csomag vagy a Modernizációs Alap része), mert teljesen más uniós/EGT eszközről (Norvégia, Izland, Liechtenstein által finanszírozott EGT Finanszírozási Mechanizmus) van szó, önálló, különálló tárgyalási folyamattal. A kormány hivatalos (miniszteri) bejelentése szerint a tárgyalások lezárultak, de a pénz ténylegesen még nem érkezett meg, az együttműködési megállapodás aláírása még hátravan — ezért received_huf egyelőre 0. A korábbi (2014-2021-es) időszak forrásából Magyarország semmit nem kapott egy döntéshozatali vita miatt, ez a 2021-2028-as időszak új megállapodása.",
    "id": "eu-forras-norveg-alap-2026-10",
-   "updated_at": "2026-10-15T04:05:11+00:00",
-   "first_seen_at": "2026-10-15T04:05:11+00:00"
+   "first_seen_at": "2026-10-15T04:05:11+00:00",
+   "updated_at": "2026-10-15T04:05:11+00:00"
   },
   {
    "additional_sources": [
@@ -323,8 +323,8 @@
    "subject": "Farkasvölgyi úti kollégium fejlesztésének elmaradása",
    "verification_notes": "ÚJ TÉTEL (2026-10-15 05:59-es futás). Kizárólag hivatalos forrásból (kormany.hu, 'Meg nem valósult kiadás' lista) ismert; független sajtóforrás egyelőre nem található hozzá. A projekt pontos intézményi háttere a hivatalos oldalon nincs részletezve.",
    "id": "megtakaritas-farkasvolgyi-kollegium-2026-10",
-   "updated_at": "2026-10-15T04:05:11+00:00",
-   "first_seen_at": "2026-10-15T04:05:11+00:00"
+   "first_seen_at": "2026-10-15T04:05:11+00:00",
+   "updated_at": "2026-10-15T04:05:11+00:00"
   },
   {
    "additional_sources": [
@@ -913,8 +913,8 @@
    "subject": "Tatai görögkatolikus kápolna (Piarista Rendház) támogatásának visszavonása",
    "verification_notes": "ÚJ TÉTEL (2026-10-15 05:59-es futás). Kizárólag hivatalos forrásból (kormany.hu, 'Megtakarítás' lista) ismert; független sajtóforrás egyelőre nem található hozzá.",
    "id": "megtakaritas-tatai-gorogkatolikus-kapolna-2026-10",
-   "updated_at": "2026-10-15T04:05:11+00:00",
-   "first_seen_at": "2026-10-15T04:05:11+00:00"
+   "first_seen_at": "2026-10-15T04:05:11+00:00",
+   "updated_at": "2026-10-15T04:05:11+00:00"
   },
   {
    "additional_sources": [
@@ -983,8 +983,8 @@
    "subject": "Öt közérdekű vagyonkezelő alapítvány — tényleges készpénz-visszafizetés az államnak",
    "verification_notes": "ÚJ TÉTEL (2026-10-15 05:59-es futás). Hivatalos forrás (kormany.hu, 'Visszafizetve' lista, 2026-10-14-i állapot szerinti ellenőrzés). Ez a konkrét, tényleges KÉSZPÉNZ-visszafizetés különbözik a visszaszerzes-kekva-2026-08 tételben (1284 Mrd Ft, a felszámolt alapítványok teljes VAGYONÁNAK — cégrészesedések, ingatlanok — értéke) és a visszaszerzes-4alapitvany-kbm-2026-08 tételben (100 Mrd Ft, KBM-felügyelet alá tartozó 4 alapítvány vagyona) rögzített, szélesebb vagyonátvételi összegektől — azok a felszámolt alapítványok teljes vagyonát jelentik, ez pedig egy konkrét, tényleges pénzvisszafizetés öt, névvel azonosított alapítványtól; nem adandó hozzá azokhoz a dupla számolás elkerülése végett.",
    "id": "visszaszerzes-5kekva-alapitvany-keszpenz-2026-10",
-   "updated_at": "2026-10-15T04:05:11+00:00",
-   "first_seen_at": "2026-10-15T04:05:11+00:00"
+   "first_seen_at": "2026-10-15T04:05:11+00:00",
+   "updated_at": "2026-10-15T04:05:11+00:00"
   },
   {
    "additional_sources": [],
@@ -1422,8 +1422,8 @@
    "subject": "Thália Színház felújítási alapjának visszautalása (Millenáris Nonprofit Kft.)",
    "verification_notes": "ÚJ TÉTEL (2026-10-15 05:59-es futás). Kizárólag hivatalos forrásból (kormany.hu, 'Visszafizetve' lista) ismert; független sajtóforrás egyelőre nem található hozzá. A pontos esemény-dátum a hivatalos oldalon nincs feltüntetve, ezért a mai ellenőrzés dátuma szerepel event_date-ként is.",
    "id": "visszaszerzes-thalia-szinhaz-millenaris-2026-10",
-   "updated_at": "2026-10-15T04:05:11+00:00",
-   "first_seen_at": "2026-10-15T04:05:11+00:00"
+   "first_seen_at": "2026-10-15T04:05:11+00:00",
+   "updated_at": "2026-10-15T04:05:11+00:00"
   },
   {
    "additional_sources": [
@@ -2920,8 +2920,8 @@
    "subject": "Tudományos és Technológiai Minisztérium — hat informatikai/tanácsadói szerződés feljelentése",
    "verification_notes": "ÚJ, GYŰJTŐ TÉTEL (2026-10-15 05:59-es futás). Hat, 2026-10-09-i dátummal a kormany.hu hivatalos listáján megjelent, azonos tárcához (Tudományos és Technológiai Minisztérium) tartozó informatikai/tanácsadói szerződés egy gyűjtő dokumentumban rögzítve, az egyedi (jellemzően kisebb) tételek külön dokumentumokkal való elaprózása helyett — hasonlóan a reported-egyeb-miniszteriumi-18ugy-2026 gyűjtőtételhez. Független sajtóforrás egyelőre egyik komponenshez sem található; kizárólag hivatalos forrásból ismertek. Ha a jövőben bármelyik komponenshez önálló sajtóhír vagy jelentős fejlemény (pl. nyomozás elrendelése) kapcsolódik, az a komponens kiemelhető önálló tételként ebből a gyűjtőből, a dupla számolás elkerülésével.",
    "id": "reported-ttm-informatikai-szerzodesek-2026-10",
-   "updated_at": "2026-10-15T04:05:11+00:00",
-   "first_seen_at": "2026-10-15T04:05:11+00:00"
+   "first_seen_at": "2026-10-15T04:05:11+00:00",
+   "updated_at": "2026-10-15T04:05:11+00:00"
   },
   {
    "additional_sources": [
@@ -3010,7 +3010,7 @@
    "url": "https://magyarnemzet.hu/gazdasag/2026/09/allamadossag-novekedes"
   },
   "allamadossag_huf": 65716000000000,
-  "collected_at": "2026-10-15T05:59:00+02:00",
+  "collected_at": "2026-10-15T11:56:00+02:00",
   "elozo": {
    "allamadossag": {
     "period": null,
@@ -3119,18 +3119,18 @@
     "key": "eur_huf",
     "label_en": "Official EUR/HUF rate (MNB)",
     "label_hu": "Euró hivatalos árfolyama (MNB)",
-    "note_en": "USD: 325.72 HUF (2026-10-13 fixing). No newer (Oct 14) fixing was available in this run.",
-    "note_hu": "Dollár: 325,72 Ft (2026-10-13-i fixing). Ebben a futásban nem volt elérhető frissebb (10-14-i) fixing.",
-    "period": "2026-10-13",
-    "prev_period": "2026-10-12",
-    "prev_value": 365.21,
+    "note_en": "USD: 324.70 HUF (2026-10-15 fixing).",
+    "note_hu": "Dollár: 324,70 Ft (2026-10-15-i fixing).",
+    "period": "2026-10-15",
+    "prev_period": "2026-10-13",
+    "prev_value": 364.22,
     "source": {
      "name": "MNB hivatalos árfolyamok",
-     "publish_date": "2026-10-13",
+     "publish_date": "2026-10-15",
      "url": "https://www.mnb.hu/arfolyamok"
     },
     "unit": "Ft/EUR",
-    "value": 364.22
+    "value": 364.18
    },
    {
     "key": "brutto_atlagkereset",
@@ -3232,49 +3232,87 @@
    "publish_date": "2026-09-22",
    "url": "https://www.portfolio.hu/gazdasag/20260922/itt-az-mnb-uj-elorejelzese-hiaba-a-nemzetkozi-kockazatok-mersekelt-marad-az-idei-inflacio-864484"
   },
-  "id": "2026-10-15T05-59"
+  "id": "2026-10-15T11-56"
  },
  "last_run": {
   "errors": [
-   "Az ÁKK hivatalos statisztikai oldala (akk.hu) ebben a futásban sem volt közvetlenül lekérhető; az államadósság értéke változatlanul a 2026-07-31-i (Magyar Nemzet/ÁKK-adatra hivatkozó) állapotot tükrözi.",
-   "MNB EUR/HUF hivatalos fixing: ebben a futásban nem volt elérhető újabb (2026-10-14-i) árfolyam, a 2026-10-13-i maradt érvényben.",
-   "A Farkasvölgyi úti kollégium és a tatai görögkatolikus kápolna (Piarista Rendház) tételekhez független sajtóforrás nem volt található — kizárólag a kormany.hu hivatalos oldal alapján rögzítve.",
-   "A kormany.hu hivatalos lista jelentősen bővült (47→57 ügy, 2255→3444 Mrd Ft) az előző futáshoz képest; a teljes 57 ügyes lista egyedi reported_cases-tételekre bontása csak részben történt meg ebben a futásban (a már korábban önállóan rögzített és a most újonnan felvett tételek mentén), a reported-egyeb-miniszteriumi-18ugy-2026 gyűjtőben maradó komponensek egyedi szétbontása későbbi futásra marad.",
-   "A K-Monitor site-keresés nem hozott közvetlen k-monitor.hu találatot ebben a futásban; a célzott keresés helyett az általános keresési eredmények szolgáltak kiegészítő kontextusként."
+   "A kormany.hu/atlathato/feljelentes oldal tartalma (57 ugy, 3444 Mrd Ft, 74,0 Mrd Ft visszafizetve/megtakaritva) valtozatlan volt a 2026-10-15 05:59-es futashoz kepest, ellenorzes megtortent, frissites nem volt szukseges.",
+   "A hirkereso.hu lapszemleben talalt ket teaser-cim (\"Toth Andras lemondasa/feljelentese\" es \"Vitezy Davidi 11000 Mrd Ft-os beruhazasi felulvizsgalat\") eredeti cikkel nem volt megerositheto onallo WebSearch-csel; mivel az allitasok forrasa nem volt azonosithato, nem kerultek fel az adattarba, kovetkezo futasban erdemes ismet ellenorizni.",
+   "A gazkereskedelmi (gazmaffia) csalasi ugy (kb. 60-70 Mrd Ft kulfoldre vitt afa-csalas) nem kormanyzati/allami kozpenz-visszaeles, hanem maganszereplok kozotti adocsalas, ezert a felhasznaloi szuresi szabaly szerint nem kerult fel reported_cases-be.",
+   "Az mnvvh.hu 2026-10-09-i hire (ket ferfi az NVVH neveben 2 milliard Ft-ot probalt kicsalni egy aldozattol) csalasi kiserlet, nem kozpenzugyi visszaeles vizsgalata, ezert nem kerult fel.",
+   "Az AKK hivatalos statisztikai oldala (akk.hu) ebben a futasban sem volt kozvetlenul lekerheto; az allamadossag erteke valtozatlanul a 2026-07-31-i (Magyar Nemzet/AKK-adatra hivatkozo) allapotot tukrozi.",
+   "KSH szeptemberi/oktoberi uj munkanelkulisegi gyorstajekoztato ebben a futasban nem volt elerheto, az augusztusi adat maradt ervenyben.",
+   "Uj makropillanatkep keszult, kizarolag az MNB EUR/HUF es USD/HUF fixing frissitesevel (2026-10-15: 364,18 Ft/EUR, 324,70 Ft/USD); minden tobbi mutato valtozatlan maradt az elozo (05:59-es) pillanatkephez kepest."
   ],
   "eu_lost_items_new": 0,
-  "finished_at": "2026-10-15T06:40:00+02:00",
+  "finished_at": "2026-10-15T12:35:00+02:00",
   "items_duplicate": 0,
-  "items_found_total": 7,
+  "items_found_total": 0,
   "items_needs_review": 0,
-  "items_new": 5,
-  "reported_cases_new": 1,
-  "reported_cases_updated": 7,
+  "items_new": 0,
+  "reported_cases_new": 0,
+  "reported_cases_updated": 0,
   "sources_checked": [
    "kormany.hu/atlathato/feljelentes",
-   "Index.hu",
-   "Telex",
-   "Portfolio.hu",
+   "24.hu",
    "444.hu",
-   "HVG",
-   "Economx",
-   "ATV",
-   "Infostart.hu",
-   "Magyar Hírlap",
-   "Hang.hu",
-   "Hírnavigátor",
-   "mnvvh.hu/hirek",
-   "ugyeszseg.hu (Központi Nyomozó Főügyészség)",
+   "168.hu",
+   "atlatszo.hu",
+   "demokrata.hu",
+   "direkt36.hu",
+   "economx.hu",
+   "es.hu",
+   "forbes.hu",
+   "g7.hu",
+   "hirtv.hu",
+   "hvg.hu",
+   "index.hu",
+   "infostart.hu",
+   "jelen.media",
+   "klubradio.hu",
+   "magyarhang.org",
+   "magyarhirlap.hu",
+   "magyarnemzet.hu",
+   "makronom.hu",
+   "mandiner.hu",
+   "media1.hu",
+   "mfor.hu",
+   "merce.hu",
+   "mti.hu",
+   "nepszava.hu",
+   "origo.hu",
+   "penzcentrum.hu",
+   "portfolio.hu",
+   "privatbankar.hu",
+   "szabadeuropa.hu",
+   "telex.hu",
+   "trendfm.hu",
+   "ujegyenloseg.hu",
+   "valaszonline.hu",
+   "vg.hu",
+   "partizan.hu",
+   "okoshir.hu",
+   "szmo.hu",
+   "K-Monitor (WebSearch)",
    "hirkereso.hu",
-   "K-Monitor (site-keresés)",
-   "Piac és Profit",
-   "eduline.hu"
+   "mnvvh.hu/hirek",
+   "ugyeszseg.hu/kozponti-nyomozo-fougyeszseg",
+   "MNB (arfolyamok)",
+   "KSH (via sajto)"
   ],
-  "started_at": "2026-10-15T05:59:00+02:00",
-  "version_note": "Futás: 2026-10-15 05:59 (Europe/Budapest)",
-  "id": "2026-10-15T05-59"
+  "started_at": "2026-10-15T11:56:00+02:00",
+  "version_note": "Futas: 2026-10-15 11:56 (Europe/Budapest)",
+  "id": "2026-10-15T11-56"
  },
  "run_history": [
+  {
+   "finished_at": "2026-10-15T12:35:00+02:00",
+   "started_at": "2026-10-15T11:56:00+02:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
   {
    "finished_at": "2026-10-15T06:40:00+02:00",
    "started_at": "2026-10-15T05:59:00+02:00",
@@ -3851,43 +3889,27 @@
   }
  ],
  "run_summary": {
-  "run_id": "2026-10-15T04:05:11+00:00",
-  "new": 6,
-  "modified": 6,
-  "confirmed_only": 1,
-  "touched": 13,
+  "run_id": "2026-10-15T10:02:51+00:00",
+  "new": 0,
+  "modified": 0,
+  "confirmed_only": 0,
+  "touched": 0,
   "pending_review": 2,
   "by_section": {
    "items": {
-    "new": 5,
-    "modified": 2,
+    "new": 0,
+    "modified": 0,
     "confirmed_only": 0
    },
    "reported_cases": {
-    "new": 1,
-    "modified": 4,
-    "confirmed_only": 1
+    "new": 0,
+    "modified": 0,
+    "confirmed_only": 0
    }
   },
-  "new_ids": [
-   "i:eu-forras-norveg-alap-2026-10",
-   "i:megtakaritas-farkasvolgyi-kollegium-2026-10",
-   "i:megtakaritas-tatai-gorogkatolikus-kapolna-2026-10",
-   "i:visszaszerzes-5kekva-alapitvany-keszpenz-2026-10",
-   "i:visszaszerzes-thalia-szinhaz-millenaris-2026-10",
-   "r:reported-ttm-informatikai-szerzodesek-2026-10"
-  ],
-  "modified_ids": [
-   "i:visszaszerzes-konig-alapitvany-2026-09",
-   "i:visszaszerzes-nka-hanko-onkentes-visszafizetes-2026-07",
-   "r:reported-eac-international-fellegi-tanacsado-2026-10",
-   "r:reported-exim-exportosztonzo-alap-gbpartners-2026-10",
-   "r:reported-hanko-balazs-nka-sikkasztas-2026-09",
-   "r:reported-mkif-autopalya-koncesszio-2026-09"
-  ],
-  "confirmed_ids": [
-   "r:reported-eximbank-jellinek-kotveny-indotek-2026-10"
-  ]
+  "new_ids": [],
+  "modified_ids": [],
+  "confirmed_ids": []
  },
  "run_summary_history": [
   {
@@ -5063,6 +5085,21 @@
      "new": 1,
      "modified": 4,
      "confirmed_only": 1
+    }
+   }
+  },
+  {
+   "run_id": "2026-10-15T10:02:51+00:00",
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
     }
    }
   }
