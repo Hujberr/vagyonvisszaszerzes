@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-15T15:01:48+00:00",
+ "generated_at": "2026-10-16T04:01:53+00:00",
  "summary": {
   "megtakaritas_verified_huf": 1847290700000,
   "visszaszerzes_verified_huf": 1575719300000,
@@ -1739,10 +1739,10 @@
    },
    "status": "reported",
    "subject": "EAC International (Fellegi Tamás) tanácsadói szerződése — a Miniszterelnökség feljelentése",
-   "verification_notes": "FRISSÍTVE 2026-10-15 05:59-es futás: az ügy megjelent a kormany.hu hivatalos listáján is, 'EuroAtlantic tanácsadói megbízás' néven, 2,97 milliárd forintos összeggel (a sajtóban korábban 'EAC International'/Fellegi Tamás néven szereplő cég jogutódja: EuroAtlantic Consulting & Investment, Inc. — ugyanaz az ügy). A report_source ezért a hivatalos kormany.hu oldalra frissítve, a Portfolio.hu és a többi sajtóforrás additional_sources-ba került. Legalább nyolc sajtóforrás (ATV, HVG, Economx, Portfolio, 444.hu, Infostart, Magyar Hírlap, Hang.hu, Hírnavigátor) megerősítette az ügyet. (Korábbi megjegyzés megőrizve:) ÚJ TÉTEL (2026-10-14 17:00-ás futás).",
+   "verification_notes": "FRISSÍTVE 2026-10-16 05:56-os futás: további részletek derültek ki a sajtóból (Magyar Hírlap, Infostart, Piac és Profit, Telex, Zsaruhírek, Debreceni Nap) a 2021 januári szerződésről: a közbeszerzés alóli mentesítést a koronavírus-járvány elleni védekezésért felelős operatív törzs felé Gulyás Gergely akkori Miniszterelnökséget vezető miniszter kérte, a tényleges mentesítést pedig Pintér Sándor, az egészségügyért felelős belügyminiszter adta meg. A Miniszterelnökség szerint a kormányhatározat aláírásakor a nyertes cég nevét már kézzel rávezették a dokumentumra, és az iktatástól a szerződés aláírásáig mindössze három nap telt el. Ez megerősíti és részletezi a korábban rögzített tényeket; az alleged_amount_huf (2,97 Mrd Ft), a status (reported) és a report_source nem változott. (Korábbi megjegyzések megőrizve, l. előző verzió.)",
    "id": "reported-eac-international-fellegi-tanacsado-2026-10",
    "first_seen_at": "2026-10-14T15:04:44+00:00",
-   "updated_at": "2026-10-15T04:05:11+00:00"
+   "updated_at": "2026-10-16T04:01:53+00:00"
   },
   {
    "alleged_amount_huf": 995088880000,
@@ -3236,12 +3236,19 @@
  },
  "last_run": {
   "errors": [
-   "A kormany.hu/atlathato/feljelentes 2026-10-14-i állapota tartalmilag megegyezik a reggeli (05:59-es) futásban már rögzített adatokkal (57 ügy, 3444 Mrd Ft), új eltérés nem azonosítható.",
-   "A sajtókeresések többsége már korábban rögzített vagy régebbi (2024-2025-ös), nem releváns találatot adott; új, megbízhatóan második forrással alátámasztott tétel nem került elő ebben a futásban (egy eljárási frissítés történt: Hankó Balázs letártóztatása, 2026-10-01).",
-   "A K-Monitor célzott keresése (mentelmi jog, feljelentés közpénz) ebben a futásban nem hozott új, azonosítható találatot."
+   "A kormany.hu/atlathato/feljelentes oldal tartalma (57 ügy, 3444 Mrd Ft, 74,0 Mrd Ft visszafizetve/megtakarítva, 2026-10-14-i állapot) ebben a futásban is változatlan volt a 2026-10-15-i állapothoz képest — nem volt szükség frissítésre.",
+   "Az ÁKK hivatalos statisztikai oldala (akk.hu) ebben a futásban sem volt közvetlenül lekérhető egyértelmű, abszolút Ft-összeggel; az államadósság értéke változatlanul a 2026-07-31-i (Magyar Nemzet/ÁKK-adatra hivatkozó) állapotot tükrözi.",
+   "A KSH szeptemberi munkanélküliségi gyorstájékoztatója ebben a futásban még nem volt elérhető; a legutóbbi (2026-08: 4,7%) adat maradt érvényben.",
+   "Az MNB 2026-10-16-i hivatalos EUR/HUF fixingje nem volt megbízhatóan azonosítható a keresésben; mivel egyik makromutatóban sem volt azonosítható új hivatalos publikáció a 2026-10-15T17-00-ás pillanatkép óta, új macro_snapshots dokumentum ebben a futásban nem készült.",
+   "A Miniszterelnökség/Fellegi Tamás-EAC International tanácsadói ügyhöz (reported-eac-international-fellegi-tanacsado-2026-10) további részlet került elő (Pintér Sándor szerepe, kézzel ráírt kormányhatározat, 3 napos határidő) — ez megerősítő/kiegészítő frissítés, az összeg és a státusz nem változott.",
+   "A NAV Bűnügyi Főigazgatóságának HR-igazgatója (Szalavics Mariann) felmentése személyzeti döntés, nem közpénzügyi visszaélés, ezért nem került be az adattárba.",
+   "A Vitézy Dávid-féle, 11 ezer milliárd forintos gyorsforgalmiút-fejlesztési tervek felülvizsgálata (Index, 2026-10-14) egy bejelentett SZÁNDÉK/felülvizsgálat, nem tényleges, realizált megtakarítás, ezért nem került fel az items kollekcióba; figyelendő, ha konkrét összegű eredmény születik.",
+   "A Központi Nyomozó Főügyészség által dr. Magyar Péterrel szemben közölt lopási gyanú (2026-10-07) nem korábbi (Fidesz/Orbán-korszakbeli) közpénzügyi visszaélés, ezért a felhasználói szűrési szabály szerint nem került be a reported_cases kollekcióba.",
+   "A 270 milliárd forintos kkv-knak szánt kamatmentes uniós hitelprogram (HRportal, PiacProfit, 2026-10-15) egy vállalkozásoknak szóló hitelkeret-program bejelentése, nem állami/kormányzati szintű EU-forrás megállapodás vagy kifizetés, ezért nem került fel az eu_forras kategóriába.",
+   "A gázmaffia-ügy (24.hu, 2026-10-15, kb. 300+ Mrd Ft külföldre vitt összeg) magánszereplők közötti áfa-csalás, nem állami közpénz-visszaélés, ezért nem került be az adattárba (korábbi futások elvével összhangban)."
   ],
   "eu_lost_items_new": 0,
-  "finished_at": "2026-10-15T17:05:00+02:00",
+  "finished_at": "2026-10-16T06:40:00+02:00",
   "items_duplicate": 0,
   "items_found_total": 0,
   "items_needs_review": 0,
@@ -3249,16 +3256,66 @@
   "reported_cases_new": 0,
   "reported_cases_updated": 1,
   "sources_checked": [
-   "kormany.hu/atlathato/feljelentes",
-   "mnvvh.hu/hirek",
-   "ugyeszseg.hu (Központi Nyomozó Főügyészség)",
-   "hirkereso.hu",
-   "WebSearch: több mint 10 tematikus keresés (megtakarítás, visszaszerzés, EU-forrás, elveszett EU-forrás, feljelentés/túlrárazás, K-Monitor, gázmaffia, NAV)"
+   "kormany.hu/atlathato/feljelentes (hivatalos, teljes lista ellenőrizve: 57 ügy / 3444 Mrd Ft / 14 nyomozás / 74,0 Mrd Ft visszafizetve-megtakarítva — változatlan a 2026-10-15-i állapothoz képest)",
+   "mnvvh.hu/hirek (csak már ismert ügyek: NVVH impersonation-csalási kísérlet, Hankó-letartóztatás, aranykonvoj-ügy — új, forintosítható vagyonügy nincs)",
+   "ugyeszseg.hu/category/hirek/kozponti-nyomozo-fougyeszseg (elérhető volt; a dr. Magyar Péter elleni lopási gyanú nem közpénzügyi jellegű, a többi tétel már rögzített)",
+   "K-Monitor (k-monitor.hu, WebSearch — site: operátor ezúttal sem adott közvetlen domain-találatot)",
+   "hirkereso.hu/gazdasag/friss",
+   "24.hu",
+   "444.hu",
+   "168.hu",
+   "atlatszo.hu",
+   "demokrata.hu",
+   "direkt36.hu",
+   "economx.hu",
+   "es.hu",
+   "forbes.hu",
+   "g7.hu",
+   "hirtv.hu",
+   "hvg.hu",
+   "index.hu",
+   "infostart.hu",
+   "jelen.media",
+   "klubradio.hu",
+   "magyarhang.org",
+   "magyarhirlap.hu",
+   "magyarnemzet.hu",
+   "makronom.hu",
+   "mandiner.hu",
+   "media1.hu",
+   "mfor.hu",
+   "merce.hu",
+   "mti.hu",
+   "nepszava.hu",
+   "origo.hu",
+   "penzcentrum.hu",
+   "portfolio.hu",
+   "privatbankar.hu",
+   "szabadeuropa.hu",
+   "telex.hu",
+   "trendfm.hu",
+   "ujegyenloseg.hu",
+   "valaszonline.hu",
+   "vg.hu",
+   "partizan.hu",
+   "okoshir.hu",
+   "szmo.hu",
+   "mnb.hu (árfolyamok, sajtón keresztül)",
+   "ksh.hu (infláció/munkanélküliség, sajtón keresztül)",
+   "akk.hu (államadósság, sajtón keresztül)"
   ],
-  "started_at": "2026-10-15T16:56:00+02:00",
-  "id": "2026-10-15T17-00"
+  "started_at": "2026-10-16T05:56:00+02:00",
+  "id": "2026-10-16T05-56"
  },
  "run_history": [
+  {
+   "finished_at": "2026-10-16T06:40:00+02:00",
+   "started_at": "2026-10-16T05:56:00+02:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 1,
+   "eu_lost_items_new": 0
+  },
   {
    "finished_at": "2026-10-15T17:05:00+02:00",
    "started_at": "2026-10-15T16:56:00+02:00",
@@ -3851,7 +3908,7 @@
   }
  ],
  "run_summary": {
-  "run_id": "2026-10-15T15:01:48+00:00",
+  "run_id": "2026-10-16T04:01:53+00:00",
   "new": 0,
   "modified": 0,
   "confirmed_only": 1,
@@ -3872,7 +3929,7 @@
   "new_ids": [],
   "modified_ids": [],
   "confirmed_ids": [
-   "r:reported-hanko-balazs-nka-sikkasztas-2026-09"
+   "r:reported-eac-international-fellegi-tanacsado-2026-10"
   ]
  },
  "run_summary_history": [
@@ -5069,6 +5126,21 @@
   },
   {
    "run_id": "2026-10-15T15:01:48+00:00",
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 1
+    }
+   }
+  },
+  {
+   "run_id": "2026-10-16T04:01:53+00:00",
    "by_section": {
     "items": {
      "new": 0,
