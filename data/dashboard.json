@@ -1,13 +1,13 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-16T04:01:53+00:00",
+ "generated_at": "2026-10-16T10:04:27+00:00",
  "summary": {
   "megtakaritas_verified_huf": 1847290700000,
   "visszaszerzes_verified_huf": 1575719300000,
   "eu_forras_verified_huf": 6280000000000,
   "eu_forras_lost_huf": 730000000000,
   "items_count": 37,
-  "reported_cases_count": 49
+  "reported_cases_count": 50
  },
  "items": [
   {
@@ -2064,6 +2064,33 @@
   {
    "additional_sources": [
     {
+     "name": "Piac és Profit",
+     "published_date": "2026-10-16",
+     "url": "https://piacesprofit.hu/cikkek/gazdasag/szazmilliardokat-osztottak-ki-palyazat-nelkul-feljelentes-lett-a-kisfaludy-program-vege.html"
+    }
+   ],
+   "alleged_amount_huf": 475300000000,
+   "alleged_amount_text": "475,3 milliárd forint (2018–2026 között kiosztott támogatás, 22 609 szerződés alapján; ebből több mint a fele pályázat nélküli, egyedi döntéssel)",
+   "confirmed_recovered_huf": 0,
+   "description": "A Gazdasági és Energetikai Minisztérium 2026. október 16-án feljelentést tett ismeretlen tettes ellen a Kisfaludy Turisztikai Fejlesztési Program szálláshely-felújítási támogatásainak ügyében. A minisztérium átvilágítása szerint 2018 és 2026 között összesen 475,3 milliárd forintot osztottak ki a programból, ennek több mint fele pályázati eljárás nélkül, egyedi döntéssel. A feljelentés szerint átláthatatlan elbírálási szempontok, a versenyt korlátozó, egyes pályázókra szabott kiírási feltételek, valamint a Magyar Turisztikai Ügynökség fizetett tanácsadóihoz köthető cégek részére juttatott támogatások merültek fel. Nevesített esetek: a Mészáros Lőrinc érdekeltségéhez köthető Hunguest Hotels kilenc fejlesztésre kapott közel 12 milliárd forintot; a hévízi Le Primore szálloda (amelyet a sajtó Tiborcz Istvánhoz köt, a BDPST Csoport ezt tagadja) mintegy 8 milliárd forint támogatást kapott; egy korábban 223 millió forintért értékesített lovasberényi állami ingatlanfejlesztés később 1,54 milliárd forint támogatásban részesült.",
+   "ministry": "Gazdasági és Energetikai Minisztérium",
+   "recovered_item_id": null,
+   "report_date": "2026-10-16",
+   "report_source": {
+    "name": "Index",
+    "published_date": "2026-10-16",
+    "url": "https://index.hu/gazdasag/2026/10/16/kisfaludy-program-feljelentes-gazdasagi-es-energetikai-miniszterium-kapitany-istvan-tamogatas/"
+   },
+   "status": "reported",
+   "subject": "Kisfaludy Turisztikai Fejlesztési Program — szállásfejlesztési támogatások felülvizsgálata",
+   "verification_notes": "ÚJ TÉTEL (2026-10-16 futás). Két független sajtóforrás (Index, Piac és Profit) egyezően, azonos napon (2026-10-16) számol be a Gazdasági és Energetikai Minisztérium (Kapitány István) feljelentéséről. Nem szerepel még a kormany.hu/atlathato/feljelentes hivatalos listáján (a 2026-10-16-i ellenőrzéskor a hivatalos oldal állapota még a 2026-10-14-i, 57 ügyes/3444 Mrd Ft-os állapotot mutatta) — a következő futásban ellenőrizendő, hogy felkerül-e hivatalosan is. A 475,3 Mrd Ft a teljes programból kiosztott összeg, nem egy megerősített kárösszeg; a tényleges vagyoni hátrányt a vizsgálat fogja megállapítani. A két forrás kisebb részletekben eltér (Index: MTÜ tanácsadóihoz köthető cégek; Piac és Profit: Pintér Sándor köréhez köthető lovasberényi projekt) — mindkét részlet a description-ben szerepel, nem egymást kizáró állítások.",
+   "id": "reported-kisfaludy-program-2026-10",
+   "updated_at": "2026-10-16T10:04:27+00:00",
+   "first_seen_at": "2026-10-16T10:04:27+00:00"
+  },
+  {
+   "additional_sources": [
+    {
      "name": "Telex",
      "published_date": "2026-08-28",
      "url": "https://telex.hu/belfold/2026/08/28/hvg-hutlen-kezeles-gyanuja-nyomozas-rendorseg-lazar-janos-tartozas-elengedes"
@@ -3010,7 +3037,7 @@
    "url": "https://magyarnemzet.hu/gazdasag/2026/09/allamadossag-novekedes"
   },
   "allamadossag_huf": 65716000000000,
-  "collected_at": "2026-10-15T17:00:00+02:00",
+  "collected_at": "2026-10-16T12:00:00+02:00",
   "elozo": {
    "allamadossag": {
     "period": null,
@@ -3119,8 +3146,8 @@
     "key": "eur_huf",
     "label_en": "Official EUR/HUF rate (MNB)",
     "label_hu": "Euró hivatalos árfolyama (MNB)",
-    "note_en": "USD: 324.70 HUF (2026-10-15 fixing).",
-    "note_hu": "Dollár: 324,70 Ft (2026-10-15-i fixing).",
+    "note_en": "USD: 324.70 HUF (2026-10-15 fixing). The MNB site was temporarily unreachable this run, so the last known (2026-10-15) figure stands.",
+    "note_hu": "Dollár: 324,70 Ft (2026-10-15-i fixing). Az MNB oldala ebben a futásban átmenetileg nem volt elérhető, ezért a legutóbbi ismert (2026-10-15-i) adat maradt érvényben.",
     "period": "2026-10-15",
     "prev_period": "2026-10-13",
     "prev_value": 364.22,
@@ -3137,7 +3164,7 @@
     "label_en": "Average gross wage",
     "label_hu": "Bruttó átlagkereset",
     "note_en": "Up 7.5% year-on-year.",
-    "note_hu": "Egy évvel korábbihoz képest 7,5%-os növekedés.",
+    "note_hu": "Up 7.5% year-on-year.",
     "period": "2026-07",
     "prev_period": "2026-06",
     "prev_value": 754700,
@@ -3232,82 +3259,52 @@
    "publish_date": "2026-09-22",
    "url": "https://www.portfolio.hu/gazdasag/20260922/itt-az-mnb-uj-elorejelzese-hiaba-a-nemzetkozi-kockazatok-mersekelt-marad-az-idei-inflacio-864484"
   },
-  "id": "2026-10-15T17-00"
+  "id": "2026-10-16T12-00"
  },
  "last_run": {
   "errors": [
-   "A kormany.hu/atlathato/feljelentes oldal tartalma (57 ügy, 3444 Mrd Ft, 74,0 Mrd Ft visszafizetve/megtakarítva, 2026-10-14-i állapot) ebben a futásban is változatlan volt a 2026-10-15-i állapothoz képest — nem volt szükség frissítésre.",
-   "Az ÁKK hivatalos statisztikai oldala (akk.hu) ebben a futásban sem volt közvetlenül lekérhető egyértelmű, abszolút Ft-összeggel; az államadósság értéke változatlanul a 2026-07-31-i (Magyar Nemzet/ÁKK-adatra hivatkozó) állapotot tükrözi.",
-   "A KSH szeptemberi munkanélküliségi gyorstájékoztatója ebben a futásban még nem volt elérhető; a legutóbbi (2026-08: 4,7%) adat maradt érvényben.",
-   "Az MNB 2026-10-16-i hivatalos EUR/HUF fixingje nem volt megbízhatóan azonosítható a keresésben; mivel egyik makromutatóban sem volt azonosítható új hivatalos publikáció a 2026-10-15T17-00-ás pillanatkép óta, új macro_snapshots dokumentum ebben a futásban nem készült.",
-   "A Miniszterelnökség/Fellegi Tamás-EAC International tanácsadói ügyhöz (reported-eac-international-fellegi-tanacsado-2026-10) további részlet került elő (Pintér Sándor szerepe, kézzel ráírt kormányhatározat, 3 napos határidő) — ez megerősítő/kiegészítő frissítés, az összeg és a státusz nem változott.",
-   "A NAV Bűnügyi Főigazgatóságának HR-igazgatója (Szalavics Mariann) felmentése személyzeti döntés, nem közpénzügyi visszaélés, ezért nem került be az adattárba.",
-   "A Vitézy Dávid-féle, 11 ezer milliárd forintos gyorsforgalmiút-fejlesztési tervek felülvizsgálata (Index, 2026-10-14) egy bejelentett SZÁNDÉK/felülvizsgálat, nem tényleges, realizált megtakarítás, ezért nem került fel az items kollekcióba; figyelendő, ha konkrét összegű eredmény születik.",
-   "A Központi Nyomozó Főügyészség által dr. Magyar Péterrel szemben közölt lopási gyanú (2026-10-07) nem korábbi (Fidesz/Orbán-korszakbeli) közpénzügyi visszaélés, ezért a felhasználói szűrési szabály szerint nem került be a reported_cases kollekcióba.",
-   "A 270 milliárd forintos kkv-knak szánt kamatmentes uniós hitelprogram (HRportal, PiacProfit, 2026-10-15) egy vállalkozásoknak szóló hitelkeret-program bejelentése, nem állami/kormányzati szintű EU-forrás megállapodás vagy kifizetés, ezért nem került fel az eu_forras kategóriába.",
-   "A gázmaffia-ügy (24.hu, 2026-10-15, kb. 300+ Mrd Ft külföldre vitt összeg) magánszereplők közötti áfa-csalás, nem állami közpénz-visszaélés, ezért nem került be az adattárba (korábbi futások elvével összhangban)."
+   "A 24.hu cikk (szallodafejlesztes-feljelentes-kapitany-istvan) közvetlen lekérése nem sikerült (WebFetch hiba); a tény megerősítése két másik független forrásból (Index, Piac és Profit) történt.",
+   "Az mnb.hu/arfolyamok oldal ebben a futásban HTTP 503 hibával nem volt elérhető; a mai (2026-10-16) friss EUR/HUF árfolyam nem volt ellenőrizhető, ezért a macro_snapshots dokumentum a legutóbbi ismert (2026-10-15) árfolyamot őrizte meg.",
+   "Nincs új, megbízható publikáció az államadósság, GDP, munkanélküliég, kereset vagy infláció mutatókhoz ebben a futásban; az extra_indicators mezők változatlanul a legutóbbi (2026-10-15) számokat tartalmazzák."
   ],
   "eu_lost_items_new": 0,
-  "finished_at": "2026-10-16T06:40:00+02:00",
+  "finished_at": "2026-10-16T12:30:00+02:00",
   "items_duplicate": 0,
-  "items_found_total": 0,
+  "items_found_total": 1,
   "items_needs_review": 0,
   "items_new": 0,
-  "reported_cases_new": 0,
-  "reported_cases_updated": 1,
+  "reported_cases_new": 1,
+  "reported_cases_updated": 0,
   "sources_checked": [
-   "kormany.hu/atlathato/feljelentes (hivatalos, teljes lista ellenőrizve: 57 ügy / 3444 Mrd Ft / 14 nyomozás / 74,0 Mrd Ft visszafizetve-megtakarítva — változatlan a 2026-10-15-i állapothoz képest)",
-   "mnvvh.hu/hirek (csak már ismert ügyek: NVVH impersonation-csalási kísérlet, Hankó-letartóztatás, aranykonvoj-ügy — új, forintosítható vagyonügy nincs)",
-   "ugyeszseg.hu/category/hirek/kozponti-nyomozo-fougyeszseg (elérhető volt; a dr. Magyar Péter elleni lopási gyanú nem közpénzügyi jellegű, a többi tétel már rögzített)",
-   "K-Monitor (k-monitor.hu, WebSearch — site: operátor ezúttal sem adott közvetlen domain-találatot)",
-   "hirkereso.hu/gazdasag/friss",
-   "24.hu",
-   "444.hu",
-   "168.hu",
-   "atlatszo.hu",
-   "demokrata.hu",
-   "direkt36.hu",
-   "economx.hu",
-   "es.hu",
-   "forbes.hu",
-   "g7.hu",
-   "hirtv.hu",
-   "hvg.hu",
+   "kormany.hu/atlathato/feljelentes",
+   "24.hu (nem elérhető ebben a futásban)",
    "index.hu",
-   "infostart.hu",
-   "jelen.media",
-   "klubradio.hu",
-   "magyarhang.org",
-   "magyarhirlap.hu",
-   "magyarnemzet.hu",
-   "makronom.hu",
-   "mandiner.hu",
-   "media1.hu",
-   "mfor.hu",
-   "merce.hu",
-   "mti.hu",
-   "nepszava.hu",
-   "origo.hu",
-   "penzcentrum.hu",
-   "portfolio.hu",
-   "privatbankar.hu",
-   "szabadeuropa.hu",
+   "piacesprofit.hu",
+   "444.hu",
+   "hvg.hu",
    "telex.hu",
-   "trendfm.hu",
-   "ujegyenloseg.hu",
-   "valaszonline.hu",
-   "vg.hu",
-   "partizan.hu",
-   "okoshir.hu",
-   "szmo.hu",
-   "mnb.hu (árfolyamok, sajtón keresztül)",
-   "ksh.hu (infláció/munkanélküliség, sajtón keresztül)",
-   "akk.hu (államadósság, sajtón keresztül)"
+   "portfolio.hu",
+   "economx.hu",
+   "infostart.hu",
+   "privatbankar.hu",
+   "hirkereso.hu",
+   "mnvvh.hu/hirek",
+   "ugyeszseg.hu (Központi Nyomozó Főügyészség rovat)",
+   "k-monitor.hu (WebSearch)",
+   "mnb.hu/arfolyamok (nem elérhető, HTTP 503)"
   ],
-  "started_at": "2026-10-16T05:56:00+02:00",
-  "id": "2026-10-16T05-56"
+  "started_at": "2026-10-16T12:00:00+02:00",
+  "id": "2026-10-16T12-00"
  },
  "run_history": [
+  {
+   "finished_at": "2026-10-16T12:30:00+02:00",
+   "started_at": "2026-10-16T12:00:00+02:00",
+   "items_new": 0,
+   "reported_cases_new": 1,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
   {
    "finished_at": "2026-10-16T06:40:00+02:00",
    "started_at": "2026-10-16T05:56:00+02:00",
@@ -3908,10 +3905,10 @@
   }
  ],
  "run_summary": {
-  "run_id": "2026-10-16T04:01:53+00:00",
-  "new": 0,
+  "run_id": "2026-10-16T10:04:27+00:00",
+  "new": 1,
   "modified": 0,
-  "confirmed_only": 1,
+  "confirmed_only": 0,
   "touched": 1,
   "pending_review": 2,
   "by_section": {
@@ -3921,16 +3918,16 @@
     "confirmed_only": 0
    },
    "reported_cases": {
-    "new": 0,
+    "new": 1,
     "modified": 0,
-    "confirmed_only": 1
+    "confirmed_only": 0
    }
   },
-  "new_ids": [],
+  "new_ids": [
+   "r:reported-kisfaludy-program-2026-10"
+  ],
   "modified_ids": [],
-  "confirmed_ids": [
-   "r:reported-eac-international-fellegi-tanacsado-2026-10"
-  ]
+  "confirmed_ids": []
  },
  "run_summary_history": [
   {
@@ -5151,6 +5148,21 @@
      "new": 0,
      "modified": 0,
      "confirmed_only": 1
+    }
+   }
+  },
+  {
+   "run_id": "2026-10-16T10:04:27+00:00",
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 1,
+     "modified": 0,
+     "confirmed_only": 0
     }
    }
   }
