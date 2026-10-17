@@ -1,13 +1,13 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-17T04:02:46+00:00",
+ "generated_at": "2026-10-17T10:02:52+00:00",
  "summary": {
   "megtakaritas_verified_huf": 1847290700000,
   "visszaszerzes_verified_huf": 1575719300000,
   "eu_forras_verified_huf": 6280000000000,
   "eu_forras_lost_huf": 730000000000,
   "items_count": 37,
-  "reported_cases_count": 50
+  "reported_cases_count": 53
  },
  "items": [
   {
@@ -1661,6 +1661,26 @@
    "updated_at": "2026-10-02T15:05:08+00:00"
   },
   {
+   "alleged_amount_huf": 600000000,
+   "alleged_amount_text": "több mint 600 millió forint (ebből egyetlen, 2026. április 5-i húsvéti rendezvény 343 millió forintba került), 2026 februárja és a választás között, két hónap alatt",
+   "confirmed_recovered_huf": 0,
+   "description": "A szociális és családügyi miniszter feljelentést tett a Központi Nyomozó Főügyészségnél hivatali visszaélés és hűtlen kezelés gyanúja miatt. A gyanú szerint a Családbarát Magyarország programsorozat keretére szánt közpénzből a 2026 áprilisi választás előtt, alig két hónap alatt több mint 600 millió forintot fordítottak Koncz Zsófia akkori családügyi államtitkár szerencsi választókerületében tartott rendezvényekre, köztük egy 2026. április 5-i húsvéti eseményre, amely önmagában 343 millió forintot tett ki.",
+   "ministry": "Szociális és Családügyi Minisztérium",
+   "recovered_item_id": null,
+   "report_date": "2026-10-17",
+   "report_source": {
+    "name": "Index",
+    "published_date": "2026-10-17",
+    "url": "https://index.hu/belfold/2026/10/17/katai-nemeth-vilmos-csaladbarat-magyarorszag-fidesz-koncz-zsofia/"
+   },
+   "status": "reported",
+   "subject": "Családbarát Magyarország programsorozat — szerencsi választókerületi rendezvények",
+   "verification_notes": "ÚJ TÉTEL (2026-10-17 futás). Egyetlen közvetlen sajtóforrásból (Index) ismert eddig, de a feljelentő maga a hatáskörrel rendelkező miniszter (Kátai-Németh Vilmos), ezért reported státuszban rögzítve. Kapcsolódik, de ELKÜLÖNÜL a korábban rögzített, a reported-egyeb-miniszteriumi-18ugy-2026 gyűjtőtételben szereplő 'nyuszimotor-vásárlások' (0,239 Mrd Ft) tételtől: az ugyanazon Családbarát Magyarország programhoz és részben ugyanazon miniszterhez (Kátai-Németh Vilmos) köthető korábbi (2026-06-09-i) feljelentés volt, de más konkrét kiadásról (játékmotor-beszerzés) szólt, míg ez a mostani feljelentés a szerencsi választókerületi rendezvényekre fordított összegről szól. A két tételt nem szabad összeadni egy esetleges összesítésnél. Nem szerepel még a kormany.hu/atlathato/feljelentes hivatalos listáján (2026-10-17-i ellenőrzés szerint, a lista változatlanul az 2026-10-14-i, 57 ügyes/3444 Mrd Ft-os állapotot mutatta).",
+   "id": "reported-csaladbarat-magyarorszag-szerencs-2026-10",
+   "updated_at": "2026-10-17T10:02:52+00:00",
+   "first_seen_at": "2026-10-17T10:02:52+00:00"
+  },
+  {
    "additional_sources": [
     {
      "name": "444.hu",
@@ -2146,6 +2166,26 @@
    "updated_at": "2026-09-28T15:02:40+00:00"
   },
   {
+   "alleged_amount_huf": 19423600,
+   "alleged_amount_text": "legalább 19,42 millió forint (a Városi Civil Alapból, a Bethlen Gábor Alapkezelő által kezelt támogatásból)",
+   "confirmed_recovered_huf": 0,
+   "description": "A Társadalmi Kapcsolatokért és Kultúráért Felelős Minisztérium (Tarr Zoltán) feljelentést tett a Nemzeti Adó- és Vámhivatalnál költségvetési csalás gyanúja miatt a LOGOSZ Alapítvány Jövőképek című kiadványai ügyében. A minisztérium szerint a kiadványoknak tárgyszerű tájékoztatást kellett volna adniuk, de valójában a korábbi Fidesz–KDNP-kormányt és annak politikusait népszerűsítő, kampányjellegű tartalmakat közöltek — két cikk is Fideszt éltető főcímmel jelent meg a választás előtt körülbelül egy hónappal, az utolsó oldalon pedig két fideszes politikus közösségimédia-oldalát hirdették. Egy számla kifejezetten 'választási kiadvány terjesztését' nevezte meg szolgáltatásként; az alapítvány a kapott támogatásból 4 millió forintot bankbetétben helyezett el.",
+   "ministry": "Társadalmi Kapcsolatokért és Kultúráért Felelős Minisztérium",
+   "recovered_item_id": null,
+   "report_date": "2026-10-16",
+   "report_source": {
+    "name": "Index",
+    "published_date": "2026-10-16",
+    "url": "https://index.hu/belfold/2026/10/16/tarr-zoltan-feljelentes-logosz-alapitvany-kiadvanyok-fidesz-csalas/"
+   },
+   "status": "reported",
+   "subject": "LOGOSZ Alapítvány Jövőképek kiadványai — Fidesz-propaganda közpénzből",
+   "verification_notes": "ÚJ TÉTEL (2026-10-17 futás). Egyetlen közvetlen sajtóforrásból (Index) ismert eddig; a Fidesz reakciójára az Index a cikk szerint vár, azt a forrás még nem tartalmazza. Nem szerepel még a kormany.hu/atlathato/feljelentes hivatalos listáján (2026-10-17-i ellenőrzés szerint, a lista változatlanul az 2026-10-14-i, 57 ügyes/3444 Mrd Ft-os állapotot mutatta).",
+   "id": "reported-logosz-alapitvany-kiadvanyok-2026-10",
+   "updated_at": "2026-10-17T10:02:52+00:00",
+   "first_seen_at": "2026-10-17T10:02:52+00:00"
+  },
+  {
    "alleged_amount_huf": 100000000000,
    "alleged_amount_text": "100 milliárd forint (hivatalos, kormany.hu szerint, 2026-09-22-i állapot; a sajtó szerint a tervezett 149 Mrd Ft-os költség és a végül 44 Mrd Ft-os szerződés közti 105 Mrd Ft/11 év különbség)",
    "confirmed_recovered_huf": 105000000000,
@@ -2508,6 +2548,26 @@
    "id": "reported-oroshaza-gyoparosfurdo-kozbeszerzes-2026-08",
    "first_seen_at": "2026-10-01T10:03:50+00:00",
    "updated_at": "2026-10-01T10:03:50+00:00"
+  },
+  {
+   "alleged_amount_huf": null,
+   "alleged_amount_text": "Pontos összeg nem ismert; a vizsgálat az intézet elmúlt évekbeli eszközbeszerzéseinek szabályosságát és az esetleges vagyoni hátrányt érinti",
+   "confirmed_recovered_huf": 0,
+   "description": "A rendőrség különösen nagy vagyoni hátrányt okozó hűtlen kezelés gyanúja miatt, ismeretlen tettes ellen eljárást indított az Országos Onkológiai Intézet eszközbeszerzéseivel kapcsolatban. A nyomozók 2026 szeptember közepén házkutatást tartottak az intézetben, dokumentumokat és több gigabájtnyi elektronikus adatot foglaltak le. Az egészségügyi miniszter szerint a hatóságok munkáját minden tekintetben segítik, de abba nem avatkoznak bele; az intézet vezetése szerint egy gazdasági terület jogi hátterét vizsgálják felül.",
+   "ministry": "Nemzeti Nyomozó Iroda (rendőrségi nyomozás) — érintett intézmény: Országos Onkológiai Intézet; felügyeleti tárca: Egészségügyi Minisztérium",
+   "recovered_item_id": null,
+   "report_date": "2026-09-16",
+   "report_source": {
+    "name": "444.hu",
+    "published_date": "2026-09-17",
+    "url": "https://444.hu/2026/09/17/hutlen-kezeles-miatt-indult-nyomozas-az-omsz-mentoauto-beszerzesei-miatt"
+   },
+   "status": "under_investigation",
+   "subject": "Országos Onkológiai Intézet eszközbeszerzései — hűtlen kezelés gyanúja",
+   "verification_notes": "ÚJ TÉTEL (2026-10-17 futás, korábbi — 2026 szeptember közepi — ügy, amely a korábbi futások adattárában még nem szerepelt). Megkülönböztetendő a reported-onkologiai-akademia-alapitvany-2026-08 tételtől (Közép- és Kelet-európai Onkológiai Akadémia Alapítvány, Kásler Miklós-féle alapítvány villavásárlása) — ez utóbbi egy ALAPÍTVÁNY ügye, ez a mostani tétel pedig magának az állami Országos Onkológiai Intézetnek (hospital) az eszközbeszerzéseit érinti, más jogi szál. Nem szerepel a kormany.hu/atlathato/feljelentes hivatalos listáján, mivel ez a rendőrség önálló, nem kormányzati/minisztériumi feljelentésen alapuló nyomozása. Konkrét összeg vagy gyanúsított nincs, a vizsgálat folyamatban van.",
+   "id": "reported-orszagos-onkologiai-intezet-eszkozbeszerzes-2026-09",
+   "updated_at": "2026-10-17T10:02:52+00:00",
+   "first_seen_at": "2026-10-17T10:02:52+00:00"
   },
   {
    "alleged_amount_huf": 3444000000000,
@@ -3263,48 +3323,43 @@
  },
  "last_run": {
   "errors": [
-   "24.hu cikkei (Ferihegyi takarítási kartell-gyanú Orbán Áron érintettségével, illetve a V-Híd eladásáról szóló részletek) WebFetch-csel nem voltak közvetlenül elérhetők (\"Claude Code is unable to fetch from 24.hu\"); a V-Híd/PORR eladási hírt más forrásokból (444.hu, Kontroll.hu, mfor.hu, Contextus.hu, Hírnavigátor.hu) sikerült megerősíteni és a kapcsolódó reported_cases tételhez hozzáfűzni, de a Ferihegyi takarítási kartell-ügyet egyetlen más forrásból sem sikerült megerősíteni vagy részleteiben feltárni ebben a futásban, ezért nem került be az adattárba — a következő futásban célzottan újra ellenőrizendő.",
-   "A kormany.hu/atlathato/feljelentes hivatalos oldal tartalma (57 ügy, 3444 Mrd Ft, 14 nyomozás, 74,0 Mrd Ft visszafizetve/megtakarítva, 2026-10-14-i állapot) ebben a futásban változatlan volt az előző (2026-10-16-i) futáshoz képest — nem volt szükség frissítésre a reported-osszesito-2026-09 és a kapcsolódó egyedi tételeken.",
-   "Az ÁKK hivatalos statisztikai oldala (akk.hu) ebben a futásban sem volt közvetlenül lekérhető; az államadósság-érték változatlanul a 2026-07-31-i (Magyar Nemzet/ÁKK-hivatkozás) állapotot tükrözi.",
-   "A KSH szeptemberi munkaerőpiaci gyorstájékoztatója (munkanélküliség) ebben a futásban még nem jelent meg; a legutóbbi (augusztusi, 4,7%) adat maradt érvényben.",
-   "Legalább 12 tematikus keresés (megtakarítás, visszaszerzés, feljelentés, elveszett uniós forrás, túlárazás, pazarlás-összehasonlítás stb.) lefutott, de az elmúlt kb. 3 napos (2026-10-14–17) ablakban nem azonosítottam olyan új, kellően alátámasztott tényt/összeget, amely megfelelne a felvételi/frissítési küszöbnek a 32 figyelt portál, a K-Monitor, a Hírkereső, az mnvvh.hu és az ügyészségi sajtóközlemények alapján; a kormany.hu-n és a sajtóban talált összes releváns ügy már korábbi futásokban rögzítve volt."
+   "telex.hu/gazdasag közvetlen lekérése 403-at adott (WebFetch), a Telex-specifikus friss hírek emiatt csak más portálok (Index, 444.hu) révén kerültek ellenőrzésre",
+   "K-Monitor (k-monitor.hu) célzott keresés ebben a futásban nem azonosított új, még nem rögzített ügyet"
   ],
   "eu_lost_items_new": 0,
-  "finished_at": "2026-10-17T06:40:00+02:00",
+  "finished_at": null,
   "items_duplicate": 0,
   "items_found_total": 0,
   "items_needs_review": 0,
   "items_new": 0,
-  "reported_cases_new": 0,
-  "reported_cases_updated": 1,
+  "reported_cases_new": 3,
+  "reported_cases_updated": 0,
   "sources_checked": [
    "kormany.hu/atlathato/feljelentes",
-   "k-monitor.hu (WebSearch)",
-   "hirkereso.hu",
-   "mnvvh.hu/hirek",
-   "ugyeszseg.hu/category/hirek/kozponti-nyomozo-fougyeszseg",
-   "mnb.hu/arfolyamok",
-   "24.hu",
-   "444.hu",
-   "Telex",
    "Index",
+   "Telex",
+   "444.hu",
    "HVG",
    "Portfolio.hu",
    "Economx",
    "Infostart.hu",
-   "Világgazdaság",
-   "Pénzcentrum",
-   "Privátbankár.hu",
-   "Kontroll.hu",
-   "mfor.hu",
-   "Contextus.hu",
-   "Hírnavigátor.hu",
-   "KSH (sajtón keresztül)"
+   "Privátbankár",
+   "mnvvh.hu/hirek",
+   "ugyeszseg.hu (Központi Nyomozó Főügyészség)",
+   "hirkereso.hu"
   ],
-  "started_at": "2026-10-17T06:00:00+02:00",
-  "id": "2026-10-17T06-00"
+  "started_at": "2026-10-17T12:01:00+02:00",
+  "id": "2026-10-17T12-01"
  },
  "run_history": [
+  {
+   "finished_at": null,
+   "started_at": "2026-10-17T12:01:00+02:00",
+   "items_new": 0,
+   "reported_cases_new": 3,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
   {
    "finished_at": "2026-10-17T06:40:00+02:00",
    "started_at": "2026-10-17T06:00:00+02:00",
@@ -3929,11 +3984,11 @@
   }
  ],
  "run_summary": {
-  "run_id": "2026-10-17T04:02:46+00:00",
-  "new": 0,
+  "run_id": "2026-10-17T10:02:52+00:00",
+  "new": 3,
   "modified": 0,
-  "confirmed_only": 1,
-  "touched": 1,
+  "confirmed_only": 0,
+  "touched": 3,
   "pending_review": 2,
   "by_section": {
    "items": {
@@ -3942,16 +3997,18 @@
     "confirmed_only": 0
    },
    "reported_cases": {
-    "new": 0,
+    "new": 3,
     "modified": 0,
-    "confirmed_only": 1
+    "confirmed_only": 0
    }
   },
-  "new_ids": [],
+  "new_ids": [
+   "r:reported-csaladbarat-magyarorszag-szerencs-2026-10",
+   "r:reported-logosz-alapitvany-kiadvanyok-2026-10",
+   "r:reported-orszagos-onkologiai-intezet-eszkozbeszerzes-2026-09"
+  ],
   "modified_ids": [],
-  "confirmed_ids": [
-   "r:reported-vhid-deli-korvasut-2026-10"
-  ]
+  "confirmed_ids": []
  },
  "run_summary_history": [
   {
@@ -5202,6 +5259,21 @@
      "new": 0,
      "modified": 0,
      "confirmed_only": 1
+    }
+   }
+  },
+  {
+   "run_id": "2026-10-17T10:02:52+00:00",
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 3,
+     "modified": 0,
+     "confirmed_only": 0
     }
    }
   }
