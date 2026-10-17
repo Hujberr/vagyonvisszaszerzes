@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-16T15:03:06+00:00",
+ "generated_at": "2026-10-17T04:02:46+00:00",
  "summary": {
   "megtakaritas_verified_huf": 1847290700000,
   "visszaszerzes_verified_huf": 1575719300000,
@@ -2085,8 +2085,8 @@
    "subject": "Kisfaludy Turisztikai Fejlesztési Program — szállásfejlesztési támogatások felülvizsgálata",
    "verification_notes": "ÚJ TÉTEL (2026-10-16 futás). Két független sajtóforrás (Index, Piac és Profit) egyezően, azonos napon (2026-10-16) számol be a Gazdasági és Energetikai Minisztérium (Kapitány István) feljelentéséről. Nem szerepel még a kormany.hu/atlathato/feljelentes hivatalos listáján (a 2026-10-16-i ellenőrzéskor a hivatalos oldal állapota még a 2026-10-14-i, 57 ügyes/3444 Mrd Ft-os állapotot mutatta) — a következő futásban ellenőrizendő, hogy felkerül-e hivatalosan is. A 475,3 Mrd Ft a teljes programból kiosztott összeg, nem egy megerősített kárösszeg; a tényleges vagyoni hátrányt a vizsgálat fogja megállapítani. A két forrás kisebb részletekben eltér (Index: MTÜ tanácsadóihoz köthető cégek; Piac és Profit: Pintér Sándor köréhez köthető lovasberényi projekt) — mindkét részlet a description-ben szerepel, nem egymást kizáró állítások.",
    "id": "reported-kisfaludy-program-2026-10",
-   "updated_at": "2026-10-16T15:03:06+00:00",
-   "first_seen_at": "2026-10-16T15:03:06+00:00"
+   "first_seen_at": "2026-10-16T15:03:06+00:00",
+   "updated_at": "2026-10-16T15:03:06+00:00"
   },
   {
    "additional_sources": [
@@ -2972,10 +2972,10 @@
    },
    "status": "reported",
    "subject": "V-Híd — Déli körvasút kivitelezői szerződésének felmondása összejátszás gyanúja miatt",
-   "verification_notes": "FRISSÍTVE 2026-10-16 17:00-ás futás: a Gazdasági Versenyhivatal (GVH) elnöke 2026. október 12-én formálisan eljárást rendelt el a Déli körvasút beruházás körülményeinek felderítésére, az uniós forrás elvesztésének kockázatára hivatkozva (Telex, 444.hu). A GVH jelezte, hogy Vitézy Dávid miniszter versenyhivatali eljárásra utaló szándékáról csak a sajtóból értesült, hivatalos magyar állami vagy uniós megkeresést korábban nem kapott. A formális büntetőfeljelentés tényleges benyújtásáról továbbra sincs önálló megerősítés. Az alleged_amount_huf és a status (reported) nem változott. (Korábbi megjegyzések megőrizve.) FRISSÍTVE 2026-10-13 05:56-os futás: a 444.hu 2026-10-10-i cikke szerint Vitézy Dávid miniszter 2026-10-10-én facebookon megerősítette, hogy a felmondási döntést formálisan megküldték a V-Híd Zrt.-nek (korábban csak a 10-09-i sajtótájékoztatói bejelentés volt ismert). A cikk szerint az Európai Számvevőszék már kb. két héttel a bejelentés előtt (2026 szeptember vége) jelezte Magyarországnak, hogy visszavonja a projekt uniós támogatását; a miniszter szerint a szerződés folytatása esetén a kieső uniós forrást 360 milliárd forint adófizetői pénzből kellett volna pótolni. Egy hirkereso.hu-n (2026-10-12, Forbes/PiacProfit teaser cím alapján) talált, de eredeti cikkben nem megerősíthető jelzés szerint a GVH (Gazdasági Versenyhivatal) eljárást indított/indít az ügyben — ez összhangban van a miniszter 2026-10-09-i bejelentésével, amely szerint versenyhivatali eljárást és büntetőfeljelentést is kezdeményeznek, de a GVH saját, formális eljárás-indítását önálló forrásból nem sikerült megerősíteni ebben a futásban, további ellenőrzésre vár. Az EU-forrás-veszteség becslése a sajtóban 320,4 és 350 milliárd forint között mozog (eltérő cikkek), ezt az alleged_amount_text most tartományként rögzíti. A formális büntetőfeljelentés benyújtásáról továbbra sincs önálló megerősítés. Nem szerepel még a kormany.hu/atlathato/feljelentes hivatalos listáján (2026-10-13-i ellenőrzés szerint, a lista változatlanul 47 ügy/2255 Mrd Ft, 2026-10-02-i állapot). (Korábbi megjegyzés megőrizve:) ÚJ TÉTEL (2026-10-12 06:01-es futás)...",
+   "verification_notes": "FRISSÍTVE 2026-10-16 17:00-ás futás: a Gazdasági Versenyhivatal (GVH) elnöke 2026. október 12-én formálisan eljárást rendelt el a Déli körvasút beruházás körülményeinek felderítésére, az uniós forrás elvesztésének kockázatára hivatkozva (Telex, 444.hu). A GVH jelezte, hogy Vitézy Dávid miniszter versenyhivatali eljárásra utaló szándékáról csak a sajtóból értesült, hivatalos magyar állami vagy uniós megkeresést korábban nem kapott. A formális büntetőfeljelentés tényleges benyújtásáról továbbra sincs önálló megerősítés. Az alleged_amount_huf és a status (reported) nem változott. (Korábbi megjegyzések megőrizve.) FRISSÍTVE 2026-10-13 05:56-os futás: a 444.hu 2026-10-10-i cikke szerint Vitézy Dávid miniszter 2026-10-10-én facebookon megerősítette, hogy a felmondási döntést formálisan megküldték a V-Híd Zrt.-nek (korábban csak a 10-09-i sajtótájékoztatói bejelentés volt ismert). A cikk szerint az Európai Számvevőszék már kb. két héttel a bejelentés előtt (2026 szeptember vége) jelezte Magyarországnak, hogy visszavonja a projekt uniós támogatását; a miniszter szerint a szerződés folytatása esetén a kieső uniós forrást 360 milliárd forint adófizetői pénzből kellett volna pótolni. Egy hirkereso.hu-n (2026-10-12, Forbes/PiacProfit teaser cím alapján) talált, de eredeti cikkben nem megerősíthető jelzés szerint a GVH (Gazdasági Versenyhivatal) eljárást indított/indít az ügyben — ez összhangban van a miniszter 2026-10-09-i bejelentésével, amely szerint versenyhivatali eljárást és büntetőfeljelentést is kezdeményeznek, de a GVH saját, formális eljárás-indítását önálló forrásból nem sikerült megerősíteni ebben a futásban, további ellenőrzésre vár. Az EU-forrás-veszteség becslése a sajtóban 320,4 és 350 milliárd forint között mozog (eltérő cikkek), ezt az alleged_amount_text most tartományként rögzíti. A formális büntetőfeljelentés benyújtásáról továbbra sincs önálló megerősítés. Nem szerepel még a kormany.hu/atlathato/feljelentes hivatalos listáján (2026-10-13-i ellenőrzés szerint, a lista változatlanul 47 ügy/2255 Mrd Ft, 2026-10-02-i állapot). (Korábbi megjegyzés megőrizve:) ÚJ TÉTEL (2026-10-12 06:01-es futás)... FRISSÍTVE 2026-10-17 06:00-ás futás: a 444.hu és a Kontroll.hu 2026-10-16-i cikke szerint Mészáros Lőrinc megállapodásra jutott az osztrák PORR építőipari vállalattal a projektből kizárt V-Híd Zrt. eladásáról; a részletek (teljes céget vagy csak eszközöket/munkavállalókat érint) és a hivatalos bejelentés még nem ismertek, a PORR csak annyit közölt, hogy vizsgálja a magyar piaci lehetőségeket. Ez a V-Híd tulajdonosváltására vonatkozó piaci/vállalati fejlemény, nem állami intézkedés vagy vagyonvisszaszerzés, az alleged_amount_huf és a status (reported) nem változott, önálló tételt nem indokol.",
    "id": "reported-vhid-deli-korvasut-2026-10",
    "first_seen_at": "2026-10-12T04:05:17+00:00",
-   "updated_at": "2026-10-16T15:03:06+00:00"
+   "updated_at": "2026-10-17T04:02:46+00:00"
   },
   {
    "alleged_amount_huf": 10000000000,
@@ -3037,7 +3037,7 @@
    "url": "https://magyarnemzet.hu/gazdasag/2026/09/allamadossag-novekedes"
   },
   "allamadossag_huf": 65716000000000,
-  "collected_at": "2026-10-16T12:00:00+02:00",
+  "collected_at": "2026-10-17T06:00:00+02:00",
   "elozo": {
    "allamadossag": {
     "period": null,
@@ -3078,8 +3078,8 @@
     "key": "munkanelkulisegi_rata",
     "label_en": "Unemployment rate",
     "label_hu": "Munkanélküliégi ráta",
-    "note_en": "229 thousand unemployed in August. The June-August three-month average was 4.8%.",
-    "note_hu": "229 ezer munkanélküli augusztusban. A június–augusztusi háromhavi átlag 4,8% volt.",
+    "note_en": "229 thousand unemployed in August. The June-August three-month average was 4.8%. The September flash report had not been published yet at the time of this run.",
+    "note_hu": "229 ezer munkanélküli augusztusban. A június–augusztusi háromhavi átlag 4,8% volt. A szeptemberi gyorstájékoztató e futás idején még nem jelent meg.",
     "period": "2026-08",
     "prev_period": "2026-07",
     "prev_value": 4.5,
@@ -3146,18 +3146,18 @@
     "key": "eur_huf",
     "label_en": "Official EUR/HUF rate (MNB)",
     "label_hu": "Euró hivatalos árfolyama (MNB)",
-    "note_en": "USD: 324.70 HUF (2026-10-15 fixing). The MNB site was temporarily unreachable this run, so the last known (2026-10-15) figure stands.",
-    "note_hu": "Dollár: 324,70 Ft (2026-10-15-i fixing). Az MNB oldala ebben a futásban átmenetileg nem volt elérhető, ezért a legutóbbi ismert (2026-10-15-i) adat maradt érvényben.",
-    "period": "2026-10-15",
-    "prev_period": "2026-10-13",
-    "prev_value": 364.22,
+    "note_en": "USD: 323.07 HUF (2026-10-16 fixing).",
+    "note_hu": "Dollár: 323,07 Ft (2026-10-16-i fixing).",
+    "period": "2026-10-16",
+    "prev_period": "2026-10-15",
+    "prev_value": 364.18,
     "source": {
      "name": "MNB hivatalos árfolyamok",
-     "publish_date": "2026-10-15",
+     "publish_date": "2026-10-16",
      "url": "https://www.mnb.hu/arfolyamok"
     },
     "unit": "Ft/EUR",
-    "value": 364.18
+    "value": 363.29
    },
    {
     "key": "brutto_atlagkereset",
@@ -3259,75 +3259,60 @@
    "publish_date": "2026-09-22",
    "url": "https://www.portfolio.hu/gazdasag/20260922/itt-az-mnb-uj-elorejelzese-hiaba-a-nemzetkozi-kockazatok-mersekelt-marad-az-idei-inflacio-864484"
   },
-  "id": "2026-10-16T12-00"
+  "id": "2026-10-17T06-00"
  },
  "last_run": {
   "errors": [
-   "A kormany.hu/atlathato/feljelentes oldal 2026-10-16 17:00 körüli ellenőrzése szerint a hivatalos lista tartalma (57 ügy, 3444 Mrd Ft, 14 vizsgálat alatt, 61,2 Mrd Ft visszafizetve/visszautalva 12 tételben, 12,8 Mrd Ft meg nem valósult kiadás 7 tételben) változatlan a 2026-10-14-i (legutóbb rögzített) állapothoz képest — minden egyedi tétel egyezik a reported_cases kollekcióban már rögzített adatokkal, a kormány saját visszafizetett/megtakarított összesítője (61,2+12,8=74,0 Mrd Ft) is egyezik a reported-osszesito-2026-09 confirmed_recovered_huf mezőjével. A ma délelőtt (kb. 12:01-es futásban) felvett Kisfaludy-program feljelentés még nem szerepel a hivatalos listán.",
-   "hirkereso.hu/politika 404-es hibával nem volt elérhető ebben a futásban.",
-   "Az mnvvh.hu/hirek és az ugyeszseg.hu/.../kozponti-nyomozo-fougyeszseg oldalakon nem jelent meg új, a figyelési ablakba eső, közpénzt érintő konkrét ügy vagy összeg a legutóbbi (ma délelőtti) futás óta.",
-   "MNB EUR/HUF hivatalos fixing: ebben a futásban nem volt azonosítható 2026-10-16-i új érték; a legutóbbi (2026-10-15, 364,18 Ft/EUR) macro_snapshots-beli adat marad érvényben, új macro_snapshots dokumentum ezért nem készült ebben a futásban (a mai 12:00-ás pillanatkép minden mutatóban a legfrissebb ismert adatot tartalmazza).",
-   "A Rubint Réka (Norbi Duci Tréning) és a Gordiusz Magántőkealap (Tiborcz) tételekhez célzott keresés történt második, független forrás után, de nem található — mindkét tétel változatlanul needs_review marad.",
-   "A V-Híd/Déli körvasút ügyben (reported-vhid-deli-korvasut-2026-10) megerősítést kapott, hogy a GVH 2026-10-12-én formálisan eljárást indított; a Hankó Balázs ügyben (reported-hanko-balazs-nka-sikkasztas-2026-09) megerősítést kapott, hogy a Kecskeméti Törvényszék 2026-10-13-án elutasította a fellebbezést — mindkét tétel verification_notes mezője frissítve, érdemi összeg/státusz nem változott.",
-   "Sem a 3 napos sajtófigyelési ablakban, sem a kiegészítő forrásokban nem került elő olyan új, korábban nem rögzített megtakarítási/visszaszerzési/EU-forrás/feljelentési esemény, amely az items vagy reported_cases kollekcióba új tételként felvehető lett volna — ez a futás a mai, kb. 5 órával korábbi (12:01-es) futás szorosan követő, kiegészítő ellenőrzése volt."
+   "24.hu cikkei (Ferihegyi takarítási kartell-gyanú Orbán Áron érintettségével, illetve a V-Híd eladásáról szóló részletek) WebFetch-csel nem voltak közvetlenül elérhetők (\"Claude Code is unable to fetch from 24.hu\"); a V-Híd/PORR eladási hírt más forrásokból (444.hu, Kontroll.hu, mfor.hu, Contextus.hu, Hírnavigátor.hu) sikerült megerősíteni és a kapcsolódó reported_cases tételhez hozzáfűzni, de a Ferihegyi takarítási kartell-ügyet egyetlen más forrásból sem sikerült megerősíteni vagy részleteiben feltárni ebben a futásban, ezért nem került be az adattárba — a következő futásban célzottan újra ellenőrizendő.",
+   "A kormany.hu/atlathato/feljelentes hivatalos oldal tartalma (57 ügy, 3444 Mrd Ft, 14 nyomozás, 74,0 Mrd Ft visszafizetve/megtakarítva, 2026-10-14-i állapot) ebben a futásban változatlan volt az előző (2026-10-16-i) futáshoz képest — nem volt szükség frissítésre a reported-osszesito-2026-09 és a kapcsolódó egyedi tételeken.",
+   "Az ÁKK hivatalos statisztikai oldala (akk.hu) ebben a futásban sem volt közvetlenül lekérhető; az államadósság-érték változatlanul a 2026-07-31-i (Magyar Nemzet/ÁKK-hivatkozás) állapotot tükrözi.",
+   "A KSH szeptemberi munkaerőpiaci gyorstájékoztatója (munkanélküliség) ebben a futásban még nem jelent meg; a legutóbbi (augusztusi, 4,7%) adat maradt érvényben.",
+   "Legalább 12 tematikus keresés (megtakarítás, visszaszerzés, feljelentés, elveszett uniós forrás, túlárazás, pazarlás-összehasonlítás stb.) lefutott, de az elmúlt kb. 3 napos (2026-10-14–17) ablakban nem azonosítottam olyan új, kellően alátámasztott tényt/összeget, amely megfelelne a felvételi/frissítési küszöbnek a 32 figyelt portál, a K-Monitor, a Hírkereső, az mnvvh.hu és az ügyészségi sajtóközlemények alapján; a kormany.hu-n és a sajtóban talált összes releváns ügy már korábbi futásokban rögzítve volt."
   ],
   "eu_lost_items_new": 0,
-  "finished_at": "2026-10-16T17:10:00+02:00",
+  "finished_at": "2026-10-17T06:40:00+02:00",
   "items_duplicate": 0,
   "items_found_total": 0,
   "items_needs_review": 0,
   "items_new": 0,
   "reported_cases_new": 0,
-  "reported_cases_updated": 2,
+  "reported_cases_updated": 1,
   "sources_checked": [
    "kormany.hu/atlathato/feljelentes",
    "k-monitor.hu (WebSearch)",
+   "hirkereso.hu",
    "mnvvh.hu/hirek",
-   "ugyeszseg.hu/kozponti-nyomozo-fougyeszseg",
-   "hirkereso.hu/politika",
+   "ugyeszseg.hu/category/hirek/kozponti-nyomozo-fougyeszseg",
+   "mnb.hu/arfolyamok",
    "24.hu",
    "444.hu",
-   "168.hu",
-   "Demokrata",
-   "Direkt36",
-   "es.hu",
-   "Forbes.hu",
-   "G7",
-   "HírTV",
-   "HVG",
-   "Index",
-   "InfoStart",
-   "Klubrádió",
-   "Magyar Hang",
-   "Magyar Hírlap",
-   "Magyar Nemzet",
-   "Makronóm",
-   "Mandiner",
-   "Media1",
-   "mfor.hu",
-   "Mérce",
-   "MTI",
-   "Népszava",
-   "Origo",
-   "Pénzcentrum",
-   "Portfolio.hu",
-   "Privátbankár",
-   "Szabad Európa",
    "Telex",
-   "Trend FM",
-   "Új Egyenlőség",
-   "Válasz Online",
-   "vg.hu",
-   "Partizán",
-   "Okoshír",
-   "szmo.hu",
-   "Átlátszó",
-   "Economx"
+   "Index",
+   "HVG",
+   "Portfolio.hu",
+   "Economx",
+   "Infostart.hu",
+   "Világgazdaság",
+   "Pénzcentrum",
+   "Privátbankár.hu",
+   "Kontroll.hu",
+   "mfor.hu",
+   "Contextus.hu",
+   "Hírnavigátor.hu",
+   "KSH (sajtón keresztül)"
   ],
-  "started_at": "2026-10-16T16:57:00+02:00",
-  "id": "2026-10-16T17-02"
+  "started_at": "2026-10-17T06:00:00+02:00",
+  "id": "2026-10-17T06-00"
  },
  "run_history": [
+  {
+   "finished_at": "2026-10-17T06:40:00+02:00",
+   "started_at": "2026-10-17T06:00:00+02:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 1,
+   "eu_lost_items_new": 0
+  },
   {
    "finished_at": "2026-10-16T17:10:00+02:00",
    "started_at": "2026-10-16T16:57:00+02:00",
@@ -3944,11 +3929,11 @@
   }
  ],
  "run_summary": {
-  "run_id": "2026-10-16T15:03:06+00:00",
-  "new": 1,
+  "run_id": "2026-10-17T04:02:46+00:00",
+  "new": 0,
   "modified": 0,
-  "confirmed_only": 2,
-  "touched": 3,
+  "confirmed_only": 1,
+  "touched": 1,
   "pending_review": 2,
   "by_section": {
    "items": {
@@ -3957,17 +3942,14 @@
     "confirmed_only": 0
    },
    "reported_cases": {
-    "new": 1,
+    "new": 0,
     "modified": 0,
-    "confirmed_only": 2
+    "confirmed_only": 1
    }
   },
-  "new_ids": [
-   "r:reported-kisfaludy-program-2026-10"
-  ],
+  "new_ids": [],
   "modified_ids": [],
   "confirmed_ids": [
-   "r:reported-hanko-balazs-nka-sikkasztas-2026-09",
    "r:reported-vhid-deli-korvasut-2026-10"
   ]
  },
@@ -5205,6 +5187,21 @@
      "new": 1,
      "modified": 0,
      "confirmed_only": 2
+    }
+   }
+  },
+  {
+   "run_id": "2026-10-17T04:02:46+00:00",
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 1
     }
    }
   }
