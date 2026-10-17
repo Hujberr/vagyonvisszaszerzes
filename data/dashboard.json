@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-17T10:02:52+00:00",
+ "generated_at": "2026-10-17T15:01:18+00:00",
  "summary": {
   "megtakaritas_verified_huf": 1847290700000,
   "visszaszerzes_verified_huf": 1575719300000,
@@ -1677,8 +1677,8 @@
    "subject": "Családbarát Magyarország programsorozat — szerencsi választókerületi rendezvények",
    "verification_notes": "ÚJ TÉTEL (2026-10-17 futás). Egyetlen közvetlen sajtóforrásból (Index) ismert eddig, de a feljelentő maga a hatáskörrel rendelkező miniszter (Kátai-Németh Vilmos), ezért reported státuszban rögzítve. Kapcsolódik, de ELKÜLÖNÜL a korábban rögzített, a reported-egyeb-miniszteriumi-18ugy-2026 gyűjtőtételben szereplő 'nyuszimotor-vásárlások' (0,239 Mrd Ft) tételtől: az ugyanazon Családbarát Magyarország programhoz és részben ugyanazon miniszterhez (Kátai-Németh Vilmos) köthető korábbi (2026-06-09-i) feljelentés volt, de más konkrét kiadásról (játékmotor-beszerzés) szólt, míg ez a mostani feljelentés a szerencsi választókerületi rendezvényekre fordított összegről szól. A két tételt nem szabad összeadni egy esetleges összesítésnél. Nem szerepel még a kormany.hu/atlathato/feljelentes hivatalos listáján (2026-10-17-i ellenőrzés szerint, a lista változatlanul az 2026-10-14-i, 57 ügyes/3444 Mrd Ft-os állapotot mutatta).",
    "id": "reported-csaladbarat-magyarorszag-szerencs-2026-10",
-   "updated_at": "2026-10-17T10:02:52+00:00",
-   "first_seen_at": "2026-10-17T10:02:52+00:00"
+   "first_seen_at": "2026-10-17T10:02:52+00:00",
+   "updated_at": "2026-10-17T10:02:52+00:00"
   },
   {
    "additional_sources": [
@@ -2182,8 +2182,8 @@
    "subject": "LOGOSZ Alapítvány Jövőképek kiadványai — Fidesz-propaganda közpénzből",
    "verification_notes": "ÚJ TÉTEL (2026-10-17 futás). Egyetlen közvetlen sajtóforrásból (Index) ismert eddig; a Fidesz reakciójára az Index a cikk szerint vár, azt a forrás még nem tartalmazza. Nem szerepel még a kormany.hu/atlathato/feljelentes hivatalos listáján (2026-10-17-i ellenőrzés szerint, a lista változatlanul az 2026-10-14-i, 57 ügyes/3444 Mrd Ft-os állapotot mutatta).",
    "id": "reported-logosz-alapitvany-kiadvanyok-2026-10",
-   "updated_at": "2026-10-17T10:02:52+00:00",
-   "first_seen_at": "2026-10-17T10:02:52+00:00"
+   "first_seen_at": "2026-10-17T10:02:52+00:00",
+   "updated_at": "2026-10-17T10:02:52+00:00"
   },
   {
    "alleged_amount_huf": 100000000000,
@@ -2566,8 +2566,8 @@
    "subject": "Országos Onkológiai Intézet eszközbeszerzései — hűtlen kezelés gyanúja",
    "verification_notes": "ÚJ TÉTEL (2026-10-17 futás, korábbi — 2026 szeptember közepi — ügy, amely a korábbi futások adattárában még nem szerepelt). Megkülönböztetendő a reported-onkologiai-akademia-alapitvany-2026-08 tételtől (Közép- és Kelet-európai Onkológiai Akadémia Alapítvány, Kásler Miklós-féle alapítvány villavásárlása) — ez utóbbi egy ALAPÍTVÁNY ügye, ez a mostani tétel pedig magának az állami Országos Onkológiai Intézetnek (hospital) az eszközbeszerzéseit érinti, más jogi szál. Nem szerepel a kormany.hu/atlathato/feljelentes hivatalos listáján, mivel ez a rendőrség önálló, nem kormányzati/minisztériumi feljelentésen alapuló nyomozása. Konkrét összeg vagy gyanúsított nincs, a vizsgálat folyamatban van.",
    "id": "reported-orszagos-onkologiai-intezet-eszkozbeszerzes-2026-09",
-   "updated_at": "2026-10-17T10:02:52+00:00",
-   "first_seen_at": "2026-10-17T10:02:52+00:00"
+   "first_seen_at": "2026-10-17T10:02:52+00:00",
+   "updated_at": "2026-10-17T10:02:52+00:00"
   },
   {
    "alleged_amount_huf": 3444000000000,
@@ -3097,7 +3097,7 @@
    "url": "https://magyarnemzet.hu/gazdasag/2026/09/allamadossag-novekedes"
   },
   "allamadossag_huf": 65716000000000,
-  "collected_at": "2026-10-17T06:00:00+02:00",
+  "collected_at": "2026-10-17T16:55:00+02:00",
   "elozo": {
    "allamadossag": {
     "period": null,
@@ -3137,7 +3137,7 @@
    {
     "key": "munkanelkulisegi_rata",
     "label_en": "Unemployment rate",
-    "label_hu": "Munkanélküliégi ráta",
+    "label_hu": "Munkanélküliségi ráta",
     "note_en": "229 thousand unemployed in August. The June-August three-month average was 4.8%. The September flash report had not been published yet at the time of this run.",
     "note_hu": "229 ezer munkanélküli augusztusban. A június–augusztusi háromhavi átlag 4,8% volt. A szeptemberi gyorstájékoztató e futás idején még nem jelent meg.",
     "period": "2026-08",
@@ -3206,8 +3206,8 @@
     "key": "eur_huf",
     "label_en": "Official EUR/HUF rate (MNB)",
     "label_hu": "Euró hivatalos árfolyama (MNB)",
-    "note_en": "USD: 323.07 HUF (2026-10-16 fixing).",
-    "note_hu": "Dollár: 323,07 Ft (2026-10-16-i fixing).",
+    "note_en": "USD: 323.07 HUF (2026-10-16 fixing). No reliably verifiable newer (2026-10-17) official fixing was found this run, so the previous 10-16 figure stands.",
+    "note_hu": "Dollár: 323,07 Ft (2026-10-16-i fixing). E futásban nem volt megbízhatóan ellenőrizhető újabb (2026-10-17-i) hivatalos fixing, ezért az előző, 10-16-i adat maradt érvényben.",
     "period": "2026-10-16",
     "prev_period": "2026-10-15",
     "prev_value": 364.18,
@@ -3319,41 +3319,55 @@
    "publish_date": "2026-09-22",
    "url": "https://www.portfolio.hu/gazdasag/20260922/itt-az-mnb-uj-elorejelzese-hiaba-a-nemzetkozi-kockazatok-mersekelt-marad-az-idei-inflacio-864484"
   },
-  "id": "2026-10-17T06-00"
+  "id": "2026-10-17T16-55"
  },
  "last_run": {
   "errors": [
-   "telex.hu/gazdasag közvetlen lekérése 403-at adott (WebFetch), a Telex-specifikus friss hírek emiatt csak más portálok (Index, 444.hu) révén kerültek ellenőrzésre",
-   "K-Monitor (k-monitor.hu) célzott keresés ebben a futásban nem azonosított új, még nem rögzített ügyet"
+   "A 2026-10-17-i friss MNB EUR/HUF fixing és az aznapi ÁKK/KSH adat nem volt megbízhatóan, önálló hivatalos forrásból megerősíthető 5 órás ablakban a 06:00-ás futás óta — a macro_snapshots dokumentum ezért a 06:00-ás futás adatait vette át változatlanul.",
+   "Nincs Politika rovat külön szekcióban elérhető a hirkereso.hu aznapi oldalbetöltésekor (csak Gazdaság rovat jelent meg a lekérésben); a Gazdaság rovatban nem volt új, releváns tétel."
   ],
   "eu_lost_items_new": 0,
-  "finished_at": null,
+  "finished_at": "2026-10-17T17:25:00+02:00",
   "items_duplicate": 0,
   "items_found_total": 0,
   "items_needs_review": 0,
   "items_new": 0,
-  "reported_cases_new": 3,
+  "reported_cases_new": 0,
   "reported_cases_updated": 0,
   "sources_checked": [
    "kormany.hu/atlathato/feljelentes",
-   "Index",
-   "Telex",
-   "444.hu",
-   "HVG",
-   "Portfolio.hu",
-   "Economx",
-   "Infostart.hu",
-   "Privátbankár",
+   "k-monitor.hu (WebSearch)",
    "mnvvh.hu/hirek",
-   "ugyeszseg.hu (Központi Nyomozó Főügyészség)",
-   "hirkereso.hu"
+   "ugyeszseg.hu (Központi Nyomozó Főügyészség rovat)",
+   "hirkereso.hu (Gazdaság rovat)",
+   "24.hu",
+   "444.hu",
+   "telex.hu",
+   "hvg.hu",
+   "index.hu",
+   "economx.hu",
+   "portfolio.hu",
+   "privatbankar.hu",
+   "infostart.hu",
+   "vg.hu",
+   "origo.hu",
+   "mfor.hu",
+   "piacesprofit.hu"
   ],
-  "started_at": "2026-10-17T12:01:00+02:00",
-  "id": "2026-10-17T12-01"
+  "started_at": "2026-10-17T16:56:00+02:00",
+  "id": "2026-10-17T16-55"
  },
  "run_history": [
   {
-   "finished_at": null,
+   "finished_at": "2026-10-17T17:25:00+02:00",
+   "started_at": "2026-10-17T16:56:00+02:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
+  {
+   "finished_at": "2026-10-17T12:40:00+02:00",
    "started_at": "2026-10-17T12:01:00+02:00",
    "items_new": 0,
    "reported_cases_new": 3,
@@ -3984,11 +3998,11 @@
   }
  ],
  "run_summary": {
-  "run_id": "2026-10-17T10:02:52+00:00",
-  "new": 3,
+  "run_id": "2026-10-17T15:01:18+00:00",
+  "new": 0,
   "modified": 0,
   "confirmed_only": 0,
-  "touched": 3,
+  "touched": 0,
   "pending_review": 2,
   "by_section": {
    "items": {
@@ -3997,16 +4011,12 @@
     "confirmed_only": 0
    },
    "reported_cases": {
-    "new": 3,
+    "new": 0,
     "modified": 0,
     "confirmed_only": 0
    }
   },
-  "new_ids": [
-   "r:reported-csaladbarat-magyarorszag-szerencs-2026-10",
-   "r:reported-logosz-alapitvany-kiadvanyok-2026-10",
-   "r:reported-orszagos-onkologiai-intezet-eszkozbeszerzes-2026-09"
-  ],
+  "new_ids": [],
   "modified_ids": [],
   "confirmed_ids": []
  },
@@ -5272,6 +5282,21 @@
     },
     "reported_cases": {
      "new": 3,
+     "modified": 0,
+     "confirmed_only": 0
+    }
+   }
+  },
+  {
+   "run_id": "2026-10-17T15:01:18+00:00",
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 0,
      "modified": 0,
      "confirmed_only": 0
     }
