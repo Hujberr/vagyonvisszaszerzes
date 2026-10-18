@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-18T10:01:38+00:00",
+ "generated_at": "2026-10-18T15:03:40+00:00",
  "summary": {
   "megtakaritas_verified_huf": 1847290700000,
   "visszaszerzes_verified_huf": 1575719300000,
@@ -3109,7 +3109,7 @@
    "url": "https://magyarnemzet.hu/gazdasag/2026/09/allamadossag-novekedes"
   },
   "allamadossag_huf": 65716000000000,
-  "collected_at": "2026-10-18T11:56:00+02:00",
+  "collected_at": "2026-10-18T16:56:00+02:00",
   "elozo": {
    "allamadossag": {
     "period": null,
@@ -3218,8 +3218,8 @@
     "key": "eur_huf",
     "label_en": "Official EUR/HUF rate (MNB)",
     "label_hu": "Euró hivatalos árfolyama (MNB)",
-    "note_en": "No newer verifiable official fixing found this run either.",
-    "note_hu": "E futásban sem volt ellenőrizhető újabb hivatalos fixing, a 10-16-i adat maradt érvényben.",
+    "note_en": "No new official MNB fixing on Sunday; the 10-16 figure remains in effect.",
+    "note_hu": "Vasárnap nincs új hivatalos MNB-fixing; a 10-16-i adat maradt érvényben.",
     "period": "2026-10-16",
     "prev_period": "2026-10-15",
     "prev_value": 364.18,
@@ -3330,30 +3330,30 @@
    "publish_date": "2026-09-22",
    "url": "https://www.portfolio.hu/gazdasag/20260922/itt-az-mnb-uj-elorejelzese-hiaba-a-nemzetkozi-kockazatok-mersekelt-marad-az-idei-inflacio-864484"
   },
-  "id": "2026-10-18T11-56"
+  "id": "2026-10-18T16-56"
  },
  "last_run": {
   "errors": [
-   "A kormany.hu/atlathato/feljelentes oldal tartalma (57 ügy, 3444 Mrd Ft, 2026-10-14-i állapot) változatlan volt a mai 06:00-ás futáshoz képest — nem volt szükség frissítésre a reported-osszesito-2026-09 és a kapcsolódó tételeken.",
-   "A szeptemberi KSH munkanélküliségi/foglalkoztatottsági gyorstájékoztató és a Q3 GDP-gyorsbecslés e futás idején még nem jelent meg (várható megjelenés október vége / november); a macro_snapshots dokumentum ezért a 2026-08-as, illetve 2026 Q2-es adatokat tartalmazza változatlanul.",
-   "Nem sikerült megerősíteni egy keresési találat ('NAV gázcsalás 17 ország, Europol') pontos dátumát/aktualitását; az ügy ordinary (nem kormányzati korrupcióhoz kötött) adócsalás jellege miatt és a bizonytalan aktualitás miatt nem került be az adattárba.",
-   "Rubint Réka/Norbi Duci Tréning Nkft. ügyéhez (reported-rubint-reka-norbi-duci-2026-10) nem található második, független sajtóforrás ebben a futásban sem — a tétel továbbra is under_investigation státuszban, egyetlen forrással.",
-   "A hirkereso.hu-n nincs önálló 'Politika' rovat link (csak Gazdaság, Tech, Sport stb.); a Gazdaság rovat (friss) átnézve, új, még nem rögzített ügy nem került elő."
+   "Ez a futás mindössze kb. 4,5 órával a 11:56-os (12:40-kor befejezett) futás után indult; a 10-12 tematikus WebSearch és a kiegészítő forrás-ellenőrzések nem hoztak fel olyan tényt, amely még nem szerepelt volna az adattárban.",
+   "Egy femcafe.hu-s cikk ('1350 milliárd forintot nyerhet a kormány a 14. havi nyugdíj kapcsán') a hirkereso.hu heti toplistáján jelent meg, de a cikk maga 403-as hibával nem volt elérhető, és a tartalmát WebSearch-csel sem sikerült más forrásból megerősíteni; feltételes/becsült jellege és az egyetlen, nem a figyelt listán szereplő forrás miatt ebben a futásban nem került be az adattárba, érdemes a következő futásban újra megnézni.",
+   "A Magyar Péter-féle napi 1 millió eurós EU-bírság ügyében (portfolio.hu, 2026-10-17) továbbra sincs konkrét, számszerűsített megállapodás vagy tényleges pénzügyi esemény, csak ígéret/tárgyalási szándék — a korábbi (06:00-ás) futás megállapítása változatlanul érvényes, önálló tételt nem indokol.",
+   "A 24.hu gázmaffia/NAV nemzetközi vagyonvisszaszerzési cikke (2026-10-17) magánszereplők adócsalása, nem korábbi kormányzati közpénz-visszaélés, ezért a felhasználói szűrési szabály szerint kimaradt.",
+   "A szeptemberi KSH munkanélküliségi/foglalkoztatottsági gyorstájékoztató, a Q3 GDP-gyorsbecslés és az ÁKK friss államadósság-adat e futás idején (vasárnap) sem jelent meg; a macro_snapshots dokumentum ezért a 2026-10-18 11:56-os futással azonos adatokat vette át változatlanul, új, friss hivatalos közzététel hiányában."
   ],
   "eu_lost_items_new": 0,
-  "finished_at": "2026-10-18T12:40:00+02:00",
-  "items_duplicate": 2,
-  "items_found_total": 2,
+  "finished_at": "2026-10-18T17:35:00+02:00",
+  "items_duplicate": 0,
+  "items_found_total": 0,
   "items_needs_review": 0,
   "items_new": 0,
   "reported_cases_new": 0,
-  "reported_cases_updated": 2,
+  "reported_cases_updated": 0,
   "sources_checked": [
-   "kormany.hu/atlathato/feljelentes",
+   "kormany.hu/atlathato/feljelentes (teljes ellenőrzés: változatlan, 57 ügy / 3444 Mrd Ft, 2026-10-14-i állapot; visszafizetve 61,2 Mrd Ft, meg nem valósult kiadás 12,8 Mrd Ft)",
    "mnvvh.hu/hirek",
    "ugyeszseg.hu (Központi Nyomozó Főügyészség)",
-   "hirkereso.hu",
-   "K-Monitor (WebSearch)",
+   "hirkereso.hu (Gazdaság/Portfólió rovat)",
+   "K-Monitor (WebSearch, 2 célzott keresés)",
    "Telex",
    "444.hu",
    "Index",
@@ -3364,13 +3364,21 @@
    "Infostart.hu",
    "Privátbankár.hu",
    "Adozona.hu",
-   "Piac és Profit",
-   "24.hu"
+   "24.hu",
+   "Pénzcentrum"
   ],
-  "started_at": "2026-10-18T11:56:00+02:00",
-  "id": "2026-10-18T11-56"
+  "started_at": "2026-10-18T16:56:00+02:00",
+  "id": "2026-10-18T16-56"
  },
  "run_history": [
+  {
+   "finished_at": "2026-10-18T17:35:00+02:00",
+   "started_at": "2026-10-18T16:56:00+02:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
   {
    "finished_at": "2026-10-18T12:40:00+02:00",
    "started_at": "2026-10-18T11:56:00+02:00",
@@ -4027,11 +4035,11 @@
   }
  ],
  "run_summary": {
-  "run_id": "2026-10-18T10:01:38+00:00",
+  "run_id": "2026-10-18T15:03:40+00:00",
   "new": 0,
   "modified": 0,
-  "confirmed_only": 2,
-  "touched": 2,
+  "confirmed_only": 0,
+  "touched": 0,
   "pending_review": 2,
   "by_section": {
    "items": {
@@ -4042,15 +4050,12 @@
    "reported_cases": {
     "new": 0,
     "modified": 0,
-    "confirmed_only": 2
+    "confirmed_only": 0
    }
   },
   "new_ids": [],
   "modified_ids": [],
-  "confirmed_ids": [
-   "r:reported-kisfaludy-program-2026-10",
-   "r:reported-logosz-alapitvany-kiadvanyok-2026-10"
-  ]
+  "confirmed_ids": []
  },
  "run_summary_history": [
   {
@@ -5361,6 +5366,21 @@
      "new": 0,
      "modified": 0,
      "confirmed_only": 2
+    }
+   }
+  },
+  {
+   "run_id": "2026-10-18T15:03:40+00:00",
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
     }
    }
   }
