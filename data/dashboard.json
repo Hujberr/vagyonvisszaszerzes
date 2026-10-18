@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-17T15:01:18+00:00",
+ "generated_at": "2026-10-18T04:01:47+00:00",
  "summary": {
   "megtakaritas_verified_huf": 1847290700000,
   "visszaszerzes_verified_huf": 1575719300000,
@@ -3097,7 +3097,7 @@
    "url": "https://magyarnemzet.hu/gazdasag/2026/09/allamadossag-novekedes"
   },
   "allamadossag_huf": 65716000000000,
-  "collected_at": "2026-10-17T16:55:00+02:00",
+  "collected_at": "2026-10-18T06:00:00+02:00",
   "elozo": {
    "allamadossag": {
     "period": null,
@@ -3121,8 +3121,8 @@
     "key": "gdp_novekedes_eves",
     "label_en": "GDP growth (year-on-year)",
     "label_hu": "GDP-növekedés (éves)",
-    "note_en": "Quarter-on-quarter growth of 0.5%. Household consumption +4.1%, investment -6.3%, agriculture -12.4% due to drought.",
-    "note_hu": "Az előző negyedévhez képest 0,5%-os bővülés. A háztartások fogyasztása 4,1%-kal nőtt, a beruházások 6,3%-kal csökkentek, a mezőgazdaság az aszály miatt 12,4%-kal esett vissza.",
+    "note_en": "Quarter-on-quarter growth of 0.5%. No newer (Q3) release found this run.",
+    "note_hu": "Az előző negyedévhez képest 0,5%-os bővülés. A háztartások fogyasztása 4,1%-kal nőtt, a beruházások 6,3%-kal csökkentek, a mezőgazdaság az aszály miatt 12,4%-kal esett vissza. E futásban nem jelent meg újabb (Q3) adat.",
     "period": "2026 Q2",
     "prev_period": "2026 Q1",
     "prev_value": 1.7,
@@ -3138,8 +3138,8 @@
     "key": "munkanelkulisegi_rata",
     "label_en": "Unemployment rate",
     "label_hu": "Munkanélküliségi ráta",
-    "note_en": "229 thousand unemployed in August. The June-August three-month average was 4.8%. The September flash report had not been published yet at the time of this run.",
-    "note_hu": "229 ezer munkanélküli augusztusban. A június–augusztusi háromhavi átlag 4,8% volt. A szeptemberi gyorstájékoztató e futás idején még nem jelent meg.",
+    "note_en": "September flash report not yet published at the time of this run.",
+    "note_hu": "A szeptemberi gyorstájékoztató e futás idején még nem jelent meg.",
     "period": "2026-08",
     "prev_period": "2026-07",
     "prev_value": 4.5,
@@ -3189,8 +3189,8 @@
     "key": "jegybanki_alapkamat",
     "label_en": "Central bank base rate",
     "label_hu": "Jegybanki alapkamat",
-    "note_en": "The Monetary Council left the base rate unchanged after a total 75 basis point cut over the summer.",
-    "note_hu": "A Monetáris Tanács nem változtatott az alapkamáton, a nyári, összesen 75 bázispontos csökkentést követően.",
+    "note_en": "No new rate decision found this run.",
+    "note_hu": "A Monetáris Tanács nem változtatott az alapkamáton, a nyári, összesen 75 bázispontos csökkentést követően. E futásban nem volt újabb kamatdöntés.",
     "period": "2026-09-22",
     "prev_period": "2026-08-25 előtt",
     "prev_value": 5.75,
@@ -3206,8 +3206,8 @@
     "key": "eur_huf",
     "label_en": "Official EUR/HUF rate (MNB)",
     "label_hu": "Euró hivatalos árfolyama (MNB)",
-    "note_en": "USD: 323.07 HUF (2026-10-16 fixing). No reliably verifiable newer (2026-10-17) official fixing was found this run, so the previous 10-16 figure stands.",
-    "note_hu": "Dollár: 323,07 Ft (2026-10-16-i fixing). E futásban nem volt megbízhatóan ellenőrizhető újabb (2026-10-17-i) hivatalos fixing, ezért az előző, 10-16-i adat maradt érvényben.",
+    "note_en": "USD: 323.07 HUF (2026-10-16 fixing). No newer verifiable official fixing found this run either.",
+    "note_hu": "Dollár: 323,07 Ft (2026-10-16-i fixing). E futásban (2026-10-18) sem volt ellenőrizhető újabb hivatalos fixing az MNB oldalán, ezért a 10-16-i adat maradt érvényben.",
     "period": "2026-10-16",
     "prev_period": "2026-10-15",
     "prev_value": 364.18,
@@ -3273,7 +3273,7 @@
     "label_en": "Central government deficit (year to date)",
     "label_hu": "Központi alrendszer hiánya (év eleje óta)",
     "note_en": "72.7% of the revised annual target (7,109.5 bn HUF).",
-    "note_hu": "72,7%-a a módosított éves hiánycélnak (7 109,5 Mrd Ft).",
+    "note_hu": "72,7%-a a módosított éves hiánycélnak (7 109,5 Mrd Ft). E futásban nem jelent meg újabb (szeptemberi) gyorstájékoztató.",
     "period": "2026 január–augusztus",
     "prev_period": "2026 január–július",
     "prev_value": 2857.9,
@@ -3319,15 +3319,18 @@
    "publish_date": "2026-09-22",
    "url": "https://www.portfolio.hu/gazdasag/20260922/itt-az-mnb-uj-elorejelzese-hiaba-a-nemzetkozi-kockazatok-mersekelt-marad-az-idei-inflacio-864484"
   },
-  "id": "2026-10-17T16-55"
+  "id": "2026-10-18T06-00"
  },
  "last_run": {
   "errors": [
-   "A 2026-10-17-i friss MNB EUR/HUF fixing és az aznapi ÁKK/KSH adat nem volt megbízhatóan, önálló hivatalos forrásból megerősíthető 5 órás ablakban a 06:00-ás futás óta — a macro_snapshots dokumentum ezért a 06:00-ás futás adatait vette át változatlanul.",
-   "Nincs Politika rovat külön szekcióban elérhető a hirkereso.hu aznapi oldalbetöltésekor (csak Gazdaság rovat jelent meg a lekérésben); a Gazdaság rovatban nem volt új, releváns tétel."
+   "24.hu cikkek (gázmaffia NAV vagyonvisszaszerzés, Ferihegy takarítási közbeszerzés kartell) nem voltak közvetlenül lekérhetők WebFetch-csel (hiba: 'Claude Code is unable to fetch from 24.hu'); WebSearch-ös pótkereséssel részben sikerült tartalmat szerezni, de a Ferihegy/Orbán Áron-ügy részletei nem voltak megbízhatóan megerősíthetők, ezért nem került be az adattárba.",
+   "A gázmaffia (ÁFA-csalási bűnszervezet, NAV által 17 országban vagyonvisszaszerzést célzó eljárás) ügye kategórián kívül esik: magánszereplők adócsalása, nem korábbi kormányzati közpénz-visszaélés, ezért nem vettük fel.",
+   "Az Európai Unió Bírósága napi 1 millió eurós bírságának ügyében (Magyar Péter 2026-10-17-i nyilatkozata az uniós tagállamok ígéretéről) nem állt rendelkezésre elég konkrét, számszerűsített tény (nincs megállapodás részlete, nincs összeg vagy dátum a tényleges rendezésről), ezért önálló tételként nem rögzítettük; érdemes következő futásban újra ellenőrizni.",
+   "KSH szeptemberi munkanélküliségi gyorstájékoztató és a Pénzügyminisztérium szeptemberi hiány-gyorstájékoztató e futás idején még nem jelent meg újabb adattal, a korábbi (augusztusi/júliusi) értékek maradtak érvényben.",
+   "ÁKK aktuális (2026-10) államadósság-adat nem volt közvetlenül elérhető/megerősíthető ebben a futásban, a korábbi (2026-07-31-i, Magyar Nemzet által közölt) adat maradt érvényben."
   ],
   "eu_lost_items_new": 0,
-  "finished_at": "2026-10-17T17:25:00+02:00",
+  "finished_at": "2026-10-18T06:10:00+02:00",
   "items_duplicate": 0,
   "items_found_total": 0,
   "items_needs_review": 0,
@@ -3335,29 +3338,26 @@
   "reported_cases_new": 0,
   "reported_cases_updated": 0,
   "sources_checked": [
-   "kormany.hu/atlathato/feljelentes",
-   "k-monitor.hu (WebSearch)",
+   "kormany.hu/atlathato/feljelentes (official, full re-check: unchanged since 2026-10-14, 57 cases / 3444 Mrd Ft)",
+   "hirkereso.hu/gazdasag",
+   "hirkereso.hu/politika (404, not reachable at that path)",
    "mnvvh.hu/hirek",
-   "ugyeszseg.hu (Központi Nyomozó Főügyészség rovat)",
-   "hirkereso.hu (Gazdaság rovat)",
-   "24.hu",
-   "444.hu",
-   "telex.hu",
-   "hvg.hu",
-   "index.hu",
-   "economx.hu",
-   "portfolio.hu",
-   "privatbankar.hu",
-   "infostart.hu",
-   "vg.hu",
-   "origo.hu",
-   "mfor.hu",
-   "piacesprofit.hu"
+   "ugyeszseg.hu (Központi Nyomozó Főügyészség hírek)",
+   "WebSearch: general press monitoring (10+ targeted queries covering megtakarítás, visszaszerzés, feljelentés, túlárazás, EU-forrás, elveszett uniós forrás, K-Monitor)",
+   "KSH/MNB/ÁKK macro data searches"
   ],
-  "started_at": "2026-10-17T16:56:00+02:00",
-  "id": "2026-10-17T16-55"
+  "started_at": "2026-10-18T05:56:00+02:00",
+  "id": "2026-10-18T06-00"
  },
  "run_history": [
+  {
+   "finished_at": "2026-10-18T06:10:00+02:00",
+   "started_at": "2026-10-18T05:56:00+02:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
   {
    "finished_at": "2026-10-17T17:25:00+02:00",
    "started_at": "2026-10-17T16:56:00+02:00",
@@ -3998,7 +3998,7 @@
   }
  ],
  "run_summary": {
-  "run_id": "2026-10-17T15:01:18+00:00",
+  "run_id": "2026-10-18T04:01:47+00:00",
   "new": 0,
   "modified": 0,
   "confirmed_only": 0,
@@ -5289,6 +5289,21 @@
   },
   {
    "run_id": "2026-10-17T15:01:18+00:00",
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    }
+   }
+  },
+  {
+   "run_id": "2026-10-18T04:01:47+00:00",
    "by_section": {
     "items": {
      "new": 0,
