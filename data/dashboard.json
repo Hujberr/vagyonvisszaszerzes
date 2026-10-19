@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-18T15:03:40+00:00",
+ "generated_at": "2026-10-19T04:02:38+00:00",
  "summary": {
   "megtakaritas_verified_huf": 1847290700000,
   "visszaszerzes_verified_huf": 1575719300000,
@@ -1661,6 +1661,13 @@
    "updated_at": "2026-10-02T15:05:08+00:00"
   },
   {
+   "additional_sources": [
+    {
+     "name": "HVG",
+     "published_date": "2026-10-17",
+     "url": "https://hvg.hu/itthon/20261017_koncz-zsofia-kataineemeth-vilmos-per"
+    }
+   ],
    "alleged_amount_huf": 600000000,
    "alleged_amount_text": "több mint 600 millió forint (ebből egyetlen, 2026. április 5-i húsvéti rendezvény 343 millió forintba került), 2026 februárja és a választás között, két hónap alatt",
    "confirmed_recovered_huf": 0,
@@ -1675,10 +1682,10 @@
    },
    "status": "reported",
    "subject": "Családbarát Magyarország programsorozat — szerencsi választókerületi rendezvények",
-   "verification_notes": "ÚJ TÉTEL (2026-10-17 futás). Egyetlen közvetlen sajtóforrásból (Index) ismert eddig, de a feljelentő maga a hatáskörrel rendelkező miniszter (Kátai-Németh Vilmos), ezért reported státuszban rögzítve. Kapcsolódik, de ELKÜLÖNÜL a korábban rögzített, a reported-egyeb-miniszteriumi-18ugy-2026 gyűjtőtételben szereplő 'nyuszimotor-vásárlások' (0,239 Mrd Ft) tételtől: az ugyanazon Családbarát Magyarország programhoz és részben ugyanazon miniszterhez (Kátai-Németh Vilmos) köthető korábbi (2026-06-09-i) feljelentés volt, de más konkrét kiadásról (játékmotor-beszerzés) szólt, míg ez a mostani feljelentés a szerencsi választókerületi rendezvényekre fordított összegről szól. A két tételt nem szabad összeadni egy esetleges összesítésnél. Nem szerepel még a kormany.hu/atlathato/feljelentes hivatalos listáján (2026-10-17-i ellenőrzés szerint, a lista változatlanul az 2026-10-14-i, 57 ügyes/3444 Mrd Ft-os állapotot mutatta).",
+   "verification_notes": "FRISSÍTVE 2026-10-19 05:55-ös futás: Koncz Zsófia (akkori családügyi államtitkár, jelenleg fideszes országgyűlési képviselő) vitatja a feljelentés állítását, és polgári peres eljárást indított Kátai-Németh Vilmos szociális és családügyi miniszter ellen személyiségi jogai megsértése miatt, mivel a miniszter hivatali visszaéléssel gyanúsította meg. A pontos keresetösszeg nem ismert. Ez eljárási/jogi vita a feljelentett és a feljelentő között, nem változtatja meg az alleged_amount_huf (600 M Ft) vagy a status (reported) mezőt, a tényleges nyomozási eredmény továbbra is nyitott. Nem szerepel még a kormany.hu/atlathato/feljelentes hivatalos listáján (2026-10-19-i ellenőrzés szerint, a lista változatlanul a 2026-10-14-i, 57 ügyes/3444 Mrd Ft-os állapotot mutatta). (Korábbi megjegyzés megőrizve.) ÚJ TÉTEL (2026-10-17 futás). Egyetlen közvetlen sajtóforrásból (Index) ismert eddig, de a feljelentő maga a hatáskörrel rendelkező miniszter (Kátai-Németh Vilmos), ezért reported státuszban rögzítve. Kapcsolódik, de ELKÜLÖNÜL a korábban rögzített, a reported-egyeb-miniszteriumi-18ugy-2026 gyűjtőtételben szereplő 'nyuszimotor-vásárlások' (0,239 Mrd Ft) tételtől.",
    "id": "reported-csaladbarat-magyarorszag-szerencs-2026-10",
    "first_seen_at": "2026-10-17T10:02:52+00:00",
-   "updated_at": "2026-10-17T10:02:52+00:00"
+   "updated_at": "2026-10-19T04:02:38+00:00"
   },
   {
    "additional_sources": [
@@ -3109,7 +3116,7 @@
    "url": "https://magyarnemzet.hu/gazdasag/2026/09/allamadossag-novekedes"
   },
   "allamadossag_huf": 65716000000000,
-  "collected_at": "2026-10-18T16:56:00+02:00",
+  "collected_at": "2026-10-19T05:59:00+02:00",
   "elozo": {
    "allamadossag": {
     "period": null,
@@ -3134,7 +3141,7 @@
     "label_en": "GDP growth (year-on-year)",
     "label_hu": "GDP-növekedés (éves)",
     "note_en": "No newer (Q3) release found this run; expected in November.",
-    "note_hu": "Az előző negyedévhez képest 0,5%-os bővülés. E futásban nem jelent meg újabb (Q3) adat; a KSH Q3-as gyorsbecslése várhatóan novemberben jelenik meg.",
+    "note_hu": "E futásban sem jelent meg újabb (Q3) adat; a KSH Q3-as gyorsbecslése várhatóan novemberben jelenik meg.",
     "period": "2026 Q2",
     "prev_period": "2026 Q1",
     "prev_value": 1.7,
@@ -3218,8 +3225,8 @@
     "key": "eur_huf",
     "label_en": "Official EUR/HUF rate (MNB)",
     "label_hu": "Euró hivatalos árfolyama (MNB)",
-    "note_en": "No new official MNB fixing on Sunday; the 10-16 figure remains in effect.",
-    "note_hu": "Vasárnap nincs új hivatalos MNB-fixing; a 10-16-i adat maradt érvényben.",
+    "note_en": "No new official MNB fixing over the weekend; the 10-16 figure remains the latest in effect.",
+    "note_hu": "Hétvégén nincs új hivatalos MNB-fixing; a péntek (10-16) óta közölt legutóbbi adat maradt érvényben. A dollár árfolyama ugyanekkor 323,07 Ft/USD.",
     "period": "2026-10-16",
     "prev_period": "2026-10-15",
     "prev_value": 364.18,
@@ -3330,30 +3337,32 @@
    "publish_date": "2026-09-22",
    "url": "https://www.portfolio.hu/gazdasag/20260922/itt-az-mnb-uj-elorejelzese-hiaba-a-nemzetkozi-kockazatok-mersekelt-marad-az-idei-inflacio-864484"
   },
-  "id": "2026-10-18T16-56"
+  "id": "2026-10-19T05-59"
  },
  "last_run": {
   "errors": [
-   "Ez a futás mindössze kb. 4,5 órával a 11:56-os (12:40-kor befejezett) futás után indult; a 10-12 tematikus WebSearch és a kiegészítő forrás-ellenőrzések nem hoztak fel olyan tényt, amely még nem szerepelt volna az adattárban.",
-   "Egy femcafe.hu-s cikk ('1350 milliárd forintot nyerhet a kormány a 14. havi nyugdíj kapcsán') a hirkereso.hu heti toplistáján jelent meg, de a cikk maga 403-as hibával nem volt elérhető, és a tartalmát WebSearch-csel sem sikerült más forrásból megerősíteni; feltételes/becsült jellege és az egyetlen, nem a figyelt listán szereplő forrás miatt ebben a futásban nem került be az adattárba, érdemes a következő futásban újra megnézni.",
-   "A Magyar Péter-féle napi 1 millió eurós EU-bírság ügyében (portfolio.hu, 2026-10-17) továbbra sincs konkrét, számszerűsített megállapodás vagy tényleges pénzügyi esemény, csak ígéret/tárgyalási szándék — a korábbi (06:00-ás) futás megállapítása változatlanul érvényes, önálló tételt nem indokol.",
-   "A 24.hu gázmaffia/NAV nemzetközi vagyonvisszaszerzési cikke (2026-10-17) magánszereplők adócsalása, nem korábbi kormányzati közpénz-visszaélés, ezért a felhasználói szűrési szabály szerint kimaradt.",
-   "A szeptemberi KSH munkanélküliségi/foglalkoztatottsági gyorstájékoztató, a Q3 GDP-gyorsbecslés és az ÁKK friss államadósság-adat e futás idején (vasárnap) sem jelent meg; a macro_snapshots dokumentum ezért a 2026-10-18 11:56-os futással azonos adatokat vette át változatlanul, új, friss hivatalos közzététel hiányában."
+   "A kormany.hu/atlathato/feljelentes oldal tartalma (57 ügy, 3444 Mrd Ft, 2026-10-14-i állapot) változatlan volt a legutóbbi (10-18 16:56-os) futáshoz képest; a hivatalos oldal összesítő 'eset' száma (57) és a ténylegesen felsorolt tételek száma (52) közötti eltérés továbbra is fennáll, az oldal ezt nem magyarázza; a reported-osszesito-2026-09 tétel ezt változatlanul hagyva őrzi.",
+   "A Magyar Péter 'EU-csúcson megmentett 1 milliárd euró' (444.hu, 2026-10-16) hír valójában a 2028-2034-es többéves uniós pénzügyi keret ('nemzeti boriték') tervezett növeléséről szól, nem tényleges, mostani kifizetésről vagy megállapodásról — jövőbeli költségvetési tervezési vita, nem veszünk fel önálló tételt.",
+   "A V-Híd/PORR eladási hír (444.hu, 2026-10-16) továbbra is csak be nem erősített értesülés (a PORR nem erősítette meg), érdemi új tény a korábban rögzítetthez (reported-vhid-deli-korvasut-2026-10) képest nincs.",
+   "Koncz Zsófia 2026-10-17-i perindulásának (Index, HVG) pontos keresetösszege nem ismert; a kapcsolódó reported-csaladbarat-magyarorszag-szerencs-2026-10 tétel verification_notes mezője frissítve, az alleged_amount_huf és a status nem változott.",
+   "A telex.hu/belfold és a 444.hu/belfold oldal közvetlen WebFetch-csel nem volt elérhető (403/404 hiba); a tartalmukat WebSearch-csel és az index.hu/hvg.hu front lapokkal pótolva ellenőriztük.",
+   "A KSH szeptemberi munkanélküli/foglalkoztatottsági gyorstájékoztatója, a Q3 GDP-gyorsbecslés és egy friss ÁKK államadósság-adat e futás idején sem jelent meg; a macro_snapshots dokumentum ezért változatlan adatokat tartalmaz."
   ],
   "eu_lost_items_new": 0,
-  "finished_at": "2026-10-18T17:35:00+02:00",
+  "finished_at": "2026-10-19T06:05:00+02:00",
   "items_duplicate": 0,
   "items_found_total": 0,
   "items_needs_review": 0,
   "items_new": 0,
   "reported_cases_new": 0,
-  "reported_cases_updated": 0,
+  "reported_cases_updated": 1,
   "sources_checked": [
    "kormany.hu/atlathato/feljelentes (teljes ellenőrzés: változatlan, 57 ügy / 3444 Mrd Ft, 2026-10-14-i állapot; visszafizetve 61,2 Mrd Ft, meg nem valósult kiadás 12,8 Mrd Ft)",
    "mnvvh.hu/hirek",
    "ugyeszseg.hu (Központi Nyomozó Főügyészség)",
-   "hirkereso.hu (Gazdaság/Portfólió rovat)",
-   "K-Monitor (WebSearch, 2 célzott keresés)",
+   "hirkereso.hu (Gazdaság rovat)",
+   "K-Monitor (WebSearch)",
+   "MNB (árfolyamok)",
    "Telex",
    "444.hu",
    "Index",
@@ -3364,13 +3373,20 @@
    "Infostart.hu",
    "Privátbankár.hu",
    "Adozona.hu",
-   "24.hu",
-   "Pénzcentrum"
+   "24.hu"
   ],
-  "started_at": "2026-10-18T16:56:00+02:00",
-  "id": "2026-10-18T16-56"
+  "started_at": "2026-10-19T05:55:00+02:00",
+  "id": "2026-10-19T05-59"
  },
  "run_history": [
+  {
+   "finished_at": "2026-10-19T06:05:00+02:00",
+   "started_at": "2026-10-19T05:55:00+02:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 1,
+   "eu_lost_items_new": 0
+  },
   {
    "finished_at": "2026-10-18T17:35:00+02:00",
    "started_at": "2026-10-18T16:56:00+02:00",
@@ -4035,11 +4051,11 @@
   }
  ],
  "run_summary": {
-  "run_id": "2026-10-18T15:03:40+00:00",
+  "run_id": "2026-10-19T04:02:38+00:00",
   "new": 0,
   "modified": 0,
-  "confirmed_only": 0,
-  "touched": 0,
+  "confirmed_only": 1,
+  "touched": 1,
   "pending_review": 2,
   "by_section": {
    "items": {
@@ -4050,12 +4066,14 @@
    "reported_cases": {
     "new": 0,
     "modified": 0,
-    "confirmed_only": 0
+    "confirmed_only": 1
    }
   },
   "new_ids": [],
   "modified_ids": [],
-  "confirmed_ids": []
+  "confirmed_ids": [
+   "r:reported-csaladbarat-magyarorszag-szerencs-2026-10"
+  ]
  },
  "run_summary_history": [
   {
@@ -5381,6 +5399,21 @@
      "new": 0,
      "modified": 0,
      "confirmed_only": 0
+    }
+   }
+  },
+  {
+   "run_id": "2026-10-19T04:02:38+00:00",
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 1
     }
    }
   }
