@@ -1,13 +1,13 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-19T10:05:22+00:00",
+ "generated_at": "2026-10-19T15:02:18+00:00",
  "summary": {
   "megtakaritas_verified_huf": 1847290700000,
   "visszaszerzes_verified_huf": 1575719300000,
   "eu_forras_verified_huf": 6280000000000,
   "eu_forras_lost_huf": 730000000000,
   "items_count": 37,
-  "reported_cases_count": 55
+  "reported_cases_count": 56
  },
  "items": [
   {
@@ -1820,8 +1820,8 @@
    "subject": "Élelmiszermentő Központ Nonprofit Kft. — állami támogatások és informatikai rendszer felhasználása",
    "verification_notes": "ÚJ TÉTEL (2026-10-19 12:01-es futás, WebSearch-en keresztül azonosított, régebbi — 2026 júliusi — ügy, amely a korábbi futások adattárában még nem szerepelt). Legalább három független forrás (Telex, 444.hu, Economx) egyezően számol be az ÁSZ 2026-07-29-i jelentéséről. Az összeg pontos, egyértelmű összesítése a cikkekből nem állapítható meg (a 2,8+4,6 Mrd Ft-os informatikai rendszertétel és a külön említett ~3,8 Mrd Ft-os állami támogatás/tőkejuttatás viszonya nem tisztázott: lehet, hogy részben fedik egymást), ezért az alleged_amount_huf null, a részletek az alleged_amount_text-ben. Nem szerepel a kormany.hu/atlathato/feljelentes hivatalos listáján (2026-10-19-i ellenőrzés szerint, a lista változatlanul a 2026-10-14-i, 57 ügyes/3444 Mrd Ft-os állapotot mutatta), mivel ez az ÁSZ önálló vizsgálatára épülő eljárás, nem kormányzati/minisztériumi feljelentés. A formális nyomozás elrendeléséről nincs külön megerősítés, ezért a status 'reported'. Kapcsolódó, de különálló tétel: a vele egy jelentésben szereplő Vác Város Labdarúgó Sportegyesület ügye (l. reported-vac-sportegyesulet-asz-2026-07), amelyet nem adunk hozzá ehhez az összeghez.",
    "id": "reported-elelmiszermento-kozpont-asz-2026-07",
-   "updated_at": "2026-10-19T10:05:22+00:00",
-   "first_seen_at": "2026-10-19T10:05:22+00:00"
+   "first_seen_at": "2026-10-19T10:05:22+00:00",
+   "updated_at": "2026-10-19T10:05:22+00:00"
   },
   {
    "additional_sources": [
@@ -3085,8 +3085,8 @@
    "subject": "Vác Város Labdarúgó Sportegyesület — sporttámogatások elszámolása",
    "verification_notes": "ÚJ TÉTEL (2026-10-19 12:01-es futás, az Élelmiszermentő Központ ÁSZ-jelentésével egy időben, de ATTÓL ELKÜLÖNÜLŐ ügyként azonosítva — ugyanaz az ÁSZ-jelentés két különböző szervezetet vizsgált). Nem szerepel a kormany.hu/atlathato/feljelentes hivatalos listáján (2026-10-19-i ellenőrzés szerint), mivel ez az ÁSZ önálló vizsgálatára épülő eljárás, nem kormányzati/minisztériumi feljelentés. A formális nyomozás elrendeléséről nincs külön megerősítés, ezért a status 'reported'.",
    "id": "reported-vac-sportegyesulet-asz-2026-07",
-   "updated_at": "2026-10-19T10:05:22+00:00",
-   "first_seen_at": "2026-10-19T10:05:22+00:00"
+   "first_seen_at": "2026-10-19T10:05:22+00:00",
+   "updated_at": "2026-10-19T10:05:22+00:00"
   },
   {
    "additional_sources": [
@@ -3136,6 +3136,26 @@
    "updated_at": "2026-09-30T15:02:24+00:00"
   },
   {
+   "alleged_amount_huf": 744000000,
+   "alleged_amount_text": "több mint 744 millió forint (a DAKK Zrt.-nek és más állami közlekedési társaságoknak okozott kár, 2014-es, 20 autóbuszra kiírt tender ügyében)",
+   "confirmed_recovered_huf": 0,
+   "description": "A Gyulai Törvényszék első fokon három év börtönre ítélte Fekete Antalt, a Volánbusz korábbi vezérigazgatóját hivatali visszaélés miatt, egy 2014-es, 20 autóbusz beszerzésére kiírt tender ügyében. A bíróság megállapítása szerint Fekete és két társa a DAKK Dél-alföldi Közlekedési Központ Zrt.-nél olcsóbb finanszírozási lehetőségek helyett egy ismerőse cégével kötött hátrányos lízingszerződést, amely az állami társaságoknak több mint 744 millió forint kárt okozott; a buszok a négyéves futamidő után sem kerültek állami tulajdonba. A bíróság kártérítés megfizetésére kötelezte az elítélteket, és vagyonzárolást is elrendelt, mert az eljárás alatt ingatlanok átcsoportosítására derült fény. Az ítélet nem jogerős.",
+   "ministry": "Gyulai Törvényszék (bírósági eljárás, nem kormányzati/minisztériumi feljelentés) — érintett szervezet: DAKK Dél-alföldi Közlekedési Központ Zrt. / Volánbusz",
+   "recovered_item_id": null,
+   "report_date": "2026-03-01",
+   "report_source": {
+    "name": "Portfolio.hu",
+    "published_date": "2026-10-19",
+    "url": "https://www.portfolio.hu/gazdasag/20261019/harom-ev-bortonre-iteltek-a-magyar-allami-ceg-volt-vezeret-hatalmas-vagyonkimentesre-derult-feny-870520"
+   },
+   "status": "under_investigation",
+   "subject": "Volánbusz/DAKK — Fekete Antal volt vezérigazgató buszbeszerzési ügye (elsőfokú ítélet)",
+   "verification_notes": "ÚJ TÉTEL (2026-10-19 16:59-es futás). A Portfolio.hu 2026-10-19-i cikke szerint a Gyulai Törvényszék elsőfokon (2026 márciusában, a pontos nap nem ismert, ezért report_date hónap elejére közelítve) három év börtönre ítélte Fekete Antalt, a Volánbusz korábbi vezérigazgatóját egy 2014-es, DAKK Zrt.-nél kiírt buszbeszerzési tender ügyében. Ez NEM azonos a 2015-2018 közötti, 608 használt autóbusz beszerzését érintő, reported-volan-buszbeszerzes-2026-09 tételben rögzített üggyel (más tender, más időszak, más összeg), bár Fekete neve a cikk szerint abban az ügyben is felmerül, mivel a gyanú szerint ő koordinálta a beszerzéseket 2015-2018 között is. Az ítélet nem jogerős (fellebbezés várható), a kártérítés tényleges megfizetése nem ismert, ezért confirmed_recovered_huf=0; a bíróság vagyonzárolást rendelt el Fekete ingatlanaira az eljárás alatt észlelt vagyonelrejtési kísérletek miatt, de ez nem végleges, az államhoz visszakerült vagyon. Egyetlen (Portfolio) forrásból ismert eddig (a 24.hu párhuzamos cikke technikai okból nem volt lekérhető ebben a futásban), második független forrásra vár. Nem szerepel a kormany.hu/atlathato/feljelentes hivatalos listáján (2026-10-19-i ellenőrzés szerint, a lista változatlanul a 2026-10-14-i, 57 ügyes/3444 Mrd Ft-os állapotot mutatja), mivel ez bírósági ítélet, nem kormányzati/minisztériumi feljelentés.",
+   "id": "reported-volanbusz-dakk-fekete-antal-2026-10",
+   "updated_at": "2026-10-19T15:02:18+00:00",
+   "first_seen_at": "2026-10-19T15:02:18+00:00"
+  },
+  {
    "additional_sources": [
     {
      "name": "mfor.hu",
@@ -3175,7 +3195,7 @@
    "url": "https://magyarnemzet.hu/gazdasag/2026/09/allamadossag-novekedes"
   },
   "allamadossag_huf": 65716000000000,
-  "collected_at": "2026-10-19T12:01:00+02:00",
+  "collected_at": "2026-10-19T16:59:00+02:00",
   "elozo": {
    "allamadossag": {
     "period": null,
@@ -3284,7 +3304,7 @@
     "key": "eur_huf",
     "label_en": "Official EUR/HUF rate (MNB)",
     "label_hu": "Euró hivatalos árfolyama (MNB)",
-    "note_en": "No new official MNB fixing over the weekend; the 10-16 figure remains the latest in effect.",
+    "note_en": "No new official MNB fixing since Friday; the 10-16 figure remains the latest in effect.",
     "note_hu": "Hétvégén nincs új hivatalos MNB-fixing; a péntek (10-16) óta közölt legutóbbi adat maradt érvényben. A dollár árfolyama ugyanekkor 323,07 Ft/USD.",
     "period": "2026-10-16",
     "prev_period": "2026-10-15",
@@ -3396,70 +3416,51 @@
    "publish_date": "2026-09-22",
    "url": "https://www.portfolio.hu/gazdasag/20260922/itt-az-mnb-uj-elorejelzese-hiaba-a-nemzetkozi-kockazatok-mersekelt-marad-az-idei-inflacio-864484"
   },
-  "id": "2026-10-19T12-01"
+  "id": "2026-10-19T16-59"
  },
  "last_run": {
   "errors": [
-   "hirkereso.hu/politika 404-et adott (a Politika rovat URL-je megváltozhatott); a Gazdaság rovat elérhető volt és feldolgozásra került."
+   "24.hu cikk (Volánbusz-ügy, Fekete Antal) nem volt közvetlenül lekérhető ebben a futásban (WebFetch hiba); az ügyet csak a Portfolio.hu párhuzamos cikkéből sikerült rögzíteni.",
+   "KSH szeptemberi munkaerőpiaci gyorstájékoztató e futás idején még nem jelent meg, a makroadatok a 2026-08-as/2026-09-es legutóbbi állapotot tükrözik változatlanul."
   ],
   "eu_lost_items_new": 0,
-  "finished_at": "2026-10-19T12:10:00+02:00",
+  "finished_at": "2026-10-19T16:59:00+02:00",
   "items_duplicate": 0,
-  "items_found_total": 0,
+  "items_found_total": 3,
   "items_needs_review": 0,
   "items_new": 0,
-  "reported_cases_new": 2,
+  "reported_cases_new": 1,
   "reported_cases_updated": 0,
   "sources_checked": [
    "kormany.hu/atlathato/feljelentes",
-   "24.hu",
+   "24.hu (sikertelen lekérés)",
    "444.hu",
-   "168.hu",
-   "atlatszo.hu",
-   "demokrata.hu",
-   "direkt36.hu",
-   "economx.hu",
-   "es.hu",
-   "forbes.hu",
-   "g7.hu",
-   "hirtv.hu",
-   "hvg.hu",
-   "index.hu",
-   "infostart.hu",
-   "jelen.media",
-   "klubradio.hu",
-   "magyarhang.org",
-   "magyarhirlap.hu",
-   "magyarnemzet.hu",
-   "makronom.hu",
-   "mandiner.hu",
-   "media1.hu",
-   "mfor.hu",
-   "merce.hu",
-   "mti.hu",
-   "nepszava.hu",
-   "origo.hu",
-   "penzcentrum.hu",
-   "portfolio.hu",
-   "privatbankar.hu",
-   "szabadeuropa.hu",
    "telex.hu",
-   "trendfm.hu",
-   "ujegyenloseg.hu",
-   "valaszonline.hu",
-   "vg.hu",
-   "partizan.hu",
-   "okoshir.hu",
-   "szmo.hu",
+   "index.hu",
+   "hvg.hu",
+   "portfolio.hu",
+   "economx.hu",
+   "infostart.hu",
+   "privatbankar.hu",
+   "penzcentrum.hu",
+   "atlatszo.hu",
    "k-monitor.hu",
    "hirkereso.hu",
    "mnvvh.hu",
    "ugyeszseg.hu"
   ],
-  "started_at": "2026-10-19T11:56:00+02:00",
-  "id": "2026-10-19T12-01"
+  "started_at": "2026-10-19T16:20:00+02:00",
+  "id": "2026-10-19T16-59"
  },
  "run_history": [
+  {
+   "finished_at": "2026-10-19T16:59:00+02:00",
+   "started_at": "2026-10-19T16:20:00+02:00",
+   "items_new": 0,
+   "reported_cases_new": 1,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
   {
    "finished_at": "2026-10-19T12:10:00+02:00",
    "started_at": "2026-10-19T11:56:00+02:00",
@@ -4140,11 +4141,11 @@
   }
  ],
  "run_summary": {
-  "run_id": "2026-10-19T10:05:22+00:00",
-  "new": 2,
+  "run_id": "2026-10-19T15:02:18+00:00",
+  "new": 1,
   "modified": 0,
   "confirmed_only": 0,
-  "touched": 2,
+  "touched": 1,
   "pending_review": 2,
   "by_section": {
    "items": {
@@ -4153,14 +4154,13 @@
     "confirmed_only": 0
    },
    "reported_cases": {
-    "new": 2,
+    "new": 1,
     "modified": 0,
     "confirmed_only": 0
    }
   },
   "new_ids": [
-   "r:reported-elelmiszermento-kozpont-asz-2026-07",
-   "r:reported-vac-sportegyesulet-asz-2026-07"
+   "r:reported-volanbusz-dakk-fekete-antal-2026-10"
   ],
   "modified_ids": [],
   "confirmed_ids": []
@@ -5517,6 +5517,21 @@
     },
     "reported_cases": {
      "new": 2,
+     "modified": 0,
+     "confirmed_only": 0
+    }
+   }
+  },
+  {
+   "run_id": "2026-10-19T15:02:18+00:00",
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 1,
      "modified": 0,
      "confirmed_only": 0
     }
