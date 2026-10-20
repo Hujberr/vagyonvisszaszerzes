@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-20T10:01:57+00:00",
+ "generated_at": "2026-10-20T15:00:07+00:00",
  "summary": {
   "megtakaritas_verified_huf": 1847290700000,
   "visszaszerzes_verified_huf": 1575719300000,
@@ -3420,27 +3420,27 @@
  },
  "last_run": {
   "errors": [
-   "Ez a futás mindössze kb. 6 órával a 05:55-ös (06:10-kor befejezett) futás után indult; a legalább 10-12 tematikus WebSearch (megtakarítás, visszaszerzés, EU-forrás, elveszett uniós forrás, feljelentés, túlárazás, Vitézy Dávid, Ruszin-Szendi, NVVH, Kapitány István) nem hozott fel új, az adattárban még nem szereplő, a felvételi kritériumoknak megfelelő tényt; minden talált hivatkozás (Kisfaludy-program, Waberer's-EXIM, Duna Aszfalt, stb.) már rögzítve volt az adattárban.",
-   "Az ugyeszseg.hu oldal közvetlen lekérése ismét HTTP 503 hibát adott; a Volánbusz-ügy október 16-i fejleménye (Szivek letartóztatásának meghosszabítása, Jellinek házi őrizete) az mnvvh.hu/hirek oldalon keresztül volt azonosítható, és rögzítve a reported_cases/reported-volan-buszbeszerzes-2026-09 tételnél.",
-   "A KSH szeptemberi munkanélküliségi gyorstájékoztatója, a Q3 GDP-gyorsbecslés és egy friss ÁKK államadósság-összesítő e futás idején sem jelent meg; a macro_snapshots dokumentum ezért változatlan adatokat tartalmaz az előző (05:58-as) futáshoz képest."
+   "Ez a futás mindössze kb. 5 órával a 11:56-os (12:05-kor befejezett) futás után indult; legalább 12 tematikus keresés (feljelentés, vagyonvisszaszerzés, megtakarítás, elveszett uniós forrás, túlárazás, K-Monitor) nem hozott fel új, az adattárban még nem szereplő, a felvételi kritériumoknak megfelelő tényt.",
+   "ugyeszseg.hu ismét HTTP 503 hibát adott (ismétlődő probléma korábbi futásokból).",
+   "hirkereso.hu top listáján szereplő három cím (Kovács Zoltán felesége/Szikora Linda takarítócége és egy állítólagos 713 M Ft-os MAVIR-szerződés; egy volt államtitkár állítólagos versenytárs-kizárásos szerződése; egy magyar-orosz üzletember hitelügye) egyike sem volt önálló kereséssel megerősíthető konkrét, dátumozott, hatósági feljelentéssel/vizsgálattal alátámasztott tényként — egyik sem éri el a reported_cases felvételi küszöbét ebben a futásban, további ellenőrzésre vár.",
+   "Az Európai Ügyészség (EPPO) által feltárt 114 millió eurós körhintacsalás (öt gyanúsított őrizetben) nem azonosítható egyértelműen magyar vonatkozásúként ebben a futásban, ezért nem került fel.",
+   "Egy 2026 februári főtanácsnoki indítvány (EU Bíróság, a 2023-as bizottsági döntés esetleges megsemmisítése, akár 10,2-12,2 milliárd euró kockázata) továbbra sincs ítélettel lezárva; mivel nincs új fejlemény és a végleges elvesztés ténye nem állapítható meg, nem került a lost_items közé — figyelendő, ha ítélet születik.",
+   "KSH szeptemberi munkanélküliségi gyorstájékoztató és a Q3 GDP-gyorsbecslés e futás idején sem jelent meg; a legutóbbi (2026-10-20 11:59-es) macro_snapshots pillanatkép changetlen marad érvényben, új dokumentum nem készült."
   ],
   "eu_lost_items_new": 0,
-  "finished_at": "2026-10-20T12:05:00+02:00",
+  "finished_at": "2026-10-20T17:10:00+02:00",
   "items_duplicate": 0,
   "items_found_total": 0,
   "items_needs_review": 0,
   "items_new": 0,
   "reported_cases_new": 0,
-  "reported_cases_updated": 1,
+  "reported_cases_updated": 0,
   "sources_checked": [
-   "kormany.hu/atlathato/feljelentes (WebFetch: tartalma változatlan a 2026-10-14-i állapothoz képest: 57 ügy, 3444 Mrd Ft, 14 vizsgálat, 74,0 Mrd Ft visszafizetve/megtakarítva)",
-   "mnvvh.hu/hirek (legfrissebb tétel 2026-10-16: Volánbusz-ügy bírósági fejlemény — Szivek Norbert letartóztatásának meghosszabítása, Jellinek Dániel házi őrizetbe kerülése, rögzítve a reported-volan-buszbeszerzes-2026-09 tételnél)",
+   "kormany.hu/atlathato/feljelentes (teljes lista ellenőrizve: 57 ügy fejléc / 52 tételesen felsorolva, 3444 Mrd Ft, 14 vizsgálat, 74,0 Mrd Ft visszafizetve/megtakarítva — változatlan a 2026-10-14-i állapothoz és a mai 05:58-as és 11:56-os futásokhoz képest)",
+   "mnvvh.hu/hirek (legfrissebb tétel változatlanul 2026-10-16: Volánbusz-ügy bírósági fejlemény, már rögzítve)",
    "ugyeszseg.hu/category/hirek/kozponti-nyomozo-fougyeszseg (HTTP 503, nem elérhető — ismétlődő probléma)",
-   "k-monitor.hu (WebSearch, site: operátor nem adott közvetlen domain-találatot, csak más lapok címei közvetve)",
-   "hirkereso.hu",
-   "MNB (mnb.hu/arfolyamok)",
-   "KSH (szeptemberi munkanélküliségi/GDP Q3 gyorstájékoztató még nem jelent meg, változatlan adatok átvezetve)",
-   "ÁKK (akk.hu közvetlenül nem lekérhető, friss összesített államadósság-adat sajtóból sem található)",
+   "hirkereso.hu/gazdasag (áttekintve; a talált címek — Kovács Zoltán feleségének takarítócége/MAVIR, parkfenntartási ügy, EPPO körhintacsalás — egyik sem érte el a felvételi küszöböt, l. errors)",
+   "k-monitor.hu (WebSearch, nincs új azonosítható ügy)",
    "24.hu",
    "444.hu",
    "168.hu",
@@ -3479,12 +3479,22 @@
    "vg.hu",
    "partizan.hu",
    "okoshir.hu",
-   "szmo.hu"
+   "szmo.hu",
+   "KSH (szeptemberi munkanélküliségi gyorstájékoztató és Q3 GDP-gyorsbecslés e futás idején sem jelent meg)",
+   "ÁKK (akk.hu továbbra sem kérhető le közvetlenül)"
   ],
-  "started_at": "2026-10-20T11:56:00+02:00",
-  "id": "2026-10-20T11-59"
+  "started_at": "2026-10-20T16:56:00+02:00",
+  "id": "2026-10-20T16-56"
  },
  "run_history": [
+  {
+   "finished_at": "2026-10-20T17:10:00+02:00",
+   "started_at": "2026-10-20T16:56:00+02:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
   {
    "finished_at": "2026-10-20T12:05:00+02:00",
    "started_at": "2026-10-20T11:56:00+02:00",
@@ -4189,11 +4199,11 @@
   }
  ],
  "run_summary": {
-  "run_id": "2026-10-20T10:01:57+00:00",
+  "run_id": "2026-10-20T15:00:07+00:00",
   "new": 0,
   "modified": 0,
-  "confirmed_only": 1,
-  "touched": 1,
+  "confirmed_only": 0,
+  "touched": 0,
   "pending_review": 2,
   "by_section": {
    "items": {
@@ -4204,14 +4214,12 @@
    "reported_cases": {
     "new": 0,
     "modified": 0,
-    "confirmed_only": 1
+    "confirmed_only": 0
    }
   },
   "new_ids": [],
   "modified_ids": [],
-  "confirmed_ids": [
-   "r:reported-volan-buszbeszerzes-2026-09"
-  ]
+  "confirmed_ids": []
  },
  "run_summary_history": [
   {
@@ -5612,6 +5620,21 @@
      "new": 0,
      "modified": 0,
      "confirmed_only": 1
+    }
+   }
+  },
+  {
+   "run_id": "2026-10-20T15:00:07+00:00",
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
     }
    }
   }
