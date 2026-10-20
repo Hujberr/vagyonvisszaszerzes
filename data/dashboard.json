@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-20T04:00:55+00:00",
+ "generated_at": "2026-10-20T10:01:57+00:00",
  "summary": {
   "megtakaritas_verified_huf": 1847290700000,
   "visszaszerzes_verified_huf": 1575719300000,
@@ -3130,10 +3130,10 @@
    },
    "status": "under_investigation",
    "subject": "Túlárazott Volán-buszbeszerzések (2015–2018)",
-   "verification_notes": "Rendőrségi (NNI) nyomozás, nem kormányzati/minisztériumi feljelentés, ezért nem szerepel a kormany.hu/atlathato/feljelentes hivatalos listáján. Egyetlen forrásból (Portfolio, 2026-09-10) ismert eddig a korábbi futásban. FRISSÍTVE 2026-09-26: legalább hét további független forrás (Telex, HVG, Index, Népszava, Origo, Zsaruhírek, Kecskemét365) megerősíti a 2026-09-10-i gyanúsítást (nyolc egykori vezető, köztük az MNV volt vezérigazgatója). Új részlet: a kecskeméti Volán-székház túlárazott megvásárlása önmagában legalább 550 millió forint kárt okozott, ez a kb. 10 milliárd forintos összkár része. FRISSÍTVE 2026-09-27: Index, Telex, 444.hu, HVG és Euronews (2026-09-15 – 09-17) szerint a nyolc gyanúsított közül Szivek Norbertet (MNV volt vezérigazgatója) és Jellinek Dániel vállalkozót (Tiborcz István üzlettársa) előállították, a bíróság pedig egy hónapra letartóztatásba helyezte mindkettőjüket — ez érdemi eljárási eszkaláció a korábbi puszta gyanúsítotti státuszhoz képest, de tényleges vagyon-visszaszerzés még nem történt, a confirmed_recovered_huf ezért változatlanul 0. FRISSÍTVE 2026-09-29: az NVVH bejelentése és az Infostart (2026-09-28) szerint az ügyben mintegy 3 milliárd forint értékben vagyonelemeket (ingatlan, jármű, egyéb vagyontárgyak) biztosítottak (zároltak) biztosítási intézkedéssel, a korábban feltárt, több mint 11 milliárd forintos jogtalan előny fedezeteként. Ez egyelőre vagyonzárolás/biztosítási intézkedés, NEM végleges, ténylegesen az államhoz visszakerült vagyon, ezért a confirmed_recovered_huf mező (0) és a status (under_investigation) egyelőre nem változik; ha a zárolt vagyon ténylegesen, véglegesen az államhoz kerül (pl. elkobzás vagy vagyonelkobzási ítélet révén), azt egy items/visszaszerzes tételben és a confirmed_recovered_huf frissítésével kell majd rögzíteni. FRISSÍTVE 2026-09-30: a pontos vagyonzárolási bontás (Index, Magyar Hírlap): 286,5 millió Ft ingatlan, 6+ millió Ft gépkocsi, 2,7 milliárd Ft egyéb vagyonelem (összesen kb. 3 Mrd Ft) — ez megegyezik a korábban jelzett kb. 3 milliárd forintos összeggel, csak pontosabb bontásban; emellett Seszták Miklóst is őrizetbe vették ugyanezen nyomozási szál keretében (l. reported-sesztak-miklos-korrupcio-2026-09). Forrás: https://index.hu/belfold/2026/09/29/volanbusz-ugy-gyanusitott-ingatlan-lefoglalas-kozponti-nyomozo-fougyeszseg/",
+   "verification_notes": "FRISSÍTVE 2026-10-20 05:58-as futás: egy budapesti bíróság 2026. október 16-án Szivek Norbert letartóztatását további három hónapra meghosszabbította, Jellinek Dániel esetében pedig megszüntette a letartóztatást, helyette egy ingatlanhoz kötött, elektronikus nyomkövetős házi őrizetet rendelt el; a döntés nem jogerős. Ez eljárási fejlemény, a confirmed_recovered_huf (0) és a status (under_investigation) nem változott. Forrás: ügyészség.hu (Központi Nyomozó Főügyészség közleménye, 2026-10-16). (Korábbi megjegyzések megőrizve:) FRISSÍTVE 2026-09-30: a pontos vagyonzárolási bontás (Index, Magyar Hírlap): 286,5 millió Ft ingatlan, 6+ millió Ft gépkocsi, 2,7 milliárd Ft egyéb vagyonelem (összesen kb. 3 Mrd Ft) — ez megegyezik a korábban jelzett kb. 3 milliárd forintos összeggel, csak pontosabb bontásban; emellett Seszták Miklóst is őrizetbe vették ugyanezen nyomozási szál keretében (l. reported-sesztak-miklos-korrupcio-2026-09). Forrás: https://index.hu/belfold/2026/09/29/volanbusz-ugy-gyanusitott-ingatlan-lefoglalas-kozponti-nyomozo-fougyeszseg/ FRISSÍTVE 2026-09-29: az NVVH bejelentése és az Infostart (2026-09-28) szerint az ügyben mintegy 3 milliárd forint értékben vagyonelemeket (ingatlan, jármű, egyéb vagyontárgyak) biztosítottak (zároltak) biztosítási intézkedéssel, a korábban feltárt, több mint 11 milliárd forintos jogtalan előny fedezeteként. Ez egyelőre vagyonzárolás/biztosítási intézkedés, NEM végleges, ténylegesen az államhoz visszakerült vagyon, ezért a confirmed_recovered_huf mező (0) és a status (under_investigation) egyelőre nem változik; ha a zárolt vagyon ténylegesen, véglegesen az államhoz kerül (pl. elkobzás vagy vagyonelkobzási ítélet révén), azt egy items/visszaszerzes tételben és a confirmed_recovered_huf frissítésével kell majd rögzíteni. FRISSÍTVE 2026-09-27: Index, Telex, 444.hu, HVG és Euronews (2026-09-15 – 09-17) szerint a nyolc gyanúsított közül Szivek Norbertet (MNV volt vezérigazgatója) és Jellinek Dániel vállalkozót (Tiborcz István üzlettársa) előállították, a bíróság pedig egy hónapra letartóztatásba helyezte mindkettőjüket — ez érdemi eljárási eszkaláció a korábbi puszta gyanúsítotti státuszhoz képest, de tényleges vagyon-visszaszerzés még nem történt, a confirmed_recovered_huf ezért változatlanul 0. FRISSÍTVE 2026-09-26: legalább hét további független forrás (Telex, HVG, Index, Népszava, Origo, Zsaruhírek, Kecskemét365) megerősíti a 2026-09-10-i gyanúsítást (nyolc egykori vezető, köztük az MNV volt vezérigazgatója). Új részlet: a kecskeméti Volán-székház túlárazott megvásárlása önmagában legalább 550 millió forint kárt okozott, ez a kb. 10 milliárd forintos összkár része. Rendőrségi (NNI) nyomozás, nem kormányzati/minisztériumi feljelentés, ezért nem szerepel a kormany.hu/atlathato/feljelentes hivatalos listáján. Egyetlen forrásból (Portfolio, 2026-09-10) ismert eddig a korábbi futásban.",
    "id": "reported-volan-buszbeszerzes-2026-09",
    "first_seen_at": "2026-09-28T15:02:40+00:00",
-   "updated_at": "2026-09-30T15:02:24+00:00"
+   "updated_at": "2026-10-20T10:01:57+00:00"
   },
   {
    "alleged_amount_huf": 744000000,
@@ -3195,7 +3195,7 @@
    "url": "https://magyarnemzet.hu/gazdasag/2026/09/allamadossag-novekedes"
   },
   "allamadossag_huf": 65716000000000,
-  "collected_at": "2026-10-20T05:58:00+02:00",
+  "collected_at": "2026-10-20T11:59:00+02:00",
   "elozo": {
    "allamadossag": {
     "period": null,
@@ -3370,8 +3370,8 @@
     "key": "kozponti_alrendszer_hiany",
     "label_en": "Central government deficit (year to date)",
     "label_hu": "Központi alrendszer hiánya (év eleje óta)",
-    "note_en": "Most of the 9-month gap (2,186.9 bn HUF) stems from August's RRF prefinancing; excluding it, the 9-month deficit was 3,075.0 bn HUF, 253.7 bn HUF lower year-on-year. September's monthly deficit (92.8 bn HUF) was 210.4 bn HUF lower than in September 2025.",
-    "note_hu": "A 9 havi hiány nagy részét (2186,9 Mrd Ft) az augusztusi RRF-előfinanszírozás adja; e nélkül a 9 havi hiány 3075,0 Mrd Ft, ami 253,7 Mrd Ft-tal alacsonyabb az egy évvel korábbinál. A szeptemberi havi hiány (92,8 Mrd Ft) 210,4 Mrd Ft-tal alacsonyabb volt, mint 2025 szeptemberében.",
+    "note_en": "Most of the 9-month gap stems from August's RRF prefinancing; excluding it, the deficit was lower year-on-year.",
+    "note_hu": "A 9 havi hiány nagy részét (2186,9 Mrd Ft) az augusztusi RRF-előfinanszírozás adja; e nélkül a 9 havi hiány 3075,0 Mrd Ft, ami 253,7 Mrd Ft-tal alacsonyabb az egy évvel korábbinál.",
     "period": "2026 január–szeptember",
     "prev_period": "2026 január–augusztus",
     "prev_value": 5169.1,
@@ -3416,34 +3416,31 @@
    "publish_date": "2026-09-22",
    "url": "https://www.portfolio.hu/gazdasag/20260922/itt-az-mnb-uj-elorejelzese-hiaba-a-nemzetkozi-kockazatok-mersekelt-marad-az-idei-inflacio-864484"
   },
-  "id": "2026-10-20T05-58"
+  "id": "2026-10-20T11-59"
  },
  "last_run": {
   "errors": [
-   "Az ugyeszseg.hu/category/hirek/kozponti-nyomozo-fougyeszseg oldal HTTP 503 hibával nem volt elérhető ebben a futásban (ismétlődő probléma korábbi futásokból).",
-   "A kormany.hu/atlathato/feljelentes oldal tartalma (57 ügy header, 52 tételesen felsorolva, 3444 Mrd Ft, 74,0 Mrd Ft visszafizetve/megtakarítva — 2026-10-14-i állapot) ebben a futásban is változatlan volt az előző (2026-10-19 16:59-es) futáshoz képest — nem volt szükség frissítésre a reported_cases kollekcióban.",
-   "Legalább 12 tematikus keresés (megtakarítás, visszaszerzés, EU-forrás, elveszett uniós forrás, feljelentés, túlárazás, pazarlás-kontextus, adófizetők pénze, spórolt az állam) és a kiegészítő források (K-Monitor, mnvvh.hu, hirkereso.hu) nem hoztak fel olyan, a meglévő adattárban még nem szereplő, a felvételi kritériumoknak megfelelő tényt; egy állítólagos 'Ferihegy takarítási kartell Orbán Áron' hír és egy V-Híd/PORR eladási hír sem volt önálló forrásból megerősíthető.",
-   "A CATL (HUF 129 Mrd állami támogatás + ~200 Mrd Ft adókedvezmény) és a 2027-es költségvetési terv (adócsökkentés, családi kedvezmények) bejelentései jövőbeli állami kiadások/támogatások, nem megtakarítás/visszaszerzés/feljelentés, ezért nem kerültek be.",
-   "Az ÁKK hivatalos statisztikai oldala (akk.hu) ebben a futásban sem volt közvetlenül lekérhető; az államadósság értéke változatlanul a 2026-07-31-i (Magyar Nemzet/ÁKK-adatra hivatkozó) állapotot tükrözi.",
-   "KSH szeptemberi munkanélküliségi gyorstájékoztató és a Q3 GDP-gyorsbecslés e futás idején még nem jelent meg; a legutóbbi (augusztusi, illetve Q2-es) adatok maradtak érvényben.",
-   "Frissítve ebben a futásban: a központi alrendszer hiánya mutató (kozponti_alrendszer_hiany) egy, az adattárban korábban rögzítetlenül maradt, 2026-10-05-i hivatalos (Pénzügyminisztérium) adatra frissült (2026 jan-aug 5169,1 Mrd Ft → jan-szept 5261,9 Mrd Ft), és az EUR/HUF hivatalos árfolyam a 2026-10-19-i (363,13 Ft/EUR) állapotra."
+   "Ez a futás mindössze kb. 6 órával a 05:55-ös (06:10-kor befejezett) futás után indult; a legalább 10-12 tematikus WebSearch (megtakarítás, visszaszerzés, EU-forrás, elveszett uniós forrás, feljelentés, túlárazás, Vitézy Dávid, Ruszin-Szendi, NVVH, Kapitány István) nem hozott fel új, az adattárban még nem szereplő, a felvételi kritériumoknak megfelelő tényt; minden talált hivatkozás (Kisfaludy-program, Waberer's-EXIM, Duna Aszfalt, stb.) már rögzítve volt az adattárban.",
+   "Az ugyeszseg.hu oldal közvetlen lekérése ismét HTTP 503 hibát adott; a Volánbusz-ügy október 16-i fejleménye (Szivek letartóztatásának meghosszabítása, Jellinek házi őrizete) az mnvvh.hu/hirek oldalon keresztül volt azonosítható, és rögzítve a reported_cases/reported-volan-buszbeszerzes-2026-09 tételnél.",
+   "A KSH szeptemberi munkanélküliségi gyorstájékoztatója, a Q3 GDP-gyorsbecslés és egy friss ÁKK államadósság-összesítő e futás idején sem jelent meg; a macro_snapshots dokumentum ezért változatlan adatokat tartalmaz az előző (05:58-as) futáshoz képest."
   ],
   "eu_lost_items_new": 0,
-  "finished_at": "2026-10-20T06:10:00+02:00",
+  "finished_at": "2026-10-20T12:05:00+02:00",
   "items_duplicate": 0,
   "items_found_total": 0,
   "items_needs_review": 0,
   "items_new": 0,
   "reported_cases_new": 0,
-  "reported_cases_updated": 0,
+  "reported_cases_updated": 1,
   "sources_checked": [
-   "kormany.hu/atlathato/feljelentes (hivatalos, teljes lista ellenőrizve: 57 ügy header / 52 tételesen felsorolva / 3444 Mrd Ft / 14 vizsgálat / 74,0 Mrd Ft visszafizetve-megtakarítva — változatlan a 2026-10-14-i állapothoz képest)",
-   "mnvvh.hu/hirek (legfrissebb tétel 2026-10-16, Volánbusz-ügy bírósági fejlemény, nincs új forintosítható vagyonügy)",
-   "ugyeszseg.hu/category/hirek/kozponti-nyomozo-fougyeszseg (HTTP 503, nem elérhető)",
-   "k-monitor.hu (WebSearch, site: operátor nem adott közvetlen domain-találatot)",
-   "hirkereso.hu/gazdasag/friss",
-   "MNB (mnb.hu/arfolyamok, EUR/HUF 363,13 Ft, 2026-10-19)",
-   "Pénzügyminisztérium gyorstájékoztató (Adózóna/MTI, központi alrendszer hiánya frissítve 2026 jan-szept 5261,9 Mrd Ft)",
+   "kormany.hu/atlathato/feljelentes (WebFetch: tartalma változatlan a 2026-10-14-i állapothoz képest: 57 ügy, 3444 Mrd Ft, 14 vizsgálat, 74,0 Mrd Ft visszafizetve/megtakarítva)",
+   "mnvvh.hu/hirek (legfrissebb tétel 2026-10-16: Volánbusz-ügy bírósági fejlemény — Szivek Norbert letartóztatásának meghosszabítása, Jellinek Dániel házi őrizetbe kerülése, rögzítve a reported-volan-buszbeszerzes-2026-09 tételnél)",
+   "ugyeszseg.hu/category/hirek/kozponti-nyomozo-fougyeszseg (HTTP 503, nem elérhető — ismétlődő probléma)",
+   "k-monitor.hu (WebSearch, site: operátor nem adott közvetlen domain-találatot, csak más lapok címei közvetve)",
+   "hirkereso.hu",
+   "MNB (mnb.hu/arfolyamok)",
+   "KSH (szeptemberi munkanélküliségi/GDP Q3 gyorstájékoztató még nem jelent meg, változatlan adatok átvezetve)",
+   "ÁKK (akk.hu közvetlenül nem lekérhető, friss összesített államadósság-adat sajtóból sem található)",
    "24.hu",
    "444.hu",
    "168.hu",
@@ -3484,10 +3481,18 @@
    "okoshir.hu",
    "szmo.hu"
   ],
-  "started_at": "2026-10-20T05:55:00+02:00",
-  "id": "2026-10-20T05-58"
+  "started_at": "2026-10-20T11:56:00+02:00",
+  "id": "2026-10-20T11-59"
  },
  "run_history": [
+  {
+   "finished_at": "2026-10-20T12:05:00+02:00",
+   "started_at": "2026-10-20T11:56:00+02:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 1,
+   "eu_lost_items_new": 0
+  },
   {
    "finished_at": "2026-10-20T06:10:00+02:00",
    "started_at": "2026-10-20T05:55:00+02:00",
@@ -4184,11 +4189,11 @@
   }
  ],
  "run_summary": {
-  "run_id": "2026-10-20T04:00:55+00:00",
+  "run_id": "2026-10-20T10:01:57+00:00",
   "new": 0,
   "modified": 0,
-  "confirmed_only": 0,
-  "touched": 0,
+  "confirmed_only": 1,
+  "touched": 1,
   "pending_review": 2,
   "by_section": {
    "items": {
@@ -4199,12 +4204,14 @@
    "reported_cases": {
     "new": 0,
     "modified": 0,
-    "confirmed_only": 0
+    "confirmed_only": 1
    }
   },
   "new_ids": [],
   "modified_ids": [],
-  "confirmed_ids": []
+  "confirmed_ids": [
+   "r:reported-volan-buszbeszerzes-2026-09"
+  ]
  },
  "run_summary_history": [
   {
@@ -5590,6 +5597,21 @@
      "new": 0,
      "modified": 0,
      "confirmed_only": 0
+    }
+   }
+  },
+  {
+   "run_id": "2026-10-20T10:01:57+00:00",
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 1
     }
    }
   }
