@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-21T04:04:26+00:00",
+ "generated_at": "2026-10-21T10:01:11+00:00",
  "summary": {
   "megtakaritas_verified_huf": 3312290700000,
   "visszaszerzes_verified_huf": 1575719300000,
@@ -273,8 +273,8 @@
    "subject": "Tervezett 1465 milliárd forintos állami kiadáscsökkentés a 2027-es költségvetésben",
    "verification_notes": "ÚJ TÉTEL (2026-10-21-i futás). Kármán András pénzügyminiszter és Magyar Péter miniszterelnök 2026-10-20-án az Országgyűlés előtt bemutatta a 2027-es költségvetés tervezetét, amely 1465 milliárd forintos (GDP 1,5%-a) kiadáscsökkentést tartalmaz, legnagyobb tételként a koncessziós szerződések felülvizsgálatából várt 246,1 milliárd forinttal. Öt független sajtóforrás (Index, 444.hu, Portfolio, Világgazdaság, Economx) egyezően tudósított róla 2026-10-20-án, ezért verified. Ez egy BEJELENTETT TERV a 2027-es évre, a tényleges megvalósulás csak a 2027-es év zárásakor lesz ellenőrizhető — nem azonos és nem adható össze a korábbi, 2026 Q4-re vonatkozó 300 milliárd forintos tervvel (l. megtakaritas-koltsegvetes-tervezett-300mrd-2026-q4), mert eltérő évre és eltérő intézkedésekre vonatkozik. Néhány forrás ellentmondásosan 2200 milliárd forintos megtakarítást is említ a hiánycél kontextusában; ez a részletes tervezet országgyűlési benyújtásáig tisztázásra vár, a hivatalosan bemutatott 1465 Mrd Ft-os szám az irányadó.",
    "id": "megtakaritas-2027-koltsegvetes-kiadascsokkentes-2026-10",
-   "updated_at": "2026-10-21T04:04:26+00:00",
-   "first_seen_at": "2026-10-21T04:04:26+00:00"
+   "first_seen_at": "2026-10-21T04:04:26+00:00",
+   "updated_at": "2026-10-21T04:04:26+00:00"
   },
   {
    "additional_sources": [
@@ -3463,73 +3463,55 @@
  },
  "last_run": {
   "errors": [
-   "ugyeszseg.hu/category/hirek/kozponti-nyomozo-fougyeszseg ismét HTTP 503 hibát adott (ismétlődő probléma korábbi futásokból).",
-   "KSH szeptemberi munkanélküliségi gyorstájékoztató és a Q3 GDP-gyorsbecslés e futás idején sem jelent meg; a legutóbbi (augusztusi/Q2-es) adatok maradtak érvényben.",
-   "Az ÁKK hivatalos statisztikai oldala (akk.hu) ebben a futásban sem volt közvetlenül lekérhető; az államadósság értéke változatlanul a 2026-07-31-i (Magyar Nemzet/ÁKK-adatra hivatkozó) állapotot tükrözi.",
-   "A kormany.hu/atlathato/feljelentes oldalon szereplő mind az 50 verbatim módon olvasott egyedi ügy már szerepel az adattárban (önálló tételként vagy a reported-egyeb-miniszteriumi-18ugy-2026 / reported-ttm-informatikai-szerzodesek-2026-10 gyűjtőtételekben); a fennmaradó 51-57. ügyek szövege a lekérés során levágásra került, ezekhez egy következő futásban célzott, kisebb lekérés szükséges.",
-   "A 2027-es költségvetésről szóló 2026-10-20-i bejelentésekben egy helyen (Index) ellentmondásosan 2200 milliárd forintos megtakarítás is felmerült a hivatalosan bemutatott 1465 milliárd forint mellett — a részletes tervezet országgyűlési benyújtásáig ez tisztázásra vár, a hivatalosan bemutatott 1465 Mrd Ft-ot vettük fel."
+   "Az ügyészség (ugyeszseg.hu/category/hirek/kozponti-nyomozo-fougyeszseg) oldal mindkét lekérési kísérletben HTTP 503 hibát adott, nem volt elérhető ebben a futásban.",
+   "A hirkereso.hu/politika oldal HTTP 404 hibát adott, nem volt elérhető ebben a futásban.",
+   "A kormany.hu/atlathato/feljelentes aktuális tartalma (57 ügy, 3444 Mrd Ft, 2026-10-14-i állapot, 74,0 Mrd Ft visszatérült) ellenőrzésre került és pontosan megegyezett a reported-osszesito-2026-09 tételben már rögzített, legutóbbi állapottal — nem volt szükség frissítésre.",
+   "Mélyreható sajtókeresés (12+ tematikus lekérdezés, köztük megtakarítás, visszaszerzés, EU-forrás, elveszett EU-forrás, feljelentés, túlárazás, pazarlás-kontextus) nem talált olyan még nem rögzített tényt vagy összeget, amely új items/reported_cases dokumentumot indokolna; a legutóbbi (ma reggeli) futás óta nem jelent meg új, releváns hír. A needs_review/egyetlen forrásos tételekhez (Rubint Réka/Norbi Duci, Fekete Antal/DAKK, Gordiusz/Tiborcz) célzott második forrás-keresés sem hozott eredményt, ezek változatlanul needs_review maradnak.",
+   "A makro-pillanatkép (2026-10-21T10-05) kevesebb mint 2 órával korábbi, ebben a futásban nem készült új, mert egyik mutatóban sem volt azóta új hivatalos publikáció."
   ],
   "eu_lost_items_new": 0,
-  "finished_at": "2026-10-21T10:15:00+02:00",
+  "finished_at": "2026-10-21T12:00:00+02:00",
   "items_duplicate": 0,
-  "items_found_total": 1,
+  "items_found_total": 0,
   "items_needs_review": 0,
-  "items_new": 1,
+  "items_new": 0,
   "reported_cases_new": 0,
   "reported_cases_updated": 0,
   "sources_checked": [
-   "kormany.hu/atlathato/feljelentes (teljes lista WebFetch-csel ellenőrizve: 57 ügy fejléc, 50 tételesen felsorolva, 3444 Mrd Ft, 14 vizsgálat, 74,0 Mrd Ft visszafizetve/megtakarítva — változatlan a 2026-10-14-i állapothoz és a 2026-10-20-i futásokhoz képest; minden egyedi tétel már szerepel az adattárban önálló vagy gyűjtőtételként)",
-   "mnvvh.hu/hirek (2026-10-21-ig áttekintve: csak már ismert Volánbusz-ügyi bírósági fejlemény és nem releváns NVVH-szervezeti hírek)",
-   "ugyeszseg.hu/category/hirek/kozponti-nyomozo-fougyeszseg (HTTP 503, nem elérhető — ismétlődő probléma)",
-   "k-monitor.hu (WebSearch, site: operátor nem adott közvetlen domain-találatot, nincs új azonosítható ügy)",
-   "hirkereso.hu (WebSearch nem adott közvetlen domain-találatot)",
-   "MNB (mnb.hu/arfolyamok, EUR/HUF 2026-10-20: 363,03 Ft, frissítve)",
-   "KSH (szeptemberi munkanélküliségi gyorstájékoztató és Q3 GDP-gyorsbecslés e futás idején sem jelent meg)",
-   "ÁKK (akk.hu továbbra sem kérhető le közvetlenül)",
+   "kormany.hu/atlathato/feljelentes",
+   "mnvvh.hu/hirek",
+   "k-monitor.hu (WebSearch)",
    "24.hu",
    "444.hu",
    "168.hu",
-   "atlatszo.hu",
-   "demokrata.hu",
-   "direkt36.hu",
-   "economx.hu",
-   "es.hu",
-   "forbes.hu",
-   "g7.hu",
-   "hirtv.hu",
-   "hvg.hu",
-   "index.hu",
-   "infostart.hu",
-   "jelen.media",
-   "klubradio.hu",
-   "magyarhang.org",
-   "magyarhirlap.hu",
-   "magyarnemzet.hu",
-   "makronom.hu",
-   "mandiner.hu",
-   "media1.hu",
+   "Telex",
+   "HVG",
+   "Index",
+   "Portfolio.hu",
+   "Economx",
+   "Világgazdaság",
+   "Pénzcentrum",
+   "Privátbankár.hu",
+   "Infostart.hu",
    "mfor.hu",
-   "merce.hu",
-   "mti.hu",
-   "nepszava.hu",
-   "origo.hu",
-   "penzcentrum.hu",
-   "portfolio.hu",
-   "privatbankar.hu",
-   "szabadeuropa.hu",
-   "telex.hu",
-   "trendfm.hu",
-   "ujegyenloseg.hu",
-   "valaszonline.hu",
-   "vg.hu",
-   "partizan.hu",
-   "okoshir.hu",
-   "szmo.hu"
+   "Magyar Hírlap",
+   "Magyar Nemzet",
+   "Népszava",
+   "Origo",
+   "adozona.hu"
   ],
-  "started_at": "2026-10-21T09:45:00+02:00",
-  "id": "2026-10-21T09-45"
+  "started_at": "2026-10-21T11:56:00+02:00",
+  "id": "2026-10-21T11-56"
  },
  "run_history": [
+  {
+   "finished_at": "2026-10-21T12:00:00+02:00",
+   "started_at": "2026-10-21T11:56:00+02:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
   {
    "finished_at": "2026-10-21T10:15:00+02:00",
    "started_at": "2026-10-21T09:45:00+02:00",
@@ -4250,15 +4232,15 @@
   }
  ],
  "run_summary": {
-  "run_id": "2026-10-21T04:04:26+00:00",
-  "new": 1,
+  "run_id": "2026-10-21T10:01:11+00:00",
+  "new": 0,
   "modified": 0,
   "confirmed_only": 0,
-  "touched": 1,
+  "touched": 0,
   "pending_review": 2,
   "by_section": {
    "items": {
-    "new": 1,
+    "new": 0,
     "modified": 0,
     "confirmed_only": 0
    },
@@ -4268,9 +4250,7 @@
     "confirmed_only": 0
    }
   },
-  "new_ids": [
-   "i:megtakaritas-2027-koltsegvetes-kiadascsokkentes-2026-10"
-  ],
+  "new_ids": [],
   "modified_ids": [],
   "confirmed_ids": []
  },
@@ -5696,6 +5676,21 @@
    "by_section": {
     "items": {
      "new": 1,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    }
+   }
+  },
+  {
+   "run_id": "2026-10-21T10:01:11+00:00",
+   "by_section": {
+    "items": {
+     "new": 0,
      "modified": 0,
      "confirmed_only": 0
     },
