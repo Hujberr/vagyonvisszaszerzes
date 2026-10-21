@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-21T10:01:11+00:00",
+ "generated_at": "2026-10-21T15:02:51+00:00",
  "summary": {
   "megtakaritas_verified_huf": 3312290700000,
   "visszaszerzes_verified_huf": 1575719300000,
@@ -2372,6 +2372,28 @@
    "updated_at": "2026-09-28T15:02:40+00:00"
   },
   {
+   "additional_sources": [
+    {
+     "name": "444.hu",
+     "published_date": "2026-10-21",
+     "url": "https://444.hu/2026/10/21/inditvanyoztak-matolcsy-gyorgy-letartoztatasat"
+    },
+    {
+     "name": "Portfolio.hu",
+     "published_date": "2026-10-21",
+     "url": "https://www.portfolio.hu/gazdasag/20261021/inditvanyoztak-matolcsy-gyorgy-letartoztatasat-miutan-nem-tett-vallomast-871278"
+    },
+    {
+     "name": "Infostart.hu",
+     "published_date": "2026-10-21",
+     "url": "https://infostart.hu/belfold/2026/10/21/matolcsy-gyorgy-pentekig-biztosan-racs-mogott-marad-kezdemenyeztek-a-letartoztatasat"
+    },
+    {
+     "name": "Pénzcentrum",
+     "published_date": "2026-10-21",
+     "url": "https://www.penzcentrum.hu/gazdasag/20261021/inditvanyoztak-matolcsy-gyorgy-letartoztatasat-csalassal-es-hamis-maganokirat-felhasznalasaval-gyanusitjak-1207670"
+    }
+   ],
    "alleged_amount_huf": 300000000000,
    "alleged_amount_text": "kb. 300 milliárd forint (különösen jelentős vagyoni hátrány)",
    "confirmed_recovered_huf": 0,
@@ -2386,10 +2408,10 @@
    },
    "status": "under_investigation",
    "subject": "MNB-alapítványok ügye (Matolcsy-kör, hűtlen kezelés gyanúja)",
-   "verification_notes": "FRISSÍTVE 2026-10-13 05:56-os futás: a Telex 2026-10-03-i cikke szerint Matolcsy György nem fogadja el gyanúsítotti státuszát az Erste-ügyben; védője 2026-09-28-án írásos panaszt nyújtott be az ügyészséghez, kérve a gyanú megalapozottságának felülvizsgálatát. Matolcsy egy 2026-09-22-i videóüzenetében az ügyet \"hamis mesének\" nevezte. Ez eljárási lépés a gyanúsított részéről, nem változtatja meg az alleged_amount_huf-ot vagy a confirmed_recovered_huf-ot (0); a status (under_investigation) változatlan, a nyomozás folytatódik. (Korábbi megjegyzések megőrizve:) Több független forrás egyezően számol be...",
+   "verification_notes": "FRISSÍTVE 2026-10-21 16:56-os futás: jelentős eljárási eszkaláció. A Központi Nyomozó Főügyészség 2026.10.21-én idézésre (nem elfogással) beidézte Matolcsy Györgyöt, aki a kihallgatáson megtagadta a vallomástételt; az ügyészség ezután indítványozta az előzetes letartóztatását. A gyanú súlyosbodott: a korábbi hűtlen kezelés helyett most különösen nagy vagyoni hátrányt okozó csalás és hamis magánokirat felhasználásának gyanújával él az ügyészség (egy sajtóértesülés szerint színlelt szerződéssel szerezhettek az alapítványi vagyon felett irányítást). Matolcsy ügyvédje, Bátki Pál szerint mindkét (az őrizetbe vételi és a letartóztatási) döntést megfellebbezik; a nyomozási bíró döntése péntekig (2026-10-23) várható, addig őrizetben marad (az őrizet legfeljebb 72 óráig tarthat). Emellett az üggyel összefüggésben két további gyanúsított ellen nemzetközi elfogatóparancsot adott ki az ügyészség, és egy társgyanúsítottat is őrizetbe vettek és kihallgattak Matolcsyval egy időben. Ez mind eljárási fejlemény, tényleges vagyon-visszaszerzés vagy jogerős döntés még nem történt, ezért az alleged_amount_huf (300 Mrd Ft), a confirmed_recovered_huf (0) és a status (under_investigation) változatlan. Források: 444.hu, Index, Portfolio.hu, Infostart.hu, Pénzcentrum (mind 2026-10-21), valamint a hirkereso.hu friss-rovata (Telex, Economx, Mfor, Liner, 16:51-16:56 között) a nemzetközi elfogatóparancsról és a társgyanúsítottról. (Korábbi megjegyzések megőrizve, l. előző verzió.)",
    "id": "reported-mnb-matolcsy-alapitvanyok-2026-09",
    "first_seen_at": "2026-09-28T15:02:40+00:00",
-   "updated_at": "2026-10-13T04:02:32+00:00"
+   "updated_at": "2026-10-21T15:02:51+00:00"
   },
   {
    "additional_sources": [
@@ -2664,11 +2686,11 @@
    "updated_at": "2026-10-17T10:02:52+00:00"
   },
   {
-   "alleged_amount_huf": 3444000000000,
-   "alleged_amount_text": "3444 milliárd forint (hivatalos, kormany.hu szerinti állapot, 2026-10-14-i ellenőrzés; ebből 1289 Mrd Ft az Eximbank-ügyekben, 2155 Mrd Ft a többi ügyben; előző állapot 2026-10-02: 2255 Mrd Ft, 47 ügy)",
-   "case_count": 57,
+   "alleged_amount_huf": 4005000000000,
+   "alleged_amount_text": "4005 milliárd forint (hivatalos, kormany.hu szerinti állapot, 2026-10-21-i ellenőrzés; ebből 1289 Mrd Ft az Eximbank-ügyekben, 2716 Mrd Ft a többi ügyben; előző állapot 2026-10-14: 3444 Mrd Ft, 57 ügy)",
+   "case_count": 61,
    "confirmed_recovered_huf": 74000000000,
-   "description": "A kormány hivatalos, folyamatosan bővülő listája (kormany.hu/atlathato/feljelentes) szerint 2026. október 14-i állapotban 57 ügyben (12 tárcánál) tettek feljelentést, összesen 3444 milliárd forint értékű közpénzt érintve (ebből 1289 Mrd Ft az Eximbank-ügyekben). A hivatalos oldal szerint eddig 14 ügyben indult meg a nyomozás, és a hivatalos oldal saját elszámolása szerint eddig összesen 74,0 milliárd forintot fizettek vissza, utaltak vissza vagy takarítottak meg (ebből 61,2 Mrd Ft visszafizetve/visszautalva, 12,8 Mrd Ft pedig meg nem valósult kiadás).",
+   "description": "A kormány hivatalos, folyamatosan bővülő listája (kormany.hu/atlathato/feljelentes) szerint 2026. október 21-i állapotban 61 ügyben (12 tárcánál) tettek feljelentést, összesen 4005 milliárd forint értékű közpénzt érintve (ebből 1289 Mrd Ft az Eximbank-ügyekben). A hivatalos oldal szerint eddig 17 ügyben indult meg a nyomozás, és a hivatalos oldal saját elszámolása szerint eddig összesen 74,0 milliárd forintot fizettek vissza, utaltak vissza vagy takarítottak meg (ebből 61,2 Mrd Ft visszafizetve/visszautalva, 12,8 Mrd Ft pedig meg nem valósult kiadás).",
    "history": [
     {
      "amount_huf": 2128000000000,
@@ -2694,6 +2716,11 @@
      "amount_huf": 3444000000000,
      "case_count": 57,
      "date": "2026-10-14"
+    },
+    {
+     "amount_huf": 4005000000000,
+     "case_count": 61,
+     "date": "2026-10-21"
     }
    ],
    "is_aggregate": true,
@@ -2702,15 +2729,15 @@
    "report_date": "2026-09-02",
    "report_source": {
     "name": "Kormany.hu – Feljelentett billiók",
-    "published_date": "2026-10-14",
+    "published_date": "2026-10-21",
     "url": "https://kormany.hu/atlathato/feljelentes"
    },
    "status": "under_investigation",
-   "subject": "Kormányzati feljelentések hivatalos összesítője (37 ügy, ~11 minisztérium/hatóság)",
-   "verification_notes": "FRISSÍTVE 2026-10-15 05:59-es futás: jelentős bővülés a hivatalos listán (47→57 ügy, 2255→3444 Mrd Ft, nyomozások 12→14 ügyben, visszafizetett/megtakarított összeg 25,0→74,0 Mrd Ft). Az új ügyek és visszafizetések jelentős részét ez a futás önálló tételekben is rögzítette: EuroAtlantic/Fellegi tanácsadói megbízás (2,97 Mrd Ft), Indotek-kötvény és Exportösztönző alap Eximbank-ügyek hivatalos megerősítése, hat Tudományos és Technológiai Minisztériumi informatikai szerződés gyűjtőtételben (kb. 20,25 Mrd Ft, l. reported-ttm-informatikai-szerzodesek-2026-10), öt KEKVA-alapítvány tényleges készpénz-visszafizetése (28,34 Mrd Ft), Thália Színház felújítási alap visszautalása (219,3 M Ft), Farkasvölgyi úti kollégium elmaradt fejlesztése (12,0 Mrd Ft megtakarítás) és a tatai görögkatolikus kápolna támogatásának visszavonása (45 M Ft). A confirmed_recovered_huf mező mostantól a hivatalos oldal saját 'Visszafizetve/megtakarítva' összesítőjét követi (74,0 Mrd Ft), elkülönítve az egyedi items-tételek (pl. Duna Aszfalt 126 Mrd Ft-os kötvény-visszaváltás) összegétől, amelyek nem mind szerepelnek ebben a hivatalos összesítőben. A teljes, 57 ügyes lista egyenkénti reported_cases-tételekre bontása csak részben történt meg ebben a futásban (a már korábban önállóan rögzített és a most újonnan felvett tételek mentén); a fennmaradó, a reported-egyeb-miniszteriumi-18ugy-2026 gyűjtőben szereplő komponensek egyedi dátumai/összegei a hivatalos oldalon mostantól elérhetők, de teljes szétbontásuk későbbi futásra marad. (Korábbi megjegyzések megőrizve, l. előző verzió.)",
+   "subject": "Kormányzati feljelentések hivatalos összesítője (61 ügy, 12 minisztérium/hatóság)",
+   "verification_notes": "FRISSÍTVE 2026-10-21 16:56-os futás: a hivatalos oldal összesítői tovább nőttek (57→61 ügy, 3444→4005 Mrd Ft, nyomozások 14→17 ügyben; a visszafizetett/megtakarított 74,0 Mrd Ft ősszeg nem változott). A 61 ügyet egyenként átnézve ez a futás NEM talált újonnan megjelenő, még nem rögzített egyedi ügyet: minden névvel azonosítható tétel (pl. Kisfaludy Program 475,3 Mrd Ft, Déli körvasút II/V-Híd 84,5 Mrd Ft, EAC International/Fellegi 2,97 Mrd Ft, Indotek-kötvények 110 Mrd Ft, Exportösztönző Alap/GB&Partners 56 Mrd Ft, AdWA/NAMTL 12 Mrd Ft, Beloiannisz/Pelso 2,371 Mrd Ft) már korábban önálló reported_cases-tételként vagy a reported-egyeb-miniszteriumi-18ugy-2026 / reported-ttm-informatikai-szerzodesek-2026-10 gyűjtőkben szerepelt. A 2026-10-14-i (3444 Mrd Ft) és a mostani (4005 Mrd Ft) állapot közötti 561 Mrd Ft-os növekedés nagyrészt abból adódik, hogy a Kisfaludy Program-ügyet (475,3 Mrd Ft, feljelentve 2026-10-16, TEHÁT A 10-14-I ELLENŐRZÉS UTÁN) a hivatalos oldal mostanra bedolgozta az összesítőbe; a fennmaradó kb. 86 Mrd Ft kisebb, már létező tételek pontosításából/új felvételéből adódhat, pontos komponens-szintű lebontása nem volt elvégezhető ebben a futásban. A nyomozások számának 14→17-re növekedése összhangban áll az új ügyek (pl. M6-koncesszió, Kommentár Alapítvány) korábban rögzített nyomozási státuszváltásaival. (Korábbi megjegyzések megőrizve, l. előző verzió.)",
    "id": "reported-osszesito-2026-09",
    "first_seen_at": "2026-09-28T15:02:40+00:00",
-   "updated_at": "2026-10-15T04:05:11+00:00"
+   "updated_at": "2026-10-21T15:02:51+00:00"
   },
   {
    "additional_sources": [
@@ -3463,47 +3490,55 @@
  },
  "last_run": {
   "errors": [
-   "Az ügyészség (ugyeszseg.hu/category/hirek/kozponti-nyomozo-fougyeszseg) oldal mindkét lekérési kísérletben HTTP 503 hibát adott, nem volt elérhető ebben a futásban.",
-   "A hirkereso.hu/politika oldal HTTP 404 hibát adott, nem volt elérhető ebben a futásban.",
-   "A kormany.hu/atlathato/feljelentes aktuális tartalma (57 ügy, 3444 Mrd Ft, 2026-10-14-i állapot, 74,0 Mrd Ft visszatérült) ellenőrzésre került és pontosan megegyezett a reported-osszesito-2026-09 tételben már rögzített, legutóbbi állapottal — nem volt szükség frissítésre.",
-   "Mélyreható sajtókeresés (12+ tematikus lekérdezés, köztük megtakarítás, visszaszerzés, EU-forrás, elveszett EU-forrás, feljelentés, túlárazás, pazarlás-kontextus) nem talált olyan még nem rögzített tényt vagy összeget, amely új items/reported_cases dokumentumot indokolna; a legutóbbi (ma reggeli) futás óta nem jelent meg új, releváns hír. A needs_review/egyetlen forrásos tételekhez (Rubint Réka/Norbi Duci, Fekete Antal/DAKK, Gordiusz/Tiborcz) célzott második forrás-keresés sem hozott eredményt, ezek változatlanul needs_review maradnak.",
-   "A makro-pillanatkép (2026-10-21T10-05) kevesebb mint 2 órával korábbi, ebben a futásban nem készült új, mert egyik mutatóban sem volt azóta új hivatalos publikáció."
+   "Az ügyészség (ugyeszseg.hu/category/hirek/kozponti-nyomozo-fougyeszseg) ismét HTTP 503 hibát adott, nem volt elérhető ebben a futásban (ismétlődő probléma korábbi futásokból).",
+   "A hirkereso.hu/politika aloldal HTTP 404 hibát adott; a hirkereso.hu főoldala és a /gazdasag aloldal viszont elérhető volt és feldolgozásra került.",
+   "KSH szeptemberi munkanélküliségi gyorstájékoztató e futás idején sem jelent meg; a legutóbbi (augusztusi, 4,7%) adat maradt érvényben, nem készült új macro_snapshots dokumentum, mert a legutóbbi (2026-10-21T10:05) pillanatkép óta egyik figyelt mutatóban sem jelent meg új hivatalos publikáció.",
+   "A 2026-10-21-i, 61 ügyes/4005 Mrd Ft-os kormany.hu-összesítő és a 2026-10-14-i (57 ügy/3444 Mrd Ft) állapot közötti kb. 561 Mrd Ft-os/4 ügyes növekedés pontos komponens-szintű lebontása nem volt teljesen elvégezhető ebben a futásban — minden egyedileg nevesített tétel (61 sorból 56 egyedi + a p2m/Balásy 6 összevont panasza) már korábban rögzítve volt önálló tételként vagy gyűjtőben, a növekedés feltehetően a Kisfaludy Program (475,3 Mrd Ft, 10-16-i feljelentés) utólagos beszámításából és kisebb tételek pontosításából adódik; a reported-osszesito-2026-09 leíró szövege ezt jelzi, a history tömbhöz új elem került (2026-10-21: 61 ügy, 4005 Mrd Ft).",
+   "A legfontosabb fejlemény ebben a futásban: a Központi Nyomozó Főügyészség 2026-10-21-én indítványozta Matolcsy György (volt jegybankelnök) előzetes letartóztatását csalás és hamis magánokirat felhasználásának gyanúja miatt, miután megtagadta a vallomástételt; emellett két társgyanúsított ellen nemzetközi elfogatóparancsot adtak ki. Ez a reported-mnb-matolcsy-alapitvanyok-2026-09 tételben rögzítve, de tényleges vagyon-visszaszerzés vagy jogerős döntés még nincs, ezért items-tétel nem készült."
   ],
   "eu_lost_items_new": 0,
-  "finished_at": "2026-10-21T12:00:00+02:00",
+  "finished_at": "2026-10-21T17:40:00+02:00",
   "items_duplicate": 0,
   "items_found_total": 0,
   "items_needs_review": 0,
   "items_new": 0,
   "reported_cases_new": 0,
-  "reported_cases_updated": 0,
+  "reported_cases_updated": 2,
   "sources_checked": [
-   "kormany.hu/atlathato/feljelentes",
+   "kormany.hu/atlathato/feljelentes (teljes lista WebFetch-csel ellenőrizve: 61 ügy / 12 tárca, 4005 Mrd Ft, 17 vizsgálat, 74,0 Mrd Ft visszafizetve/megtakarítva — a 2026-10-14-i 57 ügyes/3444 Mrd Ft-os állapothoz képest bővült, de egyenkénti átvizsgálással minden név szerint azonosítható tétel már korábban rögzítve volt)",
    "mnvvh.hu/hirek",
-   "k-monitor.hu (WebSearch)",
-   "24.hu",
-   "444.hu",
-   "168.hu",
-   "Telex",
-   "HVG",
-   "Index",
-   "Portfolio.hu",
-   "Economx",
-   "Világgazdaság",
-   "Pénzcentrum",
-   "Privátbankár.hu",
-   "Infostart.hu",
-   "mfor.hu",
-   "Magyar Hírlap",
-   "Magyar Nemzet",
-   "Népszava",
-   "Origo",
-   "adozona.hu"
+   "ugyeszseg.hu/category/hirek/kozponti-nyomozo-fougyeszseg (HTTP 503, nem elérhető)",
+   "hirkereso.hu/politika (HTTP 404)",
+   "hirkereso.hu/gazdasag",
+   "hirkereso.hu (főoldal)",
+   "k-monitor.hu (WebSearch, site: operátor nem adott közvetlen domain-találatot)",
+   "WebSearch: Matolcsy György letartóztatás MNB ügy",
+   "WebSearch: vagyonvisszaszerzés feljelentés közpénz október",
+   "WebSearch: megtakarítás állam spórolt milliárd október",
+   "WebSearch: uniós forrás megérkezett Magyarország",
+   "WebSearch: elveszett uniós forrás decommitment RRF",
+   "WebSearch: túlárazás közbeszerzés visszaszerzés",
+   "WebSearch: Matolcsy letartóztatás kérik ügyészség (extended)",
+   "WebSearch: Duna Aszfalt visszafizetés kötvény október",
+   "WebSearch: 2027 költségvetés megtakarítás 1465 milliárd",
+   "WebSearch: NVVH vagyonzárolás vagyonelkobzás október",
+   "WebSearch: KSH munkanélküliségi ráta szeptember 2026",
+   "WebSearch: Orbán-kormány pénzszórás pazarlás kontraszt",
+   "WebSearch: spórolt az állam olcsóbban kiváltotta szerződés",
+   "WebSearch: feljelentés minisztérium közpénz nyomozás indult"
   ],
-  "started_at": "2026-10-21T11:56:00+02:00",
-  "id": "2026-10-21T11-56"
+  "started_at": "2026-10-21T16:56:00+02:00",
+  "id": "2026-10-21T16-56"
  },
  "run_history": [
+  {
+   "finished_at": "2026-10-21T17:40:00+02:00",
+   "started_at": "2026-10-21T16:56:00+02:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 2,
+   "eu_lost_items_new": 0
+  },
   {
    "finished_at": "2026-10-21T12:00:00+02:00",
    "started_at": "2026-10-21T11:56:00+02:00",
@@ -4232,11 +4267,11 @@
   }
  ],
  "run_summary": {
-  "run_id": "2026-10-21T10:01:11+00:00",
+  "run_id": "2026-10-21T15:02:51+00:00",
   "new": 0,
   "modified": 0,
-  "confirmed_only": 0,
-  "touched": 0,
+  "confirmed_only": 1,
+  "touched": 1,
   "pending_review": 2,
   "by_section": {
    "items": {
@@ -4247,12 +4282,14 @@
    "reported_cases": {
     "new": 0,
     "modified": 0,
-    "confirmed_only": 0
+    "confirmed_only": 1
    }
   },
   "new_ids": [],
   "modified_ids": [],
-  "confirmed_ids": []
+  "confirmed_ids": [
+   "r:reported-mnb-matolcsy-alapitvanyok-2026-09"
+  ]
  },
  "run_summary_history": [
   {
@@ -5698,6 +5735,21 @@
      "new": 0,
      "modified": 0,
      "confirmed_only": 0
+    }
+   }
+  },
+  {
+   "run_id": "2026-10-21T15:02:51+00:00",
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 1
     }
    }
   }
