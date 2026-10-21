@@ -1,12 +1,12 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-20T15:00:07+00:00",
+ "generated_at": "2026-10-21T04:04:26+00:00",
  "summary": {
-  "megtakaritas_verified_huf": 1847290700000,
+  "megtakaritas_verified_huf": 3312290700000,
   "visszaszerzes_verified_huf": 1575719300000,
   "eu_forras_verified_huf": 6280000000000,
   "eu_forras_lost_huf": 730000000000,
-  "items_count": 37,
+  "items_count": 38,
   "reported_cases_count": 56
  },
  "items": [
@@ -232,6 +232,49 @@
    "id": "eu-forras-norveg-alap-2026-10",
    "first_seen_at": "2026-10-15T04:05:11+00:00",
    "updated_at": "2026-10-15T04:05:11+00:00"
+  },
+  {
+   "additional_sources": [
+    {
+     "name": "444.hu",
+     "published_date": "2026-10-20",
+     "url": "https://444.hu/2026/10/20/1465-milliarddal-kevesebb-kiadas-665-milliarddal-tobb-bevetel-magyar-peter-es-karman-andras-megmutatta-hogyan-faragjak-le-a-hianyt-es-osztanak-szet-kozben-ezermilliardokat"
+    },
+    {
+     "name": "Portfolio.hu",
+     "published_date": "2026-10-20",
+     "url": "https://www.portfolio.hu/gazdasag/20261020/nem-viccelt-a-kormany-egeszen-extrem-kiadascsokkentes-kovetkezik-itt-vannak-a-reszletek-870888"
+    },
+    {
+     "name": "Világgazdaság",
+     "published_date": "2026-10-20",
+     "url": "https://www.vg.hu/vilaggazdasag-magyar-gazdasag/2026/10/karman-andras-magan-kezd-sporolni-az-allam"
+    },
+    {
+     "name": "Economx",
+     "published_date": "2026-10-20",
+     "url": "https://www.economx.hu/magyar-gazdasag/2026/10/20/koltsegvetes-rendszervaltas-tisza-magyar-peter-penzugyek/"
+    }
+   ],
+   "amount_huf": 1465000000000,
+   "amount_text": "1465 milliárd forint (a GDP 1,5 százaléka)",
+   "category": "megtakaritas",
+   "collected_at": "2026-10-21T10:00:00+02:00",
+   "currency_note": null,
+   "dedup_key": "megtakaritas|tervezett 2027 koltsegvetesi kiadascsokkentes koncesszio felulvizsgalat|1465000000000",
+   "description": "Kármán András pénzügyminiszter 2026. október 20-án az Országgyűlés előtt bemutatott 2027-es költségvetési tervezet szerint a kormány 1465 milliárd forint értékű kiadáscsökkentést tervez, ami a GDP 1,5 százalékának felel meg. A legnagyobb egyedi tétel az előnytelennek ítélt koncessziós szerződések felülvizsgálata, amelytől önmagában 246,1 milliárd forintos megtakarítást várnak.",
+   "duplicate_of": null,
+   "event_date": "2027-12-31",
+   "from_whom": null,
+   "source_name": "Index",
+   "source_published_date": "2026-10-20",
+   "source_url": "https://index.hu/belfold/2026/10/20/koltsegvetes-kormany-ciklus-jovo-hiany-cel-magyar-peter-karman-andras/",
+   "status": "verified",
+   "subject": "Tervezett 1465 milliárd forintos állami kiadáscsökkentés a 2027-es költségvetésben",
+   "verification_notes": "ÚJ TÉTEL (2026-10-21-i futás). Kármán András pénzügyminiszter és Magyar Péter miniszterelnök 2026-10-20-án az Országgyűlés előtt bemutatta a 2027-es költségvetés tervezetét, amely 1465 milliárd forintos (GDP 1,5%-a) kiadáscsökkentést tartalmaz, legnagyobb tételként a koncessziós szerződések felülvizsgálatából várt 246,1 milliárd forinttal. Öt független sajtóforrás (Index, 444.hu, Portfolio, Világgazdaság, Economx) egyezően tudósított róla 2026-10-20-án, ezért verified. Ez egy BEJELENTETT TERV a 2027-es évre, a tényleges megvalósulás csak a 2027-es év zárásakor lesz ellenőrizhető — nem azonos és nem adható össze a korábbi, 2026 Q4-re vonatkozó 300 milliárd forintos tervvel (l. megtakaritas-koltsegvetes-tervezett-300mrd-2026-q4), mert eltérő évre és eltérő intézkedésekre vonatkozik. Néhány forrás ellentmondásosan 2200 milliárd forintos megtakarítást is említ a hiánycél kontextusában; ez a részletes tervezet országgyűlési benyújtásáig tisztázásra vár, a hivatalosan bemutatott 1465 Mrd Ft-os szám az irányadó.",
+   "id": "megtakaritas-2027-koltsegvetes-kiadascsokkentes-2026-10",
+   "updated_at": "2026-10-21T04:04:26+00:00",
+   "first_seen_at": "2026-10-21T04:04:26+00:00"
   },
   {
    "additional_sources": [
@@ -3195,7 +3238,7 @@
    "url": "https://magyarnemzet.hu/gazdasag/2026/09/allamadossag-novekedes"
   },
   "allamadossag_huf": 65716000000000,
-  "collected_at": "2026-10-20T11:59:00+02:00",
+  "collected_at": "2026-10-21T10:05:00+02:00",
   "elozo": {
    "allamadossag": {
     "period": null,
@@ -3304,18 +3347,18 @@
     "key": "eur_huf",
     "label_en": "Official EUR/HUF rate (MNB)",
     "label_hu": "Euró hivatalos árfolyama (MNB)",
-    "note_en": "The dollar rate on the same day was 323.82 HUF/USD.",
-    "note_hu": "A dollár árfolyama ugyanekkor 323,82 Ft/USD.",
-    "period": "2026-10-19",
-    "prev_period": "2026-10-16",
-    "prev_value": 363.29,
+    "note_en": "The dollar rate on the same day was 323.53 HUF/USD.",
+    "note_hu": "A dollár árfolyama ugyanekkor 323,53 Ft/USD.",
+    "period": "2026-10-20",
+    "prev_period": "2026-10-19",
+    "prev_value": 363.13,
     "source": {
      "name": "MNB hivatalos árfolyamok",
-     "publish_date": "2026-10-19",
+     "publish_date": "2026-10-20",
      "url": "https://www.mnb.hu/arfolyamok"
     },
     "unit": "Ft/EUR",
-    "value": 363.13
+    "value": 363.03
    },
    {
     "key": "brutto_atlagkereset",
@@ -3416,31 +3459,33 @@
    "publish_date": "2026-09-22",
    "url": "https://www.portfolio.hu/gazdasag/20260922/itt-az-mnb-uj-elorejelzese-hiaba-a-nemzetkozi-kockazatok-mersekelt-marad-az-idei-inflacio-864484"
   },
-  "id": "2026-10-20T11-59"
+  "id": "2026-10-21T10-05"
  },
  "last_run": {
   "errors": [
-   "Ez a futás mindössze kb. 5 órával a 11:56-os (12:05-kor befejezett) futás után indult; legalább 12 tematikus keresés (feljelentés, vagyonvisszaszerzés, megtakarítás, elveszett uniós forrás, túlárazás, K-Monitor) nem hozott fel új, az adattárban még nem szereplő, a felvételi kritériumoknak megfelelő tényt.",
-   "ugyeszseg.hu ismét HTTP 503 hibát adott (ismétlődő probléma korábbi futásokból).",
-   "hirkereso.hu top listáján szereplő három cím (Kovács Zoltán felesége/Szikora Linda takarítócége és egy állítólagos 713 M Ft-os MAVIR-szerződés; egy volt államtitkár állítólagos versenytárs-kizárásos szerződése; egy magyar-orosz üzletember hitelügye) egyike sem volt önálló kereséssel megerősíthető konkrét, dátumozott, hatósági feljelentéssel/vizsgálattal alátámasztott tényként — egyik sem éri el a reported_cases felvételi küszöbét ebben a futásban, további ellenőrzésre vár.",
-   "Az Európai Ügyészség (EPPO) által feltárt 114 millió eurós körhintacsalás (öt gyanúsított őrizetben) nem azonosítható egyértelműen magyar vonatkozásúként ebben a futásban, ezért nem került fel.",
-   "Egy 2026 februári főtanácsnoki indítvány (EU Bíróság, a 2023-as bizottsági döntés esetleges megsemmisítése, akár 10,2-12,2 milliárd euró kockázata) továbbra sincs ítélettel lezárva; mivel nincs új fejlemény és a végleges elvesztés ténye nem állapítható meg, nem került a lost_items közé — figyelendő, ha ítélet születik.",
-   "KSH szeptemberi munkanélküliségi gyorstájékoztató és a Q3 GDP-gyorsbecslés e futás idején sem jelent meg; a legutóbbi (2026-10-20 11:59-es) macro_snapshots pillanatkép changetlen marad érvényben, új dokumentum nem készült."
+   "ugyeszseg.hu/category/hirek/kozponti-nyomozo-fougyeszseg ismét HTTP 503 hibát adott (ismétlődő probléma korábbi futásokból).",
+   "KSH szeptemberi munkanélküliségi gyorstájékoztató és a Q3 GDP-gyorsbecslés e futás idején sem jelent meg; a legutóbbi (augusztusi/Q2-es) adatok maradtak érvényben.",
+   "Az ÁKK hivatalos statisztikai oldala (akk.hu) ebben a futásban sem volt közvetlenül lekérhető; az államadósság értéke változatlanul a 2026-07-31-i (Magyar Nemzet/ÁKK-adatra hivatkozó) állapotot tükrözi.",
+   "A kormany.hu/atlathato/feljelentes oldalon szereplő mind az 50 verbatim módon olvasott egyedi ügy már szerepel az adattárban (önálló tételként vagy a reported-egyeb-miniszteriumi-18ugy-2026 / reported-ttm-informatikai-szerzodesek-2026-10 gyűjtőtételekben); a fennmaradó 51-57. ügyek szövege a lekérés során levágásra került, ezekhez egy következő futásban célzott, kisebb lekérés szükséges.",
+   "A 2027-es költségvetésről szóló 2026-10-20-i bejelentésekben egy helyen (Index) ellentmondásosan 2200 milliárd forintos megtakarítás is felmerült a hivatalosan bemutatott 1465 milliárd forint mellett — a részletes tervezet országgyűlési benyújtásáig ez tisztázásra vár, a hivatalosan bemutatott 1465 Mrd Ft-ot vettük fel."
   ],
   "eu_lost_items_new": 0,
-  "finished_at": "2026-10-20T17:10:00+02:00",
+  "finished_at": "2026-10-21T10:15:00+02:00",
   "items_duplicate": 0,
-  "items_found_total": 0,
+  "items_found_total": 1,
   "items_needs_review": 0,
-  "items_new": 0,
+  "items_new": 1,
   "reported_cases_new": 0,
   "reported_cases_updated": 0,
   "sources_checked": [
-   "kormany.hu/atlathato/feljelentes (teljes lista ellenőrizve: 57 ügy fejléc / 52 tételesen felsorolva, 3444 Mrd Ft, 14 vizsgálat, 74,0 Mrd Ft visszafizetve/megtakarítva — változatlan a 2026-10-14-i állapothoz és a mai 05:58-as és 11:56-os futásokhoz képest)",
-   "mnvvh.hu/hirek (legfrissebb tétel változatlanul 2026-10-16: Volánbusz-ügy bírósági fejlemény, már rögzítve)",
+   "kormany.hu/atlathato/feljelentes (teljes lista WebFetch-csel ellenőrizve: 57 ügy fejléc, 50 tételesen felsorolva, 3444 Mrd Ft, 14 vizsgálat, 74,0 Mrd Ft visszafizetve/megtakarítva — változatlan a 2026-10-14-i állapothoz és a 2026-10-20-i futásokhoz képest; minden egyedi tétel már szerepel az adattárban önálló vagy gyűjtőtételként)",
+   "mnvvh.hu/hirek (2026-10-21-ig áttekintve: csak már ismert Volánbusz-ügyi bírósági fejlemény és nem releváns NVVH-szervezeti hírek)",
    "ugyeszseg.hu/category/hirek/kozponti-nyomozo-fougyeszseg (HTTP 503, nem elérhető — ismétlődő probléma)",
-   "hirkereso.hu/gazdasag (áttekintve; a talált címek — Kovács Zoltán feleségének takarítócége/MAVIR, parkfenntartási ügy, EPPO körhintacsalás — egyik sem érte el a felvételi küszöböt, l. errors)",
-   "k-monitor.hu (WebSearch, nincs új azonosítható ügy)",
+   "k-monitor.hu (WebSearch, site: operátor nem adott közvetlen domain-találatot, nincs új azonosítható ügy)",
+   "hirkereso.hu (WebSearch nem adott közvetlen domain-találatot)",
+   "MNB (mnb.hu/arfolyamok, EUR/HUF 2026-10-20: 363,03 Ft, frissítve)",
+   "KSH (szeptemberi munkanélküliségi gyorstájékoztató és Q3 GDP-gyorsbecslés e futás idején sem jelent meg)",
+   "ÁKK (akk.hu továbbra sem kérhető le közvetlenül)",
    "24.hu",
    "444.hu",
    "168.hu",
@@ -3479,14 +3524,20 @@
    "vg.hu",
    "partizan.hu",
    "okoshir.hu",
-   "szmo.hu",
-   "KSH (szeptemberi munkanélküliségi gyorstájékoztató és Q3 GDP-gyorsbecslés e futás idején sem jelent meg)",
-   "ÁKK (akk.hu továbbra sem kérhető le közvetlenül)"
+   "szmo.hu"
   ],
-  "started_at": "2026-10-20T16:56:00+02:00",
-  "id": "2026-10-20T16-56"
+  "started_at": "2026-10-21T09:45:00+02:00",
+  "id": "2026-10-21T09-45"
  },
  "run_history": [
+  {
+   "finished_at": "2026-10-21T10:15:00+02:00",
+   "started_at": "2026-10-21T09:45:00+02:00",
+   "items_new": 1,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
   {
    "finished_at": "2026-10-20T17:10:00+02:00",
    "started_at": "2026-10-20T16:56:00+02:00",
@@ -4199,15 +4250,15 @@
   }
  ],
  "run_summary": {
-  "run_id": "2026-10-20T15:00:07+00:00",
-  "new": 0,
+  "run_id": "2026-10-21T04:04:26+00:00",
+  "new": 1,
   "modified": 0,
   "confirmed_only": 0,
-  "touched": 0,
+  "touched": 1,
   "pending_review": 2,
   "by_section": {
    "items": {
-    "new": 0,
+    "new": 1,
     "modified": 0,
     "confirmed_only": 0
    },
@@ -4217,7 +4268,9 @@
     "confirmed_only": 0
    }
   },
-  "new_ids": [],
+  "new_ids": [
+   "i:megtakaritas-2027-koltsegvetes-kiadascsokkentes-2026-10"
+  ],
   "modified_ids": [],
   "confirmed_ids": []
  },
@@ -5628,6 +5681,21 @@
    "by_section": {
     "items": {
      "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    }
+   }
+  },
+  {
+   "run_id": "2026-10-21T04:04:26+00:00",
+   "by_section": {
+    "items": {
+     "new": 1,
      "modified": 0,
      "confirmed_only": 0
     },
