@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-22T04:04:53+00:00",
+ "generated_at": "2026-10-22T10:01:41+00:00",
  "summary": {
   "megtakaritas_verified_huf": 3312290700000,
   "visszaszerzes_verified_huf": 1575719300000,
@@ -2413,10 +2413,10 @@
    },
    "status": "under_investigation",
    "subject": "MNB-alapítványok ügye (Matolcsy-kör, hűtlen kezelés gyanúja)",
-   "verification_notes": "FRISSÍTVE 2026-10-21 16:56-os futás: jelentős eljárási eszkaláció. A Központi Nyomozó Főügyészség 2026.10.21-én idézésre (nem elfogással) beidézte Matolcsy Györgyöt, aki a kihallgatáson megtagadta a vallomástételt; az ügyészség ezután indítványozta az előzetes letartóztatását. A gyanú súlyosbodott: a korábbi hűtlen kezelés helyett most különösen nagy vagyoni hátrányt okozó csalás és hamis magánokirat felhasználásának gyanújával él az ügyészség (egy sajtóértesülés szerint színlelt szerződéssel szerezhettek az alapítványi vagyon felett irányítást). Matolcsy ügyvédje, Bátki Pál szerint mindkét (az őrizetbe vételi és a letartóztatási) döntést megfellebbezik; a nyomozási bíró döntése péntekig (2026-10-23) várható, addig őrizetben marad (az őrizet legfeljebb 72 óráig tarthat). Emellett az üggyel összefüggésben két további gyanúsított ellen nemzetközi elfogatóparancsot adott ki az ügyészség, és egy társgyanúsítottat is őrizetbe vettek és kihallgattak Matolcsyval egy időben. Ez mind eljárási fejlemény, tényleges vagyon-visszaszerzés vagy jogerős döntés még nem történt, ezért az alleged_amount_huf (300 Mrd Ft), a confirmed_recovered_huf (0) és a status (under_investigation) változatlan. Források: 444.hu, Index, Portfolio.hu, Infostart.hu, Pénzcentrum (mind 2026-10-21), valamint a hirkereso.hu friss-rovata (Telex, Economx, Mfor, Liner, 16:51-16:56 között) a nemzetközi elfogatóparancsról és a társgyanúsítottról. (Korábbi megjegyzések megőrizve, l. előző verzió.)",
+   "verification_notes": "FRISSÍTVE 2026-10-22 11:56-os futás: legalább négy független forrás (Világgazdaság, Telex — két cikk —, Origo, Contextus) megerősítette és néven nevezte a korábban már jelzett két, nemzetközi elfogatóparancs alá vont gyanúsítottat: Matolcsy Ádám (Matolcsy György fia) és Stofa György (az Optima Investment Zrt. korábbi vezérigazgatója — ugyanaz a cég, amely a kapcsolódó reported-neumann-egyetem-optima-kotveny-2026-08 tételben is szerepel). A Telex 2026-10-22-i cikke szerint Matolcsy Ádámot a rendőrség még keresi, nem adta meg magát. Ez a korábban már rögzített tény (két további gyanúsított elfogatóparancsa) megerősítése/pontosítása, nem új fejlemény; az alleged_amount_huf (300 Mrd Ft), a confirmed_recovered_huf (0) és a status (under_investigation) nem változott. (Korábbi megjegyzések megőrizve.) FRISSÍTVE 2026-10-21 16:56-os futás: jelentős eljárási eszkaláció. A Központi Nyomozó Főügyészség 2026.10.21-én idézésre (nem elfogással) beidézte Matolcsy Györgyöt, aki a kihallgatáson megtagadta a vallomástételt; az ügyészség ezután indítványozta az előzetes letartóztatását. A gyanú súlyosbodott: a korábbi hűtlen kezelés helyett most különösen nagy vagyoni hátrányt okozó csalás és hamis magánokirat felhasználásának gyanújával él az ügyészség (egy sajtóértesülés szerint színlelt szerződéssel szerezhettek az alapítványi vagyon felett irányítást). Matolcsy ügyvédje, Bátki Pál szerint mindkét (az őrizetbe vételi és a letartóztatási) döntést megfellebbezik; a nyomozási bíró döntése péntekig (2026-10-23) várható, addig őrizetben marad (az őrizet legfeljebb 72 óráig tarthat). Emellett az üggyel összefüggésben két további gyanúsított ellen nemzetközi elfogatóparancsot adott ki az ügyészség, és egy társgyanúsítottat is őrizetbe vettek és kihallgattak Matolcsyval egy időben. Ez mind eljárási fejlemény, tényleges vagyon-visszaszerzés vagy jogerős döntés még nem történt, ezért az alleged_amount_huf (300 Mrd Ft), a confirmed_recovered_huf (0) és a status (under_investigation) változatlan. Források: 444.hu, Index, Portfolio.hu, Infostart.hu, Pénzcentrum (mind 2026-10-21), valamint a hirkereso.hu friss-rovata (Telex, Economx, Mfor, Liner, 16:51-16:56 között) a nemzetközi elfogatóparancsról és a társgyanúsítottról. (Korábbi megjegyzések megőrizve, l. előző verzió.)",
    "id": "reported-mnb-matolcsy-alapitvanyok-2026-09",
    "first_seen_at": "2026-09-28T15:02:40+00:00",
-   "updated_at": "2026-10-21T15:02:51+00:00"
+   "updated_at": "2026-10-22T10:01:41+00:00"
   },
   {
    "additional_sources": [
@@ -3275,7 +3275,7 @@
    "url": "https://magyarnemzet.hu/gazdasag/2026/09/allamadossag-novekedes"
   },
   "allamadossag_huf": 65716000000000,
-  "collected_at": "2026-10-22T06:05:00+02:00",
+  "collected_at": "2026-10-22T11:56:00+02:00",
   "elozo": {
    "allamadossag": {
     "period": null,
@@ -3496,50 +3496,49 @@
    "publish_date": "2026-09-22",
    "url": "https://www.portfolio.hu/gazdasag/20260922/itt-az-mnb-uj-elorejelzese-hiaba-a-nemzetkozi-kockazatok-mersekelt-marad-az-idei-inflacio-864484"
   },
-  "id": "2026-10-22T06-05"
+  "id": "2026-10-22T11-56"
  },
  "last_run": {
   "errors": [
-   "Az ÁKK hivatalos statisztikai oldala (akk.hu) ebben a futásban sem volt közvetlenül lekérhető; az államadósság-érték változatlanul a 2026-07-31-i (Magyar Nemzet/ÁKK-hivatkozás) állapotot tükrözi.",
-   "mnvvh.hu/hirek 503-as hibát adott ebben a futásban, nem volt elérhető.",
-   "A k-monitor.hu site:-keresés nem adott releváns, a jelen 3 napos ablakba eső új találatot.",
-   "A hirkereso.hu oldal szerkezete miatt a Politika rovat külön nem volt egyértelműen elkülöníthető a Gazdaság rovattól; a Gazdaság rovat átnézve, új, még nem rögzített ügy nem került elő.",
-   "A kormany.hu/atlathato/feljelentes hivatalos oldal 2026-10-21-i állapota (61 ügy, 4005 Mrd Ft, 74,0 Mrd Ft visszafizetve/megtakarítva) a tegnapi (2026-10-21 16:56-os) futás óta nem változott; a teljes egyedi ügylistát átnézve két tételnél (Déli körvasút/V-Híd: 84,5 Mrd Ft; Családbarát Magyarország/Szerencs: 601,5 M Ft) talált a hivatalos oldal pontosabb/újabb adatot a korábbi, becsült sajtóadatokhoz képest, ezek frissítve.",
-   "A sajtófigyelés (12+ tematikus keresés) ebben a futásban nem talált olyan, a 2026-10-19 és 10-22 közötti időszakra eső új megtakarítási/visszaszerzési/EU-forrás/feljelentési eseményt, amely még nem szerepelt volna az adattárban — a tegnapi (2026-10-21) futás alaposan lefedte ezt az időszakot.",
-   "Az ügyeszseg.hu oldalon talált 2026-10-09-i, 2 milliárd forintos zsarolásos ügy (NVVH nevével visszaélő csalók) nem közpénz-visszaszerzési vagy korrupciós ügy, ezért nem került az adattárba.",
-   "A hirkereso.hu-n talált 'aranykonvoj' (jogellenes fogytás) ügyáttétel nem közpénzügyi/vagyonvisszaszerzési tárgyú, ezért nem került az adattárba."
+   "mnvvh.hu/hirek HTTP 503 (ideiglenesen nem elérhető ebben a futásban)"
   ],
   "eu_lost_items_new": 0,
-  "finished_at": "2026-10-22T06:10:00+02:00",
+  "finished_at": "2026-10-22T12:10:00+02:00",
   "items_duplicate": 0,
   "items_found_total": 0,
   "items_needs_review": 0,
   "items_new": 0,
   "reported_cases_new": 0,
-  "reported_cases_updated": 2,
+  "reported_cases_updated": 1,
   "sources_checked": [
-   "kormany.hu/atlathato/feljelentes",
-   "mnvvh.hu/hirek (503-as hiba, nem elérhető)",
-   "k-monitor.hu (site:-keresés, nincs releváns új találat)",
-   "hirkereso.hu (politika rovat nem volt egyértelműen elkülöníthető, gazdaság rovat ellenőrizve)",
-   "ugyeszseg.hu/category/hirek/kozponti-nyomozo-fougyeszseg",
-   "telex.hu",
-   "444.hu",
-   "hvg.hu",
-   "index.hu",
-   "portfolio.hu",
-   "economx.hu",
-   "privatbankar.hu",
-   "infostart.hu",
-   "adozona.hu",
-   "mnb.hu/arfolyamok",
-   "ksh.hu (sajtón keresztül)",
-   "akk.hu (sajtón keresztül)"
+   "kormany.hu/atlathato/feljelentes (official)",
+   "WebSearch: megtakarítás kormány",
+   "WebSearch: vagyonvisszaszerzés",
+   "WebSearch: feljelentés minisztérium közpénz",
+   "WebSearch: uniós forrás megérkezett",
+   "WebSearch: elveszett uniós forrás RRF",
+   "WebSearch: túlárazás közbeszerzés",
+   "WebSearch: Matolcsy letartóztatás",
+   "WebSearch: Matolcsy Ádám Stofa György elfogatóparancs",
+   "WebSearch (site:k-monitor.hu)",
+   "hirkereso.hu (Gazdaság rovat)",
+   "mnvvh.hu/hirek",
+   "ugyeszseg.hu (Központi Nyomozó Főügyészség rovat)",
+   "WebSearch: KSH munkanélküliség szeptember",
+   "WebSearch: pazarlás Fidesz-kormány lapszemle"
   ],
-  "started_at": "2026-10-22T05:55:00+02:00",
-  "id": "2026-10-22T06-05"
+  "started_at": "2026-10-22T11:50:00+02:00",
+  "id": "2026-10-22T11-56"
  },
  "run_history": [
+  {
+   "finished_at": "2026-10-22T12:10:00+02:00",
+   "started_at": "2026-10-22T11:50:00+02:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 1,
+   "eu_lost_items_new": 0
+  },
   {
    "finished_at": "2026-10-22T06:10:00+02:00",
    "started_at": "2026-10-22T05:55:00+02:00",
@@ -4284,31 +4283,28 @@
   }
  ],
  "run_summary": {
-  "run_id": "2026-10-22T04:04:53+00:00",
+  "run_id": "2026-10-22T10:01:41+00:00",
   "new": 0,
-  "modified": 2,
+  "modified": 0,
   "confirmed_only": 1,
-  "touched": 3,
+  "touched": 1,
   "pending_review": 2,
   "by_section": {
    "items": {
     "new": 0,
     "modified": 0,
-    "confirmed_only": 1
+    "confirmed_only": 0
    },
    "reported_cases": {
     "new": 0,
-    "modified": 2,
-    "confirmed_only": 0
+    "modified": 0,
+    "confirmed_only": 1
    }
   },
   "new_ids": [],
-  "modified_ids": [
-   "r:reported-csaladbarat-magyarorszag-szerencs-2026-10",
-   "r:reported-vhid-deli-korvasut-2026-10"
-  ],
+  "modified_ids": [],
   "confirmed_ids": [
-   "i:visszaszerzes-5kekva-alapitvany-keszpenz-2026-10"
+   "r:reported-mnb-matolcsy-alapitvanyok-2026-09"
   ]
  },
  "run_summary_history": [
@@ -5785,6 +5781,21 @@
      "new": 0,
      "modified": 2,
      "confirmed_only": 0
+    }
+   }
+  },
+  {
+   "run_id": "2026-10-22T10:01:41+00:00",
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 1
     }
    }
   }
