@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-22T10:01:41+00:00",
+ "generated_at": "2026-10-22T15:02:38+00:00",
  "summary": {
   "megtakaritas_verified_huf": 3312290700000,
   "visszaszerzes_verified_huf": 1575719300000,
@@ -2171,6 +2171,11 @@
   {
    "additional_sources": [
     {
+     "name": "Index",
+     "published_date": "2026-10-16",
+     "url": "https://index.hu/gazdasag/2026/10/16/kisfaludy-program-feljelentes-gazdasagi-es-energetikai-miniszterium-kapitany-istvan-tamogatas/"
+    },
+    {
      "name": "Piac és Profit",
      "published_date": "2026-10-16",
      "url": "https://piacesprofit.hu/cikkek/gazdasag/szazmilliardokat-osztottak-ki-palyazat-nelkul-feljelentes-lett-a-kisfaludy-program-vege.html"
@@ -2189,16 +2194,16 @@
    "recovered_item_id": null,
    "report_date": "2026-10-16",
    "report_source": {
-    "name": "Index",
+    "name": "Kormany.hu – Feljelentett billiók",
     "published_date": "2026-10-16",
-    "url": "https://index.hu/gazdasag/2026/10/16/kisfaludy-program-feljelentes-gazdasagi-es-energetikai-miniszterium-kapitany-istvan-tamogatas/"
+    "url": "https://kormany.hu/atlathato/feljelentes"
    },
    "status": "reported",
    "subject": "Kisfaludy Turisztikai Fejlesztési Program — szállásfejlesztési támogatások felülvizsgálata",
-   "verification_notes": "MEGERŐSÍTVE 2026-10-18 12:00-ás futás: az Adozona.hu (MTI-hír) független harmadik forrásból is megerősíti a feljelentés tényét (475 Mrd Ft, 2026-10-16, Kapitány István). Kiegészítő részlet: a támogatások több mint háromnegyede a szerződések mindössze 1,5%-ára koncentrálódott, 108 szerződés 288 milliárd forintot tett ki. Az alleged_amount_huf (475,3 Mrd Ft), a status (reported) és a leírás nem változott; a kormany.hu hivatalos listáján 2026-10-18-i ellenőrzés szerint még nem jelent meg (a lista változatlanul a 2026-10-14-i, 57 ügyes/3444 Mrd Ft-os állapotot mutatja). (Korábbi megjegyzés megőrizve.)",
+   "verification_notes": "MEGERŐSÍTVE 2026-10-22 16:56-os futás: az ügy immár a kormany.hu/atlathato/feljelentes hivatalos listáján is megjelent, azonos összeggel (475,3 Mrd Ft) és dátummal (2026.10.16) — a report_source ezért a hivatalos oldalra frissítve, az Index az additional_sources-ba került. (Korábbi megjegyzések megőrizve.) MEGERŐSÍTVE 2026-10-18 12:00-ás futás: az Adozona.hu (MTI-hír) független harmadik forrásból is megerősíti a feljelentés tényét (475 Mrd Ft, 2026-10-16, Kapitány István). Kiegészítő részlet: a támogatások több mint háromnegyede a szerződések mindössze 1,5%-ára koncentrálódott, 108 szerződés 288 milliárd forintot tett ki. Az alleged_amount_huf (475,3 Mrd Ft) és a leírás nem változott.",
    "id": "reported-kisfaludy-program-2026-10",
    "first_seen_at": "2026-10-16T15:03:06+00:00",
-   "updated_at": "2026-10-18T10:01:38+00:00"
+   "updated_at": "2026-10-22T15:02:38+00:00"
   },
   {
    "additional_sources": [
@@ -2260,6 +2265,11 @@
   {
    "additional_sources": [
     {
+     "name": "Index",
+     "published_date": "2026-10-16",
+     "url": "https://index.hu/belfold/2026/10/16/tarr-zoltan-feljelentes-logosz-alapitvany-kiadvanyok-fidesz-csalas/"
+    },
+    {
      "name": "444.hu",
      "published_date": "2026-10-16",
      "url": "https://444.hu/2026/10/16/feljelentest-tett-a-miniszterium-az-allami-penzbol-a-fideszes-nemeth-balazsnak-kampanyolo-logosz-alapitvany-ugyeben"
@@ -2273,16 +2283,16 @@
    "recovered_item_id": null,
    "report_date": "2026-10-16",
    "report_source": {
-    "name": "Index",
+    "name": "Kormany.hu – Feljelentett billiók",
     "published_date": "2026-10-16",
-    "url": "https://index.hu/belfold/2026/10/16/tarr-zoltan-feljelentes-logosz-alapitvany-kiadvanyok-fidesz-csalas/"
+    "url": "https://kormany.hu/atlathato/feljelentes"
    },
    "status": "reported",
    "subject": "LOGOSZ Alapítvány Jövőképek kiadványai — Fidesz-propaganda közpénzből",
-   "verification_notes": "MEGERŐSÍTVE 2026-10-18 12:00-ás futás: a 444.hu 2026-10-16-i cikke független második forrásból megerősíti a feljelentés tényét és a kb. 20 millió forintos vitatott összeget, valamint részletezi, hogy a kiadvány Németh Balázs (XV. kerületi fideszes jelölt) kampányát népszerűsítette. Az alleged_amount_huf (19,42 M Ft), a status (reported) és a leírás nem változott. (Korábbi megjegyzés megőrizve:) ÚJ TÉTEL (2026-10-17 futás). Egyetlen közvetlen sajtóforrásból (Index) ismert eddig; a Fidesz reakciójára az Index a cikk szerint vár, azt a forrás még nem tartalmazza. Nem szerepel még a kormany.hu/atlathato/feljelentes hivatalos listáján (2026-10-17-i ellenőrzés szerint, a lista változatlanul az 2026-10-14-i, 57 ügyes/3444 Mrd Ft-os állapotot mutatta).",
+   "verification_notes": "MEGERŐSÍTVE 2026-10-22 16:56-os futás: az ügy immár a kormany.hu/atlathato/feljelentes hivatalos listáján is megjelent, azonos összeggel (19,4 M Ft) és dátummal (2026.10.16) — a report_source ezért a hivatalos oldalra frissítve, az Index az additional_sources-ba került. (Korábbi megjegyzések megőrizve.) MEGERŐSÍTVE 2026-10-18 12:00-ás futás: a 444.hu 2026-10-16-i cikke független második forrásból megerősíti a feljelentés tényét és a kb. 20 millió forintos vitatott összeget. Az alleged_amount_huf (19,42 M Ft) és a leírás nem változott.",
    "id": "reported-logosz-alapitvany-kiadvanyok-2026-10",
    "first_seen_at": "2026-10-17T10:02:52+00:00",
-   "updated_at": "2026-10-18T10:01:38+00:00"
+   "updated_at": "2026-10-22T15:02:38+00:00"
   },
   {
    "alleged_amount_huf": 100000000000,
@@ -3275,7 +3285,7 @@
    "url": "https://magyarnemzet.hu/gazdasag/2026/09/allamadossag-novekedes"
   },
   "allamadossag_huf": 65716000000000,
-  "collected_at": "2026-10-22T11:56:00+02:00",
+  "collected_at": "2026-10-22T16:56:00+02:00",
   "elozo": {
    "allamadossag": {
     "period": null,
@@ -3384,18 +3394,18 @@
     "key": "eur_huf",
     "label_en": "Official EUR/HUF rate (MNB)",
     "label_hu": "Euró hivatalos árfolyama (MNB)",
-    "note_en": "The dollar rate on the same day was 325.53 HUF/USD.",
-    "note_hu": "A dollár árfolyama ugyanekkor 325,53 Ft/USD.",
-    "period": "2026-10-21",
-    "prev_period": "2026-10-20",
-    "prev_value": 363.03,
+    "note_en": "The dollar rate on the same day was 326.23 HUF/USD.",
+    "note_hu": "A dollár árfolyama ugyanekkor 326,23 Ft/USD.",
+    "period": "2026-10-22",
+    "prev_period": "2026-10-21",
+    "prev_value": 365.28,
     "source": {
      "name": "MNB hivatalos árfolyamok",
-     "publish_date": "2026-10-21",
+     "publish_date": "2026-10-22",
      "url": "https://www.mnb.hu/arfolyamok"
     },
     "unit": "Ft/EUR",
-    "value": 365.28
+    "value": 366.52
    },
    {
     "key": "brutto_atlagkereset",
@@ -3496,41 +3506,57 @@
    "publish_date": "2026-09-22",
    "url": "https://www.portfolio.hu/gazdasag/20260922/itt-az-mnb-uj-elorejelzese-hiaba-a-nemzetkozi-kockazatok-mersekelt-marad-az-idei-inflacio-864484"
   },
-  "id": "2026-10-22T11-56"
+  "id": "2026-10-22T16-56"
  },
  "last_run": {
   "errors": [
-   "mnvvh.hu/hirek HTTP 503 (ideiglenesen nem elérhető ebben a futásban)"
+   "ugyeszseg.hu/category/hirek/kozponti-nyomozo-fougyeszseg nem volt elérhető ebben a futásban (HTTP 503)",
+   "telex.hu/gazdasag közvetlen lekérése HTTP 403-at adott, 444.hu/kozpenz HTTP 404-et - helyettük WebSearch-csel folytatva a figyelést",
+   "A WebSearch eszköz több lekérdezésnél elavult/irreleváns (2024-2025-ös) találatokat adott vissza 2026 októberi friss hírek helyett; ezekből nem derült ki új, az adattárban még nem szereplő tétel",
+   "k-monitor.hu site-keresés nem hozott saját k-monitor.hu találatot (a keresőmotor nem indexelte a domaint ebben a futásban)"
   ],
   "eu_lost_items_new": 0,
-  "finished_at": "2026-10-22T12:10:00+02:00",
+  "finished_at": "2026-10-22T17:20:00+02:00",
   "items_duplicate": 0,
   "items_found_total": 0,
   "items_needs_review": 0,
   "items_new": 0,
   "reported_cases_new": 0,
-  "reported_cases_updated": 1,
+  "reported_cases_updated": 2,
   "sources_checked": [
-   "kormany.hu/atlathato/feljelentes (official)",
-   "WebSearch: megtakarítás kormány",
-   "WebSearch: vagyonvisszaszerzés",
-   "WebSearch: feljelentés minisztérium közpénz",
-   "WebSearch: uniós forrás megérkezett",
-   "WebSearch: elveszett uniós forrás RRF",
-   "WebSearch: túlárazás közbeszerzés",
-   "WebSearch: Matolcsy letartóztatás",
-   "WebSearch: Matolcsy Ádám Stofa György elfogatóparancs",
-   "WebSearch (site:k-monitor.hu)",
-   "hirkereso.hu (Gazdaság rovat)",
+   "kormany.hu/atlathato/feljelentes",
+   "hirkereso.hu",
    "mnvvh.hu/hirek",
-   "ugyeszseg.hu (Központi Nyomozó Főügyészség rovat)",
-   "WebSearch: KSH munkanélküliség szeptember",
-   "WebSearch: pazarlás Fidesz-kormány lapszemle"
+   "ugyeszseg.hu (KNYF hírek) - sikertelen (503)",
+   "k-monitor.hu (site:-keresés, nem adott saját találatot)",
+   "WebSearch: megtakarítás 2026 október",
+   "WebSearch: vagyonvisszaszerzés visszafizetés október 2026",
+   "WebSearch: uniós forrás megérkezett RRF kohéziós 2026",
+   "WebSearch: uniós forrás végleg elveszett decommitment 2026",
+   "WebSearch: feljelentés közpénz minisztérium milliárd 2026.10.22",
+   "WebSearch: mennyibe került az adófizetőknek",
+   "WebSearch: Orbán-kormány pazarlás lapszemle október 2026",
+   "WebSearch: túlárazott közbeszerzés feljelentés minisztérium 2026",
+   "WebSearch: spórolt az állam olcsóbban minisztérium 2026 október",
+   "WebSearch: Mészáros Tiborcz Szíjj visszafizetés 2026.10.22",
+   "WebSearch: Magyar Péter kormány megtakarítás bejelentés 2026.10.21/22",
+   "WebSearch: Matolcsy György letartóztatás őrizet 2026.10.22",
+   "WebSearch: Matolcsy Ádám Stofa György elfogatóparancs",
+   "MNB hivatalos árfolyamok (EUR/HUF napi adat)",
+   "KSH GDP Q3 gyorsbecslés keresés (nincs még megjelent adat)"
   ],
-  "started_at": "2026-10-22T11:50:00+02:00",
-  "id": "2026-10-22T11-56"
+  "started_at": "2026-10-22T16:56:00+02:00",
+  "id": "2026-10-22T16-56"
  },
  "run_history": [
+  {
+   "finished_at": "2026-10-22T17:20:00+02:00",
+   "started_at": "2026-10-22T16:56:00+02:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 2,
+   "eu_lost_items_new": 0
+  },
   {
    "finished_at": "2026-10-22T12:10:00+02:00",
    "started_at": "2026-10-22T11:50:00+02:00",
@@ -4283,11 +4309,11 @@
   }
  ],
  "run_summary": {
-  "run_id": "2026-10-22T10:01:41+00:00",
+  "run_id": "2026-10-22T15:02:38+00:00",
   "new": 0,
   "modified": 0,
-  "confirmed_only": 1,
-  "touched": 1,
+  "confirmed_only": 2,
+  "touched": 2,
   "pending_review": 2,
   "by_section": {
    "items": {
@@ -4298,13 +4324,14 @@
    "reported_cases": {
     "new": 0,
     "modified": 0,
-    "confirmed_only": 1
+    "confirmed_only": 2
    }
   },
   "new_ids": [],
   "modified_ids": [],
   "confirmed_ids": [
-   "r:reported-mnb-matolcsy-alapitvanyok-2026-09"
+   "r:reported-kisfaludy-program-2026-10",
+   "r:reported-logosz-alapitvany-kiadvanyok-2026-10"
   ]
  },
  "run_summary_history": [
@@ -5796,6 +5823,21 @@
      "new": 0,
      "modified": 0,
      "confirmed_only": 1
+    }
+   }
+  },
+  {
+   "run_id": "2026-10-22T15:02:38+00:00",
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 2
     }
    }
   }
