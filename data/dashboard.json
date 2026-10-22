@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-21T15:02:51+00:00",
+ "generated_at": "2026-10-22T04:04:53+00:00",
  "summary": {
   "megtakaritas_verified_huf": 3312290700000,
   "visszaszerzes_verified_huf": 1575719300000,
@@ -1015,7 +1015,7 @@
    "collected_at": "2026-10-15T05:59:00+02:00",
    "currency_note": null,
    "dedup_key": "visszaszerzes|ot kekva alapitvany keszpenz visszafizetes batthyany makovecz|28340000000",
-   "description": "A kormány hivatalos elszámolása szerint öt, korábban felszámolt közérdekű vagyonkezelő alapítvány (Batthyány Lajos Alapítvány, Makovecz Campus Alapítvány, Közép- és Kelet-európai Történelem és Társadalom Kutatásáért Alapítvány, Polgári Művelődésért Alapítvány, Magyar Kultúrért Alapítvány) összesen 28,34 milliárd forintot utalt vissza az államnak 2026. szeptember 30-ig.",
+   "description": "A kormány hivatalos elszámolása szerint öt, korábban felszámolt közérdekű vagyonkezelő alapítvány (Batthyány Lajos Alapítvány, Makovecz Campus Alapítvány, Közép- és Kelet-európai Történelem és Társadalom Kutatásáért Alapítvány, Polgári Művelődésért Alapítvány, Magyar Kultúrért Alapítvány) összesen 28,34 milliárd forintot utalt vissza az államnak 2026. szeptember 30-ig. A hivatalos oldal szerinti bontás: Batthyány Lajos Alapítvány 13,509 milliárd forint, Makovecz Campus Alapítvány 11,764 milliárd forint, Közép- és Kelet-európai Történelem és Társadalom Kutatásáért Alapítvány 2,259 milliárd forint, Polgári Művelődésért Alapítvány 667,5 millió forint, Magyar Kultúrért Alapítvány 140,8 millió forint.",
    "duplicate_of": null,
    "event_date": "2026-09-30",
    "from_whom": "Batthyány Lajos Alapítvány, Makovecz Campus Alapítvány, Közép- és Kelet-európai Történelem és Társadalom Kutatásáért Alapítvány, Polgári Művelődésért Alapítvány, Magyar Kultúrért Alapítvány (öt felszámolt közérdekű vagyonkezelő alapítvány)",
@@ -1024,10 +1024,10 @@
    "source_url": "https://kormany.hu/atlathato/feljelentes",
    "status": "verified",
    "subject": "Öt közérdekű vagyonkezelő alapítvány — tényleges készpénz-visszafizetés az államnak",
-   "verification_notes": "ÚJ TÉTEL (2026-10-15 05:59-es futás). Hivatalos forrás (kormany.hu, 'Visszafizetve' lista, 2026-10-14-i állapot szerinti ellenőrzés). Ez a konkrét, tényleges KÉSZPÉNZ-visszafizetés különbözik a visszaszerzes-kekva-2026-08 tételben (1284 Mrd Ft, a felszámolt alapítványok teljes VAGYONÁNAK — cégrészesedések, ingatlanok — értéke) és a visszaszerzes-4alapitvany-kbm-2026-08 tételben (100 Mrd Ft, KBM-felügyelet alá tartozó 4 alapítvány vagyona) rögzített, szélesebb vagyonátvételi összegektől — azok a felszámolt alapítványok teljes vagyonát jelentik, ez pedig egy konkrét, tényleges pénzvisszafizetés öt, névvel azonosított alapítványtól; nem adandó hozzá azokhoz a dupla számolás elkerülése végett.",
+   "verification_notes": "FRISSÍTVE 2026-10-22 06:01-es futás: a kormany.hu hivatalos oldal egyedi, alapítványonkénti bontást is közöl az összesen 28,34 milliárd forintos visszafizetésről; ez a bontás most a description mezőbe került kiegészítésként, az összeg és a status nem változott. ÚJ TÉTEL (2026-10-15 05:59-es futás). Hivatalos forrás (kormany.hu, 'Visszafizetve' lista, 2026-10-14-i állapot szerinti ellenőrzés). Ez a konkrét, tényleges KÉSZPÉNZ-visszafizetés különbözik a visszaszerzes-kekva-2026-08 tételben (1284 Mrd Ft, a felszámolt alapítványok teljes VAGYONÁNAK — cégrészesedések, ingatlanok — értéke) és a visszaszerzes-4alapitvany-kbm-2026-08 tételben (100 Mrd Ft, KBM-felügyelet alá tartozó 4 alapítvány vagyona) rögzített, szélesebb vagyonátvételi összegektől — azok a felszámolt alapítványok teljes vagyonát jelentik, ez pedig egy konkrét, tényleges pénzvisszafizetés öt, névvel azonosított alapítványtól; nem adandó hozzá azokhoz a dupla számolás elkerülése végett.",
    "id": "visszaszerzes-5kekva-alapitvany-keszpenz-2026-10",
    "first_seen_at": "2026-10-15T04:05:11+00:00",
-   "updated_at": "2026-10-15T04:05:11+00:00"
+   "updated_at": "2026-10-22T04:04:53+00:00"
   },
   {
    "additional_sources": [],
@@ -1709,9 +1709,14 @@
      "name": "HVG",
      "published_date": "2026-10-17",
      "url": "https://hvg.hu/itthon/20261017_koncz-zsofia-kataineemeth-vilmos-per"
+    },
+    {
+     "name": "Index",
+     "published_date": "2026-10-17",
+     "url": "https://index.hu/belfold/2026/10/17/katai-nemeth-vilmos-csaladbarat-magyarorszag-fidesz-koncz-zsofia/"
     }
    ],
-   "alleged_amount_huf": 600000000,
+   "alleged_amount_huf": 601500000,
    "alleged_amount_text": "több mint 600 millió forint (ebből egyetlen, 2026. április 5-i húsvéti rendezvény 343 millió forintba került), 2026 februárja és a választás között, két hónap alatt",
    "confirmed_recovered_huf": 0,
    "description": "A szociális és családügyi miniszter feljelentést tett a Központi Nyomozó Főügyészségnél hivatali visszaélés és hűtlen kezelés gyanúja miatt. A gyanú szerint a Családbarát Magyarország programsorozat keretére szánt közpénzből a 2026 áprilisi választás előtt, alig két hónap alatt több mint 600 millió forintot fordítottak Koncz Zsófia akkori családügyi államtitkár szerencsi választókerületében tartott rendezvényekre, köztük egy 2026. április 5-i húsvéti eseményre, amely önmagában 343 millió forintot tett ki.",
@@ -1719,16 +1724,16 @@
    "recovered_item_id": null,
    "report_date": "2026-10-17",
    "report_source": {
-    "name": "Index",
-    "published_date": "2026-10-17",
-    "url": "https://index.hu/belfold/2026/10/17/katai-nemeth-vilmos-csaladbarat-magyarorszag-fidesz-koncz-zsofia/"
+    "name": "Kormany.hu – Feljelentett billiók",
+    "published_date": "2026-10-21",
+    "url": "https://kormany.hu/atlathato/feljelentes"
    },
    "status": "reported",
    "subject": "Családbarát Magyarország programsorozat — szerencsi választókerületi rendezvények",
-   "verification_notes": "FRISSÍTVE 2026-10-19 05:55-ös futás: Koncz Zsófia (akkori családügyi államtitkár, jelenleg fideszes országgyűlési képviselő) vitatja a feljelentés állítását, és polgári peres eljárást indított Kátai-Németh Vilmos szociális és családügyi miniszter ellen személyiségi jogai megsértése miatt, mivel a miniszter hivatali visszaéléssel gyanúsította meg. A pontos keresetösszeg nem ismert. Ez eljárási/jogi vita a feljelentett és a feljelentő között, nem változtatja meg az alleged_amount_huf (600 M Ft) vagy a status (reported) mezőt, a tényleges nyomozási eredmény továbbra is nyitott. Nem szerepel még a kormany.hu/atlathato/feljelentes hivatalos listáján (2026-10-19-i ellenőrzés szerint, a lista változatlanul a 2026-10-14-i, 57 ügyes/3444 Mrd Ft-os állapotot mutatta). (Korábbi megjegyzés megőrizve.) ÚJ TÉTEL (2026-10-17 futás). Egyetlen közvetlen sajtóforrásból (Index) ismert eddig, de a feljelentő maga a hatáskörrel rendelkező miniszter (Kátai-Németh Vilmos), ezért reported státuszban rögzítve. Kapcsolódik, de ELKÜLÖNÜL a korábban rögzített, a reported-egyeb-miniszteriumi-18ugy-2026 gyűjtőtételben szereplő 'nyuszimotor-vásárlások' (0,239 Mrd Ft) tételtől.",
+   "verification_notes": "FRISSÍTVE 2026-10-22 06:01-es futás: az ügy megjelent a kormany.hu/atlathato/feljelentes hivatalos listáján is ('Családbarát Magyarország' rendezvények, Szociális és Családügyi Minisztérium, 2026.10.17-i feljelentési dátummal), pontos összeggel: 601,5 millió forint (korábban a sajtó kerekítve 600+ millió forintként közölte) — a forrás-hitelességi szabály szerint ez az irányadó, az alleged_amount_huf ezért pontosítva. A report_source a kormany.hu oldalra frissítve, az Index az additional_sources-ba került. FRISSÍTVE 2026-10-19 05:55-ös futás: Koncz Zsófia (akkori családügyi államtitkár, jelenleg fideszes országgyűlési képviselő) vitatja a feljelentés állítását, és polgári peres eljárást indított Kátai-Németh Vilmos szociális és családügyi miniszter ellen személyiségi jogai megsértése miatt, mivel a miniszter hivatali visszaéléssel gyanúsította meg. A pontos keresetösszeg nem ismert. Ez eljárási/jogi vita a feljelentett és a feljelentő között, nem változtatja meg a status (reported) mezőt, a tényleges nyomozási eredmény továbbra is nyitott. (Korábbi megjegyzés megőrizve.) ÚJ TÉTEL (2026-10-17 futás). Egyetlen közvetlen sajtóforrásból (Index) ismert eddig, de a feljelentő maga a hatáskörrel rendelkező miniszter (Kátai-Németh Vilmos), ezért reported státuszban rögzítve. Kapcsolódik, de ELKÜLÖNÜL a korábban rögzített, a reported-egyeb-miniszteriumi-18ugy-2026 gyűjtőtételben szereplő 'nyuszimotor-vásárlások' (0,239 Mrd Ft) tételtől.",
    "id": "reported-csaladbarat-magyarorszag-szerencs-2026-10",
    "first_seen_at": "2026-10-17T10:02:52+00:00",
-   "updated_at": "2026-10-19T04:02:38+00:00"
+   "updated_at": "2026-10-22T04:04:53+00:00"
   },
   {
    "additional_sources": [
@@ -3164,26 +3169,31 @@
      "name": "Piac és Profit",
      "published_date": "2026-10-11",
      "url": "https://piacesprofit.hu/cikkek/gazdasag/levelet-kapott-meszaros-lorinc-vakarhatja-a-fejet.html"
+    },
+    {
+     "name": "444.hu",
+     "published_date": "2026-10-09",
+     "url": "https://444.hu/2026/10/09/magyar-nem-erti-miert-a-kisvarost-adja-a-kozmedia-a-miniszterelnoki-sajtotajekoztato-helyett"
     }
    ],
-   "alleged_amount_huf": null,
+   "alleged_amount_huf": 84500000000,
    "alleged_amount_text": "A közlekedési miniszter becslése szerint legalább 50–100 milliárd forint kár érte az államot; az Európai Bizottság figyelmeztetése szerint a projekt mintegy 320,4–350 milliárd forintnyi uniós támogatást veszíthet el a jelenlegi közbeszerzés miatt; a miniszter szerint a szerződés folytatása a kieső uniós pénzt 360 milliárd forint adófizetői pénzből pótolta volna",
    "confirmed_recovered_huf": 0,
    "description": "A Közlekedési és Beruházási Minisztérium 2026. október 9-én bejelentette, hogy felmondja a Déli körvasút kivitelezésére kötött szerződést a V-Híd Zrt.-vel, és kizárja a céget valamennyi jelenleg futó vasútépítési beruházásból. A lépés az Európai Számvevőszék megállapítására épül, amely szerint a V-Híd a 2021-es közbeszerzési eljárás során összejátszott az ajánlatkérő oldalán dolgozó mérnöki céggel, amelyet később felvásárolt. A minisztérium büntetőfeljelentést és a projekt újbóli közbeszerzését is bejelentette.",
    "ministry": "Közlekedési és Beruházási Minisztérium",
    "recovered_item_id": null,
-   "report_date": "2026-10-09",
+   "report_date": "2026-10-13",
    "report_source": {
-    "name": "444.hu",
-    "published_date": "2026-10-09",
-    "url": "https://444.hu/2026/10/09/magyar-nem-erti-miert-a-kisvarost-adja-a-kozmedia-a-miniszterelnoki-sajtotajekoztato-helyett"
+    "name": "Kormany.hu – Feljelentett billiók",
+    "published_date": "2026-10-21",
+    "url": "https://kormany.hu/atlathato/feljelentes"
    },
    "status": "reported",
    "subject": "V-Híd — Déli körvasút kivitelezői szerződésének felmondása összejátszás gyanúja miatt",
-   "verification_notes": "FRISSÍTVE 2026-10-16 17:00-ás futás: a Gazdasági Versenyhivatal (GVH) elnöke 2026. október 12-én formálisan eljárást rendelt el a Déli körvasút beruházás körülményeinek felderítésére, az uniós forrás elvesztésének kockázatára hivatkozva (Telex, 444.hu). A GVH jelezte, hogy Vitézy Dávid miniszter versenyhivatali eljárásra utaló szándékáról csak a sajtóból értesült, hivatalos magyar állami vagy uniós megkeresést korábban nem kapott. A formális büntetőfeljelentés tényleges benyújtásáról továbbra sincs önálló megerősítés. Az alleged_amount_huf és a status (reported) nem változott. (Korábbi megjegyzések megőrizve.) FRISSÍTVE 2026-10-13 05:56-os futás: a 444.hu 2026-10-10-i cikke szerint Vitézy Dávid miniszter 2026-10-10-én facebookon megerősítette, hogy a felmondási döntést formálisan megküldték a V-Híd Zrt.-nek (korábban csak a 10-09-i sajtótájékoztatói bejelentés volt ismert). A cikk szerint az Európai Számvevőszék már kb. két héttel a bejelentés előtt (2026 szeptember vége) jelezte Magyarországnak, hogy visszavonja a projekt uniós támogatását; a miniszter szerint a szerződés folytatása esetén a kieső uniós forrást 360 milliárd forint adófizetői pénzből kellett volna pótolni. Egy hirkereso.hu-n (2026-10-12, Forbes/PiacProfit teaser cím alapján) talált, de eredeti cikkben nem megerősíthető jelzés szerint a GVH (Gazdasági Versenyhivatal) eljárást indított/indít az ügyben — ez összhangban van a miniszter 2026-10-09-i bejelentésével, amely szerint versenyhivatali eljárást és büntetőfeljelentést is kezdeményeznek, de a GVH saját, formális eljárás-indítását önálló forrásból nem sikerült megerősíteni ebben a futásban, további ellenőrzésre vár. Az EU-forrás-veszteség becslése a sajtóban 320,4 és 350 milliárd forint között mozog (eltérő cikkek), ezt az alleged_amount_text most tartományként rögzíti. A formális büntetőfeljelentés benyújtásáról továbbra sincs önálló megerősítés. Nem szerepel még a kormany.hu/atlathato/feljelentes hivatalos listáján (2026-10-13-i ellenőrzés szerint, a lista változatlanul 47 ügy/2255 Mrd Ft, 2026-10-02-i állapot). (Korábbi megjegyzés megőrizve:) ÚJ TÉTEL (2026-10-12 06:01-es futás)... FRISSÍTVE 2026-10-17 06:00-ás futás: a 444.hu és a Kontroll.hu 2026-10-16-i cikke szerint Mészáros Lőrinc megállapodásra jutott az osztrák PORR építőipari vállalattal a projektből kizárt V-Híd Zrt. eladásáról; a részletek (teljes céget vagy csak eszközöket/munkavállalókat érint) és a hivatalos bejelentés még nem ismertek, a PORR csak annyit közölt, hogy vizsgálja a magyar piaci lehetőségeket. Ez a V-Híd tulajdonosváltására vonatkozó piaci/vállalati fejlemény, nem állami intézkedés vagy vagyonvisszaszerzés, az alleged_amount_huf és a status (reported) nem változott, önálló tételt nem indokol.",
+   "verification_notes": "FRISSÍTVE 2026-10-22 06:01-es futás: a kormany.hu/atlathato/feljelentes hivatalos oldal szerint ez az ügy ('Déli körvasút II. ütem / V-Híd szerződés') 84,5 milliárd forintos feljelentett összeggel és 2026.10.13-i feljelentési dátummal szerepel — a forrás-hitelességi szabály szerint ez az irányadó alleged_amount_huf érték (korábban null volt, csak a miniszteri kárbecslés — 50–100 Mrd Ft —, az EU-forrásveszteségi kockázat — 320,4–350 Mrd Ft — és a 360 Mrd Ft-os pótlási becslés voltak ismertek sajtóból, l. alleged_amount_text). A report_source ezért a kormany.hu oldalra frissítve, a korábbi elsődleges forrás (444.hu) az additional_sources-ba került. FRISSÍTVE 2026-10-16 17:00-ás futás: a Gazdasági Versenyhivatal (GVH) elnöke 2026. október 12-én formálisan eljárást rendelt el a Déli körvasút beruházás körülményeinek felderítésére, az uniós forrás elvesztésének kockázatára hivatkozva (Telex, 444.hu). A GVH jelezte, hogy Vitézy Dávid miniszter versenyhivatali eljárásra utaló szándékáról csak a sajtóból értesült, hivatalos magyar állami vagy uniós megkeresést korábban nem kapott. A formális büntetőfeljelentés tényleges benyújtásáról továbbra sincs önálló megerősítés. Az alleged_amount_huf és a status (reported) nem változott. (Korábbi megjegyzések megőrizve.) FRISSÍTVE 2026-10-13 05:56-os futás: a 444.hu 2026-10-10-i cikke szerint Vitézy Dávid miniszter 2026-10-10-én facebookon megerősítette, hogy a felmondási döntést formálisan megküldték a V-Híd Zrt.-nek (korábban csak a 10-09-i sajtótájékoztatói bejelentés volt ismert). A cikk szerint az Európai Számvevőszék már kb. két héttel a bejelentés előtt (2026 szeptember vége) jelezte Magyarországnak, hogy visszavonja a projekt uniós támogatását; a miniszter szerint a szerződés folytatása esetén a kieső uniós forrást 360 milliárd forint adófizetői pénzből kellett volna pótolni. Egy hirkereso.hu-n (2026-10-12, Forbes/PiacProfit teaser cím alapján) talált, de eredeti cikkben nem megerősíthető jelzés szerint a GVH (Gazdasági Versenyhivatal) eljárást indított/indít az ügyben — ez összhangban van a miniszter 2026-10-09-i bejelentésével, amely szerint versenyhivatali eljárást és büntetőfeljelentést is kezdeményeznek, de a GVH saját, formális eljárás-indítását önálló forrásból nem sikerült megerősíteni ebben a futásban, további ellenőrzésre vár. Az EU-forrás-veszteség becslése a sajtóban 320,4 és 350 milliárd forint között mozog (eltérő cikkek), ezt az alleged_amount_text most tartományként rögzíti. A formális büntetőfeljelentés benyújtásáról továbbra sincs önálló megerősítés. Nem szerepel még a kormany.hu/atlathato/feljelentes hivatalos listáján (2026-10-13-i ellenőrzés szerint, a lista változatlanul 47 ügy/2255 Mrd Ft, 2026-10-02-i állapot). (Korábbi megjegyzés megőrizve:) ÚJ TÉTEL (2026-10-12 06:01-es futás)... FRISSÍTVE 2026-10-17 06:00-ás futás: a 444.hu és a Kontroll.hu 2026-10-16-i cikke szerint Mészáros Lőrinc megállapodásra jutott az osztrák PORR építőipari vállalattal a projektből kizárt V-Híd Zrt. eladásáról; a részletek (teljes céget vagy csak eszközöket/munkavállalókat érint) és a hivatalos bejelentés még nem ismertek, a PORR csak annyit közölt, hogy vizsgálja a magyar piaci lehetőségeket. Ez a V-Híd tulajdonosváltására vonatkozó piaci/vállalati fejlemény, nem állami intézkedés vagy vagyonvisszaszerzés, az alleged_amount_huf és a status (reported) nem változott, önálló tételt nem indokol.",
    "id": "reported-vhid-deli-korvasut-2026-10",
    "first_seen_at": "2026-10-12T04:05:17+00:00",
-   "updated_at": "2026-10-17T04:02:46+00:00"
+   "updated_at": "2026-10-22T04:04:53+00:00"
   },
   {
    "alleged_amount_huf": 10000000000,
@@ -3265,7 +3275,7 @@
    "url": "https://magyarnemzet.hu/gazdasag/2026/09/allamadossag-novekedes"
   },
   "allamadossag_huf": 65716000000000,
-  "collected_at": "2026-10-21T10:05:00+02:00",
+  "collected_at": "2026-10-22T06:05:00+02:00",
   "elozo": {
    "allamadossag": {
     "period": null,
@@ -3374,67 +3384,67 @@
     "key": "eur_huf",
     "label_en": "Official EUR/HUF rate (MNB)",
     "label_hu": "Euró hivatalos árfolyama (MNB)",
-    "note_en": "The dollar rate on the same day was 323.53 HUF/USD.",
-    "note_hu": "A dollár árfolyama ugyanekkor 323,53 Ft/USD.",
-    "period": "2026-10-20",
-    "prev_period": "2026-10-19",
-    "prev_value": 363.13,
+    "note_en": "The dollar rate on the same day was 325.53 HUF/USD.",
+    "note_hu": "A dollár árfolyama ugyanekkor 325,53 Ft/USD.",
+    "period": "2026-10-21",
+    "prev_period": "2026-10-20",
+    "prev_value": 363.03,
     "source": {
      "name": "MNB hivatalos árfolyamok",
-     "publish_date": "2026-10-20",
+     "publish_date": "2026-10-21",
      "url": "https://www.mnb.hu/arfolyamok"
     },
     "unit": "Ft/EUR",
-    "value": 363.03
+    "value": 365.28
    },
    {
     "key": "brutto_atlagkereset",
     "label_en": "Average gross wage",
     "label_hu": "Bruttó átlagkereset",
-    "note_en": "Up 7.5% year-on-year.",
-    "note_hu": "Éves összevetésben 7,5%-os növekedés.",
-    "period": "2026-07",
-    "prev_period": "2026-06",
-    "prev_value": 754700,
+    "note_en": "Up 8.4% year-on-year; gross median wage 611,400 HUF.",
+    "note_hu": "Éves összevetésben 8,4%-os növekedés; a bruttó mediánkereset 611 400 Ft.",
+    "period": "2026-08",
+    "prev_period": "2026-07",
+    "prev_value": 745500,
     "source": {
-     "name": "Telex (KSH keresetstatisztika)",
-     "publish_date": "2026-09-16",
-     "url": "https://telex.hu/gazdasag/2026/09/16/ksh-keresetek-2026-julius"
+     "name": "Adózóna (KSH adatközlés)",
+     "publish_date": "2026-10-20",
+     "url": "https://adozona.hu/altalanos/KSH_brutto_atlagkereset_740_600_forint_WVF3JG"
     },
     "unit": "Ft",
-    "value": 745500
+    "value": 740600
    },
    {
     "key": "netto_atlagkereset",
     "label_en": "Average net wage",
     "label_hu": "Nettó átlagkereset",
-    "note_en": "Up 9.1% year-on-year; net median wage 437,900 HUF.",
-    "note_hu": "Egy évvel korábbihoz képest 9,1%-os növekedés; a nettó mediánkereset 437 900 Ft.",
-    "period": "2026-07",
-    "prev_period": "2026-06",
-    "prev_value": 529700,
+    "note_en": "Up 10.0% year-on-year; net median wage 433,400 HUF.",
+    "note_hu": "Éves összevetésben 10,0%-os növekedés; a nettó mediánkereset 433 400 Ft.",
+    "period": "2026-08",
+    "prev_period": "2026-07",
+    "prev_value": 523300,
     "source": {
-     "name": "Telex (KSH keresetstatisztika)",
-     "publish_date": "2026-09-16",
-     "url": "https://telex.hu/gazdasag/2026/09/16/ksh-keresetek-2026-julius"
+     "name": "Adózóna (KSH adatközlés)",
+     "publish_date": "2026-10-20",
+     "url": "https://adozona.hu/altalanos/KSH_brutto_atlagkereset_740_600_forint_WVF3JG"
     },
     "unit": "Ft",
-    "value": 523300
+    "value": 519900
    },
    {
     "key": "realkereset_valtozas",
     "label_en": "Real wage change (year-on-year)",
     "label_hu": "Reálkereset változása (éves)",
-    "period": "2026-07",
-    "prev_period": "2026-06",
-    "prev_value": 7.6,
+    "period": "2026-08",
+    "prev_period": "2026-07",
+    "prev_value": 7.8,
     "source": {
-     "name": "Telex (KSH keresetstatisztika)",
-     "publish_date": "2026-09-16",
-     "url": "https://telex.hu/gazdasag/2026/09/16/ksh-keresetek-2026-julius"
+     "name": "Adózóna (KSH adatközlés)",
+     "publish_date": "2026-10-20",
+     "url": "https://adozona.hu/altalanos/KSH_brutto_atlagkereset_740_600_forint_WVF3JG"
     },
     "unit": "%",
-    "value": 7.8
+    "value": 8.6
    },
    {
     "key": "kozponti_alrendszer_hiany",
@@ -3486,18 +3496,21 @@
    "publish_date": "2026-09-22",
    "url": "https://www.portfolio.hu/gazdasag/20260922/itt-az-mnb-uj-elorejelzese-hiaba-a-nemzetkozi-kockazatok-mersekelt-marad-az-idei-inflacio-864484"
   },
-  "id": "2026-10-21T10-05"
+  "id": "2026-10-22T06-05"
  },
  "last_run": {
   "errors": [
-   "Az ügyészség (ugyeszseg.hu/category/hirek/kozponti-nyomozo-fougyeszseg) ismét HTTP 503 hibát adott, nem volt elérhető ebben a futásban (ismétlődő probléma korábbi futásokból).",
-   "A hirkereso.hu/politika aloldal HTTP 404 hibát adott; a hirkereso.hu főoldala és a /gazdasag aloldal viszont elérhető volt és feldolgozásra került.",
-   "KSH szeptemberi munkanélküliségi gyorstájékoztató e futás idején sem jelent meg; a legutóbbi (augusztusi, 4,7%) adat maradt érvényben, nem készült új macro_snapshots dokumentum, mert a legutóbbi (2026-10-21T10:05) pillanatkép óta egyik figyelt mutatóban sem jelent meg új hivatalos publikáció.",
-   "A 2026-10-21-i, 61 ügyes/4005 Mrd Ft-os kormany.hu-összesítő és a 2026-10-14-i (57 ügy/3444 Mrd Ft) állapot közötti kb. 561 Mrd Ft-os/4 ügyes növekedés pontos komponens-szintű lebontása nem volt teljesen elvégezhető ebben a futásban — minden egyedileg nevesített tétel (61 sorból 56 egyedi + a p2m/Balásy 6 összevont panasza) már korábban rögzítve volt önálló tételként vagy gyűjtőben, a növekedés feltehetően a Kisfaludy Program (475,3 Mrd Ft, 10-16-i feljelentés) utólagos beszámításából és kisebb tételek pontosításából adódik; a reported-osszesito-2026-09 leíró szövege ezt jelzi, a history tömbhöz új elem került (2026-10-21: 61 ügy, 4005 Mrd Ft).",
-   "A legfontosabb fejlemény ebben a futásban: a Központi Nyomozó Főügyészség 2026-10-21-én indítványozta Matolcsy György (volt jegybankelnök) előzetes letartóztatását csalás és hamis magánokirat felhasználásának gyanúja miatt, miután megtagadta a vallomástételt; emellett két társgyanúsított ellen nemzetközi elfogatóparancsot adtak ki. Ez a reported-mnb-matolcsy-alapitvanyok-2026-09 tételben rögzítve, de tényleges vagyon-visszaszerzés vagy jogerős döntés még nincs, ezért items-tétel nem készült."
+   "Az ÁKK hivatalos statisztikai oldala (akk.hu) ebben a futásban sem volt közvetlenül lekérhető; az államadósság-érték változatlanul a 2026-07-31-i (Magyar Nemzet/ÁKK-hivatkozás) állapotot tükrözi.",
+   "mnvvh.hu/hirek 503-as hibát adott ebben a futásban, nem volt elérhető.",
+   "A k-monitor.hu site:-keresés nem adott releváns, a jelen 3 napos ablakba eső új találatot.",
+   "A hirkereso.hu oldal szerkezete miatt a Politika rovat külön nem volt egyértelműen elkülöníthető a Gazdaság rovattól; a Gazdaság rovat átnézve, új, még nem rögzített ügy nem került elő.",
+   "A kormany.hu/atlathato/feljelentes hivatalos oldal 2026-10-21-i állapota (61 ügy, 4005 Mrd Ft, 74,0 Mrd Ft visszafizetve/megtakarítva) a tegnapi (2026-10-21 16:56-os) futás óta nem változott; a teljes egyedi ügylistát átnézve két tételnél (Déli körvasút/V-Híd: 84,5 Mrd Ft; Családbarát Magyarország/Szerencs: 601,5 M Ft) talált a hivatalos oldal pontosabb/újabb adatot a korábbi, becsült sajtóadatokhoz képest, ezek frissítve.",
+   "A sajtófigyelés (12+ tematikus keresés) ebben a futásban nem talált olyan, a 2026-10-19 és 10-22 közötti időszakra eső új megtakarítási/visszaszerzési/EU-forrás/feljelentési eseményt, amely még nem szerepelt volna az adattárban — a tegnapi (2026-10-21) futás alaposan lefedte ezt az időszakot.",
+   "Az ügyeszseg.hu oldalon talált 2026-10-09-i, 2 milliárd forintos zsarolásos ügy (NVVH nevével visszaélő csalók) nem közpénz-visszaszerzési vagy korrupciós ügy, ezért nem került az adattárba.",
+   "A hirkereso.hu-n talált 'aranykonvoj' (jogellenes fogytás) ügyáttétel nem közpénzügyi/vagyonvisszaszerzési tárgyú, ezért nem került az adattárba."
   ],
   "eu_lost_items_new": 0,
-  "finished_at": "2026-10-21T17:40:00+02:00",
+  "finished_at": "2026-10-22T06:10:00+02:00",
   "items_duplicate": 0,
   "items_found_total": 0,
   "items_needs_review": 0,
@@ -3505,32 +3518,36 @@
   "reported_cases_new": 0,
   "reported_cases_updated": 2,
   "sources_checked": [
-   "kormany.hu/atlathato/feljelentes (teljes lista WebFetch-csel ellenőrizve: 61 ügy / 12 tárca, 4005 Mrd Ft, 17 vizsgálat, 74,0 Mrd Ft visszafizetve/megtakarítva — a 2026-10-14-i 57 ügyes/3444 Mrd Ft-os állapothoz képest bővült, de egyenkénti átvizsgálással minden név szerint azonosítható tétel már korábban rögzítve volt)",
-   "mnvvh.hu/hirek",
-   "ugyeszseg.hu/category/hirek/kozponti-nyomozo-fougyeszseg (HTTP 503, nem elérhető)",
-   "hirkereso.hu/politika (HTTP 404)",
-   "hirkereso.hu/gazdasag",
-   "hirkereso.hu (főoldal)",
-   "k-monitor.hu (WebSearch, site: operátor nem adott közvetlen domain-találatot)",
-   "WebSearch: Matolcsy György letartóztatás MNB ügy",
-   "WebSearch: vagyonvisszaszerzés feljelentés közpénz október",
-   "WebSearch: megtakarítás állam spórolt milliárd október",
-   "WebSearch: uniós forrás megérkezett Magyarország",
-   "WebSearch: elveszett uniós forrás decommitment RRF",
-   "WebSearch: túlárazás közbeszerzés visszaszerzés",
-   "WebSearch: Matolcsy letartóztatás kérik ügyészség (extended)",
-   "WebSearch: Duna Aszfalt visszafizetés kötvény október",
-   "WebSearch: 2027 költségvetés megtakarítás 1465 milliárd",
-   "WebSearch: NVVH vagyonzárolás vagyonelkobzás október",
-   "WebSearch: KSH munkanélküliségi ráta szeptember 2026",
-   "WebSearch: Orbán-kormány pénzszórás pazarlás kontraszt",
-   "WebSearch: spórolt az állam olcsóbban kiváltotta szerződés",
-   "WebSearch: feljelentés minisztérium közpénz nyomozás indult"
+   "kormany.hu/atlathato/feljelentes",
+   "mnvvh.hu/hirek (503-as hiba, nem elérhető)",
+   "k-monitor.hu (site:-keresés, nincs releváns új találat)",
+   "hirkereso.hu (politika rovat nem volt egyértelműen elkülöníthető, gazdaság rovat ellenőrizve)",
+   "ugyeszseg.hu/category/hirek/kozponti-nyomozo-fougyeszseg",
+   "telex.hu",
+   "444.hu",
+   "hvg.hu",
+   "index.hu",
+   "portfolio.hu",
+   "economx.hu",
+   "privatbankar.hu",
+   "infostart.hu",
+   "adozona.hu",
+   "mnb.hu/arfolyamok",
+   "ksh.hu (sajtón keresztül)",
+   "akk.hu (sajtón keresztül)"
   ],
-  "started_at": "2026-10-21T16:56:00+02:00",
-  "id": "2026-10-21T16-56"
+  "started_at": "2026-10-22T05:55:00+02:00",
+  "id": "2026-10-22T06-05"
  },
  "run_history": [
+  {
+   "finished_at": "2026-10-22T06:10:00+02:00",
+   "started_at": "2026-10-22T05:55:00+02:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 2,
+   "eu_lost_items_new": 0
+  },
   {
    "finished_at": "2026-10-21T17:40:00+02:00",
    "started_at": "2026-10-21T16:56:00+02:00",
@@ -4267,28 +4284,31 @@
   }
  ],
  "run_summary": {
-  "run_id": "2026-10-21T15:02:51+00:00",
+  "run_id": "2026-10-22T04:04:53+00:00",
   "new": 0,
-  "modified": 0,
+  "modified": 2,
   "confirmed_only": 1,
-  "touched": 1,
+  "touched": 3,
   "pending_review": 2,
   "by_section": {
    "items": {
     "new": 0,
     "modified": 0,
-    "confirmed_only": 0
+    "confirmed_only": 1
    },
    "reported_cases": {
     "new": 0,
-    "modified": 0,
-    "confirmed_only": 1
+    "modified": 2,
+    "confirmed_only": 0
    }
   },
   "new_ids": [],
-  "modified_ids": [],
+  "modified_ids": [
+   "r:reported-csaladbarat-magyarorszag-szerencs-2026-10",
+   "r:reported-vhid-deli-korvasut-2026-10"
+  ],
   "confirmed_ids": [
-   "r:reported-mnb-matolcsy-alapitvanyok-2026-09"
+   "i:visszaszerzes-5kekva-alapitvany-keszpenz-2026-10"
   ]
  },
  "run_summary_history": [
@@ -5750,6 +5770,21 @@
      "new": 0,
      "modified": 0,
      "confirmed_only": 1
+    }
+   }
+  },
+  {
+   "run_id": "2026-10-22T04:04:53+00:00",
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 1
+    },
+    "reported_cases": {
+     "new": 0,
+     "modified": 2,
+     "confirmed_only": 0
     }
    }
   }
