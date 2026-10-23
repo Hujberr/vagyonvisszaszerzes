@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-23T04:05:08+00:00",
+ "generated_at": "2026-10-23T10:02:39+00:00",
  "summary": {
   "megtakaritas_verified_huf": 3312290700000,
   "visszaszerzes_verified_huf": 1575719300000,
@@ -3285,7 +3285,7 @@
    "url": "https://magyarnemzet.hu/gazdasag/2026/09/allamadossag-novekedes"
   },
   "allamadossag_huf": 65716000000000,
-  "collected_at": "2026-10-23T06:02:00+02:00",
+  "collected_at": "2026-10-23T11:56:00+02:00",
   "elozo": {
    "allamadossag": {
     "period": null,
@@ -3326,8 +3326,8 @@
     "key": "munkanelkulisegi_rata",
     "label_en": "Unemployment rate",
     "label_hu": "Munkanélküliségi ráta",
-    "note_en": "September flash report not yet published at the time of this run.",
-    "note_hu": "A szeptemberi gyorstájékoztató e futás idején még nem jelent meg.",
+    "note_en": "September flash report still not published at the time of this run.",
+    "note_hu": "A szeptemberi gyorstájékoztató e futás idején sem jelent meg még.",
     "period": "2026-08",
     "prev_period": "2026-07",
     "prev_value": 4.5,
@@ -3506,74 +3506,56 @@
    "publish_date": "2026-09-22",
    "url": "https://www.portfolio.hu/gazdasag/20260922/itt-az-mnb-uj-elorejelzese-hiaba-a-nemzetkozi-kockazatok-mersekelt-marad-az-idei-inflacio-864484"
   },
-  "id": "2026-10-23T06-02"
+  "id": "2026-10-23T11-56"
  },
  "last_run": {
   "errors": [
-   "ugyeszseg.hu/category/hirek/kozponti-nyomozo-fougyeszseg nem volt elérhető (HTTP 503) két próbálkozásra is",
-   "mnb.hu/arfolyam-tablazat 404-et adott, helyette az mnb.hu/arfolyamok oldal működött",
-   "nem sikerült friss (2026-10-23-i) ÁKK államadósság-állomány adatot vagy 2026-09-i KSH bér-/munkanélküliségi adatot találni; a korábbi (2026-07-31-i, illetve 2026-08-i) hivatalos adat maradt érvényben",
-   "a Matolcsy Roland/Mengyi Roland uniós pályázati csalás találat (168 Óra hivatkozás) ellenőrzés után 2016-2019-es, jogerősen lezárt régi ügynek bizonyult, nem 2026-os fejlemény, ezért nem került fel"
+   "ugyeszseg.hu/category/hirek/kozponti-nyomozo-fougyeszseg/ 503 Service Unavailable hibát adott, ezért ebben a futásban nem volt ellenőrizhető",
+   "KSH szeptemberi munkanélküliségi gyorstájékoztató e futás idején még nem jelent meg, a makróadat augusztusi marad"
   ],
   "eu_lost_items_new": 0,
-  "finished_at": "2026-10-23T06:02:00+02:00",
+  "finished_at": "2026-10-23T12:30:00+02:00",
   "items_duplicate": 0,
   "items_found_total": 0,
   "items_needs_review": 0,
   "items_new": 0,
   "reported_cases_new": 0,
-  "reported_cases_updated": 1,
+  "reported_cases_updated": 0,
   "sources_checked": [
    "kormany.hu/atlathato/feljelentes",
-   "24.hu",
-   "444.hu",
-   "168.hu",
-   "atlatszo.hu",
-   "demokrata.hu",
-   "direkt36.hu",
-   "economx.hu",
-   "es.hu",
-   "forbes.hu",
-   "g7.hu",
-   "hirtv.hu",
-   "hvg.hu",
-   "index.hu",
-   "infostart.hu",
-   "jelen.media",
-   "klubradio.hu",
-   "magyarhang.org",
-   "magyarhirlap.hu",
-   "magyarnemzet.hu",
-   "makronom.hu",
-   "mandiner.hu",
-   "media1.hu",
-   "mfor.hu",
-   "merce.hu",
-   "mti.hu",
-   "nepszava.hu",
-   "origo.hu",
-   "penzcentrum.hu",
-   "portfolio.hu",
-   "privatbankar.hu",
-   "szabadeuropa.hu",
-   "telex.hu",
-   "trendfm.hu",
-   "ujegyenloseg.hu",
-   "valaszonline.hu",
-   "vg.hu",
-   "partizan.hu",
-   "okoshir.hu",
-   "szmo.hu",
-   "k-monitor.hu",
-   "hirkereso.hu",
    "mnvvh.hu/hirek",
-   "ugyeszseg.hu/category/hirek/kozponti-nyomozo-fougyeszseg",
-   "mnb.hu/arfolyamok"
+   "hirkereso.hu",
+   "k-monitor.hu (WebSearch)",
+   "ugyeszseg.hu (503, nem elérhető)",
+   "Telex",
+   "444.hu",
+   "Index",
+   "HVG",
+   "Portfolio.hu",
+   "Economx",
+   "Világgazdaság",
+   "Infostart.hu",
+   "Pénzcentrum",
+   "Forbes.hu",
+   "Adozona.hu",
+   "Privátbankár.hu",
+   "Direkt36 (WebSearch)",
+   "Átlátszó (WebSearch)",
+   "MNB (mnb.hu/arfolyamok)",
+   "KSH-adatok (sajtó útján)"
   ],
-  "started_at": "2026-10-23T05:56:00+02:00",
-  "id": "2026-10-23T06-02"
+  "started_at": "2026-10-23T11:56:00+02:00",
+  "id": "2026-10-23T11-56"
  },
  "run_history": [
+  {
+   "finished_at": "2026-10-23T12:30:00+02:00",
+   "started_at": "2026-10-23T11:56:00+02:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
   {
    "finished_at": "2026-10-23T06:02:00+02:00",
    "started_at": "2026-10-23T05:56:00+02:00",
@@ -4342,11 +4324,11 @@
   }
  ],
  "run_summary": {
-  "run_id": "2026-10-23T04:05:08+00:00",
+  "run_id": "2026-10-23T10:02:39+00:00",
   "new": 0,
   "modified": 0,
-  "confirmed_only": 1,
-  "touched": 1,
+  "confirmed_only": 0,
+  "touched": 0,
   "pending_review": 2,
   "by_section": {
    "items": {
@@ -4357,14 +4339,12 @@
    "reported_cases": {
     "new": 0,
     "modified": 0,
-    "confirmed_only": 1
+    "confirmed_only": 0
    }
   },
   "new_ids": [],
   "modified_ids": [],
-  "confirmed_ids": [
-   "r:reported-mnb-matolcsy-alapitvanyok-2026-09"
-  ]
+  "confirmed_ids": []
  },
  "run_summary_history": [
   {
@@ -5885,6 +5865,21 @@
      "new": 0,
      "modified": 0,
      "confirmed_only": 1
+    }
+   }
+  },
+  {
+   "run_id": "2026-10-23T10:02:39+00:00",
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
     }
    }
   }
