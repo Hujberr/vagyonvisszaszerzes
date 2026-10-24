@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-24T10:02:39+00:00",
+ "generated_at": "2026-10-24T15:00:05+00:00",
  "summary": {
   "megtakaritas_verified_huf": 3312290700000,
   "visszaszerzes_verified_huf": 1575719300000,
@@ -3510,49 +3510,54 @@
  },
  "last_run": {
   "errors": [
-   "ugyeszseg.hu/category/hirek/kozponti-nyomozo-fougyeszseg ismét 503-as hibát adott, nem volt elérhető",
-   "hirkereso.hu/politika 404-et adott (a Gazdaság rovat elérhető volt helyette)",
-   "A 93 milliárd forintos Norvég Alap-hivatkozás (Privátbankár) és a Kármán András-i 24.hu cikk pontos tartalma nem volt megerősíthető közvetlen lekéréssel; a meglévő eu-forras-norveg-alap-2026-10 tétel (92 Mrd Ft, megállapodás lezárva, received_huf=0) változatlanul maradt, mivel nem volt megerősíthető tényleges előrelépés (aláírás/kifizetés)."
+   "A kormany.hu/atlathato/feljelentes oldal aktuális tartalma (61 ügy, 4005 Mrd Ft, 2026-10-21-i állapot) ebben a futásban is változatlan volt a legutóbbi (2026-10-24 11:56-os) futáshoz képest — nem volt szükség frissítésre.",
+   "Az ugyeszseg.hu/category/hirek/kozponti-nyomozo-fougyeszseg/ oldal ebben a futásban HTTP 503 hibával nem volt elérhető.",
+   "A hirkereso.hu/politika oldal ebben a futásban HTTP 404 hibával nem volt elérhető (lehet, hogy megváltozott az URL-struktúra).",
+   "Mnvvh.hu/hirek ellenőrizve: a legfrissebb (2026-10-23-i, Matolcsy-letartóztatás) és a korábbi tételek mind már szerepelnek a reported_cases kollekcióban; egy új elem (2026-10-09, két ember őrizetbe vétele NVVH nevében elkövetett zsarolás miatt) bűncselekmény magánszemélyek ellen, nem közpénz-visszaszerzési ügy, ezért nem került be.",
+   "Legalább 12 tematikus WebSearch-keresés (feljelentés/visszaszerzés/megtakarítás/EU-forrás/túlárazás/pazarlás kulcsszavakkal) nem hozott a 2026-10-24 11:56-os futás óta megjelent, még nem rögzített új tényt vagy összeget; minden releváns találat (Matolcsy-letartóztatás 10-23, M6/MKIF-túlárazás, Baross Gábor Tőkeprogram stb.) már szerepel az adattárban.",
+   "Makró-pillanatkép nem készült ebben a futásban: a legutóbbi (2026-10-24 11:56) pillanatkép minden mutatóját ellenőriztük, egyikben sem volt újabb publikáció azóta (kb. 5 órán belül) — a legutóbbi pillanatkép marad érvényben."
   ],
   "eu_lost_items_new": 0,
-  "finished_at": "2026-10-24T12:35:00+02:00",
+  "finished_at": "2026-10-24T17:05:00+02:00",
   "items_duplicate": 0,
   "items_found_total": 0,
   "items_needs_review": 0,
   "items_new": 0,
   "reported_cases_new": 0,
   "reported_cases_updated": 0,
-  "run_summary_hu": "Ebben a futásban (2026-10-24 11:56-12:35) nem került fel új items vagy reported_cases tétel, és érdemi frissítés sem volt szükséges. A kormany.hu/atlathato/feljelentes hivatalos oldal tartalma változatlan (61 ügy, 4005 Mrd Ft, 74,0 Mrd Ft visszafizetve/megtakarítva, 2026-10-21-i állapot) az előző (2026-10-24 09:30-as) futáshoz képest, egyenként átnézve nem talált új, még nem rögzített ügyet. A Matolcsy-ügyben (reported-mnb-matolcsy-alapitvanyok-2026-09) a 2026-10-23-i letartóztatási döntés már a korábbi futásban rögzítve volt, új érdemi tény nem merült fel (az MNVVH híre szerint a bíróság indoklásában külföldi vagyonokat is említett, ez apró részletpontosítás, nem változtatja a rögzített tényeket). Egy új, sajtóban megjelent, de hivatalos vizsgálattal/feljelentéssel még nem alátámasztott téma (MNB 2015-ös, 4,5 Mrd Ft-os Tiziano-festményvásárlásának eredetiségét megkérdőjelező cikkek, 2026-10-24) figyelmen kívül maradt, mert a cikkek szerint nincs bejelentett hivatalos vizsgálat vagy feljelentés hozzá; ha a következő futásokban feljelentés/vizsgálat indul az ügyben, az reported_cases tételként rögzíthető.",
   "sources_checked": [
    "kormany.hu/atlathato/feljelentes",
    "mnvvh.hu/hirek",
-   "hirkereso.hu/gazdasag",
+   "k-monitor.hu (WebSearch)",
+   "ugyeszseg.hu/kozponti-nyomozo-fougyeszseg (503, nem elérhető)",
    "hirkereso.hu/politika (404, nem elérhető)",
-   "ugyeszseg.hu (503, nem elérhető)",
-   "k-monitor.hu (keresés, közvetlen találat nem volt)",
-   "mnb.hu/arfolyamok",
+   "telex.hu",
    "444.hu",
-   "Telex",
-   "HVG",
-   "Index",
-   "Portfolio.hu",
-   "Economx",
-   "Infostart.hu",
-   "Adozona.hu",
-   "Privátbankár.hu",
-   "mfor.hu",
+   "index.hu",
+   "portfolio.hu",
+   "economx.hu",
+   "vg.hu",
+   "hvg.hu",
    "24.hu",
-   "atv.hu",
-   "contextus.hu",
-   "zsaruhirek.hu"
+   "168.hu",
+   "origo.hu",
+   "infostart.hu",
+   "mfor.hu",
+   "penzcentrum.hu",
+   "privatbankar.hu",
+   "magyarnemzet.hu",
+   "magyarhirlap.hu",
+   "nepszava.hu",
+   "forbes.hu",
+   "adozona.hu (MTI)"
   ],
-  "started_at": "2026-10-24T11:56:00+02:00",
-  "id": "2026-10-24T11-56"
+  "started_at": "2026-10-24T16:30:00+02:00",
+  "id": "2026-10-24T16-58"
  },
  "run_history": [
   {
-   "finished_at": "2026-10-24T12:35:00+02:00",
-   "started_at": "2026-10-24T11:56:00+02:00",
+   "finished_at": "2026-10-24T17:05:00+02:00",
+   "started_at": "2026-10-24T16:30:00+02:00",
    "items_new": 0,
    "reported_cases_new": 0,
    "reported_cases_updated": 0,
@@ -4337,7 +4342,7 @@
   }
  ],
  "run_summary": {
-  "run_id": "2026-10-24T10:02:39+00:00",
+  "run_id": "2026-10-24T15:00:05+00:00",
   "new": 0,
   "modified": 0,
   "confirmed_only": 0,
@@ -4360,22 +4365,6 @@
   "confirmed_ids": []
  },
  "run_summary_history": [
-  {
-   "run_id": "2026-10-01T12:40:00+02:00",
-   "legacy": true,
-   "by_section": {
-    "items": {
-     "new": 0,
-     "modified": 0,
-     "confirmed_only": 0
-    },
-    "reported_cases": {
-     "new": 2,
-     "modified": 1,
-     "confirmed_only": 0
-    }
-   }
-  },
   {
    "run_id": "2026-10-01T06:10:00+02:00",
    "legacy": true,
@@ -5880,6 +5869,21 @@
   },
   {
    "run_id": "2026-10-24T10:02:39+00:00",
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    }
+   }
+  },
+  {
+   "run_id": "2026-10-24T15:00:05+00:00",
    "by_section": {
     "items": {
      "new": 0,
