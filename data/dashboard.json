@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-25T05:01:02+00:00",
+ "generated_at": "2026-10-25T11:02:39+00:00",
  "summary": {
   "megtakaritas_verified_huf": 3312290700000,
   "visszaszerzes_verified_huf": 1575719300000,
@@ -3509,76 +3509,43 @@
   "id": "2026-10-25T05-58"
  },
  "last_run": {
-  "started_at": "2026-10-25T05:55:00+02:00",
-  "finished_at": "2026-10-25T06:30:00+02:00",
-  "items_found_total": 0,
-  "items_new": 0,
-  "items_duplicate": 0,
-  "items_needs_review": 0,
-  "reported_cases_new": 0,
-  "reported_cases_updated": 0,
-  "eu_lost_items_new": 0,
-  "sources_checked": [
-   "kormany.hu/atlathato/feljelentes",
-   "24.hu",
-   "444.hu",
-   "168.hu",
-   "atlatszo.hu",
-   "demokrata.hu",
-   "direkt36.hu",
-   "economx.hu",
-   "es.hu",
-   "forbes.hu",
-   "g7.hu",
-   "hirtv.hu",
-   "hvg.hu",
-   "index.hu",
-   "infostart.hu",
-   "jelen.media",
-   "klubradio.hu",
-   "magyarhang.org",
-   "magyarhirlap.hu",
-   "magyarnemzet.hu",
-   "makronom.hu",
-   "mandiner.hu",
-   "media1.hu",
-   "mfor.hu",
-   "merce.hu",
-   "mti.hu",
-   "nepszava.hu",
-   "origo.hu",
-   "penzcentrum.hu",
-   "portfolio.hu",
-   "privatbankar.hu",
-   "szabadeuropa.hu",
-   "telex.hu",
-   "trendfm.hu",
-   "ujegyenloseg.hu",
-   "valaszonline.hu",
-   "vg.hu",
-   "partizan.hu",
-   "okoshir.hu",
-   "szmo.hu",
-   "k-monitor.hu",
-   "hirkereso.hu",
-   "mnvvh.hu"
-  ],
   "errors": [
-   "ugyeszseg.hu/category/hirek/kozponti-nyomozo-fougyeszseg/ átmenetileg nem volt elérhető (HTTP 503) ebben a futásban",
-   "Nincs megerősített, ebben a futásban publikált frissebb (10-23/24/25-i) hivatalos MNB EUR/HUF árfolyam; a 2026-10-22-i adat maradt érvényben",
-   "Nincs megerősített friss ÁKK-adat az államadósság pontos összegéről ebben a futásban; a korábbi (2026-07-31-i referenciájú) adat maradt érvényben"
+   "A WebSearch eszköz nem tudta közvetlenül lekérni a k-monitor.hu, hirkereso.hu, mnvvh.hu/hirek és ügyészség.hu oldalakat (a keresőindex nem adott vissza közvetlen, friss találatot ezekről a domainekről ebben a futásban); ez keresőindex-korlát, nem hálózati blokk - a korábbi futásokban rögzített adatok érvényben maradnak.",
+   "A KSH szeptemberi munkanélküliségi gyorstájékoztatója e futás idején még nem jelent meg; a legutóbbi (augusztusi) adat maradt érvényben.",
+   "Az ÁKK friss (szeptemberi/októberi) államadósság-összesítőjét nem sikerült megbízhatóan megtalálni ebben a futásban; a 2026-07-31-i állapot maradt érvényben.",
+   "A mai (2026-10-23) MNB hivatalos EUR/HUF árfolyamot nem sikerült megbízhatóan megerősíteni; a 2026-10-22-i érték maradt érvényben."
   ],
-  "id": "2026-10-25T05-58"
+  "eu_lost_items_new": 0,
+  "finished_at": "2026-10-23T17:40:00+02:00",
+  "items_duplicate": 0,
+  "items_found_total": 0,
+  "items_needs_review": 0,
+  "items_new": 0,
+  "reported_cases_new": 0,
+  "reported_cases_updated": 1,
+  "sources_checked": [
+   "kormany.hu/atlathato/feljelentes (official, via web-fetch, data stamp unchanged: 2026-10-21)",
+   "Telex",
+   "444.hu",
+   "Index.hu",
+   "Portfolio.hu",
+   "VG.hu",
+   "Economx.hu",
+   "Infostart.hu",
+   "Privátbankár.hu",
+   "Adózóna (KSH/PM adatközlések)",
+   "K-Monitor (site: search, no new hit)",
+   "hirkereso.hu (search attempt, no direct listing retrievable)",
+   "mnvvh.hu/hirek (search attempt, no October item found)",
+   "ügyészség.hu / Központi Nyomozó Főügyészség (search attempt, no October communiqué found directly)",
+   "KSH (munkanélküliség, infláció - via sajtó)",
+   "MNB (alapkamat, árfolyam - via sajtó)",
+   "ÁKK (államadósság - via sajtó, no fresh September/October figure found)"
+  ],
+  "started_at": "2026-10-23T16:56:00+02:00",
+  "id": "2026-10-23T16-56"
  },
  "run_history": [
-  {
-   "finished_at": "2026-10-25T06:30:00+02:00",
-   "started_at": "2026-10-25T05:55:00+02:00",
-   "items_new": 0,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 0,
-   "eu_lost_items_new": 0
-  },
   {
    "finished_at": "2026-10-23T17:40:00+02:00",
    "started_at": "2026-10-23T16:56:00+02:00",
@@ -4355,10 +4322,15 @@
    "finished_at": "2026-09-22T10:55:00+02:00",
    "started_at": "2026-09-22T10:30:00+02:00",
    "items_new": 2
+  },
+  {
+   "finished_at": "2026-09-22T10:40:00+02:00",
+   "started_at": "2026-09-22T10:21:00+02:00",
+   "items_new": 2
   }
  ],
  "run_summary": {
-  "run_id": "2026-10-25T05:01:02+00:00",
+  "run_id": "2026-10-25T11:02:39+00:00",
   "new": 0,
   "modified": 0,
   "confirmed_only": 0,
@@ -4381,22 +4353,6 @@
   "confirmed_ids": []
  },
  "run_summary_history": [
-  {
-   "run_id": "2026-09-30T18:05:00+02:00",
-   "legacy": true,
-   "by_section": {
-    "items": {
-     "new": 0,
-     "modified": 0,
-     "confirmed_only": 0
-    },
-    "reported_cases": {
-     "new": 0,
-     "modified": 3,
-     "confirmed_only": 0
-    }
-   }
-  },
   {
    "run_id": "2026-09-30T12:20:00+02:00",
    "legacy": true,
@@ -5899,6 +5855,21 @@
   },
   {
    "run_id": "2026-10-25T05:01:02+00:00",
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    }
+   }
+  },
+  {
+   "run_id": "2026-10-25T11:02:39+00:00",
    "by_section": {
     "items": {
      "new": 0,
