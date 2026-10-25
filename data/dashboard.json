@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-24T15:00:05+00:00",
+ "generated_at": "2026-10-25T05:01:02+00:00",
  "summary": {
   "megtakaritas_verified_huf": 3312290700000,
   "visszaszerzes_verified_huf": 1575719300000,
@@ -3285,7 +3285,7 @@
    "url": "https://magyarnemzet.hu/gazdasag/2026/09/allamadossag-novekedes"
   },
   "allamadossag_huf": 65716000000000,
-  "collected_at": "2026-10-24T11:56:00+02:00",
+  "collected_at": "2026-10-25T05:58:00+02:00",
   "elozo": {
    "allamadossag": {
     "period": null,
@@ -3395,7 +3395,7 @@
     "label_en": "Official EUR/HUF rate (MNB)",
     "label_hu": "Euró hivatalos árfolyama (MNB)",
     "note_en": "No newer official rate confirmed this run; the dollar rate on 10-22 was 326.23 HUF/USD.",
-    "note_hu": "Ebben a futásban sem volt elérhető újabb (10-23-i vagy 10-24-i) hivatalos MNB-árfolyam; a dollár árfolyama 10-22-én 326,23 Ft/USD volt.",
+    "note_hu": "Ebben a futásban sem volt elérhető újabb (10-23-i, 10-24-i vagy 10-25-i) hivatalos MNB-árfolyam; a dollár árfolyama 10-22-én 326,23 Ft/USD volt.",
     "period": "2026-10-22",
     "prev_period": "2026-10-21",
     "prev_value": 365.28,
@@ -3506,58 +3506,74 @@
    "publish_date": "2026-09-22",
    "url": "https://www.portfolio.hu/gazdasag/20260922/itt-az-mnb-uj-elorejelzese-hiaba-a-nemzetkozi-kockazatok-mersekelt-marad-az-idei-inflacio-864484"
   },
-  "id": "2026-10-24T11-56"
+  "id": "2026-10-25T05-58"
  },
  "last_run": {
-  "errors": [
-   "A kormany.hu/atlathato/feljelentes oldal aktuális tartalma (61 ügy, 4005 Mrd Ft, 2026-10-21-i állapot) ebben a futásban is változatlan volt a legutóbbi (2026-10-24 11:56-os) futáshoz képest — nem volt szükség frissítésre.",
-   "Az ugyeszseg.hu/category/hirek/kozponti-nyomozo-fougyeszseg/ oldal ebben a futásban HTTP 503 hibával nem volt elérhető.",
-   "A hirkereso.hu/politika oldal ebben a futásban HTTP 404 hibával nem volt elérhető (lehet, hogy megváltozott az URL-struktúra).",
-   "Mnvvh.hu/hirek ellenőrizve: a legfrissebb (2026-10-23-i, Matolcsy-letartóztatás) és a korábbi tételek mind már szerepelnek a reported_cases kollekcióban; egy új elem (2026-10-09, két ember őrizetbe vétele NVVH nevében elkövetett zsarolás miatt) bűncselekmény magánszemélyek ellen, nem közpénz-visszaszerzési ügy, ezért nem került be.",
-   "Legalább 12 tematikus WebSearch-keresés (feljelentés/visszaszerzés/megtakarítás/EU-forrás/túlárazás/pazarlás kulcsszavakkal) nem hozott a 2026-10-24 11:56-os futás óta megjelent, még nem rögzített új tényt vagy összeget; minden releváns találat (Matolcsy-letartóztatás 10-23, M6/MKIF-túlárazás, Baross Gábor Tőkeprogram stb.) már szerepel az adattárban.",
-   "Makró-pillanatkép nem készült ebben a futásban: a legutóbbi (2026-10-24 11:56) pillanatkép minden mutatóját ellenőriztük, egyikben sem volt újabb publikáció azóta (kb. 5 órán belül) — a legutóbbi pillanatkép marad érvényben."
-  ],
-  "eu_lost_items_new": 0,
-  "finished_at": "2026-10-24T17:05:00+02:00",
-  "items_duplicate": 0,
+  "started_at": "2026-10-25T05:55:00+02:00",
+  "finished_at": "2026-10-25T06:30:00+02:00",
   "items_found_total": 0,
-  "items_needs_review": 0,
   "items_new": 0,
+  "items_duplicate": 0,
+  "items_needs_review": 0,
   "reported_cases_new": 0,
   "reported_cases_updated": 0,
+  "eu_lost_items_new": 0,
   "sources_checked": [
    "kormany.hu/atlathato/feljelentes",
-   "mnvvh.hu/hirek",
-   "k-monitor.hu (WebSearch)",
-   "ugyeszseg.hu/kozponti-nyomozo-fougyeszseg (503, nem elérhető)",
-   "hirkereso.hu/politika (404, nem elérhető)",
-   "telex.hu",
-   "444.hu",
-   "index.hu",
-   "portfolio.hu",
-   "economx.hu",
-   "vg.hu",
-   "hvg.hu",
    "24.hu",
+   "444.hu",
    "168.hu",
-   "origo.hu",
-   "infostart.hu",
-   "mfor.hu",
-   "penzcentrum.hu",
-   "privatbankar.hu",
-   "magyarnemzet.hu",
-   "magyarhirlap.hu",
-   "nepszava.hu",
+   "atlatszo.hu",
+   "demokrata.hu",
+   "direkt36.hu",
+   "economx.hu",
+   "es.hu",
    "forbes.hu",
-   "adozona.hu (MTI)"
+   "g7.hu",
+   "hirtv.hu",
+   "hvg.hu",
+   "index.hu",
+   "infostart.hu",
+   "jelen.media",
+   "klubradio.hu",
+   "magyarhang.org",
+   "magyarhirlap.hu",
+   "magyarnemzet.hu",
+   "makronom.hu",
+   "mandiner.hu",
+   "media1.hu",
+   "mfor.hu",
+   "merce.hu",
+   "mti.hu",
+   "nepszava.hu",
+   "origo.hu",
+   "penzcentrum.hu",
+   "portfolio.hu",
+   "privatbankar.hu",
+   "szabadeuropa.hu",
+   "telex.hu",
+   "trendfm.hu",
+   "ujegyenloseg.hu",
+   "valaszonline.hu",
+   "vg.hu",
+   "partizan.hu",
+   "okoshir.hu",
+   "szmo.hu",
+   "k-monitor.hu",
+   "hirkereso.hu",
+   "mnvvh.hu"
   ],
-  "started_at": "2026-10-24T16:30:00+02:00",
-  "id": "2026-10-24T16-58"
+  "errors": [
+   "ugyeszseg.hu/category/hirek/kozponti-nyomozo-fougyeszseg/ átmenetileg nem volt elérhető (HTTP 503) ebben a futásban",
+   "Nincs megerősített, ebben a futásban publikált frissebb (10-23/24/25-i) hivatalos MNB EUR/HUF árfolyam; a 2026-10-22-i adat maradt érvényben",
+   "Nincs megerősített friss ÁKK-adat az államadósság pontos összegéről ebben a futásban; a korábbi (2026-07-31-i referenciájú) adat maradt érvényben"
+  ],
+  "id": "2026-10-25T05-58"
  },
  "run_history": [
   {
-   "finished_at": "2026-10-24T17:05:00+02:00",
-   "started_at": "2026-10-24T16:30:00+02:00",
+   "finished_at": "2026-10-25T06:30:00+02:00",
+   "started_at": "2026-10-25T05:55:00+02:00",
    "items_new": 0,
    "reported_cases_new": 0,
    "reported_cases_updated": 0,
@@ -4342,7 +4358,7 @@
   }
  ],
  "run_summary": {
-  "run_id": "2026-10-24T15:00:05+00:00",
+  "run_id": "2026-10-25T05:01:02+00:00",
   "new": 0,
   "modified": 0,
   "confirmed_only": 0,
@@ -4365,22 +4381,6 @@
   "confirmed_ids": []
  },
  "run_summary_history": [
-  {
-   "run_id": "2026-10-01T06:10:00+02:00",
-   "legacy": true,
-   "by_section": {
-    "items": {
-     "new": 0,
-     "modified": 0,
-     "confirmed_only": 0
-    },
-    "reported_cases": {
-     "new": 0,
-     "modified": 0,
-     "confirmed_only": 0
-    }
-   }
-  },
   {
    "run_id": "2026-09-30T18:05:00+02:00",
    "legacy": true,
@@ -5884,6 +5884,21 @@
   },
   {
    "run_id": "2026-10-24T15:00:05+00:00",
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    }
+   }
+  },
+  {
+   "run_id": "2026-10-25T05:01:02+00:00",
    "by_section": {
     "items": {
      "new": 0,
