@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-26T11:04:33+00:00",
+ "generated_at": "2026-10-26T16:01:43+00:00",
  "summary": {
   "megtakaritas_verified_huf": 3312290700000,
   "visszaszerzes_verified_huf": 1575719300000,
@@ -4330,7 +4330,7 @@
   }
  ],
  "run_summary": {
-  "run_id": "2026-10-26T11:04:33+00:00",
+  "run_id": "2026-10-26T16:01:43+00:00",
   "new": 0,
   "modified": 0,
   "confirmed_only": 0,
@@ -4353,22 +4353,6 @@
   "confirmed_ids": []
  },
  "run_summary_history": [
-  {
-   "run_id": "2026-09-29T17:55:00+02:00",
-   "legacy": true,
-   "by_section": {
-    "items": {
-     "new": 0,
-     "modified": 0,
-     "confirmed_only": 0
-    },
-    "reported_cases": {
-     "new": 2,
-     "modified": 1,
-     "confirmed_only": 0
-    }
-   }
-  },
   {
    "run_id": "2026-09-29T12:15:00+02:00",
    "legacy": true,
@@ -5868,6 +5852,21 @@
   },
   {
    "run_id": "2026-10-26T11:04:33+00:00",
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    }
+   }
+  },
+  {
+   "run_id": "2026-10-26T16:01:43+00:00",
    "by_section": {
     "items": {
      "new": 0,
