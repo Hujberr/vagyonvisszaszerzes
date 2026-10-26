@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-26T05:04:37+00:00",
+ "generated_at": "2026-10-26T11:04:33+00:00",
  "summary": {
   "megtakaritas_verified_huf": 3312290700000,
   "visszaszerzes_verified_huf": 1575719300000,
@@ -3285,7 +3285,7 @@
    "url": "https://magyarnemzet.hu/gazdasag/2026/09/allamadossag-novekedes"
   },
   "allamadossag_huf": 65716000000000,
-  "collected_at": "2026-10-25T05:58:00+02:00",
+  "collected_at": "2026-10-26T11:57:00+02:00",
   "elozo": {
    "allamadossag": {
     "period": null,
@@ -3377,8 +3377,8 @@
     "key": "jegybanki_alapkamat",
     "label_en": "Central bank base rate",
     "label_hu": "Jegybanki alapkamat",
-    "note_en": "The Monetary Council left the base rate unchanged at its 2026-10-20 meeting; no newer decision this run.",
-    "note_hu": "A Monetáris Tanács 2026.10.20-i ülésén változatlanul hagyta az alapkamatot; e futásban nem jelent meg újabb kamatdöntés.",
+    "note_en": "The Monetary Council left the base rate unchanged at its 2026-10-20 meeting; next decision expected in November.",
+    "note_hu": "A Monetáris Tanács 2026.10.20-i ülésén változatlanul hagyta az alapkamatot; a következő kamatdöntő ülés várhatóan novemberben lesz.",
     "period": "2026-10-20",
     "prev_period": "2026-09-22",
     "prev_value": 5.5,
@@ -3394,18 +3394,18 @@
     "key": "eur_huf",
     "label_en": "Official EUR/HUF rate (MNB)",
     "label_hu": "Euró hivatalos árfolyama (MNB)",
-    "note_en": "No newer official rate confirmed this run; the dollar rate on 10-22 was 326.23 HUF/USD.",
-    "note_hu": "Ebben a futásban sem volt elérhető újabb (10-23-i, 10-24-i vagy 10-25-i) hivatalos MNB-árfolyam; a dollár árfolyama 10-22-én 326,23 Ft/USD volt.",
-    "period": "2026-10-22",
-    "prev_period": "2026-10-21",
-    "prev_value": 365.28,
+    "note_en": "The USD rate on 2026-10-26 was 327.49 HUF/USD.",
+    "note_hu": "A dollár árfolyama 2026-10-26-án 327,49 Ft/USD volt.",
+    "period": "2026-10-26",
+    "prev_period": "2026-10-22",
+    "prev_value": 366.52,
     "source": {
      "name": "MNB hivatalos árfolyamok",
-     "publish_date": "2026-10-22",
+     "publish_date": "2026-10-26",
      "url": "https://www.mnb.hu/arfolyamok"
     },
     "unit": "Ft/EUR",
-    "value": 366.52
+    "value": 366.95
    },
    {
     "key": "brutto_atlagkereset",
@@ -3460,8 +3460,8 @@
     "key": "kozponti_alrendszer_hiany",
     "label_en": "Central government deficit (year to date)",
     "label_hu": "Központi alrendszer hiánya (év eleje óta)",
-    "note_en": "Most of the 9-month gap stems from August's RRF prefinancing; excluding it, the deficit was lower year-on-year.",
-    "note_hu": "A 9 havi hiány nagy részét (2186,9 Mrd Ft) az augusztusi RRF-előfinanszírozás adja; e nélkül a 9 havi hiány 3075,0 Mrd Ft, ami alacsonyabb az egy évvel korábbinál.",
+    "note_en": "Most of the 9-month gap stems from August's RRF prefinancing; excluding it, the deficit was lower year-on-year. The October flash report was not yet published at the time of this run.",
+    "note_hu": "A 9 havi hiány nagy részét (2186,9 Mrd Ft) az augusztusi RRF-előfinanszírozás adja; e nélkül a 9 havi hiány 3075,0 Mrd Ft, ami alacsonyabb az egy évvel korábbinál. Az októberi gyorsjelentés e futás idején még nem jelent meg.",
     "period": "2026 január–szeptember",
     "prev_period": "2026 január–augusztus",
     "prev_value": 5169.1,
@@ -3506,7 +3506,7 @@
    "publish_date": "2026-09-22",
    "url": "https://www.portfolio.hu/gazdasag/20260922/itt-az-mnb-uj-elorejelzese-hiaba-a-nemzetkozi-kockazatok-mersekelt-marad-az-idei-inflacio-864484"
   },
-  "id": "2026-10-25T05-58"
+  "id": "2026-10-26T11-57"
  },
  "last_run": {
   "errors": [
@@ -4330,7 +4330,7 @@
   }
  ],
  "run_summary": {
-  "run_id": "2026-10-26T05:04:37+00:00",
+  "run_id": "2026-10-26T11:04:33+00:00",
   "new": 0,
   "modified": 0,
   "confirmed_only": 0,
@@ -4353,22 +4353,6 @@
   "confirmed_ids": []
  },
  "run_summary_history": [
-  {
-   "run_id": "2026-09-30T06:45:00+02:00",
-   "legacy": true,
-   "by_section": {
-    "items": {
-     "new": 0,
-     "modified": 0,
-     "confirmed_only": 0
-    },
-    "reported_cases": {
-     "new": 0,
-     "modified": 2,
-     "confirmed_only": 0
-    }
-   }
-  },
   {
    "run_id": "2026-09-29T17:55:00+02:00",
    "legacy": true,
@@ -5869,6 +5853,21 @@
   },
   {
    "run_id": "2026-10-26T05:04:37+00:00",
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    }
+   }
+  },
+  {
+   "run_id": "2026-10-26T11:04:33+00:00",
    "by_section": {
     "items": {
      "new": 0,
