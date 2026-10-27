@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-26T16:01:43+00:00",
+ "generated_at": "2026-10-27T05:01:43+00:00",
  "summary": {
   "megtakaritas_verified_huf": 3312290700000,
   "visszaszerzes_verified_huf": 1575719300000,
@@ -3285,7 +3285,7 @@
    "url": "https://magyarnemzet.hu/gazdasag/2026/09/allamadossag-novekedes"
   },
   "allamadossag_huf": 65716000000000,
-  "collected_at": "2026-10-26T11:57:00+02:00",
+  "collected_at": "2026-10-27T06:00:00+02:00",
   "elozo": {
    "allamadossag": {
     "period": null,
@@ -3310,7 +3310,7 @@
     "label_en": "GDP growth (year-on-year)",
     "label_hu": "GDP-növekedés (éves)",
     "note_en": "No newer (Q3) release found this run; expected in November.",
-    "note_hu": "E futásban sem jelent meg újabb (Q3) adat; a KSH Q3-as gyorsbecslése várhatóan novemberben jelenik meg.",
+    "note_hu": "A KSH Q3-as gyorsbecslése e futás idején sem jelent meg még; várhatóan novemberben publikálják.",
     "period": "2026 Q2",
     "prev_period": "2026 Q1",
     "prev_value": 1.7,
@@ -3326,52 +3326,52 @@
     "key": "munkanelkulisegi_rata",
     "label_en": "Unemployment rate",
     "label_hu": "Munkanélküliségi ráta",
-    "note_en": "September flash report still not published at the time of this run.",
-    "note_hu": "A szeptemberi gyorstájékoztató e futás idején sem jelent meg még.",
-    "period": "2026-08",
-    "prev_period": "2026-07",
-    "prev_value": 4.5,
+    "note_en": "Number of unemployed fell to 224 thousand (from 229 thousand in August).",
+    "note_hu": "A munkanélküliek száma 224 ezer főre csökkent (augusztusban 229 ezer fő volt).",
+    "period": "2026-09",
+    "prev_period": "2026-08",
+    "prev_value": 4.7,
     "source": {
-     "name": "Telex / Economx (KSH gyorstájékoztató)",
-     "publish_date": "2026-09-25",
-     "url": "https://telex.hu/belfold/2026/09/25/munkanelkuliseg-foglalkoztatottsag-ksh-adatok-augusztus"
+     "name": "Adózóna (KSH gyorstájékoztató)",
+     "publish_date": "2026-10-27",
+     "url": "https://adozona.hu/altalanos/foglalkoztatottak_munkanelkulisegi_rata_DDS7L5"
     },
     "unit": "%",
-    "value": 4.7
+    "value": 4.6
    },
    {
     "key": "foglalkoztatottak",
     "label_en": "Employed persons (aged 15-74)",
     "label_hu": "Foglalkoztatottak száma (15–74 évesek)",
-    "note_en": "Primary labour market employment is 36 thousand lower than a year earlier.",
-    "note_hu": "Az elsődleges munkaerőpiacon dolgozók száma egy évvel korábbihoz képest 36 ezerrel kevesebb.",
-    "period": "2026-08",
-    "prev_period": "2026-07",
-    "prev_value": 4675,
+    "note_en": "Employment rose by 7 thousand month-on-month.",
+    "note_hu": "A foglalkoztatottak száma havi összevetésben 7 ezer fővel nőtt.",
+    "period": "2026-09",
+    "prev_period": "2026-08",
+    "prev_value": 4654,
     "source": {
-     "name": "Economx (KSH gyorstájékoztató)",
-     "publish_date": "2026-09-25",
-     "url": "https://www.economx.hu/magyar-gazdasag/2026/08/25/magyar-munkaeropiac-foglalkoztatottsag-munkanelkuliseg-augusztus-ksh/"
+     "name": "Adózóna (KSH gyorstájékoztató)",
+     "publish_date": "2026-10-27",
+     "url": "https://adozona.hu/altalanos/foglalkoztatottak_munkanelkulisegi_rata_DDS7L5"
     },
     "unit": "ezer fő",
-    "value": 4654
+    "value": 4661
    },
    {
     "key": "foglalkoztatasi_rata",
     "label_en": "Employment rate (aged 15-64)",
     "label_hu": "Foglalkoztatási ráta (15–64 évesek)",
-    "note_en": "Essentially unchanged from the previous period.",
-    "note_hu": "Az előző időszakhoz képest gyakorlatilag változatlan.",
-    "period": "2026 június–augusztus",
-    "prev_period": "2026 május–július",
-    "prev_value": 75.3,
+    "note_en": "Essentially unchanged year-on-year (79.2% for men, 72.0% for women).",
+    "note_hu": "Éves összevetésben érdemben nem változott (férfiaknál 79,2%, nőknél 72,0%).",
+    "period": "2026 július–szeptember",
+    "prev_period": "2026 június–augusztus",
+    "prev_value": 75.4,
     "source": {
-     "name": "Economx (KSH gyorstájékoztató)",
-     "publish_date": "2026-09-25",
-     "url": "https://www.economx.hu/magyar-gazdasag/2026/09/25/magyar-munkaeropiac-foglalkoztatottsag-munkanelkuliseg-augusztus-ksh/"
+     "name": "Adózóna (KSH gyorstájékoztató)",
+     "publish_date": "2026-10-27",
+     "url": "https://adozona.hu/altalanos/foglalkoztatottak_munkanelkulisegi_rata_DDS7L5"
     },
     "unit": "%",
-    "value": 75.4
+    "value": 75.6
    },
    {
     "key": "jegybanki_alapkamat",
@@ -3411,8 +3411,8 @@
     "key": "brutto_atlagkereset",
     "label_en": "Average gross wage",
     "label_hu": "Bruttó átlagkereset",
-    "note_en": "Up 8.4% year-on-year; gross median wage 611,400 HUF.",
-    "note_hu": "Éves összevetésben 8,4%-os növekedés; a bruttó mediánkereset 611 400 Ft.",
+    "note_en": "Up 8.4% year-on-year; gross median wage 611,400 HUF. September figure not yet published at the time of this run.",
+    "note_hu": "Éves összevetésben 8,4%-os növekedés; a bruttó mediánkereset 611 400 Ft. A szeptemberi adat e futás idején még nem jelent meg.",
     "period": "2026-08",
     "prev_period": "2026-07",
     "prev_value": 745500,
@@ -3460,8 +3460,8 @@
     "key": "kozponti_alrendszer_hiany",
     "label_en": "Central government deficit (year to date)",
     "label_hu": "Központi alrendszer hiánya (év eleje óta)",
-    "note_en": "Most of the 9-month gap stems from August's RRF prefinancing; excluding it, the deficit was lower year-on-year. The October flash report was not yet published at the time of this run.",
-    "note_hu": "A 9 havi hiány nagy részét (2186,9 Mrd Ft) az augusztusi RRF-előfinanszírozás adja; e nélkül a 9 havi hiány 3075,0 Mrd Ft, ami alacsonyabb az egy évvel korábbinál. Az októberi gyorsjelentés e futás idején még nem jelent meg.",
+    "note_en": "October flash report not yet published at the time of this run.",
+    "note_hu": "Az októberi gyorsjelentés e futás idején még nem jelent meg.",
     "period": "2026 január–szeptember",
     "prev_period": "2026 január–augusztus",
     "prev_value": 5169.1,
@@ -3506,7 +3506,7 @@
    "publish_date": "2026-09-22",
    "url": "https://www.portfolio.hu/gazdasag/20260922/itt-az-mnb-uj-elorejelzese-hiaba-a-nemzetkozi-kockazatok-mersekelt-marad-az-idei-inflacio-864484"
   },
-  "id": "2026-10-26T11-57"
+  "id": "2026-10-27T06-00"
  },
  "last_run": {
   "errors": [
@@ -4330,7 +4330,7 @@
   }
  ],
  "run_summary": {
-  "run_id": "2026-10-26T16:01:43+00:00",
+  "run_id": "2026-10-27T05:01:43+00:00",
   "new": 0,
   "modified": 0,
   "confirmed_only": 0,
@@ -4353,22 +4353,6 @@
   "confirmed_ids": []
  },
  "run_summary_history": [
-  {
-   "run_id": "2026-09-29T12:15:00+02:00",
-   "legacy": true,
-   "by_section": {
-    "items": {
-     "new": 0,
-     "modified": 0,
-     "confirmed_only": 0
-    },
-    "reported_cases": {
-     "new": 1,
-     "modified": 1,
-     "confirmed_only": 0
-    }
-   }
-  },
   {
    "run_id": "2026-09-29T09:35:00+02:00",
    "legacy": true,
@@ -5867,6 +5851,21 @@
   },
   {
    "run_id": "2026-10-26T16:01:43+00:00",
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    }
+   }
+  },
+  {
+   "run_id": "2026-10-27T05:01:43+00:00",
    "by_section": {
     "items": {
      "new": 0,
