@@ -1,13 +1,13 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-27T16:04:09+00:00",
+ "generated_at": "2026-10-28T05:05:43+00:00",
  "summary": {
   "megtakaritas_verified_huf": 3312290700000,
   "visszaszerzes_verified_huf": 1575719300000,
   "eu_forras_verified_huf": 6280000000000,
   "eu_forras_lost_huf": 730000000000,
   "items_count": 38,
-  "reported_cases_count": 56
+  "reported_cases_count": 57
  },
  "items": [
   {
@@ -2243,6 +2243,48 @@
    "updated_at": "2026-10-04T15:01:51+00:00"
   },
   {
+   "additional_sources": [
+    {
+     "name": "Világgazdaság",
+     "published_date": "2026-10-27",
+     "url": "https://www.vg.hu/kozelet/2026/10/nav-lelegeztetogep-koronavirus-jarvany-elfogatoparancs"
+    },
+    {
+     "name": "Magyar Nemzet",
+     "published_date": "2026-10-27",
+     "url": "https://magyarnemzet.hu/belfold/2026/10/lelegeztetogep-biznisz-bunszervezetre-csapott-le-a-nav"
+    },
+    {
+     "name": "444.hu",
+     "published_date": "2026-10-27",
+     "url": "https://444.hu/2026/10/27/elfogatoparancsot-adtak-ki-a-lelegeztetogep-biznisz-egyik-foszereploje-majer-balint-ellen"
+    },
+    {
+     "name": "10perc.hu",
+     "published_date": "2026-10-27",
+     "url": "https://10perc.hu/hir/belfold/2026/10/27/lelegeztetogep-szallitok-ellen-nyomoz-a-nav-15-milliardos-vagyont-foglaltak-le"
+    }
+   ],
+   "alleged_amount_huf": 660000000,
+   "alleged_amount_text": "660+ millió forint költségvetési kár (áfacsalás/pénzmosás gyanúja); emellett több mint 1,5 milliárd forint vagyont foglaltak le biztosítási intézkedésként. A beszerzés teljes, 2020-as értéke (800 lélegeztetőgép és 3 millió maszk, Külügyminisztérium és Állami Egészségügyi Ellátó Központ szerződései alapján) 15,6 milliárd forint volt.",
+   "confirmed_recovered_huf": 0,
+   "description": "A Nemzeti Adó- és Vámhivatal 2026. október 27-én Magyarországon és nemzetközi jogsegély keretében Ausztriában is összehangolt akciót tartott egy bűnszervezet ellen, amely a 2020-as koronavírus-járvány idején lélegeztetőgépeket és maszkokat értékesített állami szerveknek, és a kapcsolódó áfabevallásokat valós gazdasági tevékenység nélküli cégek fiktív számláival csökkentette. A hatóság eddig több mint 1,5 milliárd forint értékű vagyont foglalt le, egy férfit európai elfogatóparancs alapján Ausztriában fogtak el, további tizenegy embert gyanúsítottként hallgattak ki Magyarországon, közülük kettőt őrizetbe vettek. A szervezet egyik feltételezett vezetője ellen, akit a hírek szerint Indonéziában tartózkodhat, nemzetközi elfogatóparancsot adtak ki. A Nemzeti Nyomozó Iroda emellett külön, hűtlen kezelés gyanújával vizsgálja a beszerzés esetleges túlárazását és az eszközök alkalmazhatóságát.",
+   "ministry": "Nemzeti Adó- és Vámhivatal (büntetőeljárás) — kapcsolódó korábbi hivatalos feljelentés: Külügyminisztérium",
+   "recovered_item_id": null,
+   "report_date": "2026-10-27",
+   "report_source": {
+    "name": "HVG",
+    "published_date": "2026-10-27",
+    "url": "https://hvg.hu/gazdasag/20261027_nav-lelegeztetogep-beszerzesek-razzia-orizetbe-vetelek-ausztria"
+   },
+   "status": "under_investigation",
+   "subject": "Lélegeztetőgép- és maszkbeszerzés — bűnszervezet elleni NAV-fellépés (letartóztatások, nemzetközi elfogatóparancsok)",
+   "verification_notes": "ÚJ TÉTEL (2026-10-28 06:02-es futás). Legalább öt független sajtóforrás (HVG, Világgazdaság, Magyar Nemzet, 444.hu, 10perc.hu) egyezően számol be a 2026-10-27-i NAV-akcióról. KAPCSOLÓDIK a kormany.hu/atlathato/feljelentes hivatalos listáján és a reported-egyeb-miniszteriumi-18ugy-2026 gyűjtőtételben is szereplő 'Lélegeztetőgép-beszerzés (2020)' tételhez (Külügyminisztérium, 300 Mrd Ft, 2026.08.25-i feljelentés, nyomozás elrendelve) — AZONOS beszerzési ügyről (800 lélegeztetőgép, Külügyminisztérium és ÁEEK szerződései) van szó, de ez egy KONKRÉTABB, a NAV saját hatáskörében folyó, önálló büntetőeljárás egy meghatározott beszállítói körrel (bűnszervezet) szemben, önálló, kisebb nagyságrendű (660 M Ft adóhiány, 1,5 Mrd Ft lefoglalt vagyon) kárösszeggel — ezért NEM adandó hozzá a 300 Mrd Ft-os tételhez, hanem önálló tételként rögzítve, hogy a letartóztatások/nemzetközi elfogatóparancsok ne vesszenek el a gyűjtőtételben. Tényleges, az államhoz visszakerült vagyon nincs, a lefoglalás biztosítási intézkedés, nem végleges elkobzás.",
+   "id": "reported-lelegeztetogep-nav-bunszervezet-2026-10",
+   "updated_at": "2026-10-28T05:05:43+00:00",
+   "first_seen_at": "2026-10-28T05:05:43+00:00"
+  },
+  {
    "alleged_amount_huf": 21000000000,
    "alleged_amount_text": "legalább 21 milliárd forint költségvetési veszteség (Transparency International becslése); a programban összesen kb. 1,67 milliárd euró (kb. 519 milliárd forint) érkezett be a kötvényvásárlóktól",
    "confirmed_recovered_huf": 0,
@@ -3285,7 +3327,7 @@
    "url": "https://magyarnemzet.hu/gazdasag/2026/09/allamadossag-novekedes"
   },
   "allamadossag_huf": 65716000000000,
-  "collected_at": "2026-10-27T11:57:00+01:00",
+  "collected_at": "2026-10-28T06:02:00+01:00",
   "elozo": {
    "allamadossag": {
     "period": null,
@@ -3325,7 +3367,7 @@
    {
     "key": "munkanelkulisegi_rata",
     "label_en": "Unemployment rate",
-    "label_hu": "Munkanélküliségi ráta",
+    "label_hu": "Munkanélküliégi ráta",
     "note_en": "Number of unemployed fell to 224 thousand (from 229 thousand in August).",
     "note_hu": "A munkanélküliek száma 224 ezer főre csökkent (augusztusban 229 ezer fő volt).",
     "period": "2026-09",
@@ -3394,18 +3436,18 @@
     "key": "eur_huf",
     "label_en": "Official EUR/HUF rate (MNB)",
     "label_hu": "Euró hivatalos árfolyama (MNB)",
-    "note_en": "The USD rate on 2026-10-26 was 327.49 HUF/USD.",
-    "note_hu": "A dollár árfolyama 2026-10-26-án 327,49 Ft/USD volt.",
-    "period": "2026-10-26",
-    "prev_period": "2026-10-22",
-    "prev_value": 366.52,
+    "note_en": "The USD rate on 2026-10-27 was 329.51 HUF/USD.",
+    "note_hu": "A dollár árfolyama 2026-10-27-én 329,51 Ft/USD volt.",
+    "period": "2026-10-27",
+    "prev_period": "2026-10-26",
+    "prev_value": 366.95,
     "source": {
      "name": "MNB hivatalos árfolyamok",
-     "publish_date": "2026-10-26",
+     "publish_date": "2026-10-27",
      "url": "https://www.mnb.hu/arfolyamok"
     },
     "unit": "Ft/EUR",
-    "value": 366.95
+    "value": 367.14
    },
    {
     "key": "brutto_atlagkereset",
@@ -3506,148 +3548,46 @@
    "publish_date": "2026-09-22",
    "url": "https://www.portfolio.hu/gazdasag/20260922/itt-az-mnb-uj-elorejelzese-hiaba-a-nemzetkozi-kockazatok-mersekelt-marad-az-idei-inflacio-864484"
   },
-  "id": "2026-10-27T11-57"
+  "id": "2026-10-28T06-02"
  },
  "last_run": {
   "errors": [
-   "Az ugyeszseg.hu/category/hirek/kozponti-nyomozo-fougyeszseg/ oldal ismételten HTTP 503 hibával nem volt elérhető (ismétlődő probléma korábbi futásokban is).",
-   "A hirkereso.hu/politika útvonal HTTP 404 hibát adott.",
-   "A kormany.hu/atlathato/feljelentes oldal tartalma (61 ügy, 4005 Mrd Ft, 2026-10-21-i állapot) ebben a futásban is változatlan volt a legutóbbi (2026-10-27 11:57-es, alig 5 órával korábbi) futáshoz képest — a teljes 56 egyedi név szerint azonosítható tétel egyenként összevetve a reported_cases kollekcióval, mindegyik már szerepel az adattárban (önálló vagy gyűjtőtételként), nem volt szükség frissítésre.",
-   "Legalább 25 tematikus WebSearch-keresés (megtakarítás, visszaszerzés, EU-forrás, elveszett uniós forrás/decommitment, feljelentés, túlárazás, pazarlás-kontextus, adófizetők pénze, RRF záró kifizetési kérelem állapota, Erasmus+/Horizont Európa feloldás utáni kifizetés, Hankó/Seszták/Matolcsy ügyi fejlemények) nem talált a legutóbbi (ma délelőtti, 11:57-es) futás óta megjelent, hivatalos forrással vagy legalább egy konkrét, azonosítható sajtóforrással megerősíthető, új, még nem rögzített tényt vagy összeget.",
-   "A Portfolio.hu unios-forrasok rovatának friss (2026-10-26-i) két cikke (EU 25 milliárd eurós autóipari támogatási terve, RRF/jövő EU-költségvetés csalási kockázatai) EU-szintű, Magyarország-specifikus megállapodás vagy kifizetés nélküli általános/jövőbeli téma, ezért nem került fel az eu_forras kategóriába.",
-   "Makro-pillanatkép ebben a futásban nem készült: a 2026-10-27T11-57-es pillanatkép (alig 5 órával korábbi) minden mutatóját (KSH szeptemberi munkaerőpiaci adat, MNB EUR/HUF és USD/HUF fixing, jegybanki alapkamat, ÁKK államadósság, PM központi alrendszer hiánya) ellenőriztük, egyikben sem volt újabb hivatalos publikáció azóta — a legutóbbi pillanatkép marad teljes mértékben érvényben, új dokumentum létrehozása redundáns lett volna."
+   "A WebSearch eszköz nem tudta közvetlenül lekérni a k-monitor.hu, hirkereso.hu, mnvvh.hu/hirek és ügyészség.hu oldalakat (a keresőindex nem adott vissza közvetlen, friss találatot ezekről a domainekről ebben a futásban); ez keresőindex-korlát, nem hálózati blokk - a korábbi futásokban rögzített adatok érvényben maradnak.",
+   "A KSH szeptemberi munkanélküliségi gyorstájékoztatója e futás idején még nem jelent meg; a legutóbbi (augusztusi) adat maradt érvényben.",
+   "Az ÁKK friss (szeptemberi/októberi) államadósság-összesítőjét nem sikerült megbízhatóan megtalálni ebben a futásban; a 2026-07-31-i állapot maradt érvényben.",
+   "A mai (2026-10-23) MNB hivatalos EUR/HUF árfolyamot nem sikerült megbízhatóan megerősíteni; a 2026-10-22-i érték maradt érvényben."
   ],
   "eu_lost_items_new": 0,
-  "finished_at": "2026-10-27T17:05:00+01:00",
+  "finished_at": "2026-10-23T17:40:00+02:00",
   "items_duplicate": 0,
   "items_found_total": 0,
   "items_needs_review": 0,
   "items_new": 0,
   "reported_cases_new": 0,
-  "reported_cases_updated": 0,
+  "reported_cases_updated": 1,
   "sources_checked": [
-   "kormany.hu/atlathato/feljelentes (hivatalos, teljes lista egyenként átnézve: 61 ügy, 4005 Mrd Ft, 74,0 Mrd Ft visszafizetve/megtakarítva, 2026-10-21-i állapot — pontosan megegyezik a reported-osszesito-2026-09 tétel jelenlegi állapotával, nem volt szükség frissítésre)",
-   "mnvvh.hu/hirek (csak már ismert tételek: Matolcsy-letartóztatás, NVVH-nevével visszaélő csalási kísérlet — ez utóbbi nem közpénzügy, nem került be)",
-   "ugyeszseg.hu/category/hirek/kozponti-nyomozo-fougyeszseg (HTTP 503, nem elérhető ebben a futásban sem)",
-   "hirkereso.hu/politika (HTTP 404)",
-   "k-monitor.hu (WebSearch, site: operátor nem adott közvetlen domain-találatot)",
+   "kormany.hu/atlathato/feljelentes (official, via web-fetch, data stamp unchanged: 2026-10-21)",
    "Telex",
    "444.hu",
-   "Index",
-   "HVG",
-   "Portfolio.hu (unios-forrasok rovat is átnézve)",
-   "Economx",
-   "Világgazdaság",
+   "Index.hu",
+   "Portfolio.hu",
+   "VG.hu",
+   "Economx.hu",
    "Infostart.hu",
    "Privátbankár.hu",
-   "Pénzcentrum",
-   "Origo",
-   "Mandiner",
-   "Magyar Nemzet",
-   "Magyar Hírlap",
-   "Népszava",
-   "adozona.hu"
+   "Adózóna (KSH/PM adatközlések)",
+   "K-Monitor (site: search, no new hit)",
+   "hirkereso.hu (search attempt, no direct listing retrievable)",
+   "mnvvh.hu/hirek (search attempt, no October item found)",
+   "ügyészség.hu / Központi Nyomozó Főügyészség (search attempt, no October communiqué found directly)",
+   "KSH (munkanélküliség, infláció - via sajtó)",
+   "MNB (alapkamat, árfolyam - via sajtó)",
+   "ÁKK (államadósság - via sajtó, no fresh September/October figure found)"
   ],
-  "started_at": "2026-10-27T16:30:00+01:00",
-  "id": "2026-10-27T17-01"
+  "started_at": "2026-10-23T16:56:00+02:00",
+  "id": "2026-10-23T16-56"
  },
  "run_history": [
-  {
-   "finished_at": "2026-10-27T17:05:00+01:00",
-   "started_at": "2026-10-27T16:30:00+01:00",
-   "items_new": 0,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 0,
-   "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-10-27T12:30:00+01:00",
-   "started_at": "2026-10-27T11:57:00+01:00",
-   "items_new": 0,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 0,
-   "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-10-27T06:35:00+02:00",
-   "started_at": "2026-10-27T06:00:00+02:00",
-   "items_new": 0,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 0,
-   "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-10-26T17:05:00+01:00",
-   "started_at": "2026-10-26T16:56:00+01:00",
-   "items_new": 0,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 0,
-   "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-10-26T12:03:00+01:00",
-   "started_at": "2026-10-26T11:57:00+01:00",
-   "items_new": 0,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 0,
-   "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-10-26T06:05:00+01:00",
-   "started_at": "2026-10-26T06:00:00+01:00",
-   "items_new": 0,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 0,
-   "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-10-25T17:30:00+02:00",
-   "started_at": "2026-10-25T16:56:00+02:00",
-   "items_new": 0,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 0,
-   "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-10-25T12:35:00+02:00",
-   "started_at": "2026-10-25T11:55:00+02:00",
-   "items_new": 0,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 0,
-   "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-10-25T06:30:00+02:00",
-   "started_at": "2026-10-25T05:55:00+02:00",
-   "items_new": 0,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 0,
-   "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-10-24T17:05:00+02:00",
-   "started_at": "2026-10-24T16:30:00+02:00",
-   "items_new": 0,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 0,
-   "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-10-24T12:35:00+02:00",
-   "started_at": "2026-10-24T11:56:00+02:00",
-   "items_new": 0,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 0,
-   "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-10-24T10:10:00+02:00",
-   "started_at": "2026-10-24T09:15:00+02:00",
-   "items_new": 0,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 1,
-   "eu_lost_items_new": 0
-  },
   {
    "finished_at": "2026-10-23T17:40:00+02:00",
    "started_at": "2026-10-23T16:56:00+02:00",
@@ -4351,14 +4291,92 @@
    "reported_cases_new": 0,
    "reported_cases_updated": 0,
    "eu_lost_items_new": 0
+  },
+  {
+   "finished_at": "2026-09-25T23:45:00+02:00",
+   "started_at": "2026-09-25T23:15:00+02:00",
+   "items_new": 2,
+   "reported_cases_new": 2,
+   "reported_cases_updated": 3
+  },
+  {
+   "finished_at": "2026-09-25T17:50:00+02:00",
+   "started_at": "2026-09-25T17:03:00+02:00",
+   "items_new": 1,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 0
+  },
+  {
+   "finished_at": "2026-09-25T12:45:00+02:00",
+   "started_at": "2026-09-25T12:02:00+02:00",
+   "items_new": 0,
+   "reported_cases_new": 1,
+   "reported_cases_updated": 1
+  },
+  {
+   "finished_at": "2026-09-25T07:10:00+02:00",
+   "started_at": "2026-09-25T06:02:00+02:00",
+   "items_new": 0,
+   "reported_cases_new": 1,
+   "reported_cases_updated": 0
+  },
+  {
+   "finished_at": "2026-09-24T17:40:00+02:00",
+   "started_at": "2026-09-24T17:02:00+02:00",
+   "items_new": 0,
+   "reported_cases_new": 1,
+   "reported_cases_updated": 0
+  },
+  {
+   "finished_at": "2026-09-24T12:35:00+02:00",
+   "started_at": "2026-09-24T12:08:00+02:00",
+   "items_new": 1,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 1
+  },
+  {
+   "finished_at": "2026-09-24T06:30:00+02:00",
+   "started_at": "2026-09-24T06:07:00+02:00",
+   "items_new": 0,
+   "reported_cases_new": 2,
+   "reported_cases_updated": 0
+  },
+  {
+   "finished_at": "2026-09-23T17:35:00+02:00",
+   "started_at": "2026-09-23T17:18:00+02:00",
+   "items_new": 1,
+   "reported_cases_new": 3,
+   "reported_cases_updated": 2
+  },
+  {
+   "finished_at": "2026-09-23T09:45:00+02:00",
+   "started_at": "2026-09-23T08:30:00+02:00",
+   "items_new": 2,
+   "reported_cases_new": 3,
+   "reported_cases_updated": 2
+  },
+  {
+   "finished_at": "2026-09-22T11:10:00+02:00",
+   "started_at": "2026-09-22T10:45:00+02:00",
+   "items_new": 4
+  },
+  {
+   "finished_at": "2026-09-22T10:55:00+02:00",
+   "started_at": "2026-09-22T10:30:00+02:00",
+   "items_new": 2
+  },
+  {
+   "finished_at": "2026-09-22T10:40:00+02:00",
+   "started_at": "2026-09-22T10:21:00+02:00",
+   "items_new": 2
   }
  ],
  "run_summary": {
-  "run_id": "2026-10-27T16:04:09+00:00",
-  "new": 0,
+  "run_id": "2026-10-28T05:05:43+00:00",
+  "new": 1,
   "modified": 0,
   "confirmed_only": 0,
-  "touched": 0,
+  "touched": 1,
   "pending_review": 2,
   "by_section": {
    "items": {
@@ -4367,32 +4385,18 @@
     "confirmed_only": 0
    },
    "reported_cases": {
-    "new": 0,
+    "new": 1,
     "modified": 0,
     "confirmed_only": 0
    }
   },
-  "new_ids": [],
+  "new_ids": [
+   "r:reported-lelegeztetogep-nav-bunszervezet-2026-10"
+  ],
   "modified_ids": [],
   "confirmed_ids": []
  },
  "run_summary_history": [
-  {
-   "run_id": "2026-09-28T12:10:00+02:00",
-   "legacy": true,
-   "by_section": {
-    "items": {
-     "new": 0,
-     "modified": 0,
-     "confirmed_only": 0
-    },
-    "reported_cases": {
-     "new": 4,
-     "modified": 3,
-     "confirmed_only": 0
-    }
-   }
-  },
   {
    "run_id": "2026-09-28T06:10:00+02:00",
    "legacy": true,
@@ -5896,6 +5900,21 @@
     },
     "reported_cases": {
      "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    }
+   }
+  },
+  {
+   "run_id": "2026-10-28T05:05:43+00:00",
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 1,
      "modified": 0,
      "confirmed_only": 0
     }
