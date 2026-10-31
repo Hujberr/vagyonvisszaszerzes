@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-31T05:04:02+00:00",
+ "generated_at": "2026-10-31T11:01:33+00:00",
  "summary": {
   "megtakaritas_verified_huf": 3312290700000,
   "visszaszerzes_verified_huf": 1575719300000,
@@ -3581,42 +3581,49 @@
  },
  "last_run": {
   "errors": [
-   "A WebSearch eszköz nem tudta közvetlenül lekérni a k-monitor.hu, hirkereso.hu, mnvvh.hu/hirek és ügyészség.hu oldalakat (a keresőindex nem adott vissza közvetlen, friss találatot ezekről a domainekről ebben a futásban); ez keresőindex-korlát, nem hálózati blokk - a korábbi futásokban rögzített adatok érvényben maradnak.",
-   "A KSH szeptemberi munkanélküliségi gyorstájékoztatója e futás idején még nem jelent meg; a legutóbbi (augusztusi) adat maradt érvényben.",
-   "Az ÁKK friss (szeptemberi/októberi) államadósság-összesítőjét nem sikerült megbízhatóan megtalálni ebben a futásban; a 2026-07-31-i állapot maradt érvényben.",
-   "A mai (2026-10-23) MNB hivatalos EUR/HUF árfolyamot nem sikerült megbízhatóan megerősíteni; a 2026-10-22-i érték maradt érvényben."
+   "A kormany.hu/atlathato/feljelentes oldal 2026-10-31-i állapota (61 ügy, 4005 Mrd Ft, 74,0 Mrd Ft visszafizetve/megtakarítva) tartalmilag teljesen megegyezik a 2026-10-21-i, korábban rögzített állapottal — minden egyedi tétel már szerepel az adattárban (önálló tételként vagy a reported-egyeb-miniszteriumi-18ugy-2026 / reported-ttm-informatikai-szerzodesek-2026-10 gyűjtőkben), frissítés nem volt szükséges.",
+   "Mnvvh.hu/hirek és az ugyeszseg.hu oldal friss hírei (Matolcsy-ügy elfogatóparancsok, Seszták letartóztatás meghosszabbítása, lélegeztetőgép-ügy NAV-akció) mind már korábban (a 2026-10-31 06:04-es futásban) rögzítve lettek a megfelelő reported_cases tételek verification_notes mezőjében.",
+   "A hirkereso.hu-n talált 'Seszták Miklós lányához köthető alapítvány 4,1 milliárd forintja' utalás ellenőrzésre nem volt visszakereshető: a kapcsolódó cikkek Szalay-Bobrovniczky Kristóf alapítványáról (750 millió Ft) és a Seszták-ügy korábban már rögzített, 12,6 Mrd Ft-os vesztegetési összegéről szólnak — önálló, új, megbízhatóan azonosítható tényt nem sikerült találni, ezért nem került be az adattárba.",
+   "Az NVVH 2,48 milliárd forintos felállítási/működési költségvetési átcsoportosítása (Portfolio, 2026-10) a hivatal saját működési kiadása, nem tényleges vagyonvisszaszerzés vagy megtakarítás, ezért nem került az items kollekcióba (az adattár szabálya szerint).",
+   "A 2027-es költségvetési tervezet 1465 Mrd Ft-os kiadáscsökkentése már korábban (2026-10-21-es futásban) rögzítve lett a megtakaritas-2027-koltsegvetes-kiadascsokkentes-2026-10 tételként; e futásban csak megerősítő, nem új részletek jelentek meg (pl. 665 Mrd Ft bevételnövekedés — ez bevételi, nem megtakarítási tétel, nem releváns).",
+   "Az ÁKK hivatalos statisztikai oldala (akk.hu) ezúttal sem volt közvetlenül lekérhető; az államadósság értéke változatlanul a 2026-07-31-i (Magyar Nemzet/ÁKK-adatra hivatkozó) állapotot tükrözi.",
+   "A KSH 2026 Q3 GDP-gyorsbecslése és az októberi havi inflációs/kereseti adatok e futás idején még nem jelentek meg; a macro_snapshots dokumentum ezért a legutóbbi (2026-09/2026-10-20/27-i) publikált adatokat vette át változatlanul."
   ],
   "eu_lost_items_new": 0,
-  "finished_at": "2026-10-23T17:40:00+02:00",
+  "finished_at": "2026-10-31T12:10:00+01:00",
   "items_duplicate": 0,
   "items_found_total": 0,
   "items_needs_review": 0,
   "items_new": 0,
   "reported_cases_new": 0,
-  "reported_cases_updated": 1,
+  "reported_cases_updated": 0,
   "sources_checked": [
-   "kormany.hu/atlathato/feljelentes (official, via web-fetch, data stamp unchanged: 2026-10-21)",
-   "Telex",
-   "444.hu",
-   "Index.hu",
-   "Portfolio.hu",
-   "VG.hu",
-   "Economx.hu",
-   "Infostart.hu",
+   "kormany.hu/atlathato/feljelentes",
+   "hirkereso.hu",
+   "mnvvh.hu/hirek",
+   "ugyeszseg.hu/category/hirek/kozponti-nyomozo-fougyeszseg",
    "Privátbankár.hu",
-   "Adózóna (KSH/PM adatközlések)",
-   "K-Monitor (site: search, no new hit)",
-   "hirkereso.hu (search attempt, no direct listing retrievable)",
-   "mnvvh.hu/hirek (search attempt, no October item found)",
-   "ügyészség.hu / Központi Nyomozó Főügyészség (search attempt, no October communiqué found directly)",
-   "KSH (munkanélküliség, infláció - via sajtó)",
-   "MNB (alapkamat, árfolyam - via sajtó)",
-   "ÁKK (államadósság - via sajtó, no fresh September/October figure found)"
+   "Portfolio.hu",
+   "Telex",
+   "Index",
+   "444.hu",
+   "Economx",
+   "Adózóna",
+   "Infostart.hu",
+   "K-Monitor (site-search, nincs közvetlen találat)"
   ],
-  "started_at": "2026-10-23T16:56:00+02:00",
-  "id": "2026-10-23T16-56"
+  "started_at": "2026-10-31T11:56:00+01:00",
+  "id": "2026-10-31T11-59"
  },
  "run_history": [
+  {
+   "finished_at": "2026-10-31T12:10:00+01:00",
+   "started_at": "2026-10-31T11:56:00+01:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
   {
    "finished_at": "2026-10-23T17:40:00+02:00",
    "started_at": "2026-10-23T16:56:00+02:00",
@@ -4393,19 +4400,14 @@
    "finished_at": "2026-09-22T10:55:00+02:00",
    "started_at": "2026-09-22T10:30:00+02:00",
    "items_new": 2
-  },
-  {
-   "finished_at": "2026-09-22T10:40:00+02:00",
-   "started_at": "2026-09-22T10:21:00+02:00",
-   "items_new": 2
   }
  ],
  "run_summary": {
-  "run_id": "2026-10-31T05:04:02+00:00",
+  "run_id": "2026-10-31T11:01:33+00:00",
   "new": 0,
   "modified": 0,
-  "confirmed_only": 2,
-  "touched": 2,
+  "confirmed_only": 0,
+  "touched": 0,
   "pending_review": 2,
   "by_section": {
    "items": {
@@ -4416,33 +4418,14 @@
    "reported_cases": {
     "new": 0,
     "modified": 0,
-    "confirmed_only": 2
+    "confirmed_only": 0
    }
   },
   "new_ids": [],
   "modified_ids": [],
-  "confirmed_ids": [
-   "r:reported-egyeb-miniszteriumi-18ugy-2026",
-   "r:reported-lelegeztetogep-nav-bunszervezet-2026-10"
-  ]
+  "confirmed_ids": []
  },
  "run_summary_history": [
-  {
-   "run_id": "2026-09-26T06:47:00+02:00",
-   "legacy": true,
-   "by_section": {
-    "items": {
-     "new": 0,
-     "modified": 0,
-     "confirmed_only": 0
-    },
-    "reported_cases": {
-     "new": 0,
-     "modified": 3,
-     "confirmed_only": 0
-    }
-   }
-  },
   {
    "run_id": "2026-09-26T06:20:00+02:00",
    "legacy": true,
@@ -5938,6 +5921,21 @@
      "new": 0,
      "modified": 0,
      "confirmed_only": 2
+    }
+   }
+  },
+  {
+   "run_id": "2026-10-31T11:01:33+00:00",
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
     }
    }
   }
