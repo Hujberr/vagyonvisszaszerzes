@@ -1,13 +1,13 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-31T11:01:33+00:00",
+ "generated_at": "2026-10-31T16:03:57+00:00",
  "summary": {
   "megtakaritas_verified_huf": 3312290700000,
   "visszaszerzes_verified_huf": 1575719300000,
   "eu_forras_verified_huf": 6280000000000,
   "eu_forras_lost_huf": 730000000000,
   "items_count": 38,
-  "reported_cases_count": 58
+  "reported_cases_count": 59
  },
  "items": [
   {
@@ -2136,10 +2136,10 @@
    },
    "status": "partially_recovered",
    "subject": "Hankó Balázs korábbi kulturális miniszter — Nemzeti Kulturális Alap (NKA) forrásainak választási kampányra fordítása",
-   "verification_notes": "FRISSÍTVE 2026-10-16 17:00-ás futás: a Kecskeméti Törvényszék 2026. október 13-án elutasította Hankó Balázs és védője fellebbezését, így az előzetes letartóztatás jogerőssé vált (legalább október végéig); a bíróság sajtóirodája szerint a gyanú megalapozott, és fennáll a szökés, elrejtőzés és bizonyítékok befolyásolásának veszélye. A korábban vele együtt fogvatartott Varga-Bajusz Veronika volt államtitkár is letartóztatásban marad. Hankó az intézkedést politikai indíttatásúnak nevezte. Ez eljárási fejlemény, az alleged_amount_huf (17,3 Mrd Ft) és a confirmed_recovered_huf (4,045 Mrd Ft) nem változott. (Korábbi megjegyzések megőrizve.) FRISSÍTVE 2026-10-15 16:56-os futás: a Kecskeméti Járásbíróság nyomozási bírája 2026. október 1-jén egy hónapra elrendelte Hankó Balázs előzetes letartóztatását, bűnszervezetben elkövetett, különösen nagy vagyoni hátrányt okozó hűtlen kezelés gyanúja miatt (öt-tíz évig terjedő szabadságvesztéssel fenyegetett bűncselekmény). A döntés nem jogerős, Hankó és védője is fellebbezett; a végső döntést a Kecskemét Törvényszék tanácsa hozza meg. Legalább három független forrás (Infostart, 444.hu, Telex) megerősíti. Ez eljárási fejlemény, az alleged_amount_huf (17,3 Mrd Ft) és a confirmed_recovered_huf (4,045 Mrd Ft) nem változott. (Korábbi megjegyzések megőrizve:) FRISSÍTVE 2026-10-15 05:59-es futás: a kapcsolódó items/visszaszerzes-nka-hanko-onkentes-visszafizetes-2026-07 tétel szerint a hivatalos kormany.hu adat 136 tételben 4,045 milliárd forintot mutat (korábban 4,0 Mrd Ft volt rögzítve) — a confirmed_recovered_huf ennek megfelelően frissítve; a status (partially_recovered) és a 17,3 milliárd forintos gyanúsított összeg változatlan. (Korábbi megjegyzések megőrizve, l. előző verzió.)",
+   "verification_notes": "FRISSÍTVE 2026-10-31 16:56-os futás: a Kecskeméti Járásbíróság nyomozási bírája 2026. október 28-án további három hónappal, 2027. február 1-jéig meghosszabbította Hankó Balázs ÉS Varga-Bajusz Veronika előzetes letartóztatását is, a bizonyítékok befolyásolásának és a jelenlét biztosításának szükségességére hivatkozva (eduline.hu, 2026-10-28). A döntés egyikük esetében sem jogerős. Ez eljárási fejlemény, az alleged_amount_huf (17,3 Mrd Ft) és a confirmed_recovered_huf (4,045 Mrd Ft) nem változott. (Korábbi megjegyzések megőrizve, l. előző verzió.)",
    "id": "reported-hanko-balazs-nka-sikkasztas-2026-09",
    "first_seen_at": "2026-09-28T15:02:40+00:00",
-   "updated_at": "2026-10-16T15:03:06+00:00"
+   "updated_at": "2026-10-31T16:03:57+00:00"
   },
   {
    "additional_sources": [
@@ -3055,6 +3055,26 @@
    "updated_at": "2026-10-14T10:03:47+00:00"
   },
   {
+   "alleged_amount_huf": null,
+   "alleged_amount_text": "a nyilvánosságra került 19 szerződés szerint a befejező munkák mintegy 640 millió forintba kerültek a tervezett kb. 250 millió forint helyett; egyes tételeknél (pl. üvegszálas háló felrakása) a piaci ár akár huszonszorosát is kiszámlázták; a teljes, korábbi (2025-ös) kormányzati ellenőrzési becslés szerint az ingatlan összértéke kb. 1 milliárd forint",
+   "confirmed_recovered_huf": 0,
+   "description": "2026. október 26-i sajtóbeszámoló szerint a Honvédelmi Minisztérium háttérintézménye, a HM EI Zrt. által kezelt dunakeszi szolgálati villa (korábban Ruszin-Szendi Romulusz vezérkari főnök lakhelye) felújítása során jelentős túlárazás történt: egyes munkálatoknál a szakértők szerint a piaci ár többszörösét, akár huszonszorosát számlázták ki. A felújítással kapcsolatban a korábbi honvédelmi minisztérium 2025 elején kért vizsgálatot a Kormányzati Ellenőrzési Hivataltól; a vizsgálat jelenlegi állásáról nincs nyilvános információ.",
+   "ministry": "Honvédelmi Minisztérium / HM EI Zrt. (háttérintézmény)",
+   "recovered_item_id": null,
+   "report_date": "2025-02-01",
+   "report_source": {
+    "name": "444.hu (24.hu nyomán)",
+    "published_date": "2026-10-26",
+    "url": "https://444.hu/2026/10/26/durva-tularazassal-ujitottak-fel-ruszin-szendi-szolgalati-villajat"
+   },
+   "status": "under_investigation",
+   "subject": "Ruszin-Szendi Romulusz korábbi vezérkari főnöki szolgálati villájának felújítása — túlárazás gyanúja (HM EI Zrt.)",
+   "verification_notes": "ÚJ TÉTEL (2026-10-31 16:56-os futás). Egyetlen, elsődlegesen 24.hu kutatására épülő, 444.hu által közölt forrásból ismert (2026-10-26); második, független forrásra vár. A cikk szerint a feltárt szerződésekben Ruszin-Szendi Romulusz (ma honvédelmi miniszter) személyesen nem jelenik meg megrendelőként, állítása szerint nem ő rendelte meg és nem ő tulajdonolta a felújítást. A 2025 februárjában, a korábbi (akkori) honvédelmi vezetés által kért Kormányzati Ellenőrzési Hivatal-vizsgálat kimeneteléről, illetve arról, hogy folyik-e jelenleg (2026 őszén) bármilyen hatósági vagy büntetőeljárás, nincs nyilvánosan ismert információ — a status ('under_investigation') ezért bizonytalan, csak a 2025-ös KEHI-vizsgálatkérésre utal, nem megerősített, aktív eljárásra. Nem szerepel a kormany.hu/atlathato/feljelentes hivatalos listáján (2026-10-21-i állapot szerint). A report_date a KEHI-vizsgálat kérésének idejére (2025 eleje) utal, nem a sajtóhír (2026-10-26) dátumára.",
+   "id": "reported-ruszin-szendi-villa-tularazas-2026-10",
+   "updated_at": "2026-10-31T16:03:57+00:00",
+   "first_seen_at": "2026-10-31T16:03:57+00:00"
+  },
+  {
    "alleged_amount_huf": 12600000000,
    "alleged_amount_text": "12,6 milliárd forint (a Legfőbb Ügyészség vádirata szerinti pontos bontásban: 7,076 Mrd Ft Volánbusz-hoz kapcsolódó cégektől 2015–2018 között, 3,7066 Mrd Ft buszbeszerzésekből 2015–2017 között, 1,0507 Mrd Ft egy építőipari cégtől, 270,165 millió Ft a Nemzeti Sportközpontok projektjeivel összefüggésben)",
    "confirmed_recovered_huf": 0,
@@ -3069,10 +3089,10 @@
    },
    "status": "under_investigation",
    "subject": "Seszták Miklós korábbi fejlesztési miniszter korrupciós ügye (Volánbusz és építőipari megbízások)",
-   "verification_notes": "FRISSÍTVE 2026-10-30 12:00-ás futás: a Budai Központi Kerületi Bíróság 2026-10-28-án az NVVH indítványára 2027. január 30-ig meghosszabbította Seszták Miklós letartóztatását, szökés/elrejtőzés és bizonyítékbefolyásolás veszélyére hivatkozva; a bíróság elutasította a védelem szabadlábra helyezési és óvadéki indítványát is (444.hu, 2026-10-28). Ez eljárási fejlemény, az alleged_amount_huf (12,6 Mrd Ft) és a confirmed_recovered_huf (0) nem változott. (Korábbi megjegyzések megőrizve.) Több független forrás megerősíti (444.hu, Index, Telex, HVG, Economx, Klubrádió, Zsaruhírek — mind 2026-09-22/23). Nem szerepel a kormany.hu/atlathato/feljelentes hivatalos listáján (2026-09-24-i ellenőrzés szerint), mivel ez ügyészségi büntetőeljárás, nem kormányzati/minisztériumi feljelentés. FRISSÍTVE 2026-09-28: az Országgyűlés a jelzett napon 139 igen szavazattal, ellenszavazat és tartózkodás nélkül felfüggesztette Seszták Miklós mentelmi jogát (444.hu); ez eljárási előrelépés, tényleges vagyon-visszaszerzés továbbra sincs, a confirmed_recovered_huf változatlanul 0. FRISSÍTVE 2026-09-28 (második, esti ellenőrzés): a 444.hu a Legfőbb Ügyészség vádiratára hivatkozva pontos bontásban közölte a gyanúsított összeget: összesen 12,6 milliárd forint — a korábbi, kerekített 12,27 milliárd forintos sajtóbecslés helyett ez a pontosabb, ügyészségi vádirat alapján közölt összeg irányadó, ezért az alleged_amount_huf 12,27 Mrd Ft-ról 12,6 Mrd Ft-ra frissítve. FRISSÍTVE 2026-09-30: a mentelmi jog felfüggesztése után Seszták Miklóst ténylegesen őrizetbe is vették 2026-09-28-án (Index, 444.hu), a bíróság egy hónapra letartóztatásba helyezte; az üggyel párhuzamosan (ugyanazon Központi Nyomozó Főügyészségi nyomozás keretében, l. a kapcsolódó reported-volan-buszbeszerzes-2026-09 tételt) mintegy 3 milliárd forint értékű vagyonelemet (286,5 millió Ft ingatlan, 6+ millió Ft gépkocsi, 2,7 milliárd Ft egyéb vagyon) zároltak biztosítási intézkedésként egy gyanúsítottnál. Ez vagyonzárolás, nem végleges elkobzás vagy az államhoz ténylegesen visszakerült vagyon, ezért a confirmed_recovered_huf mező egyelőre változatlanul 0 marad; a status under_investigation marad, mivel vádemelés még nem történt.",
+   "verification_notes": "FRISSÍTVE 2026-10-31 16:56-os futás: a Telex 2026-10-31-i, részletes vizsonyítási cikke szerint Seszták Miklós korábbi kisvárdai üzleti köréhez (Hódos Éva Csilla ügyvédhez és a mögötte álló cégekhez) köthetően két vagyonkezelő alapítvány — az OAK Vagyonkezelő Alapítvány (2024-ben alapítva, egy ciprusi Minotax International Ltd. tulajdonosa) és a Hódvár Vagyonkezelő Alapítvány — összesen több mint 4,1 milliárd forint vagyon felett rendelkezik. Seszták maga nem alapítója vagy kedvezményezettje a két alapítványnak, de a vagyonkezelői/ellenőri szerepet az ő lánya, a Seszták Ügyvédi Iroda (azonos kisvárdai cím és telefonszám, mint az egyik, Seszták által is jegyzett alapítványé) látja el. A hírt az Economx, az ATV és a Kontroll is átvette (mind Telexre hivatkozva, tehát nem független megerősítés). Ez EGYELŐRE csak sajtó által feltárt, eddig rejtett vagyon azonosítása — nincs hivatalos (NVVH/ügyészségi) megerősítés arról, hogy ez a 4,1 Mrd Ft a 12,6 Mrd Ft-os vádirati összeg része vagy attól független, és nincs vagyonzárolási/elkobzási intézkedés sem e két alapítvány vonatkozásában; az alleged_amount_huf (12,6 Mrd Ft) és a confirmed_recovered_huf (0) ezért nem változott, a tényt csak megjegyzésként rögzítjük, második (hatósági vagy független, nem Telexre hivatkozó) megerősítésre vár. (Korábbi megjegyzések megőrizve, l. előző verzió.)",
    "id": "reported-sesztak-miklos-korrupcio-2026-09",
    "first_seen_at": "2026-09-28T15:02:40+00:00",
-   "updated_at": "2026-10-30T11:03:40+00:00"
+   "updated_at": "2026-10-31T16:03:57+00:00"
   },
   {
    "alleged_amount_huf": 64610000000,
@@ -3364,7 +3384,7 @@
    "url": "https://magyarnemzet.hu/gazdasag/2026/09/allamadossag-novekedes"
   },
   "allamadossag_huf": 65716000000000,
-  "collected_at": "2026-10-31T12:00:00+01:00",
+  "collected_at": "2026-10-31T16:56:00+01:00",
   "elozo": {
    "allamadossag": {
     "period": null,
@@ -3577,51 +3597,237 @@
    "publish_date": "2026-09-22",
    "url": "https://www.portfolio.hu/gazdasag/20260922/itt-az-mnb-uj-elorejelzese-hiaba-a-nemzetkozi-kockazatok-mersekelt-marad-az-idei-inflacio-864484"
   },
-  "id": "2026-10-31T12-00"
+  "id": "2026-10-31T16-56"
  },
  "last_run": {
   "errors": [
-   "A kormany.hu/atlathato/feljelentes oldal 2026-10-31-i állapota (61 ügy, 4005 Mrd Ft, 74,0 Mrd Ft visszafizetve/megtakarítva) tartalmilag teljesen megegyezik a 2026-10-21-i, korábban rögzített állapottal — minden egyedi tétel már szerepel az adattárban (önálló tételként vagy a reported-egyeb-miniszteriumi-18ugy-2026 / reported-ttm-informatikai-szerzodesek-2026-10 gyűjtőkben), frissítés nem volt szükséges.",
-   "Mnvvh.hu/hirek és az ugyeszseg.hu oldal friss hírei (Matolcsy-ügy elfogatóparancsok, Seszták letartóztatás meghosszabbítása, lélegeztetőgép-ügy NAV-akció) mind már korábban (a 2026-10-31 06:04-es futásban) rögzítve lettek a megfelelő reported_cases tételek verification_notes mezőjében.",
-   "A hirkereso.hu-n talált 'Seszták Miklós lányához köthető alapítvány 4,1 milliárd forintja' utalás ellenőrzésre nem volt visszakereshető: a kapcsolódó cikkek Szalay-Bobrovniczky Kristóf alapítványáról (750 millió Ft) és a Seszták-ügy korábban már rögzített, 12,6 Mrd Ft-os vesztegetési összegéről szólnak — önálló, új, megbízhatóan azonosítható tényt nem sikerült találni, ezért nem került be az adattárba.",
-   "Az NVVH 2,48 milliárd forintos felállítási/működési költségvetési átcsoportosítása (Portfolio, 2026-10) a hivatal saját működési kiadása, nem tényleges vagyonvisszaszerzés vagy megtakarítás, ezért nem került az items kollekcióba (az adattár szabálya szerint).",
-   "A 2027-es költségvetési tervezet 1465 Mrd Ft-os kiadáscsökkentése már korábban (2026-10-21-es futásban) rögzítve lett a megtakaritas-2027-koltsegvetes-kiadascsokkentes-2026-10 tételként; e futásban csak megerősítő, nem új részletek jelentek meg (pl. 665 Mrd Ft bevételnövekedés — ez bevételi, nem megtakarítási tétel, nem releváns).",
-   "Az ÁKK hivatalos statisztikai oldala (akk.hu) ezúttal sem volt közvetlenül lekérhető; az államadósság értéke változatlanul a 2026-07-31-i (Magyar Nemzet/ÁKK-adatra hivatkozó) állapotot tükrözi.",
-   "A KSH 2026 Q3 GDP-gyorsbecslése és az októberi havi inflációs/kereseti adatok e futás idején még nem jelentek meg; a macro_snapshots dokumentum ezért a legutóbbi (2026-09/2026-10-20/27-i) publikált adatokat vette át változatlanul."
+   "ugyeszseg.hu/category/hirek/kozponti-nyomozo-fougyeszseg/ két lekérési kísérletnél is HTTP 503-at adott, nem volt elérhető ebben a futásban",
+   "hirkereso.hu/politika 404-et adott, a gyökér (hirkereso.hu) oldalt kérdeztük le helyette",
+   "site:k-monitor.hu operátoros WebSearch lekérések nem adtak k-monitor.hu-ról származó találatot"
   ],
   "eu_lost_items_new": 0,
-  "finished_at": "2026-10-31T12:10:00+01:00",
+  "finished_at": "2026-10-31T17:35:00+01:00",
   "items_duplicate": 0,
   "items_found_total": 0,
   "items_needs_review": 0,
   "items_new": 0,
-  "reported_cases_new": 0,
-  "reported_cases_updated": 0,
+  "reported_cases_new": 1,
+  "reported_cases_updated": 2,
   "sources_checked": [
    "kormany.hu/atlathato/feljelentes",
-   "hirkereso.hu",
-   "mnvvh.hu/hirek",
-   "ugyeszseg.hu/category/hirek/kozponti-nyomozo-fougyeszseg",
-   "Privátbankár.hu",
-   "Portfolio.hu",
-   "Telex",
-   "Index",
    "444.hu",
-   "Economx",
-   "Adózóna",
-   "Infostart.hu",
-   "K-Monitor (site-search, nincs közvetlen találat)"
+   "telex.hu",
+   "hvg.hu",
+   "index.hu",
+   "portfolio.hu",
+   "economx.hu",
+   "vg.hu",
+   "infostart.hu",
+   "privatbankar.hu",
+   "adozona.hu",
+   "mfor.hu",
+   "forbes.hu",
+   "atv.hu",
+   "eduline.hu",
+   "hirkereso.hu",
+   "k-monitor.hu (csak WebSearch, site: operátor nem adott találatot)",
+   "mnvvh.hu/hirek",
+   "ugyeszseg.hu (nem elérhető, l. errors)"
   ],
-  "started_at": "2026-10-31T11:56:00+01:00",
-  "id": "2026-10-31T11-59"
+  "started_at": "2026-10-31T16:56:00+01:00",
+  "id": "2026-10-31T16-56"
  },
  "run_history": [
+  {
+   "finished_at": "2026-10-31T17:35:00+01:00",
+   "started_at": "2026-10-31T16:56:00+01:00",
+   "items_new": 0,
+   "reported_cases_new": 1,
+   "reported_cases_updated": 2,
+   "eu_lost_items_new": 0
+  },
+  {
+   "finished_at": "2026-10-31T13:10:00+01:00",
+   "started_at": "2026-10-31T12:00:00+01:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 2,
+   "eu_lost_items_new": 0
+  },
   {
    "finished_at": "2026-10-31T12:10:00+01:00",
    "started_at": "2026-10-31T11:56:00+01:00",
    "items_new": 0,
    "reported_cases_new": 0,
    "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
+  {
+   "finished_at": "2026-10-30T17:40:00+01:00",
+   "started_at": "2026-10-30T16:56:00+01:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
+  {
+   "finished_at": "2026-10-30T12:20:00+01:00",
+   "started_at": "2026-10-30T12:00:00+01:00",
+   "items_new": 0,
+   "reported_cases_new": 1,
+   "reported_cases_updated": 1,
+   "eu_lost_items_new": 0
+  },
+  {
+   "finished_at": "2026-10-30T06:40:00+01:00",
+   "started_at": "2026-10-30T05:59:00+01:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
+  {
+   "finished_at": "2026-10-29T17:45:00+01:00",
+   "started_at": "2026-10-29T17:12:00+01:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 2,
+   "eu_lost_items_new": 0
+  },
+  {
+   "finished_at": "2026-10-29T12:30:00+01:00",
+   "started_at": "2026-10-29T11:55:00+01:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
+  {
+   "finished_at": "2026-10-29T06:01:00+01:00",
+   "started_at": "2026-10-29T05:56:00+01:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
+  {
+   "finished_at": "2026-10-28T17:10:00+01:00",
+   "started_at": "2026-10-28T16:30:00+01:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 1,
+   "eu_lost_items_new": 0
+  },
+  {
+   "finished_at": "2026-10-28T12:30:00+01:00",
+   "started_at": "2026-10-28T11:58:00+01:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
+  {
+   "finished_at": "2026-10-28T06:40:00+01:00",
+   "started_at": "2026-10-28T06:02:00+01:00",
+   "items_new": 0,
+   "reported_cases_new": 1,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
+  {
+   "finished_at": "2026-10-27T17:05:00+01:00",
+   "started_at": "2026-10-27T16:30:00+01:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
+  {
+   "finished_at": "2026-10-27T12:30:00+01:00",
+   "started_at": "2026-10-27T11:57:00+01:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
+  {
+   "finished_at": "2026-10-27T06:35:00+02:00",
+   "started_at": "2026-10-27T06:00:00+02:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
+  {
+   "finished_at": "2026-10-26T17:05:00+01:00",
+   "started_at": "2026-10-26T16:56:00+01:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
+  {
+   "finished_at": "2026-10-26T12:03:00+01:00",
+   "started_at": "2026-10-26T11:57:00+01:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
+  {
+   "finished_at": "2026-10-26T06:05:00+01:00",
+   "started_at": "2026-10-26T06:00:00+01:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
+  {
+   "finished_at": "2026-10-25T17:30:00+02:00",
+   "started_at": "2026-10-25T16:56:00+02:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
+  {
+   "finished_at": "2026-10-25T12:35:00+02:00",
+   "started_at": "2026-10-25T11:55:00+02:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
+  {
+   "finished_at": "2026-10-25T06:30:00+02:00",
+   "started_at": "2026-10-25T05:55:00+02:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
+  {
+   "finished_at": "2026-10-24T17:05:00+02:00",
+   "started_at": "2026-10-24T16:30:00+02:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
+  {
+   "finished_at": "2026-10-24T12:35:00+02:00",
+   "started_at": "2026-10-24T11:56:00+02:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
+  {
+   "finished_at": "2026-10-24T10:10:00+02:00",
+   "started_at": "2026-10-24T09:15:00+02:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 1,
    "eu_lost_items_new": 0
   },
   {
@@ -4231,183 +4437,14 @@
    "reported_cases_new": 1,
    "reported_cases_updated": 2,
    "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-09-28T12:10:00+02:00",
-   "started_at": "2026-09-28T11:30:00+02:00",
-   "items_new": 0,
-   "reported_cases_new": 4,
-   "reported_cases_updated": 3,
-   "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-09-28T06:10:00+02:00",
-   "started_at": "2026-09-28T05:55:00+02:00",
-   "items_new": 0,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 0,
-   "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-09-27T18:10:00+02:00",
-   "started_at": "2026-09-27T17:52:00+02:00",
-   "items_new": 0,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 0,
-   "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-09-27T17:20:00+02:00",
-   "started_at": "2026-09-27T16:56:00+02:00",
-   "items_new": 0,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 0,
-   "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-09-27T12:15:00+02:00",
-   "started_at": "2026-09-27T11:56:00+02:00",
-   "items_new": 0,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 0,
-   "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-09-27T06:01:00+02:00",
-   "started_at": "2026-09-27T05:55:00+02:00",
-   "items_new": 1,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 2,
-   "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-09-26T17:20:00+02:00",
-   "started_at": "2026-09-26T16:56:00+02:00",
-   "items_new": 0,
-   "reported_cases_new": 1,
-   "reported_cases_updated": 1,
-   "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-09-26T13:05:00+02:00",
-   "started_at": "2026-09-26T12:55:00+02:00",
-   "items_new": 0,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 0,
-   "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-09-26T12:10:00+02:00",
-   "started_at": "2026-09-26T11:55:00+02:00",
-   "items_new": 2,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 8,
-   "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-09-26T08:05:00+02:00",
-   "started_at": "2026-09-26T07:15:00+02:00",
-   "items_new": 0,
-   "reported_cases_new": 1,
-   "reported_cases_updated": 0,
-   "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-09-26T06:47:00+02:00",
-   "started_at": "2026-09-26T06:43:00+02:00",
-   "items_new": 0,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 3,
-   "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-09-26T06:20:00+02:00",
-   "started_at": "2026-09-26T06:02:00+02:00",
-   "items_new": 0,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 0,
-   "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-09-25T23:45:00+02:00",
-   "started_at": "2026-09-25T23:15:00+02:00",
-   "items_new": 2,
-   "reported_cases_new": 2,
-   "reported_cases_updated": 3
-  },
-  {
-   "finished_at": "2026-09-25T17:50:00+02:00",
-   "started_at": "2026-09-25T17:03:00+02:00",
-   "items_new": 1,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 0
-  },
-  {
-   "finished_at": "2026-09-25T12:45:00+02:00",
-   "started_at": "2026-09-25T12:02:00+02:00",
-   "items_new": 0,
-   "reported_cases_new": 1,
-   "reported_cases_updated": 1
-  },
-  {
-   "finished_at": "2026-09-25T07:10:00+02:00",
-   "started_at": "2026-09-25T06:02:00+02:00",
-   "items_new": 0,
-   "reported_cases_new": 1,
-   "reported_cases_updated": 0
-  },
-  {
-   "finished_at": "2026-09-24T17:40:00+02:00",
-   "started_at": "2026-09-24T17:02:00+02:00",
-   "items_new": 0,
-   "reported_cases_new": 1,
-   "reported_cases_updated": 0
-  },
-  {
-   "finished_at": "2026-09-24T12:35:00+02:00",
-   "started_at": "2026-09-24T12:08:00+02:00",
-   "items_new": 1,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 1
-  },
-  {
-   "finished_at": "2026-09-24T06:30:00+02:00",
-   "started_at": "2026-09-24T06:07:00+02:00",
-   "items_new": 0,
-   "reported_cases_new": 2,
-   "reported_cases_updated": 0
-  },
-  {
-   "finished_at": "2026-09-23T17:35:00+02:00",
-   "started_at": "2026-09-23T17:18:00+02:00",
-   "items_new": 1,
-   "reported_cases_new": 3,
-   "reported_cases_updated": 2
-  },
-  {
-   "finished_at": "2026-09-23T09:45:00+02:00",
-   "started_at": "2026-09-23T08:30:00+02:00",
-   "items_new": 2,
-   "reported_cases_new": 3,
-   "reported_cases_updated": 2
-  },
-  {
-   "finished_at": "2026-09-22T11:10:00+02:00",
-   "started_at": "2026-09-22T10:45:00+02:00",
-   "items_new": 4
-  },
-  {
-   "finished_at": "2026-09-22T10:55:00+02:00",
-   "started_at": "2026-09-22T10:30:00+02:00",
-   "items_new": 2
   }
  ],
  "run_summary": {
-  "run_id": "2026-10-31T11:01:33+00:00",
-  "new": 0,
+  "run_id": "2026-10-31T16:03:57+00:00",
+  "new": 1,
   "modified": 0,
-  "confirmed_only": 0,
-  "touched": 0,
+  "confirmed_only": 2,
+  "touched": 3,
   "pending_review": 2,
   "by_section": {
    "items": {
@@ -4416,32 +4453,21 @@
     "confirmed_only": 0
    },
    "reported_cases": {
-    "new": 0,
+    "new": 1,
     "modified": 0,
-    "confirmed_only": 0
+    "confirmed_only": 2
    }
   },
-  "new_ids": [],
+  "new_ids": [
+   "r:reported-ruszin-szendi-villa-tularazas-2026-10"
+  ],
   "modified_ids": [],
-  "confirmed_ids": []
+  "confirmed_ids": [
+   "r:reported-hanko-balazs-nka-sikkasztas-2026-09",
+   "r:reported-sesztak-miklos-korrupcio-2026-09"
+  ]
  },
  "run_summary_history": [
-  {
-   "run_id": "2026-09-26T06:20:00+02:00",
-   "legacy": true,
-   "by_section": {
-    "items": {
-     "new": 0,
-     "modified": 0,
-     "confirmed_only": 0
-    },
-    "reported_cases": {
-     "new": 0,
-     "modified": 0,
-     "confirmed_only": 0
-    }
-   }
-  },
   {
    "run_id": "2026-09-25T23:45:00+02:00",
    "legacy": true,
@@ -5936,6 +5962,21 @@
      "new": 0,
      "modified": 0,
      "confirmed_only": 0
+    }
+   }
+  },
+  {
+   "run_id": "2026-10-31T16:03:57+00:00",
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 1,
+     "modified": 0,
+     "confirmed_only": 2
     }
    }
   }
