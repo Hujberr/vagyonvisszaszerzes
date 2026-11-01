@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-01T05:01:39+00:00",
+ "generated_at": "2026-11-01T11:07:32+00:00",
  "summary": {
   "megtakaritas_verified_huf": 3312290700000,
   "visszaszerzes_verified_huf": 1575719300000,
@@ -3384,7 +3384,7 @@
    "url": "https://magyarnemzet.hu/gazdasag/2026/09/allamadossag-novekedes"
   },
   "allamadossag_huf": 65716000000000,
-  "collected_at": "2026-11-01T05:59:00+01:00",
+  "collected_at": "2026-11-01T12:04:00+01:00",
   "elozo": {
    "allamadossag": {
     "period": null,
@@ -3597,19 +3597,20 @@
    "publish_date": "2026-09-22",
    "url": "https://www.portfolio.hu/gazdasag/20260922/itt-az-mnb-uj-elorejelzese-hiaba-a-nemzetkozi-kockazatok-mersekelt-marad-az-idei-inflacio-864484"
   },
-  "id": "2026-11-01T05-59"
+  "id": "2026-11-01T12-04"
  },
  "last_run": {
   "errors": [
-   "akk.hu hivatalos oldala ebben a futásban sem volt közvetlenül lekérhető; az államadósság értéke változatlanul a 2026-07-31-i (Magyar Nemzet/ÁKK-hivatkozás) állapotot tükrözi.",
-   "A KSH októberi havi inflációs gyorsjelentése e futás idején (2026-11-01 kora reggel) még nem jelent meg; a legutóbbi (szeptemberi, 2026-10-07-i közlésű) adat maradt érvényben.",
-   "A WebSearch eszköz 'site:k-monitor.hu' szűrője nem adott vissza a doménről származó találatot; a K-Monitor célzott ellenőrzése ebben a futásban emiatt korlátozott maradt.",
-   "Az mnvvh.hu/hirek oldal első lekérési kísérlete HTTP 503 hibával tért vissza, a második kísérlet sikerült.",
-   "Több hirkereso.hu-n talált, ígéretesnek tűnő cím (pl. 'állami kiádáscsökkentés a minisztériumoknál', 'közmédia-csatornák megszűnése 61 Mrd Ft', 'Unger Anna NVVH-ter vei') esetén az eredeti cikk célzott kereséssel nem volt megtalálható vagy megerősíthető ebben a futásban, ezért óvatosságból nem kerültek be új tételként; következő futásban érdemes célzottan utánanézni.",
-   "Nem találtunk olyan új (2026-10-29 utáni), még nem rögzített, közvetlen forrással igazolható megtakarítási/visszaszerzési/EU-forrás/feljelentési tényt, amely megfelelne a forrás-hitelességi és dupla számolás elleni szabályoknak; a meglévő összes érintő ügy (Matolcsy/Stof a elfogatóparancs, Sesztká 4,1 Mrd Ft-os alapítványi vagyon, V-Híd/PORR tárgyalás, RRF-kifizetés várakozása) már szerepelt a 2026-10-31-i futásban rögzített állapotban, új érdemi fejlemény nem volt azonosítható."
+   "akk.hu hivatalos oldala ebben a futásban sem volt közvetlenül lekérhető (JavaScript-alapú tartalom, 'Betöltés...' állapotban maradt); az államadósság értéke változatlanul a 2026-07-31-i (Magyar Nemzet/ÁKK-hivatkozás) állapotot tükrözi.",
+   "A KSH októberi havi inflációs gyorsjelentése e futás idején még nem jelent meg; a szeptemberi (2026-10-07-i közlésű) adat maradt érvényben.",
+   "ugyeszseg.hu/category/hirek/kozponti-nyomozo-fougyeszseg/ ismét HTTP 503 hibával tért vissza (már a 3. egymást követő futásban), nem volt elérhető.",
+   "A WebSearch 'site:k-monitor.hu' szűrő ebben a futásban sem adott vissza találatot a doménről; a K-Monitor ellenőrzése csak általános kulcsszavas kereséssel történt, releváns új találat nem volt azonosítható.",
+   "Nem találtunk olyan új, még nem rögzített, közvetlen forrással igazolható megtakarítási/visszaszerzési/EU-forrás/feljelentési tényt, amely megfelelne a forrás-hitelességi és dupla számolás elleni szabályoknak; ez a futás az előző, 2026-11-01 05:56–06:10 közötti futás után kevesebb mint 6 órával történt, amely már exhaustív ellenőrzést végzett és hasonlóan semmi újat nem talált.",
+   "A hirkereso.hu-n talált 'KEHOP Plusz EU-forrás-átcsoportosítás 130 Mrd Ft-tal' (Portfolio, 2026-11-01) cikk EU-programok közötti belső átcsoportosításról szól (RRF-be csoportosított korábbi KEHOP Plusz projektek), nem új megállapodott/beérkezett/elveszett összegről, ezért nem került be az eu_forras tételek közé.",
+   "A hirkereso.hu-n talált '61 milliárd Ft-os médiacsatorna-elvonás' (Demokrata, 2026-11-01) cikk tartalma egyetlen, erősen elfogult forrásból származik, más lapnál nem volt megerősíthető, és nem egyértelmű, hogy a felhasználói szabályok szerinti 'megtakarítás' kategóriába tartozna (vitatott, politikai jellegű médiaátalakítási kérdés) — nem került be."
   ],
   "eu_lost_items_new": 0,
-  "finished_at": "2026-11-01T06:10:00+01:00",
+  "finished_at": "2026-11-01T12:10:00+01:00",
   "items_duplicate": 0,
   "items_found_total": 0,
   "items_needs_review": 0,
@@ -3617,11 +3618,11 @@
   "reported_cases_new": 0,
   "reported_cases_updated": 0,
   "sources_checked": [
-   "kormany.hu/atlathato/feljelentes (ellenőrizve, 2026-10-21-i állapot, változatlan a reported-osszesito-2026-09 tételhez képest: 61 ügy, 4005 Mrd Ft, 74,0 Mrd Ft visszafizetve/megtakarítva)",
-   "mnvvh.hu/hirek (első kísérlet 503-as hibával, második kísérletre elérhető volt; csak a már ismert Matolcsy Ádám/Stofa György elfogatóparancs hír, új ügy nincs)",
-   "k-monitor.hu (WebSearch 'site:' szűrés nem működött megbízhatóan, releváns új találat nem volt azonosítható)",
-   "ugyeszseg.hu (Központi Nyomozó Főügyészség rovat; az egyetlen, 2026-10-29-i tétel — Matolcsy Ádám/Stofa György elfogatóparancs — már szerepel a reported-mnb-matolcsy-alapitvanyok-2026-09 tételben)",
-   "hirkereso.hu (Politika/Gazdaság rovat átnézve; a talált címek — minisztériumi kiadáscsökkentés, közmédia-megvonás, Unger Anna NVVH-tervek — részletező cikke nem volt megtalálható/azonosítható önálló forrásból, ezért nem került be)",
+   "kormany.hu/atlathato/feljelentes (ellenőrizve, 2026-10-21-i állapot, változatlan: 61 ügy, 4005 Mrd Ft, 74,0 Mrd Ft visszafizetve/megtakarítva)",
+   "mnvvh.hu/hirek (elérhető volt; csak már ismert Majer Bálint/NAV lélegeztetőgép hír, új ügy nincs)",
+   "ugyeszseg.hu/category/hirek/kozponti-nyomozo-fougyeszseg/ (HTTP 503, nem elérhető)",
+   "k-monitor.hu (WebSearch site: szűrő ismét nem adott találatot a doménről)",
+   "hirkereso.hu (Politika/Gazdaság és egyéb rovatok átnézve; 4 ígéretes cím azonosítva és utánajárva: Seszták-alapítványi vagyon (már ismert, 10-31-i futásban rögzítve), KEHOP Plusz EU-forrás átcsoportosítás (nem releváns kategória, belső EU-program-közötti átcsoportosítás, nem nyereség/veszteség), médiacsatorna-megszüntetés (Demokrata, egyetlen, erősen elfogult forrás, nem igazolható, nem releváns kategória), Orbán Viktor elleni feljelentés (már ismert, szeptemberi Fekete-Győr-ügy))",
    "telex.hu",
    "444.hu",
    "index.hu",
@@ -3635,20 +3636,20 @@
    "penzcentrum.hu",
    "privatbankar.hu",
    "mfor.hu",
-   "demokrata.hu (kereséssel, célzott cikk nem volt azonosítható)",
    "magyarnemzet.hu",
    "mandiner.hu",
-   "mnb.hu (árfolyamok oldal)",
-   "akk.hu (közvetlen elérés ebben a futásban sem sikerült, változatlan állapot maradt)",
+   "adozona.hu",
+   "mnb.hu (árfolyamok oldal, 2026-10-30: 365,80 Ft/EUR, változatlan az ismert állapothoz képest)",
+   "akk.hu (közvetlen elérés ezúttal sem sikerült: a lap JS-alapú, az adat 'Betöltés...' állapotban maradt)",
    "ksh.hu (sajtón keresztül; októberi inflációs gyorsjelentés e futás idején még nem jelent meg)"
   ],
-  "started_at": "2026-11-01T05:56:00+01:00",
-  "id": "2026-11-01T05-59"
+  "started_at": "2026-11-01T11:56:00+01:00",
+  "id": "2026-11-01T11-56"
  },
  "run_history": [
   {
-   "finished_at": "2026-11-01T06:10:00+01:00",
-   "started_at": "2026-11-01T05:56:00+01:00",
+   "finished_at": "2026-11-01T12:10:00+01:00",
+   "started_at": "2026-11-01T11:56:00+01:00",
    "items_new": 0,
    "reported_cases_new": 0,
    "reported_cases_updated": 0,
@@ -4433,7 +4434,7 @@
   }
  ],
  "run_summary": {
-  "run_id": "2026-11-01T05:01:39+00:00",
+  "run_id": "2026-11-01T11:07:32+00:00",
   "new": 0,
   "modified": 0,
   "confirmed_only": 0,
@@ -4456,22 +4457,6 @@
   "confirmed_ids": []
  },
  "run_summary_history": [
-  {
-   "run_id": "2026-09-25T17:50:00+02:00",
-   "legacy": true,
-   "by_section": {
-    "items": {
-     "new": 1,
-     "modified": 0,
-     "confirmed_only": 0
-    },
-    "reported_cases": {
-     "new": 0,
-     "modified": 0,
-     "confirmed_only": 0
-    }
-   }
-  },
   {
    "run_id": "2026-09-25T12:45:00+02:00",
    "legacy": true,
@@ -5954,6 +5939,21 @@
   },
   {
    "run_id": "2026-11-01T05:01:39+00:00",
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    }
+   }
+  },
+  {
+   "run_id": "2026-11-01T11:07:32+00:00",
    "by_section": {
     "items": {
      "new": 0,
