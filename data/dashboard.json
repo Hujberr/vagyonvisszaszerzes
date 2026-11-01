@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-31T16:03:57+00:00",
+ "generated_at": "2026-11-01T05:01:39+00:00",
  "summary": {
   "megtakaritas_verified_huf": 3312290700000,
   "visszaszerzes_verified_huf": 1575719300000,
@@ -3071,8 +3071,8 @@
    "subject": "Ruszin-Szendi Romulusz korábbi vezérkari főnöki szolgálati villájának felújítása — túlárazás gyanúja (HM EI Zrt.)",
    "verification_notes": "ÚJ TÉTEL (2026-10-31 16:56-os futás). Egyetlen, elsődlegesen 24.hu kutatására épülő, 444.hu által közölt forrásból ismert (2026-10-26); második, független forrásra vár. A cikk szerint a feltárt szerződésekben Ruszin-Szendi Romulusz (ma honvédelmi miniszter) személyesen nem jelenik meg megrendelőként, állítása szerint nem ő rendelte meg és nem ő tulajdonolta a felújítást. A 2025 februárjában, a korábbi (akkori) honvédelmi vezetés által kért Kormányzati Ellenőrzési Hivatal-vizsgálat kimeneteléről, illetve arról, hogy folyik-e jelenleg (2026 őszén) bármilyen hatósági vagy büntetőeljárás, nincs nyilvánosan ismert információ — a status ('under_investigation') ezért bizonytalan, csak a 2025-ös KEHI-vizsgálatkérésre utal, nem megerősített, aktív eljárásra. Nem szerepel a kormany.hu/atlathato/feljelentes hivatalos listáján (2026-10-21-i állapot szerint). A report_date a KEHI-vizsgálat kérésének idejére (2025 eleje) utal, nem a sajtóhír (2026-10-26) dátumára.",
    "id": "reported-ruszin-szendi-villa-tularazas-2026-10",
-   "updated_at": "2026-10-31T16:03:57+00:00",
-   "first_seen_at": "2026-10-31T16:03:57+00:00"
+   "first_seen_at": "2026-10-31T16:03:57+00:00",
+   "updated_at": "2026-10-31T16:03:57+00:00"
   },
   {
    "alleged_amount_huf": 12600000000,
@@ -3384,7 +3384,7 @@
    "url": "https://magyarnemzet.hu/gazdasag/2026/09/allamadossag-novekedes"
   },
   "allamadossag_huf": 65716000000000,
-  "collected_at": "2026-10-31T16:56:00+01:00",
+  "collected_at": "2026-11-01T05:59:00+01:00",
   "elozo": {
    "allamadossag": {
     "period": null,
@@ -3408,8 +3408,8 @@
     "key": "gdp_novekedes_eves",
     "label_en": "GDP growth (year-on-year)",
     "label_hu": "GDP-növekedés (éves)",
-    "note_en": "KSH's Q3 flash estimate had not been published as of this run (2026-10-31).",
-    "note_hu": "A KSH harmadik negyedéves gyorsbecslése e futás idején (2026-10-31) még nem jelent meg.",
+    "note_en": "KSH's Q3 flash estimate had not been published as of this run (2026-11-01).",
+    "note_hu": "A KSH harmadik negyedéves gyorsbecslése e futás idején (2026-11-01) még nem jelent meg.",
     "period": "2026 Q2",
     "prev_period": "2026 Q1",
     "prev_value": 1.7,
@@ -3597,237 +3597,61 @@
    "publish_date": "2026-09-22",
    "url": "https://www.portfolio.hu/gazdasag/20260922/itt-az-mnb-uj-elorejelzese-hiaba-a-nemzetkozi-kockazatok-mersekelt-marad-az-idei-inflacio-864484"
   },
-  "id": "2026-10-31T16-56"
+  "id": "2026-11-01T05-59"
  },
  "last_run": {
   "errors": [
-   "ugyeszseg.hu/category/hirek/kozponti-nyomozo-fougyeszseg/ két lekérési kísérletnél is HTTP 503-at adott, nem volt elérhető ebben a futásban",
-   "hirkereso.hu/politika 404-et adott, a gyökér (hirkereso.hu) oldalt kérdeztük le helyette",
-   "site:k-monitor.hu operátoros WebSearch lekérések nem adtak k-monitor.hu-ról származó találatot"
+   "akk.hu hivatalos oldala ebben a futásban sem volt közvetlenül lekérhető; az államadósság értéke változatlanul a 2026-07-31-i (Magyar Nemzet/ÁKK-hivatkozás) állapotot tükrözi.",
+   "A KSH októberi havi inflációs gyorsjelentése e futás idején (2026-11-01 kora reggel) még nem jelent meg; a legutóbbi (szeptemberi, 2026-10-07-i közlésű) adat maradt érvényben.",
+   "A WebSearch eszköz 'site:k-monitor.hu' szűrője nem adott vissza a doménről származó találatot; a K-Monitor célzott ellenőrzése ebben a futásban emiatt korlátozott maradt.",
+   "Az mnvvh.hu/hirek oldal első lekérési kísérlete HTTP 503 hibával tért vissza, a második kísérlet sikerült.",
+   "Több hirkereso.hu-n talált, ígéretesnek tűnő cím (pl. 'állami kiádáscsökkentés a minisztériumoknál', 'közmédia-csatornák megszűnése 61 Mrd Ft', 'Unger Anna NVVH-ter vei') esetén az eredeti cikk célzott kereséssel nem volt megtalálható vagy megerősíthető ebben a futásban, ezért óvatosságból nem kerültek be új tételként; következő futásban érdemes célzottan utánanézni.",
+   "Nem találtunk olyan új (2026-10-29 utáni), még nem rögzített, közvetlen forrással igazolható megtakarítási/visszaszerzési/EU-forrás/feljelentési tényt, amely megfelelne a forrás-hitelességi és dupla számolás elleni szabályoknak; a meglévő összes érintő ügy (Matolcsy/Stof a elfogatóparancs, Sesztká 4,1 Mrd Ft-os alapítványi vagyon, V-Híd/PORR tárgyalás, RRF-kifizetés várakozása) már szerepelt a 2026-10-31-i futásban rögzített állapotban, új érdemi fejlemény nem volt azonosítható."
   ],
   "eu_lost_items_new": 0,
-  "finished_at": "2026-10-31T17:35:00+01:00",
+  "finished_at": "2026-11-01T06:10:00+01:00",
   "items_duplicate": 0,
   "items_found_total": 0,
   "items_needs_review": 0,
   "items_new": 0,
-  "reported_cases_new": 1,
-  "reported_cases_updated": 2,
+  "reported_cases_new": 0,
+  "reported_cases_updated": 0,
   "sources_checked": [
-   "kormany.hu/atlathato/feljelentes",
-   "444.hu",
+   "kormany.hu/atlathato/feljelentes (ellenőrizve, 2026-10-21-i állapot, változatlan a reported-osszesito-2026-09 tételhez képest: 61 ügy, 4005 Mrd Ft, 74,0 Mrd Ft visszafizetve/megtakarítva)",
+   "mnvvh.hu/hirek (első kísérlet 503-as hibával, második kísérletre elérhető volt; csak a már ismert Matolcsy Ádám/Stofa György elfogatóparancs hír, új ügy nincs)",
+   "k-monitor.hu (WebSearch 'site:' szűrés nem működött megbízhatóan, releváns új találat nem volt azonosítható)",
+   "ugyeszseg.hu (Központi Nyomozó Főügyészség rovat; az egyetlen, 2026-10-29-i tétel — Matolcsy Ádám/Stofa György elfogatóparancs — már szerepel a reported-mnb-matolcsy-alapitvanyok-2026-09 tételben)",
+   "hirkereso.hu (Politika/Gazdaság rovat átnézve; a talált címek — minisztériumi kiadáscsökkentés, közmédia-megvonás, Unger Anna NVVH-tervek — részletező cikke nem volt megtalálható/azonosítható önálló forrásból, ezért nem került be)",
    "telex.hu",
-   "hvg.hu",
+   "444.hu",
    "index.hu",
    "portfolio.hu",
+   "hvg.hu",
    "economx.hu",
    "vg.hu",
+   "origo.hu",
    "infostart.hu",
+   "nepszava.hu",
+   "penzcentrum.hu",
    "privatbankar.hu",
-   "adozona.hu",
    "mfor.hu",
-   "forbes.hu",
-   "atv.hu",
-   "eduline.hu",
-   "hirkereso.hu",
-   "k-monitor.hu (csak WebSearch, site: operátor nem adott találatot)",
-   "mnvvh.hu/hirek",
-   "ugyeszseg.hu (nem elérhető, l. errors)"
+   "demokrata.hu (kereséssel, célzott cikk nem volt azonosítható)",
+   "magyarnemzet.hu",
+   "mandiner.hu",
+   "mnb.hu (árfolyamok oldal)",
+   "akk.hu (közvetlen elérés ebben a futásban sem sikerült, változatlan állapot maradt)",
+   "ksh.hu (sajtón keresztül; októberi inflációs gyorsjelentés e futás idején még nem jelent meg)"
   ],
-  "started_at": "2026-10-31T16:56:00+01:00",
-  "id": "2026-10-31T16-56"
+  "started_at": "2026-11-01T05:56:00+01:00",
+  "id": "2026-11-01T05-59"
  },
  "run_history": [
   {
-   "finished_at": "2026-10-31T17:35:00+01:00",
-   "started_at": "2026-10-31T16:56:00+01:00",
-   "items_new": 0,
-   "reported_cases_new": 1,
-   "reported_cases_updated": 2,
-   "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-10-31T13:10:00+01:00",
-   "started_at": "2026-10-31T12:00:00+01:00",
-   "items_new": 0,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 2,
-   "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-10-31T12:10:00+01:00",
-   "started_at": "2026-10-31T11:56:00+01:00",
+   "finished_at": "2026-11-01T06:10:00+01:00",
+   "started_at": "2026-11-01T05:56:00+01:00",
    "items_new": 0,
    "reported_cases_new": 0,
    "reported_cases_updated": 0,
-   "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-10-30T17:40:00+01:00",
-   "started_at": "2026-10-30T16:56:00+01:00",
-   "items_new": 0,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 0,
-   "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-10-30T12:20:00+01:00",
-   "started_at": "2026-10-30T12:00:00+01:00",
-   "items_new": 0,
-   "reported_cases_new": 1,
-   "reported_cases_updated": 1,
-   "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-10-30T06:40:00+01:00",
-   "started_at": "2026-10-30T05:59:00+01:00",
-   "items_new": 0,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 0,
-   "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-10-29T17:45:00+01:00",
-   "started_at": "2026-10-29T17:12:00+01:00",
-   "items_new": 0,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 2,
-   "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-10-29T12:30:00+01:00",
-   "started_at": "2026-10-29T11:55:00+01:00",
-   "items_new": 0,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 0,
-   "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-10-29T06:01:00+01:00",
-   "started_at": "2026-10-29T05:56:00+01:00",
-   "items_new": 0,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 0,
-   "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-10-28T17:10:00+01:00",
-   "started_at": "2026-10-28T16:30:00+01:00",
-   "items_new": 0,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 1,
-   "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-10-28T12:30:00+01:00",
-   "started_at": "2026-10-28T11:58:00+01:00",
-   "items_new": 0,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 0,
-   "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-10-28T06:40:00+01:00",
-   "started_at": "2026-10-28T06:02:00+01:00",
-   "items_new": 0,
-   "reported_cases_new": 1,
-   "reported_cases_updated": 0,
-   "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-10-27T17:05:00+01:00",
-   "started_at": "2026-10-27T16:30:00+01:00",
-   "items_new": 0,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 0,
-   "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-10-27T12:30:00+01:00",
-   "started_at": "2026-10-27T11:57:00+01:00",
-   "items_new": 0,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 0,
-   "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-10-27T06:35:00+02:00",
-   "started_at": "2026-10-27T06:00:00+02:00",
-   "items_new": 0,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 0,
-   "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-10-26T17:05:00+01:00",
-   "started_at": "2026-10-26T16:56:00+01:00",
-   "items_new": 0,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 0,
-   "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-10-26T12:03:00+01:00",
-   "started_at": "2026-10-26T11:57:00+01:00",
-   "items_new": 0,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 0,
-   "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-10-26T06:05:00+01:00",
-   "started_at": "2026-10-26T06:00:00+01:00",
-   "items_new": 0,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 0,
-   "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-10-25T17:30:00+02:00",
-   "started_at": "2026-10-25T16:56:00+02:00",
-   "items_new": 0,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 0,
-   "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-10-25T12:35:00+02:00",
-   "started_at": "2026-10-25T11:55:00+02:00",
-   "items_new": 0,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 0,
-   "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-10-25T06:30:00+02:00",
-   "started_at": "2026-10-25T05:55:00+02:00",
-   "items_new": 0,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 0,
-   "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-10-24T17:05:00+02:00",
-   "started_at": "2026-10-24T16:30:00+02:00",
-   "items_new": 0,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 0,
-   "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-10-24T12:35:00+02:00",
-   "started_at": "2026-10-24T11:56:00+02:00",
-   "items_new": 0,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 0,
-   "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-10-24T10:10:00+02:00",
-   "started_at": "2026-10-24T09:15:00+02:00",
-   "items_new": 0,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 1,
    "eu_lost_items_new": 0
   },
   {
@@ -4437,14 +4261,183 @@
    "reported_cases_new": 1,
    "reported_cases_updated": 2,
    "eu_lost_items_new": 0
+  },
+  {
+   "finished_at": "2026-09-28T12:10:00+02:00",
+   "started_at": "2026-09-28T11:30:00+02:00",
+   "items_new": 0,
+   "reported_cases_new": 4,
+   "reported_cases_updated": 3,
+   "eu_lost_items_new": 0
+  },
+  {
+   "finished_at": "2026-09-28T06:10:00+02:00",
+   "started_at": "2026-09-28T05:55:00+02:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
+  {
+   "finished_at": "2026-09-27T18:10:00+02:00",
+   "started_at": "2026-09-27T17:52:00+02:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
+  {
+   "finished_at": "2026-09-27T17:20:00+02:00",
+   "started_at": "2026-09-27T16:56:00+02:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
+  {
+   "finished_at": "2026-09-27T12:15:00+02:00",
+   "started_at": "2026-09-27T11:56:00+02:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
+  {
+   "finished_at": "2026-09-27T06:01:00+02:00",
+   "started_at": "2026-09-27T05:55:00+02:00",
+   "items_new": 1,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 2,
+   "eu_lost_items_new": 0
+  },
+  {
+   "finished_at": "2026-09-26T17:20:00+02:00",
+   "started_at": "2026-09-26T16:56:00+02:00",
+   "items_new": 0,
+   "reported_cases_new": 1,
+   "reported_cases_updated": 1,
+   "eu_lost_items_new": 0
+  },
+  {
+   "finished_at": "2026-09-26T13:05:00+02:00",
+   "started_at": "2026-09-26T12:55:00+02:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
+  {
+   "finished_at": "2026-09-26T12:10:00+02:00",
+   "started_at": "2026-09-26T11:55:00+02:00",
+   "items_new": 2,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 8,
+   "eu_lost_items_new": 0
+  },
+  {
+   "finished_at": "2026-09-26T08:05:00+02:00",
+   "started_at": "2026-09-26T07:15:00+02:00",
+   "items_new": 0,
+   "reported_cases_new": 1,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
+  {
+   "finished_at": "2026-09-26T06:47:00+02:00",
+   "started_at": "2026-09-26T06:43:00+02:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 3,
+   "eu_lost_items_new": 0
+  },
+  {
+   "finished_at": "2026-09-26T06:20:00+02:00",
+   "started_at": "2026-09-26T06:02:00+02:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
+  {
+   "finished_at": "2026-09-25T23:45:00+02:00",
+   "started_at": "2026-09-25T23:15:00+02:00",
+   "items_new": 2,
+   "reported_cases_new": 2,
+   "reported_cases_updated": 3
+  },
+  {
+   "finished_at": "2026-09-25T17:50:00+02:00",
+   "started_at": "2026-09-25T17:03:00+02:00",
+   "items_new": 1,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 0
+  },
+  {
+   "finished_at": "2026-09-25T12:45:00+02:00",
+   "started_at": "2026-09-25T12:02:00+02:00",
+   "items_new": 0,
+   "reported_cases_new": 1,
+   "reported_cases_updated": 1
+  },
+  {
+   "finished_at": "2026-09-25T07:10:00+02:00",
+   "started_at": "2026-09-25T06:02:00+02:00",
+   "items_new": 0,
+   "reported_cases_new": 1,
+   "reported_cases_updated": 0
+  },
+  {
+   "finished_at": "2026-09-24T17:40:00+02:00",
+   "started_at": "2026-09-24T17:02:00+02:00",
+   "items_new": 0,
+   "reported_cases_new": 1,
+   "reported_cases_updated": 0
+  },
+  {
+   "finished_at": "2026-09-24T12:35:00+02:00",
+   "started_at": "2026-09-24T12:08:00+02:00",
+   "items_new": 1,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 1
+  },
+  {
+   "finished_at": "2026-09-24T06:30:00+02:00",
+   "started_at": "2026-09-24T06:07:00+02:00",
+   "items_new": 0,
+   "reported_cases_new": 2,
+   "reported_cases_updated": 0
+  },
+  {
+   "finished_at": "2026-09-23T17:35:00+02:00",
+   "started_at": "2026-09-23T17:18:00+02:00",
+   "items_new": 1,
+   "reported_cases_new": 3,
+   "reported_cases_updated": 2
+  },
+  {
+   "finished_at": "2026-09-23T09:45:00+02:00",
+   "started_at": "2026-09-23T08:30:00+02:00",
+   "items_new": 2,
+   "reported_cases_new": 3,
+   "reported_cases_updated": 2
+  },
+  {
+   "finished_at": "2026-09-22T11:10:00+02:00",
+   "started_at": "2026-09-22T10:45:00+02:00",
+   "items_new": 4
+  },
+  {
+   "finished_at": "2026-09-22T10:55:00+02:00",
+   "started_at": "2026-09-22T10:30:00+02:00",
+   "items_new": 2
   }
  ],
  "run_summary": {
-  "run_id": "2026-10-31T16:03:57+00:00",
-  "new": 1,
+  "run_id": "2026-11-01T05:01:39+00:00",
+  "new": 0,
   "modified": 0,
-  "confirmed_only": 2,
-  "touched": 3,
+  "confirmed_only": 0,
+  "touched": 0,
   "pending_review": 2,
   "by_section": {
    "items": {
@@ -4453,37 +4446,16 @@
     "confirmed_only": 0
    },
    "reported_cases": {
-    "new": 1,
+    "new": 0,
     "modified": 0,
-    "confirmed_only": 2
+    "confirmed_only": 0
    }
   },
-  "new_ids": [
-   "r:reported-ruszin-szendi-villa-tularazas-2026-10"
-  ],
+  "new_ids": [],
   "modified_ids": [],
-  "confirmed_ids": [
-   "r:reported-hanko-balazs-nka-sikkasztas-2026-09",
-   "r:reported-sesztak-miklos-korrupcio-2026-09"
-  ]
+  "confirmed_ids": []
  },
  "run_summary_history": [
-  {
-   "run_id": "2026-09-25T23:45:00+02:00",
-   "legacy": true,
-   "by_section": {
-    "items": {
-     "new": 2,
-     "modified": 0,
-     "confirmed_only": 0
-    },
-    "reported_cases": {
-     "new": 2,
-     "modified": 3,
-     "confirmed_only": 0
-    }
-   }
-  },
   {
    "run_id": "2026-09-25T17:50:00+02:00",
    "legacy": true,
@@ -5977,6 +5949,21 @@
      "new": 1,
      "modified": 0,
      "confirmed_only": 2
+    }
+   }
+  },
+  {
+   "run_id": "2026-11-01T05:01:39+00:00",
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
     }
    }
   }
