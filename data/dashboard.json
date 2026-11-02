@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-01T16:02:07+00:00",
+ "generated_at": "2026-11-02T05:01:58+00:00",
  "summary": {
   "megtakaritas_verified_huf": 3312290700000,
   "visszaszerzes_verified_huf": 1575719300000,
@@ -2502,10 +2502,10 @@
    },
    "status": "under_investigation",
    "subject": "MNB-alapítványok ügye (Matolcsy-kör, hűtlen kezelés gyanúja)",
-   "verification_notes": "FRISSÍTVE 2026-10-29 17:12-es futás: a Magyar Nemzeti Bank felügyeleti biztost rendelt ki a QUARTZ Befektetési Alapkezelő Zrt.-hez, mert a cég vezérigazgatóját, Valkó Mihályt a Matolcsy-ügyben őrizetbe vették, és az MNB szerint ez veszélyeztette a cég törvényes működését és az investíciós döntéshozatalt; a felügyeleti biztosi feladatokat a Pénzügyi Stabilitási és Felszámoló Nkft. látja el az intézkedés visszavonásáig. A Budai Központi Kerületi Bíróság ezzel egy időben (2026-10-27/29 körül) formális európai és nemzetközi elfogatóparancsot adott ki Matolcsy Ádám és Stofa György ellen (korábban csak rendőrségi körözést rendeltek el ellenük); tartózkodási helyük ismeretlen, a bíróság szerint feltehetően Európán kívül tartózkodnak. Ez mind eljárási fejlemény, az alleged_amount_huf (300 Mrd Ft), a confirmed_recovered_huf (0) és a status (under_investigation) nem változott. (Korábbi megjegyzések megőrizve.) FRISSÍTVE 2026-10-24 reggeli futás: a Budai Központi Kerületi Bíróság nyomozási bírája 2026. október 23-án (péntek) egy hónapra elrendelte Matolcsy György volt jegybankelnök letartóztatását, a szökés és elrejtőzés, a tanúbefolyásolás és a bűnismétlés veszélyére hivatkozva. Két társát, Sándor Tamást (Matolcsy Ádám cégeinek ügyvédjét) és Valkó Mihályt (egyik érintett cég vezetőjét) is letartóztatták. A döntés nem jogerős, mindhárom gyanúsított védője fellebbezett. Legalább hat független forrás (444.hu, Telex, HVG, Index, Portfolio.hu, Forbes.hu) megerősíti, mind 2026-10-23-i dátummal. Ez eljárási fejlemény, az alleged_amount_huf (300 Mrd Ft), a confirmed_recovered_huf (0) és a status (under_investigation) nem változott. (Kormany.hu/atlathato/feljelentes ellenőrzés 2026-10-24: az oldal tartalma változatlan a 2026-10-21-i, 61 ügy/4005 Mrd Ft-os állapothoz képest, új ügy vagy összegváltozás nem észlelhető.) FRISSÍTVE 2026-10-23 16:56-os futás: a Válasz Online nyomán a Telex 2026-10-21-i cikke (ügyészségi dokumentumokra és tanúvallomásokra hivatkozva, önállóan nem ellenőrzött forrásból) egy 2025 júniusi, meghiúsult tranzakciót részletez: egy tervezet szerint az Alpine Holding Kft. (MNB-alapítványi hálózat cége) 12,4%-os MBH Bank-részesedést (kb. 200 milliárd forint értékben) szerzett volna meg egy svájci Ultima Capital-részesedés átadásáért; az ügyletet állítólag Matolcsy Ádám egykori ügyvédje és a Quartz-kör közötti egyeztetés után érvénytelenítették, a 23%-os MBH-részesedés végül más körhöz (Mészáros Lőrinc-érdekeltség) került, az Ultima-részvények az alapítványoknál maradtak. Ez egy MEGHIÚSULT, nem realizált tranzakció volt, tényleges vagyonvesztés vagy -visszaszerzés nem történt belőle, ezért az alleged_amount_huf (300 Mrd Ft) és a confirmed_recovered_huf (0) nem változott; egyetlen, áttételes (Válasz Online-ra hivatkozó) forrásból ismert, megerősítésre vár. Ugyanezen a napon (10-21) a Központi Nyomozó Főügyészség további, több helyszínre kiterjedő eljárási cselekményeket (házkutatás-jellegű intézkedéseket) jelentett be az MNB-ügyben, konkrét helyszín, gyanúsított vagy újonnan lefoglalt összeg megnevezése nélkül; ez eljárási fejlemény, az alleged_amount_huf és a confirmed_recovered_huf nem változott. (Kormany.hu/atlathato/feljelentes hivatalos oldal ellenőrzése: 2026-10-23 16:56-os futás — az oldal adatállapota továbbra is 2026-10-21, tartalmilag változatlan a korábban rögzített 61 ügy/4005 Mrd Ft-hoz képest, új ügy vagy összegváltozás nem észlelhető.) FRISSÍTVE 2026-10-22 11:56-os futás: legalább négy független forrás (Világgazdaság, Telex — két cikk —, Origo, Contextus) megerősítette és néven nevezte a korábban már jelzett két, nemzetközi elfogatóparancs alá vont gyanúsítottat: Matolcsy Ádám (Matolcsy György fia) és Stofa György (az Optima Investment Zrt. korábbi vezérigazgatója — ugyanaz a cég, amely a kapcsolódó reported-neumann-egyetem-optima-kotveny-2026-08 tételben is szerepel). A Telex 2026-10-22-i cikke szerint Matolcsy Ádámot a rendőrség még keresi, nem adta meg magát. Ez a korábban már rögzített tény (két további gyanúsított elfogatóparancsa) megerősítése/pontosítása, nem új fejlemény; az alleged_amount_huf (300 Mrd Ft), a confirmed_recovered_huf (0) és a status (under_investigation) nem változott. (Korábbi megjegyzések megőrizve.) FRISSÍTVE 2026-10-23 06:00-ás futás: a Pénzcentrum 2026-10-22-i tényellenőrző cikke szerint téves az a sajtóban elterjedt állítás, hogy a 91,8 milliárd forintot magától Matolcsy Györgytől foglalták volna le az október 21-i őrizetbe vételekor. A 91,8 Mrd Ft-os összeg valójában a Központi Nyomozó Főügyészség és az NNI 2026. május 29-i, a teljes (2025 eleje óta futó, 97 magánszemélyt, 36 céget és 11 magántőkealapot érintő) vizsgálatra vonatkozó összesítése, abból 80,8 Mrd Ft egy 2025.05.09-én zárolt értékpapírszámla, 506 M Ft négy meg nem nevezett személy bankszámláin, a maradék kb. 10,5 Mrd Ft forrása nincs tételesen közölve; ez nem végleges elkobzás, csak bizonyítékként zárolt vagyon. Az október 21-i őrizetbe vételkor Matolcsy mellett két további, a cikkben meg nem nevezett személyt is őrizetbe vettek. Az alleged_amount_huf (300 Mrd Ft), a confirmed_recovered_huf (0) és a status (under_investigation) nem változott. FRISSÍTVE 2026-10-21 16:56-os futás: jelentős eljárási eszkaláció. A Központi Nyomozó Főügyészség 2026.10.21-én idézésre (nem elfogással) beidézte Matolcsy Györgyöt, aki a kihallgatáson megtagadta a vallomástételt; az ügyészség ezután indítványozta az előzetes letartóztatását. A gyanú súlyosbodott: a korábbi hűtlen kezelés helyett most különösen nagy vagyoni hátrányt okozó csalás és hamis magánokirat felhasználásának gyanújával él az ügyészség (egy sajtóértesülés szerint színlelt szerződéssel szerezhettek az alapítványi vagyon felett irányítást). Matolcsy ügyvédje, Bátki Pál szerint mindkét (az őrizetbe vételi és a letartóztatási) döntést megfellebbezik; a nyomozási bíró döntése péntekig (2026-10-23) várható, addig őrizetben marad (az őrizet legfeljebb 72 óráig tarthat). Emellett az üggyel összefüggésben két további gyanúsított ellen nemzetközi elfogatóparancsot adott ki az ügyészség, és egy társgyanúsítottat is őrizetbe vettek és kihallgattak Matolcsyval egy időben. Ez mind eljárási fejlemény, tényleges vagyon-visszaszerzés vagy jogerős döntés még nem történt, ezért az alleged_amount_huf (300 Mrd Ft), a confirmed_recovered_huf (0) és a status (under_investigation) változatlan. Források: 444.hu, Index, Portfolio.hu, Infostart.hu, Pénzcentrum (mind 2026-10-21), valamint a hirkereso.hu friss-rovata (Telex, Economx, Mfor, Liner, 16:51-16:56 között) a nemzetközi elfogatóparancsról és a társgyanúsítottról. (Korábbi megjegyzések megőrizve, l. előző verzió.)",
+   "verification_notes": "FRISSÍTVE 2026-11-02 06:00-ás futás: a bíróság 2026. október 23-án elutasította Matolcsy György ügyvédje által felkínált 30 millió forintos óvadékot, és egy hónapra elrendelte a letartóztatását; mindhárom gyanúsított (Matolcsy György és két társa) fellebbezett a letartóztatási döntés ellen, az ügy jelenleg nem jogerős. Az alleged_amount_huf (300 Mrd Ft) és a confirmed_recovered_huf (0) nem változott. Forrás: 444.hu (2026-10-21, 2026-10-23). (Korábbi megjegyzések megőrizve.) FRISSÍTVE 2026-10-29 17:12-es futás: a Magyar Nemzeti Bank felügyeleti biztost rendelt ki a QUARTZ Befektetési Alapkezelő Zrt.-hez, mert a cég vezérigazgatóját, Valkó Mihályt a Matolcsy-ügyben őrizetbe vették, és az MNB szerint ez veszélyeztette a cég törvényes működését és az investíciós döntéshozatalt; a felügyeleti biztosi feladatokat a Pénzügyi Stabilitási és Felszámoló Nkft. látja el az intézkedés visszavonásáig. A Budai Központi Kerületi Bíróság ezzel egy időben (2026-10-27/29 körül) formális európai és nemzetközi elfogatóparancsot adott ki Matolcsy Ádám és Stofa György ellen (korábban csak rendőrségi körözést rendeltek el ellenük); tartózkodási helyük ismeretlen, a bíróság szerint feltehetően Európán kívül tartózkodnak. Ez mind eljárási fejlemény, az alleged_amount_huf (300 Mrd Ft), a confirmed_recovered_huf (0) és a status (under_investigation) nem változott. (Korábbi megjegyzések megőrizve.) FRISSÍTVE 2026-10-24 reggeli futás: a Budai Központi Kerületi Bíróság nyomozási bírája 2026. október 23-án (péntek) egy hónapra elrendelte Matolcsy György volt jegybankelnök letartóztatását, a szökés és elrejtőzés, a tanúbefolyásolás és a bűnismétlés veszélyére hivatkozva. Két társát, Sándor Tamást (Matolcsy Ádám cégeinek ügyvédjét) és Valkó Mihályt (egyik érintett cég vezetőjét) is letartóztatták. A döntés nem jogerős, mindhárom gyanúsított védője fellebbezett. Legalább hat független forrás (444.hu, Telex, HVG, Index, Portfolio.hu, Forbes.hu) megerősíti, mind 2026-10-23-i dátummal. Ez eljárási fejlemény, az alleged_amount_huf (300 Mrd Ft), a confirmed_recovered_huf (0) és a status (under_investigation) nem változott. (Kormany.hu/atlathato/feljelentes ellenőrzés 2026-10-24: az oldal tartalma változatlan a 2026-10-21-i, 61 ügy/4005 Mrd Ft-os állapothoz képest, új ügy vagy összegváltozás nem észlelhető.) FRISSÍTVE 2026-10-23 16:56-os futás: a Válasz Online nyomán a Telex 2026-10-21-i cikke (ügyészségi dokumentumokra és tanúvallomásokra hivatkozva, önállóan nem ellenőrzött forrásból) egy 2025 júniusi, meghiúsult tranzakciót részletez: egy tervezet szerint az Alpine Holding Kft. (MNB-alapítványi hálózat cége) 12,4%-os MBH Bank-részesedést (kb. 200 milliárd forint értékben) szerzett volna meg egy svájci Ultima Capital-részesedés átadásáért; az ügyletet állítólag Matolcsy Ádám egykori ügyvédje és a Quartz-kör közötti egyeztetés után érvénytelenítették, a 23%-os MBH-részesedés végül más körhöz (Mészáros Lőrinc-érdekeltség) került, az Ultima-részvények az alapítványoknál maradtak. Ez egy MEGHIÚSULT, nem realizált tranzakció volt, tényleges vagyonvesztés vagy -visszaszerzés nem történt belőle, ezért az alleged_amount_huf (300 Mrd Ft) és a confirmed_recovered_huf (0) nem változott; egyetlen, áttételes (Válasz Online-ra hivatkozó) forrásból ismert, megerősítésre vár. Ugyanezen a napon (10-21) a Központi Nyomozó Főügyészség további, több helyszínre kiterjedő eljárási cselekményeket (házkutatás-jellegű intézkedéseket) jelentett be az MNB-ügyben, konkrét helyszín, gyanúsított vagy újonnan lefoglalt összeg megnevezése nélkül; ez eljárási fejlemény, az alleged_amount_huf és a confirmed_recovered_huf nem változott. (Kormany.hu/atlathato/feljelentes hivatalos oldal ellenőrzése: 2026-10-23 16:56-os futás — az oldal adatállapota továbbra is 2026-10-21, tartalmilag változatlan a korábban rögzített 61 ügy/4005 Mrd Ft-hoz képest, új ügy vagy összegváltozás nem észlelhető.) FRISSÍTVE 2026-10-22 11:56-os futás: legalább négy független forrás (Világgazdaság, Telex — két cikk —, Origo, Contextus) megerősítette és néven nevezte a korábban már jelzett két, nemzetközi elfogatóparancs alá vont gyanúsítottat: Matolcsy Ádám (Matolcsy György fia) és Stofa György (az Optima Investment Zrt. korábbi vezérigazgatója — ugyanaz a cég, amely a kapcsolódó reported-neumann-egyetem-optima-kotveny-2026-08 tételben is szerepel). A Telex 2026-10-22-i cikke szerint Matolcsy Ádámot a rendőrség még keresi, nem adta meg magát. Ez a korábban már rögzített tény (két további gyanúsított elfogatóparancsa) megerősítése/pontosítása, nem új fejlemény; az alleged_amount_huf (300 Mrd Ft), a confirmed_recovered_huf (0) és a status (under_investigation) nem változott. (Korábbi megjegyzések megőrizve.) FRISSÍTVE 2026-10-23 06:00-ás futás: a Pénzcentrum 2026-10-22-i tényellenőrző cikke szerint téves az a sajtóban elterjedt állítás, hogy a 91,8 milliárd forintot magától Matolcsy Györgytől foglalták volna le az október 21-i őrizetbe vételekor. A 91,8 Mrd Ft-os összeg valójában a Központi Nyomozó Főügyészség és az NNI 2026. május 29-i, a teljes (2025 eleje óta futó, 97 magánszemélyt, 36 céget és 11 magántőkealapot érintő) vizsgálatra vonatkozó összesítése, abból 80,8 Mrd Ft egy 2025.05.09-én zárolt értékpapírszámla, 506 M Ft négy meg nem nevezett személy bankszámláin, a maradék kb. 10,5 Mrd Ft forrása nincs tételesen közölve; ez nem végleges elkobzás, csak bizonyítékként zárolt vagyon. Az október 21-i őrizetbe vételkor Matolcsy mellett két további, a cikkben meg nem nevezett személyt is őrizetbe vettek. Az alleged_amount_huf (300 Mrd Ft), a confirmed_recovered_huf (0) és a status (under_investigation) nem változott. FRISSÍTVE 2026-10-21 16:56-os futás: jelentős eljárási eszkaláció. A Központi Nyomozó Főügyészség 2026.10.21-én idézésre (nem elfogással) beidézte Matolcsy Györgyöt, aki a kihallgatáson megtagadta a vallomástételt; az ügyészség ezután indítványozta az előzetes letartóztatását. A gyanú súlyosbodott: a korábbi hűtlen kezelés helyett most különösen nagy vagyoni hátrányt okozó csalás és hamis magánokirat felhasználásának gyanújával él az ügyészség (egy sajtóértesülés szerint színlelt szerződéssel szerezhettek az alapítványi vagyon felett irányítást). Matolcsy ügyvédje, Bátki Pál szerint mindkét (az őrizetbe vételi és a letartóztatási) döntést megfellebbezik; a nyomozási bíró döntése péntekig (2026-10-23) várható, addig őrizetben marad (az őrizet legfeljebb 72 óráig tarthat). Emellett az üggyel összefüggésben két további gyanúsított ellen nemzetközi elfogatóparancsot adott ki az ügyészség, és egy társgyanúsítottat is őrizetbe vettek és kihallgattak Matolcsyval egy időben. Ez mind eljárási fejlemény, tényleges vagyon-visszaszerzés vagy jogerős döntés még nem történt, ezért az alleged_amount_huf (300 Mrd Ft), a confirmed_recovered_huf (0) és a status (under_investigation) változatlan. Források: 444.hu, Index, Portfolio.hu, Infostart.hu, Pénzcentrum (mind 2026-10-21), valamint a hirkereso.hu friss-rovata (Telex, Economx, Mfor, Liner, 16:51-16:56 között) a nemzetközi elfogatóparancsról és a társgyanúsítottról. (Korábbi megjegyzések megőrizve, l. előző verzió.)",
    "id": "reported-mnb-matolcsy-alapitvanyok-2026-09",
    "first_seen_at": "2026-09-28T15:02:40+00:00",
-   "updated_at": "2026-10-29T16:19:24+00:00"
+   "updated_at": "2026-11-02T05:01:58+00:00"
   },
   {
    "additional_sources": [
@@ -3089,10 +3089,10 @@
    },
    "status": "under_investigation",
    "subject": "Seszták Miklós korábbi fejlesztési miniszter korrupciós ügye (Volánbusz és építőipari megbízások)",
-   "verification_notes": "FRISSÍTVE 2026-10-31 16:56-os futás: a Telex 2026-10-31-i, részletes vizsonyítási cikke szerint Seszták Miklós korábbi kisvárdai üzleti köréhez (Hódos Éva Csilla ügyvédhez és a mögötte álló cégekhez) köthetően két vagyonkezelő alapítvány — az OAK Vagyonkezelő Alapítvány (2024-ben alapítva, egy ciprusi Minotax International Ltd. tulajdonosa) és a Hódvár Vagyonkezelő Alapítvány — összesen több mint 4,1 milliárd forint vagyon felett rendelkezik. Seszták maga nem alapítója vagy kedvezményezettje a két alapítványnak, de a vagyonkezelői/ellenőri szerepet az ő lánya, a Seszták Ügyvédi Iroda (azonos kisvárdai cím és telefonszám, mint az egyik, Seszták által is jegyzett alapítványé) látja el. A hírt az Economx, az ATV és a Kontroll is átvette (mind Telexre hivatkozva, tehát nem független megerősítés). Ez EGYELŐRE csak sajtó által feltárt, eddig rejtett vagyon azonosítása — nincs hivatalos (NVVH/ügyészségi) megerősítés arról, hogy ez a 4,1 Mrd Ft a 12,6 Mrd Ft-os vádirati összeg része vagy attól független, és nincs vagyonzárolási/elkobzási intézkedés sem e két alapítvány vonatkozásában; az alleged_amount_huf (12,6 Mrd Ft) és a confirmed_recovered_huf (0) ezért nem változott, a tényt csak megjegyzésként rögzítjük, második (hatósági vagy független, nem Telexre hivatkozó) megerősítésre vár. (Korábbi megjegyzések megőrizve, l. előző verzió.)",
+   "verification_notes": "FRISSÍTVE 2026-11-02 06:00-ás futás: a Budai Központi Kerületi Bíróság 2026. október 28-án 2027. január 30-ig meghosszabbította Seszták Miklós letartóztatását, a szökés, elrejtőzés és a bizonyítási eljárás veszélyeztetésének kockázatára hivatkozva. A bíróság közlése szerint Seszták a gyanú szerint elrejtett valahol kb. 9 milliárd forintot: a házkutatáskor a páncélszekrényekben már csak üres tartalmat találtak, és a legutóbbi vagyonnyilatkozatában feltüntetett ingatlanok, állampapírok, részvények és megtakarítások összege sem éri el a 9 milliárd forintot. Ez eljárási/vagyonfelderítési fejlemény, nem jelent tényleges, az államhoz visszakerült vagyont; az alleged_amount_huf (12,6 Mrd Ft) és a confirmed_recovered_huf (4,045 Mrd Ft) nem változott. Források: 444.hu (2026-10-28, 2026-10-29). (Korábbi megjegyzések megőrizve.) FRISSÍTVE 2026-10-31 16:56-os futás: a Telex 2026-10-31-i, részletes vizsonyítási cikke szerint Seszták Miklós korábbi kisvárdai üzleti köréhez (Hódos Éva Csilla ügyvédhez és a mögötte álló cégekhez) köthetően két vagyonkezelő alapítvány — az OAK Vagyonkezelő Alapítvány (2024-ben alapítva, egy ciprusi Minotax International Ltd. tulajdonosa) és a Hódvár Vagyonkezelő Alapítvány — összesen több mint 4,1 milliárd forint vagyon felett rendelkezik. Seszták maga nem alapítója vagy kedvezményezettje a két alapítványnak, de a vagyonkezelői/ellenőri szerepet az ő lánya, a Seszták Ügyvédi Iroda (azonos kisvárdai cím és telefonszám, mint az egyik, Seszták által is jegyzett alapítványé) látja el. A hírt az Economx, az ATV és a Kontroll is átvette (mind Telexre hivatkozva, tehát nem független megerősítés). Ez EGYELŐRE csak sajtó által feltárt, eddig rejtett vagyon azonosítása — nincs hivatalos (NVVH/ügyészségi) megerősítés arról, hogy ez a 4,1 Mrd Ft a 12,6 Mrd Ft-os vádirati összeg része vagy attól független, és nincs vagyonzárolási/elkobzási intézkedés sem e két alapítvány vonatkozásában; az alleged_amount_huf (12,6 Mrd Ft) és a confirmed_recovered_huf (0) ezért nem változott, a tényt csak megjegyzésként rögzítjük, második (hatósági vagy független, nem Telexre hivatkozó) megerősítésre vár. (Korábbi megjegyzések megőrizve, l. előző verzió.)",
    "id": "reported-sesztak-miklos-korrupcio-2026-09",
    "first_seen_at": "2026-09-28T15:02:40+00:00",
-   "updated_at": "2026-10-31T16:03:57+00:00"
+   "updated_at": "2026-11-02T05:01:58+00:00"
   },
   {
    "alleged_amount_huf": 64610000000,
@@ -3384,7 +3384,7 @@
    "url": "https://magyarnemzet.hu/gazdasag/2026/09/allamadossag-novekedes"
   },
   "allamadossag_huf": 65716000000000,
-  "collected_at": "2026-11-01T16:56:00+01:00",
+  "collected_at": "2026-11-02T06:00:00+01:00",
   "elozo": {
    "allamadossag": {
     "period": null,
@@ -3408,8 +3408,8 @@
     "key": "gdp_novekedes_eves",
     "label_en": "GDP growth (year-on-year)",
     "label_hu": "GDP-növekedés (éves)",
-    "note_en": "KSH's Q3 flash estimate had not been published as of this run (2026-11-01).",
-    "note_hu": "A KSH harmadik negyedéves gyorsbecslése e futás idején (2026-11-01) még nem jelent meg.",
+    "note_en": "KSH's Q3 flash estimate had not been published as of this run (2026-11-02).",
+    "note_hu": "A KSH harmadik negyedéves gyorsbecslése e futás idején (2026-11-02) még nem jelent meg.",
     "period": "2026 Q2",
     "prev_period": "2026 Q1",
     "prev_value": 1.7,
@@ -3488,8 +3488,8 @@
     "key": "eur_huf",
     "label_en": "Official EUR/HUF rate (MNB)",
     "label_hu": "Euró hivatalos árfolyama (MNB)",
-    "note_en": "The dollar rate was 326.64 Ft/USD on 2026-10-30.",
-    "note_hu": "A dollár árfolyama 2026-10-30-án 326,64 Ft/USD volt.",
+    "note_en": "The dollar rate was 326.64 Ft/USD on 2026-10-30. No more recent, reliably verifiable official rate was available as of this run (2026-11-02).",
+    "note_hu": "A dollár árfolyama 2026-10-30-án 326,64 Ft/USD volt. E futás idején (2026-11-02) ennél frissebb, megbízhatóan ellenőrizhető hivatalos árfolyamadat nem volt elérhető.",
     "period": "2026-10-30",
     "prev_period": "2026-10-29",
     "prev_value": 366.16,
@@ -3597,270 +3597,46 @@
    "publish_date": "2026-09-22",
    "url": "https://www.portfolio.hu/gazdasag/20260922/itt-az-mnb-uj-elorejelzese-hiaba-a-nemzetkozi-kockazatok-mersekelt-marad-az-idei-inflacio-864484"
   },
-  "id": "2026-11-01T16-56"
+  "id": "2026-11-02T06-00"
  },
  "last_run": {
   "errors": [
-   "akk.hu hivatalos oldala ebben a futásban sem volt közvetlenül lekérhető (JavaScript-alapú tartalom); az államadósság értéke változatlanul a 2026-07-31-i (Magyar Nemzet/ÁKK-hivatkozás) állapotot tükrözi.",
-   "A KSH októberi havi inflációs gyorsjelentése és a Q3 GDP-gyorsbecslés e futás idején még nem jelent meg; a szeptemberi/Q2-es adatok maradtak érvényben.",
-   "ugyeszseg.hu/category/hirek/kozponti-nyomozo-fougyeszseg/ ismét HTTP 503 hibával tért vissza, nem volt elérhető.",
-   "A WebSearch 'site:k-monitor.hu' szűrő ebben a futásban sem adott vissza találatot a doménről; a K-Monitor ellenőrzése csak általános kulcsszavas kereséssel történt, releváns új találat nem volt azonosítható.",
-   "Nem találtunk olyan új, még nem rögzített, közvetlen forrással igazolható megtakarítási/visszaszerzési/EU-forrás/feljelentési tényt, amely megfelelne a forrás-hitelességi és dupla számolás elleni szabályoknak; legalább 10 különböző tematikus keresés (megtakarítás, vagyonvisszaszerzés, EU-forrás érkezés/vesztes, feljelentés, túlrazás, adofízetők pénze, pazarlás, spórolt az állam, ÁKK államadósság) után sem.",
-   "Az Orbán Viktor elleni, Fekete-Győr András által benyujtott feljelentés ügyében az Economx (2026-10-03) szerint a budapesti ügyészség már 11 feljelentést is elutasított (nincs bűncselekmény); ez már ismert, nem közpénzügyi tény, új tételként nem releváns."
+   "A WebSearch eszköz nem tudta közvetlenül lekérni a k-monitor.hu, hirkereso.hu, mnvvh.hu/hirek és ügyészség.hu oldalakat (a keresőindex nem adott vissza közvetlen, friss találatot ezekről a domainekről ebben a futásban); ez keresőindex-korlát, nem hálózati blokk - a korábbi futásokban rögzített adatok érvényben maradnak.",
+   "A KSH szeptemberi munkanélküliségi gyorstájékoztatója e futás idején még nem jelent meg; a legutóbbi (augusztusi) adat maradt érvényben.",
+   "Az ÁKK friss (szeptemberi/októberi) államadósság-összesítőjét nem sikerült megbízhatóan megtalálni ebben a futásban; a 2026-07-31-i állapot maradt érvényben.",
+   "A mai (2026-10-23) MNB hivatalos EUR/HUF árfolyamot nem sikerült megbízhatóan megerősíteni; a 2026-10-22-i érték maradt érvényben."
   ],
   "eu_lost_items_new": 0,
-  "finished_at": "2026-11-01T17:30:00+01:00",
+  "finished_at": "2026-10-23T17:40:00+02:00",
   "items_duplicate": 0,
   "items_found_total": 0,
   "items_needs_review": 0,
   "items_new": 0,
   "reported_cases_new": 0,
-  "reported_cases_updated": 0,
+  "reported_cases_updated": 1,
   "sources_checked": [
-   "kormany.hu/atlathato/feljelentes (ellenőrizve WebFetch-csel, változatlan a 2026-10-21-i állapothoz képest: 61 ügy, 4005 Mrd Ft, 74,0 Mrd Ft visszafizetve/megtakarítva; részletes, tételenkénti ellenőrzés minden névvel azonosítható sorra, eltérés nem található)",
-   "mnvvh.hu/hirek (elérhető volt; csak a már ismert, 2026-10-27/28-i lélegeztetőgép/NAV és Matolcsy-ügy hírek, új ügy nincs)",
-   "ugyeszseg.hu/category/hirek/kozponti-nyomozo-fougyeszseg/ (HTTP 503, nem elérhető)",
-   "k-monitor.hu (csak WebSearch, site: operátor ismét nem adott közvetlen találatot a doménről)",
-   "hirkereso.hu (Gazdaság/egyéb rovatok átnézve; a talált címek közül a KEHOP Plusz EU-forrás-átcsoportosítás (130 Mrd Ft, belső program közötti átcsoportosítás, nem új megnyert/elvesztett forrás) és a közmédia-csatorna 61 Mrd Ft-os megvonása (Demokrata, egyetlen erősen elfogult forrás) már a korábbi futásban azonosítva és elutasítva lett, új elem nem került be)",
-   "telex.hu",
+   "kormany.hu/atlathato/feljelentes (official, via web-fetch, data stamp unchanged: 2026-10-21)",
+   "Telex",
    "444.hu",
-   "index.hu",
-   "portfolio.hu",
-   "hvg.hu",
-   "economx.hu",
-   "vg.hu",
-   "origo.hu",
-   "infostart.hu",
-   "nepszava.hu",
-   "penzcentrum.hu",
-   "privatbankar.hu",
-   "mfor.hu",
-   "adozona.hu",
-   "atv.hu",
-   "mnb.hu (árfolyamok, változatlan a 2026-10-30-i állapothoz képest)",
-   "akk.hu (közvetlen elérés ismét nem sikerült, változatlan állapot maradt)",
-   "ksh.hu (sajtón keresztül; októberi havi inflációs gyorsjelentés és Q3 GDP-gyorsbecslés e futás idején még nem jelent meg)"
+   "Index.hu",
+   "Portfolio.hu",
+   "VG.hu",
+   "Economx.hu",
+   "Infostart.hu",
+   "Privátbankár.hu",
+   "Adózóna (KSH/PM adatközlések)",
+   "K-Monitor (site: search, no new hit)",
+   "hirkereso.hu (search attempt, no direct listing retrievable)",
+   "mnvvh.hu/hirek (search attempt, no October item found)",
+   "ügyészség.hu / Központi Nyomozó Főügyészség (search attempt, no October communiqué found directly)",
+   "KSH (munkanélküliség, infláció - via sajtó)",
+   "MNB (alapkamat, árfolyam - via sajtó)",
+   "ÁKK (államadósság - via sajtó, no fresh September/October figure found)"
   ],
-  "started_at": "2026-11-01T16:56:00+01:00",
-  "id": "2026-11-01T16-56"
+  "started_at": "2026-10-23T16:56:00+02:00",
+  "id": "2026-10-23T16-56"
  },
  "run_history": [
-  {
-   "finished_at": "2026-11-01T17:30:00+01:00",
-   "started_at": "2026-11-01T16:56:00+01:00",
-   "items_new": 0,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 0,
-   "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-11-01T12:10:00+01:00",
-   "started_at": "2026-11-01T11:56:00+01:00",
-   "items_new": 0,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 0,
-   "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-11-01T06:10:00+01:00",
-   "started_at": "2026-11-01T05:56:00+01:00",
-   "items_new": 0,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 0,
-   "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-10-31T17:35:00+01:00",
-   "started_at": "2026-10-31T16:56:00+01:00",
-   "items_new": 0,
-   "reported_cases_new": 1,
-   "reported_cases_updated": 2,
-   "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-10-31T13:10:00+01:00",
-   "started_at": "2026-10-31T12:00:00+01:00",
-   "items_new": 0,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 2,
-   "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-10-31T12:10:00+01:00",
-   "started_at": "2026-10-31T11:56:00+01:00",
-   "items_new": 0,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 0,
-   "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-10-30T17:40:00+01:00",
-   "started_at": "2026-10-30T16:56:00+01:00",
-   "items_new": 0,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 0,
-   "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-10-30T12:20:00+01:00",
-   "started_at": "2026-10-30T12:00:00+01:00",
-   "items_new": 0,
-   "reported_cases_new": 1,
-   "reported_cases_updated": 1,
-   "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-10-30T06:40:00+01:00",
-   "started_at": "2026-10-30T05:59:00+01:00",
-   "items_new": 0,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 0,
-   "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-10-29T17:45:00+01:00",
-   "started_at": "2026-10-29T17:12:00+01:00",
-   "items_new": 0,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 2,
-   "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-10-29T12:30:00+01:00",
-   "started_at": "2026-10-29T11:55:00+01:00",
-   "items_new": 0,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 0,
-   "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-10-29T06:01:00+01:00",
-   "started_at": "2026-10-29T05:56:00+01:00",
-   "items_new": 0,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 0,
-   "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-10-28T17:10:00+01:00",
-   "started_at": "2026-10-28T16:30:00+01:00",
-   "items_new": 0,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 1,
-   "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-10-28T12:30:00+01:00",
-   "started_at": "2026-10-28T11:58:00+01:00",
-   "items_new": 0,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 0,
-   "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-10-28T06:40:00+01:00",
-   "started_at": "2026-10-28T06:02:00+01:00",
-   "items_new": 0,
-   "reported_cases_new": 1,
-   "reported_cases_updated": 0,
-   "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-10-27T17:05:00+01:00",
-   "started_at": "2026-10-27T16:30:00+01:00",
-   "items_new": 0,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 0,
-   "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-10-27T12:30:00+01:00",
-   "started_at": "2026-10-27T11:57:00+01:00",
-   "items_new": 0,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 0,
-   "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-10-27T06:35:00+02:00",
-   "started_at": "2026-10-27T06:00:00+02:00",
-   "items_new": 0,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 0,
-   "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-10-26T17:05:00+01:00",
-   "started_at": "2026-10-26T16:56:00+01:00",
-   "items_new": 0,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 0,
-   "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-10-26T12:03:00+01:00",
-   "started_at": "2026-10-26T11:57:00+01:00",
-   "items_new": 0,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 0,
-   "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-10-26T06:05:00+01:00",
-   "started_at": "2026-10-26T06:00:00+01:00",
-   "items_new": 0,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 0,
-   "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-10-25T17:30:00+02:00",
-   "started_at": "2026-10-25T16:56:00+02:00",
-   "items_new": 0,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 0,
-   "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-10-25T12:35:00+02:00",
-   "started_at": "2026-10-25T11:55:00+02:00",
-   "items_new": 0,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 0,
-   "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-10-25T06:30:00+02:00",
-   "started_at": "2026-10-25T05:55:00+02:00",
-   "items_new": 0,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 0,
-   "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-10-24T17:05:00+02:00",
-   "started_at": "2026-10-24T16:30:00+02:00",
-   "items_new": 0,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 0,
-   "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-10-24T12:35:00+02:00",
-   "started_at": "2026-10-24T11:56:00+02:00",
-   "items_new": 0,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 0,
-   "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-10-24T10:10:00+02:00",
-   "started_at": "2026-10-24T09:15:00+02:00",
-   "items_new": 0,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 1,
-   "eu_lost_items_new": 0
-  },
   {
    "finished_at": "2026-10-23T17:40:00+02:00",
    "started_at": "2026-10-23T16:56:00+02:00",
@@ -4444,14 +4220,212 @@
    "reported_cases_new": 2,
    "reported_cases_updated": 1,
    "eu_lost_items_new": 0
+  },
+  {
+   "finished_at": "2026-09-29T12:15:00+02:00",
+   "started_at": "2026-09-29T11:30:00+02:00",
+   "items_new": 0,
+   "reported_cases_new": 1,
+   "reported_cases_updated": 1,
+   "eu_lost_items_new": 0
+  },
+  {
+   "finished_at": "2026-09-29T09:35:00+02:00",
+   "started_at": "2026-09-29T09:00:00+02:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 2,
+   "eu_lost_items_new": 0
+  },
+  {
+   "finished_at": "2026-09-28T17:02:00+02:00",
+   "started_at": "2026-09-28T16:56:00+02:00",
+   "items_new": 0,
+   "reported_cases_new": 1,
+   "reported_cases_updated": 2,
+   "eu_lost_items_new": 0
+  },
+  {
+   "finished_at": "2026-09-28T12:10:00+02:00",
+   "started_at": "2026-09-28T11:30:00+02:00",
+   "items_new": 0,
+   "reported_cases_new": 4,
+   "reported_cases_updated": 3,
+   "eu_lost_items_new": 0
+  },
+  {
+   "finished_at": "2026-09-28T06:10:00+02:00",
+   "started_at": "2026-09-28T05:55:00+02:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
+  {
+   "finished_at": "2026-09-27T18:10:00+02:00",
+   "started_at": "2026-09-27T17:52:00+02:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
+  {
+   "finished_at": "2026-09-27T17:20:00+02:00",
+   "started_at": "2026-09-27T16:56:00+02:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
+  {
+   "finished_at": "2026-09-27T12:15:00+02:00",
+   "started_at": "2026-09-27T11:56:00+02:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
+  {
+   "finished_at": "2026-09-27T06:01:00+02:00",
+   "started_at": "2026-09-27T05:55:00+02:00",
+   "items_new": 1,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 2,
+   "eu_lost_items_new": 0
+  },
+  {
+   "finished_at": "2026-09-26T17:20:00+02:00",
+   "started_at": "2026-09-26T16:56:00+02:00",
+   "items_new": 0,
+   "reported_cases_new": 1,
+   "reported_cases_updated": 1,
+   "eu_lost_items_new": 0
+  },
+  {
+   "finished_at": "2026-09-26T13:05:00+02:00",
+   "started_at": "2026-09-26T12:55:00+02:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
+  {
+   "finished_at": "2026-09-26T12:10:00+02:00",
+   "started_at": "2026-09-26T11:55:00+02:00",
+   "items_new": 2,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 8,
+   "eu_lost_items_new": 0
+  },
+  {
+   "finished_at": "2026-09-26T08:05:00+02:00",
+   "started_at": "2026-09-26T07:15:00+02:00",
+   "items_new": 0,
+   "reported_cases_new": 1,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
+  {
+   "finished_at": "2026-09-26T06:47:00+02:00",
+   "started_at": "2026-09-26T06:43:00+02:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 3,
+   "eu_lost_items_new": 0
+  },
+  {
+   "finished_at": "2026-09-26T06:20:00+02:00",
+   "started_at": "2026-09-26T06:02:00+02:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
+  {
+   "finished_at": "2026-09-25T23:45:00+02:00",
+   "started_at": "2026-09-25T23:15:00+02:00",
+   "items_new": 2,
+   "reported_cases_new": 2,
+   "reported_cases_updated": 3
+  },
+  {
+   "finished_at": "2026-09-25T17:50:00+02:00",
+   "started_at": "2026-09-25T17:03:00+02:00",
+   "items_new": 1,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 0
+  },
+  {
+   "finished_at": "2026-09-25T12:45:00+02:00",
+   "started_at": "2026-09-25T12:02:00+02:00",
+   "items_new": 0,
+   "reported_cases_new": 1,
+   "reported_cases_updated": 1
+  },
+  {
+   "finished_at": "2026-09-25T07:10:00+02:00",
+   "started_at": "2026-09-25T06:02:00+02:00",
+   "items_new": 0,
+   "reported_cases_new": 1,
+   "reported_cases_updated": 0
+  },
+  {
+   "finished_at": "2026-09-24T17:40:00+02:00",
+   "started_at": "2026-09-24T17:02:00+02:00",
+   "items_new": 0,
+   "reported_cases_new": 1,
+   "reported_cases_updated": 0
+  },
+  {
+   "finished_at": "2026-09-24T12:35:00+02:00",
+   "started_at": "2026-09-24T12:08:00+02:00",
+   "items_new": 1,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 1
+  },
+  {
+   "finished_at": "2026-09-24T06:30:00+02:00",
+   "started_at": "2026-09-24T06:07:00+02:00",
+   "items_new": 0,
+   "reported_cases_new": 2,
+   "reported_cases_updated": 0
+  },
+  {
+   "finished_at": "2026-09-23T17:35:00+02:00",
+   "started_at": "2026-09-23T17:18:00+02:00",
+   "items_new": 1,
+   "reported_cases_new": 3,
+   "reported_cases_updated": 2
+  },
+  {
+   "finished_at": "2026-09-23T09:45:00+02:00",
+   "started_at": "2026-09-23T08:30:00+02:00",
+   "items_new": 2,
+   "reported_cases_new": 3,
+   "reported_cases_updated": 2
+  },
+  {
+   "finished_at": "2026-09-22T11:10:00+02:00",
+   "started_at": "2026-09-22T10:45:00+02:00",
+   "items_new": 4
+  },
+  {
+   "finished_at": "2026-09-22T10:55:00+02:00",
+   "started_at": "2026-09-22T10:30:00+02:00",
+   "items_new": 2
+  },
+  {
+   "finished_at": "2026-09-22T10:40:00+02:00",
+   "started_at": "2026-09-22T10:21:00+02:00",
+   "items_new": 2
   }
  ],
  "run_summary": {
-  "run_id": "2026-11-01T16:02:07+00:00",
+  "run_id": "2026-11-02T05:01:58+00:00",
   "new": 0,
   "modified": 0,
-  "confirmed_only": 0,
-  "touched": 0,
+  "confirmed_only": 2,
+  "touched": 2,
   "pending_review": 2,
   "by_section": {
    "items": {
@@ -4462,30 +4436,17 @@
    "reported_cases": {
     "new": 0,
     "modified": 0,
-    "confirmed_only": 0
+    "confirmed_only": 2
    }
   },
   "new_ids": [],
   "modified_ids": [],
-  "confirmed_ids": []
+  "confirmed_ids": [
+   "r:reported-mnb-matolcsy-alapitvanyok-2026-09",
+   "r:reported-sesztak-miklos-korrupcio-2026-09"
+  ]
  },
  "run_summary_history": [
-  {
-   "run_id": "2026-09-25T07:10:00+02:00",
-   "legacy": true,
-   "by_section": {
-    "items": {
-     "new": 0,
-     "modified": 0,
-     "confirmed_only": 0
-    },
-    "reported_cases": {
-     "new": 1,
-     "modified": 0,
-     "confirmed_only": 0
-    }
-   }
-  },
   {
    "run_id": "2026-09-24T17:40:00+02:00",
    "legacy": true,
@@ -5976,6 +5937,21 @@
      "new": 0,
      "modified": 0,
      "confirmed_only": 0
+    }
+   }
+  },
+  {
+   "run_id": "2026-11-02T05:01:58+00:00",
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 2
     }
    }
   }
