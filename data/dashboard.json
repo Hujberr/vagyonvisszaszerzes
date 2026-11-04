@@ -1,13 +1,13 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-04T11:02:01+00:00",
+ "generated_at": "2026-11-04T16:07:11+00:00",
  "summary": {
   "megtakaritas_verified_huf": 3312290700000,
   "visszaszerzes_verified_huf": 1575719300000,
   "eu_forras_verified_huf": 6280000000000,
   "eu_forras_lost_huf": 730000000000,
   "items_count": 38,
-  "reported_cases_count": 59
+  "reported_cases_count": 60
  },
  "items": [
   {
@@ -2095,6 +2095,33 @@
    "id": "reported-ganzmavag-dunakeszi-csodbuntett-2026-09"
   },
   {
+   "subject": "GINOP Plusz vállalkozásfejlesztési támogatások — Állami Számvevőszéki vizsgálat",
+   "ministry": "Állami Számvevőszék (ÁSZ) vizsgálata — a 2021-es és 2025-ös GINOP Plusz vállalkozásfejlesztési program",
+   "alleged_amount_huf": null,
+   "alleged_amount_text": "a vizsgálat 30, összesen 3,1 milliárd forint támogatású beruházást érintett (2021-es program: 20 beruházás, 2,9 milliárd Ft; 2025-ös program: 10 beruházás, 233 millió Ft); a teljes 2021-es program 843 vállalkozásnak 94,3 milliárd Ft-ot, a 2025-ös program 1252 projektnek 30,9 milliárd Ft-ot folyósított",
+   "description": "Az Állami Számvevőszék jelentése szerint a 2021-es és 2025-ös GINOP Plusz vállalkozásfejlesztési program keretében több beruházás esetében a támogatásból vásárolt munkagépeket a cégek alig használták: néhány eszköznél 3-4 év alatt kevesebb mint 150 üzemórát regisztráltak. A 2021-es program kockázatelemzéssel kiválasztott 20 beruházásából csak 5 bizonyult eredményesnek, 7 részben eredményes, 5 eredménytelen volt, 3 pedig nem volt megítélhető. Három beruházásnál a vállalkozások megsértették a támogatáshoz kötött fenntartási kötelezettségeket, ezekben az ÁSZ szabálytalansági eljárást indított.",
+   "report_source": {
+    "url": "https://www.portfolio.hu/unios-forrasok/20261101/ertelmetlenul-es-csalardgyanus-modon-koltottek-el-az-eu-penzeket-az-asz-uj-jelentese-szerint-873388",
+    "name": "Portfolio.hu (Népszabadság nyomán)",
+    "published_date": "2026-11-01"
+   },
+   "report_date": "2026-10-31",
+   "status": "reported",
+   "confirmed_recovered_huf": 0,
+   "recovered_item_id": null,
+   "additional_sources": [
+    {
+     "url": "https://index.hu/belfold/2026/10/31/unio-forras-tamogatas-hiba-allami-szamvevoszek-asz-hiba/",
+     "name": "Index",
+     "published_date": "2026-10-31"
+    }
+   ],
+   "verification_notes": "ÚJ TÉTEL (2026-11-04 17:xx-es futás). Két független forrás (Index, 2026-10-31; Portfolio.hu a Népszabadság nyomán, 2026-11-01) egyezően számol be az ÁSZ két jelentéséről. Nem büntetőjogi feljelentés, hanem az ÁSZ saját vizsgálata, amely három beruházásnál szabálytalansági eljárást indított a fenntartási kötelezettség megsértése miatt; ezért status=reported, nem under_investigation. Konkrét cégnév vagy pontos, egyedi szabálytalansági összeg a cikkekben nem szerepel, ezért alleged_amount_huf null, a vizsgált teljes összegek az alleged_amount_text-ben. Nem szerepel a kormany.hu/atlathato/feljelentes hivatalos listáján (2026-11-04-i ellenőrzés szerint, az oldal tartalma változatlanul a 2026-10-21-i, 61 ügy/4005 Mrd Ft-os állapotot mutatja), mivel ez az ÁSZ önálló vizsgálatára épül, nem kormányzati/minisztériumi feljelentés. Tényleges, az államhoz visszakerült vagyon nincs.",
+   "id": "reported-ginop-plusz-asz-2026-10",
+   "updated_at": "2026-11-04T16:07:11+00:00",
+   "first_seen_at": "2026-11-04T16:07:11+00:00"
+  },
+  {
    "alleged_amount_huf": null,
    "alleged_amount_text": "Az alapítvány 2026-os állami támogatása 580 millió forint, az évek során összesen kb. 3,8 milliárd forint; konkrétan vitatott tételek: kb. 3,5 millió forint utazási költségtérítés egy személynél két év alatt, összesen kb. 10 millió forint utazási jellegű kiadás, valamint havi 700 ezer forintos kuratóriumi elnöki tiszteletdíj",
    "confirmed_recovered_huf": 0,
@@ -3624,41 +3651,54 @@
   "id": "2026-11-04T11-58"
  },
  "last_run": {
-  "started_at": "2026-11-04T10:55:00+00:00",
-  "finished_at": "2026-11-04T11:58:00+01:00",
-  "items_found_total": 0,
+  "started_at": "2026-11-04T16:59:00+01:00",
+  "finished_at": "2026-11-04T17:02:30+01:00",
+  "items_found_total": 1,
   "items_new": 0,
   "items_duplicate": 0,
   "items_needs_review": 0,
-  "reported_cases_new": 0,
+  "reported_cases_new": 1,
   "reported_cases_updated": 0,
   "eu_lost_items_new": 0,
   "sources_checked": [
    "kormany.hu/atlathato/feljelentes",
    "mnvvh.hu/hirek",
    "k-monitor.hu (WebSearch)",
-   "MNB arfolyamok",
-   "KSH (WebSearch)",
+   "ugyeszseg.hu (503 hiba)",
+   "Portfolio.hu",
+   "Index",
    "Telex",
    "444.hu",
-   "Index",
-   "Portfolio.hu",
-   "Economx",
    "HVG",
-   "Vilaggazdasag",
+   "Economx",
    "Infostart.hu",
-   "Privatbankar.hu"
+   "Privátbankár.hu",
+   "Adózóna.hu",
+   "G7/Direkt36/Átlátszó (WebSearch)"
   ],
   "errors": [
-   "A kormany.hu/atlathato/feljelentes oldal tartalma (61 ugy, 4005 Mrd Ft, 2026-10-21-i allapot) ebben a futasban is valtozatlan volt az elozo (2026-11-04 05:56-os) futashoz kepest - nem volt szukseges frissites.",
-   "hirkereso.hu/politika 404-es hibaval nem volt elerheto ebben a futasban.",
-   "ugyeszseg.hu/category/hirek/kozponti-nyomozo-fougyeszseg/ 503-as hibaval (ketszeri probalkozasra is) nem volt elerheto ebben a futasban.",
-   "KSH oktoberi inflacios gyorstajekoztato ebben a futasban meg nem jelent meg; a legutobbi (szeptemberi) ertek maradt ervenyben.",
-   "Ez a futas kb. 6 oraval az elozo (2026-11-04 05:56-os) futas utan indult, ugyanazon a 3 napos figyelesi ablakon belul; a tematikus keresesek (megtakaritas, vagyonvisszaszerzes, feljelentes, elveszett EU-forras, tularazas) nem talaltak olyan uj, meg nem rogzitett tenyt vagy osszeget, amely a legutobbi futas ota jelent volna meg. Az MNB EUR/HUF hivatalos fixing napi frissitessel rogzitve (363,32 Ft/EUR, 2026-11-04)."
+   "ugyeszseg.hu/category/hirek/kozponti-nyomozo-fougyeszseg/ HTTP 503 hibát adott, nem volt elérhető ebben a futásban",
+   "a kormany.hu/atlathato/feljelentes oldal tartalma változatlan a 2026-10-21-i (61 ügy, 4005 Mrd Ft) állapothoz képest, új ügy vagy összegváltozás nem észlelhető ebben a futásban"
   ],
-  "id": "2026-11-04T11-58"
+  "id": "2026-11-04T17-02"
  },
  "run_history": [
+  {
+   "finished_at": "2026-11-04T17:02:30+01:00",
+   "started_at": "2026-11-04T16:59:00+01:00",
+   "items_new": 0,
+   "reported_cases_new": 1,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
+  {
+   "finished_at": "2026-11-04T11:58:00+01:00",
+   "started_at": "2026-11-04T10:55:00+00:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
   {
    "finished_at": "2026-11-04T11:58:00+01:00",
    "started_at": "2026-11-04T10:55:00+00:00",
@@ -4435,28 +4475,14 @@
    "items_new": 0,
    "reported_cases_new": 2,
    "reported_cases_updated": 0
-  },
-  {
-   "finished_at": "2026-09-23T17:35:00+02:00",
-   "started_at": "2026-09-23T17:18:00+02:00",
-   "items_new": 1,
-   "reported_cases_new": 3,
-   "reported_cases_updated": 2
-  },
-  {
-   "finished_at": "2026-09-23T09:45:00+02:00",
-   "started_at": "2026-09-23T08:30:00+02:00",
-   "items_new": 2,
-   "reported_cases_new": 3,
-   "reported_cases_updated": 2
   }
  ],
  "run_summary": {
-  "run_id": "2026-11-04T11:02:01+00:00",
-  "new": 0,
+  "run_id": "2026-11-04T16:07:11+00:00",
+  "new": 1,
   "modified": 0,
   "confirmed_only": 0,
-  "touched": 0,
+  "touched": 1,
   "pending_review": 2,
   "by_section": {
    "items": {
@@ -4465,32 +4491,18 @@
     "confirmed_only": 0
    },
    "reported_cases": {
-    "new": 0,
+    "new": 1,
     "modified": 0,
     "confirmed_only": 0
    }
   },
-  "new_ids": [],
+  "new_ids": [
+   "r:reported-ginop-plusz-asz-2026-10"
+  ],
   "modified_ids": [],
   "confirmed_ids": []
  },
  "run_summary_history": [
-  {
-   "run_id": "2026-09-22T10:40:00+02:00",
-   "legacy": true,
-   "by_section": {
-    "items": {
-     "new": 2,
-     "modified": 0,
-     "confirmed_only": 0
-    },
-    "reported_cases": {
-     "new": 0,
-     "modified": 0,
-     "confirmed_only": 0
-    }
-   }
-  },
   {
    "run_id": "2026-10-02T10:01:19+00:00",
    "by_section": {
@@ -5971,6 +5983,21 @@
     },
     "reported_cases": {
      "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    }
+   }
+  },
+  {
+   "run_id": "2026-11-04T16:07:11+00:00",
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 1,
      "modified": 0,
      "confirmed_only": 0
     }
