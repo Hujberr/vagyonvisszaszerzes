@@ -1,12 +1,12 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-05T05:22:07+00:00",
+ "generated_at": "2026-11-05T11:22:02+00:00",
  "summary": {
   "megtakaritas_verified_huf": 3312290700000,
   "visszaszerzes_verified_huf": 1575719300000,
   "eu_forras_verified_huf": 6280000000000,
   "eu_forras_lost_huf": 730000000000,
-  "items_count": 38,
+  "items_count": 39,
   "reported_cases_count": 60
  },
  "items": [
@@ -1313,6 +1313,26 @@
    "updated_at": "2026-11-05T05:22:07+00:00"
   },
   {
+   "category": "visszaszerzes",
+   "subject": "MNB székházfelújítás — garanciahívásból az MNB-Ingatlanhoz visszaérkezett összeg",
+   "from_whom": "Raw-csoport (a felújítást végző kivitelezői kör, Somlai Bálint érdekeltsége)",
+   "amount_huf": 3200000000,
+   "amount_text": "mintegy 3,2 milliárd forint (garanciahívások alapján kifizetett összeg)",
+   "currency_note": null,
+   "description": "A Magyar Nemzeti Bank jegybanki székházának (Szabadság téri székház) felújítása az eredetileg tervezett 55 milliárd forint helyett végül 105 milliárd forintba került. Az MNB-Ingatlan Kft. a felújítás során feltárt garanciális hibákra hivatkozva bankgarancia-hívásokat nyújtott be, ezek alapján eddig összesen mintegy 3,2 milliárd forint érkezett vissza. A kivitelezői kör (Raw-csoport) vitatja a garanciahívásokat és maga is kártérítési igényt jelentett be; a jogi vita még nem zárult le.",
+   "duplicate_of": null,
+   "event_date": "2026-11-04",
+   "source_name": "Index",
+   "source_published_date": "2026-11-04",
+   "source_url": "https://index.hu/gazdasag/2026/11/04/mnb-szekhaz-felujitas-matolcsy-gyorgy-varga-mihaly-jegybank/",
+   "additional_sources": [],
+   "status": "needs_review",
+   "verification_notes": "ÚJ TÉTEL (2026-11-05 11:55-ös futás). Egyetlen közvetlen sajtóforrásból (Index, 2026-11-04) ismert; a jogi vita nyitott (Raw-csoport vitatja és kártérítési igényt/feljelentést is tett), ezért needs_review.",
+   "id": "visszaszerzes-mnb-szekhaz-garancia-raw-2026-11",
+   "updated_at": "2026-11-05T11:22:02+00:00",
+   "first_seen_at": "2026-11-05T11:22:02+00:00"
+  },
+  {
    "additional_sources": [
     {
      "name": "444.hu",
@@ -2549,10 +2569,10 @@
    },
    "status": "under_investigation",
    "subject": "MNB-alapítványok ügye (Matolcsy-kör, hűtlen kezelés gyanúja)",
-   "verification_notes": "2026-11-02: a bíróság elutasította Matolcsy György 30 M Ft-os óvadékát, egy hónapra letartóztatták; Matolcsy Ádám és Stofa György ellen nemzetközi elfogatóparancs. Mindhárom gyanúsított fellebbezett, nem jogerős.",
+   "verification_notes": "FRISSÍTVE 2026-11-05: a Fővárosi Törvényszék 2026. november 5-én helybenhagyta az elsőfokú döntést, amely szerint Matolcsy György és két társa 2026. november 23-ig letartóztatásban marad; a bíróság elutasította a védelem óvadékra és a bűnügyi felügyeletre vonatkozó indítványait, a szökés, a bizonyítékok befolyásolásának és a bűnismétlés veszélyére hivatkozva. A bíróság szerint felmerültek olyan körülmények, amelyek bizonyítékok megsemmisítésére utalhatnak egy gyanúsított környezetében, valamint dokumentumok visszadatálásával kapcsolatos informatikai adatokra. A döntés nem jogerős, a védelem fellebbezett. Az alleged_amount_huf (300 Mrd Ft) és a confirmed_recovered_huf (0) nem változott. Források: Portfolio.hu, Forbes.hu (mindkettő 2026-11-05). 2026-11-02: a bíróság elutasította Matolcsy György 30 M Ft-os óvadékát, egy hónapra letartóztatták; Matolcsy Ádám és Stofa György ellen nemzetközi elfogatóparancs. Mindhárom gyanúsított fellebbezett, nem jogerős.",
    "id": "reported-mnb-matolcsy-alapitvanyok-2026-09",
    "first_seen_at": "2026-09-28T15:02:40+00:00",
-   "updated_at": "2026-11-05T05:22:07+00:00"
+   "updated_at": "2026-11-05T11:22:02+00:00"
   },
   {
    "additional_sources": [
@@ -3499,45 +3519,51 @@
   "id": "2026-11-05T06-01"
  },
  "last_run": {
-  "errors": [
-   "A legutóbbi futás (2026-11-04 délután/este) óta kevés idő telt el, ezért a 3 napos figyelési ablakban kevés úlj tényleges fejlemény volt; a megtalált újdonságok már meglévő reported_cases tételeket frissítettek (Veszprém-Balaton 2023 Zrt. ügy: nyomozás elrendelve; lélegeztetőgép-ügy: NNI lefoglalás a Külügyminisztériumban), új items vagy reported_cases tétel nem jött létre.",
-   "A kormany.hu/atlathato/feljelentes oldal tartalma (61 ügy, 4005 Mrd Ft) változatlan volt a 2026-10-21-i állapothoz képest, nem volt szükség frissítésre a reported-osszesito-2026-09 dokumentumon.",
-   "Az ÁKK hivatalos statisztikai oldala (akk.hu) ebben a futásban nem volt közvetlenül lekérhető; az államadósság értéke változatlanul a 2026-07-31-i (Magyar Nemzet/ÁKK-adatra hivatkozó) állapotot tükrözi.",
-   "Az októberi KSH inflációs gyorstájékoztató e futás idején még nem jelent meg (a KSH jellemzően a következő hónap közepén publikál), az inflációs mezők változatlanul a 2026-09-es adatokat tükrözik.",
-   "Az MNB legközelebbi kamatdöntése (várhatóan 2026-11 vége) e futás idején még nem történt meg, az alapkamat változatlanul 5,5%.",
-   "A KSH harmadik negyedéves GDP-gyorsbecslése e futás idején még nem jelent meg.",
-   "A hvg.hu-n talált, 2026-11-03-i Kisfaludy Program-nyomozás hír már korábbi futásban (2026-11-04) rögzítésre került a reported-kisfaludy-program-2026-10 tételben, ezért nem hozott új frissítést.",
-   "A mnvvh.hu/hirek oldalon talált október végi/november eleji hírek (Matolcsy-ügy elfogatóparancsok, lefoglalás, Sesztak-páncélszekrények) mind már korábban rögzítve voltak a megfelelő reported_cases tételekben.",
-   "A vg.hu főoldal megadott URL-je 404-es hibát adott, a telex.hu/gazdasag oldal 403-as hibával nem volt közvetlenül elérhető WebFetch-csel; a telex.hu/g7 (kormányráirányított g7.hu) oldal nem tartalmazott releváns, még nem rögzített tételt.",
-   "Az ugyeszseg.hu/kozponti-nyomozo-fougyeszseg oldal 503-as hibával nem volt elérhető ebben a futásban."
-  ],
-  "eu_lost_items_new": 0,
-  "finished_at": "2026-11-05T06:15:00+01:00",
-  "items_duplicate": 0,
+  "started_at": "2026-11-05T11:55:00+01:00",
+  "finished_at": "2026-11-05T12:02:00+01:00",
   "items_found_total": 2,
-  "items_needs_review": 0,
-  "items_new": 0,
+  "items_new": 1,
+  "items_duplicate": 0,
+  "items_needs_review": 1,
   "reported_cases_new": 0,
-  "reported_cases_updated": 2,
-  "sources_checked": [
-   "kormany.hu/atlathato/feljelentes (2026-10-21-i állapot, 61 ügy/4005 Mrd Ft — változatlan a legutóbbi futáshoz képest)",
-   "mnvvh.hu/hirek",
-   "k-monitor.hu (keresés)",
-   "ugyeszseg.hu/kozponti-nyomozo-fougyeszseg (503, nem volt elérhető)",
-   "telex.hu (403, nem volt közvetlenül elérhető)",
-   "444.hu",
-   "portfolio.hu",
-   "index.hu",
-   "hvg.hu",
-   "vg.hu (404, nem volt elérhető a megadott URL-en)",
-   "g7.hu (telex.hu/g7-re redirect)",
-   "KSH (Adózóna/Portfolio közlése alapján)",
-   "MNB (sajtón keresztül)"
+  "reported_cases_updated": 1,
+  "eu_lost_items_new": 0,
+  "errors": [
+   "A kormany.hu/atlathato/feljelentes oldal ebben a futásban is 503-as hibával nem volt elérhető (ismétlődő probléma); a hivatalos összesítő változatlanul a 2026-10-21-i (61 ügy, 4005 Mrd Ft) állapotot tükrözi.",
+   "Az ugyeszseg.hu/category/hirek/kozponti-nyomozo-fougyeszseg oldal ebben a futásban is 503-as hibával nem volt elérhető.",
+   "A Tisza-kormány 2026-11-05-én (Index, RFE/RL szerb nyelvű szolgálata nyomán) leállította a Milorad Dodik-féle boszniai szerb mezőgazdasági gépbeszerzési támogatási program 2026-os kiírását (a 2022-es, 100 millió eurós csomag része); konkrét, az idei évre elkülönített és most megtakarított forintösszeg nem ismert, ezért nem került fel az items kollekcióba.",
+   "Az október havi/január-október halmozott hiányadat és az MNB EUR/HUF árfolyam már a mai, 2026-11-05T06:01-es macro_snapshots dokumentumban szerepel, ezért ebben a futásban nem készült új macro_snapshots dokumentum."
   ],
-  "started_at": "2026-11-05T05:55:00+01:00",
-  "id": "2026-11-05T06-01"
+  "sources_checked": [
+   "kormany.hu/atlathato/feljelentes (503, nem volt elérhető)",
+   "mnvvh.hu/hirek",
+   "k-monitor.hu (WebSearch)",
+   "hirkereso.hu/politika (404, nem volt elérhető)",
+   "hirkereso.hu/gazdasag",
+   "ugyeszseg.hu/category/hirek/kozponti-nyomozo-fougyeszseg (503, nem volt elérhető)",
+   "telex.hu/belfold",
+   "index.hu/belfold",
+   "index.hu/gazdasag",
+   "444.hu/belfold (404)",
+   "Portfolio.hu",
+   "Forbes.hu",
+   "24.hu",
+   "Haszon.hu",
+   "Azénpénzem.hu",
+   "Economx",
+   "vg.hu (503)"
+  ],
+  "id": "2026-11-05T11-55"
  },
  "run_history": [
+  {
+   "finished_at": "2026-11-05T12:02:00+01:00",
+   "started_at": "2026-11-05T11:55:00+01:00",
+   "items_new": 1,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 1,
+   "eu_lost_items_new": 0
+  },
   {
    "finished_at": "2026-11-05T06:15:00+01:00",
    "started_at": "2026-11-05T05:55:00+01:00",
@@ -4329,152 +4355,34 @@
    "reported_cases_new": 1,
    "reported_cases_updated": 2,
    "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-10-03T06:10:00+02:00",
-   "started_at": "2026-10-03T05:55:00+02:00",
-   "items_new": 3,
-   "reported_cases_new": 1,
-   "reported_cases_updated": 2,
-   "eu_lost_items_new": 0
   }
  ],
  "run_summary": {
-  "run_id": "2026-11-05T05:22:07+00:00",
+  "run_id": "2026-11-05T11:22:02+00:00",
   "new": 0,
-  "modified": 1,
-  "confirmed_only": 94,
-  "touched": 95,
-  "pending_review": 2,
+  "modified": 0,
+  "confirmed_only": 1,
+  "touched": 1,
+  "pending_review": 3,
   "by_section": {
    "items": {
     "new": 0,
     "modified": 0,
-    "confirmed_only": 36
+    "confirmed_only": 0
    },
    "reported_cases": {
     "new": 0,
-    "modified": 1,
-    "confirmed_only": 58
+    "modified": 0,
+    "confirmed_only": 1
    }
   },
   "new_ids": [],
-  "modified_ids": [
-   "r:reported-vtm-veszprem-balaton-2023-2026-09"
-  ],
+  "modified_ids": [],
   "confirmed_ids": [
-   "i:eu-forras-megallapodas-2026-05",
-   "i:eu-forras-modernizacios-alap-2026-07",
-   "i:eu-forras-norveg-alap-2026-10",
-   "i:megtakaritas-2027-koltsegvetes-kiadascsokkentes-2026-10",
-   "i:megtakaritas-akk-allampapir-hozamcsokkenes-2026-05",
-   "i:megtakaritas-atletikai-vd-szervezes-2026-09",
-   "i:megtakaritas-farkasvolgyi-kollegium-2026-10",
-   "i:megtakaritas-hm-irodafelujitas-lemondas-2026-09",
-   "i:megtakaritas-igazsagugyi-miniszterium-egyeb-szerzodesek-2026-10",
-   "i:megtakaritas-im-kommunikacios-ugynoksegi-feladatok-2026-10",
-   "i:megtakaritas-kamatkiadas-csokkenes-forintarfolyam-2026-q3",
-   "i:megtakaritas-koltsegvetes-tervezett-300mrd-2026-q4",
-   "i:megtakaritas-korm-intezkedesek-400mrd-2026-08",
-   "i:megtakaritas-m6-dunaujvaros-erdi-teto-2026-09",
-   "i:megtakaritas-mav-kozut-jarmubeszerzes-2026-08",
-   "i:megtakaritas-mnb-vagyonmentesi-program-2026-10",
-   "i:megtakaritas-mohacsi-duna-hid-2x1-2026-09",
-   "i:megtakaritas-nak-atvilagitas-2026-09",
-   "i:megtakaritas-rothschild-tanacsadoi-szerzodes-2026-10",
-   "i:megtakaritas-szingapuri-diplomata-allas-megszuntetes-2026-09",
-   "i:megtakaritas-szolnok-laktanya-tularazott-munkak-2026-10",
-   "i:megtakaritas-szuverenitasvedelmi-hivatal-kommunikacio-nemkoltott-2026-10",
-   "i:megtakaritas-tatai-gorogkatolikus-kapolna-2026-10",
-   "i:visszaszerzes-4alapitvany-kbm-2026-08",
-   "i:visszaszerzes-5kekva-alapitvany-keszpenz-2026-10",
-   "i:visszaszerzes-duna-aszfalt-kisebb-visszafizetes-2026-10",
-   "i:visszaszerzes-duna-aszfalt-kotveny-2026-09",
-   "i:visszaszerzes-elvonal-alapitvany-krausz-2026-09",
-   "i:visszaszerzes-kekva-2026-08",
-   "i:visszaszerzes-konig-alapitvany-2026-09",
-   "i:visszaszerzes-mikk-ai-kutatokozpont-2026-04",
-   "i:visszaszerzes-nka-hanko-onkentes-visszafizetes-2026-07",
-   "i:visszaszerzes-prime-tech-etoll-2026-08",
-   "i:visszaszerzes-tao-sporttamogatas-vegrehajtas-2026-10",
-   "i:visszaszerzes-thalia-szinhaz-millenaris-2026-10",
-   "i:visszaszerzes-zalazone-alapitvany-2026-09",
-   "r:reported-alapjogokert-kozpont-fizetes-2026-10",
-   "r:reported-alapjogokert-kozpont-romanowski-2026-09",
-   "r:reported-allami-beruhazas-vesztegetes-korrupcio-2026-09",
-   "r:reported-baross-gabor-tokeprogram-2026-07",
-   "r:reported-beloiannisz-fonyod-sportszallo-2026-10",
-   "r:reported-boldog-istvan-top-palyazat-2026-10",
-   "r:reported-csaladbarat-magyarorszag-szerencs-2026-10",
-   "r:reported-e-ing-ingatlan-nyilvantartas-2026-09",
-   "r:reported-eac-international-fellegi-tanacsado-2026-10",
-   "r:reported-egyeb-miniszteriumi-18ugy-2026",
-   "r:reported-elelmiszermento-kozpont-asz-2026-07",
-   "r:reported-exim-exportosztonzo-alap-gbpartners-2026-10",
-   "r:reported-eximbank-duna-aszfalt-kongo-2026",
-   "r:reported-eximbank-egyiptomi-vasut-2026",
-   "r:reported-eximbank-jellinek-kotveny-indotek-2026-10",
-   "r:reported-eximbank-macedon-hitel-2026",
-   "r:reported-eximbank-sofitel-tiborcz-2026",
-   "r:reported-ganzmavag-dunakeszi-csodbuntett-2026-09",
-   "r:reported-ginop-plusz-asz-2026-10",
-   "r:reported-habsburg-otto-alapitvany-nav-2026-07",
-   "r:reported-hanko-balazs-nka-sikkasztas-2026-09",
-   "r:reported-hm-elmenyparkok-lounge-event-2026-09",
-   "r:reported-hm-tanacsadoi-szerzodes-2026-09",
-   "r:reported-kisfaludy-program-2026-10",
-   "r:reported-lazar-mav-tartozaselengedes-2026-08",
-   "r:reported-lelegeztetogep-nav-bunszervezet-2026-10",
-   "r:reported-letelepedesi-kotveny-2026-09",
-   "r:reported-logosz-alapitvany-kiadvanyok-2026-10",
-   "r:reported-m6-dunaujvaros-erdi-teto-tularazas-2026",
-   "r:reported-merkely-kinavix-2026-09",
-   "r:reported-mkif-autopalya-koncesszio-2026-09",
-   "r:reported-mnb-ingatlan-tularazas-2026-09",
-   "r:reported-mnb-matolcsy-alapitvanyok-2026-09",
-   "r:reported-nemzeti-sportugynokseg-2026-09",
-   "r:reported-neumann-egyetem-optima-kotveny-2026-08",
-   "r:reported-onkologiai-akademia-alapitvany-2026-08",
-   "r:reported-onkormanyzati-parkfenntartas-etkeztetes-korrupcio-2026-09",
-   "r:reported-orban-aron-vizumbiznisz-2026-09",
-   "r:reported-orban-janos-denes-kmtg-2026-09",
-   "r:reported-oroshaza-gyoparosfurdo-kozbeszerzes-2026-08",
-   "r:reported-orszagos-onkologiai-intezet-eszkozbeszerzes-2026-09",
-   "r:reported-paks2-tokeemeles-tordai-2026-08",
-   "r:reported-paksi-ipari-park-foldvasarlas-2026-10",
-   "r:reported-petofi-film-rakay-2026-09",
-   "r:reported-pmo-p2m-informatika-2026-09",
-   "r:reported-rakay-racalmas-foldugylet-2026-10",
-   "r:reported-rubint-reka-norbi-duci-2026-10",
-   "r:reported-ruszin-szendi-villa-tularazas-2026-10",
-   "r:reported-sesztak-miklos-korrupcio-2026-09",
-   "r:reported-szazadveg-kutatasok-2026-09",
-   "r:reported-szijjarto-maganrepulo-2026-09",
-   "r:reported-szuverenitasvedelmi-hivatal-konzorcium-nvvh-2026-09",
-   "r:reported-tisza-ado-konzultacio-kmonitor-2026-07",
-   "r:reported-ttm-informatikai-szerzodesek-2026-10",
-   "r:reported-vac-sportegyesulet-asz-2026-07",
-   "r:reported-vhid-deli-korvasut-2026-10",
-   "r:reported-volan-buszbeszerzes-2026-09",
-   "r:reported-volanbusz-dakk-fekete-antal-2026-10"
+   "r:reported-mnb-matolcsy-alapitvanyok-2026-09"
   ]
  },
  "run_summary_history": [
-  {
-   "run_id": "2026-10-02T15:05:08+00:00",
-   "by_section": {
-    "items": {
-     "new": 0,
-     "modified": 0,
-     "confirmed_only": 0
-    },
-    "reported_cases": {
-     "new": 0,
-     "modified": 3,
-     "confirmed_only": 5
-    }
-   }
-  },
   {
    "run_id": "2026-10-03T04:04:34+00:00",
    "by_section": {
@@ -5957,6 +5865,21 @@
      "new": 0,
      "modified": 1,
      "confirmed_only": 58
+    }
+   }
+  },
+  {
+   "run_id": "2026-11-05T11:22:02+00:00",
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 1
     }
    }
   }
