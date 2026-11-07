@@ -1,13 +1,13 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-07T05:03:54+00:00",
+ "generated_at": "2026-11-07T11:02:32+00:00",
  "summary": {
   "megtakaritas_verified_huf": 2947290700000,
   "visszaszerzes_verified_huf": 1575719300000,
   "eu_forras_verified_huf": 6280000000000,
   "eu_forras_lost_huf": 730000000000,
   "items_count": 40,
-  "reported_cases_count": 60
+  "reported_cases_count": 61
  },
  "items": [
   {
@@ -252,8 +252,8 @@
    "subject": "2027-es államadósság-szolgálat várható csökkenése az alacsonyabb állampapírhozamok miatt",
    "verification_notes": "ÚJ TÉTEL (2026-11-07 06:00-ás futás). A 2027-es, már benyújtott költségvetési törvényjavaslat számai alapján (Pénzcentrum, 2026-11-06), a tervezett adósságszolgálat (kb. 3510 Mrd Ft) mintegy 100 milliárd forinttal alacsonyabb, mint a 2026-os szinten, elsősorban a forintkötvény-hozamok csökkenése miatt (a forintkötvények kamatköltsége önmagában kb. 170 Mrd Ft-tal csökken, a devizakötvényeké és a diszkontkincstárjegyeké kissé nő). Ez ELKÜLÖNÜLŐ tétel a korábban rögzített, 2026 január–szeptemberi TÉNYLEGES kamatkiadás-csökkenéstől (726,2 Mrd Ft, l. megtakaritas-kamatkiadas-csokkenes-forintarfolyam-2026-q3, amelynek oka a forint erősödése, nem a hozamcsökkenés) és a 2026 május-i, egyedi állampapír-sorozatokra vonatkozó 47,7 Mrd Ft-os tételtől (megtakaritas-akk-allampapir-hozamcsokkenes-2026-05) is — ez egy ELŐRETEKINTŐ, a 2027-es benyújtott költségvetési törvényjavaslat egészére vonatkozó tervezett összeg, nem azonos és nem adódik hozzá a korábban rögzített 2027-es kiadáscsökkentési tervhez (megtakaritas-2027-koltsegvetes-kiadascsokkentes-2026-10, >1000 Mrd Ft), mert az a strukturális kiadáscsökkentéseket (koncesszió-felülvizsgálat, migrációs bírság törlése, kekva-reform stb.) sorolja fel, az adósságszolgálat/kamatkiadás-csökkenést nem említi önálló komponensként. Egyetlen sajtóforrásból ismert eddig (a Pénzügyminisztérium saját, hosszabb távú 2030-as előrejelzésére is hivatkozva); státusza verified, mert a benyújtott, hivatalos költségvetési törvényjavaslat számain alapul, a tényleges megvalósulás csak a 2027-es év zárásakor igazolható.",
    "id": "megtakaritas-2027-adossagszolgalat-hozamcsokkenes-2026-11",
-   "updated_at": "2026-11-07T05:03:54+00:00",
-   "first_seen_at": "2026-11-07T05:03:54+00:00"
+   "first_seen_at": "2026-11-07T05:03:54+00:00",
+   "updated_at": "2026-11-07T05:03:54+00:00"
   },
   {
    "additional_sources": [
@@ -1778,6 +1778,26 @@
    "id": "reported-boldog-istvan-top-palyazat-2026-10",
    "first_seen_at": "2026-10-30T11:03:40+00:00",
    "updated_at": "2026-11-06T11:37:02+00:00"
+  },
+  {
+   "alleged_amount_huf": 9000000000,
+   "alleged_amount_text": "mintegy 9 milliárd forint visszafizetési kötelezettség az Európai Unió felé",
+   "confirmed_recovered_huf": 0,
+   "description": "Egy sajtóhír szerint Magyarországnak mintegy 9 milliárd forintot kell visszafizetnie az Európai Uniónak a Brexit miatt károkat szenvedett vállalatoknak nyújtott kárenyhítési program végrehajtása során feltárt szabálytalanságok miatt. A program kedvezményezettjei között korábban kormányközeli érdekeltségekhez köthető cégek is szerepeltek.",
+   "ministry": "Külügyminisztérium (a Brexit-kárenyhítési program korábbi kezelője) — Állami Számvevőszéki vizsgálat alapján",
+   "recovered_item_id": null,
+   "report_date": "2026-11-07",
+   "report_source": {
+    "name": "Hírnavigátor (24.hu nyomán)",
+    "published_date": "2026-11-07",
+    "url": "https://hirnavigator.hu/hir/10990009-9-milliardot-kell-visszafizetnunk-az-eu-nak-egy-olyan-program-miatt-amirol-az-asz-kimondta-hogy-hemzseg-a-szabalytalansagoktol"
+   },
+   "status": "needs_review",
+   "subject": "Brexit Alkalmazkodási Rezerv – mintegy 9 milliárd forintos visszafizetési kötelezettség az EU felé",
+   "verification_notes": "ÚJ TÉTEL (2026-11-07 11:55-ös futás). Egyetlen, forrás szerint 24.hu-ra visszamenő cikk (közvetlen 24.hu-elérés ebben a futásban nem sikerült, a Hírnavigátor-újraközlést sikerült elolvasni) alapján: a Brexit Alkalmazkodási Rezervből (Brexit-kárenyhítési program) nyújtott támogatások kapcsán az ÁSZ szabálytalanságokat talált, és emiatt kb. 9 milliárd forintot kell visszafizetni az EU-nak; a cikk szerint a program kedvezményezettjei között Matolcsy Ádám (jelenleg nemzetközi elfogatóparanccsal körözött, l. reported-mnb-matolcsy-alapitvanyok-2026-09) és Mészáros Lőrinc érdekeltségeihez köthető cégek is voltak (háttér: 2022-es 444.hu-cikk a Balaton Bútor Kft. és a Kall Ingredients Kft. BAR-támogatásairól). A pénznem (forint vagy euró) és az ÁSZ-jelentés pontos dátuma a cikkből nem derült ki egyértelműen, ezért alleged_amount_text óvatosan fogalmaz. A kormany.hu/atlathato/feljelentes oldal 2026-11-05-i állapotában nem szerepel ilyen tételként (nem minisztériumi feljelentés, hanem ÁSZ-megállapítás és EU-s visszafizetési kötelezettség). Mivel csak egy (áttételes) sajtóforrás erősíti meg, a status needs_review; második független forrás vagy hivatalos ÁSZ-/EU-megerősítés esetén válhat verified-re vagy kerülhet át az eu_forras tételek lost_items-ébe, ha kiderül, hogy a 16,4 Mrd eurós csomagtól független, önálló uniós keretről van szó (ami valószínű, mivel a BAR egy 2021-ben létrehozott, külön uniós eszköz, nem RRF/kohéziós forrás).",
+   "id": "reported-brexit-alkalmazkodasi-rezerv-visszafizetes-2026-11",
+   "updated_at": "2026-11-07T11:02:32+00:00",
+   "first_seen_at": "2026-11-07T11:02:32+00:00"
   },
   {
    "additional_sources": [
@@ -3510,7 +3530,7 @@
    "url": "https://magyarnemzet.hu/gazdasag/2026/09/allamadossag-novekedes"
   },
   "allamadossag_huf": 65716000000000,
-  "collected_at": "2026-11-07T06:00:00+01:00",
+  "collected_at": "2026-11-07T11:55:00+01:00",
   "elozo": {
    "allamadossag": {
     "period": null,
@@ -3614,8 +3634,8 @@
     "key": "eur_huf",
     "label_en": "Official EUR/HUF rate (MNB)",
     "label_hu": "Euró hivatalos árfolyama (MNB)",
-    "note_en": "The dollar rate was 325.76 Ft/USD on 2026-11-06, still the latest published official rate as of this run.",
-    "note_hu": "A dollár árfolyama 2026-11-06-án 325,76 Ft/USD volt; ez e futás időpontjában (2026-11-07 kora reggel) is a legutolsó közölt hivatalos árfolyam.",
+    "note_en": "The dollar rate was 325.76 Ft/USD on 2026-11-06, still the latest published official rate as of this run (2026-11-07 midday).",
+    "note_hu": "A dollár árfolyama 2026-11-06-án 325,76 Ft/USD volt; ez e futás időpontjában (2026-11-07 dél) is a legutolsó közölt hivatalos árfolyam.",
     "period": "2026-11-06",
     "prev_period": "2026-11-04",
     "prev_value": 363.32,
@@ -3723,7 +3743,7 @@
    "publish_date": "2026-09-22",
    "url": "https://www.portfolio.hu/gazdasag/20260922/itt-az-mnb-uj-elorejelzese-hiaba-a-nemzetkozi-kockazatok-mersekelt-marad-az-idei-inflacio-864484"
   },
-  "id": "2026-11-07T06-00"
+  "id": "2026-11-07T11-55"
  },
  "last_run": {
   "errors": [
@@ -4547,51 +4567,31 @@
   }
  ],
  "run_summary": {
-  "run_id": "2026-11-07T05:03:54+00:00",
+  "run_id": "2026-11-07T11:02:32+00:00",
   "new": 1,
-  "modified": 1,
-  "confirmed_only": 2,
-  "touched": 4,
+  "modified": 0,
+  "confirmed_only": 0,
+  "touched": 1,
   "pending_review": 3,
   "by_section": {
    "items": {
-    "new": 1,
-    "modified": 1,
+    "new": 0,
+    "modified": 0,
     "confirmed_only": 0
    },
    "reported_cases": {
-    "new": 0,
+    "new": 1,
     "modified": 0,
-    "confirmed_only": 2
+    "confirmed_only": 0
    }
   },
   "new_ids": [
-   "i:megtakaritas-2027-adossagszolgalat-hozamcsokkenes-2026-11"
+   "r:reported-brexit-alkalmazkodasi-rezerv-visszafizetes-2026-11"
   ],
-  "modified_ids": [
-   "i:megtakaritas-2027-koltsegvetes-kiadascsokkentes-2026-10"
-  ],
-  "confirmed_ids": [
-   "r:reported-mnb-matolcsy-alapitvanyok-2026-09",
-   "r:reported-onkormanyzati-parkfenntartas-etkeztetes-korrupcio-2026-09"
-  ]
+  "modified_ids": [],
+  "confirmed_ids": []
  },
  "run_summary_history": [
-  {
-   "run_id": "2026-10-04T15:01:51+00:00",
-   "by_section": {
-    "items": {
-     "new": 0,
-     "modified": 0,
-     "confirmed_only": 0
-    },
-    "reported_cases": {
-     "new": 1,
-     "modified": 0,
-     "confirmed_only": 0
-    }
-   }
-  },
   {
    "run_id": "2026-10-05T04:03:09+00:00",
    "by_section": {
@@ -6074,6 +6074,21 @@
      "new": 0,
      "modified": 0,
      "confirmed_only": 2
+    }
+   }
+  },
+  {
+   "run_id": "2026-11-07T11:02:32+00:00",
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 1,
+     "modified": 0,
+     "confirmed_only": 0
     }
    }
   }
