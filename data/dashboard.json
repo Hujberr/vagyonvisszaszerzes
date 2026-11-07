@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-07T11:02:32+00:00",
+ "generated_at": "2026-11-07T16:01:59+00:00",
  "summary": {
   "megtakaritas_verified_huf": 2947290700000,
   "visszaszerzes_verified_huf": 1575719300000,
@@ -1796,8 +1796,8 @@
    "subject": "Brexit Alkalmazkodási Rezerv – mintegy 9 milliárd forintos visszafizetési kötelezettség az EU felé",
    "verification_notes": "ÚJ TÉTEL (2026-11-07 11:55-ös futás). Egyetlen, forrás szerint 24.hu-ra visszamenő cikk (közvetlen 24.hu-elérés ebben a futásban nem sikerült, a Hírnavigátor-újraközlést sikerült elolvasni) alapján: a Brexit Alkalmazkodási Rezervből (Brexit-kárenyhítési program) nyújtott támogatások kapcsán az ÁSZ szabálytalanságokat talált, és emiatt kb. 9 milliárd forintot kell visszafizetni az EU-nak; a cikk szerint a program kedvezményezettjei között Matolcsy Ádám (jelenleg nemzetközi elfogatóparanccsal körözött, l. reported-mnb-matolcsy-alapitvanyok-2026-09) és Mészáros Lőrinc érdekeltségeihez köthető cégek is voltak (háttér: 2022-es 444.hu-cikk a Balaton Bútor Kft. és a Kall Ingredients Kft. BAR-támogatásairól). A pénznem (forint vagy euró) és az ÁSZ-jelentés pontos dátuma a cikkből nem derült ki egyértelműen, ezért alleged_amount_text óvatosan fogalmaz. A kormany.hu/atlathato/feljelentes oldal 2026-11-05-i állapotában nem szerepel ilyen tételként (nem minisztériumi feljelentés, hanem ÁSZ-megállapítás és EU-s visszafizetési kötelezettség). Mivel csak egy (áttételes) sajtóforrás erősíti meg, a status needs_review; második független forrás vagy hivatalos ÁSZ-/EU-megerősítés esetén válhat verified-re vagy kerülhet át az eu_forras tételek lost_items-ébe, ha kiderül, hogy a 16,4 Mrd eurós csomagtól független, önálló uniós keretről van szó (ami valószínű, mivel a BAR egy 2021-ben létrehozott, külön uniós eszköz, nem RRF/kohéziós forrás).",
    "id": "reported-brexit-alkalmazkodasi-rezerv-visszafizetes-2026-11",
-   "updated_at": "2026-11-07T11:02:32+00:00",
-   "first_seen_at": "2026-11-07T11:02:32+00:00"
+   "first_seen_at": "2026-11-07T11:02:32+00:00",
+   "updated_at": "2026-11-07T11:02:32+00:00"
   },
   {
    "additional_sources": [
@@ -3530,7 +3530,7 @@
    "url": "https://magyarnemzet.hu/gazdasag/2026/09/allamadossag-novekedes"
   },
   "allamadossag_huf": 65716000000000,
-  "collected_at": "2026-11-07T11:55:00+01:00",
+  "collected_at": "2026-11-07T16:56:00+01:00",
   "elozo": {
    "allamadossag": {
     "period": null,
@@ -3554,8 +3554,8 @@
     "key": "gdp_novekedes_eves",
     "label_en": "GDP growth (year-on-year)",
     "label_hu": "GDP-növekedés (éves)",
-    "note_en": "KSH's Q3 flash estimate had not been confirmed from a reliable source as of this run (2026-11-07).",
-    "note_hu": "A KSH harmadik negyedéves gyorsbecslése e futás idején (2026-11-07) még nem jelent meg megbízhatóan ellenőrizhető forrásból.",
+    "note_en": "KSH's Q3 flash estimate had not been published from a reliable source as of this run (2026-11-07 evening); it is normally released in mid-November.",
+    "note_hu": "A KSH harmadik negyedéves gyorsbecslése e futás idején (2026-11-07 este) még nem jelent meg megbízhatóan ellenőrizhető forrásból; a becslés rendszerint november közepén jelenik meg.",
     "period": "2026 Q2",
     "prev_period": "2026 Q1",
     "prev_value": 1.7,
@@ -3571,7 +3571,6 @@
     "key": "munkanelkulisegi_rata",
     "label_en": "Unemployment rate",
     "label_hu": "Munkanélküliégi ráta",
-    "note_en": "",
     "note_hu": "A KSH októberi gyorstájékoztatója e futás idején még nem jelent meg.",
     "period": "2026-09",
     "prev_period": "2026-08",
@@ -3634,8 +3633,8 @@
     "key": "eur_huf",
     "label_en": "Official EUR/HUF rate (MNB)",
     "label_hu": "Euró hivatalos árfolyama (MNB)",
-    "note_en": "The dollar rate was 325.76 Ft/USD on 2026-11-06, still the latest published official rate as of this run (2026-11-07 midday).",
-    "note_hu": "A dollár árfolyama 2026-11-06-án 325,76 Ft/USD volt; ez e futás időpontjában (2026-11-07 dél) is a legutolsó közölt hivatalos árfolyam.",
+    "note_en": "The dollar rate was 325.76 Ft/USD on 2026-11-06, still the latest published official rate as of this run.",
+    "note_hu": "A dollár árfolyama 2026-11-06-án 325,76 Ft/USD volt; ez e futás időpontjában (2026-11-07 este) is a legutolsó közölt hivatalos árfolyam.",
     "period": "2026-11-06",
     "prev_period": "2026-11-04",
     "prev_value": 363.32,
@@ -3743,7 +3742,7 @@
    "publish_date": "2026-09-22",
    "url": "https://www.portfolio.hu/gazdasag/20260922/itt-az-mnb-uj-elorejelzese-hiaba-a-nemzetkozi-kockazatok-mersekelt-marad-az-idei-inflacio-864484"
   },
-  "id": "2026-11-07T11-55"
+  "id": "2026-11-07T16-56"
  },
  "last_run": {
   "errors": [
@@ -4567,11 +4566,11 @@
   }
  ],
  "run_summary": {
-  "run_id": "2026-11-07T11:02:32+00:00",
-  "new": 1,
+  "run_id": "2026-11-07T16:01:59+00:00",
+  "new": 0,
   "modified": 0,
   "confirmed_only": 0,
-  "touched": 1,
+  "touched": 0,
   "pending_review": 3,
   "by_section": {
    "items": {
@@ -4580,33 +4579,16 @@
     "confirmed_only": 0
    },
    "reported_cases": {
-    "new": 1,
+    "new": 0,
     "modified": 0,
     "confirmed_only": 0
    }
   },
-  "new_ids": [
-   "r:reported-brexit-alkalmazkodasi-rezerv-visszafizetes-2026-11"
-  ],
+  "new_ids": [],
   "modified_ids": [],
   "confirmed_ids": []
  },
  "run_summary_history": [
-  {
-   "run_id": "2026-10-05T04:03:09+00:00",
-   "by_section": {
-    "items": {
-     "new": 1,
-     "modified": 1,
-     "confirmed_only": 0
-    },
-    "reported_cases": {
-     "new": 0,
-     "modified": 1,
-     "confirmed_only": 0
-    }
-   }
-  },
   {
    "run_id": "2026-10-05T10:07:29+00:00",
    "by_section": {
@@ -6087,6 +6069,21 @@
     },
     "reported_cases": {
      "new": 1,
+     "modified": 0,
+     "confirmed_only": 0
+    }
+   }
+  },
+  {
+   "run_id": "2026-11-07T16:01:59+00:00",
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 0,
      "modified": 0,
      "confirmed_only": 0
     }
