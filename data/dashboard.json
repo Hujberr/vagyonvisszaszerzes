@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-08T11:00:30+00:00",
+ "generated_at": "2026-11-08T16:01:51+00:00",
  "summary": {
   "megtakaritas_verified_huf": 2947290700000,
   "visszaszerzes_verified_huf": 1575719300000,
@@ -3562,7 +3562,7 @@
    "url": "https://magyarnemzet.hu/gazdasag/2026/09/allamadossag-novekedes"
   },
   "allamadossag_huf": 65716000000000,
-  "collected_at": "2026-11-08T06:00:00+01:00",
+  "collected_at": "2026-11-08T17:00:00+01:00",
   "elozo": {
    "allamadossag": {
     "period": null,
@@ -3774,15 +3774,17 @@
    "publish_date": "2026-09-22",
    "url": "https://www.portfolio.hu/gazdasag/20260922/itt-az-mnb-uj-elorejelzese-hiaba-a-nemzetkozi-kockazatok-mersekelt-marad-az-idei-inflacio-864484"
   },
-  "id": "2026-11-08T06-00"
+  "id": "2026-11-08T17-00"
  },
  "last_run": {
+  "comparison_result": "A kormany.hu/atlathato/feljelentes 2026-11-05-i állapota (62 ügy, 4005 Mrd Ft, 74,0 Mrd Ft visszafizetve/megtakarítva) megegyezik az adattárban már rögzített reported-osszesito-2026-09 dokumentum állapotával, változás nem történt.",
   "errors": [
-   "Ez a futás egy korábbi, 2026-11-08T06-00 azonosítójú futás közvetlen folytatása: az a futás a GitHub-publikálásig (data/dashboard.json, commit 5c73f97) eljutott, de a saját run_log dokumentumát (finished_at) és a záró lépéseket (Excel-export, push-értesítés, záró üzenet) nem fejezte be a munkamenet megszakadása miatt. A 2026-11-08T06-00 futás által felvett új tétel (reported-erzsebet-tabor-reklam-2026-11) és a 2 frissített tétel a jelen futás exportjában is szerepel.",
-   "Legalább 15 tematikus/forrás-keresés (megtakarítás, visszaszerzés, feljelentés, EU-forrás, elveszett uniós forrás, túlárazás, pazarlás-kontextus, adófizetők pénze, Matolcsy, KSH GDP, MNB árfolyam) nem talált a meglévő adattártól eltérő, új tényt; minden releváns találat már szerepel a 2026-11-08T06-00 vagy korábbi futásokban."
+   "hirkereso.hu/politika 404-es hibát adott ebben a futásban (az oldal szerkezete megváltozhatott), a rovat nem volt ellenőrizhető",
+   "A WebSearch eszköz ebben a futásban nagyrészt régebbi (2026 augusztus-október közötti) cikkeket adott vissza a 2026-11-08-i dátumra szűkített lekérdezésekre is; a kormany.hu, mnvvh.hu és az ugyeszseg.hu közvetlen lekérése (WebFetch) nem talált 2026-11-05 utáni új tartalmat, és a WebSearch sem azonosított az adattárban még nem szereplő, 2026-11-06 és 2026-11-08 közötti új tényt megtakarítás/visszaszerzés/EU-forrás/feljelentés témában",
+   "KSH októberi inflációs gyorstájékoztatója ebben a futásban még nem jelent meg, ezért a macro_snapshots dokumentum változatlan (szeptemberi) inflációs adatokkal készült"
   ],
   "eu_lost_items_new": 0,
-  "finished_at": "2026-11-08T12:30:00+01:00",
+  "finished_at": "2026-11-08T18:05:00+01:00",
   "items_duplicate": 0,
   "items_found_total": 0,
   "items_needs_review": 0,
@@ -3790,30 +3792,35 @@
   "reported_cases_new": 0,
   "reported_cases_updated": 0,
   "sources_checked": [
-   "kormany.hu/atlathato/feljelentes (hivatalos, WebFetch: 2026-11-05-i állapot, 62 ügy / 4005 Mrd Ft / 74,0 Mrd Ft visszafizetve-megtakarítva — megegyezik a reported-osszesito-2026-09 tétellel, változatlan)",
-   "mnvvh.hu/hirek (WebFetch, legfrissebb: 2026-11-04-i Kisfaludy-program vizsgálat, 2026-11-02-i Seszták-páncélszekrény, 2026-11-05-i Matolcsy-fellebbezés elutasítása — mind már korábban rögzítve)",
-   "ugyeszseg.hu/category/hirek/kozponti-nyomozo-fougyeszseg (WebFetch, legfrissebb közpénzügyi tétel 2026-10-21, Matolcsy-ügy, már rögzítve)",
-   "mnb.hu/arfolyamok (WebFetch: 2026-11-06-i hivatalos fixing, 363,94 Ft/EUR — megegyezik a legutóbbi macro_snapshots dokumentummal)",
-   "K-Monitor (WebSearch, site: szűrés ismét nem adott k-monitor.hu találatot)",
-   "hirkereso.hu (WebSearch, nincs azonosítható új, még nem rögzített tétel)",
-   "KSH (WebSearch, 2026 Q3 GDP-gyorsbecslés még nem jelent meg)",
-   "telex.hu",
+   "kormany.hu/atlathato/feljelentes",
+   "mnvvh.hu/hirek",
+   "ugyeszseg.hu (Központi Nyomozó Főügyészség)",
+   "hirkereso.hu (404, nem elérhető)",
+   "k-monitor.hu (site-keresés)",
+   "mnb.hu/arfolyamok",
+   "Telex",
    "444.hu",
-   "index.hu",
-   "hvg.hu",
-   "portfolio.hu",
-   "economx.hu",
-   "vg.hu",
-   "infostart.hu",
-   "privatbankar.hu",
-   "penzcentrum.hu",
-   "adozona.hu",
-   "24.hu (WebSearch)"
+   "HVG",
+   "Index",
+   "Portfolio.hu",
+   "Economx",
+   "Infostart.hu",
+   "Privátbankár.hu",
+   "Pénzcentrum",
+   "Adózóna"
   ],
-  "started_at": "2026-11-08T11:58:00+01:00",
-  "id": "2026-11-08T11-58"
+  "started_at": "2026-11-08T17:56:28+01:00",
+  "id": "2026-11-08T17-00"
  },
  "run_history": [
+  {
+   "finished_at": "2026-11-08T18:05:00+01:00",
+   "started_at": "2026-11-08T17:56:28+01:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
   {
    "finished_at": "2026-11-08T12:30:00+01:00",
    "started_at": "2026-11-08T11:58:00+01:00",
@@ -4605,18 +4612,10 @@
    "reported_cases_new": 0,
    "reported_cases_updated": 1,
    "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-10-06T12:00:00+02:00",
-   "started_at": "2026-10-06T11:40:00+02:00",
-   "items_new": 0,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 0,
-   "eu_lost_items_new": 0
   }
  ],
  "run_summary": {
-  "run_id": "2026-11-08T11:00:30+00:00",
+  "run_id": "2026-11-08T16:01:51+00:00",
   "new": 0,
   "modified": 0,
   "confirmed_only": 0,
@@ -4639,36 +4638,6 @@
   "confirmed_ids": []
  },
  "run_summary_history": [
-  {
-   "run_id": "2026-10-06T04:06:23+00:00",
-   "by_section": {
-    "items": {
-     "new": 0,
-     "modified": 0,
-     "confirmed_only": 0
-    },
-    "reported_cases": {
-     "new": 0,
-     "modified": 0,
-     "confirmed_only": 0
-    }
-   }
-  },
-  {
-   "run_id": "2026-10-06T10:01:35+00:00",
-   "by_section": {
-    "items": {
-     "new": 0,
-     "modified": 0,
-     "confirmed_only": 0
-    },
-    "reported_cases": {
-     "new": 0,
-     "modified": 0,
-     "confirmed_only": 0
-    }
-   }
-  },
   {
    "run_id": "2026-10-06T15:01:36+00:00",
    "by_section": {
@@ -6126,6 +6095,36 @@
   },
   {
    "run_id": "2026-11-08T11:00:30+00:00",
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    }
+   }
+  },
+  {
+   "run_id": "2026-11-08T16:01:24+00:00",
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    }
+   }
+  },
+  {
+   "run_id": "2026-11-08T16:01:51+00:00",
    "by_section": {
     "items": {
      "new": 0,
