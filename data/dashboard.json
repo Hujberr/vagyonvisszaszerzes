@@ -1,13 +1,13 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-07T16:01:59+00:00",
+ "generated_at": "2026-11-08T05:03:21+00:00",
  "summary": {
   "megtakaritas_verified_huf": 2947290700000,
   "visszaszerzes_verified_huf": 1575719300000,
   "eu_forras_verified_huf": 6280000000000,
   "eu_forras_lost_huf": 730000000000,
   "items_count": 40,
-  "reported_cases_count": 61
+  "reported_cases_count": 62
  },
  "items": [
   {
@@ -1342,8 +1342,8 @@
      "url": "https://www.portfolio.hu/gazdasag/20261105/kiderult-bovulhet-matolcsy-gyorgy-gyanusitasi-listaja-varga-mihaly-szerint-a-szuksegesnel-sokkal-dragabb-volt-az-mnb-szekhaz-felujitasa-874454"
     }
    ],
-   "amount_huf": 3200000000,
-   "amount_text": "mintegy 3,2 milliárd forint (garanciahívások alapján kifizetett összeg, ebből egy tétel 3+ milliárd forint, egy másik 224 millió forint)",
+   "amount_huf": 3500000000,
+   "amount_text": "mintegy 3,5 milliárd forint (két garanciahívás alapján az MFB-nél, kifizetett összeg)",
    "category": "visszaszerzes",
    "currency_note": null,
    "description": "A Magyar Nemzeti Bank jegybanki székházának (Szabadság téri székház) felújítása az eredetileg tervezett 55 milliárd forint helyett végül 105 milliárd forintba került. Az MNB-Ingatlan Kft. a felújítás során feltárt, összesen 4774 garanciális hibára hivatkozva bankgarancia-hívásokat nyújtott be a kivitelezői körrel szemben; ezek alapján eddig összesen mintegy 3,2 milliárd forint érkezett vissza az MNB-Ingatlanhoz. A kivitelezői kör (Raw-csoport) vitatja a garanciahívásokat, és maga is kártérítési igényt (kb. 3,2 milliárd forint) és feljelentést jelentett be az üggyel kapcsolatban; a jogi vita még nem zárult le.",
@@ -1356,10 +1356,10 @@
    "source_url": "https://index.hu/gazdasag/2026/11/04/mnb-szekhaz-felujitas-matolcsy-gyorgy-varga-mihaly-jegybank/",
    "status": "needs_review",
    "subject": "MNB székházfelújítás — garanciahívásból az MNB-Ingatlanhoz visszaérkezett összeg",
-   "verification_notes": "ÚJ TÉTEL (2026-11-05 11:55-ös futás). Egyetlen közvetlen sajtóforrásból (Index, 2026-11-04, Szabó Gyula) ismert, amely Válasz Online-ra is hivatkozik háttérként; független második forrásra vár. A tényleges jogi helyzet nyitott: a Raw-csoport vitatja a garanciahívásokat, maga is kártérítési igénnyel és feljelentéssel élt az MNB-Ingatlannal szemben, ezért az ügy status-a needs_review. Az amount_huf a garanciahívások alapján eddig kifizetett (MNB-Ingatlanhoz visszaérkezett) összeget tükrözi (3,2 Mrd Ft), nem a felújítás teljes túlköltését (105-55=50 Mrd Ft), mert ez utóbbira nincs konkrét visszaszerzési esemény. Kapcsolódhat a reported_cases/reported-mnb-ingatlan-tularazas-2026-09 tételben rögzített, öt MNB-ingatlan túlárazását vizsgáló feljelentéshez (az ott felsorolt 'MNB Budapesti Központ' esetleg azonos ezzel a Szabadság téri székházzal), de a cikk ezt nem erősíti meg egyértelműen, ezért nem összevonva, csak kereszthivatkozásként jelezve. FRISSÍTVE 2026-11-06 futás: Varga Mihály MNB-elnök 2026-11-05-i országgyűlési meghallgatásán megerősítette, hogy a Szabadság téri székház felújítása jelentősen túlárazott volt, amit a jegybank már értékvesztésként könyvelt el; az MNB büntetőfeljelentést tett, és polgári peres úton összesen 25 milliárd forint visszaszerzését célozza (Portfolio.hu, 2026-11-05). Ez a 25 Mrd Ft-os peres célösszeg szélesebb, mint az eddig garanciahívások alapján ténylegesen visszaérkezett 3,2 Mrd Ft; az amount_huf változatlanul a tényleges, garanciahívás alapján befolyt összeget tükrözi, a 25 Mrd Ft-os célösszeg itt, megjegyzésként rögzítve. Második, független forrás (Portfolio.hu) megerősíti a túlárazás tényét és a visszaszerzési szándékot, de nem a konkrét 3,2 Mrd Ft-os garanciahívási összeget, ezért a tétel óvatosságból needs_review marad, amíg a polgári per/jogi vita nem zárul le.",
+   "verification_notes": "FRISSÍTVE 2026-11-08 06:00-ás futás: a HVG 2026-11-06-i és 2026-10-30-i cikke szerint az MNB és az MNB-Ingatlan Kft. 2026. november 4-én beadványt nyújtott be a Budapesti Rendőr-főkapitányságon (BRFK), válaszul a Raw-csoport korábbi, hamis tanúzás és hivatali visszaélés gyanúját megfogalmazó feljelentésére — a BRFK ezt a Raw-feljelentést nyomozássá alakította. A két garanciahívás pontos összege 3,5 milliárd forint (korábban 'mintegy 3,2 milliárd forint'-ként szerepelt; a pontosítás a hivatalos/sajtó forrás szerinti pontosabb adat, az amount_huf/amount_text ezért frissítve). A Raw-csoport szakértői véleménye szerint ebből csak kb. 224,2 millió forint volt indokolt; a Raw saját, az MNB-Ingatlan által okozott kárigénye pontosan 3.293.400.437 forint. Az MNB-Ingatlan a garanciahívásokat több mint 4000 feltárt kivitelezési hibával és szervezési költségekkel indokolja. A jogi vita (BRFK-nyomozás a Raw-feljelentésre, MNB/MNB-Ingatlan november 4-i ellenbeadványa) még nem zárult le, ezért a tétel status-a (needs_review) és a confirmed_recovered_huf (0, mert ez még nem végleges, az államhoz visszakerült összeg, hanem vitatott garanciahívás) változatlan. (Korábbi megjegyzés megőrizve, l. előző verzió.)",
    "id": "visszaszerzes-mnb-szekhaz-garancia-raw-2026-11",
    "first_seen_at": "2026-11-05T11:22:02+00:00",
-   "updated_at": "2026-11-06T11:37:02+00:00"
+   "updated_at": "2026-11-08T05:03:21+00:00"
   },
   {
    "additional_sources": [
@@ -1980,6 +1980,38 @@
   {
    "additional_sources": [
     {
+     "name": "Index",
+     "published_date": "2026-11-07",
+     "url": "https://index.hu/belfold/2026/11/07/erzsebet-tabor-katai-nemeth-vilmos-feljelentes-reklam-hutlen-kezeles/"
+    },
+    {
+     "name": "Economx",
+     "published_date": "2026-11-07",
+     "url": "https://economx.hu/belfold/2026/11/07/katai-nemeth-vilmos-szcsm-ujabb-miniszteri-feljelentes-gyermekek-nyaraltatasa-helyett-egymilliardert-reklamoztak/"
+    }
+   ],
+   "alleged_amount_huf": 1000000000,
+   "alleged_amount_text": "több mint 1 milliárd forint (a program reklámozására fordított összeg a 2026 áprilisi választás előtti egy hónapban)",
+   "confirmed_recovered_huf": 0,
+   "description": "A szociális és családügyi miniszter 2026. november 7-én bejelentette, hogy feljelentést tesz hűtlen kezelés gyanúja miatt az Erzsébet-tábor program reklámköltései ügyében. A tárca áttekintése szerint a 2026 áprilisi választás előtti egy hónapban több mint egymilliárd forint közpénzt fordítottak a program reklámozására, rászoruló gyermekek táboroztatása helyett, megfelelő szakmai indokoltság nélkül.",
+   "ministry": "Szociális és Családügyi Minisztérium",
+   "recovered_item_id": null,
+   "report_date": "2026-11-07",
+   "report_source": {
+    "name": "HVG",
+    "published_date": "2026-11-07",
+    "url": "https://hvg.hu/gazdasag/20261107_erzsebet-tabor-milliardok-hutlen-kezeles-gyanu-katai-nemeth-vilmos-feljelentes"
+   },
+   "status": "reported",
+   "subject": "Erzsébet-tábor program reklámköltései a 2026 áprilisi választás előtt",
+   "verification_notes": "ÚJ TÉTEL (2026-11-08 06:00-ás futás). Legalább három független sajtóforrás (HVG, Index, Economx) egyezően számol be a 2026-11-07-i miniszteri bejelentésről. A gyanú szerint a szervezésben részt vett Koncz Zsófia korábbi családügyi államtitkár is. Nem szerepel még a kormany.hu/atlathato/feljelentes hivatalos listáján (2026-11-05-i állapot szerint ellenőrizve, az oldal azóta nem frissült). Megkülönböztetendő a reported-csaladbarat-magyarorszag-szerencs-2026-10 tételtől (ugyanaz a miniszter és ugyanaz az érintett korábbi államtitkár, de más program: ott a 'Családbarát Magyarország' szerencsi rendezvényei, itt az Erzsébet-tábor reklámköltései) — a két tétel nem vonható össze, mert különböző programokat érint. Konkrét, pontos összeg és az érintett cégek neve a cikkekben nem szerepel, csak a 'több mint 1 milliárd forint' becslés.",
+   "id": "reported-erzsebet-tabor-reklam-2026-11",
+   "updated_at": "2026-11-08T05:03:21+00:00",
+   "first_seen_at": "2026-11-08T05:03:21+00:00"
+  },
+  {
+   "additional_sources": [
+    {
      "name": "444.hu",
      "published_date": "2026-10-09",
      "url": "https://444.hu/2026/10/09/ujabb-166-milliard-forintnyi-eximbank-befektetes-miatt-tett-feljelentest-kapitany-istvan"
@@ -2586,10 +2618,10 @@
    },
    "status": "reported",
    "subject": "MNB öt ingatlanjának korábbi (Matolcsy-korszakbeli) túlárazott megvásárlása",
-   "verification_notes": "Egyetlen forrásból (mfor.hu, 2026-09-03) ismert eddig; a publikálás a jelen futás 3 napos figyelési ablakán kívül esik, de a korábbi futások adattárában még nem szerepelt, ezért felvételre került. Nem szerepel a kormany.hu/atlathato/feljelentes hivatalos listáján (2026-09-25-i ellenőrzés szerint) — ez az MNB önálló jegybanki feljelentése, nem kormányzati/minisztériumi. Kapcsolódik, de különbözik a reported-mnb-matolcsy-alapitvanyok-2026-09 tételtől. FRISSÍTVE 2026-09-26: legalább öt további független forrás (Telex, 444.hu, Magyar Hang, Index, Mandiner — mind 2026-09-03) megerősíti az ügyet; egy további érintett ingatlan is azonosítható: Optimum-Omega Ingatlanbefektetési Kft. A pontos forintösszeg továbbra sem ismert. FRISSÍTVE 2026-11-06 futás: Varga Mihály MNB-elnök 2026-11-05-i országgyűlési meghallgatásán (Portfolio.hu, 2026-11-05) első alkalommal konkrét összegeket is megerősített: a Szabadság téri székház felújítása az eredetileg tervezett 55 milliárd forint helyett 105 milliárd forintba került (l. items/visszaszerzes-mnb-szekhaz-garancia-raw-2026-11, ahol az MNB 25 milliárd forint polgári peres visszaszerzését célozza); a Krisztina körúti székház megvétele és felújítása kb. 38 milliárd forintot ért el, jelenlegi könyv szerinti értéke ennél kb. 12 milliárd forinttal alacsonyabb; a Pénzmúzeum esetében kb. 17 milliárd forintos értékvesztést könyveltek el. Ezek az első, nevesített, forintban kifejezett túlárazási/értékvesztési adatok ebben az ügyben; az alleged_amount_huf mező továbbra is null, mert az öt ingatlan összesített, egységes kárösszege még nem ismert (csak három ingatlanra van most konkrét adat).",
+   "verification_notes": "FRISSÍTVE 2026-11-08 06:00-ás futás: a Szabadság téri székház garanciahívási vitájában (l. items/visszaszerzes-mnb-szekhaz-garancia-raw-2026-11) 2026. november 4-én az MNB és az MNB-Ingatlan Kft. beadványt nyújtott be a BRFK-n, válaszul a Raw-csoport (Somlai Bálint, Matolcsy Ádám baráti köre) korábbi feljelentésére, amely nyomán a BRFK nyomozást indított hamis tanúzás és hivatali visszaélés gyanúja miatt. Emellett a HVG 2026-11-02-i elemzése szerint az MNB-ingatlanokat korábban üzemeltető, a Matolcsy-körhöz köthető GTC ingatlancég is jelentősen túlárazottan üzemeltette az érintett épületeket. Ezek eljárási/háttér-fejlemények, az alleged_amount_huf (null, mert nincs egységes összesített kárösszeg) és a confirmed_recovered_huf (0) nem változott. (Korábbi megjegyzések megőrizve, l. előző verzió.)",
    "id": "reported-mnb-ingatlan-tularazas-2026-09",
    "first_seen_at": "2026-09-28T15:02:40+00:00",
-   "updated_at": "2026-11-06T11:37:02+00:00"
+   "updated_at": "2026-11-08T05:03:21+00:00"
   },
   {
    "additional_sources": [
@@ -3530,7 +3562,7 @@
    "url": "https://magyarnemzet.hu/gazdasag/2026/09/allamadossag-novekedes"
   },
   "allamadossag_huf": 65716000000000,
-  "collected_at": "2026-11-07T16:56:00+01:00",
+  "collected_at": "2026-11-08T06:00:00+01:00",
   "elozo": {
    "allamadossag": {
     "period": null,
@@ -3554,8 +3586,8 @@
     "key": "gdp_novekedes_eves",
     "label_en": "GDP growth (year-on-year)",
     "label_hu": "GDP-növekedés (éves)",
-    "note_en": "KSH's Q3 flash estimate had not been published from a reliable source as of this run (2026-11-07 evening); it is normally released in mid-November.",
-    "note_hu": "A KSH harmadik negyedéves gyorsbecslése e futás idején (2026-11-07 este) még nem jelent meg megbízhatóan ellenőrizhető forrásból; a becslés rendszerint november közepén jelenik meg.",
+    "note_en": "KSH's Q3 flash estimate had not been published from a reliable source as of this run (2026-11-08); it is normally released in mid-November.",
+    "note_hu": "A KSH harmadik negyedéves gyorsbecslése e futás idején (2026-11-08) még nem jelent meg megbízhatóan ellenőrizhető forrásból; a becslés rendszerint november közepén jelenik meg.",
     "period": "2026 Q2",
     "prev_period": "2026 Q1",
     "prev_value": 1.7,
@@ -3634,7 +3666,7 @@
     "label_en": "Official EUR/HUF rate (MNB)",
     "label_hu": "Euró hivatalos árfolyama (MNB)",
     "note_en": "The dollar rate was 325.76 Ft/USD on 2026-11-06, still the latest published official rate as of this run.",
-    "note_hu": "A dollár árfolyama 2026-11-06-án 325,76 Ft/USD volt; ez e futás időpontjában (2026-11-07 este) is a legutolsó közölt hivatalos árfolyam.",
+    "note_hu": "A dollár árfolyama 2026-11-06-án 325,76 Ft/USD volt; ez e futás időpontjában (2026-11-08) is a legutolsó közölt hivatalos árfolyam.",
     "period": "2026-11-06",
     "prev_period": "2026-11-04",
     "prev_value": 363.32,
@@ -3742,46 +3774,407 @@
    "publish_date": "2026-09-22",
    "url": "https://www.portfolio.hu/gazdasag/20260922/itt-az-mnb-uj-elorejelzese-hiaba-a-nemzetkozi-kockazatok-mersekelt-marad-az-idei-inflacio-864484"
   },
-  "id": "2026-11-07T16-56"
+  "id": "2026-11-08T06-00"
  },
  "last_run": {
   "errors": [
-   "A WebSearch eszköz nem tudta közvetlenül lekérni a k-monitor.hu, hirkereso.hu, mnvvh.hu/hirek és ügyészség.hu oldalakat (a keresőindex nem adott vissza közvetlen, friss találatot ezekről a domainekről ebben a futásban); ez keresőindex-korlát, nem hálózati blokk - a korábbi futásokban rögzített adatok érvényben maradnak.",
-   "A KSH szeptemberi munkanélküliségi gyorstájékoztatója e futás idején még nem jelent meg; a legutóbbi (augusztusi) adat maradt érvényben.",
-   "Az ÁKK friss (szeptemberi/októberi) államadósság-összesítőjét nem sikerült megbízhatóan megtalálni ebben a futásban; a 2026-07-31-i állapot maradt érvényben.",
-   "A mai (2026-10-23) MNB hivatalos EUR/HUF árfolyamot nem sikerült megbízhatóan megerősíteni; a 2026-10-22-i érték maradt érvényben."
+   "telex.hu: 403 Forbidden a WebFetch számára, nem volt közvetlenül lekérdezhető ebben a futásban",
+   "444.hu: 404 Not Found a /kozelet útvonalon, nem volt közvetlenül lekérdezhető",
+   "g7.hu: 301-es átirányítás telex.hu/g7-re, a telex.hu blokk miatt nem lett követve",
+   "Idő/erőforrás-korlát miatt a figyelt listából több kisebb portil (168.hu, Demokrata, Direkt36, Élet és Irodalom, Forbes, Hir TV, InfoStart, Jelen, Klubrádió, Magyar Hang, Magyar Hírlap, Magyar Nemzet, Makronóm, Mandiner, Media1, Mfor, Mérce, MTI, Népszava, Origo, Pénzcentrum, Privátbankár (csak WebSearch), Szabad Európa, Trend FM, Új Egyenlőség, Válasz Online, Világgazdaság, Partizán, Okoshír, Szeretlek Magyarország) ebben a futásban nem lett külön lekérdezve; a legvalószínűbb új hireket hordozó források (hvg, index, economx, atlatszo, portfolio, kormany.hu, mnvvh.hu, ugyeszseg.hu) le lettek kérdezve."
   ],
   "eu_lost_items_new": 0,
-  "finished_at": "2026-10-23T17:40:00+02:00",
+  "finished_at": null,
   "items_duplicate": 0,
-  "items_found_total": 0,
+  "items_found_total": 1,
   "items_needs_review": 0,
   "items_new": 0,
-  "reported_cases_new": 0,
-  "reported_cases_updated": 1,
+  "reported_cases_new": 1,
+  "reported_cases_updated": 2,
   "sources_checked": [
-   "kormany.hu/atlathato/feljelentes (official, via web-fetch, data stamp unchanged: 2026-10-21)",
-   "Telex",
-   "444.hu",
-   "Index.hu",
-   "Portfolio.hu",
-   "VG.hu",
-   "Economx.hu",
-   "Infostart.hu",
-   "Privátbankár.hu",
-   "Adózóna (KSH/PM adatközlések)",
-   "K-Monitor (site: search, no new hit)",
-   "hirkereso.hu (search attempt, no direct listing retrievable)",
-   "mnvvh.hu/hirek (search attempt, no October item found)",
-   "ügyészség.hu / Központi Nyomozó Főügyészség (search attempt, no October communiqué found directly)",
-   "KSH (munkanélküliség, infláció - via sajtó)",
-   "MNB (alapkamat, árfolyam - via sajtó)",
-   "ÁKK (államadósság - via sajtó, no fresh September/October figure found)"
+   "kormany.hu/atlathato/feljelentes (hivatalos, nem változott a 2026-11-05-i állapothoz képest)",
+   "hvg.hu (közpénz címke)",
+   "index.hu/belfold",
+   "economx.hu/belfold",
+   "atlatszo.hu/kozpenz",
+   "portfolio.hu/unios-forrasok",
+   "mnvvh.hu/hirek",
+   "ugyeszseg.hu (Központi Nyomozó Főügyészség rovat)",
+   "K-Monitor (csak WebSearch, újat nem talált)",
+   "Hirkereső.hu (csak WebSearch, közvetlen cikk nem volt elérhető)"
   ],
-  "started_at": "2026-10-23T16:56:00+02:00",
-  "id": "2026-10-23T16-56"
+  "started_at": "2026-11-08T06:00:00+01:00",
+  "id": "2026-11-08T06-00"
  },
  "run_history": [
+  {
+   "finished_at": null,
+   "started_at": "2026-11-08T06:00:00+01:00",
+   "items_new": 0,
+   "reported_cases_new": 1,
+   "reported_cases_updated": 2,
+   "eu_lost_items_new": 0
+  },
+  {
+   "finished_at": "2026-11-07T17:40:00+01:00",
+   "started_at": "2026-11-07T16:56:00+01:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
+  {
+   "finished_at": "2026-11-07T12:40:00+01:00",
+   "started_at": "2026-11-07T11:55:00+01:00",
+   "items_new": 0,
+   "reported_cases_new": 1,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
+  {
+   "finished_at": "2026-11-07T06:30:00+01:00",
+   "started_at": "2026-11-07T05:56:00+01:00",
+   "items_new": 1,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
+  {
+   "finished_at": "2026-11-06T17:05:00+01:00",
+   "started_at": "2026-11-06T16:56:00+01:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
+  {
+   "finished_at": "2026-11-06T12:40:00+01:00",
+   "started_at": "2026-11-06T11:56:00+01:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 2,
+   "eu_lost_items_new": 0
+  },
+  {
+   "finished_at": "2026-11-06T06:20:00+01:00",
+   "started_at": "2026-11-06T05:55:00+01:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 2,
+   "eu_lost_items_new": 0
+  },
+  {
+   "finished_at": "2026-11-05T17:02:00+01:00",
+   "started_at": "2026-11-05T16:55:00+01:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
+  {
+   "finished_at": "2026-11-05T12:02:00+01:00",
+   "started_at": "2026-11-05T11:55:00+01:00",
+   "items_new": 1,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 1,
+   "eu_lost_items_new": 0
+  },
+  {
+   "finished_at": "2026-11-05T06:15:00+01:00",
+   "started_at": "2026-11-05T05:55:00+01:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 2,
+   "eu_lost_items_new": 0
+  },
+  {
+   "finished_at": "2026-11-04T17:02:30+01:00",
+   "started_at": "2026-11-04T16:59:00+01:00",
+   "items_new": 0,
+   "reported_cases_new": 1,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
+  {
+   "finished_at": "2026-11-04T11:58:00+01:00",
+   "started_at": "2026-11-04T10:55:00+00:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
+  {
+   "finished_at": "2026-11-04T06:35:00+01:00",
+   "started_at": "2026-11-04T05:56:00+01:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 2,
+   "eu_lost_items_new": 0
+  },
+  {
+   "finished_at": "2026-11-03T16:58:00+01:00",
+   "started_at": "2026-11-03T16:45:00+01:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
+  {
+   "finished_at": "2026-11-03T14:10:00+01:00",
+   "started_at": "2026-11-03T13:15:00+01:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 1,
+   "eu_lost_items_new": 0
+  },
+  {
+   "finished_at": "2026-11-03T06:30:00+01:00",
+   "started_at": "2026-11-03T05:56:00+01:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
+  {
+   "finished_at": "2026-11-02T17:55:00+01:00",
+   "started_at": "2026-11-02T17:24:00+01:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
+  {
+   "finished_at": "2026-11-02T12:15:00+01:00",
+   "started_at": "2026-11-02T11:56:00+01:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
+  {
+   "finished_at": "2026-11-02T06:10:00+01:00",
+   "started_at": "2026-11-02T05:56:00+01:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 2,
+   "eu_lost_items_new": 0
+  },
+  {
+   "finished_at": "2026-11-01T17:30:00+01:00",
+   "started_at": "2026-11-01T16:56:00+01:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
+  {
+   "finished_at": "2026-11-01T12:10:00+01:00",
+   "started_at": "2026-11-01T11:56:00+01:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
+  {
+   "finished_at": "2026-11-01T06:10:00+01:00",
+   "started_at": "2026-11-01T05:56:00+01:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
+  {
+   "finished_at": "2026-10-31T17:35:00+01:00",
+   "started_at": "2026-10-31T16:56:00+01:00",
+   "items_new": 0,
+   "reported_cases_new": 1,
+   "reported_cases_updated": 2,
+   "eu_lost_items_new": 0
+  },
+  {
+   "finished_at": "2026-10-31T13:10:00+01:00",
+   "started_at": "2026-10-31T12:00:00+01:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 2,
+   "eu_lost_items_new": 0
+  },
+  {
+   "finished_at": "2026-10-31T12:10:00+01:00",
+   "started_at": "2026-10-31T11:56:00+01:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
+  {
+   "finished_at": "2026-10-30T17:40:00+01:00",
+   "started_at": "2026-10-30T16:56:00+01:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
+  {
+   "finished_at": "2026-10-30T12:20:00+01:00",
+   "started_at": "2026-10-30T12:00:00+01:00",
+   "items_new": 0,
+   "reported_cases_new": 1,
+   "reported_cases_updated": 1,
+   "eu_lost_items_new": 0
+  },
+  {
+   "finished_at": "2026-10-30T06:40:00+01:00",
+   "started_at": "2026-10-30T05:59:00+01:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
+  {
+   "finished_at": "2026-10-29T17:45:00+01:00",
+   "started_at": "2026-10-29T17:12:00+01:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 2,
+   "eu_lost_items_new": 0
+  },
+  {
+   "finished_at": "2026-10-29T12:30:00+01:00",
+   "started_at": "2026-10-29T11:55:00+01:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
+  {
+   "finished_at": "2026-10-29T06:01:00+01:00",
+   "started_at": "2026-10-29T05:56:00+01:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
+  {
+   "finished_at": "2026-10-28T17:10:00+01:00",
+   "started_at": "2026-10-28T16:30:00+01:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 1,
+   "eu_lost_items_new": 0
+  },
+  {
+   "finished_at": "2026-10-28T12:30:00+01:00",
+   "started_at": "2026-10-28T11:58:00+01:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
+  {
+   "finished_at": "2026-10-28T06:40:00+01:00",
+   "started_at": "2026-10-28T06:02:00+01:00",
+   "items_new": 0,
+   "reported_cases_new": 1,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
+  {
+   "finished_at": "2026-10-27T17:05:00+01:00",
+   "started_at": "2026-10-27T16:30:00+01:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
+  {
+   "finished_at": "2026-10-27T12:30:00+01:00",
+   "started_at": "2026-10-27T11:57:00+01:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
+  {
+   "finished_at": "2026-10-27T06:35:00+02:00",
+   "started_at": "2026-10-27T06:00:00+02:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
+  {
+   "finished_at": "2026-10-26T17:05:00+01:00",
+   "started_at": "2026-10-26T16:56:00+01:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
+  {
+   "finished_at": "2026-10-26T12:03:00+01:00",
+   "started_at": "2026-10-26T11:57:00+01:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
+  {
+   "finished_at": "2026-10-26T06:05:00+01:00",
+   "started_at": "2026-10-26T06:00:00+01:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
+  {
+   "finished_at": "2026-10-25T17:30:00+02:00",
+   "started_at": "2026-10-25T16:56:00+02:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
+  {
+   "finished_at": "2026-10-25T12:35:00+02:00",
+   "started_at": "2026-10-25T11:55:00+02:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
+  {
+   "finished_at": "2026-10-25T06:30:00+02:00",
+   "started_at": "2026-10-25T05:55:00+02:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
+  {
+   "finished_at": "2026-10-24T17:05:00+02:00",
+   "started_at": "2026-10-24T16:30:00+02:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
+  {
+   "finished_at": "2026-10-24T12:35:00+02:00",
+   "started_at": "2026-10-24T11:56:00+02:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
+  {
+   "finished_at": "2026-10-24T10:10:00+02:00",
+   "started_at": "2026-10-24T09:15:00+02:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 1,
+   "eu_lost_items_new": 0
+  },
   {
    "finished_at": "2026-10-23T17:40:00+02:00",
    "started_at": "2026-10-23T16:56:00+02:00",
@@ -4213,364 +4606,14 @@
    "reported_cases_new": 0,
    "reported_cases_updated": 0,
    "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-10-05T17:35:00+02:00",
-   "started_at": "2026-10-05T16:56:00+02:00",
-   "items_new": 2,
-   "reported_cases_new": 1,
-   "reported_cases_updated": 0,
-   "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-10-05T12:30:00+02:00",
-   "started_at": "2026-10-05T11:50:00+02:00",
-   "items_new": 0,
-   "reported_cases_new": 1,
-   "reported_cases_updated": 0,
-   "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-10-05T06:45:00+02:00",
-   "started_at": "2026-10-05T06:00:00+02:00",
-   "items_new": 1,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 1,
-   "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-10-04T17:10:00+02:00",
-   "started_at": "2026-10-04T16:55:00+02:00",
-   "items_new": 0,
-   "reported_cases_new": 1,
-   "reported_cases_updated": 0,
-   "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-10-04T12:05:00+02:00",
-   "started_at": "2026-10-04T11:50:00+02:00",
-   "items_new": 0,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 0,
-   "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-10-04T06:10:00+02:00",
-   "started_at": "2026-10-04T05:50:00+02:00",
-   "items_new": 0,
-   "reported_cases_new": 1,
-   "reported_cases_updated": 0,
-   "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-10-03T17:20:00+02:00",
-   "started_at": "2026-10-03T16:35:00+02:00",
-   "items_new": 1,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 6,
-   "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-10-03T12:40:00+02:00",
-   "started_at": "2026-10-03T11:56:00+02:00",
-   "items_new": 4,
-   "reported_cases_new": 1,
-   "reported_cases_updated": 2,
-   "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-10-03T06:10:00+02:00",
-   "started_at": "2026-10-03T05:55:00+02:00",
-   "items_new": 3,
-   "reported_cases_new": 1,
-   "reported_cases_updated": 2,
-   "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-10-02T17:40:00+02:00",
-   "started_at": "2026-10-02T16:45:00+02:00",
-   "items_new": 0,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 10,
-   "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-10-02T12:15:00+02:00",
-   "started_at": "2026-10-02T11:45:00+02:00",
-   "items_new": 0,
-   "reported_cases_new": 1,
-   "reported_cases_updated": 0,
-   "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-10-02T06:10:00+02:00",
-   "started_at": "2026-10-02T05:55:00+02:00",
-   "items_new": 0,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 2,
-   "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-10-01T17:30:00+02:00",
-   "started_at": "2026-10-01T16:55:00+02:00",
-   "items_new": 1,
-   "reported_cases_new": 1,
-   "reported_cases_updated": 1,
-   "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-10-01T12:40:00+02:00",
-   "started_at": "2026-10-01T11:55:00+02:00",
-   "items_new": 0,
-   "reported_cases_new": 2,
-   "reported_cases_updated": 1,
-   "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-10-01T06:10:00+02:00",
-   "started_at": "2026-10-01T05:30:00+02:00",
-   "items_new": 0,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 0,
-   "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-09-30T18:05:00+02:00",
-   "started_at": "2026-09-30T16:55:00+02:00",
-   "items_new": 0,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 3,
-   "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-09-30T12:20:00+02:00",
-   "started_at": "2026-09-30T11:55:00+02:00",
-   "items_new": 0,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 1,
-   "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-09-30T06:45:00+02:00",
-   "started_at": "2026-09-30T05:55:00+02:00",
-   "items_new": 0,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 2,
-   "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-09-29T17:55:00+02:00",
-   "started_at": "2026-09-29T17:25:00+02:00",
-   "items_new": 0,
-   "reported_cases_new": 2,
-   "reported_cases_updated": 1,
-   "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-09-29T12:15:00+02:00",
-   "started_at": "2026-09-29T11:30:00+02:00",
-   "items_new": 0,
-   "reported_cases_new": 1,
-   "reported_cases_updated": 1,
-   "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-09-29T09:35:00+02:00",
-   "started_at": "2026-09-29T09:00:00+02:00",
-   "items_new": 0,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 2,
-   "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-09-28T17:02:00+02:00",
-   "started_at": "2026-09-28T16:56:00+02:00",
-   "items_new": 0,
-   "reported_cases_new": 1,
-   "reported_cases_updated": 2,
-   "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-09-28T12:10:00+02:00",
-   "started_at": "2026-09-28T11:30:00+02:00",
-   "items_new": 0,
-   "reported_cases_new": 4,
-   "reported_cases_updated": 3,
-   "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-09-28T06:10:00+02:00",
-   "started_at": "2026-09-28T05:55:00+02:00",
-   "items_new": 0,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 0,
-   "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-09-27T18:10:00+02:00",
-   "started_at": "2026-09-27T17:52:00+02:00",
-   "items_new": 0,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 0,
-   "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-09-27T17:20:00+02:00",
-   "started_at": "2026-09-27T16:56:00+02:00",
-   "items_new": 0,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 0,
-   "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-09-27T12:15:00+02:00",
-   "started_at": "2026-09-27T11:56:00+02:00",
-   "items_new": 0,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 0,
-   "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-09-27T06:01:00+02:00",
-   "started_at": "2026-09-27T05:55:00+02:00",
-   "items_new": 1,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 2,
-   "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-09-26T17:20:00+02:00",
-   "started_at": "2026-09-26T16:56:00+02:00",
-   "items_new": 0,
-   "reported_cases_new": 1,
-   "reported_cases_updated": 1,
-   "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-09-26T13:05:00+02:00",
-   "started_at": "2026-09-26T12:55:00+02:00",
-   "items_new": 0,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 0,
-   "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-09-26T12:10:00+02:00",
-   "started_at": "2026-09-26T11:55:00+02:00",
-   "items_new": 2,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 8,
-   "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-09-26T08:05:00+02:00",
-   "started_at": "2026-09-26T07:15:00+02:00",
-   "items_new": 0,
-   "reported_cases_new": 1,
-   "reported_cases_updated": 0,
-   "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-09-26T06:47:00+02:00",
-   "started_at": "2026-09-26T06:43:00+02:00",
-   "items_new": 0,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 3,
-   "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-09-26T06:20:00+02:00",
-   "started_at": "2026-09-26T06:02:00+02:00",
-   "items_new": 0,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 0,
-   "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-09-25T23:45:00+02:00",
-   "started_at": "2026-09-25T23:15:00+02:00",
-   "items_new": 2,
-   "reported_cases_new": 2,
-   "reported_cases_updated": 3
-  },
-  {
-   "finished_at": "2026-09-25T17:50:00+02:00",
-   "started_at": "2026-09-25T17:03:00+02:00",
-   "items_new": 1,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 0
-  },
-  {
-   "finished_at": "2026-09-25T12:45:00+02:00",
-   "started_at": "2026-09-25T12:02:00+02:00",
-   "items_new": 0,
-   "reported_cases_new": 1,
-   "reported_cases_updated": 1
-  },
-  {
-   "finished_at": "2026-09-25T07:10:00+02:00",
-   "started_at": "2026-09-25T06:02:00+02:00",
-   "items_new": 0,
-   "reported_cases_new": 1,
-   "reported_cases_updated": 0
-  },
-  {
-   "finished_at": "2026-09-24T17:40:00+02:00",
-   "started_at": "2026-09-24T17:02:00+02:00",
-   "items_new": 0,
-   "reported_cases_new": 1,
-   "reported_cases_updated": 0
-  },
-  {
-   "finished_at": "2026-09-24T12:35:00+02:00",
-   "started_at": "2026-09-24T12:08:00+02:00",
-   "items_new": 1,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 1
-  },
-  {
-   "finished_at": "2026-09-24T06:30:00+02:00",
-   "started_at": "2026-09-24T06:07:00+02:00",
-   "items_new": 0,
-   "reported_cases_new": 2,
-   "reported_cases_updated": 0
-  },
-  {
-   "finished_at": "2026-09-23T17:35:00+02:00",
-   "started_at": "2026-09-23T17:18:00+02:00",
-   "items_new": 1,
-   "reported_cases_new": 3,
-   "reported_cases_updated": 2
-  },
-  {
-   "finished_at": "2026-09-23T09:45:00+02:00",
-   "started_at": "2026-09-23T08:30:00+02:00",
-   "items_new": 2,
-   "reported_cases_new": 3,
-   "reported_cases_updated": 2
-  },
-  {
-   "finished_at": "2026-09-22T11:10:00+02:00",
-   "started_at": "2026-09-22T10:45:00+02:00",
-   "items_new": 4
-  },
-  {
-   "finished_at": "2026-09-22T10:55:00+02:00",
-   "started_at": "2026-09-22T10:30:00+02:00",
-   "items_new": 2
-  },
-  {
-   "finished_at": "2026-09-22T10:40:00+02:00",
-   "started_at": "2026-09-22T10:21:00+02:00",
-   "items_new": 2
   }
  ],
  "run_summary": {
-  "run_id": "2026-11-07T16:01:59+00:00",
-  "new": 0,
+  "run_id": "2026-11-08T05:03:21+00:00",
+  "new": 1,
   "modified": 0,
-  "confirmed_only": 0,
-  "touched": 0,
+  "confirmed_only": 1,
+  "touched": 2,
   "pending_review": 3,
   "by_section": {
    "items": {
@@ -4579,31 +4622,20 @@
     "confirmed_only": 0
    },
    "reported_cases": {
-    "new": 0,
+    "new": 1,
     "modified": 0,
-    "confirmed_only": 0
+    "confirmed_only": 1
    }
   },
-  "new_ids": [],
+  "new_ids": [
+   "r:reported-erzsebet-tabor-reklam-2026-11"
+  ],
   "modified_ids": [],
-  "confirmed_ids": []
+  "confirmed_ids": [
+   "r:reported-mnb-ingatlan-tularazas-2026-09"
+  ]
  },
  "run_summary_history": [
-  {
-   "run_id": "2026-10-05T10:07:29+00:00",
-   "by_section": {
-    "items": {
-     "new": 0,
-     "modified": 0,
-     "confirmed_only": 0
-    },
-    "reported_cases": {
-     "new": 1,
-     "modified": 0,
-     "confirmed_only": 0
-    }
-   }
-  },
   {
    "run_id": "2026-10-05T15:07:04+00:00",
    "by_section": {
@@ -6086,6 +6118,21 @@
      "new": 0,
      "modified": 0,
      "confirmed_only": 0
+    }
+   }
+  },
+  {
+   "run_id": "2026-11-08T05:03:21+00:00",
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 1,
+     "modified": 0,
+     "confirmed_only": 1
     }
    }
   }
