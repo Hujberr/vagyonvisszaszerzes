@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-08T05:03:21+00:00",
+ "generated_at": "2026-11-08T11:00:30+00:00",
  "summary": {
   "megtakaritas_verified_huf": 2947290700000,
   "visszaszerzes_verified_huf": 1575719300000,
@@ -2006,8 +2006,8 @@
    "subject": "Erzsébet-tábor program reklámköltései a 2026 áprilisi választás előtt",
    "verification_notes": "ÚJ TÉTEL (2026-11-08 06:00-ás futás). Legalább három független sajtóforrás (HVG, Index, Economx) egyezően számol be a 2026-11-07-i miniszteri bejelentésről. A gyanú szerint a szervezésben részt vett Koncz Zsófia korábbi családügyi államtitkár is. Nem szerepel még a kormany.hu/atlathato/feljelentes hivatalos listáján (2026-11-05-i állapot szerint ellenőrizve, az oldal azóta nem frissült). Megkülönböztetendő a reported-csaladbarat-magyarorszag-szerencs-2026-10 tételtől (ugyanaz a miniszter és ugyanaz az érintett korábbi államtitkár, de más program: ott a 'Családbarát Magyarország' szerencsi rendezvényei, itt az Erzsébet-tábor reklámköltései) — a két tétel nem vonható össze, mert különböző programokat érint. Konkrét, pontos összeg és az érintett cégek neve a cikkekben nem szerepel, csak a 'több mint 1 milliárd forint' becslés.",
    "id": "reported-erzsebet-tabor-reklam-2026-11",
-   "updated_at": "2026-11-08T05:03:21+00:00",
-   "first_seen_at": "2026-11-08T05:03:21+00:00"
+   "first_seen_at": "2026-11-08T05:03:21+00:00",
+   "updated_at": "2026-11-08T05:03:21+00:00"
   },
   {
    "additional_sources": [
@@ -3778,35 +3778,50 @@
  },
  "last_run": {
   "errors": [
-   "telex.hu: 403 Forbidden a WebFetch számára, nem volt közvetlenül lekérdezhető ebben a futásban",
-   "444.hu: 404 Not Found a /kozelet útvonalon, nem volt közvetlenül lekérdezhető",
-   "g7.hu: 301-es átirányítás telex.hu/g7-re, a telex.hu blokk miatt nem lett követve",
-   "Idő/erőforrás-korlát miatt a figyelt listából több kisebb portil (168.hu, Demokrata, Direkt36, Élet és Irodalom, Forbes, Hir TV, InfoStart, Jelen, Klubrádió, Magyar Hang, Magyar Hírlap, Magyar Nemzet, Makronóm, Mandiner, Media1, Mfor, Mérce, MTI, Népszava, Origo, Pénzcentrum, Privátbankár (csak WebSearch), Szabad Európa, Trend FM, Új Egyenlőség, Válasz Online, Világgazdaság, Partizán, Okoshír, Szeretlek Magyarország) ebben a futásban nem lett külön lekérdezve; a legvalószínűbb új hireket hordozó források (hvg, index, economx, atlatszo, portfolio, kormany.hu, mnvvh.hu, ugyeszseg.hu) le lettek kérdezve."
+   "Ez a futás egy korábbi, 2026-11-08T06-00 azonosítójú futás közvetlen folytatása: az a futás a GitHub-publikálásig (data/dashboard.json, commit 5c73f97) eljutott, de a saját run_log dokumentumát (finished_at) és a záró lépéseket (Excel-export, push-értesítés, záró üzenet) nem fejezte be a munkamenet megszakadása miatt. A 2026-11-08T06-00 futás által felvett új tétel (reported-erzsebet-tabor-reklam-2026-11) és a 2 frissített tétel a jelen futás exportjában is szerepel.",
+   "Legalább 15 tematikus/forrás-keresés (megtakarítás, visszaszerzés, feljelentés, EU-forrás, elveszett uniós forrás, túlárazás, pazarlás-kontextus, adófizetők pénze, Matolcsy, KSH GDP, MNB árfolyam) nem talált a meglévő adattártól eltérő, új tényt; minden releváns találat már szerepel a 2026-11-08T06-00 vagy korábbi futásokban."
   ],
   "eu_lost_items_new": 0,
-  "finished_at": null,
+  "finished_at": "2026-11-08T12:30:00+01:00",
   "items_duplicate": 0,
-  "items_found_total": 1,
+  "items_found_total": 0,
   "items_needs_review": 0,
   "items_new": 0,
-  "reported_cases_new": 1,
-  "reported_cases_updated": 2,
+  "reported_cases_new": 0,
+  "reported_cases_updated": 0,
   "sources_checked": [
-   "kormany.hu/atlathato/feljelentes (hivatalos, nem változott a 2026-11-05-i állapothoz képest)",
-   "hvg.hu (közpénz címke)",
-   "index.hu/belfold",
-   "economx.hu/belfold",
-   "atlatszo.hu/kozpenz",
-   "portfolio.hu/unios-forrasok",
-   "mnvvh.hu/hirek",
-   "ugyeszseg.hu (Központi Nyomozó Főügyészség rovat)",
-   "K-Monitor (csak WebSearch, újat nem talált)",
-   "Hirkereső.hu (csak WebSearch, közvetlen cikk nem volt elérhető)"
+   "kormany.hu/atlathato/feljelentes (hivatalos, WebFetch: 2026-11-05-i állapot, 62 ügy / 4005 Mrd Ft / 74,0 Mrd Ft visszafizetve-megtakarítva — megegyezik a reported-osszesito-2026-09 tétellel, változatlan)",
+   "mnvvh.hu/hirek (WebFetch, legfrissebb: 2026-11-04-i Kisfaludy-program vizsgálat, 2026-11-02-i Seszták-páncélszekrény, 2026-11-05-i Matolcsy-fellebbezés elutasítása — mind már korábban rögzítve)",
+   "ugyeszseg.hu/category/hirek/kozponti-nyomozo-fougyeszseg (WebFetch, legfrissebb közpénzügyi tétel 2026-10-21, Matolcsy-ügy, már rögzítve)",
+   "mnb.hu/arfolyamok (WebFetch: 2026-11-06-i hivatalos fixing, 363,94 Ft/EUR — megegyezik a legutóbbi macro_snapshots dokumentummal)",
+   "K-Monitor (WebSearch, site: szűrés ismét nem adott k-monitor.hu találatot)",
+   "hirkereso.hu (WebSearch, nincs azonosítható új, még nem rögzített tétel)",
+   "KSH (WebSearch, 2026 Q3 GDP-gyorsbecslés még nem jelent meg)",
+   "telex.hu",
+   "444.hu",
+   "index.hu",
+   "hvg.hu",
+   "portfolio.hu",
+   "economx.hu",
+   "vg.hu",
+   "infostart.hu",
+   "privatbankar.hu",
+   "penzcentrum.hu",
+   "adozona.hu",
+   "24.hu (WebSearch)"
   ],
-  "started_at": "2026-11-08T06:00:00+01:00",
-  "id": "2026-11-08T06-00"
+  "started_at": "2026-11-08T11:58:00+01:00",
+  "id": "2026-11-08T11-58"
  },
  "run_history": [
+  {
+   "finished_at": "2026-11-08T12:30:00+01:00",
+   "started_at": "2026-11-08T11:58:00+01:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
   {
    "finished_at": null,
    "started_at": "2026-11-08T06:00:00+01:00",
@@ -4598,22 +4613,14 @@
    "reported_cases_new": 0,
    "reported_cases_updated": 0,
    "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-10-06T06:04:00+02:00",
-   "started_at": "2026-10-06T05:40:00+02:00",
-   "items_new": 0,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 0,
-   "eu_lost_items_new": 0
   }
  ],
  "run_summary": {
-  "run_id": "2026-11-08T05:03:21+00:00",
-  "new": 1,
+  "run_id": "2026-11-08T11:00:30+00:00",
+  "new": 0,
   "modified": 0,
-  "confirmed_only": 1,
-  "touched": 2,
+  "confirmed_only": 0,
+  "touched": 0,
   "pending_review": 3,
   "by_section": {
    "items": {
@@ -4622,35 +4629,16 @@
     "confirmed_only": 0
    },
    "reported_cases": {
-    "new": 1,
+    "new": 0,
     "modified": 0,
-    "confirmed_only": 1
+    "confirmed_only": 0
    }
   },
-  "new_ids": [
-   "r:reported-erzsebet-tabor-reklam-2026-11"
-  ],
+  "new_ids": [],
   "modified_ids": [],
-  "confirmed_ids": [
-   "r:reported-mnb-ingatlan-tularazas-2026-09"
-  ]
+  "confirmed_ids": []
  },
  "run_summary_history": [
-  {
-   "run_id": "2026-10-05T15:07:04+00:00",
-   "by_section": {
-    "items": {
-     "new": 2,
-     "modified": 0,
-     "confirmed_only": 0
-    },
-    "reported_cases": {
-     "new": 1,
-     "modified": 0,
-     "confirmed_only": 0
-    }
-   }
-  },
   {
    "run_id": "2026-10-06T04:06:23+00:00",
    "by_section": {
@@ -6133,6 +6121,21 @@
      "new": 1,
      "modified": 0,
      "confirmed_only": 1
+    }
+   }
+  },
+  {
+   "run_id": "2026-11-08T11:00:30+00:00",
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
     }
    }
   }
