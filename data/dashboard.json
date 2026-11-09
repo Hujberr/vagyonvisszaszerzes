@@ -1,12 +1,12 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-09T11:00:34+00:00",
+ "generated_at": "2026-11-09T16:02:51+00:00",
  "summary": {
   "megtakaritas_verified_huf": 2947290700000,
   "visszaszerzes_verified_huf": 1575719300000,
-  "eu_forras_verified_huf": 6280000000000,
+  "eu_forras_verified_huf": 8251000000000,
   "eu_forras_lost_huf": 730000000000,
-  "items_count": 40,
+  "items_count": 41,
   "reported_cases_count": 63
  },
  "items": [
@@ -232,6 +232,65 @@
    "id": "eu-forras-norveg-alap-2026-10",
    "first_seen_at": "2026-10-15T04:05:11+00:00",
    "updated_at": "2026-11-05T16:28:50+00:00"
+  },
+  {
+   "additional_sources": [
+    {
+     "name": "444.hu (csökkentés bejelentése)",
+     "published_date": "2026-09-25",
+     "url": "https://444.hu/2026/09/25/magyarorszag-16-milliard-helyett-csak-54-milliard-euro-vedelmi-hitelt-vesz-fel"
+    },
+    {
+     "name": "Telex (English)",
+     "published_date": "2026-09-25",
+     "url": "https://telex.hu/english/2026/09/25/hungary-requested-5-4-billion-euros-from-eu-s-safe-defense-loan-facility"
+    },
+    {
+     "name": "Euronews",
+     "published_date": "2026-09-25",
+     "url": "https://www.euronews.com/2026/09/25/hungary-dramatically-cuts-eu-defence-loan-request-under-new-government"
+    },
+    {
+     "name": "444.hu (felhasználási tervek részletezése)",
+     "published_date": "2026-11-09",
+     "url": "https://444.hu/2026/11/09/kiderult-mely-fejleszteseket-finanszirozza-a-kormany-az-eu-vedelmi-hitelebol"
+    }
+   ],
+   "agreed_huf": 1971000000000,
+   "agreed_original_huf": 1971000000000,
+   "agreed_text": "5,4 milliárd euró (kb. 1971 milliárd forint) — az Európai Bizottság által 2026. október végén jóváhagyott magyar nemzeti terv szerinti hitelkeret",
+   "amount_huf": 1971000000000,
+   "amount_text": "5,4 milliárd euró (kb. 1971 milliárd forint)",
+   "category": "eu_forras",
+   "collected_at": "2026-11-09T16:30:00+01:00",
+   "currency_note": "eredetileg euróban (5,4 milliárd EUR), kb. 365 Ft/EUR árfolyamon forintra átszámítva",
+   "dedup_key": "eu_forras|safe vedelmi hitelprogram europai bizottsag jovahagyas|1971000000000",
+   "description": "Magyarország az uniós SAFE (Security Action for Europe) védelmi hitelprogramból 5,4 milliárd euró kedvezményes hitelt vehet fel, amelyet az Európai Bizottság 2026 október végén hagyott jóvá. A kormány eredetileg több mint 16 milliárd eurót tervezett igénybe venni, ezt azonban a költségvetés teherbíróképessége miatt az új kormány jelentősen, 5,4 milliárd euróra csökkentette. A hitelből tervezett felhasználás: mintegy 3,45 milliárd euró hadiipari beszerzésre és karbantartásra (harcjárművek, harckocsik, gyakorlórepülőgépek, tüzérségi lőszerek, légvédelmi és rakétatechnika, drónok), a fennmaradó rész pedig katonai célú infrastruktúra-fejlesztésre (autóútszakaszok, híd korszerűsítése, vasúti eszközök, digitális rádiótávközlő rendszer).",
+   "disbursement_as_of": "2026-10-28",
+   "disbursement_source": {
+    "name": "444.hu",
+    "published_date": "2026-10-28",
+    "url": "https://444.hu/2026/10/28/az-europai-bizottsag-hozzajarult-hogy-magyarorszag-54-milliard-euro-hitelt-vegyen-fel-vedelmi-beruhazasokra"
+   },
+   "duplicate_of": null,
+   "event_date": "2026-10-28",
+   "framework_label": "SAFE védelmi hitelprogram",
+   "framework_type": "kiegeszito",
+   "from_whom": null,
+   "lost_huf": 0,
+   "lost_items": [],
+   "lost_text": null,
+   "received_huf": 0,
+   "received_text": "A pénz még nem érkezett meg. Az Európai Bizottság jóváhagyása után a tervnek még az EU Tanácsa elé kell kerülnie, és csak azt követően köthető meg a tényleges hitelszerződés a Bizottsággal; a tényleges folyósítás ezután kezdődhet.",
+   "source_name": "444.hu",
+   "source_published_date": "2026-10-28",
+   "source_url": "https://444.hu/2026/10/28/az-europai-bizottsag-hozzajarult-hogy-magyarorszag-54-milliard-euro-hitelt-vegyen-fel-vedelmi-beruhazasokra",
+   "status": "verified",
+   "subject": "SAFE uniós védelmi hitelprogram — Magyarország 5,4 milliárd eurós hitelkerete",
+   "verification_notes": "ÚJ TÉTEL / ÚJ KERET (2026-11-09 16:56-os futás). Az EU-keretek szabálya szerint ez önálló, új keret: a SAFE (Security Action for Europe) egy teljesen más uniós eszköz (védelmi hitelprogram), nem a 16,4 Mrd eurós RRF/kohéziós megállapodás, a Modernizációs Alap vagy a Norvég Alap része. Az összeg és az Európai Bizottság október végi jóváhagyása legalább négy független forrásból (444.hu kétszer, Telex, Euronews) megerősített, ezért 'verified'. A folyamat jogi lépései még nincsenek lezárva: a Bizottság jóváhagyása után a tervnek a Tanács elé kell kerülnie, majd hitelszerződést kell kötni — ezért a received_huf changedatlanul 0, és a jövőbeli futásokban ellenőrizendő a Tanácsi jóváhagyás és a tényleges folyósítás megtörténte. Az eredetileg tervezett 16+ milliárd eurós keretet az új kormány 2026.09.25-én jelentette be 5,4 milliárd euróra csökkentve.",
+   "id": "eu-forras-safe-vedelmi-hitel-2026-10",
+   "updated_at": "2026-11-09T16:02:51+00:00",
+   "first_seen_at": "2026-11-09T16:02:51+00:00"
   },
   {
    "additional_sources": [],
@@ -4628,15 +4687,15 @@
   }
  ],
  "run_summary": {
-  "run_id": "2026-11-09T11:00:34+00:00",
-  "new": 0,
+  "run_id": "2026-11-09T16:02:51+00:00",
+  "new": 1,
   "modified": 0,
   "confirmed_only": 0,
-  "touched": 0,
+  "touched": 1,
   "pending_review": 3,
   "by_section": {
    "items": {
-    "new": 0,
+    "new": 1,
     "modified": 0,
     "confirmed_only": 0
    },
@@ -4646,26 +4705,13 @@
     "confirmed_only": 0
    }
   },
-  "new_ids": [],
+  "new_ids": [
+   "i:eu-forras-safe-vedelmi-hitel-2026-10"
+  ],
   "modified_ids": [],
   "confirmed_ids": []
  },
  "run_summary_history": [
-  {
-   "run_id": "2026-10-07T04:01:36+00:00",
-   "by_section": {
-    "items": {
-     "new": 0,
-     "modified": 1,
-     "confirmed_only": 0
-    },
-    "reported_cases": {
-     "new": 0,
-     "modified": 0,
-     "confirmed_only": 0
-    }
-   }
-  },
   {
    "run_id": "2026-10-07T10:05:44+00:00",
    "by_section": {
@@ -6141,6 +6187,21 @@
    "by_section": {
     "items": {
      "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    }
+   }
+  },
+  {
+   "run_id": "2026-11-09T16:02:51+00:00",
+   "by_section": {
+    "items": {
+     "new": 1,
      "modified": 0,
      "confirmed_only": 0
     },
