@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-09T05:02:58+00:00",
+ "generated_at": "2026-11-09T11:00:34+00:00",
  "summary": {
   "megtakaritas_verified_huf": 2947290700000,
   "visszaszerzes_verified_huf": 1575719300000,
@@ -2851,8 +2851,8 @@
    "subject": "Magyar Állami Operaház — a korábbi főigazgató menesztése jóváhagyás nélküli juttatások és bizonylat nélküli szerződések miatt",
    "verification_notes": "ÚJ TÉTEL (2026-11-09 futás). Egyetlen közvetlen sajtóforrásból (444.hu) ismert eddig, második független forrásra vár. A kulturális tárca (Tarr Zoltán) 2026 július végén indított, kb. 200 ezer oldalas dokumentációra kiterjedő átvilágítása alapján menesztette Ókovács Szilveszter főigazgatót 2026.11.02-án; a cikk szerint még nem tisztázott, hogy az ügyben felmerül-e büntetőjogi gyanú, formális feljelentésről a cikk nem ír, ezért a status 'reported'. A menesztett főigazgató pert indított a döntés ellen (444.hu, 2026-11-02, külön cikk). Nem szerepel a kormany.hu/atlathato/feljelentes hivatalos listáján (2026-11-05-i állapot szerint), mivel ez a tárca saját belső átvilágítása, nem kormányzati/minisztériumi feljelentés eddig.",
    "id": "reported-operahaz-okovacs-2026-11",
-   "updated_at": "2026-11-09T05:02:58+00:00",
-   "first_seen_at": "2026-11-09T05:02:58+00:00"
+   "first_seen_at": "2026-11-09T05:02:58+00:00",
+   "updated_at": "2026-11-09T05:02:58+00:00"
   },
   {
    "additional_sources": [
@@ -3593,7 +3593,7 @@
    "url": "https://magyarnemzet.hu/gazdasag/2026/09/allamadossag-novekedes"
   },
   "allamadossag_huf": 65716000000000,
-  "collected_at": "2026-11-09T06:01:00+01:00",
+  "collected_at": "2026-11-09T11:58:00+01:00",
   "elozo": {
    "allamadossag": {
     "period": null,
@@ -3696,17 +3696,17 @@
     "key": "eur_huf",
     "label_en": "Official EUR/HUF rate (MNB)",
     "label_hu": "Euró hivatalos árfolyama (MNB)",
-    "note_hu": "A dollár árfolyama 2026-11-06-án 325,76 Ft/USD volt; ez e futás időpontjában (2026-11-09) is a legutolsó közölt hivatalos árfolyam.",
-    "period": "2026-11-06",
-    "prev_period": "2026-11-04",
-    "prev_value": 363.32,
+    "note_hu": "A dollár árfolyama e futás időpontjában nem volt külön ellenőrizve; az euróárfolyam a legutolsó, 2026-11-09-i közölt hivatalos MNB-adat.",
+    "period": "2026-11-09",
+    "prev_period": "2026-11-06",
+    "prev_value": 363.94,
     "source": {
      "name": "MNB hivatalos árfolyamok",
-     "publish_date": "2026-11-06",
+     "publish_date": "2026-11-09",
      "url": "https://www.mnb.hu/arfolyamok"
     },
     "unit": "Ft/EUR",
-    "value": 363.94
+    "value": 363.18
    },
    {
     "key": "brutto_atlagkereset",
@@ -3804,7 +3804,7 @@
    "publish_date": "2026-09-22",
    "url": "https://www.portfolio.hu/gazdasag/20260922/itt-az-mnb-uj-elorejelzese-hiaba-a-nemzetkozi-kockazatok-mersekelt-marad-az-idei-inflacio-864484"
   },
-  "id": "2026-11-09T06-01"
+  "id": "2026-11-09T11-58"
  },
  "last_run": {
   "errors": [
@@ -4628,11 +4628,11 @@
   }
  ],
  "run_summary": {
-  "run_id": "2026-11-09T05:02:58+00:00",
-  "new": 1,
-  "modified": 1,
+  "run_id": "2026-11-09T11:00:34+00:00",
+  "new": 0,
+  "modified": 0,
   "confirmed_only": 0,
-  "touched": 2,
+  "touched": 0,
   "pending_review": 3,
   "by_section": {
    "items": {
@@ -4641,35 +4641,16 @@
     "confirmed_only": 0
    },
    "reported_cases": {
-    "new": 1,
-    "modified": 1,
+    "new": 0,
+    "modified": 0,
     "confirmed_only": 0
    }
   },
-  "new_ids": [
-   "r:reported-operahaz-okovacs-2026-11"
-  ],
-  "modified_ids": [
-   "r:reported-hm-tanacsadoi-szerzodes-2026-09"
-  ],
+  "new_ids": [],
+  "modified_ids": [],
   "confirmed_ids": []
  },
  "run_summary_history": [
-  {
-   "run_id": "2026-10-07T04:00:47+00:00",
-   "by_section": {
-    "items": {
-     "new": 0,
-     "modified": 1,
-     "confirmed_only": 0
-    },
-    "reported_cases": {
-     "new": 0,
-     "modified": 0,
-     "confirmed_only": 0
-    }
-   }
-  },
   {
    "run_id": "2026-10-07T04:01:36+00:00",
    "by_section": {
@@ -6151,6 +6132,21 @@
     "reported_cases": {
      "new": 1,
      "modified": 1,
+     "confirmed_only": 0
+    }
+   }
+  },
+  {
+   "run_id": "2026-11-09T11:00:34+00:00",
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 0,
+     "modified": 0,
      "confirmed_only": 0
     }
    }
