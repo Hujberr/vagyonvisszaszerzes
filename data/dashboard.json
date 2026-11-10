@@ -1,13 +1,13 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-09T16:02:51+00:00",
+ "generated_at": "2026-11-10T05:05:18+00:00",
  "summary": {
   "megtakaritas_verified_huf": 2947290700000,
   "visszaszerzes_verified_huf": 1575719300000,
   "eu_forras_verified_huf": 8251000000000,
   "eu_forras_lost_huf": 730000000000,
   "items_count": 41,
-  "reported_cases_count": 63
+  "reported_cases_count": 64
  },
  "items": [
   {
@@ -289,8 +289,8 @@
    "subject": "SAFE uniós védelmi hitelprogram — Magyarország 5,4 milliárd eurós hitelkerete",
    "verification_notes": "ÚJ TÉTEL / ÚJ KERET (2026-11-09 16:56-os futás). Az EU-keretek szabálya szerint ez önálló, új keret: a SAFE (Security Action for Europe) egy teljesen más uniós eszköz (védelmi hitelprogram), nem a 16,4 Mrd eurós RRF/kohéziós megállapodás, a Modernizációs Alap vagy a Norvég Alap része. Az összeg és az Európai Bizottság október végi jóváhagyása legalább négy független forrásból (444.hu kétszer, Telex, Euronews) megerősített, ezért 'verified'. A folyamat jogi lépései még nincsenek lezárva: a Bizottság jóváhagyása után a tervnek a Tanács elé kell kerülnie, majd hitelszerződést kell kötni — ezért a received_huf changedatlanul 0, és a jövőbeli futásokban ellenőrizendő a Tanácsi jóváhagyás és a tényleges folyósítás megtörténte. Az eredetileg tervezett 16+ milliárd eurós keretet az új kormány 2026.09.25-én jelentette be 5,4 milliárd euróra csökkentve.",
    "id": "eu-forras-safe-vedelmi-hitel-2026-10",
-   "updated_at": "2026-11-09T16:02:51+00:00",
-   "first_seen_at": "2026-11-09T16:02:51+00:00"
+   "first_seen_at": "2026-11-09T16:02:51+00:00",
+   "updated_at": "2026-11-09T16:02:51+00:00"
   },
   {
    "additional_sources": [],
@@ -2621,6 +2621,26 @@
    "updated_at": "2026-11-06T11:37:02+00:00"
   },
   {
+   "alleged_amount_huf": 197104900,
+   "alleged_amount_text": "197,1 millió forint (a Médiatanács elnöke és négy tagja részére, 2022 és 2026 között, tavaszi és őszi jutalmak összesen; ebből Koltay András elnök 80,3 millió forintot, a négy tag egyenként 29,2 millió forintot kapott)",
+   "confirmed_recovered_huf": 0,
+   "description": "Az NMHH belső pénzügyi átvilágítása feltárta, hogy a Médiatanács korábbi vezetése évente két alkalommal (tavasszal és ősszel) jutalmat szavazott meg magának a hatóság működési költségvetésének várható maradványából; 2022 és 2026 között összesen 197,1 millió forintot fizettek ki jutalomként az elnöknek és a tagoknak. A jelenlegi Médiatanács szerint a médiatörvény a tagok számára kizárólag tiszteletdíjat és költségtérítést enged, jutalmat nem; a korábbi kifizetések jogszerűségét jogi segítséggel vizsgálják, jövőbeli jutalmat a 2027-es költségvetés már nem tartalmaz.",
+   "ministry": "NMHH (Nemzeti Média- és Hírközlési Hatóság) — saját belső pénzügyi átvilágítás",
+   "recovered_item_id": null,
+   "report_date": "2026-11-09",
+   "report_source": {
+    "name": "Index",
+    "published_date": "2026-11-09",
+    "url": "https://index.hu/belfold/2026/11/09/nmhh-nemzeti-media-es-hirkozlesi-hatosag-jutalom-koltay-andras-vizsgalat/"
+   },
+   "status": "reported",
+   "subject": "Médiatanács volt tagjainak jutalmai (2022–2026)",
+   "verification_notes": "ÚJ TÉTEL (2026-11-10 06:xx-os futás). Egyetlen közvetlen sajtóforrásból (Index, 2026-11-09) ismert eddig; második, független forrásra vár. Az NMHH saját, belső pénzügyi átvilágítása tárta fel a jutalmakat (nem külső hatósági feljelentés vagy rendőrségi/ügyészségi nyomozás), ezért a státusz 'reported'. Koltay András a Médiatanács korábbi (2021–2026 között hivatalban lévő) elnöke; a jelenlegi elnök Polyák Gábor. Nincs megerősítés arról, hogy a vizsgálatból bármilyen összeg ténylegesen visszafizetésre került volna, a confirmed_recovered_huf ezért 0. Nem szerepel a kormany.hu/atlathato/feljelentes hivatalos listáján (ez nem minisztériumi/kormányzati feljelentés, hanem az NMHH, mint önálló hatóság saját belső vizsgálata).",
+   "id": "reported-mediatanacs-jutalom-2026-11",
+   "updated_at": "2026-11-10T05:05:18+00:00",
+   "first_seen_at": "2026-11-10T05:05:18+00:00"
+  },
+  {
    "alleged_amount_huf": 600000000,
    "alleged_amount_text": "csaknem 600 millió forint (három egyedi állami támogatás, másfél év alatt)",
    "confirmed_recovered_huf": 0,
@@ -2944,7 +2964,7 @@
    "alleged_amount_huf": null,
    "alleged_amount_text": "Összeg nincs közölve",
    "confirmed_recovered_huf": 0,
-   "description": "Az NVVH 2026. szeptember 28-án bejelentette, hogy saját hatáskörébe vonta a Központi Nyomozó Főügyészségtől az Orbán Viktor testvéréhez, Orbán Áronhoz köthető kör ügyét. A gyanú szerint a kör fizetség ellenében segített munkavállalási célú tartózkodási engedélyt szerzőknek a szükséges vízumhoz jutni, befolyással üzérkedés gyanújával.",
+   "description": "Az NVVH 2026. szeptember 28-án bejelentette, hogy saját hatáskörébe vonta a Központi Nyomozó Főügyészségtől az Orbán Viktor testvéréhez, Orbán Áronhoz köthető kör ügyét. A gyanú szerint a kör fizetség ellenében segített munkavállalási célú tartózkodási engedélyt szerzőknek a szükséges vízumhoz jutni, befolyással üzérkedés gyanújával. 2026. november 9-én a Nemzeti Nyomozó Iroda és az NVVH közös akció keretében Budapesten és Pest megye két településén házkutatásokat tartott, és négy embert vettek őrizetbe embercsempészet (jövedelemszerzés céljából, bűnszervezetben elkövetve) és befolyással üzérkedés gyanújával; a gyanú szerint a kör 2024-ben több mint 100 vietnámi állampolgárnak segített vízumhoz és Nyugat-Európába utazáshoz, valós képzés nélkül kiállított tanfolyami igazolásokkal. Sajtóhírek és fényképes dokumentáció, valamint Orbán Viktor és Magyar Péter nyilvános reakciói szerint az előállítottak között Orbán Áron is szerepel.",
    "ministry": "Nemzeti Vagyonvisszaszerzési és Vagyonvédelmi Hivatal (NVVH) — a Központi Nyomozó Főügyészségtől átvett ügy",
    "recovered_item_id": null,
    "report_date": "2026-09-28",
@@ -2955,10 +2975,10 @@
    },
    "status": "under_investigation",
    "subject": "Orbán Áron köre — munkavállalási célú tartózkodási engedélyek megszerzésének segítése fizetség ellenében",
-   "verification_notes": "ÚJ TÉTEL (2026-09-28 futás). Az NVVH első négy, saját hatáskörbe vont ügyének egyike. Legalább öt független sajtóforrás (Index, Telex, ATV, Economx, HVG, Világgazdaság) egyezően számol be az NVVH 2026-09-28-i bejelentéséről. Nem szerepel a kormany.hu/atlathato/feljelentes hivatalos listáján, mivel ez ügyészségi/NVVH hatáskörbe vont ügy, nem kormányzati minisztériumi feljelentés.",
+   "verification_notes": "FRISSÍTVE 2026-11-10 06:xx-os futás: 2026. november 9-én a Nemzeti Nyomozó Iroda (NNI) és az NVVH közös akciót tartott, négy embert vettek őrizetbe embercsempészet (jövedelemszerzés céljából, bűnszervezetben) és befolyással üzérkedés gyanújával, Europol-támogatással. A hivatalos rendőrségi közlemény nevet nem közölt, de a Kontroll.hu, az Index és a Portfolio.hu (fényképes bizonyítékkal), valamint Orbán Viktor saját Facebook-bejegyzése (\"a cél én vagyok, a kistestvérem csak eszköz\") és Magyar Péter válasza alapján az előállítottak között Orbán Áron is szerepel. A gyanú szerint a kör 2024-ben több mint 100 vietnámi állampolgárnak segített vízumhoz és Nyugat-Európába utazáshoz a Pécsi Tudományegyetem fiktív/rövid 'életmentő' tanfolyamára beiratkoztatva őket vízumindokként. A nyomozók az eljárás részeként kezdeményezték az érintettek letartóztatását; a kihallgatások, helyszíni eljárási cselekmények és a lefoglalt dokumentumok/elektronikus adatok feldolgozása még folyamatban van. Konkrét, összesített kárösszeg vagy jogtalan haszon még nem ismert, az alleged_amount_huf ezért továbbra is null. (Korábbi megjegyzés megőrizve:) ÚJ TÉTEL (2026-09-28 futás). Az NVVH első négy, saját hatáskörbe vont ügyének egyike. Legalább öt független sajtóforrás (Index, Telex, ATV, Economx, HVG, Világgazdaság) egyezően számolt be az NVVH 2026-09-28-i bejelentéséről. Nem szerepel a kormany.hu/atlathato/feljelentes hivatalos listáján, mivel ez ügyészségi/NVVH hatáskörbe vont ügy, nem kormányzati minisztériumi feljelentés.",
    "id": "reported-orban-aron-vizumbiznisz-2026-09",
    "first_seen_at": "2026-09-28T15:02:40+00:00",
-   "updated_at": "2026-11-06T11:37:02+00:00"
+   "updated_at": "2026-11-10T05:05:18+00:00"
   },
   {
    "alleged_amount_huf": 529000000,
@@ -3867,42 +3887,53 @@
  },
  "last_run": {
   "errors": [
-   "A WebSearch eszköz nem tudta közvetlenül lekérni a k-monitor.hu, hirkereso.hu, mnvvh.hu/hirek és ügyészség.hu oldalakat (a keresőindex nem adott vissza közvetlen, friss találatot ezekről a domainekről ebben a futásban); ez keresőindex-korlát, nem hálózati blokk - a korábbi futásokban rögzített adatok érvényben maradnak.",
-   "A KSH szeptemberi munkanélküliségi gyorstájékoztatója e futás idején még nem jelent meg; a legutóbbi (augusztusi) adat maradt érvényben.",
-   "Az ÁKK friss (szeptemberi/októberi) államadósság-összesítőjét nem sikerült megbízhatóan megtalálni ebben a futásban; a 2026-07-31-i állapot maradt érvényben.",
-   "A mai (2026-10-23) MNB hivatalos EUR/HUF árfolyamot nem sikerült megbízhatóan megerősíteni; a 2026-10-22-i érték maradt érvényben."
+   "A vg.hu főoldal és a 24.hu nem volt közvetlenül lekérhető ebben a futásban (404 / elutásítva); helyettesitő forrásként más portálok (Index, Portfolio, Economx) adtak megfelelő lefedettséget.",
+   "A hirkereso.hu/politika oldal 404-es hibát adott.",
+   "A k-monitor.hu site:-szűrős keresés nem adott közvetlen k-monitor.hu találatokat; a téma (vagyonvisszaszerzés) általános kereséssel lefedve, új, még nem rögzített ügy nem került elő.",
+   "A kormany.hu/atlathato/feljelentes oldal tartalma (62 ügy, 4005 Mrd Ft, 2026-11-05-i állapot) változatlan volt az előző (2026-11-09) futáshoz képest, nem volt szükség frissítésre.",
+   "Makro-pillanatkép nem készült ebben a futásban: a 2026-11-09 11:58-as pillanatkép óta (KSH Q3 GDP-gyorsbecslés, MNB-kamatdöntés, ÁKK) nem jelent meg új hivatalos publikáció, a legutóbbi pillanatkép marad érvényben.",
+   "A 'Kétezer milliárdos kínai finanszírozási keret' (Economx/Átlátszó, 2026-11-09) egy alá nem írt, 2026 tavaszi tervezet feltárása, nincs benne köz pénz-visszaélési állítás vagy hatósági vizsgálat, ezért nem került be az adattárba.",
+   "A 'lex MBH' állami vagyonvédelmi törvény Alkotmánybírósághoz küldése (Baka András, 2026-11-09) jogalkotási/politikai esemény, nem konkrét ügy, ezért nem került be az adattárba."
   ],
   "eu_lost_items_new": 0,
-  "finished_at": "2026-10-23T17:40:00+02:00",
+  "finished_at": "2026-11-10T06:04:00+01:00",
   "items_duplicate": 0,
   "items_found_total": 0,
   "items_needs_review": 0,
   "items_new": 0,
-  "reported_cases_new": 0,
+  "reported_cases_new": 1,
   "reported_cases_updated": 1,
   "sources_checked": [
-   "kormany.hu/atlathato/feljelentes (official, via web-fetch, data stamp unchanged: 2026-10-21)",
-   "Telex",
+   "kormany.hu/atlathato/feljelentes (62 ügy, 4005 Mrd Ft, 2026-11-05-i állapot — változatlan)",
+   "mnvvh.hu/hirek",
+   "ugyeszseg.hu/category/hirek/kozponti-nyomozo-fougyeszseg",
+   "k-monitor.hu (WebSearch, site: szűrő nem működött megbízhatóan)",
+   "hirkereso.hu/politika (404)",
+   "telex.hu",
    "444.hu",
-   "Index.hu",
-   "Portfolio.hu",
-   "VG.hu",
-   "Economx.hu",
-   "Infostart.hu",
-   "Privátbankár.hu",
-   "Adózóna (KSH/PM adatközlések)",
-   "K-Monitor (site: search, no new hit)",
-   "hirkereso.hu (search attempt, no direct listing retrievable)",
-   "mnvvh.hu/hirek (search attempt, no October item found)",
-   "ügyészség.hu / Központi Nyomozó Főügyészség (search attempt, no October communiqué found directly)",
-   "KSH (munkanélküliség, infláció - via sajtó)",
-   "MNB (alapkamat, árfolyam - via sajtó)",
-   "ÁKK (államadósság - via sajtó, no fresh September/October figure found)"
+   "index.hu",
+   "portfolio.hu",
+   "hvg.hu",
+   "economx.hu",
+   "vg.hu (főoldal 404)",
+   "24.hu (nem elérhető)",
+   "infostart.hu",
+   "privatbankar.hu",
+   "penzcentrum.hu",
+   "origo.hu"
   ],
-  "started_at": "2026-10-23T16:56:00+02:00",
-  "id": "2026-10-23T16-56"
+  "started_at": "2026-11-10T05:56:00+01:00",
+  "id": "2026-11-10T06-04"
  },
  "run_history": [
+  {
+   "finished_at": "2026-11-10T06:04:00+01:00",
+   "started_at": "2026-11-10T05:56:00+01:00",
+   "items_new": 0,
+   "reported_cases_new": 1,
+   "reported_cases_updated": 1,
+   "eu_lost_items_new": 0
+  },
   {
    "finished_at": "2026-10-23T17:40:00+02:00",
    "started_at": "2026-10-23T16:56:00+02:00",
@@ -4679,54 +4710,36 @@
    "finished_at": "2026-09-22T10:55:00+02:00",
    "started_at": "2026-09-22T10:30:00+02:00",
    "items_new": 2
-  },
-  {
-   "finished_at": "2026-09-22T10:40:00+02:00",
-   "started_at": "2026-09-22T10:21:00+02:00",
-   "items_new": 2
   }
  ],
  "run_summary": {
-  "run_id": "2026-11-09T16:02:51+00:00",
+  "run_id": "2026-11-10T05:05:18+00:00",
   "new": 1,
   "modified": 0,
-  "confirmed_only": 0,
-  "touched": 1,
+  "confirmed_only": 1,
+  "touched": 2,
   "pending_review": 3,
   "by_section": {
    "items": {
-    "new": 1,
+    "new": 0,
     "modified": 0,
     "confirmed_only": 0
    },
    "reported_cases": {
-    "new": 0,
+    "new": 1,
     "modified": 0,
-    "confirmed_only": 0
+    "confirmed_only": 1
    }
   },
   "new_ids": [
-   "i:eu-forras-safe-vedelmi-hitel-2026-10"
+   "r:reported-mediatanacs-jutalom-2026-11"
   ],
   "modified_ids": [],
-  "confirmed_ids": []
+  "confirmed_ids": [
+   "r:reported-orban-aron-vizumbiznisz-2026-09"
+  ]
  },
  "run_summary_history": [
-  {
-   "run_id": "2026-10-07T10:05:44+00:00",
-   "by_section": {
-    "items": {
-     "new": 0,
-     "modified": 0,
-     "confirmed_only": 2
-    },
-    "reported_cases": {
-     "new": 0,
-     "modified": 0,
-     "confirmed_only": 1
-    }
-   }
-  },
   {
    "run_id": "2026-10-07T15:02:30+00:00",
    "by_section": {
@@ -6209,6 +6222,21 @@
      "new": 0,
      "modified": 0,
      "confirmed_only": 0
+    }
+   }
+  },
+  {
+   "run_id": "2026-11-10T05:05:18+00:00",
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 1,
+     "modified": 0,
+     "confirmed_only": 1
     }
    }
   }
