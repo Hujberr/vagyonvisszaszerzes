@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-10T11:01:47+00:00",
+ "generated_at": "2026-11-10T16:04:15+00:00",
  "summary": {
   "megtakaritas_verified_huf": 2947290700000,
   "visszaszerzes_verified_huf": 1575719300000,
@@ -254,6 +254,11 @@
      "name": "444.hu (felhasználási tervek részletezése)",
      "published_date": "2026-11-09",
      "url": "https://444.hu/2026/11/09/kiderult-mely-fejleszteseket-finanszirozza-a-kormany-az-eu-vedelmi-hitelebol"
+    },
+    {
+     "name": "444.hu (felhasználási tervek, folytatólagosság)",
+     "published_date": "2026-11-10",
+     "url": "https://444.hu/2026/11/10/otmilliard-euronyi-unios-hitel-fegyverkezesre-magyar-peterek-nagyreszt-orbanek-beszerzeseit-viszik-tovabb-a-safe-programban"
     }
    ],
    "agreed_huf": 1971000000000,
@@ -287,10 +292,10 @@
    "source_url": "https://444.hu/2026/10/28/az-europai-bizottsag-hozzajarult-hogy-magyarorszag-54-milliard-euro-hitelt-vegyen-fel-vedelmi-beruhazasokra",
    "status": "verified",
    "subject": "SAFE uniós védelmi hitelprogram — Magyarország 5,4 milliárd eurós hitelkerete",
-   "verification_notes": "ÚJ TÉTEL / ÚJ KERET (2026-11-09 16:56-os futás). Az EU-keretek szabálya szerint ez önálló, új keret: a SAFE (Security Action for Europe) egy teljesen más uniós eszköz (védelmi hitelprogram), nem a 16,4 Mrd eurós RRF/kohéziós megállapodás, a Modernizációs Alap vagy a Norvég Alap része. Az összeg és az Európai Bizottság október végi jóváhagyása legalább négy független forrásból (444.hu kétszer, Telex, Euronews) megerősített, ezért 'verified'. A folyamat jogi lépései még nincsenek lezárva: a Bizottság jóváhagyása után a tervnek a Tanács elé kell kerülnie, majd hitelszerződést kell kötni — ezért a received_huf changedatlanul 0, és a jövőbeli futásokban ellenőrizendő a Tanácsi jóváhagyás és a tényleges folyósítás megtörténte. Az eredetileg tervezett 16+ milliárd eurós keretet az új kormány 2026.09.25-én jelentette be 5,4 milliárd euróra csökkentve.",
+   "verification_notes": "FRISSÍTVE 2026-11-10 16:56-os futás: a 444.hu 2026-11-10-i cikke szerint a keret kb. kétharmada (mintegy 3,45 milliárd euró) már aláírt szerződésekhez kötött, jórészt a korábbi (Orbán-)kormányok által elindított haditechnikai fejlesztések (pl. SAMP-T légvédelem, Leopard harckocsi, Lynx gyalogsági harcjármű, L-39NG gyakorlórepülőgép, MISTRAL rakéta) folytatásához — az új kormány nem önálló, új fegyverkezési programot indított, hanem nagyrészt a korábban megkezdett beszerzéseket finanszírozza tovább ebből a hitelkeretből. Tényleges folyósítási ütemezésről vagy a Tanácsi jóváhagyásról a cikk nem ad új információt. Az agreed_huf (1971 Mrd Ft / 5,4 Mrd EUR) és a received_huf (0) nem változott.",
    "id": "eu-forras-safe-vedelmi-hitel-2026-10",
    "first_seen_at": "2026-11-09T16:02:51+00:00",
-   "updated_at": "2026-11-09T16:02:51+00:00"
+   "updated_at": "2026-11-10T16:04:15+00:00"
   },
   {
    "additional_sources": [],
@@ -3243,6 +3248,16 @@
      "name": "HVG",
      "published_date": "2026-09-29",
      "url": "https://hvg.hu/gazdasag/20260929_455-millio-forint-ketes-megrendeles-feljelentes-miniszterelnokseg-p2m"
+    },
+    {
+     "name": "Index (NKOH jogorvoslati eljárás)",
+     "published_date": "2026-11-10",
+     "url": "https://index.hu/belfold/2026/11/10/nkoh-eljaras-miniszterelnokseg-p2m-szolgaltato/"
+    },
+    {
+     "name": "Portfolio.hu (NKOH jogorvoslati eljárás)",
+     "published_date": "2026-11-10",
+     "url": "https://www.portfolio.hu/gazdasag/20261110/gyanus-kormanyzati-megbizasok-a-hatosaghoz-fordultak-a-millios-tanulmanyok-miatt-875510"
     }
    ],
    "alleged_amount_huf": 455000000,
@@ -3259,10 +3274,10 @@
    },
    "status": "reported",
    "subject": "Miniszterelnökségi feljelentés a p2m Informatika/p2m Consulting cégek szerződései miatt",
-   "verification_notes": "FRISSÍTVE 2026-10-02: az ügy hivatalosan is megjelent a kormany.hu listáján ('p2m szervezetfejlesztési keretszerződések', 455 millió Ft, Miniszterelnökség, 2026.09.29) — azonos összeg és dátum, mint amit a sajtó (Index, Portfolio) közölt. A report_source ezért a hivatalos kormany.hu oldalra frissítve, a korábbi sajtóforrás (Index) és a többi megerősítő forrás az additional_sources-ban marad/bővült. (Korábbi megjegyzés megőrizve.)",
+   "verification_notes": "FRISSÍTVE 2026-11-10 16:56-os futás: a Nemzeti Kommunikációs Hivatal (NKOH) jogorvoslati eljárást kezdeményezett a Közbeszerzési Döntőbizottságnál a Miniszterelnökség és a p2m Informatika/p2m Consulting konzorcium további, 2023 és 2026 között kiadott hét megrendelése miatt, összesen nettó 142,1 millió forint értékben (teljes egészében kifizetve) — munkaerőpiaci/migrációs kutatás, a digitális játékipar elemzése, az Otthon Start Program felülvizsgálata és külső szervezetek átvilágítása. Az NKOH szerint ezek nem tartoztak a szervezetfejlesztési keretmegállapodás hatálya alá. Ez egy ÖNÁLLÓ, a már itt rögzített 455 millió forintos (16 megrendelés) feljelentéstől ELKÜLÖNÜLŐ eljárás és összeg (más megrendelések, más jogi fórum — közbeszerzési jogorvoslat, nem büntetőeljárás) — a 142,1 M Ft-ot NEM adjuk hozzá a 455 M Ft-hoz a dupla számolás elkerülése végett; ha a jövőben önálló items/reported_cases tételként indokolt elkülöníteni, az egy következő futásban megfontolható. Az alleged_amount_huf (455 M Ft) és a status (reported) nem változott. (Korábbi megjegyzés megőrizve:) FRISSÍTVE 2026-10-02: az ügy hivatalosan is megjelent a kormany.hu listáján ('p2m szervezetfejlesztési keretszerződések', 455 millió Ft, Miniszterelnökség, 2026.09.29) — azonos összeg és dátum, mint amit a sajtó (Index, Portfolio) közölt. A report_source ezért a hivatalos kormany.hu oldalra frissítve, a korábbi sajtóforrás (Index) és a többi megerősítő forrás az additional_sources-ban marad/bővült. (Korábbi megjegyzés megőrizve.)",
    "id": "reported-pmo-p2m-informatika-2026-09",
    "first_seen_at": "2026-09-29T15:31:55+00:00",
-   "updated_at": "2026-11-06T11:37:02+00:00"
+   "updated_at": "2026-11-10T16:04:15+00:00"
   },
   {
    "additional_sources": [
@@ -3348,6 +3363,13 @@
    "updated_at": "2026-11-06T11:37:02+00:00"
   },
   {
+   "additional_sources": [
+    {
+     "name": "444.hu (eredeti feljelentés)",
+     "published_date": "2026-01-12",
+     "url": "https://444.hu/2026/01/12/az-oroszoknak-az-ev-utolso-napjaiban-elutalt-80-milliard-forint-miatt-feljelentest-tett-paks-2-ugyeben-tordai-bence"
+    }
+   ],
    "alleged_amount_huf": 12600000000,
    "alleged_amount_text": "12,6 milliárd forint (a Legfőbb Ügyészség vádirata szerinti pontos bontásban: 7,076 Mrd Ft Volánbusz-hoz kapcsolódó cégektől 2015–2018 között, 3,7066 Mrd Ft buszbeszerzésekből 2015–2017 között, 1,0507 Mrd Ft egy építőipari cégtől, 270,165 millió Ft a Nemzeti Sportközpontok projektjeivel összefüggésben)",
    "confirmed_recovered_huf": 0,
@@ -3362,10 +3384,10 @@
    },
    "status": "under_investigation",
    "subject": "Seszták Miklós korábbi fejlesztési miniszter korrupciós ügye (Volánbusz és építőipari megbízások)",
-   "verification_notes": "FRISSÍTVE 2026-11-02 06:00-ás futás: a Budai Központi Kerületi Bíróság 2026. október 28-án 2027. január 30-ig meghosszabbította Seszták Miklós letartóztatását, a szökés, elrejtőzés és a bizonyítási eljárás veszélyeztetésének kockázatára hivatkozva. A bíróság közlése szerint Seszták a gyanú szerint elrejtett valahol kb. 9 milliárd forintot: a házkutatáskor a páncélszekrényekben már csak üres tartalmat találtak, és a legutóbbi vagyonnyilatkozatában feltüntetett ingatlanok, állampapírok, részvények és megtakarítások összege sem éri el a 9 milliárd forintot. Ez eljárási/vagyonfelderítési fejlemény, nem jelent tényleges, az államhoz visszakerült vagyont; az alleged_amount_huf (12,6 Mrd Ft) és a confirmed_recovered_huf (4,045 Mrd Ft) nem változott. Források: 444.hu (2026-10-28, 2026-10-29). (Korábbi megjegyzések megőrizve.) FRISSÍTVE 2026-10-31 16:56-os futás: a Telex 2026-10-31-i, részletes vizsonyítási cikke szerint Seszták Miklós korábbi kisvárdai üzleti köréhez (Hódos Éva Csilla ügyvédhez és a mögötte álló cégekhez) köthetően két vagyonkezelő alapítvány — az OAK Vagyonkezelő Alapítvány (2024-ben alapítva, egy ciprusi Minotax International Ltd. tulajdonosa) és a Hódvár Vagyonkezelő Alapítvány — összesen több mint 4,1 milliárd forint vagyon felett rendelkezik. Seszták maga nem alapítója vagy kedvezményezettje a két alapítványnak, de a vagyonkezelői/ellenőri szerepet az ő lánya, a Seszták Ügyvédi Iroda (azonos kisvárdai cím és telefonszám, mint az egyik, Seszták által is jegyzett alapítványé) látja el. A hírt az Economx, az ATV és a Kontroll is átvette (mind Telexre hivatkozva, tehát nem független megerősítés). Ez EGYELŐRE csak sajtó által feltárt, eddig rejtett vagyon azonosítása — nincs hivatalos (NVVH/ügyészségi) megerősítés arról, hogy ez a 4,1 Mrd Ft a 12,6 Mrd Ft-os vádirati összeg része vagy attól független, és nincs vagyonzárolási/elkobzási intézkedés sem e két alapítvány vonatkozásában; az alleged_amount_huf (12,6 Mrd Ft) és a confirmed_recovered_huf (0) ezért nem változott, a tényt csak megjegyzésként rögzítjük, második (hatósági vagy független, nem Telexre hivatkozó) megerősítésre vár. (Korábbi megjegyzések megőrizve, l. előző verzió.)",
+   "verification_notes": "FRISSÍTVE 2026-11-10 16:56-os futás: a Portfolio.hu 2026-11-10-i cikke szerint egy 2026-10-21-i büntetőjogi-kriminológiai szakvélemény megállapította, hogy egy kutatókutya jelzése önmagában csak információ/irányadat, nem bizonyíték — mivel a hatóságok tényleges pénzt nem találtak, semmi nem igazolja egyértelműen, hogy a Seszták-házkutatás páncélszekrényeiben valaha is ott lett volna az a korábban feltételezett kb. 9 milliárd forint. Seszták ügyvédje szerint ügyfele mindig is azt állította, hogy a széfekben csak dokumentumok voltak, készpénz soha. A hatóság (NVVH) kiegészítő szakvéleményt rendelt el, és vizsgálja, hogy a kutya dokumentumok jelzésére is be volt-e tanítva. Tényleges, az államhoz visszakerült vagyon ebből a szálból nincs; az alleged_amount_huf (12,6 Mrd Ft, a Legfőbb Ügyészség vádirata szerinti összeg) és a confirmed_recovered_huf (4,045 Mrd Ft) nem változott, a korábban feltételezett 9 Mrd Ft-os elrejtett vagyon léte megerősítésre nem került. (Korábbi megjegyzések megőrizve, l. előző verzió.) FRISSÍTVE 2026-11-02 06:00-ás futás: a Budai Központi Kerületi Bíróság 2026. október 28-án 2027. január 30-ig meghosszabbította Seszták Miklós letartóztatását, a szökés, elrejtőzés és a bizonyítási eljárás veszélyeztetésének kockázatára hivatkozva. A bíróság közlése szerint Seszták a gyanú szerint elrejtett valahol kb. 9 milliárd forintot: a házkutatáskor a páncélszekrényekben már csak üres tartalmat találtak, és a legutóbbi vagyonnyilatkozatában feltüntetett ingatlanok, állampapírok, részvények és megtakarítások összege sem éri el a 9 milliárd forintot. Ez eljárási/vagyonfelderítési fejlemény, nem jelent tényleges, az államhoz visszakerült vagyont; az alleged_amount_huf (12,6 Mrd Ft) és a confirmed_recovered_huf (4,045 Mrd Ft) nem változott. Források: 444.hu (2026-10-28, 2026-10-29). (Korábbi megjegyzések megőrizve.) FRISSÍTVE 2026-10-31 16:56-os futás: a Telex 2026-10-31-i, részletes vizsonyítási cikke szerint Seszták Miklós korábbi kisvárdai üzleti köréhez (Hódos Éva Csilla ügyvédhez és a mögötte álló cégekhez) köthetően két vagyonkezelő alapítvány — az OAK Vagyonkezelő Alapítvány (2024-ben alapítva, egy ciprusi Minotax International Ltd. tulajdonosa) és a Hódvár Vagyonkezelő Alapítvány — összesen több mint 4,1 milliárd forint vagyon felett rendelkezik. Seszták maga nem alapítója vagy kedvezményezettje a két alapítványnak, de a vagyonkezelői/ellenőri szerepet az ő lánya, a Seszták Ügyvédi Iroda (azonos kisvárdai cím és telefonszám, mint az egyik, Seszták által is jegyzett alapítványé) látja el. A hírt az Economx, az ATV és a Kontroll is átvette (mind Telexre hivatkozva, tehát nem független megerősítés). Ez EGYELŐRE csak sajtó által feltárt, eddig rejtett vagyon azonosítása — nincs hivatalos (NVVH/ügyészségi) megerősítés arról, hogy ez a 4,1 Mrd Ft a 12,6 Mrd Ft-os vádirati összeg része vagy attól független, és nincs vagyonzárolási/elkobzási intézkedés sem e két alapítvány vonatkozásában; az alleged_amount_huf (12,6 Mrd Ft) és a confirmed_recovered_huf (0) ezért nem változott, a tényt csak megjegyzésként rögzítjük, második (hatósági vagy független, nem Telexre hivatkozó) megerősítésre vár. (Korábbi megjegyzések megőrizve, l. előző verzió.)",
    "id": "reported-sesztak-miklos-korrupcio-2026-09",
    "first_seen_at": "2026-09-28T15:02:40+00:00",
-   "updated_at": "2026-11-06T11:37:02+00:00"
+   "updated_at": "2026-11-10T16:04:15+00:00"
   },
   {
    "alleged_amount_huf": 64610000000,
@@ -3672,7 +3694,7 @@
    "url": "https://magyarnemzet.hu/gazdasag/2026/09/allamadossag-novekedes"
   },
   "allamadossag_huf": 65716000000000,
-  "collected_at": "2026-11-09T11:58:00+01:00",
+  "collected_at": "2026-11-10T16:56:00+01:00",
   "elozo": {
    "allamadossag": {
     "period": null,
@@ -3696,8 +3718,8 @@
     "key": "gdp_novekedes_eves",
     "label_en": "GDP growth (year-on-year)",
     "label_hu": "GDP-növekedés (éves)",
-    "note_en": "KSH's Q3 flash estimate had not been published from a reliable source as of this run (2026-11-09); it is normally released in mid-November.",
-    "note_hu": "A KSH harmadik negyedéves gyorsbecslése e futás idején (2026-11-09) még nem jelent meg megbízhatóan ellenőrizhető forrásból; a becslés rendszerint november közepén jelenik meg.",
+    "note_en": "KSH's Q3 flash estimate had not been published from a reliable source as of this run (2026-11-10).",
+    "note_hu": "A KSH harmadik negyedéves gyorsbecslése e futás idején (2026-11-10) még nem jelent meg megbízhatóan ellenőrizhető forrásból.",
     "period": "2026 Q2",
     "prev_period": "2026 Q1",
     "prev_value": 1.7,
@@ -3775,17 +3797,17 @@
     "key": "eur_huf",
     "label_en": "Official EUR/HUF rate (MNB)",
     "label_hu": "Euró hivatalos árfolyama (MNB)",
-    "note_hu": "A dollár árfolyama e futás időpontjában nem volt külön ellenőrizve; az euróárfolyam a legutolsó, 2026-11-09-i közölt hivatalos MNB-adat.",
-    "period": "2026-11-09",
-    "prev_period": "2026-11-06",
-    "prev_value": 363.94,
+    "note_hu": "A dollár hivatalos MNB-árfolyama 2026-11-10-én 322,92 Ft/USD volt.",
+    "period": "2026-11-10",
+    "prev_period": "2026-11-09",
+    "prev_value": 363.18,
     "source": {
      "name": "MNB hivatalos árfolyamok",
-     "publish_date": "2026-11-09",
+     "publish_date": "2026-11-10",
      "url": "https://www.mnb.hu/arfolyamok"
     },
     "unit": "Ft/EUR",
-    "value": 363.18
+    "value": 362.54
    },
    {
     "key": "brutto_atlagkereset",
@@ -3883,63 +3905,46 @@
    "publish_date": "2026-09-22",
    "url": "https://www.portfolio.hu/gazdasag/20260922/itt-az-mnb-uj-elorejelzese-hiaba-a-nemzetkozi-kockazatok-mersekelt-marad-az-idei-inflacio-864484"
   },
-  "id": "2026-11-09T11-58"
+  "id": "2026-11-10T16-56"
  },
  "last_run": {
   "errors": [
-   "A kormany.hu/atlathato/feljelentes oldal 2026-11-10-i állapota (62 ügy, 4005 Mrd Ft, 22 nyomozás, 74,0 Mrd Ft visszafizetve/megtakarítva) tartalmilag teljesen megegyezik a 2026-11-05/06-i, már rögzített állapottal — nem volt szükség frissítésre.",
-   "Az NVVH mnvvh.hu/hirek oldalán található 2026-10-09-i hír (két férfit letartóztattak, mert az NVVH nevére hivatkozva próbáltak 2 milliárd forintot kicsalni egy magánszemélytől) BŰNÖZŐI VISSZAÉLÉS az NVVH nevével, nem tényleges állami vagyonvisszaszerzési vagy feljelentési ügy — nem került fel az adattárba.",
-   "A Seszták Miklós house-search ügyben (444.hu, 2026-11-02) talált páncélszekrényekről szóló részletező hír nem tartalmaz új, az adattárban még nem rögzített tényt vagy összeget a 2026-10-31-i állapothoz képest — nem igényelt frissítést.",
-   "KSH 2026 Q3 GDP-gyorsbecslés ebben a futásban sem volt elérhető megbízható forrásból; a legutóbbi (2026 Q2, 1,7%) érték maradt érvényben a macro_snapshots-ban.",
-   "Az ÁKK (akk.hu) hivatalos államadósság-adata ebben a futásban sem volt frissebb forrásból azonosítható; a 2026-07-31-i (Magyar Nemzet/ÁKK-hivatkozás) érték maradt érvényben.",
-   "Ez a futás mindössze kb. 6 órával a megelőző (2026-11-10 05:00 körüli) futás után indult; a 3 napos figyelési ablakban nem volt azonosítható új, a korábbi futásokban még nem rögzített esemény."
+   "A WebSearch eszköz nem tudta közvetlenül lekérni a k-monitor.hu, hirkereso.hu, mnvvh.hu/hirek és ügyészség.hu oldalakat (a keresőindex nem adott vissza közvetlen, friss találatot ezekről a domainekről ebben a futásban); ez keresőindex-korlát, nem hálózati blokk - a korábbi futásokban rögzített adatok érvényben maradnak.",
+   "A KSH szeptemberi munkanélküliségi gyorstájékoztatója e futás idején még nem jelent meg; a legutóbbi (augusztusi) adat maradt érvényben.",
+   "Az ÁKK friss (szeptemberi/októberi) államadósság-összesítőjét nem sikerült megbízhatóan megtalálni ebben a futásban; a 2026-07-31-i állapot maradt érvényben.",
+   "A mai (2026-10-23) MNB hivatalos EUR/HUF árfolyamot nem sikerült megbízhatóan megerősíteni; a 2026-10-22-i érték maradt érvényben."
   ],
   "eu_lost_items_new": 0,
-  "finished_at": "2026-11-10T13:10:00+01:00",
+  "finished_at": "2026-10-23T17:40:00+02:00",
   "items_duplicate": 0,
   "items_found_total": 0,
   "items_needs_review": 0,
   "items_new": 0,
   "reported_cases_new": 0,
-  "reported_cases_updated": 0,
+  "reported_cases_updated": 1,
   "sources_checked": [
-   "kormany.hu/atlathato/feljelentes",
-   "mnvvh.hu/hirek",
-   "ugyeszseg.hu/category/hirek/kozponti-nyomozo-fougyeszseg",
-   "k-monitor.hu (WebSearch)",
-   "hirkereso.hu (WebSearch, nem adott találatot)",
+   "kormany.hu/atlathato/feljelentes (official, via web-fetch, data stamp unchanged: 2026-10-21)",
    "Telex",
    "444.hu",
-   "HVG",
-   "Index",
+   "Index.hu",
    "Portfolio.hu",
-   "Economx",
-   "Világgazdaság",
+   "VG.hu",
+   "Economx.hu",
    "Infostart.hu",
-   "Népszava",
-   "Origo",
-   "Pénzcentrum",
    "Privátbankár.hu",
-   "mfor.hu",
-   "Magyar Hírlap",
-   "24.hu",
-   "Forbes.hu",
-   "KSH (WebSearch)",
-   "ÁKK (WebSearch)",
-   "MNB (WebSearch)"
+   "Adózóna (KSH/PM adatközlések)",
+   "K-Monitor (site: search, no new hit)",
+   "hirkereso.hu (search attempt, no direct listing retrievable)",
+   "mnvvh.hu/hirek (search attempt, no October item found)",
+   "ügyészség.hu / Központi Nyomozó Főügyészség (search attempt, no October communiqué found directly)",
+   "KSH (munkanélküliség, infláció - via sajtó)",
+   "MNB (alapkamat, árfolyam - via sajtó)",
+   "ÁKK (államadósság - via sajtó, no fresh September/October figure found)"
   ],
-  "started_at": "2026-11-10T11:58:00+01:00",
-  "id": "2026-11-10T11-58"
+  "started_at": "2026-10-23T16:56:00+02:00",
+  "id": "2026-10-23T16-56"
  },
  "run_history": [
-  {
-   "finished_at": "2026-11-10T13:10:00+01:00",
-   "started_at": "2026-11-10T11:58:00+01:00",
-   "items_new": 0,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 0,
-   "eu_lost_items_new": 0
-  },
   {
    "finished_at": "2026-10-23T17:40:00+02:00",
    "started_at": "2026-10-23T16:56:00+02:00",
@@ -4716,47 +4721,41 @@
    "finished_at": "2026-09-22T10:55:00+02:00",
    "started_at": "2026-09-22T10:30:00+02:00",
    "items_new": 2
+  },
+  {
+   "finished_at": "2026-09-22T10:40:00+02:00",
+   "started_at": "2026-09-22T10:21:00+02:00",
+   "items_new": 2
   }
  ],
  "run_summary": {
-  "run_id": "2026-11-10T11:01:47+00:00",
+  "run_id": "2026-11-10T16:04:15+00:00",
   "new": 0,
   "modified": 0,
-  "confirmed_only": 0,
-  "touched": 0,
+  "confirmed_only": 3,
+  "touched": 3,
   "pending_review": 3,
   "by_section": {
    "items": {
     "new": 0,
     "modified": 0,
-    "confirmed_only": 0
+    "confirmed_only": 1
    },
    "reported_cases": {
     "new": 0,
     "modified": 0,
-    "confirmed_only": 0
+    "confirmed_only": 2
    }
   },
   "new_ids": [],
   "modified_ids": [],
-  "confirmed_ids": []
+  "confirmed_ids": [
+   "i:eu-forras-safe-vedelmi-hitel-2026-10",
+   "r:reported-pmo-p2m-informatika-2026-09",
+   "r:reported-sesztak-miklos-korrupcio-2026-09"
+  ]
  },
  "run_summary_history": [
-  {
-   "run_id": "2026-10-08T04:03:18+00:00",
-   "by_section": {
-    "items": {
-     "new": 0,
-     "modified": 0,
-     "confirmed_only": 0
-    },
-    "reported_cases": {
-     "new": 0,
-     "modified": 0,
-     "confirmed_only": 0
-    }
-   }
-  },
   {
    "run_id": "2026-10-08T10:02:23+00:00",
    "by_section": {
@@ -6239,6 +6238,21 @@
      "new": 0,
      "modified": 0,
      "confirmed_only": 0
+    }
+   }
+  },
+  {
+   "run_id": "2026-11-10T16:04:15+00:00",
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 1
+    },
+    "reported_cases": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 2
     }
    }
   }
