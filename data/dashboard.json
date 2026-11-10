@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-10T05:05:18+00:00",
+ "generated_at": "2026-11-10T11:01:47+00:00",
  "summary": {
   "megtakaritas_verified_huf": 2947290700000,
   "visszaszerzes_verified_huf": 1575719300000,
@@ -2637,8 +2637,8 @@
    "subject": "Médiatanács volt tagjainak jutalmai (2022–2026)",
    "verification_notes": "ÚJ TÉTEL (2026-11-10 06:xx-os futás). Egyetlen közvetlen sajtóforrásból (Index, 2026-11-09) ismert eddig; második, független forrásra vár. Az NMHH saját, belső pénzügyi átvilágítása tárta fel a jutalmakat (nem külső hatósági feljelentés vagy rendőrségi/ügyészségi nyomozás), ezért a státusz 'reported'. Koltay András a Médiatanács korábbi (2021–2026 között hivatalban lévő) elnöke; a jelenlegi elnök Polyák Gábor. Nincs megerősítés arról, hogy a vizsgálatból bármilyen összeg ténylegesen visszafizetésre került volna, a confirmed_recovered_huf ezért 0. Nem szerepel a kormany.hu/atlathato/feljelentes hivatalos listáján (ez nem minisztériumi/kormányzati feljelentés, hanem az NMHH, mint önálló hatóság saját belső vizsgálata).",
    "id": "reported-mediatanacs-jutalom-2026-11",
-   "updated_at": "2026-11-10T05:05:18+00:00",
-   "first_seen_at": "2026-11-10T05:05:18+00:00"
+   "first_seen_at": "2026-11-10T05:05:18+00:00",
+   "updated_at": "2026-11-10T05:05:18+00:00"
   },
   {
    "alleged_amount_huf": 600000000,
@@ -3887,51 +3887,57 @@
  },
  "last_run": {
   "errors": [
-   "A vg.hu főoldal és a 24.hu nem volt közvetlenül lekérhető ebben a futásban (404 / elutásítva); helyettesitő forrásként más portálok (Index, Portfolio, Economx) adtak megfelelő lefedettséget.",
-   "A hirkereso.hu/politika oldal 404-es hibát adott.",
-   "A k-monitor.hu site:-szűrős keresés nem adott közvetlen k-monitor.hu találatokat; a téma (vagyonvisszaszerzés) általános kereséssel lefedve, új, még nem rögzített ügy nem került elő.",
-   "A kormany.hu/atlathato/feljelentes oldal tartalma (62 ügy, 4005 Mrd Ft, 2026-11-05-i állapot) változatlan volt az előző (2026-11-09) futáshoz képest, nem volt szükség frissítésre.",
-   "Makro-pillanatkép nem készült ebben a futásban: a 2026-11-09 11:58-as pillanatkép óta (KSH Q3 GDP-gyorsbecslés, MNB-kamatdöntés, ÁKK) nem jelent meg új hivatalos publikáció, a legutóbbi pillanatkép marad érvényben.",
-   "A 'Kétezer milliárdos kínai finanszírozási keret' (Economx/Átlátszó, 2026-11-09) egy alá nem írt, 2026 tavaszi tervezet feltárása, nincs benne köz pénz-visszaélési állítás vagy hatósági vizsgálat, ezért nem került be az adattárba.",
-   "A 'lex MBH' állami vagyonvédelmi törvény Alkotmánybírósághoz küldése (Baka András, 2026-11-09) jogalkotási/politikai esemény, nem konkrét ügy, ezért nem került be az adattárba."
+   "A kormany.hu/atlathato/feljelentes oldal 2026-11-10-i állapota (62 ügy, 4005 Mrd Ft, 22 nyomozás, 74,0 Mrd Ft visszafizetve/megtakarítva) tartalmilag teljesen megegyezik a 2026-11-05/06-i, már rögzített állapottal — nem volt szükség frissítésre.",
+   "Az NVVH mnvvh.hu/hirek oldalán található 2026-10-09-i hír (két férfit letartóztattak, mert az NVVH nevére hivatkozva próbáltak 2 milliárd forintot kicsalni egy magánszemélytől) BŰNÖZŐI VISSZAÉLÉS az NVVH nevével, nem tényleges állami vagyonvisszaszerzési vagy feljelentési ügy — nem került fel az adattárba.",
+   "A Seszták Miklós house-search ügyben (444.hu, 2026-11-02) talált páncélszekrényekről szóló részletező hír nem tartalmaz új, az adattárban még nem rögzített tényt vagy összeget a 2026-10-31-i állapothoz képest — nem igényelt frissítést.",
+   "KSH 2026 Q3 GDP-gyorsbecslés ebben a futásban sem volt elérhető megbízható forrásból; a legutóbbi (2026 Q2, 1,7%) érték maradt érvényben a macro_snapshots-ban.",
+   "Az ÁKK (akk.hu) hivatalos államadósság-adata ebben a futásban sem volt frissebb forrásból azonosítható; a 2026-07-31-i (Magyar Nemzet/ÁKK-hivatkozás) érték maradt érvényben.",
+   "Ez a futás mindössze kb. 6 órával a megelőző (2026-11-10 05:00 körüli) futás után indult; a 3 napos figyelési ablakban nem volt azonosítható új, a korábbi futásokban még nem rögzített esemény."
   ],
   "eu_lost_items_new": 0,
-  "finished_at": "2026-11-10T06:04:00+01:00",
+  "finished_at": "2026-11-10T13:10:00+01:00",
   "items_duplicate": 0,
   "items_found_total": 0,
   "items_needs_review": 0,
   "items_new": 0,
-  "reported_cases_new": 1,
-  "reported_cases_updated": 1,
+  "reported_cases_new": 0,
+  "reported_cases_updated": 0,
   "sources_checked": [
-   "kormany.hu/atlathato/feljelentes (62 ügy, 4005 Mrd Ft, 2026-11-05-i állapot — változatlan)",
+   "kormany.hu/atlathato/feljelentes",
    "mnvvh.hu/hirek",
    "ugyeszseg.hu/category/hirek/kozponti-nyomozo-fougyeszseg",
-   "k-monitor.hu (WebSearch, site: szűrő nem működött megbízhatóan)",
-   "hirkereso.hu/politika (404)",
-   "telex.hu",
+   "k-monitor.hu (WebSearch)",
+   "hirkereso.hu (WebSearch, nem adott találatot)",
+   "Telex",
    "444.hu",
-   "index.hu",
-   "portfolio.hu",
-   "hvg.hu",
-   "economx.hu",
-   "vg.hu (főoldal 404)",
-   "24.hu (nem elérhető)",
-   "infostart.hu",
-   "privatbankar.hu",
-   "penzcentrum.hu",
-   "origo.hu"
+   "HVG",
+   "Index",
+   "Portfolio.hu",
+   "Economx",
+   "Világgazdaság",
+   "Infostart.hu",
+   "Népszava",
+   "Origo",
+   "Pénzcentrum",
+   "Privátbankár.hu",
+   "mfor.hu",
+   "Magyar Hírlap",
+   "24.hu",
+   "Forbes.hu",
+   "KSH (WebSearch)",
+   "ÁKK (WebSearch)",
+   "MNB (WebSearch)"
   ],
-  "started_at": "2026-11-10T05:56:00+01:00",
-  "id": "2026-11-10T06-04"
+  "started_at": "2026-11-10T11:58:00+01:00",
+  "id": "2026-11-10T11-58"
  },
  "run_history": [
   {
-   "finished_at": "2026-11-10T06:04:00+01:00",
-   "started_at": "2026-11-10T05:56:00+01:00",
+   "finished_at": "2026-11-10T13:10:00+01:00",
+   "started_at": "2026-11-10T11:58:00+01:00",
    "items_new": 0,
-   "reported_cases_new": 1,
-   "reported_cases_updated": 1,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 0,
    "eu_lost_items_new": 0
   },
   {
@@ -4713,11 +4719,11 @@
   }
  ],
  "run_summary": {
-  "run_id": "2026-11-10T05:05:18+00:00",
-  "new": 1,
+  "run_id": "2026-11-10T11:01:47+00:00",
+  "new": 0,
   "modified": 0,
-  "confirmed_only": 1,
-  "touched": 2,
+  "confirmed_only": 0,
+  "touched": 0,
   "pending_review": 3,
   "by_section": {
    "items": {
@@ -4726,35 +4732,16 @@
     "confirmed_only": 0
    },
    "reported_cases": {
-    "new": 1,
+    "new": 0,
     "modified": 0,
-    "confirmed_only": 1
+    "confirmed_only": 0
    }
   },
-  "new_ids": [
-   "r:reported-mediatanacs-jutalom-2026-11"
-  ],
+  "new_ids": [],
   "modified_ids": [],
-  "confirmed_ids": [
-   "r:reported-orban-aron-vizumbiznisz-2026-09"
-  ]
+  "confirmed_ids": []
  },
  "run_summary_history": [
-  {
-   "run_id": "2026-10-07T15:02:30+00:00",
-   "by_section": {
-    "items": {
-     "new": 1,
-     "modified": 0,
-     "confirmed_only": 0
-    },
-    "reported_cases": {
-     "new": 0,
-     "modified": 0,
-     "confirmed_only": 1
-    }
-   }
-  },
   {
    "run_id": "2026-10-08T04:03:18+00:00",
    "by_section": {
@@ -6237,6 +6224,21 @@
      "new": 1,
      "modified": 0,
      "confirmed_only": 1
+    }
+   }
+  },
+  {
+   "run_id": "2026-11-10T11:01:47+00:00",
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
     }
    }
   }
