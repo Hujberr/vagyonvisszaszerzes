@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-10T16:04:15+00:00",
+ "generated_at": "2026-11-11T05:06:53+00:00",
  "summary": {
   "megtakaritas_verified_huf": 2947290700000,
   "visszaszerzes_verified_huf": 1575719300000,
@@ -3694,18 +3694,18 @@
    "url": "https://magyarnemzet.hu/gazdasag/2026/09/allamadossag-novekedes"
   },
   "allamadossag_huf": 65716000000000,
-  "collected_at": "2026-11-10T16:56:00+01:00",
+  "collected_at": "2026-11-11T06:04:00+01:00",
   "elozo": {
    "allamadossag": {
     "period": null,
     "value_huf": null
    },
    "inflacio_eves": {
-    "period": "2026-08",
-    "value": 1.3
+    "period": "2026-09",
+    "value": 1.6
    },
    "inflacio_havi": {
-    "period": "2026-08",
+    "period": "2026-09",
     "value": 0.2
    },
    "inflacio_varhato": {
@@ -3718,24 +3718,24 @@
     "key": "gdp_novekedes_eves",
     "label_en": "GDP growth (year-on-year)",
     "label_hu": "GDP-növekedés (éves)",
-    "note_en": "KSH's Q3 flash estimate had not been published from a reliable source as of this run (2026-11-10).",
-    "note_hu": "A KSH harmadik negyedéves gyorsbecslése e futás idején (2026-11-10) még nem jelent meg megbízhatóan ellenőrizhető forrásból.",
-    "period": "2026 Q2",
-    "prev_period": "2026 Q1",
+    "note_en": "KSH's flash estimate put Q3 growth at 1.5% year-on-year and only 0.1% quarter-on-quarter; the summer drought weighed on agricultural output. The detailed breakdown follows on 1 December.",
+    "note_hu": "A KSH gyorsbecslése szerint a magyar gazdaság a harmadik negyedévben az előző év azonos időszakához képest 1,5%-kal, az előző negyedévhez képest (szezonálisan igazítva) csak 0,1%-kal nőtt — a nyári aszály kedvezőtlenül hatott a mezőgazdasági teljesítményre. A részletes, komponensenkénti bontást a KSH december 1-jén teszi közzé.",
+    "period": "2026 Q3",
+    "prev_period": "2026 Q2",
     "prev_value": 1.7,
     "source": {
-     "name": "Telex (KSH részletes GDP-adat)",
-     "publish_date": "2026-09-01",
-     "url": "https://telex.hu/gazdasag/2026/09/01/gdp-masodik-negyedev-novekedes-1-7-szazalek"
+     "name": "444.hu (KSH gyorsbecslés)",
+     "publish_date": "2026-10-30",
+     "url": "https://444.hu/2026/10/30/komoly-csalodast-okozott-elemzok-a-friss-gdp-adatrol"
     },
     "unit": "%",
-    "value": 1.7
+    "value": 1.5
    },
    {
     "key": "munkanelkulisegi_rata",
     "label_en": "Unemployment rate",
     "label_hu": "Munkanélküliégi ráta",
-    "note_hu": "A KSH októberi gyorstájékoztatója e futás idején még nem jelent meg.",
+    "note_hu": "A KSH októberi gyorstájékoztatója e futás idején (2026-11-11) még nem jelent meg.",
     "period": "2026-09",
     "prev_period": "2026-08",
     "prev_value": 4.7,
@@ -3781,7 +3781,7 @@
     "key": "jegybanki_alapkamat",
     "label_en": "Central bank base rate",
     "label_hu": "Jegybanki alapkamat",
-    "note_hu": "A következő kamatdöntésre e futás idején még nem került sor.",
+    "note_hu": "A következő kamatdöntő ülést 2026. november 17-én tartják; e futás idején (2026-11-11) még nem történt meg.",
     "period": "2026-10-20",
     "prev_period": "2026-09-22",
     "prev_value": 5.5,
@@ -3797,7 +3797,7 @@
     "key": "eur_huf",
     "label_en": "Official EUR/HUF rate (MNB)",
     "label_hu": "Euró hivatalos árfolyama (MNB)",
-    "note_hu": "A dollár hivatalos MNB-árfolyama 2026-11-10-én 322,92 Ft/USD volt.",
+    "note_hu": "A dollár hivatalos MNB-árfolyama 2026-11-10-én 322,92 Ft/USD volt. E futás idején (2026-11-11 reggel) a 11-i hivatalos árfolyam még nem volt megbízhatóan ellenőrizhető.",
     "period": "2026-11-10",
     "prev_period": "2026-11-09",
     "prev_value": 363.18,
@@ -3860,7 +3860,7 @@
     "key": "kozponti_alrendszer_hiany",
     "label_en": "Central government deficit (year to date)",
     "label_hu": "Központi alrendszer hiánya (év eleje óta)",
-    "note_hu": "A 2026-10-i hiány önmagában 200 milliárd forint volt; a 2026 augusztusban elszámolt 2186,9 milliárd forintos RRF-előfinanszírozás nélkül a január–októberi hiány 3275,6 milliárd forint lett volna. A január–októberi összeg a módosított 2026-os pótköltségvetés szerinti 7100 milliárd forintos éves hiánycél 76,9%-a.",
+    "note_hu": "A 2026-10-i hiány önmagában 200 milliárd forint volt; a 2026 augusztusban elszámolt 2186,9 milliárd forintos RRF-előfinanszírozás nélkül a január–októberi hiány 3275,6 milliárd forint lett volna. A január–októberi összeg a módosított 2026-os pótköltségvetés szerinti 7100 milliárd forintos éves hiánycél 76,9%-a. A novemberi adat e futás idején (2026-11-11) még nem jelent meg.",
     "period": "2026 január–október",
     "prev_period": "2026 január–szeptember",
     "prev_value": 5261.9,
@@ -3876,7 +3876,7 @@
     "key": "allamadossag_gdp_arany",
     "label_en": "Government debt to GDP",
     "label_hu": "Államadosság a GDP arányában",
-    "note_hu": "A módosított 2026-os költségvetés év végére 77,5%-os arányt vár; a 2026.10.30-án benyújtott 2027-es költségvetési törvényjavaslat szerint az államadosság-ráta 2027 végére 77,2%-ra csökkenhet.",
+    "note_hu": "A módosított 2026-os költségvetés év végére 77,5%-os arányt vár; a 2026.10.30-án benyújtott 2027-es költségvetési törvényjavaslat szerint az államadosság-ráta 2027 végére 77,2%-ra csökkenhet. A 2026 Q3-i MNB pénzügyi számla adat e futás idején még nem jelent meg.",
     "period": "2026-06-30",
     "prev_period": "2026-03-31",
     "prev_value": 77.9,
@@ -3889,15 +3889,15 @@
     "value": 75.1
    }
   ],
-  "inflacio_eves_periodus": "2026-09",
-  "inflacio_eves_szazalek": 1.6,
+  "inflacio_eves_periodus": "2026-10",
+  "inflacio_eves_szazalek": 2,
   "inflacio_forras": {
-   "name": "Portfolio.hu (KSH gyorstájékoztató)",
-   "publish_date": "2026-10-07",
-   "url": "https://www.portfolio.hu/gazdasag/20261007/megerkezett-a-magyar-inflacios-adat-itt-az-ujabb-meglepetes-867870"
+   "name": "Index (KSH gyorstájékoztató)",
+   "publish_date": "2026-11-10",
+   "url": "https://index.hu/gazdasag/2026/11/10/inflacio-aremelkedes-ksh-dragulas-uzemanyagar/"
   },
-  "inflacio_havi_periodus": "2026-09",
-  "inflacio_havi_szazalek": 0.2,
+  "inflacio_havi_periodus": "2026-10",
+  "inflacio_havi_szazalek": 0.4,
   "inflacio_varhato_eves_szazalek": 1.8,
   "inflacio_varhato_forras": {
    "forecaster": "MNB",
@@ -3905,46 +3905,58 @@
    "publish_date": "2026-09-22",
    "url": "https://www.portfolio.hu/gazdasag/20260922/itt-az-mnb-uj-elorejelzese-hiaba-a-nemzetkozi-kockazatok-mersekelt-marad-az-idei-inflacio-864484"
   },
-  "id": "2026-11-10T16-56"
+  "id": "2026-11-11T06-04"
  },
  "last_run": {
-  "errors": [
-   "A WebSearch eszköz nem tudta közvetlenül lekérni a k-monitor.hu, hirkereso.hu, mnvvh.hu/hirek és ügyészség.hu oldalakat (a keresőindex nem adott vissza közvetlen, friss találatot ezekről a domainekről ebben a futásban); ez keresőindex-korlát, nem hálózati blokk - a korábbi futásokban rögzített adatok érvényben maradnak.",
-   "A KSH szeptemberi munkanélküliségi gyorstájékoztatója e futás idején még nem jelent meg; a legutóbbi (augusztusi) adat maradt érvényben.",
-   "Az ÁKK friss (szeptemberi/októberi) államadósság-összesítőjét nem sikerült megbízhatóan megtalálni ebben a futásban; a 2026-07-31-i állapot maradt érvényben.",
-   "A mai (2026-10-23) MNB hivatalos EUR/HUF árfolyamot nem sikerült megbízhatóan megerősíteni; a 2026-10-22-i érték maradt érvényben."
-  ],
-  "eu_lost_items_new": 0,
-  "finished_at": "2026-10-23T17:40:00+02:00",
-  "items_duplicate": 0,
+  "started_at": "2026-11-11T06:00:00+01:00",
+  "finished_at": "2026-11-11T06:30:00+01:00",
   "items_found_total": 0,
-  "items_needs_review": 0,
   "items_new": 0,
+  "items_duplicate": 0,
+  "items_needs_review": 0,
   "reported_cases_new": 0,
-  "reported_cases_updated": 1,
+  "reported_cases_updated": 0,
+  "eu_lost_items_new": 0,
   "sources_checked": [
-   "kormany.hu/atlathato/feljelentes (official, via web-fetch, data stamp unchanged: 2026-10-21)",
-   "Telex",
+   "kormany.hu/atlathato/feljelentes",
+   "24.hu",
    "444.hu",
-   "Index.hu",
-   "Portfolio.hu",
-   "VG.hu",
-   "Economx.hu",
-   "Infostart.hu",
-   "Privátbankár.hu",
-   "Adózóna (KSH/PM adatközlések)",
-   "K-Monitor (site: search, no new hit)",
-   "hirkereso.hu (search attempt, no direct listing retrievable)",
-   "mnvvh.hu/hirek (search attempt, no October item found)",
-   "ügyészség.hu / Központi Nyomozó Főügyészség (search attempt, no October communiqué found directly)",
-   "KSH (munkanélküliség, infláció - via sajtó)",
-   "MNB (alapkamat, árfolyam - via sajtó)",
-   "ÁKK (államadósság - via sajtó, no fresh September/October figure found)"
+   "168.hu",
+   "atlatszo.hu",
+   "telex.hu",
+   "hvg.hu",
+   "index.hu",
+   "g7.hu",
+   "portfolio.hu",
+   "privatbankar.hu",
+   "economx.hu",
+   "infostart.hu",
+   "origo.hu",
+   "vg.hu",
+   "pénzcentrum.hu",
+   "mfor.hu",
+   "adozona.hu",
+   "forbes.hu",
+   "k-monitor.hu (WebSearch)",
+   "hirkereso.hu",
+   "mnvvh.hu/hirek",
+   "ugyeszseg.hu (Központi Nyomozó Főügyészség)"
   ],
-  "started_at": "2026-10-23T16:56:00+02:00",
-  "id": "2026-10-23T16-56"
+  "errors": [
+   "Az ÁKK hivatalos statisztikai oldala (akk.hu) e futásban sem volt közvetlenül lekérhető; az államadósság értéke változatlan (2026-07-31-i, Magyar Nemzet által közölt ÁKK-adat) maradt, mert újabb, megbízhatóan ellenőrizhető Q3-as ÁKK/MNB adat nem jelent meg.",
+   "A 2026. novemberi MNB kamatdöntésre (2026-11-17) és a KSH októberi munkaerőpiaci gyorstájékoztatójára e futás idején még nem került sor/nem jelent meg, ezért ezek a mutatók változatlanok."
+  ],
+  "id": "2026-11-11T06-04"
  },
  "run_history": [
+  {
+   "finished_at": "2026-11-11T06:30:00+01:00",
+   "started_at": "2026-11-11T06:00:00+01:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
   {
    "finished_at": "2026-10-23T17:40:00+02:00",
    "started_at": "2026-10-23T16:56:00+02:00",
@@ -4721,56 +4733,32 @@
    "finished_at": "2026-09-22T10:55:00+02:00",
    "started_at": "2026-09-22T10:30:00+02:00",
    "items_new": 2
-  },
-  {
-   "finished_at": "2026-09-22T10:40:00+02:00",
-   "started_at": "2026-09-22T10:21:00+02:00",
-   "items_new": 2
   }
  ],
  "run_summary": {
-  "run_id": "2026-11-10T16:04:15+00:00",
+  "run_id": "2026-11-11T05:06:53+00:00",
   "new": 0,
   "modified": 0,
-  "confirmed_only": 3,
-  "touched": 3,
+  "confirmed_only": 0,
+  "touched": 0,
   "pending_review": 3,
   "by_section": {
    "items": {
     "new": 0,
     "modified": 0,
-    "confirmed_only": 1
+    "confirmed_only": 0
    },
    "reported_cases": {
     "new": 0,
     "modified": 0,
-    "confirmed_only": 2
+    "confirmed_only": 0
    }
   },
   "new_ids": [],
   "modified_ids": [],
-  "confirmed_ids": [
-   "i:eu-forras-safe-vedelmi-hitel-2026-10",
-   "r:reported-pmo-p2m-informatika-2026-09",
-   "r:reported-sesztak-miklos-korrupcio-2026-09"
-  ]
+  "confirmed_ids": []
  },
  "run_summary_history": [
-  {
-   "run_id": "2026-10-08T10:02:23+00:00",
-   "by_section": {
-    "items": {
-     "new": 0,
-     "modified": 0,
-     "confirmed_only": 0
-    },
-    "reported_cases": {
-     "new": 0,
-     "modified": 0,
-     "confirmed_only": 0
-    }
-   }
-  },
   {
    "run_id": "2026-10-08T15:03:37+00:00",
    "by_section": {
@@ -6253,6 +6241,21 @@
      "new": 0,
      "modified": 0,
      "confirmed_only": 2
+    }
+   }
+  },
+  {
+   "run_id": "2026-11-11T05:06:53+00:00",
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
     }
    }
   }
