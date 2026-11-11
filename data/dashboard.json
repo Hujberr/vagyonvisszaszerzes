@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-11T11:01:49+00:00",
+ "generated_at": "2026-11-11T16:00:55+00:00",
  "summary": {
   "megtakaritas_verified_huf": 2947290700000,
   "visszaszerzes_verified_huf": 1575719300000,
@@ -3053,11 +3053,11 @@
    "updated_at": "2026-11-06T11:37:02+00:00"
   },
   {
-   "alleged_amount_huf": 4005000000000,
-   "alleged_amount_text": "4005 milliárd forint (hivatalos, kormany.hu szerinti állapot, 2026-11-05-i ellenőrzés; 62 ügy, 12 tárca; előző állapot 2026-10-21: 4005 Mrd Ft, 61 ügy — az összeg nem változott, csak az ügyszám nőtt)",
-   "case_count": 62,
+   "alleged_amount_huf": 4006000000000,
+   "alleged_amount_text": "4006 milliárd forint (hivatalos, kormany.hu szerinti állapot, 2026-11-09-i ellenőrzés; 63 ügy, 12 tárca, a listában 58 egyedi tétel szerepel; előző állapot 2026-11-05: 4005 Mrd Ft, 62 ügy)",
+   "case_count": 63,
    "confirmed_recovered_huf": 74000000000,
-   "description": "A kormány hivatalos, folyamatosan bővülő listája (kormany.hu/atlathato/feljelentes) szerint 2026. november 5-i állapotban 62 ügyben (12 tárcánál) tettek feljelentést, összesen 4005 milliárd forint értékű közpénzt érintve (ebből 1289 Mrd Ft az Eximbank-ügyekben). A hivatalos oldal szerint eddig 22 ügyben indult meg a nyomozás, és a hivatalos oldal saját elszámolása szerint eddig összesen 74,0 milliárd forintot fizettek vissza, utaltak vissza vagy takarítottak meg (ebből 61,2 Mrd Ft visszafizetve/visszautalva, 12,8 Mrd Ft pedig meg nem valósult kiadás).",
+   "description": "A kormány hivatalos, folyamatosan bővülő listája (kormany.hu/atlathato/feljelentes) szerint 2026. november 9-i állapotban 63 ügyben (12 tárcánál) tettek feljelentést, összesen 4006 milliárd forint értékű közpénzt érintve. A hivatalos oldal szerint eddig 24 ügyben indult meg a nyomozás (korábban 22), és a hivatalos oldal saját elszámolása szerint eddig összesen 74,0 milliárd forintot fizettek vissza, utaltak vissza vagy takarítottak meg (ebből 61,2 Mrd Ft visszafizetve/visszautalva, 12,8 Mrd Ft pedig meg nem valósult kiadás) — ez utóbbi két szám nem változott.",
    "history": [
     {
      "amount_huf": 2128000000000,
@@ -3093,6 +3093,11 @@
      "amount_huf": 4005000000000,
      "case_count": 62,
      "date": "2026-11-05"
+    },
+    {
+     "amount_huf": 4006000000000,
+     "case_count": 63,
+     "date": "2026-11-09"
     }
    ],
    "is_aggregate": true,
@@ -3101,15 +3106,15 @@
    "report_date": "2026-09-02",
    "report_source": {
     "name": "Kormany.hu – Feljelentett billiók",
-    "published_date": "2026-11-05",
+    "published_date": "2026-11-09",
     "url": "https://kormany.hu/atlathato/feljelentes"
    },
    "status": "under_investigation",
-   "subject": "Kormányzati feljelentések hivatalos összesítője (61 ügy, 12 minisztérium/hatóság)",
-   "verification_notes": "FRISSÍTVE 2026-11-06 12:00-ás futás: a hivatalos oldal ügyszáma 61-ről 62-re nőtt (2026-11-05-i állapot), az összesített összeg (4005 Mrd Ft) és a visszafizetett/megtakarított összeg (74,0 Mrd Ft) nem változott; a nyomozások száma 17-ről 22-re nőtt. Az új, 62. tétel a Pénzügyminisztérium (Nemzetgazdasági Minisztérium elnevezéssel is szereplő) delegációinak külföldi útjaival kapcsolatos, 100+ millió forintos, 2026.10.26-i feljelentés — ez felvételre került a reported-egyeb-miniszteriumi-18ugy-2026 gyűjtőtételbe. A 61 ügyet egyenként átnézve ez a futás nem talált más, még nem rögzített egyedi ügyet. (Korábbi megjegyzések megőrizve, l. előző verzió.) FRISSÍTVE 2026-10-21 16:56-os futás: a hivatalos oldal összesítői tovább nőttek (57→61 ügy, 3444→4005 Mrd Ft, nyomozások 14→17 ügyben; a visszafizetett/megtakarított 74,0 Mrd Ft ősszeg nem változott). A 61 ügyet egyenként átnézve ez a futás NEM talált újonnan megjelenő, még nem rögzített egyedi ügyet: minden névvel azonosítható tétel (pl. Kisfaludy Program 475,3 Mrd Ft, Déli körvasút II/V-Híd 84,5 Mrd Ft, EAC International/Fellegi 2,97 Mrd Ft, Indotek-kötvények 110 Mrd Ft, Exportösztönző Alap/GB&Partners 56 Mrd Ft, AdWA/NAMTL 12 Mrd Ft, Beloiannisz/Pelso 2,371 Mrd Ft) már korábban önálló reported_cases-tételként vagy a reported-egyeb-miniszteriumi-18ugy-2026 / reported-ttm-informatikai-szerzodesek-2026-10 gyűjtőkben szerepelt. A 2026-10-14-i (3444 Mrd Ft) és a mostani (4005 Mrd Ft) állapot közötti 561 Mrd Ft-os növekedés nagyrészt abból adódik, hogy a Kisfaludy Program-ügyet (475,3 Mrd Ft, feljelentve 2026-10-16, TEHÁT A 10-14-I ELLENŐRZÉS UTÁN) a hivatalos oldal mostanra bedolgozta az összesítőbe; a fennmaradó kb. 86 Mrd Ft kisebb, már létező tételek pontosításából/új felvételéből adódhat, pontos komponens-szintű lebontása nem volt elvégezhető ebben a futásban. A nyomozások számának 14→17-re növekedése összhangban áll az új ügyek (pl. M6-koncesszió, Kommentár Alapítvány) korábban rögzített nyomozási státuszváltásaival. (Korábbi megjegyzések megőrizve, l. előző verzió.)",
+   "subject": "Kormányzati feljelentések hivatalos összesítője (63 ügy, 12 minisztérium/hatóság)",
+   "verification_notes": "FRISSÍTVE 2026-11-11-es futás: a hivatalos oldal ügyszáma 62-ről 63-ra nőtt (2026-11-09-i állapot), az összesített összeg gyakorlatilag nem változott (4005→4006 Mrd Ft, kerekítési eltérés), a visszafizetett/megtakarított 74,0 Mrd Ft összeg nem változott; a nyomozások száma 22-ről 24-re nőtt. A hivatalos oldal táblázata 58 egyedi tételt sorol fel (a 63 ügyből 5 nincs külön nevesítve, feltehetően kisebb, összeg nélküli vagy aggregált tételek) — mind az 58 nevesített tétel egyenkénti átnézése alapján ez a futás nem talált olyan tételt, amely még nem szerepelne önálló reported_cases-dokumentumként vagy a reported-egyeb-miniszteriumi-18ugy-2026 / reported-ttm-informatikai-szerzodesek-2026-10 gyűjtőkben — a pontos, melyik új ügy teszi ki az ügyszám +1 növekedését és a 2 új nyomozást, ebből a futásból nem volt megállapítható, mert a hivatalos oldal nem ad egyedi nyomozási státuszt minden tételhez. (Korábbi megjegyzések megőrizve, l. előző verzió.) FRISSÍTVE 2026-11-06 12:00-ás futás: a hivatalos oldal ügyszáma 61-ről 62-re nőtt (2026-11-05-i állapot), az összesített összeg (4005 Mrd Ft) és a visszafizetett/megtakarított összeg (74,0 Mrd Ft) nem változott; a nyomozások száma 17-ről 22-re nőtt. Az új, 62. tétel a Pénzügyminisztérium (Nemzetgazdasági Minisztérium elnevezéssel is szereplő) delegációinak külföldi útjaival kapcsolatos, 100+ millió forintos, 2026.10.26-i feljelentés — ez felvételre került a reported-egyeb-miniszteriumi-18ugy-2026 gyűjtőtételbe. A 61 ügyet egyenként átnézve ez a futás nem talált más, még nem rögzített egyedi ügyet. (Korábbi megjegyzések megőrizve, l. előző verzió.) FRISSÍTVE 2026-10-21 16:56-os futás: a hivatalos oldal összesítői tovább nőttek (57→61 ügy, 3444→4005 Mrd Ft, nyomozások 14→17 ügyben; a visszafizetett/megtakarított 74,0 Mrd Ft ősszeg nem változott). A 61 ügyet egyenként átnézve ez a futás NEM talált újonnan megjelenő, még nem rögzített egyedi ügyet: minden névvel azonosítható tétel (pl. Kisfaludy Program 475,3 Mrd Ft, Déli körvasút II/V-Híd 84,5 Mrd Ft, EAC International/Fellegi 2,97 Mrd Ft, Indotek-kötvények 110 Mrd Ft, Exportösztönző Alap/GB&Partners 56 Mrd Ft, AdWA/NAMTL 12 Mrd Ft, Beloiannisz/Pelso 2,371 Mrd Ft) már korábban önálló reported_cases-tételként vagy a reported-egyeb-miniszteriumi-18ugy-2026 / reported-ttm-informatikai-szerzodesek-2026-10 gyűjtőkben szerepelt. A 2026-10-14-i (3444 Mrd Ft) és a mostani (4005 Mrd Ft) állapot közötti 561 Mrd Ft-os növekedés nagyrészt abból adódik, hogy a Kisfaludy Program-ügyet (475,3 Mrd Ft, feljelentve 2026-10-16, TEHÁT A 10-14-I ELLENŐRZÉS UTÁN) a hivatalos oldal mostanra bedolgozta az összesítőbe; a fennmaradó kb. 86 Mrd Ft kisebb, már létező tételek pontosításából/új felvételéből adódhat, pontos komponens-szintű lebontása nem volt elvégezhető ebben a futásban. A nyomozások számának 14→17-re növekedése összhangban áll az új ügyek (pl. M6-koncesszió, Kommentár Alapítvány) korábban rögzített nyomozási státuszváltásaival. (Korábbi megjegyzések megőrizve, l. előző verzió.)",
    "id": "reported-osszesito-2026-09",
    "first_seen_at": "2026-09-28T15:02:40+00:00",
-   "updated_at": "2026-11-07T05:03:54+00:00"
+   "updated_at": "2026-11-11T16:00:55+00:00"
   },
   {
    "additional_sources": [
@@ -4732,7 +4737,7 @@
   }
  ],
  "run_summary": {
-  "run_id": "2026-11-11T11:01:49+00:00",
+  "run_id": "2026-11-11T16:00:55+00:00",
   "new": 0,
   "modified": 0,
   "confirmed_only": 0,
@@ -4755,21 +4760,6 @@
   "confirmed_ids": []
  },
  "run_summary_history": [
-  {
-   "run_id": "2026-10-09T04:04:22+00:00",
-   "by_section": {
-    "items": {
-     "new": 0,
-     "modified": 0,
-     "confirmed_only": 0
-    },
-    "reported_cases": {
-     "new": 0,
-     "modified": 0,
-     "confirmed_only": 0
-    }
-   }
-  },
   {
    "run_id": "2026-10-09T10:06:01+00:00",
    "by_section": {
@@ -6242,6 +6232,21 @@
   },
   {
    "run_id": "2026-11-11T11:01:49+00:00",
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    }
+   }
+  },
+  {
+   "run_id": "2026-11-11T16:00:55+00:00",
    "by_section": {
     "items": {
      "new": 0,
