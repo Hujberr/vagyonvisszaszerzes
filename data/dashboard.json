@@ -1,13 +1,13 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-12T11:00:59+00:00",
+ "generated_at": "2026-11-12T16:01:42+00:00",
  "summary": {
   "megtakaritas_verified_huf": 2947290700000,
   "visszaszerzes_verified_huf": 1575719300000,
   "eu_forras_verified_huf": 8251000000000,
   "eu_forras_lost_huf": 730000000000,
   "items_count": 41,
-  "reported_cases_count": 64
+  "reported_cases_count": 65
  },
  "items": [
   {
@@ -3395,6 +3395,26 @@
    "updated_at": "2026-11-10T16:04:15+00:00"
   },
   {
+   "alleged_amount_huf": null,
+   "alleged_amount_text": "Pontos összeg nincs közölve; a polgármester szerint egy alaptalan feljelentés több száz millió forintos kárt okozhat a városnak",
+   "confirmed_recovered_huf": 0,
+   "description": "A Nemzeti Adó- és Vámhivatal vizsgálói 2026. november 12-én dokumentumokat és adathordozókat foglaltak le a székesfehérvári Sóstói Stadionban. A vizsgálat egy feljelentés nyomán indult, amely szerint az önkormányzat költségvetési csalást és hűtlen kezelést követett el a Fehérvár FC (Videoton) tavalyi, Garancsi Istvántól történő megvásárlásával kapcsolatban. Az ügyet előzőleg az Állami Számvevőszékhez jelentették be, amely áttette a NAV-hoz és a rendőrséghez.",
+   "ministry": "Nemzeti Adó- és Vámhivatal (NAV) — érintett szervezet: Székesfehérvár Megyei Jogú Város Önkormányzata",
+   "recovered_item_id": null,
+   "report_date": "2026-11-12",
+   "report_source": {
+    "name": "Telex",
+    "published_date": "2026-11-12",
+    "url": "https://telex.hu/belfold/2026/11/12/cser-palkovics-andras-szekesfehervar-sostoi-stadion-nav-nyomozok-kiszallas-iratok-adathordozok-lefoglalas"
+   },
+   "status": "reported",
+   "subject": "Sóstói Stadion (Fehérvár FC/Videoton) megvásárlása — NAV-vizsgálat Székesfehérváron",
+   "verification_notes": "ÚJ TÉTEL (2026-11-12 17:00-ás futás). Egyetlen közvetlen forrásból (Telex) ismert eddig, második független forrásra vár. A feljelentő a cikk szerint egy 'notórius be- és feljelentő' magánszemély, nem kormányzati/minisztériumi szerv; az ügy az Állami Számvevőszéken keresztül jutott a NAV-hoz. Cser-Palkovics András fideszes polgármester vitatja az állításokat és alaptalannak tartja a feljelentést. Nincs megerősített, konkrét kárösszeg. Nem szerepel a kormany.hu/atlathato/feljelentes hivatalos listáján, mivel ez önkormányzati szintű, nem kormányzati feljelentés.",
+   "id": "reported-sostoi-stadion-fehervar-2026-11",
+   "updated_at": "2026-11-12T16:01:42+00:00",
+   "first_seen_at": "2026-11-12T16:01:42+00:00"
+  },
+  {
    "alleged_amount_huf": 64610000000,
    "alleged_amount_text": "hivatalosan nyilvánosságra hozott kormányhatározatok szerint kb. 64,61 milliárd forint 2014 és 2024 között; ezen belül 2026 január–március között külön több mint 7,6 milliárd forintot fizetett ki az akkori kormány",
    "confirmed_recovered_huf": 0,
@@ -3699,7 +3719,7 @@
    "url": "https://magyarnemzet.hu/gazdasag/2026/09/allamadossag-novekedes"
   },
   "allamadossag_huf": 65716000000000,
-  "collected_at": "2026-11-12T11:56:00+01:00",
+  "collected_at": "2026-11-12T17:00:00+01:00",
   "elozo": {
    "allamadossag": {
     "period": null,
@@ -3804,8 +3824,8 @@
     "key": "eur_huf",
     "label_en": "Official EUR/HUF rate (MNB)",
     "label_hu": "Euró hivatalos árfolyama (MNB)",
-    "note_en": "The MNB's official USD rate on 10 Nov 2026 was 322.92 HUF/USD. The latest official rate could not be reliably confirmed at the time of this run.",
-    "note_hu": "A dollár hivatalos MNB-árfolyama 2026-11-10-én 322,92 Ft/USD volt. A friss (11-12-i) hivatalos árfolyam e futás idején nem volt megbízhatóan ellenőrizhető.",
+    "note_en": "The latest official rate could not be reliably confirmed via WebSearch at the time of this run.",
+    "note_hu": "A friss (11-12-i) hivatalos árfolyam e futás idején sem volt megbízhatóan ellenőrizhető WebSearch-csel.",
     "period": "2026-11-10",
     "prev_period": "2026-11-09",
     "prev_value": 363.18,
@@ -3868,7 +3888,7 @@
     "key": "kozponti_alrendszer_hiany",
     "label_en": "Central government deficit (year to date)",
     "label_hu": "Központi alrendszer hiánya (év eleje óta)",
-    "note_hu": "A 2026-10-i hiány önmagában 200 milliárd forint volt; a 2026 augusztusban elszámolt 2186,9 milliárd forintos RRF-előfinanszírozás nélkül a január–októberi hiány 3275,6 milliárd forint lett volna. A január–októberi összeg a módosított 2026-os pótköltségvetés szerinti 7100 milliárd forintos éves hiánycél 76,9%-a. A novemberi adat e futás idején (2026-11-12) még nem jelent meg.",
+    "note_hu": "A január–októberi összeg a módosított 2026-os pótköltségvetés szerinti 7100 milliárd forintos éves hiánycél 76,9%-a. A novemberi adat e futás idején (2026-11-12) még nem jelent meg.",
     "period": "2026 január–október",
     "prev_period": "2026 január–szeptember",
     "prev_value": 5261.9,
@@ -3884,7 +3904,7 @@
     "key": "allamadossag_gdp_arany",
     "label_en": "Government debt to GDP",
     "label_hu": "Államadósság a GDP arányában",
-    "note_hu": "A módosított 2026-os költségvetés év végére 77,5%-os arányt vár; a 2026.10.30-án benyújtott 2027-es költségvetési törvényjavaslat szerint az államadosság-ráta 2027 végére 77,2%-ra csökkenhet. A 2026 Q3-i MNB pénzügyi számla adat e futás idején még nem jelent meg.",
+    "note_hu": "A 2026 Q3-i MNB pénzügyi számla adat e futás idején még nem jelent meg.",
     "period": "2026-06-30",
     "prev_period": "2026-03-31",
     "prev_value": 77.9,
@@ -3913,7 +3933,7 @@
    "publish_date": "2026-09-22",
    "url": "https://www.portfolio.hu/gazdasag/20260922/itt-az-mnb-uj-elorejelzese-hiaba-a-nemzetkozi-kockazatok-mersekelt-marad-az-idei-inflacio-864484"
   },
-  "id": "2026-11-12T11-56"
+  "id": "2026-11-12T17-00"
  },
  "last_run": {
   "errors": [
@@ -4737,11 +4757,11 @@
   }
  ],
  "run_summary": {
-  "run_id": "2026-11-12T11:00:59+00:00",
-  "new": 0,
+  "run_id": "2026-11-12T16:01:42+00:00",
+  "new": 1,
   "modified": 0,
   "confirmed_only": 0,
-  "touched": 0,
+  "touched": 1,
   "pending_review": 3,
   "by_section": {
    "items": {
@@ -4750,31 +4770,18 @@
     "confirmed_only": 0
    },
    "reported_cases": {
-    "new": 0,
+    "new": 1,
     "modified": 0,
     "confirmed_only": 0
    }
   },
-  "new_ids": [],
+  "new_ids": [
+   "r:reported-sostoi-stadion-fehervar-2026-11"
+  ],
   "modified_ids": [],
   "confirmed_ids": []
  },
  "run_summary_history": [
-  {
-   "run_id": "2026-10-10T04:00:53+00:00",
-   "by_section": {
-    "items": {
-     "new": 0,
-     "modified": 0,
-     "confirmed_only": 0
-    },
-    "reported_cases": {
-     "new": 0,
-     "modified": 0,
-     "confirmed_only": 1
-    }
-   }
-  },
   {
    "run_id": "2026-10-10T10:06:19+00:00",
    "by_section": {
@@ -6255,6 +6262,21 @@
     },
     "reported_cases": {
      "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    }
+   }
+  },
+  {
+   "run_id": "2026-11-12T16:01:42+00:00",
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 1,
      "modified": 0,
      "confirmed_only": 0
     }
