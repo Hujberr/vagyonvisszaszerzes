@@ -1,13 +1,13 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-13T11:02:59+00:00",
+ "generated_at": "2026-11-13T16:07:58+00:00",
  "summary": {
   "megtakaritas_verified_huf": 2947290700000,
   "visszaszerzes_verified_huf": 1575719300000,
   "eu_forras_verified_huf": 8251000000000,
   "eu_forras_lost_huf": 730000000000,
   "items_count": 41,
-  "reported_cases_count": 66
+  "reported_cases_count": 67
  },
  "items": [
   {
@@ -2592,8 +2592,8 @@
    "subject": "Lezsák Sándor-féle Népfőiskola Alapítvány (Lakitelek) — NAV és ügyészségi vizsgálat",
    "verification_notes": "ÚJ TÉTEL (2026-11-13-as futás). A NAV saját közleménye szerint két külön eljárásban (egy, a Bács-Kiskun Megyei Főügyészség által vezetett büntetőügyben, és egy NAV saját hatáskörű vizsgálatban) jártak a helyszínen; a gyanú pontos jellege a cikkekből nem derül ki, elmarasztaló döntés nincs. Lezsák Anna (Fidesz-képviselő, Lezsák Sándor lánya) és Bóka János (Fidesz-frakcióvezető) politikai bosszúnak nevezte az akciót, állításuk szerint minden támogatás elszámolása jogszerű volt. Legalább két független forrás (444.hu, KecsUP/24.hu-ra hivatkozva, valamint több megyei lap azonos tartalommal) megerősíti az eseményt. Nem szerepel a kormany.hu/atlathato/feljelentes hivatalos listáján (2026-11-09-i állapot szerint ellenőrizve), mivel nem kormányzati/minisztériumi feljelentés, hanem NAV/ügyészségi eljárás.",
    "id": "reported-lezsak-nepfoiskola-alapitvany-nav-2026-11",
-   "updated_at": "2026-11-13T11:02:59+00:00",
-   "first_seen_at": "2026-11-13T11:02:59+00:00"
+   "first_seen_at": "2026-11-13T11:02:59+00:00",
+   "updated_at": "2026-11-13T11:02:59+00:00"
   },
   {
    "additional_sources": [
@@ -3080,11 +3080,11 @@
    "updated_at": "2026-11-06T11:37:02+00:00"
   },
   {
-   "alleged_amount_huf": 4006000000000,
-   "alleged_amount_text": "4006 milliárd forint (hivatalos, kormany.hu szerinti állapot, 2026-11-09-i ellenőrzés; 63 ügy, 12 tárca, a listában 58 egyedi tétel szerepel; előző állapot 2026-11-05: 4005 Mrd Ft, 62 ügy)",
-   "case_count": 63,
+   "alleged_amount_huf": 4007000000000,
+   "alleged_amount_text": "4007 milliárd forint (hivatalos, kormany.hu szerinti állapot, 2026-11-13-i ellenőrzés; 64 ügy, a listában 59 egyedi tétel szerepel; előző állapot 2026-11-09: 4006 Mrd Ft, 63 ügy)",
+   "case_count": 64,
    "confirmed_recovered_huf": 74000000000,
-   "description": "A kormány hivatalos, folyamatosan bővülő listája (kormany.hu/atlathato/feljelentes) szerint 2026. november 9-i állapotban 63 ügyben (12 tárcánál) tettek feljelentést, összesen 4006 milliárd forint értékű közpénzt érintve. A hivatalos oldal szerint eddig 24 ügyben indult meg a nyomozás (korábban 22), és a hivatalos oldal saját elszámolása szerint eddig összesen 74,0 milliárd forintot fizettek vissza, utaltak vissza vagy takarítottak meg (ebből 61,2 Mrd Ft visszafizetve/visszautalva, 12,8 Mrd Ft pedig meg nem valósult kiadás) — ez utóbbi két szám nem változott.",
+   "description": "A kormány hivatalos, folyamatosan bővülő listája (kormany.hu/atlathato/feljelentes) szerint 2026. november 13-i állapotban 64 ügyben tettek feljelentést, összesen kb. 4007 milliárd forint értékű közpénzt érintve. A hivatalos oldal saját elszámolása szerint eddig összesen 74,0 milliárd forintot fizettek vissza, utaltak vissza vagy takarítottak meg (ebből 61,2 Mrd Ft visszafizetve/visszautalva, 12,8 Mrd Ft pedig meg nem valósult kiadás) — ez nem változott.",
    "history": [
     {
      "amount_huf": 2128000000000,
@@ -3125,6 +3125,11 @@
      "amount_huf": 4006000000000,
      "case_count": 63,
      "date": "2026-11-09"
+    },
+    {
+     "amount_huf": 4007000000000,
+     "case_count": 64,
+     "date": "2026-11-13"
     }
    ],
    "is_aggregate": true,
@@ -3138,10 +3143,10 @@
    },
    "status": "under_investigation",
    "subject": "Kormányzati feljelentések hivatalos összesítője (63 ügy, 12 minisztérium/hatóság)",
-   "verification_notes": "FRISSÍTVE 2026-11-11-es futás: a hivatalos oldal ügyszáma 62-ről 63-ra nőtt (2026-11-09-i állapot), az összesített összeg gyakorlatilag nem változott (4005→4006 Mrd Ft, kerekítési eltérés), a visszafizetett/megtakarított 74,0 Mrd Ft összeg nem változott; a nyomozások száma 22-ről 24-re nőtt. A hivatalos oldal táblázata 58 egyedi tételt sorol fel (a 63 ügyből 5 nincs külön nevesítve, feltehetően kisebb, összeg nélküli vagy aggregált tételek) — mind az 58 nevesített tétel egyenkénti átnézése alapján ez a futás nem talált olyan tételt, amely még nem szerepelne önálló reported_cases-dokumentumként vagy a reported-egyeb-miniszteriumi-18ugy-2026 / reported-ttm-informatikai-szerzodesek-2026-10 gyűjtőkben — a pontos, melyik új ügy teszi ki az ügyszám +1 növekedését és a 2 új nyomozást, ebből a futásból nem volt megállapítható, mert a hivatalos oldal nem ad egyedi nyomozási státuszt minden tételhez. (Korábbi megjegyzések megőrizve, l. előző verzió.) FRISSÍTVE 2026-11-06 12:00-ás futás: a hivatalos oldal ügyszáma 61-ről 62-re nőtt (2026-11-05-i állapot), az összesített összeg (4005 Mrd Ft) és a visszafizetett/megtakarított összeg (74,0 Mrd Ft) nem változott; a nyomozások száma 17-ről 22-re nőtt. Az új, 62. tétel a Pénzügyminisztérium (Nemzetgazdasági Minisztérium elnevezéssel is szereplő) delegációinak külföldi útjaival kapcsolatos, 100+ millió forintos, 2026.10.26-i feljelentés — ez felvételre került a reported-egyeb-miniszteriumi-18ugy-2026 gyűjtőtételbe. A 61 ügyet egyenként átnézve ez a futás nem talált más, még nem rögzített egyedi ügyet. (Korábbi megjegyzések megőrizve, l. előző verzió.) FRISSÍTVE 2026-10-21 16:56-os futás: a hivatalos oldal összesítői tovább nőttek (57→61 ügy, 3444→4005 Mrd Ft, nyomozások 14→17 ügyben; a visszafizetett/megtakarított 74,0 Mrd Ft ősszeg nem változott). A 61 ügyet egyenként átnézve ez a futás NEM talált újonnan megjelenő, még nem rögzített egyedi ügyet: minden névvel azonosítható tétel (pl. Kisfaludy Program 475,3 Mrd Ft, Déli körvasút II/V-Híd 84,5 Mrd Ft, EAC International/Fellegi 2,97 Mrd Ft, Indotek-kötvények 110 Mrd Ft, Exportösztönző Alap/GB&Partners 56 Mrd Ft, AdWA/NAMTL 12 Mrd Ft, Beloiannisz/Pelso 2,371 Mrd Ft) már korábban önálló reported_cases-tételként vagy a reported-egyeb-miniszteriumi-18ugy-2026 / reported-ttm-informatikai-szerzodesek-2026-10 gyűjtőkben szerepelt. A 2026-10-14-i (3444 Mrd Ft) és a mostani (4005 Mrd Ft) állapot közötti 561 Mrd Ft-os növekedés nagyrészt abból adódik, hogy a Kisfaludy Program-ügyet (475,3 Mrd Ft, feljelentve 2026-10-16, TEHÁT A 10-14-I ELLENŐRZÉS UTÁN) a hivatalos oldal mostanra bedolgozta az összesítőbe; a fennmaradó kb. 86 Mrd Ft kisebb, már létező tételek pontosításából/új felvételéből adódhat, pontos komponens-szintű lebontása nem volt elvégezhető ebben a futásban. A nyomozások számának 14→17-re növekedése összhangban áll az új ügyek (pl. M6-koncesszió, Kommentár Alapítvány) korábban rögzített nyomozási státuszváltásaival. (Korábbi megjegyzések megőrizve, l. előző verzió.)",
+   "verification_notes": "FRISSÍTVE 2026-11-13-as futás: a hivatalos oldal ügyszáma 63-ról 64-re nőtt, az új tétel a Tempus Közalapítvány ügye (1,8 Mrd Ft, Oktatási és Gyermekügyi Minisztérium, l. reported-tempus-kozalapitvany-2026-11) — ez megfelel a kb. 4006→4007 Mrd Ft-os összegnövekedésnek. A visszafizetett/megtakarított 74,0 Mrd Ft összeg nem változott. (Korábbi megjegyzések megőrizve, l. előző verzió.)",
    "id": "reported-osszesito-2026-09",
    "first_seen_at": "2026-09-28T15:02:40+00:00",
-   "updated_at": "2026-11-11T16:00:55+00:00"
+   "updated_at": "2026-11-13T16:07:58+00:00"
   },
   {
    "additional_sources": [
@@ -3546,6 +3551,26 @@
    "updated_at": "2026-11-06T11:37:02+00:00"
   },
   {
+   "alleged_amount_huf": 1800000000,
+   "alleged_amount_text": "több mint 1,8 milliárd forint (ebből közel a fele 2025-ben kifizetve)",
+   "confirmed_recovered_huf": 0,
+   "description": "Az Oktatási és Gyermekügyi Minisztérium átvilágítása szerint a Tempus Közalapítványnál több mint 1,8 milliárd forint közpénz felhasználása kifogásolható. Több támogatási szerződés nem felelt meg az alapítvány alapító okiratának, és egyes esetekben a pályázat nélküli támogatások meghaladták az évi 1 millió forintos keretet. A partnerek kiválasztása a közbeszerzési szabályok megsértésével, nagyrészt a minisztérium korábbi vezetésétől érkező egyedi e-mailes utasítások alapján történt. Több mint 280 millió forintot fordítottak oktatási rendezvényekre és a 2025-ös Nyugat-Balkán Konferenciára, emellett felmerült egy 76,6 millió forintos gálaest, egy 53 millió forintos kulturális örökségi projekt (amelynél a pályázatban Los Angeles, az elszámolásban Dubaj szerepelt helyszínként), valamint három magánszemélynek kifizetett összesen 31 millió forint.",
+   "ministry": "Oktatási és Gyermekügyi Minisztérium",
+   "recovered_item_id": null,
+   "report_date": "2026-11-13",
+   "report_source": {
+    "name": "Kormany.hu – Feljelentett billiók",
+    "published_date": "2026-11-13",
+    "url": "https://kormany.hu/atlathato/feljelentes"
+   },
+   "status": "reported",
+   "subject": "Tempus Közalapítvány vagyonának felhasználása",
+   "verification_notes": "ÚJ TÉTEL (2026-11-13 futás). Kizárólag hivatalos forrásból (kormany.hu, 2026-11-13-i feljelentési dátummal) ismert; független sajtóforrás ehhez a futáshoz még nem található. A gyanú hivatali visszaélés, hűtlen kezelés és költségvetési csalás. A kormany.hu hivatalos összesítője ezzel az üggyel 63-ról 64 ügyre, az összesített összeg kb. 4006 Mrd Ft-ról kb. 4007 Mrd Ft-ra nőtt.",
+   "id": "reported-tempus-kozalapitvany-2026-11",
+   "updated_at": "2026-11-13T16:07:58+00:00",
+   "first_seen_at": "2026-11-13T16:07:58+00:00"
+  },
+  {
    "additional_sources": [
     {
      "name": "444.hu",
@@ -3746,7 +3771,7 @@
    "url": "https://magyarnemzet.hu/gazdasag/2026/09/allamadossag-novekedes"
   },
   "allamadossag_huf": 65716000000000,
-  "collected_at": "2026-11-13T12:01:00+01:00",
+  "collected_at": "2026-11-13T17:06:39+01:00",
   "elozo": {
    "allamadossag": {
     "period": null,
@@ -3960,85 +3985,46 @@
    "publish_date": "2026-09-22",
    "url": "https://www.portfolio.hu/gazdasag/20260922/itt-az-mnb-uj-elorejelzese-hiaba-a-nemzetkozi-kockazatok-mersekelt-marad-az-idei-inflacio-864484"
   },
-  "id": "2026-11-13T12-01"
+  "id": "2026-11-13T17-06"
  },
  "last_run": {
   "errors": [
-   "Az ÁKK hivatalos statisztikai oldala (akk.hu) ebben a futásban sem volt közvetlenül lekérhető; az államadósság értéke változatlanul a 2026-07-31-i (Magyar Nemzet/ÁKK-adatra hivatkozó) állapotot tükrözi.",
-   "A KSH októberi munkanélküliégi gyorstájékoztatója és a GDP Q3 részletes (komponensenkénti) bontása (december 1-jén várható) e futás idején még nem jelent meg; az augusztusi/szeptemberi, illetve a Q3 gyorsbecslés adatai maradtak érvényben.",
-   "Az EU Tanácsa/Bizottsága részéről novemberi új tényleges RRF/kohéziós kifizetés nem volt azonosítható; a received_huf mezők az eu_forras tételeken változatlanok.",
-   "A 'kiemelt beruházási státusz megvonása' és a 'milliárdos finanszirozás felfüggesztése' című, a hirkereso.hu-n talált 2026-11-12-i teaserek mögött álló cikkeket (Economx, 444.hu) nem sikerült közvetlenül, konkrét ügy/összeg szintjén azonosítani ebben a futásban; követendő egy következő futásban.",
-   "Az 'aranykonvoj' üggyel kapcsolatos legfőbb ügyészi átszervezés (2026-11-13) nem közpénzügyi/vagyonvisszaszerzési tárgyú, ezért nem került az adattárba."
+   "A WebSearch eszköz nem tudta közvetlenül lekérni a k-monitor.hu, hirkereso.hu, mnvvh.hu/hirek és ügyészség.hu oldalakat (a keresőindex nem adott vissza közvetlen, friss találatot ezekről a domainekről ebben a futásban); ez keresőindex-korlát, nem hálózati blokk - a korábbi futásokban rögzített adatok érvényben maradnak.",
+   "A KSH szeptemberi munkanélküliségi gyorstájékoztatója e futás idején még nem jelent meg; a legutóbbi (augusztusi) adat maradt érvényben.",
+   "Az ÁKK friss (szeptemberi/októberi) államadósság-összesítőjét nem sikerült megbízhatóan megtalálni ebben a futásban; a 2026-07-31-i állapot maradt érvényben.",
+   "A mai (2026-10-23) MNB hivatalos EUR/HUF árfolyamot nem sikerült megbízhatóan megerősíteni; a 2026-10-22-i érték maradt érvényben."
   ],
   "eu_lost_items_new": 0,
-  "finished_at": "2026-11-13T12:45:00+01:00",
+  "finished_at": "2026-10-23T17:40:00+02:00",
   "items_duplicate": 0,
   "items_found_total": 0,
   "items_needs_review": 0,
   "items_new": 0,
-  "reported_cases_new": 1,
+  "reported_cases_new": 0,
   "reported_cases_updated": 1,
   "sources_checked": [
-   "kormany.hu/atlathato/feljelentes (hivatalos, teljes lista ellenőrizve WebFetch-csel: 63 ügy / 12 tárca, 4006 Mrd Ft, 24 vizsgálat, 74,0 Mrd Ft visszafizetve/megtakarítva — változatlan a 2026-11-09-i állapothoz képest)",
-   "mnvvh.hu/hirek (legfrissebb tétel 2026-11-09, Orbán Áron-kör vízumbiznisz, már rögzítve)",
-   "ugyeszseg.hu/category/hirek/kozponti-nyomozo-fougyeszseg (elérhető volt, legfrissebb közlemény 2026-10-21, Matolcsy őrizet, már rögzítve)",
-   "k-monitor.hu (WebSearch, site: operátor nem adott közvetlen domain-találatot, nincs új azonosítható ügy)",
-   "hirkereso.hu (főoldal áttekintve, Nov 12-13-i lapszemle; innen azonosítva a Lezsák-ügy)",
-   "24.hu",
-   "444.hu",
-   "168.hu",
-   "Átlátszó",
-   "Demokrata",
-   "Direkt36",
-   "Economx",
-   "Élet és Irodalom",
-   "Forbes.hu",
-   "G7",
-   "Hír TV Online",
-   "HVG",
-   "Index",
-   "InfoStart",
-   "Jelen",
-   "Klubrádió",
-   "Magyar Hang",
-   "Magyar Hírlap",
-   "Magyar Nemzet",
-   "Makronóm",
-   "Mandiner",
-   "Media1",
-   "mfor.hu",
-   "Mérce",
-   "MTI",
-   "Népszava",
-   "Origo",
-   "Pénzcentrum",
-   "Portfolio",
-   "Privátbankár",
-   "Szabad Európa",
+   "kormany.hu/atlathato/feljelentes (official, via web-fetch, data stamp unchanged: 2026-10-21)",
    "Telex",
-   "Trend FM",
-   "Új Egyenlőség",
-   "Válasz Online",
-   "Világgazdaság",
-   "Partizán",
-   "Okoshír",
-   "Szeretlek Magyarország",
-   "mnb.hu/arfolyamok (EUR/HUF, USD/HUF, 2026-11-13)",
-   "ksh.hu (saján keresztül, munkanélküliégi/GDP adat)",
-   "akk.hu (saján keresztül, nincs új adat)"
+   "444.hu",
+   "Index.hu",
+   "Portfolio.hu",
+   "VG.hu",
+   "Economx.hu",
+   "Infostart.hu",
+   "Privátbankár.hu",
+   "Adózóna (KSH/PM adatközlések)",
+   "K-Monitor (site: search, no new hit)",
+   "hirkereso.hu (search attempt, no direct listing retrievable)",
+   "mnvvh.hu/hirek (search attempt, no October item found)",
+   "ügyészség.hu / Központi Nyomozó Főügyészség (search attempt, no October communiqué found directly)",
+   "KSH (munkanélküliség, infláció - via sajtó)",
+   "MNB (alapkamat, árfolyam - via sajtó)",
+   "ÁKK (államadósság - via sajtó, no fresh September/October figure found)"
   ],
-  "started_at": "2026-11-13T12:01:00+01:00",
-  "id": "2026-11-13T12-01"
+  "started_at": "2026-10-23T16:56:00+02:00",
+  "id": "2026-10-23T16-56"
  },
  "run_history": [
-  {
-   "finished_at": "2026-11-13T12:45:00+01:00",
-   "started_at": "2026-11-13T12:01:00+01:00",
-   "items_new": 0,
-   "reported_cases_new": 1,
-   "reported_cases_updated": 1,
-   "eu_lost_items_new": 0
-  },
   {
    "finished_at": "2026-10-23T17:40:00+02:00",
    "started_at": "2026-10-23T16:56:00+02:00",
@@ -4815,14 +4801,19 @@
    "finished_at": "2026-09-22T10:55:00+02:00",
    "started_at": "2026-09-22T10:30:00+02:00",
    "items_new": 2
+  },
+  {
+   "finished_at": "2026-09-22T10:40:00+02:00",
+   "started_at": "2026-09-22T10:21:00+02:00",
+   "items_new": 2
   }
  ],
  "run_summary": {
-  "run_id": "2026-11-13T11:02:59+00:00",
+  "run_id": "2026-11-13T16:07:58+00:00",
   "new": 1,
   "modified": 0,
-  "confirmed_only": 1,
-  "touched": 2,
+  "confirmed_only": 0,
+  "touched": 1,
   "pending_review": 3,
   "by_section": {
    "items": {
@@ -4833,33 +4824,16 @@
    "reported_cases": {
     "new": 1,
     "modified": 0,
-    "confirmed_only": 1
+    "confirmed_only": 0
    }
   },
   "new_ids": [
-   "r:reported-lezsak-nepfoiskola-alapitvany-nav-2026-11"
+   "r:reported-tempus-kozalapitvany-2026-11"
   ],
   "modified_ids": [],
-  "confirmed_ids": [
-   "r:reported-vhid-deli-korvasut-2026-10"
-  ]
+  "confirmed_ids": []
  },
  "run_summary_history": [
-  {
-   "run_id": "2026-10-11T04:04:29+00:00",
-   "by_section": {
-    "items": {
-     "new": 0,
-     "modified": 0,
-     "confirmed_only": 0
-    },
-    "reported_cases": {
-     "new": 0,
-     "modified": 0,
-     "confirmed_only": 0
-    }
-   }
-  },
   {
    "run_id": "2026-10-11T10:00:49+00:00",
    "by_section": {
@@ -6342,6 +6316,21 @@
      "new": 1,
      "modified": 0,
      "confirmed_only": 1
+    }
+   }
+  },
+  {
+   "run_id": "2026-11-13T16:07:58+00:00",
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 1,
+     "modified": 0,
+     "confirmed_only": 0
     }
    }
   }
