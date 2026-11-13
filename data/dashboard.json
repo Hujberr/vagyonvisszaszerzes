@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-12T16:01:42+00:00",
+ "generated_at": "2026-11-13T05:03:41+00:00",
  "summary": {
   "megtakaritas_verified_huf": 2947290700000,
   "visszaszerzes_verified_huf": 1575719300000,
@@ -3411,8 +3411,8 @@
    "subject": "Sóstói Stadion (Fehérvár FC/Videoton) megvásárlása — NAV-vizsgálat Székesfehérváron",
    "verification_notes": "ÚJ TÉTEL (2026-11-12 17:00-ás futás). Egyetlen közvetlen forrásból (Telex) ismert eddig, második független forrásra vár. A feljelentő a cikk szerint egy 'notórius be- és feljelentő' magánszemély, nem kormányzati/minisztériumi szerv; az ügy az Állami Számvevőszéken keresztül jutott a NAV-hoz. Cser-Palkovics András fideszes polgármester vitatja az állításokat és alaptalannak tartja a feljelentést. Nincs megerősített, konkrét kárösszeg. Nem szerepel a kormany.hu/atlathato/feljelentes hivatalos listáján, mivel ez önkormányzati szintű, nem kormányzati feljelentés.",
    "id": "reported-sostoi-stadion-fehervar-2026-11",
-   "updated_at": "2026-11-12T16:01:42+00:00",
-   "first_seen_at": "2026-11-12T16:01:42+00:00"
+   "first_seen_at": "2026-11-12T16:01:42+00:00",
+   "updated_at": "2026-11-12T16:01:42+00:00"
   },
   {
    "alleged_amount_huf": 64610000000,
@@ -3719,7 +3719,7 @@
    "url": "https://magyarnemzet.hu/gazdasag/2026/09/allamadossag-novekedes"
   },
   "allamadossag_huf": 65716000000000,
-  "collected_at": "2026-11-12T17:00:00+01:00",
+  "collected_at": "2026-11-13T06:01:00+01:00",
   "elozo": {
    "allamadossag": {
     "period": null,
@@ -3761,7 +3761,7 @@
     "label_en": "Unemployment rate",
     "label_hu": "Munkanélküliségi ráta",
     "note_en": "KSH's October flash report had not yet been published at the time of this run.",
-    "note_hu": "A KSH októberi gyorstájékoztatója e futás idején (2026-11-12) még nem jelent meg.",
+    "note_hu": "A KSH októberi gyorstájékoztatója e futás idején (2026-11-13) még nem jelent meg.",
     "period": "2026-09",
     "prev_period": "2026-08",
     "prev_value": 4.7,
@@ -3808,7 +3808,7 @@
     "label_en": "Central bank base rate",
     "label_hu": "Jegybanki alapkamat",
     "note_en": "The next rate-setting meeting is on 17 November 2026; it had not yet taken place at the time of this run.",
-    "note_hu": "A következő kamatdöntő ülést 2026. november 17-én tartják; e futás idején (2026-11-12) még nem történt meg.",
+    "note_hu": "A következő kamatdöntő ülést 2026. november 17-én tartják; e futás idején (2026-11-13) még nem történt meg.",
     "period": "2026-10-20",
     "prev_period": "2026-09-22",
     "prev_value": 5.5,
@@ -3824,18 +3824,18 @@
     "key": "eur_huf",
     "label_en": "Official EUR/HUF rate (MNB)",
     "label_hu": "Euró hivatalos árfolyama (MNB)",
-    "note_en": "The latest official rate could not be reliably confirmed via WebSearch at the time of this run.",
-    "note_hu": "A friss (11-12-i) hivatalos árfolyam e futás idején sem volt megbízhatóan ellenőrizhető WebSearch-csel.",
-    "period": "2026-11-10",
-    "prev_period": "2026-11-09",
-    "prev_value": 363.18,
+    "note_en": "Official MNB reference rate for 12 November 2026.",
+    "note_hu": "Az MNB 2026. november 12-i hivatalos árfolyama; az USD/HUF ugyanekkor 328,16 Ft volt.",
+    "period": "2026-11-12",
+    "prev_period": "2026-11-10",
+    "prev_value": 362.54,
     "source": {
      "name": "MNB hivatalos árfolyamok",
-     "publish_date": "2026-11-10",
+     "publish_date": "2026-11-12",
      "url": "https://www.mnb.hu/arfolyamok"
     },
     "unit": "Ft/EUR",
-    "value": 362.54
+    "value": 364.09
    },
    {
     "key": "brutto_atlagkereset",
@@ -3888,7 +3888,7 @@
     "key": "kozponti_alrendszer_hiany",
     "label_en": "Central government deficit (year to date)",
     "label_hu": "Központi alrendszer hiánya (év eleje óta)",
-    "note_hu": "A január–októberi összeg a módosított 2026-os pótköltségvetés szerinti 7100 milliárd forintos éves hiánycél 76,9%-a. A novemberi adat e futás idején (2026-11-12) még nem jelent meg.",
+    "note_hu": "A január–októberi összeg a módosított 2026-os pótköltségvetés szerinti 7100 milliárd forintos éves hiánycél 76,9%-a. A novemberi adat e futás idején (2026-11-13) még nem jelent meg.",
     "period": "2026 január–október",
     "prev_period": "2026 január–szeptember",
     "prev_value": 5261.9,
@@ -3933,7 +3933,7 @@
    "publish_date": "2026-09-22",
    "url": "https://www.portfolio.hu/gazdasag/20260922/itt-az-mnb-uj-elorejelzese-hiaba-a-nemzetkozi-kockazatok-mersekelt-marad-az-idei-inflacio-864484"
   },
-  "id": "2026-11-12T17-00"
+  "id": "2026-11-13T06-01"
  },
  "last_run": {
   "errors": [
@@ -4757,11 +4757,11 @@
   }
  ],
  "run_summary": {
-  "run_id": "2026-11-12T16:01:42+00:00",
-  "new": 1,
+  "run_id": "2026-11-13T05:03:41+00:00",
+  "new": 0,
   "modified": 0,
   "confirmed_only": 0,
-  "touched": 1,
+  "touched": 0,
   "pending_review": 3,
   "by_section": {
    "items": {
@@ -4770,33 +4770,16 @@
     "confirmed_only": 0
    },
    "reported_cases": {
-    "new": 1,
+    "new": 0,
     "modified": 0,
     "confirmed_only": 0
    }
   },
-  "new_ids": [
-   "r:reported-sostoi-stadion-fehervar-2026-11"
-  ],
+  "new_ids": [],
   "modified_ids": [],
   "confirmed_ids": []
  },
  "run_summary_history": [
-  {
-   "run_id": "2026-10-10T10:06:19+00:00",
-   "by_section": {
-    "items": {
-     "new": 0,
-     "modified": 0,
-     "confirmed_only": 0
-    },
-    "reported_cases": {
-     "new": 1,
-     "modified": 0,
-     "confirmed_only": 0
-    }
-   }
-  },
   {
    "run_id": "2026-10-10T15:02:55+00:00",
    "by_section": {
@@ -6277,6 +6260,21 @@
     },
     "reported_cases": {
      "new": 1,
+     "modified": 0,
+     "confirmed_only": 0
+    }
+   }
+  },
+  {
+   "run_id": "2026-11-13T05:03:41+00:00",
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 0,
      "modified": 0,
      "confirmed_only": 0
     }
