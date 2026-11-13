@@ -1,13 +1,13 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-13T05:03:41+00:00",
+ "generated_at": "2026-11-13T11:02:59+00:00",
  "summary": {
   "megtakaritas_verified_huf": 2947290700000,
   "visszaszerzes_verified_huf": 1575719300000,
   "eu_forras_verified_huf": 8251000000000,
   "eu_forras_lost_huf": 730000000000,
   "items_count": 41,
-  "reported_cases_count": 65
+  "reported_cases_count": 66
  },
  "items": [
   {
@@ -2571,6 +2571,33 @@
   {
    "additional_sources": [
     {
+     "name": "KecsUP (24.hu nyomán)",
+     "published_date": "2026-11-13",
+     "url": "https://kecsup.hu/2026/11/15-nyomozo-jelent-meg-lezsak-sandor-lakiteleki-alapitvanyanal-beruhazasi-iratokat-szerzodeseket-es-szamlakat-vizsgaltak"
+    }
+   ],
+   "alleged_amount_huf": null,
+   "alleged_amount_text": "Az alapítvány az évek során több tízmilliárd forint állami támogatást kapott; ebből 2,6 milliárd forint a Nemzeti Kulturális Alap (NKA) körüli ügyhöz kötődik",
+   "confirmed_recovered_huf": 0,
+   "description": "2026. november 12-én a Nemzeti Adó- és Vámhivatal és a Bács-Kiskun Megyei Főügyészség munkatársai helyszíni eljárási cselekményt tartottak a lakiteleki Népfőiskola Alapítványnál, beruházási dokumentumokat, szerződéseket és számlákat vizsgálva. Az alapítvány, amelyhez Lezsák Sándor neve köthető, az évek során több tízmilliárd forint állami támogatást kapott, ebből 2,6 milliárd forint a Nemzeti Kulturális Alap körüli ügyhöz kapcsolódik.",
+   "ministry": "NAV Dél-alföldi Bűnügyi Igazgatósága és a Bács-Kiskun Megyei Főügyészség (adóhatósági és ügyészségi eljárás, nem kormányzati/minisztériumi feljelentés)",
+   "recovered_item_id": null,
+   "report_date": "2026-11-12",
+   "report_source": {
+    "name": "444.hu",
+    "published_date": "2026-11-12",
+    "url": "https://444.hu/2026/11/12/boka-janos-kivonultak-a-hatosagok-lezsak-sandor-alapitvanyahoz"
+   },
+   "status": "under_investigation",
+   "subject": "Lezsák Sándor-féle Népfőiskola Alapítvány (Lakitelek) — NAV és ügyészségi vizsgálat",
+   "verification_notes": "ÚJ TÉTEL (2026-11-13-as futás). A NAV saját közleménye szerint két külön eljárásban (egy, a Bács-Kiskun Megyei Főügyészség által vezetett büntetőügyben, és egy NAV saját hatáskörű vizsgálatban) jártak a helyszínen; a gyanú pontos jellege a cikkekből nem derül ki, elmarasztaló döntés nincs. Lezsák Anna (Fidesz-képviselő, Lezsák Sándor lánya) és Bóka János (Fidesz-frakcióvezető) politikai bosszúnak nevezte az akciót, állításuk szerint minden támogatás elszámolása jogszerű volt. Legalább két független forrás (444.hu, KecsUP/24.hu-ra hivatkozva, valamint több megyei lap azonos tartalommal) megerősíti az eseményt. Nem szerepel a kormany.hu/atlathato/feljelentes hivatalos listáján (2026-11-09-i állapot szerint ellenőrizve), mivel nem kormányzati/minisztériumi feljelentés, hanem NAV/ügyészségi eljárás.",
+   "id": "reported-lezsak-nepfoiskola-alapitvany-nav-2026-11",
+   "updated_at": "2026-11-13T11:02:59+00:00",
+   "first_seen_at": "2026-11-13T11:02:59+00:00"
+  },
+  {
+   "additional_sources": [
+    {
      "name": "Index",
      "published_date": "2026-10-16",
      "url": "https://index.hu/belfold/2026/10/16/tarr-zoltan-feljelentes-logosz-alapitvany-kiadvanyok-fidesz-csalas/"
@@ -3629,10 +3656,10 @@
    },
    "status": "under_investigation",
    "subject": "V-Híd — Déli körvasút kivitelezői szerződésének felmondása összejátszás gyanúja miatt",
-   "verification_notes": "FRISSÍTVE 2026-11-03 futás: a NAV Bűnügyi Főigazgatósága megerősítette, hogy a Közlekedési és Beruházási Minisztérium feljelentésére 2026. október 19-én megindította a büntetőeljárást különösen jelentős vagyoni hátrányt okozó költségvetési csalás gyanúja miatt (444.hu és Telex, 2026-10-30-i beszámoló). Ezzel a korábban csak 'nincs info'/eljárási bizonytalanság állapotú ügy ténylegesen nyomozási szakba lépett, a status ezért 'reported'-ről 'under_investigation'-re frissítve. A cikkek szerint a V-Híd Zrt. (Mészáros Lőrinc érdekeltsége) nyerte a 338 milliárd forintos fővállalkozói szerződést; az Európai Csalás Elleni Hivatal (OLAF) felvetése szerint a cég összejátszhatott a közbeszerzésben az ajánlatkérő oldalán dolgozó, általa később felvásárolt mérnöki céggel. A feljelentett összeg (84,5 Mrd Ft, hivatalos kormany.hu adat) és a confirmed_recovered_huf (0) nem változott; a kormany.hu/atlathato/feljelentes oldal 2026-11-03-i ellenőrzéskor tartalmilag változatlan (61 ügy, 4005 Mrd Ft, 2026-10-21-i állapot). (Korábbi megjegyzések megőrizve, l. előző verzió.)",
+   "verification_notes": "FRISSÍTVE 2026-11-13-as futás: a Telex és a 444.hu októberi cikkei szerint az állam kb. 101 milliárd forint előleget fizetett a V-Hídnak a Déli körvasút II. ütemére, amelyből a cégek elszámolása szerint kb. 44,3 milliárd forint értékű munka készült el — a fennmaradó kb. 57,1 milliárd forint elszámolása Vitézy Dávid szerint nyitott kérdés; ha a V-Híd nem tudja igazolni a felhasználást vagy nem fizeti vissza, az állam a teljesítési bankgarancia terhére léphet. Ez még nem tényleges, az államhoz visszakerült összeg (a confirmed_recovered_huf ezért változatlanul 0), csak egy potenciális, bankgaranciával fedezett visszatérülési út; ha a bankgarancia tényleges érvényesítése vagy visszafizetés megtörténik, az önálló items/visszaszerzés tételként rögzíthető. Az alleged_amount_huf (84,5 Mrd Ft, hivatalos kormany.hu adat) nem változott, mert az egy másik (feljelentett kár-) összeget takar, nem az előleg/elszámolás kérdését.",
    "id": "reported-vhid-deli-korvasut-2026-10",
    "first_seen_at": "2026-10-12T04:05:17+00:00",
-   "updated_at": "2026-11-06T11:37:02+00:00"
+   "updated_at": "2026-11-13T11:02:59+00:00"
   },
   {
    "alleged_amount_huf": 10000000000,
@@ -3719,7 +3746,7 @@
    "url": "https://magyarnemzet.hu/gazdasag/2026/09/allamadossag-novekedes"
   },
   "allamadossag_huf": 65716000000000,
-  "collected_at": "2026-11-13T06:01:00+01:00",
+  "collected_at": "2026-11-13T12:01:00+01:00",
   "elozo": {
    "allamadossag": {
     "period": null,
@@ -3824,18 +3851,18 @@
     "key": "eur_huf",
     "label_en": "Official EUR/HUF rate (MNB)",
     "label_hu": "Euró hivatalos árfolyama (MNB)",
-    "note_en": "Official MNB reference rate for 12 November 2026.",
-    "note_hu": "Az MNB 2026. november 12-i hivatalos árfolyama; az USD/HUF ugyanekkor 328,16 Ft volt.",
-    "period": "2026-11-12",
-    "prev_period": "2026-11-10",
-    "prev_value": 362.54,
+    "note_en": "Official MNB reference rate for 13 November 2026.",
+    "note_hu": "Az MNB 2026. november 13-i hivatalos árfolyama; az USD/HUF ugyanekkor 330,65 Ft volt.",
+    "period": "2026-11-13",
+    "prev_period": "2026-11-12",
+    "prev_value": 364.09,
     "source": {
      "name": "MNB hivatalos árfolyamok",
-     "publish_date": "2026-11-12",
+     "publish_date": "2026-11-13",
      "url": "https://www.mnb.hu/arfolyamok"
     },
     "unit": "Ft/EUR",
-    "value": 364.09
+    "value": 365.67
    },
    {
     "key": "brutto_atlagkereset",
@@ -3933,46 +3960,85 @@
    "publish_date": "2026-09-22",
    "url": "https://www.portfolio.hu/gazdasag/20260922/itt-az-mnb-uj-elorejelzese-hiaba-a-nemzetkozi-kockazatok-mersekelt-marad-az-idei-inflacio-864484"
   },
-  "id": "2026-11-13T06-01"
+  "id": "2026-11-13T12-01"
  },
  "last_run": {
   "errors": [
-   "A WebSearch eszköz nem tudta közvetlenül lekérni a k-monitor.hu, hirkereso.hu, mnvvh.hu/hirek és ügyészség.hu oldalakat (a keresőindex nem adott vissza közvetlen, friss találatot ezekről a domainekről ebben a futásban); ez keresőindex-korlát, nem hálózati blokk - a korábbi futásokban rögzített adatok érvényben maradnak.",
-   "A KSH szeptemberi munkanélküliségi gyorstájékoztatója e futás idején még nem jelent meg; a legutóbbi (augusztusi) adat maradt érvényben.",
-   "Az ÁKK friss (szeptemberi/októberi) államadósság-összesítőjét nem sikerült megbízhatóan megtalálni ebben a futásban; a 2026-07-31-i állapot maradt érvényben.",
-   "A mai (2026-10-23) MNB hivatalos EUR/HUF árfolyamot nem sikerült megbízhatóan megerősíteni; a 2026-10-22-i érték maradt érvényben."
+   "Az ÁKK hivatalos statisztikai oldala (akk.hu) ebben a futásban sem volt közvetlenül lekérhető; az államadósság értéke változatlanul a 2026-07-31-i (Magyar Nemzet/ÁKK-adatra hivatkozó) állapotot tükrözi.",
+   "A KSH októberi munkanélküliégi gyorstájékoztatója és a GDP Q3 részletes (komponensenkénti) bontása (december 1-jén várható) e futás idején még nem jelent meg; az augusztusi/szeptemberi, illetve a Q3 gyorsbecslés adatai maradtak érvényben.",
+   "Az EU Tanácsa/Bizottsága részéről novemberi új tényleges RRF/kohéziós kifizetés nem volt azonosítható; a received_huf mezők az eu_forras tételeken változatlanok.",
+   "A 'kiemelt beruházási státusz megvonása' és a 'milliárdos finanszirozás felfüggesztése' című, a hirkereso.hu-n talált 2026-11-12-i teaserek mögött álló cikkeket (Economx, 444.hu) nem sikerült közvetlenül, konkrét ügy/összeg szintjén azonosítani ebben a futásban; követendő egy következő futásban.",
+   "Az 'aranykonvoj' üggyel kapcsolatos legfőbb ügyészi átszervezés (2026-11-13) nem közpénzügyi/vagyonvisszaszerzési tárgyú, ezért nem került az adattárba."
   ],
   "eu_lost_items_new": 0,
-  "finished_at": "2026-10-23T17:40:00+02:00",
+  "finished_at": "2026-11-13T12:45:00+01:00",
   "items_duplicate": 0,
   "items_found_total": 0,
   "items_needs_review": 0,
   "items_new": 0,
-  "reported_cases_new": 0,
+  "reported_cases_new": 1,
   "reported_cases_updated": 1,
   "sources_checked": [
-   "kormany.hu/atlathato/feljelentes (official, via web-fetch, data stamp unchanged: 2026-10-21)",
-   "Telex",
+   "kormany.hu/atlathato/feljelentes (hivatalos, teljes lista ellenőrizve WebFetch-csel: 63 ügy / 12 tárca, 4006 Mrd Ft, 24 vizsgálat, 74,0 Mrd Ft visszafizetve/megtakarítva — változatlan a 2026-11-09-i állapothoz képest)",
+   "mnvvh.hu/hirek (legfrissebb tétel 2026-11-09, Orbán Áron-kör vízumbiznisz, már rögzítve)",
+   "ugyeszseg.hu/category/hirek/kozponti-nyomozo-fougyeszseg (elérhető volt, legfrissebb közlemény 2026-10-21, Matolcsy őrizet, már rögzítve)",
+   "k-monitor.hu (WebSearch, site: operátor nem adott közvetlen domain-találatot, nincs új azonosítható ügy)",
+   "hirkereso.hu (főoldal áttekintve, Nov 12-13-i lapszemle; innen azonosítva a Lezsák-ügy)",
+   "24.hu",
    "444.hu",
-   "Index.hu",
-   "Portfolio.hu",
-   "VG.hu",
-   "Economx.hu",
-   "Infostart.hu",
-   "Privátbankár.hu",
-   "Adózóna (KSH/PM adatközlések)",
-   "K-Monitor (site: search, no new hit)",
-   "hirkereso.hu (search attempt, no direct listing retrievable)",
-   "mnvvh.hu/hirek (search attempt, no October item found)",
-   "ügyészség.hu / Központi Nyomozó Főügyészség (search attempt, no October communiqué found directly)",
-   "KSH (munkanélküliség, infláció - via sajtó)",
-   "MNB (alapkamat, árfolyam - via sajtó)",
-   "ÁKK (államadósság - via sajtó, no fresh September/October figure found)"
+   "168.hu",
+   "Átlátszó",
+   "Demokrata",
+   "Direkt36",
+   "Economx",
+   "Élet és Irodalom",
+   "Forbes.hu",
+   "G7",
+   "Hír TV Online",
+   "HVG",
+   "Index",
+   "InfoStart",
+   "Jelen",
+   "Klubrádió",
+   "Magyar Hang",
+   "Magyar Hírlap",
+   "Magyar Nemzet",
+   "Makronóm",
+   "Mandiner",
+   "Media1",
+   "mfor.hu",
+   "Mérce",
+   "MTI",
+   "Népszava",
+   "Origo",
+   "Pénzcentrum",
+   "Portfolio",
+   "Privátbankár",
+   "Szabad Európa",
+   "Telex",
+   "Trend FM",
+   "Új Egyenlőség",
+   "Válasz Online",
+   "Világgazdaság",
+   "Partizán",
+   "Okoshír",
+   "Szeretlek Magyarország",
+   "mnb.hu/arfolyamok (EUR/HUF, USD/HUF, 2026-11-13)",
+   "ksh.hu (saján keresztül, munkanélküliégi/GDP adat)",
+   "akk.hu (saján keresztül, nincs új adat)"
   ],
-  "started_at": "2026-10-23T16:56:00+02:00",
-  "id": "2026-10-23T16-56"
+  "started_at": "2026-11-13T12:01:00+01:00",
+  "id": "2026-11-13T12-01"
  },
  "run_history": [
+  {
+   "finished_at": "2026-11-13T12:45:00+01:00",
+   "started_at": "2026-11-13T12:01:00+01:00",
+   "items_new": 0,
+   "reported_cases_new": 1,
+   "reported_cases_updated": 1,
+   "eu_lost_items_new": 0
+  },
   {
    "finished_at": "2026-10-23T17:40:00+02:00",
    "started_at": "2026-10-23T16:56:00+02:00",
@@ -4749,19 +4815,14 @@
    "finished_at": "2026-09-22T10:55:00+02:00",
    "started_at": "2026-09-22T10:30:00+02:00",
    "items_new": 2
-  },
-  {
-   "finished_at": "2026-09-22T10:40:00+02:00",
-   "started_at": "2026-09-22T10:21:00+02:00",
-   "items_new": 2
   }
  ],
  "run_summary": {
-  "run_id": "2026-11-13T05:03:41+00:00",
-  "new": 0,
+  "run_id": "2026-11-13T11:02:59+00:00",
+  "new": 1,
   "modified": 0,
-  "confirmed_only": 0,
-  "touched": 0,
+  "confirmed_only": 1,
+  "touched": 2,
   "pending_review": 3,
   "by_section": {
    "items": {
@@ -4770,31 +4831,20 @@
     "confirmed_only": 0
    },
    "reported_cases": {
-    "new": 0,
+    "new": 1,
     "modified": 0,
-    "confirmed_only": 0
+    "confirmed_only": 1
    }
   },
-  "new_ids": [],
+  "new_ids": [
+   "r:reported-lezsak-nepfoiskola-alapitvany-nav-2026-11"
+  ],
   "modified_ids": [],
-  "confirmed_ids": []
+  "confirmed_ids": [
+   "r:reported-vhid-deli-korvasut-2026-10"
+  ]
  },
  "run_summary_history": [
-  {
-   "run_id": "2026-10-10T15:02:55+00:00",
-   "by_section": {
-    "items": {
-     "new": 0,
-     "modified": 0,
-     "confirmed_only": 0
-    },
-    "reported_cases": {
-     "new": 0,
-     "modified": 0,
-     "confirmed_only": 0
-    }
-   }
-  },
   {
    "run_id": "2026-10-11T04:04:29+00:00",
    "by_section": {
@@ -6277,6 +6327,21 @@
      "new": 0,
      "modified": 0,
      "confirmed_only": 0
+    }
+   }
+  },
+  {
+   "run_id": "2026-11-13T11:02:59+00:00",
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 1,
+     "modified": 0,
+     "confirmed_only": 1
     }
    }
   }
