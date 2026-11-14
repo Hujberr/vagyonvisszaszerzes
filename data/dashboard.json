@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-14T05:00:51+00:00",
+ "generated_at": "2026-11-14T11:02:00+00:00",
  "summary": {
   "megtakaritas_verified_huf": 2947290700000,
   "visszaszerzes_verified_huf": 1575719300000,
@@ -3405,12 +3405,32 @@
      "name": "444.hu (eredeti feljelentés)",
      "published_date": "2026-01-12",
      "url": "https://444.hu/2026/01/12/az-oroszoknak-az-ev-utolso-napjaiban-elutalt-80-milliard-forint-miatt-feljelentest-tett-paks-2-ugyeben-tordai-bence"
+    },
+    {
+     "name": "444.hu (készpénz megtalálása)",
+     "published_date": "2026-11-13",
+     "url": "https://444.hu/2026/11/13/az-nvvh-szo-szerint-eloasta-sesztak-miklos-keszpenzben-tartott-milliardjait-a-kdnp-s-politikus-erdokben-raktarakban-felreeso-szefekben-rejtette-el-a-penzt"
+    },
+    {
+     "name": "Index (lefoglalás)",
+     "published_date": "2026-11-13",
+     "url": "https://index.hu/belfold/2026/11/13/sesztak-miklos-korrupcio-nvvh-lefoglalas/"
+    },
+    {
+     "name": "HVG (eldugott milliárdok)",
+     "published_date": "2026-11-13",
+     "url": "https://hvg.hu/gazdasag/20261113_sesztak-eldugott-milliardok-nvvh-nyomozas"
+    },
+    {
+     "name": "444.hu (ügyvédi reakció)",
+     "published_date": "2026-11-14",
+     "url": "https://444.hu/2026/11/14/sesztak-miklos-ugyvedje-szerint-nem-a-vedence-penzet-talaltak-meg"
     }
    ],
    "alleged_amount_huf": 12600000000,
    "alleged_amount_text": "12,6 milliárd forint (a Legfőbb Ügyészség vádirata szerinti pontos bontásban: 7,076 Mrd Ft Volánbusz-hoz kapcsolódó cégektől 2015–2018 között, 3,7066 Mrd Ft buszbeszerzésekből 2015–2017 között, 1,0507 Mrd Ft egy építőipari cégtől, 270,165 millió Ft a Nemzeti Sportközpontok projektjeivel összefüggésben)",
    "confirmed_recovered_huf": 0,
-   "description": "A Legfőbb Ügyészség 2026.09.22-én indítványozta Seszták Miklós korábbi nemzeti fejlesztési miniszter, egykori MNV-vezető mentelmi jogának felfüggesztését, hivatalos vesztegetés elfogadásának gyanúja miatt. A vádirat szerint 2015–2018 között összesen 12,6 milliárd forint kenőpénzt fogadott el: 7,076 milliárd forintot Volánbusz-hoz kapcsolódó cégektől, 3,7066 milliárd forintot buszbeszerzésekhez kapcsolódóan, 1,0507 milliárd forintot egy építőipari cégtől, valamint 270,165 millió forintot a Nemzeti Sportközpontok projektjeivel összefüggésben. Az Országgyűlés 2026. szeptember 28-án 139 igen szavazattal felfüggesztette mentelmi jogát. A bűncselekmények 5–10 év közötti szabadságvesztéssel büntetendők.",
+   "description": "A Legfőbb Ügyészség 2026.09.22-én indítványozta Seszták Miklós korábbi nemzeti fejlesztési miniszter, egykori MNV-vezető mentelmi jogának felfüggesztését, hivatalos vesztegetés elfogadásának gyanúja miatt. A vádirat szerint 2015–2018 között összesen 12,6 milliárd forint kenőpénzt fogadott el: 7,076 milliárd forintot Volánbusz-hoz kapcsolódó cégektől, 3,7066 milliárd forintot buszbeszerzésekhez kapcsolódóan, 1,0507 milliárd forintot egy építőipari cégtől, valamint 270,165 millió forintot a Nemzeti Sportközpontok projektjeivel összefüggésben. Az Országgyűlés 2026. szeptember 28-án 139 igen szavazattal felfüggesztette mentelmi jogát. A bűncselekmények 5–10 év közötti szabadságvesztéssel büntetendők. 2026. november 13-án a Nemzeti Vagyonvisszaszerzési és Vagyonvédelmi Hivatal (NVVH) bejelentette, hogy az ügyhöz kapcsolódó nyomozás során erdőkben elásva, gazdasági épületekben és páncélszekrényekben összesen mintegy 6,46 milliárd forint értékű készpénzt (5,072 milliárd forint, 2,658 millió euró és 1,257 millió dollár) találtak és foglaltak le; a lefoglalt készpénzt a Magyar Államkincstárba fizették be.",
    "ministry": "Legfőbb Ügyészség (büntetőeljárás, nem kormányzati minisztériumi feljelentés) — érintett korábbi tárca: Nemzeti Fejlesztési Minisztérium / Magyar Nemzeti Vagyonkezelő (MNV)",
    "recovered_item_id": null,
    "report_date": "2026-09-22",
@@ -3421,10 +3441,10 @@
    },
    "status": "under_investigation",
    "subject": "Seszták Miklós korábbi fejlesztési miniszter korrupciós ügye (Volánbusz és építőipari megbízások)",
-   "verification_notes": "FRISSÍTVE 2026-11-10 16:56-os futás: a Portfolio.hu 2026-11-10-i cikke szerint egy 2026-10-21-i büntetőjogi-kriminológiai szakvélemény megállapította, hogy egy kutatókutya jelzése önmagában csak információ/irányadat, nem bizonyíték — mivel a hatóságok tényleges pénzt nem találtak, semmi nem igazolja egyértelműen, hogy a Seszták-házkutatás páncélszekrényeiben valaha is ott lett volna az a korábban feltételezett kb. 9 milliárd forint. Seszták ügyvédje szerint ügyfele mindig is azt állította, hogy a széfekben csak dokumentumok voltak, készpénz soha. A hatóság (NVVH) kiegészítő szakvéleményt rendelt el, és vizsgálja, hogy a kutya dokumentumok jelzésére is be volt-e tanítva. Tényleges, az államhoz visszakerült vagyon ebből a szálból nincs; az alleged_amount_huf (12,6 Mrd Ft, a Legfőbb Ügyészség vádirata szerinti összeg) és a confirmed_recovered_huf (4,045 Mrd Ft) nem változott, a korábban feltételezett 9 Mrd Ft-os elrejtett vagyon léte megerősítésre nem került. (Korábbi megjegyzések megőrizve, l. előző verzió.) FRISSÍTVE 2026-11-02 06:00-ás futás: a Budai Központi Kerületi Bíróság 2026. október 28-án 2027. január 30-ig meghosszabbította Seszták Miklós letartóztatását, a szökés, elrejtőzés és a bizonyítási eljárás veszélyeztetésének kockázatára hivatkozva. A bíróság közlése szerint Seszták a gyanú szerint elrejtett valahol kb. 9 milliárd forintot: a házkutatáskor a páncélszekrényekben már csak üres tartalmat találtak, és a legutóbbi vagyonnyilatkozatában feltüntetett ingatlanok, állampapírok, részvények és megtakarítások összege sem éri el a 9 milliárd forintot. Ez eljárási/vagyonfelderítési fejlemény, nem jelent tényleges, az államhoz visszakerült vagyont; az alleged_amount_huf (12,6 Mrd Ft) és a confirmed_recovered_huf (4,045 Mrd Ft) nem változott. Források: 444.hu (2026-10-28, 2026-10-29). (Korábbi megjegyzések megőrizve.) FRISSÍTVE 2026-10-31 16:56-os futás: a Telex 2026-10-31-i, részletes vizsonyítási cikke szerint Seszták Miklós korábbi kisvárdai üzleti köréhez (Hódos Éva Csilla ügyvédhez és a mögötte álló cégekhez) köthetően két vagyonkezelő alapítvány — az OAK Vagyonkezelő Alapítvány (2024-ben alapítva, egy ciprusi Minotax International Ltd. tulajdonosa) és a Hódvár Vagyonkezelő Alapítvány — összesen több mint 4,1 milliárd forint vagyon felett rendelkezik. Seszták maga nem alapítója vagy kedvezményezettje a két alapítványnak, de a vagyonkezelői/ellenőri szerepet az ő lánya, a Seszták Ügyvédi Iroda (azonos kisvárdai cím és telefonszám, mint az egyik, Seszták által is jegyzett alapítványé) látja el. A hírt az Economx, az ATV és a Kontroll is átvette (mind Telexre hivatkozva, tehát nem független megerősítés). Ez EGYELŐRE csak sajtó által feltárt, eddig rejtett vagyon azonosítása — nincs hivatalos (NVVH/ügyészségi) megerősítés arról, hogy ez a 4,1 Mrd Ft a 12,6 Mrd Ft-os vádirati összeg része vagy attól független, és nincs vagyonzárolási/elkobzási intézkedés sem e két alapítvány vonatkozásában; az alleged_amount_huf (12,6 Mrd Ft) és a confirmed_recovered_huf (0) ezért nem változott, a tényt csak megjegyzésként rögzítjük, második (hatósági vagy független, nem Telexre hivatkozó) megerősítésre vár. (Korábbi megjegyzések megőrizve, l. előző verzió.)",
+   "verification_notes": "FRISSÍTVE 2026-11-14 11:56-os futás: legalább négy független forrás (444.hu, Index, HVG, szabolcsinap.hu) egyezően számolt be arról, hogy az NVVH nyomozói 2026. november 13-án bejelentették: a Seszták-ügyben folytatott nyomozás során két nap alatt összesen 5.071.632.000 forintot, 2.658.350 eurót és 1.257.100 dollárt (együttesen kb. 6,46 milliárd forint értékben) találtak és foglaltak le, erdőkben elásva, gazdasági/raktárépületekben és egy félreeső, otthoni használatra nem jellemző (az NVVH szerint jellemzően zálogházak/pénzügyi szolgáltatók által használt típusú) páncélszekrényben elrejtve. A pénzt a Magyar Államkincstárba fizették be (12 kincstári dolgozó 8 órán át, 5 pénzszámláló géppel számolta át). Seszták Miklós ügyvédje 2026-11-14-i reakciójában vitatja a pénz és ügyfele közötti kapcsolatot: állítása szerint az NVVH közleménye nem állítja, hogy a pénz a védence tulajdona volna, csak azt, hogy a nyomozási cselekmények a (több más gyanúsítottat is érintő) Seszták-ügyben történtek. Mivel a pénz tulajdonjogi hovatartozása jogilag még nem tisztázott (lefoglalás, nem jogerős elkobzás vagy az államhoz való végleges átkerülés), a confirmed_recovered_huf mező nem módosul ebből az eseményből; ha a bíróság véglegesen az államhoz rendeli a lefoglalt összeget, azt egy következő futásban kell rögzíteni. Előzmény: a bíróság 2026-10-28-i döntése szerint Seszták kb. 9 milliárd forintot rejthetett el valahol, mert a kisvárdai házkutatáson már csak üres páncélszekrényeket találtak; az NVVH 2026-11-11-én nyomkövető kutyát is bevetett. Az alleged_amount_huf (12,6 Mrd Ft, a Legfőbb Ügyészség vádirata szerinti összeg) nem változott. (Korábbi megjegyzések megőrizve:) FRISSÍTVE 2026-11-10 16:56-os futás: a Portfolio.hu 2026-11-10-i cikke szerint egy 2026-10-21-i büntetőjogi-kriminológiai szakvélemény megállapította, hogy egy kutatókutya jelzése önmagában csak információ/irányadat, nem bizonyíték — mivel a hatóságok tényleges pénzt nem találtak, semmi nem igazolja egyértelműen, hogy a Seszták-házkutatás páncélszekrényeiben valaha is ott lett volna az a korábban feltételezett kb. 9 milliárd forint. Seszták ügyvédje szerint ügyfele mindig is azt állította, hogy a széfekben csak dokumentumok voltak, készpénz soha. A hatóság (NVVH) kiegészítő szakvéleményt rendelt el, és vizsgálja, hogy a kutya dokumentumok jelzésére is be volt-e tanítva. Tényleges, az államhoz visszakerült vagyon ebből a szálból nincs; az alleged_amount_huf (12,6 Mrd Ft) és a confirmed_recovered_huf nem változott, a korábban feltételezett 9 Mrd Ft-os elrejtett vagyon léte megerősítésre nem került. FRISSÍTVE 2026-11-02 06:00-ás futás: a Budai Központi Kerületi Bíróság 2026. október 28-án 2027. január 30-ig meghosszabbította Seszták Miklós letartóztatását, a szökés, elrejtőzés és a bizonyítási eljárás veszélyeztetésének kockázatára hivatkozva. A bíróság közlése szerint Seszták a gyanú szerint elrejtett valahol kb. 9 milliárd forintot: a házkutatáskor a páncélszekrényekben már csak üres tartalmat találtak, és a legutóbbi vagyonnyilatkozatában feltüntetett ingatlanok, állampapírok, részvények és megtakarítások összege sem éri el a 9 milliárd forintot. Ez eljárási/vagyonfelderítési fejlemény, nem jelent tényleges, az államhoz visszakerült vagyont; az alleged_amount_huf (12,6 Mrd Ft) és a confirmed_recovered_huf nem változott. Források: 444.hu (2026-10-28, 2026-10-29). FRISSÍTVE 2026-10-31 16:56-os futás: a Telex 2026-10-31-i, részletes vizsonyítási cikke szerint Seszták Miklós korábbi kisvárdai üzleti köréhez (Hódos Éva Csilla ügyvédhez és a mögötte álló cégekhez) köthetően két vagyonkezelő alapítvány — az OAK Vagyonkezelő Alapítvány (2024-ben alapítva, egy ciprusi Minotax International Ltd. tulajdonosa) és a Hódvár Vagyonkezelő Alapítvány — összesen több mint 4,1 milliárd forint vagyon felett rendelkezik. Seszták maga nem alapítója vagy kedvezményezettje a két alapítványnak, de a vagyonkezelői/ellenőri szerepet az ő lánya, a Seszták Ügyvédi Iroda (azonos kisvárdai cím és telefonszám, mint az egyik, Seszták által is jegyzett alapítványé) látja el. A hírt az Economx, az ATV és a Kontroll is átvette (mind Telexre hivatkozva, tehát nem független megerősítés). Ez EGYELŐRE csak sajtó által feltárt, eddig rejtett vagyon azonosítása — nincs hivatalos (NVVH/ügyészségi) megerősítés arról, hogy ez a 4,1 Mrd Ft a 12,6 Mrd Ft-os vádirati összeg része vagy attól független, és nincs vagyonzárolási/elkobzási intézkedés sem e két alapítvány vonatkozásában.",
    "id": "reported-sesztak-miklos-korrupcio-2026-09",
    "first_seen_at": "2026-09-28T15:02:40+00:00",
-   "updated_at": "2026-11-10T16:04:15+00:00"
+   "updated_at": "2026-11-14T11:02:00+00:00"
   },
   {
    "alleged_amount_huf": null,
@@ -3771,7 +3791,7 @@
    "url": "https://magyarnemzet.hu/gazdasag/2026/09/allamadossag-novekedes"
   },
   "allamadossag_huf": 65716000000000,
-  "collected_at": "2026-11-14T05:59:00+01:00",
+  "collected_at": "2026-11-14T11:56:00+01:00",
   "elozo": {
    "allamadossag": {
     "period": null,
@@ -3795,8 +3815,8 @@
     "key": "gdp_novekedes_eves",
     "label_en": "GDP growth (year-on-year)",
     "label_hu": "GDP-növekedés (éves)",
-    "note_en": "KSH's flash estimate put Q3 growth at 1.5% year-on-year. The detailed breakdown follows on 1 December; not yet published at the time of this run.",
-    "note_hu": "A KSH gyorsbecslése szerint a magyar gazdaság a harmadik negyedévben az előző év azonos időszakához képest 1,5%-kal, az előző negyedévhez képest (szezonálisan igazítva) csak 0,1%-kal nőtt. A részletes, komponensenkénti bontást a KSH december 1-jén teszi közzé; ez e futás idején (2026-11-14) még nem jelent meg.",
+    "note_en": "KSH's flash estimate put Q3 growth at 1.5% year-on-year. The detailed breakdown follows on 1 December.",
+    "note_hu": "A KSH gyorsbecslése szerint a magyar gazdaság a harmadik negyedévben az előző év azonos időszakához képest 1,5%-kal, az előző negyedévhez képest (szezonálisan igazítva) csak 0,1%-kal nőtt. A részletes, komponensenkénti bontást a KSH december 1-jén teszi közzé.",
     "period": "2026 Q3",
     "prev_period": "2026 Q2",
     "prev_value": 1.7,
@@ -3812,8 +3832,8 @@
     "key": "munkanelkulisegi_rata",
     "label_en": "Unemployment rate",
     "label_hu": "Munkanélküliségi ráta",
-    "note_en": "KSH's October flash report had not yet been published at the time of this run.",
-    "note_hu": "A KSH októberi gyorstájékoztatója e futás idején (2026-11-14) még nem jelent meg.",
+    "note_en": "KSH's next flash report had not yet been published at the time of this run.",
+    "note_hu": "A KSH novemberi gyorstájékoztatója e futás idején még nem jelent meg.",
     "period": "2026-09",
     "prev_period": "2026-08",
     "prev_value": 4.7,
@@ -3859,8 +3879,8 @@
     "key": "jegybanki_alapkamat",
     "label_en": "Central bank base rate",
     "label_hu": "Jegybanki alapkamat",
-    "note_en": "The next rate-setting meeting is on 17 November 2026; it had not yet taken place at the time of this run.",
-    "note_hu": "A következő kamatdöntő ülést 2026. november 17-én tartják; e futás idején (2026-11-14) még nem történt meg.",
+    "note_en": "The next rate-setting meeting is on 17 November 2026.",
+    "note_hu": "A következő kamatdöntő ülést 2026. november 17-én tartják.",
     "period": "2026-10-20",
     "prev_period": "2026-09-22",
     "prev_value": 5.5,
@@ -3876,8 +3896,7 @@
     "key": "eur_huf",
     "label_en": "Official EUR/HUF rate (MNB)",
     "label_hu": "Euró hivatalos árfolyama (MNB)",
-    "note_en": "A more recent official MNB rate could not be reliably confirmed in this run; the last known (2026-11-13) value remains in effect.",
-    "note_hu": "E futásban (2026-11-14) nem sikerült megbízhatóan ellenőrizni egy még frissebb hivatalos MNB-árfolyamot; a legutóbbi ismert (2026-11-13-i) érték maradt érvényben.",
+    "note_hu": "E futásban nem sikerült megbízhatóan ellenőrizni egy még frissebb hivatalos MNB-árfolyamot; a legutóbbi ismert (2026-11-13-i) érték maradt érvényben.",
     "period": "2026-11-13",
     "prev_period": "2026-11-12",
     "prev_value": 364.09,
@@ -3940,7 +3959,7 @@
     "key": "kozponti_alrendszer_hiany",
     "label_en": "Central government deficit (year to date)",
     "label_hu": "Központi alrendszer hiánya (év eleje óta)",
-    "note_hu": "A január–októberi összeg a módosított 2026-os pótköltségvetés szerinti 7100 milliárd forintos éves hiánycél 76,9%-a. A novemberi adat e futás idején (2026-11-14) még nem jelent meg.",
+    "note_hu": "A január–októberi összeg a módosított 2026-os pótköltségvetés szerinti 7100 milliárd forintos éves hiánycél 76,9%-a. A novemberi adat e futás idején még nem jelent meg.",
     "period": "2026 január–október",
     "prev_period": "2026 január–szeptember",
     "prev_value": 5261.9,
@@ -3985,7 +4004,7 @@
    "publish_date": "2026-09-22",
    "url": "https://www.portfolio.hu/gazdasag/20260922/itt-az-mnb-uj-elorejelzese-hiaba-a-nemzetkozi-kockazatok-mersekelt-marad-az-idei-inflacio-864484"
   },
-  "id": "2026-11-14T05-59"
+  "id": "2026-11-14T11-56"
  },
  "last_run": {
   "errors": [
@@ -4809,11 +4828,11 @@
   }
  ],
  "run_summary": {
-  "run_id": "2026-11-14T05:00:51+00:00",
+  "run_id": "2026-11-14T11:02:00+00:00",
   "new": 0,
   "modified": 0,
-  "confirmed_only": 0,
-  "touched": 0,
+  "confirmed_only": 1,
+  "touched": 1,
   "pending_review": 3,
   "by_section": {
    "items": {
@@ -4824,29 +4843,16 @@
    "reported_cases": {
     "new": 0,
     "modified": 0,
-    "confirmed_only": 0
+    "confirmed_only": 1
    }
   },
   "new_ids": [],
   "modified_ids": [],
-  "confirmed_ids": []
+  "confirmed_ids": [
+   "r:reported-sesztak-miklos-korrupcio-2026-09"
+  ]
  },
  "run_summary_history": [
-  {
-   "run_id": "2026-10-11T15:05:04+00:00",
-   "by_section": {
-    "items": {
-     "new": 0,
-     "modified": 0,
-     "confirmed_only": 0
-    },
-    "reported_cases": {
-     "new": 0,
-     "modified": 0,
-     "confirmed_only": 1
-    }
-   }
-  },
   {
    "run_id": "2026-10-12T04:05:17+00:00",
    "by_section": {
@@ -6329,6 +6335,21 @@
      "new": 0,
      "modified": 0,
      "confirmed_only": 0
+    }
+   }
+  },
+  {
+   "run_id": "2026-11-14T11:02:00+00:00",
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 1
     }
    }
   }
