@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-14T11:02:00+00:00",
+ "generated_at": "2026-11-14T16:02:00+00:00",
  "summary": {
   "megtakaritas_verified_huf": 2947290700000,
   "visszaszerzes_verified_huf": 1575719300000,
@@ -3791,7 +3791,7 @@
    "url": "https://magyarnemzet.hu/gazdasag/2026/09/allamadossag-novekedes"
   },
   "allamadossag_huf": 65716000000000,
-  "collected_at": "2026-11-14T11:56:00+01:00",
+  "collected_at": "2026-11-14T16:56:00+01:00",
   "elozo": {
    "allamadossag": {
     "period": null,
@@ -3896,7 +3896,7 @@
     "key": "eur_huf",
     "label_en": "Official EUR/HUF rate (MNB)",
     "label_hu": "Euró hivatalos árfolyama (MNB)",
-    "note_hu": "E futásban nem sikerült megbízhatóan ellenőrizni egy még frissebb hivatalos MNB-árfolyamot; a legutóbbi ismert (2026-11-13-i) érték maradt érvényben.",
+    "note_hu": "E futásban sem sikerült megbízhatóan ellenőrizni egy még frissebb hivatalos MNB-árfolyamot; a legutóbbi ismert (2026-11-13-i) érték maradt érvényben.",
     "period": "2026-11-13",
     "prev_period": "2026-11-12",
     "prev_value": 364.09,
@@ -4004,7 +4004,7 @@
    "publish_date": "2026-09-22",
    "url": "https://www.portfolio.hu/gazdasag/20260922/itt-az-mnb-uj-elorejelzese-hiaba-a-nemzetkozi-kockazatok-mersekelt-marad-az-idei-inflacio-864484"
   },
-  "id": "2026-11-14T11-56"
+  "id": "2026-11-14T16-56"
  },
  "last_run": {
   "errors": [
@@ -4828,11 +4828,11 @@
   }
  ],
  "run_summary": {
-  "run_id": "2026-11-14T11:02:00+00:00",
+  "run_id": "2026-11-14T16:02:00+00:00",
   "new": 0,
   "modified": 0,
-  "confirmed_only": 1,
-  "touched": 1,
+  "confirmed_only": 0,
+  "touched": 0,
   "pending_review": 3,
   "by_section": {
    "items": {
@@ -4843,31 +4843,14 @@
    "reported_cases": {
     "new": 0,
     "modified": 0,
-    "confirmed_only": 1
+    "confirmed_only": 0
    }
   },
   "new_ids": [],
   "modified_ids": [],
-  "confirmed_ids": [
-   "r:reported-sesztak-miklos-korrupcio-2026-09"
-  ]
+  "confirmed_ids": []
  },
  "run_summary_history": [
-  {
-   "run_id": "2026-10-12T04:05:17+00:00",
-   "by_section": {
-    "items": {
-     "new": 0,
-     "modified": 0,
-     "confirmed_only": 0
-    },
-    "reported_cases": {
-     "new": 2,
-     "modified": 0,
-     "confirmed_only": 0
-    }
-   }
-  },
   {
    "run_id": "2026-10-12T10:01:03+00:00",
    "by_section": {
@@ -6350,6 +6333,21 @@
      "new": 0,
      "modified": 0,
      "confirmed_only": 1
+    }
+   }
+  },
+  {
+   "run_id": "2026-11-14T16:02:00+00:00",
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
     }
    }
   }
