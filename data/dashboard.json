@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-15T11:00:32+00:00",
+ "generated_at": "2026-11-15T16:02:17+00:00",
  "summary": {
   "megtakaritas_verified_huf": 2947290700000,
   "visszaszerzes_verified_huf": 1575719300000,
@@ -1994,10 +1994,10 @@
    },
    "status": "under_investigation",
    "subject": "További 18 minisztériumi feljelentés (összeg egyenként nem publikált)",
-   "verification_notes": "FRISSÍTVE 2026-11-06 12:00-ás futás: a kormany.hu/atlathato/feljelentes oldal 2026-11-05-i állapotában megjelent egy új, korábban nem rögzített tétel: 'Nemzetgazdasági Minisztérium delegációinak külföldi útjai' (Pénzügyminisztérium, 100+ millió forint, feljelentés 2026.10.26). A tétel felvételre került ebbe a gyűjtőbe, az alleged_amount_huf ennek megfelelően 995,09 Mrd Ft-ról 995,19 Mrd Ft-ra nőtt. A hivatalos oldal összesítője eközben változatlanul 4005 Mrd Ft maradt (csak az ügyszám nőtt 61-ről 62-re, l. reported-osszesito-2026-09), tehát az új tétel felvétele nem változtatta meg érdemben az összesített számot (kerekítési tartományon belül). FRISSÍTVE 2026-10-31 napi futás: a 24.hu dokumentumigényléssel szerzett anyagai alapján a 444.hu, a Portfolio.hu és a Contextus.hu 2026-10-30/31-én részletezte, hogy a KÜM lélegeztetőgép-beszerzéséhez (l. fenti, 300 Mrd Ft-os tétel) kapcsolódó egyik beszállító, a Limitless Medical Kft. 2020.04.14-én alapított, 2020.04.16-án bejegyzett cég volt, amely alapítása után néhány napon belül, 2020.04.17-én és 04.22-én összesen 2,3 milliárd forint értékű lélegeztetőgép-szállítási szerződést kötött a Szijjártó Péter vezette Külügyminisztériummal, és a teljes összeget a szállítás előtt, előlegként kifizették (603 millió Ft, majd 1,31 milliárd Ft értékű szerződés, a kapcsolódó előlegek még a szerződés napján átutalva). A minisztérium belső felülvizsgálata szerint nem található dokumentáció arra, milyen szakmai szempontok alapján választották ki a beszállítót. Ez a 2,3 Mrd Ft a már korábban rögzített, összesen 300 Mrd Ft-os KÜM lélegeztetőgép-feljelentés (fenti táblázat) része, nem önálló, új összeg, ezért az alleged_amount_huf nem változik ettől. A cikkek nem kapcsolják a Limitless Medical Kft.-t a NAV 2026-10-27-i, OTT-One Nyrt.-t érintő bűnszervezeti ügyéhez (l. reported-lelegeztetogep-nav-bunszervezet-2026-10) — a két cég/ügy különálló. Források: 444.hu, Portfolio.hu, Contextus.hu, hirnavigator.hu (mind 2026-10-30/31). FRISSÍTVE 2026-10-03 11:56-os futás: a sajtó (Infostart, Telex, ATV, Index, HVG és mások) 2026-10-02-i dátummal részletesen beszámolt arról, hogy a Szuverenitásvédelmi Hivatal verseny nélkül fizetett ki 46 millió forintot két ügyvédi irodának (ebből 19 M Ft egy pár nap alatt elkészült, utóbb elő nem található tanulmányért) — ez minden jel szerint megegyezik az itt már szereplő 'Szuverenitásvédelmi Hivatal ügyvédi megbízásai' (46,4 M Ft) tétellel, csak részletesebb kifejtéssel. Emellett a kormany.hu 'meg nem valósult kiadás' listája egy önálló, 46,0 M Ft-os Igazságügyi Minisztériumi tételt is feltüntet (Poszeidon rendszer + egy ügyvédi iroda), amely valószínűleg részben vagy egészben ugyanazokat a kifizetéseket fedi — ezt külön items-tételként rögzítettük (megtakaritas-igazsagugyi-miniszterium-egyeb-szerzodesek-2026-10), a pontos viszony tisztázásáig nem összevonva ezzel a 46,4 M Ft-os gyűjtőbeli tétellel. FRISSÍTVE 2026-10-03 05:55-ös futás: a 'Szuverenitásvédelmi Hivatal propagandacélú költségei' (3,67 Mrd Ft) tétel kiemelve ebből a gyűjtőből, mert az NVVH 2026-09-28-án saját hatáskörébe vonta ezt a konkrét ügyet (l. önálló tétel: reported-szuverenitasvedelmi-hivatal-konzorcium-nvvh-2026-09). Összeg ennek megfelelően csökkentve: 998,76 Mrd Ft → 995,09 Mrd Ft. FRISSÍTVE 2026-10-02 (16:56-os futás): a kormany.hu hivatalos oldal teljes listájának ismételt, részletes átnézése két korábban nem rögzített tételt azonosított: 'BTR-80 harcjárművek értékesítése Szerbiának' (576,7 millió Ft, Honvédelmi Minisztérium, 2026.09.29 — a harcjárművek tényleges eladása már 2024-ben megtörtént, a feljelentés/hivatalos listázás erről a korábbi tranzakcióról szól; független sajtóforrás 2026-ból nem található hozzá, kizárólag a hivatalos forrás alapján rögzítve) és 'Szuverenitásvédelmi Hivatal ügyvédi megbízásai' (46,4 millió Ft, Miniszterelnökség, 2026.09.29 — megkülönböztetendő a most kiemelt, 3,67 Mrd Ft-os propagandacélú költségek tételtől, ugyanazon hivatal más jellegű kiadása). (Korábbi megjegyzések megőrizve, l. előző verzió.)",
+   "verification_notes": "FRISSÍTVE 2026-11-15 16:59-es futás: a kormany.hu/atlathato/feljelentes hivatalos oldal 2026-11-13-i állapota szerint a 'p2m-cégcsoport és Balásy Gyula cégeihez kapcsolódó megrendelések' (hat feljelentés, TTM, összesen 3,3 Mrd Ft) tételnél a NAV Közép-magyarországi Bűnügyi Igazgatósága négy ügyben nyomozást rendelt el (a hivatalos oldal 2026-10-21-i tájékoztatása szerint) — ez korábban nem volt feljegyezve ebben a gyűjtőtételben. A gyűjtőtétel összesített összege (995,19 Mrd Ft) és státusza (under_investigation) emiatt nem változik, csak ennek az egy komponensnek a nyomozási állása pontosodott.\n\nFRISSÍTVE 2026-11-06 12:00-ás futás: a kormany.hu/atlathato/feljelentes oldal 2026-11-05-i állapotában megjelent egy új, korábban nem rögzített tétel: 'Nemzetgazdasági Minisztérium delegációinak külföldi útjai' (Pénzügyminisztérium, 100+ millió forint, feljelentés 2026.10.26). A tétel felvételre került ebbe a gyűjtőbe, az alleged_amount_huf ennek megfelelően 995,09 Mrd Ft-ról 995,19 Mrd Ft-ra nőtt. A hivatalos oldal összesítője eközben változatlanul 4005 Mrd Ft maradt (csak az ügyszám nőtt 61-ről 62-re, l. reported-osszesito-2026-09), tehát az új tétel felvétele nem változtatta meg érdemben az összesített számot (kerekítési tartományon belül). FRISSÍTVE 2026-10-31 napi futás: a 24.hu dokumentumigényléssel szerzett anyagai alapján a 444.hu, a Portfolio.hu és a Contextus.hu 2026-10-30/31-én részletezte, hogy a KÜM lélegeztetőgép-beszerzéséhez (l. fenti, 300 Mrd Ft-os tétel) kapcsolódó egyik beszállító, a Limitless Medical Kft. 2020.04.14-én alapított, 2020.04.16-án bejegyzett cég volt, amely alapítása után néhány napon belül, 2020.04.17-én és 04.22-én összesen 2,3 milliárd forint értékű lélegeztetőgép-szállítási szerződést kötött a Szijjártó Péter vezette Külügyminisztériummal, és a teljes összeget a szállítás előtt, előlegként kifizették (603 millió Ft, majd 1,31 milliárd Ft értékű szerződés, a kapcsolódó előlegek még a szerződés napján átutalva). A minisztérium belső felülvizsgálata szerint nem található dokumentáció arra, milyen szakmai szempontok alapján választották ki a beszállítót. Ez a 2,3 Mrd Ft a már korábban rögzített, összesen 300 Mrd Ft-os KÜM lélegeztetőgép-feljelentés (fenti táblázat) része, nem önálló, új összeg, ezért az alleged_amount_huf nem változik ettől. A cikkek nem kapcsolják a Limitless Medical Kft.-t a NAV 2026-10-27-i, OTT-One Nyrt.-t érintő bűnszervezeti ügyéhez (l. reported-lelegeztetogep-nav-bunszervezet-2026-10) — a két cég/ügy különálló. Források: 444.hu, Portfolio.hu, Contextus.hu, hirnavigator.hu (mind 2026-10-30/31). FRISSÍTVE 2026-10-03 11:56-os futás: a sajtó (Infostart, Telex, ATV, Index, HVG és mások) 2026-10-02-i dátummal részletesen beszámolt arról, hogy a Szuverenitásvédelmi Hivatal verseny nélkül fizetett ki 46 millió forintot két ügyvédi irodának (ebből 19 M Ft egy pár nap alatt elkészült, utóbb elő nem található tanulmányért) — ez minden jel szerint megegyezik az itt már szereplő 'Szuverenitásvédelmi Hivatal ügyvédi megbízásai' (46,4 M Ft) tétellel, csak részletesebb kifejtéssel. Emellett a kormany.hu 'meg nem valósult kiadás' listája egy önálló, 46,0 M Ft-os Igazságügyi Minisztériumi tételt is feltüntet (Poszeidon rendszer + egy ügyvédi iroda), amely valószínűleg részben vagy egészben ugyanazokat a kifizetéseket fedi — ezt külön items-tételként rögzítettük (megtakaritas-igazsagugyi-miniszterium-egyeb-szerzodesek-2026-10), a pontos viszony tisztázásáig nem összevonva ezzel a 46,4 M Ft-os gyűjtőbeli tétellel. FRISSÍTVE 2026-10-03 05:55-ös futás: a 'Szuverenitásvédelmi Hivatal propagandacélú költségei' (3,67 Mrd Ft) tétel kiemelve ebből a gyűjtőből, mert az NVVH 2026-09-28-án saját hatáskörébe vonta ezt a konkrét ügyet (l. önálló tétel: reported-szuverenitasvedelmi-hivatal-konzorcium-nvvh-2026-09). Összeg ennek megfelelően csökkentve: 998,76 Mrd Ft → 995,09 Mrd Ft. FRISSÍTVE 2026-10-02 (16:56-os futás): a kormany.hu hivatalos oldal teljes listájának ismételt, részletes átnézése két korábban nem rögzített tételt azonosított: 'BTR-80 harcjárművek értékesítése Szerbiának' (576,7 millió Ft, Honvédelmi Minisztérium, 2026.09.29 — a harcjárművek tényleges eladása már 2024-ben megtörtént, a feljelentés/hivatalos listázás erről a korábbi tranzakcióról szól; független sajtóforrás 2026-ból nem található hozzá, kizárólag a hivatalos forrás alapján rögzítve) és 'Szuverenitásvédelmi Hivatal ügyvédi megbízásai' (46,4 millió Ft, Miniszterelnökség, 2026.09.29 — megkülönböztetendő a most kiemelt, 3,67 Mrd Ft-os propagandacélú költségek tételtől, ugyanazon hivatal más jellegű kiadása). (Korábbi megjegyzések megőrizve, l. előző verzió.)",
    "id": "reported-egyeb-miniszteriumi-18ugy-2026",
    "first_seen_at": "2026-09-28T15:02:40+00:00",
-   "updated_at": "2026-11-06T11:37:02+00:00"
+   "updated_at": "2026-11-15T16:02:17+00:00"
   },
   {
    "additional_sources": [
@@ -3791,7 +3791,7 @@
    "url": "https://magyarnemzet.hu/gazdasag/2026/09/allamadossag-novekedes"
   },
   "allamadossag_huf": 65716000000000,
-  "collected_at": "2026-11-15T11:58:00+01:00",
+  "collected_at": "2026-11-15T16:59:00+01:00",
   "elozo": {
    "allamadossag": {
     "period": null,
@@ -3879,7 +3879,7 @@
     "key": "jegybanki_alapkamat",
     "label_en": "Central bank base rate",
     "label_hu": "Jegybanki alapkamat",
-    "note_en": "The next rate-setting meeting is on 17 November 2026; no new decision yet as of this run (Nov 15).",
+    "note_en": "The next rate-setting meeting is on 17 November 2026; no new decision yet as of this run.",
     "note_hu": "A következő kamatdöntő ülést 2026. november 17-én tartják; e futás idején (11-15) még nem volt új döntés.",
     "period": "2026-10-20",
     "prev_period": "2026-09-22",
@@ -3896,8 +3896,8 @@
     "key": "eur_huf",
     "label_en": "Official EUR/HUF rate (MNB)",
     "label_hu": "Euró hivatalos árfolyama (MNB)",
-    "note_en": "No newer official MNB rate was published as of this run (Sat Nov 15); the last published rate (Fri Nov 13) remains in effect.",
-    "note_hu": "E futásban (11-15, szombat) sem jelent meg frissebb hivatalos MNB-árfolyam a legutóbbi, 2026-11-13-i (pénteki) értéknél.",
+    "note_en": "No newer official MNB rate was published as of this run (Saturday Nov 15); the last published rate (Fri Nov 13) remains in effect.",
+    "note_hu": "E futásban (szombat, 11-15) sem jelent meg frissebb hivatalos MNB-árfolyam a legutóbbi, 2026-11-13-i (pénteki) értéknél.",
     "period": "2026-11-13",
     "prev_period": "2026-11-12",
     "prev_value": 364.09,
@@ -4005,7 +4005,7 @@
    "publish_date": "2026-09-22",
    "url": "https://www.portfolio.hu/gazdasag/20260922/itt-az-mnb-uj-elorejelzese-hiaba-a-nemzetkozi-kockazatok-mersekelt-marad-az-idei-inflacio-864484"
   },
-  "id": "2026-11-15T11-58"
+  "id": "2026-11-15T16-59"
  },
  "last_run": {
   "errors": [
@@ -4829,11 +4829,11 @@
   }
  ],
  "run_summary": {
-  "run_id": "2026-11-15T11:00:32+00:00",
+  "run_id": "2026-11-15T16:02:17+00:00",
   "new": 0,
   "modified": 0,
-  "confirmed_only": 0,
-  "touched": 0,
+  "confirmed_only": 1,
+  "touched": 1,
   "pending_review": 3,
   "by_section": {
    "items": {
@@ -4844,29 +4844,16 @@
    "reported_cases": {
     "new": 0,
     "modified": 0,
-    "confirmed_only": 0
+    "confirmed_only": 1
    }
   },
   "new_ids": [],
   "modified_ids": [],
-  "confirmed_ids": []
+  "confirmed_ids": [
+   "r:reported-egyeb-miniszteriumi-18ugy-2026"
+  ]
  },
  "run_summary_history": [
-  {
-   "run_id": "2026-10-13T04:02:32+00:00",
-   "by_section": {
-    "items": {
-     "new": 0,
-     "modified": 0,
-     "confirmed_only": 1
-    },
-    "reported_cases": {
-     "new": 1,
-     "modified": 0,
-     "confirmed_only": 2
-    }
-   }
-  },
   {
    "run_id": "2026-10-13T10:05:56+00:00",
    "by_section": {
@@ -6349,6 +6336,21 @@
      "new": 0,
      "modified": 0,
      "confirmed_only": 0
+    }
+   }
+  },
+  {
+   "run_id": "2026-11-15T16:02:17+00:00",
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 1
     }
    }
   }
