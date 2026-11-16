@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-15T16:02:17+00:00",
+ "generated_at": "2026-11-16T05:01:29+00:00",
  "summary": {
   "megtakaritas_verified_huf": 2947290700000,
   "visszaszerzes_verified_huf": 1575719300000,
@@ -3791,7 +3791,7 @@
    "url": "https://magyarnemzet.hu/gazdasag/2026/09/allamadossag-novekedes"
   },
   "allamadossag_huf": 65716000000000,
-  "collected_at": "2026-11-15T16:59:00+01:00",
+  "collected_at": "2026-11-16T05:58:00+01:00",
   "elozo": {
    "allamadossag": {
     "period": null,
@@ -3816,7 +3816,7 @@
     "label_en": "GDP growth (year-on-year)",
     "label_hu": "GDP-növekedés (éves)",
     "note_en": "KSH's flash estimate put Q3 growth at 1.5% year-on-year. The detailed breakdown follows on 1 December.",
-    "note_hu": "A KSH gyorsbecslése szerint a magyar gazdaság a harmadik negyedévben az előző év azonos időszakához képest 1,5%-kal, az előző negyedévhez képest (szezonálisan igazítva) csak 0,1%-kal nőtt. A részletes, komponensenkénti bontást a KSH december 1-jén teszi közzé.",
+    "note_hu": "A KSH gyorsbecslése szerint a magyar gazdaság a harmadik negyedévben az előző év azonos időszakához képest 1,5%-kal nőtt. A részletes, komponensenkénti bontást a KSH december 1-jén teszi közzé.",
     "period": "2026 Q3",
     "prev_period": "2026 Q2",
     "prev_value": 1.7,
@@ -3832,8 +3832,8 @@
     "key": "munkanelkulisegi_rata",
     "label_en": "Unemployment rate",
     "label_hu": "Munkanélküliségi ráta",
-    "note_en": "KSH's next flash report had not yet been published at the time of this run.",
-    "note_hu": "A KSH novemberi gyorstájékoztatója e futás idején még nem jelent meg.",
+    "note_en": "KSH's October flash report had not yet been published at the time of this run.",
+    "note_hu": "A KSH októberi hónapra vonatkozó gyorstájékoztatója e futás idején még nem jelent meg.",
     "period": "2026-09",
     "prev_period": "2026-08",
     "prev_value": 4.7,
@@ -3880,7 +3880,7 @@
     "label_en": "Central bank base rate",
     "label_hu": "Jegybanki alapkamat",
     "note_en": "The next rate-setting meeting is on 17 November 2026; no new decision yet as of this run.",
-    "note_hu": "A következő kamatdöntő ülést 2026. november 17-én tartják; e futás idején (11-15) még nem volt új döntés.",
+    "note_hu": "A következő kamatdöntő ülést 2026. november 17-én tartják; e futás idején (11-16) még nem volt új döntés.",
     "period": "2026-10-20",
     "prev_period": "2026-09-22",
     "prev_value": 5.5,
@@ -3896,8 +3896,8 @@
     "key": "eur_huf",
     "label_en": "Official EUR/HUF rate (MNB)",
     "label_hu": "Euró hivatalos árfolyama (MNB)",
-    "note_en": "No newer official MNB rate was published as of this run (Saturday Nov 15); the last published rate (Fri Nov 13) remains in effect.",
-    "note_hu": "E futásban (szombat, 11-15) sem jelent meg frissebb hivatalos MNB-árfolyam a legutóbbi, 2026-11-13-i (pénteki) értéknél.",
+    "note_en": "No newer official MNB rate was published as of this run (Monday Nov 16); the last published rate (Fri Nov 13) remains in effect.",
+    "note_hu": "E futásban (hétfő, 11-16) sem jelent meg frissebb hivatalos MNB-árfolyam a legutóbbi, 2026-11-13-i (pénteki) értéknél.",
     "period": "2026-11-13",
     "prev_period": "2026-11-12",
     "prev_value": 364.09,
@@ -4005,7 +4005,7 @@
    "publish_date": "2026-09-22",
    "url": "https://www.portfolio.hu/gazdasag/20260922/itt-az-mnb-uj-elorejelzese-hiaba-a-nemzetkozi-kockazatok-mersekelt-marad-az-idei-inflacio-864484"
   },
-  "id": "2026-11-15T16-59"
+  "id": "2026-11-16T05-58"
  },
  "last_run": {
   "errors": [
@@ -4829,11 +4829,11 @@
   }
  ],
  "run_summary": {
-  "run_id": "2026-11-15T16:02:17+00:00",
+  "run_id": "2026-11-16T05:01:29+00:00",
   "new": 0,
   "modified": 0,
-  "confirmed_only": 1,
-  "touched": 1,
+  "confirmed_only": 0,
+  "touched": 0,
   "pending_review": 3,
   "by_section": {
    "items": {
@@ -4844,31 +4844,14 @@
    "reported_cases": {
     "new": 0,
     "modified": 0,
-    "confirmed_only": 1
+    "confirmed_only": 0
    }
   },
   "new_ids": [],
   "modified_ids": [],
-  "confirmed_ids": [
-   "r:reported-egyeb-miniszteriumi-18ugy-2026"
-  ]
+  "confirmed_ids": []
  },
  "run_summary_history": [
-  {
-   "run_id": "2026-10-13T10:05:56+00:00",
-   "by_section": {
-    "items": {
-     "new": 0,
-     "modified": 0,
-     "confirmed_only": 1
-    },
-    "reported_cases": {
-     "new": 0,
-     "modified": 0,
-     "confirmed_only": 0
-    }
-   }
-  },
   {
    "run_id": "2026-10-13T15:00:51+00:00",
    "by_section": {
@@ -6351,6 +6334,21 @@
      "new": 0,
      "modified": 0,
      "confirmed_only": 1
+    }
+   }
+  },
+  {
+   "run_id": "2026-11-16T05:01:29+00:00",
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
     }
    }
   }
