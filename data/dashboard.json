@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-16T05:01:29+00:00",
+ "generated_at": "2026-11-16T16:02:12+00:00",
  "summary": {
   "megtakaritas_verified_huf": 2947290700000,
   "visszaszerzes_verified_huf": 1575719300000,
@@ -3791,7 +3791,7 @@
    "url": "https://magyarnemzet.hu/gazdasag/2026/09/allamadossag-novekedes"
   },
   "allamadossag_huf": 65716000000000,
-  "collected_at": "2026-11-16T05:58:00+01:00",
+  "collected_at": "2026-11-16T16:56:00+01:00",
   "elozo": {
    "allamadossag": {
     "period": null,
@@ -3896,8 +3896,8 @@
     "key": "eur_huf",
     "label_en": "Official EUR/HUF rate (MNB)",
     "label_hu": "Euró hivatalos árfolyama (MNB)",
-    "note_en": "No newer official MNB rate was published as of this run (Monday Nov 16); the last published rate (Fri Nov 13) remains in effect.",
-    "note_hu": "E futásban (hétfő, 11-16) sem jelent meg frissebb hivatalos MNB-árfolyam a legutóbbi, 2026-11-13-i (pénteki) értéknél.",
+    "note_en": "As of this run (Monday afternoon, Nov 16) no newer official MNB rate had been published than the last one from Friday 2026-11-13.",
+    "note_hu": "E futásban (hétfő, 11-16 délután) sem jelent meg frissebb hivatalos MNB-árfolyam a legutóbbi, 2026-11-13-i (pénteki) értéknél.",
     "period": "2026-11-13",
     "prev_period": "2026-11-12",
     "prev_value": 364.09,
@@ -4005,7 +4005,7 @@
    "publish_date": "2026-09-22",
    "url": "https://www.portfolio.hu/gazdasag/20260922/itt-az-mnb-uj-elorejelzese-hiaba-a-nemzetkozi-kockazatok-mersekelt-marad-az-idei-inflacio-864484"
   },
-  "id": "2026-11-16T05-58"
+  "id": "2026-11-16T16-56"
  },
  "last_run": {
   "errors": [
@@ -4829,7 +4829,7 @@
   }
  ],
  "run_summary": {
-  "run_id": "2026-11-16T05:01:29+00:00",
+  "run_id": "2026-11-16T16:02:12+00:00",
   "new": 0,
   "modified": 0,
   "confirmed_only": 0,
@@ -4852,21 +4852,6 @@
   "confirmed_ids": []
  },
  "run_summary_history": [
-  {
-   "run_id": "2026-10-13T15:00:51+00:00",
-   "by_section": {
-    "items": {
-     "new": 0,
-     "modified": 0,
-     "confirmed_only": 0
-    },
-    "reported_cases": {
-     "new": 0,
-     "modified": 0,
-     "confirmed_only": 0
-    }
-   }
-  },
   {
    "run_id": "2026-10-14T04:00:28+00:00",
    "by_section": {
@@ -6339,6 +6324,21 @@
   },
   {
    "run_id": "2026-11-16T05:01:29+00:00",
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    }
+   }
+  },
+  {
+   "run_id": "2026-11-16T16:02:12+00:00",
    "by_section": {
     "items": {
      "new": 0,
