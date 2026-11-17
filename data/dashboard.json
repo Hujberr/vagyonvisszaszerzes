@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-16T16:02:12+00:00",
+ "generated_at": "2026-11-17T05:01:05+00:00",
  "summary": {
   "megtakaritas_verified_huf": 2947290700000,
   "visszaszerzes_verified_huf": 1575719300000,
@@ -3791,7 +3791,7 @@
    "url": "https://magyarnemzet.hu/gazdasag/2026/09/allamadossag-novekedes"
   },
   "allamadossag_huf": 65716000000000,
-  "collected_at": "2026-11-16T16:56:00+01:00",
+  "collected_at": "2026-11-17T05:58:00+01:00",
   "elozo": {
    "allamadossag": {
     "period": null,
@@ -3879,8 +3879,8 @@
     "key": "jegybanki_alapkamat",
     "label_en": "Central bank base rate",
     "label_hu": "Jegybanki alapkamat",
-    "note_en": "The next rate-setting meeting is on 17 November 2026; no new decision yet as of this run.",
-    "note_hu": "A következő kamatdöntő ülést 2026. november 17-én tartják; e futás idején (11-16) még nem volt új döntés.",
+    "note_en": "The next rate-setting meeting is today, 17 November 2026; the decision had not yet been published at the time of this run.",
+    "note_hu": "A következő kamatdöntő ülést 2026. november 17-én (ma) tartják; e futás idején még nem jelent meg a döntés eredménye.",
     "period": "2026-10-20",
     "prev_period": "2026-09-22",
     "prev_value": 5.5,
@@ -3896,8 +3896,8 @@
     "key": "eur_huf",
     "label_en": "Official EUR/HUF rate (MNB)",
     "label_hu": "Euró hivatalos árfolyama (MNB)",
-    "note_en": "As of this run (Monday afternoon, Nov 16) no newer official MNB rate had been published than the last one from Friday 2026-11-13.",
-    "note_hu": "E futásban (hétfő, 11-16 délután) sem jelent meg frissebb hivatalos MNB-árfolyam a legutóbbi, 2026-11-13-i (pénteki) értéknél.",
+    "note_en": "As of this run (Tuesday morning, Nov 17) no newer official MNB rate had been published than the last one from Friday 2026-11-13.",
+    "note_hu": "E futás idején (kedd reggel, 11-17) sem jelent meg frissebb hivatalos MNB-árfolyam a legutóbbi, 2026-11-13-i (pénteki) értéknél.",
     "period": "2026-11-13",
     "prev_period": "2026-11-12",
     "prev_value": 364.09,
@@ -4005,7 +4005,7 @@
    "publish_date": "2026-09-22",
    "url": "https://www.portfolio.hu/gazdasag/20260922/itt-az-mnb-uj-elorejelzese-hiaba-a-nemzetkozi-kockazatok-mersekelt-marad-az-idei-inflacio-864484"
   },
-  "id": "2026-11-16T16-56"
+  "id": "2026-11-17T05-58"
  },
  "last_run": {
   "errors": [
@@ -4829,7 +4829,7 @@
   }
  ],
  "run_summary": {
-  "run_id": "2026-11-16T16:02:12+00:00",
+  "run_id": "2026-11-17T05:01:05+00:00",
   "new": 0,
   "modified": 0,
   "confirmed_only": 0,
@@ -4852,21 +4852,6 @@
   "confirmed_ids": []
  },
  "run_summary_history": [
-  {
-   "run_id": "2026-10-14T04:00:28+00:00",
-   "by_section": {
-    "items": {
-     "new": 0,
-     "modified": 0,
-     "confirmed_only": 0
-    },
-    "reported_cases": {
-     "new": 0,
-     "modified": 0,
-     "confirmed_only": 0
-    }
-   }
-  },
   {
    "run_id": "2026-10-14T10:03:47+00:00",
    "by_section": {
@@ -6339,6 +6324,21 @@
   },
   {
    "run_id": "2026-11-16T16:02:12+00:00",
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    }
+   }
+  },
+  {
+   "run_id": "2026-11-17T05:01:05+00:00",
    "by_section": {
     "items": {
      "new": 0,
