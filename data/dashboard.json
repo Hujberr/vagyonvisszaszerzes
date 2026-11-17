@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-16T16:02:12+00:00",
+ "generated_at": "2026-11-17T16:00:54+00:00",
  "summary": {
   "megtakaritas_verified_huf": 2947290700000,
   "visszaszerzes_verified_huf": 1575719300000,
@@ -3571,6 +3571,18 @@
    "updated_at": "2026-11-06T11:37:02+00:00"
   },
   {
+   "additional_sources": [
+    {
+     "name": "444.hu",
+     "published_date": "2026-11-13",
+     "url": "https://444.hu/2026/11/13/magyarkazah-videoklip-tularazott-galaest-dubaji-neptanc-feljelentest-tesz-a-miniszterium-a-tempus-kozalapitvany-gyanus-koltesei-miatt"
+    },
+    {
+     "name": "Eduline",
+     "published_date": "2026-11-13",
+     "url": "https://eduline.hu/kozoktatas/20261113_ogym-tempus-kozalapitvany"
+    }
+   ],
    "alleged_amount_huf": 1800000000,
    "alleged_amount_text": "több mint 1,8 milliárd forint (ebből közel a fele 2025-ben kifizetve)",
    "confirmed_recovered_huf": 0,
@@ -3585,10 +3597,10 @@
    },
    "status": "reported",
    "subject": "Tempus Közalapítvány vagyonának felhasználása",
-   "verification_notes": "ÚJ TÉTEL (2026-11-13 futás). Kizárólag hivatalos forrásból (kormany.hu, 2026-11-13-i feljelentési dátummal) ismert; független sajtóforrás ehhez a futáshoz még nem található. A gyanú hivatali visszaélés, hűtlen kezelés és költségvetési csalás. A kormany.hu hivatalos összesítője ezzel az üggyel 63-ról 64 ügyre, az összesített összeg kb. 4006 Mrd Ft-ról kb. 4007 Mrd Ft-ra nőtt.",
+   "verification_notes": "FRISSÍTVE 2026-11-17 11:58-as futás: a 444.hu és az Eduline 2026-11-13-i cikke független sajtóforrásként megerősíti és részletezi az ügyet (magyar-kazah videóklip, túlárazott gálaest, dubaji néptánc-elszámolás, Nyugat-Balkán Konferencia) — a hivatalos (kormany.hu) forrás mellett most sajtómegerősítés is rendelkezésre áll, de mivel a tétel már hivatalos forrásból is ismert volt, a status (reported) nem változik. (Korábbi megjegyzés megőrizve:) ÚJ TÉTEL (2026-11-13 futás). Kizárólag hivatalos forrásból (kormany.hu, 2026-11-13-i feljelentési dátummal) ismert; független sajtóforrás ehhez a futáshoz még nem található. A gyanú hivatali visszaélés, hűtlen kezelés és költségvetési csalás. A kormany.hu hivatalos összesítője ezzel az üggyel 63-ról 64 ügyre, az összesített összeg kb. 4006 Mrd Ft-ról kb. 4007 Mrd Ft-ra nőtt.",
    "id": "reported-tempus-kozalapitvany-2026-11",
    "first_seen_at": "2026-11-13T16:07:58+00:00",
-   "updated_at": "2026-11-13T16:07:58+00:00"
+   "updated_at": "2026-11-17T16:00:54+00:00"
   },
   {
    "additional_sources": [
@@ -3791,7 +3803,7 @@
    "url": "https://magyarnemzet.hu/gazdasag/2026/09/allamadossag-novekedes"
   },
   "allamadossag_huf": 65716000000000,
-  "collected_at": "2026-11-16T16:56:00+01:00",
+  "collected_at": "2026-11-17T05:58:00+01:00",
   "elozo": {
    "allamadossag": {
     "period": null,
@@ -3879,8 +3891,8 @@
     "key": "jegybanki_alapkamat",
     "label_en": "Central bank base rate",
     "label_hu": "Jegybanki alapkamat",
-    "note_en": "The next rate-setting meeting is on 17 November 2026; no new decision yet as of this run.",
-    "note_hu": "A következő kamatdöntő ülést 2026. november 17-én tartják; e futás idején (11-16) még nem volt új döntés.",
+    "note_en": "The next rate-setting meeting is today, 17 November 2026; the decision had not yet been published at the time of this run.",
+    "note_hu": "A következő kamatdöntő ülést 2026. november 17-én (ma) tartják; e futás idején még nem jelent meg a döntés eredménye.",
     "period": "2026-10-20",
     "prev_period": "2026-09-22",
     "prev_value": 5.5,
@@ -3896,8 +3908,8 @@
     "key": "eur_huf",
     "label_en": "Official EUR/HUF rate (MNB)",
     "label_hu": "Euró hivatalos árfolyama (MNB)",
-    "note_en": "As of this run (Monday afternoon, Nov 16) no newer official MNB rate had been published than the last one from Friday 2026-11-13.",
-    "note_hu": "E futásban (hétfő, 11-16 délután) sem jelent meg frissebb hivatalos MNB-árfolyam a legutóbbi, 2026-11-13-i (pénteki) értéknél.",
+    "note_en": "As of this run (Tuesday morning, Nov 17) no newer official MNB rate had been published than the last one from Friday 2026-11-13.",
+    "note_hu": "E futás idején (kedd reggel, 11-17) sem jelent meg frissebb hivatalos MNB-árfolyam a legutóbbi, 2026-11-13-i (pénteki) értéknél.",
     "period": "2026-11-13",
     "prev_period": "2026-11-12",
     "prev_value": 364.09,
@@ -4005,7 +4017,7 @@
    "publish_date": "2026-09-22",
    "url": "https://www.portfolio.hu/gazdasag/20260922/itt-az-mnb-uj-elorejelzese-hiaba-a-nemzetkozi-kockazatok-mersekelt-marad-az-idei-inflacio-864484"
   },
-  "id": "2026-11-16T16-56"
+  "id": "2026-11-17T05-58"
  },
  "last_run": {
   "errors": [
@@ -4829,11 +4841,11 @@
   }
  ],
  "run_summary": {
-  "run_id": "2026-11-16T16:02:12+00:00",
+  "run_id": "2026-11-17T16:00:54+00:00",
   "new": 0,
   "modified": 0,
-  "confirmed_only": 0,
-  "touched": 0,
+  "confirmed_only": 1,
+  "touched": 1,
   "pending_review": 3,
   "by_section": {
    "items": {
@@ -4844,29 +4856,16 @@
    "reported_cases": {
     "new": 0,
     "modified": 0,
-    "confirmed_only": 0
+    "confirmed_only": 1
    }
   },
   "new_ids": [],
   "modified_ids": [],
-  "confirmed_ids": []
+  "confirmed_ids": [
+   "r:reported-tempus-kozalapitvany-2026-11"
+  ]
  },
  "run_summary_history": [
-  {
-   "run_id": "2026-10-14T04:00:28+00:00",
-   "by_section": {
-    "items": {
-     "new": 0,
-     "modified": 0,
-     "confirmed_only": 0
-    },
-    "reported_cases": {
-     "new": 0,
-     "modified": 0,
-     "confirmed_only": 0
-    }
-   }
-  },
   {
    "run_id": "2026-10-14T10:03:47+00:00",
    "by_section": {
@@ -6349,6 +6348,21 @@
      "new": 0,
      "modified": 0,
      "confirmed_only": 0
+    }
+   }
+  },
+  {
+   "run_id": "2026-11-17T16:00:54+00:00",
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 1
     }
    }
   }
