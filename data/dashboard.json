@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-18T05:00:00+00:00",
+ "generated_at": "2026-11-18T11:04:46+00:00",
  "summary": {
   "megtakaritas_verified_huf": 2947290700000,
   "visszaszerzes_verified_huf": 1575719300000,
@@ -3803,7 +3803,7 @@
    "url": "https://magyarnemzet.hu/gazdasag/2026/09/allamadossag-novekedes"
   },
   "allamadossag_huf": 65716000000000,
-  "collected_at": "2026-11-18T05:58:00+01:00",
+  "collected_at": "2026-11-18T12:01:00+01:00",
   "elozo": {
    "allamadossag": {
     "period": null,
@@ -3891,15 +3891,15 @@
     "key": "jegybanki_alapkamat",
     "label_en": "Central bank base rate",
     "label_hu": "Jegybanki alapkamat",
-    "note_en": "The result of the 17 November 2026 rate-setting meeting was not available from a reliable source at the time of this run; the last known (20 October 2026) decision is shown.",
-    "note_hu": "A 2026. november 17-i kamatdöntő ülés eredménye e futás idején (2026-11-18 reggel) nem volt elérhető megbízható forrásból; a legutóbbi ismert (2026-10-20-i) döntés szerepel.",
-    "period": "2026-10-20",
-    "prev_period": "2026-09-22",
+    "note_en": "The Monetary Council kept the base rate unchanged at 5.50% at its 17 November 2026 meeting, in a non-unanimous vote; the deposit rate stayed at 4.50% and the lending rate at 6.50%.",
+    "note_hu": "Az MNB Monetáris Tanácsa 2026. november 17-i ülésén nem egyhangú döntéssel 5,50 százalékon tartotta a jegybanki alapkamatot; a betéti kamat 4,50%, a hitelkamat 6,50% maradt.",
+    "period": "2026-11-17",
+    "prev_period": "2026-10-20",
     "prev_value": 5.5,
     "source": {
-     "name": "Infostart (MNB Monetáris Tanács döntése)",
-     "publish_date": "2026-10-20",
-     "url": "https://infostart.hu/gazdasag/2026/10/20/itt-az-mnb-kamatdontese"
+     "name": "Telex (MNB Monetáris Tanács döntése)",
+     "publish_date": "2026-11-17",
+     "url": "https://telex.hu/gazdasag/2026/11/17/alapkamat-kamatdontes-monetaris-tanacs-5-5-szazalek"
     },
     "unit": "%",
     "value": 5.5
@@ -3908,18 +3908,18 @@
     "key": "eur_huf",
     "label_en": "Official EUR/HUF rate (MNB)",
     "label_hu": "Euró hivatalos árfolyama (MNB)",
-    "note_en": "No newer official MNB rate had been published than the last one from 2026-11-13 at the time of this run.",
-    "note_hu": "E futás idején sem jelent meg frissebb hivatalos MNB-árfolyam a legutóbbi, 2026-11-13-i értéknél.",
-    "period": "2026-11-13",
-    "prev_period": "2026-11-12",
-    "prev_value": 364.09,
+    "note_en": "The forint weakened against the euro compared with the 13 November 2026 rate.",
+    "note_hu": "A forint gyengült az euróhoz képest a 2026-11-13-i árfolyamhoz mérten.",
+    "period": "2026-11-18",
+    "prev_period": "2026-11-13",
+    "prev_value": 365.67,
     "source": {
      "name": "MNB hivatalos árfolyamok",
-     "publish_date": "2026-11-13",
+     "publish_date": "2026-11-18",
      "url": "https://www.mnb.hu/arfolyamok"
     },
     "unit": "Ft/EUR",
-    "value": 365.67
+    "value": 367.54
    },
    {
     "key": "brutto_atlagkereset",
@@ -4017,7 +4017,7 @@
    "publish_date": "2026-09-22",
    "url": "https://www.portfolio.hu/gazdasag/20260922/itt-az-mnb-uj-elorejelzese-hiaba-a-nemzetkozi-kockazatok-mersekelt-marad-az-idei-inflacio-864484"
   },
-  "id": "2026-11-18T05-58"
+  "id": "2026-11-18T12-01"
  },
  "last_run": {
   "errors": [
@@ -4841,7 +4841,7 @@
   }
  ],
  "run_summary": {
-  "run_id": "2026-11-18T05:00:00+00:00",
+  "run_id": "2026-11-18T11:04:46+00:00",
   "new": 0,
   "modified": 0,
   "confirmed_only": 0,
@@ -4864,21 +4864,6 @@
   "confirmed_ids": []
  },
  "run_summary_history": [
-  {
-   "run_id": "2026-10-14T15:04:44+00:00",
-   "by_section": {
-    "items": {
-     "new": 1,
-     "modified": 0,
-     "confirmed_only": 0
-    },
-    "reported_cases": {
-     "new": 1,
-     "modified": 0,
-     "confirmed_only": 0
-    }
-   }
-  },
   {
    "run_id": "2026-10-15T04:05:11+00:00",
    "by_section": {
@@ -6351,6 +6336,21 @@
   },
   {
    "run_id": "2026-11-18T05:00:00+00:00",
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    }
+   }
+  },
+  {
+   "run_id": "2026-11-18T11:04:46+00:00",
    "by_section": {
     "items": {
      "new": 0,
