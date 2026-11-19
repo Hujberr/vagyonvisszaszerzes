@@ -1,13 +1,13 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-19T11:03:30+00:00",
+ "generated_at": "2026-11-19T16:06:49+00:00",
  "summary": {
   "megtakaritas_verified_huf": 2947290700000,
   "visszaszerzes_verified_huf": 1575719300000,
   "eu_forras_verified_huf": 8251000000000,
   "eu_forras_lost_huf": 730000000000,
   "items_count": 41,
-  "reported_cases_count": 69
+  "reported_cases_count": 71
  },
  "items": [
   {
@@ -2360,8 +2360,8 @@
    "subject": "Honvédelmi Minisztérium bútorbeszerzése — szerződés nemzetközi elfogatóparancs alatt álló üzletember cégével",
    "verification_notes": "ÚJ TÉTEL (2026-11-19 12:00-ás futás). Egyetlen közvetlen sajtóforrásból (Index, 24.hu nyomán) ismert eddig; második, független forrásra vár. Nem feljelentés vagy hivatalos vizsgálat eredménye, hanem sajtó által feltárt, közbeszerzési eljárásban felmerült összeférhetetlenségi/kockázati kérdés: a minisztérium a szerződést a Közbeszerzési és Ellátási Főigazgatóság (KEF) 50 milliárd forintos nettó keretösszegű bútor-keretmegállapodása alapján, előre kiválasztott keretmegállapodásos nyertesek közötti újbóli versenyeztetéssel kötötte, az elfogatóparancs kiadása után. A KEF a cikk szerint nem adott magyarázatot, a minisztérium a megkeresésre nem válaszolt a cikk megjelenéséig. Formális feljelentésről vagy vizsgálat elrendeléséről nincs tudomás, a status ezért 'reported'. Kapcsolódik, de ELKÜLÖNÜL a reported-mnb-matolcsy-alapitvanyok-2026-09 tételtől (ugyanaz a Stofa György, aki a Matolcsy-kör MNB-alapítványi ügyében áll nemzetközi elfogatóparancs alatt, de ez egy önálló, a Honvédelmi Minisztériumot érintő beszerzési ügy).",
    "id": "reported-hm-butor-stofa-szentgyorgyi-2026-11",
-   "updated_at": "2026-11-19T11:03:30+00:00",
-   "first_seen_at": "2026-11-19T11:03:30+00:00"
+   "first_seen_at": "2026-11-19T11:03:30+00:00",
+   "updated_at": "2026-11-19T11:03:30+00:00"
   },
   {
    "additional_sources": [
@@ -2389,6 +2389,33 @@
    "id": "reported-hm-elmenyparkok-lounge-event-2026-09",
    "first_seen_at": "2026-09-28T15:02:40+00:00",
    "updated_at": "2026-11-06T11:37:02+00:00"
+  },
+  {
+   "additional_sources": [
+    {
+     "name": "Kormany.hu – Feljelentett billiók",
+     "published_date": "2026-11-13",
+     "url": "https://kormany.hu/atlathato/feljelentes"
+    }
+   ],
+   "alleged_amount_huf": 108000000,
+   "alleged_amount_text": "kb. 108 millió forint (32 millió Ft testőri kíséret külföldi magánutakon, 30 és 12 millió Ft két vadászat biztosítására, 34 millió Ft luxusautó magáncélú bérlésére)",
+   "confirmed_recovered_huf": 0,
+   "description": "Ruszin-Szendi Romulusz honvédelmi miniszter 2026 szeptemberében feljelentést tett ismeretlen tettes ellen hűtlen kezelés gyanújával a Honvédelmi Minisztérium korábbi vezetése által jóváhagyott kiadások miatt. A feljelentés szerint testőr-katonák kísérték a korábbi minisztert külföldi magánutakon, katonák biztosítottak két, szűkebb ismerősi körnek szervezett vadászatot, és a miniszter magáncélra luxusautót béreltetett havi 600–800 ezer forintért.",
+   "ministry": "Honvédelmi Minisztérium",
+   "recovered_item_id": null,
+   "report_date": "2026-09-23",
+   "report_source": {
+    "name": "Economx",
+    "published_date": "2026-09-23",
+    "url": "https://www.economx.hu/belfold/maganutak-vadaszatok-luxusauto-feljelentes-honvedelmi-miniszter/"
+   },
+   "status": "under_investigation",
+   "subject": "Honvédelmi Minisztérium korábbi vezetése — testőri kíséret magánutakon, vadászatok biztosítása és luxusautó magáncélú bérlése",
+   "verification_notes": "ÚJ TÉTEL (2026-11-19 17:00-ás futás). A kormany.hu hivatalos listáján ez az ügy önálló, Honvédelmi tárca alatti tételként szerepel, hivatalos összeg megadása nélkül (a konkrét forintösszegeket az Economx cikke tartalmazza). Ugyanezen bejelentés részeként a miniszter egy külön, 12 milliárd forintos tanácsadói szerződést is bejelentett — azt már korábban rögzítettük (l. reported-hm-tanacsadoi-szerzodes-2026-09), ezért ide csak a kisebb, 108 millió forintos tételcsoport (magánutak, vadászatok, luxusautó) került fel, elkerülve a dupla számolást. A hivatalos oldal szerint a Budapesti Nyomozó Ügyészség megerősítette a nyomozást (2026-11-08).",
+   "id": "reported-hm-maganutak-vadaszat-luxusauto-2026-09",
+   "updated_at": "2026-11-19T16:06:49+00:00",
+   "first_seen_at": "2026-11-19T16:06:49+00:00"
   },
   {
    "additional_sources": [
@@ -2827,6 +2854,26 @@
    "updated_at": "2026-11-19T05:01:57+00:00"
   },
   {
+   "alleged_amount_huf": null,
+   "alleged_amount_text": null,
+   "confirmed_recovered_huf": 0,
+   "description": "A Tudományos és Technológiai Minisztérium feljelentést tett a Nemzeti Adatvagyon Ügynökséghez kapcsolódó egyes kifizetések ügyében. Az ügy a kormány hivatalos feljelentési listáján önálló tételként szerepel, konkrét összeg megadása nélkül.",
+   "ministry": "Tudományos és Technológiai Minisztérium",
+   "recovered_item_id": null,
+   "report_date": "2026-10-09",
+   "report_source": {
+    "name": "Kormany.hu – Feljelentett billiók",
+    "published_date": "2026-11-13",
+    "url": "https://kormany.hu/atlathato/feljelentes"
+   },
+   "status": "reported",
+   "subject": "Nemzeti Adatvagyon Ügynökség kifizetései",
+   "verification_notes": "ÚJ TÉTEL (2026-11-19 17:00-ás futás). Kizárólag hivatalos forrásból (kormany.hu) ismert, összeg nélkül; független sajtóforrás ehhez a futáshoz nem található. Figyelendő, hogy jelenjen-e meg később részletesebb (összeges) sajtóhír.",
+   "id": "reported-nemzeti-adatvagyon-ugynokseg-2026-10",
+   "updated_at": "2026-11-19T16:06:49+00:00",
+   "first_seen_at": "2026-11-19T16:06:49+00:00"
+  },
+  {
    "additional_sources": [
     {
      "name": "444.hu",
@@ -3173,7 +3220,7 @@
     }
    ],
    "is_aggregate": true,
-   "ministry": "Összesítő — 10 minisztérium/hatóság",
+   "ministry": "Összesítő — 13 minisztérium/hatóság",
    "recovered_item_id": null,
    "report_date": "2026-09-02",
    "report_source": {
@@ -3182,11 +3229,11 @@
     "url": "https://kormany.hu/atlathato/feljelentes"
    },
    "status": "under_investigation",
-   "subject": "Kormányzati feljelentések hivatalos összesítője (63 ügy, 12 minisztérium/hatóság)",
-   "verification_notes": "FRISSÍTVE 2026-11-13-as futás: a hivatalos oldal ügyszáma 63-ról 64-re nőtt, az új tétel a Tempus Közalapítvány ügye (1,8 Mrd Ft, Oktatási és Gyermekügyi Minisztérium, l. reported-tempus-kozalapitvany-2026-11) — ez megfelel a kb. 4006→4007 Mrd Ft-os összegnövekedésnek. A visszafizetett/megtakarított 74,0 Mrd Ft összeg nem változott. (Korábbi megjegyzések megőrizve, l. előző verzió.)",
+   "subject": "Kormányzati feljelentések hivatalos összesítője (64 ügy, 13 minisztérium/hatóság)",
+   "verification_notes": "FRISSÍTVE 2026-11-19 17:00-ás futás: a subject és ministry mező szövege javítva (korábban elmaradt a 63→64 ügy, 12→13 minisztérium frissítés, bár a case_count mező már 64 volt) — tisztán szövegjavítás, a számok nem változtak. A kormany.hu/atlathato/feljelentes oldal ezen futás során végzett ellenőrzése szerint az oldal tartalma a 2026-11-13-i állapothoz képest nem változott (64 ügy, 13 minisztérium/hatóság, kb. 4007 Mrd Ft, 74,0 Mrd Ft visszafizetve/megtakarítva). (Korábbi megjegyzések megőrizve, l. előző verzió.)",
    "id": "reported-osszesito-2026-09",
    "first_seen_at": "2026-09-28T15:02:40+00:00",
-   "updated_at": "2026-11-13T16:07:58+00:00"
+   "updated_at": "2026-11-19T16:06:49+00:00"
   },
   {
    "additional_sources": [
@@ -3843,7 +3890,7 @@
    "url": "https://magyarnemzet.hu/gazdasag/2026/09/allamadossag-novekedes"
   },
   "allamadossag_huf": 65716000000000,
-  "collected_at": "2026-11-19T12:00:00+01:00",
+  "collected_at": "2026-11-19T17:04:45+01:00",
   "elozo": {
    "allamadossag": {
     "period": null,
@@ -3949,7 +3996,7 @@
     "label_en": "Official EUR/HUF rate (MNB)",
     "label_hu": "Euró hivatalos árfolyama (MNB)",
     "note_en": "No newer fixing could be confirmed at the time of this run; value carried over from the previous run.",
-    "note_hu": "E futás idején nem található megért, 11-18 utáni új fixing, az érték az előző futásból átvezetve.",
+    "note_hu": "E futás idején nem található 11-18 utáni új fixing, az érték az előző futásból átvezetve.",
     "period": "2026-11-18",
     "prev_period": "2026-11-13",
     "prev_value": 365.67,
@@ -4057,22 +4104,20 @@
    "publish_date": "2026-09-22",
    "url": "https://www.portfolio.hu/gazdasag/20260922/itt-az-mnb-uj-elorejelzese-hiaba-a-nemzetkozi-kockazatok-mersekelt-marad-az-idei-inflacio-864484"
   },
-  "id": "2026-11-19T12-00"
+  "id": "2026-11-19T17-04"
  },
  "last_run": {
-  "errors": [
-   "A WebSearch eszköz több keresésnél (pl. 2027-es költségvetés, G7.hu, atlatszo.hu, direkt36.hu, EU-források, 444.hu/telex.hu site-keresés) nem adott vissza 2026-11-16 utáni, pontosan datolt újabb találatokat; a friss (2026-11-17/19) hírekhez a hirkereso.hu címlapját és a kormany.hu/ugyeszseg.hu/mnvvh.hu közvetlen lekérését használtam kiegészítő forrásként.",
-   "A Fehérvár FC/Sóstói Stadion üggyel kapcsolatos esetleges novemberi frissítést (a hirkereso.hu címlápon jelzett Index-cikk) nem sikerült pontos linkkel azonosítani, ezért nem került be frissítésként."
-  ],
+  "errors": [],
   "eu_lost_items_new": 0,
-  "finished_at": "2026-11-19T12:10:00+01:00",
+  "finished_at": "2026-11-19T17:05:25+01:00",
   "items_duplicate": 0,
   "items_found_total": 0,
   "items_needs_review": 0,
   "items_new": 0,
-  "reported_cases_new": 1,
-  "reported_cases_updated": 2,
+  "reported_cases_new": 2,
+  "reported_cases_updated": 1,
   "sources_checked": [
+   "kormany.hu/atlathato/feljelentes",
    "24.hu",
    "444.hu",
    "168.hu",
@@ -4114,14 +4159,21 @@
    "szmo.hu",
    "k-monitor.hu",
    "hirkereso.hu",
-   "mnvvh.hu",
-   "ugyeszseg.hu",
-   "kormany.hu/atlathato/feljelentes"
+   "mnvvh.hu/hirek",
+   "ugyeszseg.hu"
   ],
-  "started_at": "2026-11-19T11:00:00+01:00",
-  "id": "2026-11-19T12-00"
+  "started_at": "2026-11-19T16:56:00+01:00",
+  "id": "2026-11-19T17-05"
  },
  "run_history": [
+  {
+   "finished_at": "2026-11-19T17:05:25+01:00",
+   "started_at": "2026-11-19T16:56:00+01:00",
+   "items_new": 0,
+   "reported_cases_new": 2,
+   "reported_cases_updated": 1,
+   "eu_lost_items_new": 0
+  },
   {
    "finished_at": "2026-11-19T12:10:00+01:00",
    "started_at": "2026-11-19T11:00:00+01:00",
@@ -4913,22 +4965,14 @@
    "reported_cases_new": 0,
    "reported_cases_updated": 0,
    "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-10-17T12:40:00+02:00",
-   "started_at": "2026-10-17T12:01:00+02:00",
-   "items_new": 0,
-   "reported_cases_new": 3,
-   "reported_cases_updated": 0,
-   "eu_lost_items_new": 0
   }
  ],
  "run_summary": {
-  "run_id": "2026-11-19T11:03:30+00:00",
-  "new": 1,
+  "run_id": "2026-11-19T16:06:49+00:00",
+  "new": 2,
   "modified": 0,
-  "confirmed_only": 2,
-  "touched": 3,
+  "confirmed_only": 0,
+  "touched": 2,
   "pending_review": 3,
   "by_section": {
    "items": {
@@ -4937,36 +4981,19 @@
     "confirmed_only": 0
    },
    "reported_cases": {
-    "new": 1,
+    "new": 2,
     "modified": 0,
-    "confirmed_only": 2
+    "confirmed_only": 0
    }
   },
   "new_ids": [
-   "r:reported-hm-butor-stofa-szentgyorgyi-2026-11"
+   "r:reported-hm-maganutak-vadaszat-luxusauto-2026-09",
+   "r:reported-nemzeti-adatvagyon-ugynokseg-2026-10"
   ],
   "modified_ids": [],
-  "confirmed_ids": [
-   "r:reported-mnb-matolcsy-alapitvanyok-2026-09",
-   "r:reported-neumann-egyetem-optima-kotveny-2026-08"
-  ]
+  "confirmed_ids": []
  },
  "run_summary_history": [
-  {
-   "run_id": "2026-10-15T10:02:51+00:00",
-   "by_section": {
-    "items": {
-     "new": 0,
-     "modified": 0,
-     "confirmed_only": 0
-    },
-    "reported_cases": {
-     "new": 0,
-     "modified": 0,
-     "confirmed_only": 0
-    }
-   }
-  },
   {
    "run_id": "2026-10-15T15:01:48+00:00",
    "by_section": {
@@ -6449,6 +6476,21 @@
      "new": 1,
      "modified": 0,
      "confirmed_only": 2
+    }
+   }
+  },
+  {
+   "run_id": "2026-11-19T16:06:49+00:00",
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 2,
+     "modified": 0,
+     "confirmed_only": 0
     }
    }
   }
