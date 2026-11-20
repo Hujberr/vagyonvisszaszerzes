@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-20T05:01:22+00:00",
+ "generated_at": "2026-11-20T11:01:30+00:00",
  "summary": {
   "megtakaritas_verified_huf": 2947290700000,
   "visszaszerzes_verified_huf": 1575719300000,
@@ -2750,6 +2750,11 @@
      "name": "G7 / Telex (részletes oknyomozás)",
      "published_date": "2026-09-30",
      "url": "https://telex.hu/g7/vallalat/2026/09/30/sztardakoncesszio-koltseg-fidesz-kormany-mkif-tularazas"
+    },
+    {
+     "name": "444.hu (a koncesszió megszüntetésének bejelentése)",
+     "published_date": "2026-11-18",
+     "url": "https://444.hu/2026/11/18/visszaveszik-az-autopalyakat-meszaros-lorincektol"
     }
    ],
    "alleged_amount_huf": 1000000000000,
@@ -2766,10 +2771,10 @@
    },
    "status": "under_investigation",
    "subject": "Autópálya-koncesszió (MKIF, kb. az ország autópálya-hálózatának kétharmada) szerződésmódosítása",
-   "verification_notes": "FRISSÍTVE 2026-10-15 05:59-es futás: az ügy immár a kormany.hu hivatalos listáján is szerepel ('MKIF autópálya-koncesszió', legalább 1000 Mrd Ft, 2026-09-30-i feljelentési dátummal, 'Nincs információ' nyomozási státusszal). A forrás-hitelességi szabály szerint a hivatalos összeg az irányadó a korábbi, jóval magasabb sajtóbecslésekkel (4,4-8 ezer Mrd Ft indokolatlan többletköltség, illetve 23-26 ezer Mrd Ft teljes szerződéses érték) szemben; ezek a sajtóbecslések az alleged_amount_text-ben kontextusként megmaradtak. A report_date a hivatalos feljelentési dátumra (2026-09-30) frissítve. (Korábbi megjegyzések megőrizve, l. előző verzió.)",
+   "verification_notes": "FRISSÍTVE 2026-11-20 futás: Magyar Péter miniszterelnök 2026. november 18-án bejelentette, hogy a kormány végleg megszünteti a 35 éves, mintegy 23 ezer milliárd forintos szerződéses összértékű MKIF autópálya-koncessziót, és az állam veszi át az üzemeltetést Mészáros Lőrinc és Szíjj László érdekeltségeitől. A cikk szerint a koncessziós társaság 2025 végéig összesen 760 milliárd forint költségvetési bevételt kapott, 95,8 milliárd forint nyereséget ért el és 47,5 milliárd forintot fizetett ki osztalékként; Vitézy Dávid korábbi (2026 augusztusi) közlése szerint a kormányváltás óta is folytatódó kifizetésekkel együtt összesen nettó 870 milliárd forintot (bruttó 1104,9 milliárd forintot) utaltak át a társaságnak. A bejelentés a koncesszió jogi/szerződéses felszámolásáról szól, konkrét, az államhoz tényleges pénzben visszakerült összegről a cikk nem ír, ezért a confirmed_recovered_huf (0) és a status (under_investigation) változatlan; a tényleges átvétel/elszámolás végrehajtása és esetleges pénzügyi visszatérülése egy következő futásban ellenőrizendő. Az alleged_amount_huf (1000 Mrd Ft, hivatalos kormany.hu adat) nem változott. (Korábbi megjegyzések megőrizve, l. előző verzió.)",
    "id": "reported-mkif-autopalya-koncesszio-2026-09",
    "first_seen_at": "2026-09-28T15:02:40+00:00",
-   "updated_at": "2026-11-06T11:37:02+00:00"
+   "updated_at": "2026-11-20T11:01:30+00:00"
   },
   {
    "alleged_amount_huf": null,
@@ -3512,6 +3517,16 @@
      "name": "444.hu (ügyvédi reakció)",
      "published_date": "2026-11-14",
      "url": "https://444.hu/2026/11/14/sesztak-miklos-ugyvedje-szerint-nem-a-vedence-penzet-talaltak-meg"
+    },
+    {
+     "name": "mnvvh.hu (Fabó György-kapcsolat, TV2-re hivatkozva)",
+     "published_date": "2026-11-19",
+     "url": "https://mnvvh.hu/hirek"
+    },
+    {
+     "name": "ugyeszseg.hu (letartóztatás meghosszabbításának indítványozása)",
+     "published_date": "2026-11-19",
+     "url": "https://ugyeszseg.hu/category/hirek/kozponti-nyomozo-fougyeszseg/"
     }
    ],
    "alleged_amount_huf": 12600000000,
@@ -3528,10 +3543,10 @@
    },
    "status": "under_investigation",
    "subject": "Seszták Miklós korábbi fejlesztési miniszter korrupciós ügye (Volánbusz és építőipari megbízások)",
-   "verification_notes": "FRISSÍTVE 2026-11-18 16:59-es futás: Unger Anna, az NVVH elnöke 2026-11-15-i nyilatkozatában (444.hu) elmondta, hogy a hivatal további készpénzt talált (egy madáretetőben is), és hogy jelenleg sem az eddig lefoglalt összesen kb. 6,5 milliárd forint (az erdőkben, raktárakban és páncélszekrényekben talált készpénz összesítve), sem annak tulajdonjogi hovatartozása nem tisztázott — azt a bíróság dönti majd el, hogy kié a pénz. Unger szerint a hivatal négy ügyön dolgozik egyszerre, és nem elégednek meg a mostani, kb. 6 milliárd forinttal. Ez megerősíti és pontosítja a korábban rögzített, kb. 6,46 milliárd forintos lefoglalási összeget (a kerekítés miatt a cikkek 6,5 Mrd Ft-ot is írnak), de nem jelent végleges, az államhoz jogerősen átkerült vagyont, ezért az alleged_amount_huf (12,6 Mrd Ft) és a confirmed_recovered_huf (0) nem változott. (Korábbi megjegyzések megőrizve, l. előző verzió.) FRISSÍTVE 2026-11-14 11:56-os futás: legalább négy független forrás (444.hu, Index, HVG, szabolcsinap.hu) egyezően számolt be arról, hogy az NVVH nyomozói 2026. november 13-án bejelentették: a Seszták-ügyben folytatott nyomozás során két nap alatt összesen 5.071.632.000 forintot, 2.658.350 eurót és 1.257.100 dollárt (együttesen kb. 6,46 milliárd forint értékben) találtak és foglaltak le, erdőkben elásva, gazdasági/raktárépületekben és egy félreeső, otthoni használatra nem jellemző páncélszekrényben elrejtve. A pénzt a Magyar Államkincstárba fizették be. Seszták Miklós ügyvédje 2026-11-14-i reakciójában vitatja a pénz és ügyfele közötti kapcsolatot. Mivel a pénz tulajdonjogi hovatartozása jogilag még nem tisztázott, a confirmed_recovered_huf mező nem módosul ebből az eseményből.",
+   "verification_notes": "FRISSÍTVE 2026-11-20 futás: 2026. november 19-én a Központi Nyomozó Főügyészség indítványozta Seszták Miklós előzetes letartóztatásának további három hónappal történő meghosszabbítását; egy harmadik gyanúsított (ügyvéd) esetében bűnügyi felügyeletet (elektronikus nyomkövetést) indítványoztak. Ugyanezen a napon a TV2 (az mnvvh.hu közvetítésével) arról számolt be, hogy egy Nógrád megyei erdő és egy gazdasági épület — amelyeket korábban a lefoglalt készpénz esetleges rejtekhelyeként azonosítottak — Fabó György üzletember érdekeltségéhez köthető, nem feltétlenül Seszták Miklóshoz; a hatóságok a pontos tulajdonjogi hovatartozást nem erősítették meg. Ez tovább erősíti a korábban (2026-11-14/18) már jelzett bizonytalanságot a lefoglalt kb. 6,46 milliárd forintos készpénz pontos tulajdonosáról. Az alleged_amount_huf (12,6 Mrd Ft) és a confirmed_recovered_huf (0) nem változott. (Korábbi megjegyzések megőrizve, l. előző verzió.)",
    "id": "reported-sesztak-miklos-korrupcio-2026-09",
    "first_seen_at": "2026-09-28T15:02:40+00:00",
-   "updated_at": "2026-11-19T05:01:57+00:00"
+   "updated_at": "2026-11-20T11:01:30+00:00"
   },
   {
    "alleged_amount_huf": null,
@@ -4108,25 +4123,26 @@
  },
  "last_run": {
   "errors": [
-   "Az ÁKK hivatalos oldala (akk.hu/hu/statisztika/allamadossag-finanszirozas) a központi adósság összesített Ft-összegét ezúttal sem adta ki közvetlenül lekérve (a 'Betöltés...' JS-elem nem renderelődött) — az államadósság értéke változatlanul a 2026-07-31-i (Magyar Nemzet/ÁKK-adatra hivatkozó) állapotot tükrözi.",
-   "A k-monitor.hu oldal közvetlen site:-keresése ezúttal sem adott vissza k-monitor.hu találatot (a keresőmotor nem indexeli jól az oldalt); helyette a K-Monitor által korábban feltárt ügyekre (Tisza-adó konzultáció, NKA-botrány) vonatkozó, már ismert sajtóanyagot találtam, új ügy nem került elő.",
-   "A kormany.hu/atlathato/feljelentes oldal tartalma (64 ügy, 4007 Mrd Ft, 61,2 Mrd Ft visszafizetve + 12,8 Mrd Ft megtakarítás = 74,0 Mrd Ft) változatlan volt a 2026-11-13/19-i állapothoz képest — nem volt szükség frissítésre a reported-osszesito-2026-09 tételen.",
-   "A Nagy Márton luxusutazásai miatti PM-feljelentés (444.hu, 2026-10-26) és a Stofa György/HM bútorbeszerzés (Index, 2026-11-19) már a korábbi futásokban rögzítve lettek (reported-egyeb-miniszteriumi-18ugy-2026 ill. reported-hm-butor-stofa-szentgyorgyi-2026-11), ezúttal csak megerősítést hoztak, új tételt nem igényeltek.",
-   "Az Euronews 2026-11-12-i cikke szerint a Bizottság 'a következő héten' hagyhatja jóvá a kb. 10 Mrd eurós RRF-csomagot, de további kereséssel (2026-11-19/20-i állapot) nem volt megerősíthető, hogy a jóváhagyás vagy a tényleges kifizetés megtörtént — az eu-forras-megallapodas-2026-05 tétel received_huf mezője emiatt változatlanul 0 maradt."
+   "Ez a futás kevesebb mint 6 órával a mai (2026-11-20 05:58–06:35-ös) korábbi, alapos futás után indult, amely semmi újat nem talált — a mostani 10+ tematikus keresés is nagyrészt a meglévő adattárban már rögzített tényeket erősítette meg.",
+   "Két ígéretesnek látszó hirkereso.hu-teaser (egy kb. havi 3,9 millió forintos, Rogán-közeli tanácsadói szerződésről szóló Telex-sztori, illetve egy Tuzson Bence volt igazságügyi miniszter korábbi ügyvédi irodájának állami megbízásáról szóló 24.hu-cikk) ellenőrzése nem vezetett megtalálható, pontosan azonosítható eredeti cikkhez — mindkettő további, célzottabb ellenőrzésre vár egy következő futásban, önálló tételt emiatt nem vettünk fel.",
+   "A kormany.hu/atlathato/feljelentes oldal tartalma (64 ügy, 4007 Mrd Ft, 74,0 Mrd Ft visszafizetve/megtakarítva) változatlan volt a mai reggeli állapothoz képest — nem igényelt frissítést a reported-osszesito-2026-09 tételen.",
+   "A GitHub PR-lista ellenőrzésekor a main ágra nem volt nyitott PR — a korábban (2026-11-18-i futásban) emberi jóváhagyásra váró #14-es PR időközben rendeződött (feltehetően egy korábbi mai futásban).",
+   "Új KSH/MNB/ÁKK hivatalos publikáció ebben a futásban nem jelent meg a mai 05:58-as pillanatkép óta, ezért új macro_snapshots dokumentum nem készült."
   ],
   "eu_lost_items_new": 0,
-  "finished_at": "2026-11-20T06:35:00+01:00",
-  "items_duplicate": 3,
-  "items_found_total": 3,
+  "finished_at": "2026-11-20T12:05:00+01:00",
+  "items_duplicate": 0,
+  "items_found_total": 0,
   "items_needs_review": 0,
   "items_new": 0,
   "reported_cases_new": 0,
-  "reported_cases_updated": 0,
+  "reported_cases_updated": 2,
   "sources_checked": [
    "kormany.hu/atlathato/feljelentes",
    "mnvvh.hu/hirek",
    "ugyeszseg.hu (Központi Nyomozó Főügyészség)",
    "hirkereso.hu",
+   "k-monitor.hu (WebSearch, site: operátor ismét nem adott közvetlen domain-találatot)",
    "444.hu",
    "Telex",
    "HVG",
@@ -4135,15 +4151,21 @@
    "Economx",
    "Infostart.hu",
    "Privátbankár.hu",
-   "Euronews",
-   "Daily News Hungary",
-   "akk.hu",
-   "mnb.hu/arfolyamok"
+   "Adozona.hu",
+   "Demokrata"
   ],
-  "started_at": "2026-11-20T05:58:00+01:00",
-  "id": "2026-11-20T05-58"
+  "started_at": "2026-11-20T11:55:00+01:00",
+  "id": "2026-11-20T12-00"
  },
  "run_history": [
+  {
+   "finished_at": "2026-11-20T12:05:00+01:00",
+   "started_at": "2026-11-20T11:55:00+01:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 2,
+   "eu_lost_items_new": 0
+  },
   {
    "finished_at": "2026-11-20T06:35:00+01:00",
    "started_at": "2026-11-20T05:58:00+01:00",
@@ -4935,22 +4957,14 @@
    "reported_cases_new": 0,
    "reported_cases_updated": 2,
    "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-10-18T06:10:00+02:00",
-   "started_at": "2026-10-18T05:56:00+02:00",
-   "items_new": 0,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 0,
-   "eu_lost_items_new": 0
   }
  ],
  "run_summary": {
-  "run_id": "2026-11-20T05:01:22+00:00",
+  "run_id": "2026-11-20T11:01:30+00:00",
   "new": 0,
   "modified": 0,
-  "confirmed_only": 0,
-  "touched": 0,
+  "confirmed_only": 2,
+  "touched": 2,
   "pending_review": 3,
   "by_section": {
    "items": {
@@ -4961,29 +4975,17 @@
    "reported_cases": {
     "new": 0,
     "modified": 0,
-    "confirmed_only": 0
+    "confirmed_only": 2
    }
   },
   "new_ids": [],
   "modified_ids": [],
-  "confirmed_ids": []
+  "confirmed_ids": [
+   "r:reported-mkif-autopalya-koncesszio-2026-09",
+   "r:reported-sesztak-miklos-korrupcio-2026-09"
+  ]
  },
  "run_summary_history": [
-  {
-   "run_id": "2026-10-16T04:01:53+00:00",
-   "by_section": {
-    "items": {
-     "new": 0,
-     "modified": 0,
-     "confirmed_only": 0
-    },
-    "reported_cases": {
-     "new": 0,
-     "modified": 0,
-     "confirmed_only": 1
-    }
-   }
-  },
   {
    "run_id": "2026-10-16T15:03:06+00:00",
    "by_section": {
@@ -6466,6 +6468,21 @@
      "new": 0,
      "modified": 0,
      "confirmed_only": 0
+    }
+   }
+  },
+  {
+   "run_id": "2026-11-20T11:01:30+00:00",
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 2
     }
    }
   }
