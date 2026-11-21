@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-20T16:01:49+00:00",
+ "generated_at": "2026-11-21T05:00:52+00:00",
  "summary": {
   "megtakaritas_verified_huf": 2947290700000,
   "visszaszerzes_verified_huf": 1575719300000,
@@ -3905,7 +3905,7 @@
    "url": "https://magyarnemzet.hu/gazdasag/2026/09/allamadossag-novekedes"
   },
   "allamadossag_huf": 65716000000000,
-  "collected_at": "2026-11-20T05:58:00+01:00",
+  "collected_at": "2026-11-21T05:59:00+01:00",
   "elozo": {
    "allamadossag": {
     "period": null,
@@ -4010,18 +4010,18 @@
     "key": "eur_huf",
     "label_en": "Official EUR/HUF rate (MNB)",
     "label_hu": "Euró hivatalos árfolyama (MNB)",
-    "note_en": "USD/HUF on 2026-11-19 was 335.64 Ft/USD.",
-    "note_hu": "USD/HUF 2026-11-19-én 335,64 Ft/USD.",
-    "period": "2026-11-19",
-    "prev_period": "2026-11-18",
-    "prev_value": 367.54,
+    "note_en": "USD/HUF on 2026-11-20 was 340.16 Ft/USD.",
+    "note_hu": "USD/HUF 2026-11-20-án 340,16 Ft/USD.",
+    "period": "2026-11-20",
+    "prev_period": "2026-11-19",
+    "prev_value": 368.97,
     "source": {
      "name": "MNB hivatalos árfolyamok",
-     "publish_date": "2026-11-19",
+     "publish_date": "2026-11-20",
      "url": "https://www.mnb.hu/arfolyamok"
     },
     "unit": "Ft/EUR",
-    "value": 368.97
+    "value": 373.22
    },
    {
     "key": "brutto_atlagkereset",
@@ -4119,20 +4119,21 @@
    "publish_date": "2026-09-22",
    "url": "https://www.portfolio.hu/gazdasag/20260922/itt-az-mnb-uj-elorejelzese-hiaba-a-nemzetkozi-kockazatok-mersekelt-marad-az-idei-inflacio-864484"
   },
-  "id": "2026-11-20T05-58"
+  "id": "2026-11-21T05-59"
  },
  "last_run": {
   "errors": [
-   "A kormany.hu/atlathato/feljelentes oldal tartalma (64 ügy, 4007 Mrd Ft, 74,0 Mrd Ft visszafizetve/megtakarítva) változatlan volt a mai 05:58-as és 11:55-ös futáshoz képest — nem igényelt frissítést a reported-osszesito-2026-09 tételen.",
-   "Ez a harmadik mai futás; az első kettő (05:58, 11:55) alapos keresés után sem talált új tételt, a mostani 10+ tematikus keresés is nagyrészt a meglévő adattárban már rögzített tényeket erősítette meg.",
-   "Az Index 2026-11-20-i cikke szerint az Európai Bizottság ezen a napon részlegesen jóváhagyta Magyarország kb. 10 milliárd eurós RRF-kifizetési kérelmét (126/127 mérföldkő teljesítve); ez frissítésként rögzítve az eu-forras-megallapodas-2026-05 tétel verification_notes mezőjében, de a received_huf (0) nem változott, mert tényleges kifizetés még nem történt. Egyetlen sajtóforrásból ismert eddig, második megerősítésre vár.",
-   "Az Index 2026-11-20-i Seszták/Fabó György cikke (B.250/2023, Győri Törvényszék, 405,5 M Ft kár egy magánjellegű számlázási csalási ügyben) nem került be önálló tételként, mert Fabó saját, a Seszták-ügytől független magánjogi/büntetőügye, nem állami vagyonvisszaszerzési esemény.",
-   "Új macro_snapshots dokumentum nem készült: a mai 05:58-as pillanatkép óta nem jelent meg új KSH/MNB/ÁKK hivatalos publikáció."
+   "Az előző (2026-11-20 17:00-ás) futás óta eltelt kb. 1 nap miatt a sajtófigyelés szándékosan szűk ablakot fedett le; a kormany.hu/atlathato/feljelentes oldal tartalma (64 ügy, 13 minisztérium, 4007 Mrd Ft, 74,0 Mrd Ft visszafizetve/megtakarítva) változatlan volt a 2026-11-13-i állapothoz képest, ezért a reported_cases kollekción nem történt frissítés.",
+   "A WebSearch-alapú 'site:444.hu' és 'site:telex.hu' lekérdezések a keresőmotor korlátai miatt nem adtak vissza 2026-11-20/21-i cikkeket; ehelyett a hirkereso.hu aggregátor 2026-11-20-i rovatlistája és több tematikus kulcsszó-keresés adta a friss tartalmat.",
+   "A 'site:k-monitor.hu' lekérdezés nem adott vissza k-monitor.hu találatot (a keresőmotor nem alkalmazta megbízhatóan a site-szűrőt); helyette általános tematikus keresésekkel (feljelentés, vagyonvisszaszerzés) ellenőriztük a témát, új, még nem rögzített ügyet nem találtunk.",
+   "Egy Portfolio.hu-s WebFetch-eredmény 'HUF 3400 milliárd EU-forrás biztosítva' állítást jelzett, de ezt két külön, célzott keresés sem tudta megerősíteni konkrét cikkel/dátummal — feltehetően téves vagy félreértett (esetleg a hiány- vagy fiskális tér becslésével összekeveredett) adat, ezért NEM került be az items kollekcióba.",
+   "Az ÁKK hivatalos államadósság-adata ezúttal sem volt közvetlenül lekérhető; az allamadossag_huf mező változatlanul a 2026-07-31-i (Magyar Nemzet/ÁKK-hivatkozás) állapotot tükrözi.",
+   "A Moody's 2026-11-20-i tervezett magyar adósminősítési döntésének kimenetele nem volt megerősíthető ebben a futásban (nem a felhasználói kategóriák közé tartozó makromutató, ezért nem is kötelező, de jelezve)."
   ],
   "eu_lost_items_new": 0,
-  "finished_at": "2026-11-20T17:40:00+01:00",
-  "items_duplicate": 0,
-  "items_found_total": 0,
+  "finished_at": "2026-11-21T06:45:00+01:00",
+  "items_duplicate": 18,
+  "items_found_total": 18,
   "items_needs_review": 0,
   "items_new": 0,
   "reported_cases_new": 0,
@@ -4140,23 +4141,34 @@
   "sources_checked": [
    "kormany.hu/atlathato/feljelentes",
    "mnvvh.hu/hirek",
-   "ugyeszseg.hu (Központi Nyomozó Főügyészség)",
    "hirkereso.hu",
-   "k-monitor.hu (WebSearch, site: operátor ismét nem adott közvetlen domain-találatot)",
+   "ugyeszseg.hu/kategoria/kozponti-nyomozo-fougyeszseg",
+   "k-monitor.hu (WebSearch)",
    "444.hu",
    "Telex",
-   "HVG",
    "Index",
+   "HVG",
    "Portfolio.hu",
    "Economx",
-   "Infostart.hu",
+   "Világgazdaság",
    "Privátbankár.hu",
-   "Adozona.hu"
+   "Infostart.hu",
+   "Pénzcentrum",
+   "Eduline (K-Monitor-eredetű, Neumann-ügy)",
+   "mnb.hu/arfolyamok"
   ],
-  "started_at": "2026-11-20T16:56:00+01:00",
-  "id": "2026-11-20T16-56"
+  "started_at": "2026-11-21T05:59:00+01:00",
+  "id": "2026-11-21T05-59"
  },
  "run_history": [
+  {
+   "finished_at": "2026-11-21T06:45:00+01:00",
+   "started_at": "2026-11-21T05:59:00+01:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
   {
    "finished_at": "2026-11-20T17:40:00+01:00",
    "started_at": "2026-11-20T16:56:00+01:00",
@@ -4948,28 +4960,20 @@
    "reported_cases_new": 0,
    "reported_cases_updated": 1,
    "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-10-18T17:35:00+02:00",
-   "started_at": "2026-10-18T16:56:00+02:00",
-   "items_new": 0,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 0,
-   "eu_lost_items_new": 0
   }
  ],
  "run_summary": {
-  "run_id": "2026-11-20T16:01:49+00:00",
+  "run_id": "2026-11-21T05:00:52+00:00",
   "new": 0,
   "modified": 0,
-  "confirmed_only": 1,
-  "touched": 1,
+  "confirmed_only": 0,
+  "touched": 0,
   "pending_review": 3,
   "by_section": {
    "items": {
     "new": 0,
     "modified": 0,
-    "confirmed_only": 1
+    "confirmed_only": 0
    },
    "reported_cases": {
     "new": 0,
@@ -4979,26 +4983,9 @@
   },
   "new_ids": [],
   "modified_ids": [],
-  "confirmed_ids": [
-   "i:eu-forras-megallapodas-2026-05"
-  ]
+  "confirmed_ids": []
  },
  "run_summary_history": [
-  {
-   "run_id": "2026-10-17T04:02:46+00:00",
-   "by_section": {
-    "items": {
-     "new": 0,
-     "modified": 0,
-     "confirmed_only": 0
-    },
-    "reported_cases": {
-     "new": 0,
-     "modified": 0,
-     "confirmed_only": 1
-    }
-   }
-  },
   {
    "run_id": "2026-10-17T10:02:52+00:00",
    "by_section": {
@@ -6476,6 +6463,21 @@
      "new": 0,
      "modified": 0,
      "confirmed_only": 1
+    },
+    "reported_cases": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    }
+   }
+  },
+  {
+   "run_id": "2026-11-21T05:00:52+00:00",
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
     },
     "reported_cases": {
      "new": 0,
