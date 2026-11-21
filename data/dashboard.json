@@ -1,13 +1,13 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-21T05:00:52+00:00",
+ "generated_at": "2026-11-21T11:03:04+00:00",
  "summary": {
   "megtakaritas_verified_huf": 2947290700000,
   "visszaszerzes_verified_huf": 1575719300000,
   "eu_forras_verified_huf": 8251000000000,
   "eu_forras_lost_huf": 730000000000,
   "items_count": 41,
-  "reported_cases_count": 71
+  "reported_cases_count": 72
  },
  "items": [
   {
@@ -1862,6 +1862,43 @@
    "id": "reported-brexit-alkalmazkodasi-rezerv-visszafizetes-2026-11",
    "first_seen_at": "2026-11-07T11:02:32+00:00",
    "updated_at": "2026-11-07T11:02:32+00:00"
+  },
+  {
+   "additional_sources": [
+    {
+     "name": "Telex",
+     "published_date": "2026-04-08",
+     "url": "https://telex.hu/belfold/2026/04/08/csad-afrika-misszio-magyar-katonak-szalay-bobrovniczky-kristof-orban-gaspar-2026-hatarozat"
+    },
+    {
+     "name": "444.hu",
+     "published_date": "2026-09-30",
+     "url": "https://444.hu/2026/09/30/ruszin-szendi-szerint-4-milliard-forint-kozpenzbe-kerult-orban-gaspar-csadi-misszioja"
+    },
+    {
+     "name": "Privátbankár.hu",
+     "published_date": "2026-09",
+     "url": "https://privatbankar.hu/cikkek/nemzetkozi/kikerult-a-csadi-misszio-a-honvedseg-zarszamadasabol.html"
+    }
+   ],
+   "alleged_amount_huf": 27000000000,
+   "alleged_amount_text": "a Honvédelmi Minisztérium 2025 novemberi tervezete szerint a 2026-os évre összesen több mint 26-27 milliárd forintos kiadással számoltak (ebből a logisztikai rész önmagában 21 milliárd forint lett volna, egy tábor felépítése 14 milliárd forint); Ruszin-Szendi Romulusz honvédelmi miniszter 2026 szeptemberében azt közölte, hogy eddig mintegy 4 milliárd forint közpénzt költöttek el a misszióra",
+   "confirmed_recovered_huf": 0,
+   "description": "A korábbi kormány 2023-2024-ben katonai missziót kezdett előkészíteni Csádban, amelynek tervezésében Orbán Viktor fia, Orbán Gáspár is részt vett a honvédelmi miniszter kabinetjének tagjaként. A Központi Nyomozó Főügyészség 2026 áprilisában kiegészítő vizsgálatot rendelt el egy hivatali visszaéléssel kapcsolatos feljelentés ügyében, és dokumentumokat kért be a Honvédelmi Minisztériumtól. A misszióra tervezett és eddig elköltött közpénz pontos összege vitatott: a tervezési dokumentumok a 2026-os évre több mint 26 milliárd forintos kiadással számoltak, míg a jelenlegi honvédelmi miniszter szerint eddig mintegy 4 milliárd forintot költöttek el.",
+   "ministry": "Honvédelmi Minisztérium — Központi Nyomozó Főügyészség kiegészítő vizsgálata",
+   "recovered_item_id": null,
+   "report_date": "2026-04-21",
+   "report_source": {
+    "name": "444.hu",
+    "published_date": "2026-04-21",
+    "url": "https://444.hu/2026/04/21/vizsgalodik-az-ugyeszseg-a-csadi-misszio-ugyeben"
+   },
+   "status": "under_investigation",
+   "subject": "Csádi katonai misszió — Orbán Gáspár szerepvállalása és a misszió költségei",
+   "verification_notes": "ÚJ TÉTEL (2026-11-21 11:56-os futás, WebSearch-en keresztül azonosított, régebbi — 2026 áprilisi — ügy, amely a korábbi futások adattárában még nem szerepelt). A kormany.hu/atlathato/feljelentes hivatalos listáján ez az ügy 2026-11-21-i ellenőrzéskor nem szerepel (az oldal tartalma változatlanul a 2026-11-13-i, 64 ügyes/4007 Mrd Ft-os állapotot mutatja), mivel ez nem kormányzati/minisztériumi feljelentés, hanem egy állampolgári/korábbi katonai szereplő (Pálinkás Szilveszter nyilvános megszólalása) nyomán indult ügyészségi kiegészítő vizsgálat. A 2026-11-21-i hirkereso.hu-n egy Portfolio-teaser ('Tovább nő a számla, már 9 milliárd forint mehetett el az előző kormány csádi missziójára') is felmerült, de az eredeti cikket ebben a futásban nem sikerült azonosítani/megerősíteni; a 9 milliárd forintos összeg ezért NEM került be alleged_amount_huf-ként, további ellenőrzésre vár egy következő futásban. Az összeg nagyságrendje vitatott: a tervezési dokumentumok (2025 november) 2026-ra 26-27 Mrd Ft-ot irányoztak elő, Ruszin-Szendi honvédelmi miniszter 2026 szeptemberében 4 Mrd Ft tényleges elköltésről beszélt (csak a bizottsági tagoknak részletezve), az Economx szerint emellett egy tevefarmra két ütemben összesen kb. 2,18 Mrd Ft ment el. Státusz 'under_investigation', mert az ügyészség formális, dokumentumbekérő kiegészítő vizsgálatot rendelt el, de a nyomozás formális elrendeléséről nincs megerősítés. Tényleges, az államhoz visszakerült vagyon nincs.",
+   "id": "reported-csadi-misszio-orban-gaspar-2026-04",
+   "updated_at": "2026-11-21T11:03:04+00:00",
+   "first_seen_at": "2026-11-21T11:03:04+00:00"
   },
   {
    "additional_sources": [
@@ -4123,44 +4160,52 @@
  },
  "last_run": {
   "errors": [
-   "Az előző (2026-11-20 17:00-ás) futás óta eltelt kb. 1 nap miatt a sajtófigyelés szándékosan szűk ablakot fedett le; a kormany.hu/atlathato/feljelentes oldal tartalma (64 ügy, 13 minisztérium, 4007 Mrd Ft, 74,0 Mrd Ft visszafizetve/megtakarítva) változatlan volt a 2026-11-13-i állapothoz képest, ezért a reported_cases kollekción nem történt frissítés.",
-   "A WebSearch-alapú 'site:444.hu' és 'site:telex.hu' lekérdezések a keresőmotor korlátai miatt nem adtak vissza 2026-11-20/21-i cikkeket; ehelyett a hirkereso.hu aggregátor 2026-11-20-i rovatlistája és több tematikus kulcsszó-keresés adta a friss tartalmat.",
-   "A 'site:k-monitor.hu' lekérdezés nem adott vissza k-monitor.hu találatot (a keresőmotor nem alkalmazta megbízhatóan a site-szűrőt); helyette általános tematikus keresésekkel (feljelentés, vagyonvisszaszerzés) ellenőriztük a témát, új, még nem rögzített ügyet nem találtunk.",
-   "Egy Portfolio.hu-s WebFetch-eredmény 'HUF 3400 milliárd EU-forrás biztosítva' állítást jelzett, de ezt két külön, célzott keresés sem tudta megerősíteni konkrét cikkel/dátummal — feltehetően téves vagy félreértett (esetleg a hiány- vagy fiskális tér becslésével összekeveredett) adat, ezért NEM került be az items kollekcióba.",
-   "Az ÁKK hivatalos államadósság-adata ezúttal sem volt közvetlenül lekérhető; az allamadossag_huf mező változatlanul a 2026-07-31-i (Magyar Nemzet/ÁKK-hivatkozás) állapotot tükrözi.",
-   "A Moody's 2026-11-20-i tervezett magyar adósminősítési döntésének kimenetele nem volt megerősíthető ebben a futásban (nem a felhasználói kategóriák közé tartozó makromutató, ezért nem is kötelező, de jelezve)."
+   "Az előző (2026-11-21 05:59-es) futás óta csak kb. 6 óra telt el, ezért a sajtófigyelés szűk ablakot fedett le; a kormany.hu/atlathato/feljelentes oldal tartalma (64 ügy, 13 minisztérium, 4007 Mrd Ft, 74,0 Mrd Ft visszafizetve/megtakarítva) változatlan volt a 2026-11-13-i állapothoz képest.",
+   "A hirkereso.hu/politika rovat URL-je 404-et adott ebben a futásban (a korábbi helyes útvonal megváltozhatott); helyette a hirkereso.hu/gazdasag rovatot és közvetlen tematikus kereséseket használtunk.",
+   "A 'site:k-monitor.hu' WebSearch-lekérdezés ezúttal sem adott vissza közvetlen k-monitor.hu találatot; a K-Monitor-témát ezért csak közvetett (más lapok általi) hivatkozásokkal sikerült ellenőrizni, új, még nem rögzített ügyet nem találtunk.",
+   "Egy hirkereso.hu-s Portfolio-teaser ('Tovább nő a számla, már 9 milliárd forint mehetett el az előző kormány csádi missziójára') felmerült, de az eredeti cikket nem sikerült azonosítani/megerősíteni ebben a futásban; az összeg ezért nem került be a most felvett reported-csadi-misszio-orban-gaspar-2026-04 tétel alleged_amount_huf mezőjébe, csak a verification_notes-ban jelezve, további ellenőrzésre vár.",
+   "Az ÁKK aktuális (október-november 2026) államadósság-adata és a KSH októberi inflációs adat pontos közzétételi dátuma a WebSearch találatokból nem volt egyértelműen megerősíthető; mivel a mai korábbi (05:59-es) futás macro_snapshot dokumentuma már tartalmazza a 2026-10-i inflációs adatokat és a 2026-11-17-i/11-20-i MNB-adatokat, és 6 óra alatt nem jelent meg új hivatalos publikáció, ebben a futásban nem készült új macro_snapshots dokumentum.",
+   "Az EU-forrásokról szóló 2026-11-21-i sajtóhírek ('megnyílt az uniós pénzcsap') ellenőrzése megerősítette, hogy ugyanarról a 2026-11-20-i, az eu-forras-megallapodas-2026-05 tételben már rögzített részleges bizottsági jóváhagyásról (126/127 mérföldkő) van szó, tényleges kifizetés továbbra sem történt; a received_huf mező (0) nem változott."
   ],
   "eu_lost_items_new": 0,
-  "finished_at": "2026-11-21T06:45:00+01:00",
-  "items_duplicate": 18,
-  "items_found_total": 18,
+  "finished_at": "2026-11-21T12:25:00+01:00",
+  "items_duplicate": 15,
+  "items_found_total": 16,
   "items_needs_review": 0,
   "items_new": 0,
-  "reported_cases_new": 0,
+  "reported_cases_new": 1,
   "reported_cases_updated": 0,
   "sources_checked": [
    "kormany.hu/atlathato/feljelentes",
    "mnvvh.hu/hirek",
-   "hirkereso.hu",
    "ugyeszseg.hu/kategoria/kozponti-nyomozo-fougyeszseg",
-   "k-monitor.hu (WebSearch)",
+   "k-monitor.hu (WebSearch, site: operátor nem adott közvetlen domain-találatot)",
+   "hirkereso.hu/gazdasag",
    "444.hu",
    "Telex",
-   "Index",
    "HVG",
+   "Index",
    "Portfolio.hu",
    "Economx",
-   "Világgazdaság",
-   "Privátbankár.hu",
    "Infostart.hu",
-   "Pénzcentrum",
-   "Eduline (K-Monitor-eredetű, Neumann-ügy)",
-   "mnb.hu/arfolyamok"
+   "Privátbankár.hu",
+   "Forbes.hu",
+   "Euronews (hu)",
+   "mfor.hu",
+   "10perc.hu"
   ],
-  "started_at": "2026-11-21T05:59:00+01:00",
-  "id": "2026-11-21T05-59"
+  "started_at": "2026-11-21T11:56:00+01:00",
+  "id": "2026-11-21T11-56"
  },
  "run_history": [
+  {
+   "finished_at": "2026-11-21T12:25:00+01:00",
+   "started_at": "2026-11-21T11:56:00+01:00",
+   "items_new": 0,
+   "reported_cases_new": 1,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
   {
    "finished_at": "2026-11-21T06:45:00+01:00",
    "started_at": "2026-11-21T05:59:00+01:00",
@@ -4952,22 +4997,14 @@
    "reported_cases_new": 2,
    "reported_cases_updated": 0,
    "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-10-19T06:05:00+02:00",
-   "started_at": "2026-10-19T05:55:00+02:00",
-   "items_new": 0,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 1,
-   "eu_lost_items_new": 0
   }
  ],
  "run_summary": {
-  "run_id": "2026-11-21T05:00:52+00:00",
-  "new": 0,
+  "run_id": "2026-11-21T11:03:04+00:00",
+  "new": 1,
   "modified": 0,
   "confirmed_only": 0,
-  "touched": 0,
+  "touched": 1,
   "pending_review": 3,
   "by_section": {
    "items": {
@@ -4976,31 +5013,18 @@
     "confirmed_only": 0
    },
    "reported_cases": {
-    "new": 0,
+    "new": 1,
     "modified": 0,
     "confirmed_only": 0
    }
   },
-  "new_ids": [],
+  "new_ids": [
+   "r:reported-csadi-misszio-orban-gaspar-2026-04"
+  ],
   "modified_ids": [],
   "confirmed_ids": []
  },
  "run_summary_history": [
-  {
-   "run_id": "2026-10-17T10:02:52+00:00",
-   "by_section": {
-    "items": {
-     "new": 0,
-     "modified": 0,
-     "confirmed_only": 0
-    },
-    "reported_cases": {
-     "new": 3,
-     "modified": 0,
-     "confirmed_only": 0
-    }
-   }
-  },
   {
    "run_id": "2026-10-17T15:01:18+00:00",
    "by_section": {
@@ -6481,6 +6505,21 @@
     },
     "reported_cases": {
      "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    }
+   }
+  },
+  {
+   "run_id": "2026-11-21T11:03:04+00:00",
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 1,
      "modified": 0,
      "confirmed_only": 0
     }
