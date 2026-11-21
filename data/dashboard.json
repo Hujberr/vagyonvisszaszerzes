@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-21T11:03:04+00:00",
+ "generated_at": "2026-11-21T16:01:54+00:00",
  "summary": {
   "megtakaritas_verified_huf": 2947290700000,
   "visszaszerzes_verified_huf": 1575719300000,
@@ -1879,12 +1879,17 @@
      "name": "Privátbankár.hu",
      "published_date": "2026-09",
      "url": "https://privatbankar.hu/cikkek/nemzetkozi/kikerult-a-csadi-misszio-a-honvedseg-zarszamadasabol.html"
+    },
+    {
+     "name": "Portfolio.hu (9 milliárd forintos összesítés)",
+     "published_date": "2026-11-21",
+     "url": "https://www.portfolio.hu/gazdasag/20261121/tovabb-no-a-szamla-mar-9-milliard-forint-mehetett-el-az-elozo-kormany-csadi-missziojara-878186"
     }
    ],
-   "alleged_amount_huf": 27000000000,
-   "alleged_amount_text": "a Honvédelmi Minisztérium 2025 novemberi tervezete szerint a 2026-os évre összesen több mint 26-27 milliárd forintos kiadással számoltak (ebből a logisztikai rész önmagában 21 milliárd forint lett volna, egy tábor felépítése 14 milliárd forint); Ruszin-Szendi Romulusz honvédelmi miniszter 2026 szeptemberében azt közölte, hogy eddig mintegy 4 milliárd forint közpénzt költöttek el a misszióra",
+   "alleged_amount_huf": 9000000000,
+   "alleged_amount_text": "a Portfolio 2026-11-21-i összesítése szerint eddig mintegy 9 milliárd forint közpénz ment el a csádi misszióra: kb. 5 milliárd forint a Hungary Helps Ügynökségen keresztül (a 2024 óta elérhető 6,9 milliárd forintos kereten belül), további kb. 4 milliárd forintot a Honvédelmi Minisztérium/Honvédség használt fel előkészítésre; a 2025 novemberi tervezet a 2026-os évre összesen több mint 26-27 milliárd forintos kiadással számolt (ebből a logisztikai rész önmagában 21 milliárd forint lett volna, egy tábor felépítése 14 milliárd forint)",
    "confirmed_recovered_huf": 0,
-   "description": "A korábbi kormány 2023-2024-ben katonai missziót kezdett előkészíteni Csádban, amelynek tervezésében Orbán Viktor fia, Orbán Gáspár is részt vett a honvédelmi miniszter kabinetjének tagjaként. A Központi Nyomozó Főügyészség 2026 áprilisában kiegészítő vizsgálatot rendelt el egy hivatali visszaéléssel kapcsolatos feljelentés ügyében, és dokumentumokat kért be a Honvédelmi Minisztériumtól. A misszióra tervezett és eddig elköltött közpénz pontos összege vitatott: a tervezési dokumentumok a 2026-os évre több mint 26 milliárd forintos kiadással számoltak, míg a jelenlegi honvédelmi miniszter szerint eddig mintegy 4 milliárd forintot költöttek el.",
+   "description": "A korábbi kormány 2023-2024-ben katonai missziót kezdett előkészíteni Csádban, amelynek tervezésében Orbán Viktor fia, Orbán Gáspár is részt vett a honvédelmi miniszter kabinetjének tagjaként. A Központi Nyomozó Főügyészség 2026 áprilisában kiegészítő vizsgálatot rendelt el egy hivatali visszaéléssel kapcsolatos feljelentés ügyében, és dokumentumokat kért be a Honvédelmi Minisztériumtól. A misszióra tervezett és eddig elköltött közpénz pontos összege vitatott: a tervezési dokumentumok a 2026-os évre több mint 26 milliárd forintos kiadással számoltak, míg a Portfolio 2026-11-21-i összesítése szerint eddig összesen mintegy 9 milliárd forint közpénzt költöttek el (ebből kb. 5 milliárd forintot a Hungary Helps Ügynökség, kb. 4 milliárd forintot a Honvédség).",
    "ministry": "Honvédelmi Minisztérium — Központi Nyomozó Főügyészség kiegészítő vizsgálata",
    "recovered_item_id": null,
    "report_date": "2026-04-21",
@@ -1895,10 +1900,10 @@
    },
    "status": "under_investigation",
    "subject": "Csádi katonai misszió — Orbán Gáspár szerepvállalása és a misszió költségei",
-   "verification_notes": "ÚJ TÉTEL (2026-11-21 11:56-os futás, WebSearch-en keresztül azonosított, régebbi — 2026 áprilisi — ügy, amely a korábbi futások adattárában még nem szerepelt). A kormany.hu/atlathato/feljelentes hivatalos listáján ez az ügy 2026-11-21-i ellenőrzéskor nem szerepel (az oldal tartalma változatlanul a 2026-11-13-i, 64 ügyes/4007 Mrd Ft-os állapotot mutatja), mivel ez nem kormányzati/minisztériumi feljelentés, hanem egy állampolgári/korábbi katonai szereplő (Pálinkás Szilveszter nyilvános megszólalása) nyomán indult ügyészségi kiegészítő vizsgálat. A 2026-11-21-i hirkereso.hu-n egy Portfolio-teaser ('Tovább nő a számla, már 9 milliárd forint mehetett el az előző kormány csádi missziójára') is felmerült, de az eredeti cikket ebben a futásban nem sikerült azonosítani/megerősíteni; a 9 milliárd forintos összeg ezért NEM került be alleged_amount_huf-ként, további ellenőrzésre vár egy következő futásban. Az összeg nagyságrendje vitatott: a tervezési dokumentumok (2025 november) 2026-ra 26-27 Mrd Ft-ot irányoztak elő, Ruszin-Szendi honvédelmi miniszter 2026 szeptemberében 4 Mrd Ft tényleges elköltésről beszélt (csak a bizottsági tagoknak részletezve), az Economx szerint emellett egy tevefarmra két ütemben összesen kb. 2,18 Mrd Ft ment el. Státusz 'under_investigation', mert az ügyészség formális, dokumentumbekérő kiegészítő vizsgálatot rendelt el, de a nyomozás formális elrendeléséről nincs megerősítés. Tényleges, az államhoz visszakerült vagyon nincs.",
+   "verification_notes": "FRISSÍTVE 2026-11-21 16:55-ös futás: a Portfolio 2026-11-21-i cikke (\"Tovább nő a számla, már 9 milliárd forint mehetett el az előző kormány csádi missziójára\") megerősítette és pontosította az előző (2026-11-21 11:56-os) futásban még csak feltételezésként jelzett 9 milliárd forintos összeget: a Hungary Helps Ügynökség a 2024 óta rendelkezésre álló 6,9 milliárd forintos keretből eddig közel 5 milliárd forintot használt fel, a Honvédség pedig további kb. 4 milliárd forintot költött az előkészítésre — ez összesen kb. 9 milliárd forint. Ruszin-Szendi Romulusz honvédelmi miniszter egy parlamenti bizottsági meghallgatáson arról is beszélt, hogy mivel az Országgyűlés saját határozatával hagyta jóvá a missziót és annak több milliárd forintos költségkeretét, jogilag nincs lehetősége feljelentést tenni emiatt. A Külügyminisztérium jelenleg a Hungary Helps 2023–2025 közötti csádi tevékenységét vizsgálja saját jelentései alapján. Az alleged_amount_huf ezért 27 Mrd Ft-ról (tervezési dokumentum szerinti becslés) 9 Mrd Ft-ra (tényleges, eddig igazolt elköltött összeg) frissítve, a korábbi tervezési becslés az alleged_amount_text-ben kontextusként megmaradt. A confirmed_recovered_huf (0) és a status (under_investigation) nem változott, mivel ez nem feljelentés vagy visszaszerzés, hanem egy múltbeli kiadás összegének pontosítása. (Korábbi megjegyzés megőrizve:) ÚJ TÉTEL (2026-11-21 11:56-os futás, WebSearch-en keresztül azonosított, régebbi — 2026 áprilisi — ügy, amely a korábbi futások adattárában még nem szerepelt). A kormany.hu/atlathato/feljelentes hivatalos listáján ez az ügy 2026-11-21-i ellenőrzéskor nem szerepel (az oldal tartalma változatlanul a 2026-11-13-i, 64 ügyes/4007 Mrd Ft-os állapotot mutatja), mivel ez nem kormányzati/minisztériumi feljelentés, hanem egy állampolgári/korábbi katonai szereplő (Pálinkás Szilveszter nyilvános megszólalása) nyomán indult ügyészségi kiegészítő vizsgálat. Státusz 'under_investigation', mert az ügyészség formális, dokumentumbekérő kiegészítő vizsgálatot rendelt el, de a nyomozás formális elrendeléséről nincs megerősítés. Tényleges, az államhoz visszakerült vagyon nincs.",
    "id": "reported-csadi-misszio-orban-gaspar-2026-04",
-   "updated_at": "2026-11-21T11:03:04+00:00",
-   "first_seen_at": "2026-11-21T11:03:04+00:00"
+   "first_seen_at": "2026-11-21T11:03:04+00:00",
+   "updated_at": "2026-11-21T16:01:54+00:00"
   },
   {
    "additional_sources": [
@@ -3564,12 +3569,32 @@
      "name": "ugyeszseg.hu (letartóztatás meghosszabbításának indítványozása)",
      "published_date": "2026-11-19",
      "url": "https://ugyeszseg.hu/category/hirek/kozponti-nyomozo-fougyeszseg/"
+    },
+    {
+     "name": "Index (vagyonzár, 2026-11-21)",
+     "published_date": "2026-11-21",
+     "url": "https://index.hu/belfold/2026/11/21/sesztak-miklos-korrupcio-milliardok-vagyonzar-ingatlan-autoszalon/"
+    },
+    {
+     "name": "444.hu (vagyonzár, 2026-11-21)",
+     "published_date": "2026-11-21",
+     "url": "https://444.hu/2026/11/21/vagyonzar-ala-kerult-sesztak-miklos-haza-es-autoszalonja"
+    },
+    {
+     "name": "HVG (vagyonzár, 2026-11-21)",
+     "published_date": "2026-11-21",
+     "url": "https://hvg.hu/itthon/20261121_zar-ala-vettek-sesztak-miklos-hazat-es-autoszalonjat"
+    },
+    {
+     "name": "Euronews (vagyonzár, 2026-11-21)",
+     "published_date": "2026-11-21",
+     "url": "https://hu.euronews.com/2026/11/21/zar-ala-vettek-sesztak-miklos-hazat-es-autoszalonjat"
     }
    ],
    "alleged_amount_huf": 12600000000,
    "alleged_amount_text": "12,6 milliárd forint (a Legfőbb Ügyészség vádirata szerinti pontos bontásban: 7,076 Mrd Ft Volánbusz-hoz kapcsolódó cégektől 2015–2018 között, 3,7066 Mrd Ft buszbeszerzésekből 2015–2017 között, 1,0507 Mrd Ft egy építőipari cégtől, 270,165 millió Ft a Nemzeti Sportközpontok projektjeivel összefüggésben)",
    "confirmed_recovered_huf": 0,
-   "description": "A Legfőbb Ügyészség 2026.09.22-én indítványozta Seszták Miklós korábbi nemzeti fejlesztési miniszter, egykori MNV-vezető mentelmi jogának felfüggesztését, hivatalos vesztegetés elfogadásának gyanúja miatt. A vádirat szerint 2015–2018 között összesen 12,6 milliárd forint kenőpénzt fogadott el: 7,076 milliárd forintot Volánbusz-hoz kapcsolódó cégektől, 3,7066 milliárd forintot buszbeszerzésekhez kapcsolódóan, 1,0507 milliárd forintot egy építőipari cégtől, valamint 270,165 millió forintot a Nemzeti Sportközpontok projektjeivel összefüggésben. Az Országgyűlés 2026. szeptember 28-án 139 igen szavazattal felfüggesztette mentelmi jogát. A bűncselekmények 5–10 év közötti szabadságvesztéssel büntetendők. 2026. november 13-án a Nemzeti Vagyonvisszaszerzési és Vagyonvédelmi Hivatal (NVVH) bejelentette, hogy az ügyhöz kapcsolódó nyomozás során erdőkben elásva, gazdasági épületekben és páncélszekrényekben összesen mintegy 6,46 milliárd forint értékű készpénzt (5,072 milliárd forint, 2,658 millió euró és 1,257 millió dollár) találtak és foglaltak le; a lefoglalt készpénzt a Magyar Államkincstárba fizették be.",
+   "description": "A Legfőbb Ügyészség 2026.09.22-én indítványozta Seszták Miklós korábbi nemzeti fejlesztési miniszter, egykori MNV-vezető mentelmi jogának felfüggesztését, hivatalos vesztegetés elfogadásának gyanúja miatt. A vádirat szerint 2015–2018 között összesen 12,6 milliárd forint kenőpénzt fogadott el: 7,076 milliárd forintot Volánbusz-hoz kapcsolódó cégektől, 3,7066 milliárd forintot buszbeszerzésekhez kapcsolódóan, 1,0507 milliárd forintot egy építőipari cégtől, valamint 270,165 millió forintot a Nemzeti Sportközpontok projektjeivel összefüggésben. Az Országgyűlés 2026. szeptember 28-án 139 igen szavazattal felfüggesztette mentelmi jogát. A bűncselekmények 5–10 év közötti szabadságvesztéssel büntetendők. 2026. november 13-án a Nemzeti Vagyonvisszaszerzési és Vagyonvédelmi Hivatal (NVVH) bejelentette, hogy az ügyhöz kapcsolódó nyomozás során erdőkben elásva, gazdasági épületekben és páncélszekrényekben összesen mintegy 6,46 milliárd forint értékű készpénzt (5,072 milliárd forint, 2,658 millió euró és 1,257 millió dollár) találtak és foglaltak le; a lefoglalt készpénzt a Magyar Államkincstárba fizették be. 2026. november 21-én a hatóság további, mintegy 9,09 milliárd forint értékben rendelt el vagyonzárat: zár alá vették Seszták kisvárdai ingatlanát és a Ramiris Autó Kft. nevű autószalonban lévő 100 százalékos üzletrészét, mert megalapozottan gyanítható, hogy a vesztegetésből származó vagyonnal gazdagodott.",
    "ministry": "Legfőbb Ügyészség (büntetőeljárás, nem kormányzati minisztériumi feljelentés) — érintett korábbi tárca: Nemzeti Fejlesztési Minisztérium / Magyar Nemzeti Vagyonkezelő (MNV)",
    "recovered_item_id": null,
    "report_date": "2026-09-22",
@@ -3580,10 +3605,10 @@
    },
    "status": "under_investigation",
    "subject": "Seszták Miklós korábbi fejlesztési miniszter korrupciós ügye (Volánbusz és építőipari megbízások)",
-   "verification_notes": "FRISSÍTVE 2026-11-20 futás: 2026. november 19-én a Központi Nyomozó Főügyészség indítványozta Seszták Miklós előzetes letartóztatásának további három hónappal történő meghosszabbítását; egy harmadik gyanúsított (ügyvéd) esetében bűnügyi felügyeletet (elektronikus nyomkövetést) indítványoztak. Ugyanezen a napon a TV2 (az mnvvh.hu közvetítésével) arról számolt be, hogy egy Nógrád megyei erdő és egy gazdasági épület — amelyeket korábban a lefoglalt készpénz esetleges rejtekhelyeként azonosítottak — Fabó György üzletember érdekeltségéhez köthető, nem feltétlenül Seszták Miklóshoz; a hatóságok a pontos tulajdonjogi hovatartozást nem erősítették meg. Ez tovább erősíti a korábban (2026-11-14/18) már jelzett bizonytalanságot a lefoglalt kb. 6,46 milliárd forintos készpénz pontos tulajdonosáról. Az alleged_amount_huf (12,6 Mrd Ft) és a confirmed_recovered_huf (0) nem változott. (Korábbi megjegyzések megőrizve, l. előző verzió.)",
+   "verification_notes": "FRISSÍTVE 2026-11-21 16:55-ös futás: a Nemzeti Nyomozó Iroda/NVVH 2026. november 21-én bejelentette, hogy mintegy 9,09 milliárd forint (9 090 080 000 Ft) értékben vagyonzárat rendeltek el Seszták Miklós ellen: zár alá vették kisvárdai ingatlanát és a Ramiris Autó Kft. nevű autószalonban lévő 100%-os üzletrészét, mert a hatóság szerint megalapozottan gyanítható, hogy a vesztegetési bűncselekményből származó vagyonnal gazdagodott, és fennállnak a vagyonelkobzás feltételei. Ez a korábban (2026-11-13) lefoglalt, kb. 6,46 milliárd forintos készpénzen FELÜLI, további vagyonelem; a kettő együtt kb. 15,5 milliárd forint értékű, ideiglenesen zárolt/lefoglalt vagyon. FONTOS: ez mindkét esetben IDEIGLENES vagyonzár/biztosítási intézkedés, NEM jogerős vagyonelkobzás vagy az államhoz véglegesen visszakerült összeg — a confirmed_recovered_huf ezért továbbra is 0, a status (under_investigation) nem változik. Legalább öt független sajtóforrás (Index, 444.hu, HVG, Portfolio, Euronews) egyezően számol be 2026-11-21-i dátummal. (Korábbi megjegyzések megőrizve, l. előző verzió.) FRISSÍTVE 2026-11-20 futás: a Központi Nyomozó Főügyészség indítványozta Seszták Miklós előzetes letartóztatásának további három hónappal történő meghosszabbítását; egy harmadik gyanúsított (ügyvéd) esetében bűnügyi felügyeletet (elektronikus nyomkövetést) indítványoztak. Ugyanezen a napon a TV2 (az mnvvh.hu közvetítésével) arról számolt be, hogy egy Nógrád megyei erdő és egy gazdasági épület — amelyeket korábban a lefoglalt készpénz esetleges rejtekhelyeként azonosítottak — Fabó György üzletember érdekeltségéhez köthető, nem feltétlenül Seszták Miklóshoz; a hatóságok a pontos tulajdonjogi hovatartozást nem erősítették meg. Ez tovább erősíti a korábban (2026-11-14/18) már jelzett bizonytalanságot a lefoglalt kb. 6,46 milliárd forintos készpénz pontos tulajdonosáról. Az alleged_amount_huf (12,6 Mrd Ft) és a confirmed_recovered_huf (0) nem változott. (Korábbi megjegyzések megőrizve, l. előző verzió.)",
    "id": "reported-sesztak-miklos-korrupcio-2026-09",
    "first_seen_at": "2026-09-28T15:02:40+00:00",
-   "updated_at": "2026-11-20T11:01:30+00:00"
+   "updated_at": "2026-11-21T16:01:54+00:00"
   },
   {
    "alleged_amount_huf": null,
@@ -4160,26 +4185,25 @@
  },
  "last_run": {
   "errors": [
-   "Az előző (2026-11-21 05:59-es) futás óta csak kb. 6 óra telt el, ezért a sajtófigyelés szűk ablakot fedett le; a kormany.hu/atlathato/feljelentes oldal tartalma (64 ügy, 13 minisztérium, 4007 Mrd Ft, 74,0 Mrd Ft visszafizetve/megtakarítva) változatlan volt a 2026-11-13-i állapothoz képest.",
-   "A hirkereso.hu/politika rovat URL-je 404-et adott ebben a futásban (a korábbi helyes útvonal megváltozhatott); helyette a hirkereso.hu/gazdasag rovatot és közvetlen tematikus kereséseket használtunk.",
-   "A 'site:k-monitor.hu' WebSearch-lekérdezés ezúttal sem adott vissza közvetlen k-monitor.hu találatot; a K-Monitor-témát ezért csak közvetett (más lapok általi) hivatkozásokkal sikerült ellenőrizni, új, még nem rögzített ügyet nem találtunk.",
-   "Egy hirkereso.hu-s Portfolio-teaser ('Tovább nő a számla, már 9 milliárd forint mehetett el az előző kormány csádi missziójára') felmerült, de az eredeti cikket nem sikerült azonosítani/megerősíteni ebben a futásban; az összeg ezért nem került be a most felvett reported-csadi-misszio-orban-gaspar-2026-04 tétel alleged_amount_huf mezőjébe, csak a verification_notes-ban jelezve, további ellenőrzésre vár.",
-   "Az ÁKK aktuális (október-november 2026) államadósság-adata és a KSH októberi inflációs adat pontos közzétételi dátuma a WebSearch találatokból nem volt egyértelműen megerősíthető; mivel a mai korábbi (05:59-es) futás macro_snapshot dokumentuma már tartalmazza a 2026-10-i inflációs adatokat és a 2026-11-17-i/11-20-i MNB-adatokat, és 6 óra alatt nem jelent meg új hivatalos publikáció, ebben a futásban nem készült új macro_snapshots dokumentum.",
-   "Az EU-forrásokról szóló 2026-11-21-i sajtóhírek ('megnyílt az uniós pénzcsap') ellenőrzése megerősítette, hogy ugyanarról a 2026-11-20-i, az eu-forras-megallapodas-2026-05 tételben már rögzített részleges bizottsági jóváhagyásról (126/127 mérföldkő) van szó, tényleges kifizetés továbbra sem történt; a received_huf mező (0) nem változott."
+   "Az előző (2026-11-21 11:56-os) futás óta csak kb. 5 óra telt el; a kormany.hu/atlathato/feljelentes oldal tartalma (64 ügy, 13 minisztérium, 4007 Mrd Ft, 74,0 Mrd Ft visszafizetve/megtakarítva) változatlan volt a 2026-11-13-i állapothoz képest, ezért a reported-osszesito-2026-09 tételen nem kellett frissíteni.",
+   "A mnvvh.hu és az ugyeszseg.hu oldalak ebben az ablakban csak a már ismert Seszták-ügyhöz (letartóztatás meghosszabbítása, Fabó György-kapcsolat) kapcsolódó, korábban már rögzített fejleményeket hozták, új ügyet nem találtunk rajtuk.",
+   "A 'site:k-monitor.hu' WebSearch-lekérdezés ezúttal sem adott vissza közvetlen k-monitor.hu találatot; a témát csak közvetett (más lapok általi) hivatkozásokkal sikerült ellenőrizni, új, még nem rögzített ügyet nem találtunk.",
+   "Egy Forbes.hu cikk ('Itt a határidő: új szakaszba lépett a Mészáros- és Szíjj-féle, 23 ezer milliárdos sztrádabiznisz megszüntetése') felmerült a hirkereso.hu-n, de a cikk teljes szövegét nem sikerült lekérni/megerősíteni ebben a futásban; a reported-mkif-autopalya-koncesszio-2026-09 tétel emiatt nem frissült, további ellenőrzésre vár.",
+   "Új macro_snapshots dokumentum nem készült: a mai 05:59-es pillanatkép óta (kb. 11 óra) nem jelent meg új KSH/MNB/ÁKK hivatalos publikáció, az ott rögzített adatok (EUR/HUF 2026-11-20, alapkamat 2026-11-17, inflációs adatok 2026-10) változatlanul érvényesek."
   ],
   "eu_lost_items_new": 0,
-  "finished_at": "2026-11-21T12:25:00+01:00",
-  "items_duplicate": 15,
+  "finished_at": "2026-11-21T17:40:00+01:00",
+  "items_duplicate": 16,
   "items_found_total": 16,
   "items_needs_review": 0,
   "items_new": 0,
-  "reported_cases_new": 1,
-  "reported_cases_updated": 0,
+  "reported_cases_new": 0,
+  "reported_cases_updated": 2,
   "sources_checked": [
    "kormany.hu/atlathato/feljelentes",
    "mnvvh.hu/hirek",
    "ugyeszseg.hu/kategoria/kozponti-nyomozo-fougyeszseg",
-   "k-monitor.hu (WebSearch, site: operátor nem adott közvetlen domain-találatot)",
+   "k-monitor.hu (WebSearch, site: operátor ismét nem adott közvetlen domain-találatot)",
    "hirkereso.hu/gazdasag",
    "444.hu",
    "Telex",
@@ -4192,12 +4216,20 @@
    "Forbes.hu",
    "Euronews (hu)",
    "mfor.hu",
-   "10perc.hu"
+   "eduline.hu"
   ],
-  "started_at": "2026-11-21T11:56:00+01:00",
-  "id": "2026-11-21T11-56"
+  "started_at": "2026-11-21T16:55:00+01:00",
+  "id": "2026-11-21T16-55"
  },
  "run_history": [
+  {
+   "finished_at": "2026-11-21T17:40:00+01:00",
+   "started_at": "2026-11-21T16:55:00+01:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 2,
+   "eu_lost_items_new": 0
+  },
   {
    "finished_at": "2026-11-21T12:25:00+01:00",
    "started_at": "2026-11-21T11:56:00+01:00",
@@ -4989,22 +5021,14 @@
    "reported_cases_new": 1,
    "reported_cases_updated": 0,
    "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-10-19T12:10:00+02:00",
-   "started_at": "2026-10-19T11:56:00+02:00",
-   "items_new": 0,
-   "reported_cases_new": 2,
-   "reported_cases_updated": 0,
-   "eu_lost_items_new": 0
   }
  ],
  "run_summary": {
-  "run_id": "2026-11-21T11:03:04+00:00",
-  "new": 1,
-  "modified": 0,
-  "confirmed_only": 0,
-  "touched": 1,
+  "run_id": "2026-11-21T16:01:54+00:00",
+  "new": 0,
+  "modified": 1,
+  "confirmed_only": 1,
+  "touched": 2,
   "pending_review": 3,
   "by_section": {
    "items": {
@@ -5013,33 +5037,20 @@
     "confirmed_only": 0
    },
    "reported_cases": {
-    "new": 1,
-    "modified": 0,
-    "confirmed_only": 0
+    "new": 0,
+    "modified": 1,
+    "confirmed_only": 1
    }
   },
-  "new_ids": [
+  "new_ids": [],
+  "modified_ids": [
    "r:reported-csadi-misszio-orban-gaspar-2026-04"
   ],
-  "modified_ids": [],
-  "confirmed_ids": []
+  "confirmed_ids": [
+   "r:reported-sesztak-miklos-korrupcio-2026-09"
+  ]
  },
  "run_summary_history": [
-  {
-   "run_id": "2026-10-17T15:01:18+00:00",
-   "by_section": {
-    "items": {
-     "new": 0,
-     "modified": 0,
-     "confirmed_only": 0
-    },
-    "reported_cases": {
-     "new": 0,
-     "modified": 0,
-     "confirmed_only": 0
-    }
-   }
-  },
   {
    "run_id": "2026-10-18T04:01:47+00:00",
    "by_section": {
@@ -6522,6 +6533,21 @@
      "new": 1,
      "modified": 0,
      "confirmed_only": 0
+    }
+   }
+  },
+  {
+   "run_id": "2026-11-21T16:01:54+00:00",
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 0,
+     "modified": 1,
+     "confirmed_only": 1
     }
    }
   }
