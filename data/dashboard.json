@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-21T16:01:54+00:00",
+ "generated_at": "2026-11-22T04:59:11+00:00",
  "summary": {
   "megtakaritas_verified_huf": 2947290700000,
   "visszaszerzes_verified_huf": 1575719300000,
@@ -4185,43 +4185,77 @@
  },
  "last_run": {
   "errors": [
-   "Az előző (2026-11-21 11:56-os) futás óta csak kb. 5 óra telt el; a kormany.hu/atlathato/feljelentes oldal tartalma (64 ügy, 13 minisztérium, 4007 Mrd Ft, 74,0 Mrd Ft visszafizetve/megtakarítva) változatlan volt a 2026-11-13-i állapothoz képest, ezért a reported-osszesito-2026-09 tételen nem kellett frissíteni.",
-   "A mnvvh.hu és az ugyeszseg.hu oldalak ebben az ablakban csak a már ismert Seszták-ügyhöz (letartóztatás meghosszabbítása, Fabó György-kapcsolat) kapcsolódó, korábban már rögzített fejleményeket hozták, új ügyet nem találtunk rajtuk.",
-   "A 'site:k-monitor.hu' WebSearch-lekérdezés ezúttal sem adott vissza közvetlen k-monitor.hu találatot; a témát csak közvetett (más lapok általi) hivatkozásokkal sikerült ellenőrizni, új, még nem rögzített ügyet nem találtunk.",
-   "Egy Forbes.hu cikk ('Itt a határidő: új szakaszba lépett a Mészáros- és Szíjj-féle, 23 ezer milliárdos sztrádabiznisz megszüntetése') felmerült a hirkereso.hu-n, de a cikk teljes szövegét nem sikerült lekérni/megerősíteni ebben a futásban; a reported-mkif-autopalya-koncesszio-2026-09 tétel emiatt nem frissült, további ellenőrzésre vár.",
-   "Új macro_snapshots dokumentum nem készült: a mai 05:59-es pillanatkép óta (kb. 11 óra) nem jelent meg új KSH/MNB/ÁKK hivatalos publikáció, az ott rögzített adatok (EUR/HUF 2026-11-20, alapkamat 2026-11-17, inflációs adatok 2026-10) változatlanul érvényesek."
+   "A kormany.hu/atlathato/feljelentes oldal tartalma (64 ügy, 13 tárca, 4007 Mrd Ft, 74,0 Mrd Ft visszafizetve/megtakarítva) ebben a futásban is megegyezett a legutóbbi (2026-11-13/19-i) rögzített állapottal — nem volt szükség frissítésre a reported-osszesito-2026-09 vagy egyedi tételeken.",
+   "Ez a futás kevesebb mint 24 órával az előző (2026-11-21 16:55–17:00 körüli) futás után indult; a kb. 12 tematikus kereséssel és a kiegészítő forrásokkal (K-Monitor, Hírkereső, mnvvh.hu, ügyészség.hu) sem sikerült azonosítani olyan új tényt, összeget vagy ügyet, amely nem szerepelne már az items vagy reported_cases kollekcióban — minden talált friss hír (pl. Seszták-ügy Fabó György-kapcsolat, Matolcsy letartóztatás meghosszabbítása, csádi misszió 9 Mrd Ft-os összesítése) a korábbi futásokban már rögzített tételek ismert fejleménye, nem új információ.",
+   "Az RRF ~10 milliárd eurós kifizetési kérelem bizottsági jóváhagyása (Euronews, 2026-11-12: 'várhatóan a következő héten') e futás idején még nem volt megerősítve friss hírben; az eu-forras-megallapodas-2026-05 tétel verification_notes-ában a 2026-11-20-i állapot (126/127 mérföldkő teljesítve, kifizetés várhatóan 2026-12-31-ig) változatlanul érvényes, új fejlemény nem került elő.",
+   "Makro-pillanatkép nem készült ebben a futásban: a legutóbbi (2026-11-21 05:59) pillanatkép óta egyetlen vizsgált mutatóhoz (GDP, munkanélküliség, infláció, EUR/HUF, alapkamat, államadósság, bér, költségvetési hiány) sem volt azonosítható új hivatalos publikáció a rendelkezésre álló keresési idő alatt — a legutóbbi pillanatkép marad érvényben.",
+   "hirkereso.hu/politika URL 404-es hibát adott; a főoldal (hirkereso.hu) Gazdaság rovata és egyéb rovatai kerültek ellenőrzésre helyette, új, még nem rögzített konkrét ügy/összeg nem került elő."
   ],
   "eu_lost_items_new": 0,
-  "finished_at": "2026-11-21T17:40:00+01:00",
-  "items_duplicate": 16,
-  "items_found_total": 16,
+  "finished_at": "2026-11-22T06:45:00+01:00",
+  "items_duplicate": 0,
+  "items_found_total": 0,
   "items_needs_review": 0,
   "items_new": 0,
   "reported_cases_new": 0,
-  "reported_cases_updated": 2,
+  "reported_cases_updated": 0,
   "sources_checked": [
    "kormany.hu/atlathato/feljelentes",
-   "mnvvh.hu/hirek",
-   "ugyeszseg.hu/kategoria/kozponti-nyomozo-fougyeszseg",
-   "k-monitor.hu (WebSearch, site: operátor ismét nem adott közvetlen domain-találatot)",
-   "hirkereso.hu/gazdasag",
+   "24.hu",
    "444.hu",
-   "Telex",
-   "HVG",
-   "Index",
-   "Portfolio.hu",
-   "Economx",
-   "Infostart.hu",
-   "Privátbankár.hu",
-   "Forbes.hu",
-   "Euronews (hu)",
+   "168.hu",
+   "atlatszo.hu",
+   "demokrata.hu",
+   "direkt36.hu",
+   "es.hu",
+   "forbes.hu",
+   "g7.hu",
+   "hirtv.hu",
+   "hvg.hu",
+   "index.hu",
+   "infostart.hu",
+   "jelen.media",
+   "klubradio.hu",
+   "magyarhang.org",
+   "magyarhirlap.hu",
+   "magyarnemzet.hu",
+   "makronom.hu",
+   "mandiner.hu",
+   "media1.hu",
    "mfor.hu",
-   "eduline.hu"
+   "merce.hu",
+   "mti.hu",
+   "nepszava.hu",
+   "origo.hu",
+   "penzcentrum.hu",
+   "portfolio.hu",
+   "privatbankar.hu",
+   "szabadeuropa.hu",
+   "telex.hu",
+   "trendfm.hu",
+   "ujegyenloseg.hu",
+   "valaszonline.hu",
+   "vg.hu",
+   "partizan.hu",
+   "okoshir.hu",
+   "szmo.hu",
+   "k-monitor.hu (WebSearch)",
+   "hirkereso.hu",
+   "mnvvh.hu/hirek",
+   "ugyeszseg.hu (Központi Nyomozó Főügyészség)"
   ],
-  "started_at": "2026-11-21T16:55:00+01:00",
-  "id": "2026-11-21T16-55"
+  "started_at": "2026-11-22T06:00:00+01:00",
+  "id": "2026-11-22T06-00"
  },
  "run_history": [
+  {
+   "finished_at": "2026-11-22T06:45:00+01:00",
+   "started_at": "2026-11-22T06:00:00+01:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
   {
    "finished_at": "2026-11-21T17:40:00+01:00",
    "started_at": "2026-11-21T16:55:00+01:00",
@@ -5013,22 +5047,14 @@
    "reported_cases_new": 0,
    "reported_cases_updated": 0,
    "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-10-19T16:59:00+02:00",
-   "started_at": "2026-10-19T16:20:00+02:00",
-   "items_new": 0,
-   "reported_cases_new": 1,
-   "reported_cases_updated": 0,
-   "eu_lost_items_new": 0
   }
  ],
  "run_summary": {
-  "run_id": "2026-11-21T16:01:54+00:00",
+  "run_id": "2026-11-22T04:59:11+00:00",
   "new": 0,
-  "modified": 1,
-  "confirmed_only": 1,
-  "touched": 2,
+  "modified": 0,
+  "confirmed_only": 0,
+  "touched": 0,
   "pending_review": 3,
   "by_section": {
    "items": {
@@ -5038,34 +5064,15 @@
    },
    "reported_cases": {
     "new": 0,
-    "modified": 1,
-    "confirmed_only": 1
+    "modified": 0,
+    "confirmed_only": 0
    }
   },
   "new_ids": [],
-  "modified_ids": [
-   "r:reported-csadi-misszio-orban-gaspar-2026-04"
-  ],
-  "confirmed_ids": [
-   "r:reported-sesztak-miklos-korrupcio-2026-09"
-  ]
+  "modified_ids": [],
+  "confirmed_ids": []
  },
  "run_summary_history": [
-  {
-   "run_id": "2026-10-18T04:01:47+00:00",
-   "by_section": {
-    "items": {
-     "new": 0,
-     "modified": 0,
-     "confirmed_only": 0
-    },
-    "reported_cases": {
-     "new": 0,
-     "modified": 0,
-     "confirmed_only": 0
-    }
-   }
-  },
   {
    "run_id": "2026-10-18T10:01:38+00:00",
    "by_section": {
@@ -6548,6 +6555,21 @@
      "new": 0,
      "modified": 1,
      "confirmed_only": 1
+    }
+   }
+  },
+  {
+   "run_id": "2026-11-22T04:59:11+00:00",
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
     }
    }
   }
