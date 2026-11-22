@@ -1,12 +1,12 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-22T11:00:46+00:00",
+ "generated_at": "2026-11-22T16:03:20+00:00",
  "summary": {
   "megtakaritas_verified_huf": 2947290700000,
   "visszaszerzes_verified_huf": 1575719300000,
   "eu_forras_verified_huf": 8251000000000,
   "eu_forras_lost_huf": 730000000000,
-  "items_count": 41,
+  "items_count": 42,
   "reported_cases_count": 72
  },
  "items": [
@@ -645,6 +645,28 @@
    "id": "megtakaritas-korm-intezkedesek-400mrd-2026-08",
    "first_seen_at": "2026-09-28T15:02:40+00:00",
    "updated_at": "2026-11-05T16:28:50+00:00"
+  },
+  {
+   "additional_sources": [],
+   "amount_huf": 897000000,
+   "amount_text": "960+ millió forintról 63 millió forint alá csökkent az utazási költség (37→23 út, 2025 május–október vs. 2026 május–október)",
+   "category": "megtakaritas",
+   "collected_at": "2026-11-22T16:59:00+01:00",
+   "currency_note": null,
+   "dedup_key": "megtakaritas|kulugyminiszterium utazasi koltseg csokkentese|897000000",
+   "description": "A Külügyminisztérium 2026 májusa és októbere között 23 útra kevesebb mint 63 millió forintot költött, szemben az előző minisztériumi vezetés 2025 azonos időszaki, 37 útra fordított, több mint 960 millió forintos kiadásával. Az átlagos útiköltség így mintegy tizedére csökkent (korábban 25,9 millió, most 2,7 millió forint alatt útanként).",
+   "duplicate_of": null,
+   "event_date": "2026-10-22",
+   "from_whom": null,
+   "source_name": "444.hu",
+   "source_published_date": "2026-10-22",
+   "source_url": "https://444.hu/2026/10/22/orban-anita-kulugyminiszteriuma-a-szijjarto-fele-elodjenek-csak-a-tizedeert-utazik",
+   "status": "needs_review",
+   "subject": "Külügyminisztérium utazási költségeinek csökkentése",
+   "verification_notes": "ÚJ TÉTEL (2026-11-22 16:59-es futás). Egyetlen sajtóforrásból (444.hu) ismert, amely Orbán Anita külügyminiszter saját Facebook-bejegyzésén alapul (önértékelés, nem független auditon vagy hivatalos minisztériumi közleményen alapuló összeg); független második sajtóforrás vagy hivatalos minisztériumi közlemény eddig nem található hozzá, ezért a státusz needs_review. Az amount_huf (897 M Ft) a két időszak ('960+ M Ft' és '63 M Ft alatt') közötti becsült különbség; a pontos forrásadatok csak 'több mint'/'kevesebb mint' formában ismertek. Kapcsolódik, de ELKÜLÖNÜL a reported-szijjarto-maganrepulo-2026-09 tételtől (a kormany.hu hivatalos listáján is szereplő, igénybe nem vett magánrepülő-foglalásokról szóló feljelentés, 4 Mrd Ft) és az Orbán Anita által a magángép-használat miatt tett, kb. 4 milliárd forintos (2022-2026 közötti) kárbecslésű feljelentéstől — ez a tétel a minisztérium összes (nem csak magángépes) utazási kiadásának 2025 vs. 2026 május-októberi összehasonlítása.",
+   "id": "megtakaritas-kum-utazasi-koltseg-csokkenes-2026-10",
+   "updated_at": "2026-11-22T16:03:20+00:00",
+   "first_seen_at": "2026-11-22T16:03:20+00:00"
   },
   {
    "additional_sources": [
@@ -3967,7 +3989,7 @@
    "url": "https://magyarnemzet.hu/gazdasag/2026/09/allamadossag-novekedes"
   },
   "allamadossag_huf": 65716000000000,
-  "collected_at": "2026-11-21T05:59:00+01:00",
+  "collected_at": "2026-11-22T16:59:00+01:00",
   "elozo": {
    "allamadossag": {
     "period": null,
@@ -4072,8 +4094,8 @@
     "key": "eur_huf",
     "label_en": "Official EUR/HUF rate (MNB)",
     "label_hu": "Euró hivatalos árfolyama (MNB)",
-    "note_en": "USD/HUF on 2026-11-20 was 340.16 Ft/USD.",
-    "note_hu": "USD/HUF 2026-11-20-án 340,16 Ft/USD.",
+    "note_en": "USD/HUF on 2026-11-20 was 340.16 Ft/USD. No more recent official MNB rate (after 2026-11-21) was available at the time of this run (weekend).",
+    "note_hu": "USD/HUF 2026-11-20-án 340,16 Ft/USD. E futás idején ennél frissebb (2026-11-21 utáni) hivatalos MNB-árfolyam nem volt elérhető (hétvége).",
     "period": "2026-11-20",
     "prev_period": "2026-11-19",
     "prev_value": 368.97,
@@ -4181,76 +4203,59 @@
    "publish_date": "2026-09-22",
    "url": "https://www.portfolio.hu/gazdasag/20260922/itt-az-mnb-uj-elorejelzese-hiaba-a-nemzetkozi-kockazatok-mersekelt-marad-az-idei-inflacio-864484"
   },
-  "id": "2026-11-21T05-59"
+  "id": "2026-11-22T16-59"
  },
  "last_run": {
   "errors": [
-   "A kormany.hu/atlathato/feljelentes oldal tartalma (64 ügy, 13 tárca, 4007 Mrd Ft, 74,0 Mrd Ft visszafizetve/megtakarítva) ebben a futásban is megegyezett a 2026-11-13-i rögzített állapottal — nem volt szükség frissítésre a reported-osszesito-2026-09 vagy egyedi tételeken.",
-   "Az egyetlen érdemi, ellenőrzött fejlemény ebben a futásban B. Balázs (NKA-ügy és óbudai korrupciós ügy gyanúsítottja) 2026-11-21-i szabadlábra helyezése volt (Kecskeméti Járásbíróság, négy hónapos bűnügyi felügyelet) — ez a két érintett reported_cases tétel (reported-hanko-balazs-nka-sikkasztas-2026-09, reported-onkormanyzati-parkfenntartas-etkeztetes-korrupcio-2026-09) verification_notes mezőjében rögzítve, összeg/státusz nem változott, ezért 'items_duplicate' alatt számolva.",
-   "Portfolio.hu 2026-11-22-i cikke 204 milliárd eurós EU-s költségvetési (2027-es többéves uniós keret) csökkentésről szól — ez az EU teljes, intézményi szintű 2027-es büdzséjéről szóló tárgyalás, nem Magyarországnak juttatott/elvett konkrét forrásról, ezért a felhasználói kategóriák (eu_forras/elveszett forrás) szerint nem releváns, nem került be.",
-   "Az RRF kb. 10 milliárd eurós kifizetési kérelem bizottsági végleges jóváhagyása és a tényleges folyósítás e futás idején sem volt megerősíthető (Euronews 2026-11-12/13: a Bizottság november végéig fejezi be az értékelést) — az eu-forras-megallapodas-2026-05 tétel received_huf mezője (0) és a 2026-11-20-i verification_notes változatlan.",
-   "A lélegeztetőgép-ügyben (reported-lelegeztetogep-nav-bunszervezet-2026-10) a 2026-10-29-i két letartóztatáson és a korábban ismert körözéseken (Májer Bálint, Kósa Gábor) túl ebben a futásban nem volt azonosítható új, konkrét fejlemény.",
-   "Az MKIF-koncesszió ügyében (reported-mkif-autopalya-koncesszio-2026-09) egy 2026 októberi, Mészáros/Szíjj-válaszra utaló cikk-teaser (VG címkeoldal) tartalma ebben a futásban sem volt megerősíthető/lekérhető, ezért nem került be.",
-   "Makro-pillanatkép nem készült ebben a futásban: a legutóbbi (2026-11-21 05:59, a mai 06:00-06:45-ös futásban is érvényben hagyott) pillanatkép óta nem volt azonosítható új KSH/MNB/ÁKK hivatalos publikáció; az ÁKK (akk.hu) államadósság-adata továbbra sem volt közvetlenül lekérhető.",
-   "hirkereso.hu/politika URL 404-es hibát adott; a /gazdasag rovat és a hirkereso.hu gyökér-oldal lapszemléje lett ellenőrizve helyette."
+   "A kormany.hu/atlathato/feljelentes oldal 2026-11-22-i tartalma változatlan az előző (2026-11-19/2026-11-13-i) állapothoz képest: 64 ügy, 4007 Mrd Ft, 74,0 Mrd Ft visszafizetve/megtakarítva — ezért a reported_cases és a reported-osszesito-2026-09 tételeken nem volt szükség frissítésre ebben a futásban.",
+   "Az ÁKK hivatalos államadósság-oldala ezúttal sem volt közvetlenül lekérhető és friss (2026-07-31 utáni) hivatalos összeget közlő sajtóforrás sem volt található; az allamadossag_huf mező változatlanul a 2026-07-31-i állapotot tükrözi.",
+   "Az MNB hivatalos EUR/HUF árfolyama 2026-11-20 óta (hétvége) nem frissült; a macro_snapshot ezt az utolsó ismert (373,22 Ft/EUR) értéket tükrözi.",
+   "A KSH októberi munkanélküliségi gyorstájékoztatója és a 2026 Q3 GDP részletes (december 1-jei) bontása e futás idején még nem jelent meg; a korábbi (2026-09-i, illetve gyorsbecslés szerinti) adatok maradtak érvényben.",
+   "A hirkereso.hu politika rovat külön URL-je (hirkereso.hu/politika) 404-et adott; a főoldal (hirkereso.hu) tartalmát néztem át helyette.",
+   "A 'Hotel Pancho Felcsúton bezár' (PiacProfit, hirkereso.hu főoldal) című hírt nem sikerült megerősíteni vagy az eredeti cikket megtalálni/azonosítani, ezért nem került be az adattárba."
   ],
   "eu_lost_items_new": 0,
-  "finished_at": "2026-11-22T14:10:00+01:00",
-  "items_duplicate": 1,
+  "finished_at": "2026-11-22T17:01:28+01:00",
+  "items_duplicate": 0,
   "items_found_total": 1,
-  "items_needs_review": 0,
-  "items_new": 0,
+  "items_needs_review": 1,
+  "items_new": 1,
   "reported_cases_new": 0,
-  "reported_cases_updated": 2,
+  "reported_cases_updated": 0,
+  "run_id": "2026-11-22T16-59",
   "sources_checked": [
    "kormany.hu/atlathato/feljelentes",
-   "24.hu",
-   "444.hu",
-   "168.hu",
-   "atlatszo.hu",
-   "demokrata.hu",
-   "direkt36.hu",
-   "es.hu",
-   "forbes.hu",
-   "g7.hu",
-   "hirtv.hu",
-   "hvg.hu",
-   "index.hu",
-   "infostart.hu",
-   "jelen.media",
-   "klubradio.hu",
-   "magyarhang.org",
-   "magyarhirlap.hu",
-   "magyarnemzet.hu",
-   "makronom.hu",
-   "mandiner.hu",
-   "media1.hu",
-   "mfor.hu",
-   "merce.hu",
-   "mti.hu",
-   "nepszava.hu",
-   "origo.hu",
-   "penzcentrum.hu",
-   "portfolio.hu",
-   "privatbankar.hu",
-   "szabadeuropa.hu",
-   "telex.hu",
-   "trendfm.hu",
-   "ujegyenloseg.hu",
-   "valaszonline.hu",
-   "vg.hu",
-   "partizan.hu",
-   "okoshir.hu",
-   "szmo.hu",
-   "k-monitor.hu (WebSearch)",
-   "hirkereso.hu/gazdasag",
    "mnvvh.hu/hirek",
-   "ugyeszseg.hu (Központi Nyomozó Főügyészség)"
+   "ugyeszseg.hu/kozponti-nyomozo-fougyeszseg",
+   "hirkereso.hu",
+   "444.hu",
+   "Telex",
+   "Index",
+   "HVG",
+   "Portfolio.hu",
+   "Economx",
+   "Privátbankár.hu",
+   "Infostart.hu",
+   "Világgazdaság",
+   "mfor.hu",
+   "Adozóna",
+   "K-Monitor (websearch)",
+   "Direkt36",
+   "Átlátszó",
+   "MNB árfolyamok"
   ],
-  "started_at": "2026-11-22T13:30:00+01:00",
-  "id": "2026-11-22T13-30"
+  "started_at": "2026-11-22T16:30:00+01:00",
+  "id": "2026-11-22T16-59"
  },
  "run_history": [
+  {
+   "finished_at": "2026-11-22T17:01:28+01:00",
+   "started_at": "2026-11-22T16:30:00+01:00",
+   "items_new": 1,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
   {
    "finished_at": "2026-11-22T14:10:00+01:00",
    "started_at": "2026-11-22T13:30:00+01:00",
@@ -5042,23 +5047,15 @@
    "reported_cases_new": 0,
    "reported_cases_updated": 0,
    "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-10-20T12:05:00+02:00",
-   "started_at": "2026-10-20T11:56:00+02:00",
-   "items_new": 0,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 1,
-   "eu_lost_items_new": 0
   }
  ],
  "run_summary": {
-  "run_id": "2026-11-22T11:00:46+00:00",
+  "run_id": "2026-11-22T16:03:20+00:00",
   "new": 0,
   "modified": 0,
-  "confirmed_only": 2,
-  "touched": 2,
-  "pending_review": 3,
+  "confirmed_only": 0,
+  "touched": 0,
+  "pending_review": 4,
   "by_section": {
    "items": {
     "new": 0,
@@ -5068,32 +5065,14 @@
    "reported_cases": {
     "new": 0,
     "modified": 0,
-    "confirmed_only": 2
+    "confirmed_only": 0
    }
   },
   "new_ids": [],
   "modified_ids": [],
-  "confirmed_ids": [
-   "r:reported-hanko-balazs-nka-sikkasztas-2026-09",
-   "r:reported-onkormanyzati-parkfenntartas-etkeztetes-korrupcio-2026-09"
-  ]
+  "confirmed_ids": []
  },
  "run_summary_history": [
-  {
-   "run_id": "2026-10-18T15:03:40+00:00",
-   "by_section": {
-    "items": {
-     "new": 0,
-     "modified": 0,
-     "confirmed_only": 0
-    },
-    "reported_cases": {
-     "new": 0,
-     "modified": 0,
-     "confirmed_only": 0
-    }
-   }
-  },
   {
    "run_id": "2026-10-19T04:02:38+00:00",
    "by_section": {
@@ -6576,6 +6555,21 @@
      "new": 0,
      "modified": 0,
      "confirmed_only": 2
+    }
+   }
+  },
+  {
+   "run_id": "2026-11-22T16:03:20+00:00",
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
     }
    }
   }
