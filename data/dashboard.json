@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-22T04:59:11+00:00",
+ "generated_at": "2026-11-22T11:00:46+00:00",
  "summary": {
   "megtakaritas_verified_huf": 2947290700000,
   "visszaszerzes_verified_huf": 1575719300000,
@@ -2380,10 +2380,10 @@
    },
    "status": "partially_recovered",
    "subject": "Hankó Balázs korábbi kulturális miniszter — Nemzeti Kulturális Alap (NKA) forrásainak választási kampányra fordítása",
-   "verification_notes": "FRISSÍTVE 2026-10-31 16:56-os futás: a Kecskeméti Járásbíróság nyomozási bírája 2026. október 28-án további három hónappal, 2027. február 1-jéig meghosszabbította Hankó Balázs ÉS Varga-Bajusz Veronika előzetes letartóztatását is, a bizonyítékok befolyásolásának és a jelenlét biztosításának szükségességére hivatkozva (eduline.hu, 2026-10-28). A döntés egyikük esetében sem jogerős. Ez eljárási fejlemény, az alleged_amount_huf (17,3 Mrd Ft) és a confirmed_recovered_huf (4,045 Mrd Ft) nem változott. (Korábbi megjegyzések megőrizve, l. előző verzió.)",
+   "verification_notes": "FRISSÍTVE 2026-11-22-es futás: a Kecskeméti Járásbíróság 2026. november 21-én (szombaton) megszüntette Bús Balázs (az NKA-ügy és az óbudai korrupciós ügy gyanúsítottja) letartóztatását, és négy hónapra bűnügyi felügyelet alá helyezte (nem hagyhatja el Komárom-Esztergom vármegyét, hetente kétszer rendőrségen kell jelentkeznie); az ügyészség maga támogatta a védelem indítványát, ezért a bíróságnak nem volt mérlegelési lehetősége. Legalább hat független sajtóforrás (Telex, Index, Origo, 444.hu, Economx, Kemma/Bama/Feol) egyezően számol be 2026-11-21/22-i dátummal. Ez eljárási fejlemény (öt hónap előzetes letartóztatás után), nem érinti az alleged_amount_huf (17,3 Mrd Ft) vagy a confirmed_recovered_huf (4,045 Mrd Ft) mezőket, a status (partially_recovered) nem változik. (Korábbi megjegyzések megőrizve, l. előző verzió.)\n\nFRISSÍTVE 2026-10-31 16:56-os futás: a Kecskeméti Járásbíróság nyomozási bírája 2026. október 28-án további három hónappal, 2027. február 1-jéig meghosszabbította Hankó Balázs ÉS Varga-Bajusz Veronika előzetes letartóztatását is, a bizonyítékok befolyásolásának és a jelenlét biztosításának szükségességére hivatkozva (eduline.hu, 2026-10-28). A döntés egyikük esetében sem jogerős. Ez eljárási fejlemény, az alleged_amount_huf (17,3 Mrd Ft) és a confirmed_recovered_huf (4,045 Mrd Ft) nem változott. (Korábbi megjegyzések megőrizve, l. előző verzió.)",
    "id": "reported-hanko-balazs-nka-sikkasztas-2026-09",
    "first_seen_at": "2026-09-28T15:02:40+00:00",
-   "updated_at": "2026-11-06T11:37:02+00:00"
+   "updated_at": "2026-11-22T11:00:46+00:00"
   },
   {
    "alleged_amount_huf": 1392000000,
@@ -3073,10 +3073,10 @@
    },
    "status": "under_investigation",
    "subject": "Önkormányzati parkfenntartási és közétkeztetési közbeszerzések — több önkormányzati ciklust átívelő korrupciós gyanú",
-   "verification_notes": "FRISSÍTVE 2026-10-06: az Index interjúja szerint Őrsi Gergely (II. kerületi polgármester) tagadja a vádakat; a vádhatóság állítása szerint 2021-ben 70, 2022-ben 90, 2023-ban pedig 100 millió forintot (összesen kb. 260-290 millió forintot) kapott kenőpénzként, ez képezi a nála felmerülő gyanú konkrét összegét az ügy 2 milliárd forintos teljes, több politikust érintő összegén belül. Előzetes letartóztatását megszüntették, jelenleg bűnügyi felügyelet (elektronikus nyomkövető eszköz) alatt áll. Az ügy teljes, 2011-2024 közötti időszaka és a 2+ milliárd forintos összesített gyanúsított összeg nem változott, tényleges visszaszerzés továbbra sincs. (Korábbi megjegyzések megőrizve, l. előző verzió.) FRISSÍTVE 2026-09-28 (esti ellenőrzés, Népszava): a 2026-09-28-i cikk szerint az ügy 2011–2024 közötti, több fővárosi kerületet érintő parkfenntartási cég vezetőjéhez köthető, aki a gyanú szerint összesen több mint 2 milliárd forintot juttatott politikusoknak (több párt képviselőinek egyaránt) a megbízások megtartásáért — ez az első konkrét összeg- és időszakadat az ügyben; érintett önkormányzat vagy cégnév továbbra sem ismert. FRISSÍTVE 2026-09-29: az ügy azonosítható az ügyészség és több sajtóforrás (HVG, Világgazdaság, Magyar Hang, Infostart, Forbes, Origo, 10perc, Népszava, mind 2026-09-11) által 'óbudai korrupciós ügy' néven tárgyalt, jóval korábban induló nyomozással: a Központi Nyomozó Főügyészség 2026-09-11-én további 14 gyanúsítottat hallgatott ki, ezzel 47-re nőtt az összes gyanúsított száma; köztük Fidesz és MSZP oldali önkormányzati politikusok is (pl. Bús Balázs volt III. kerületi polgármester, Puskás Péter volt III. kerületi alpolgármester, Őrsi Gergely II. kerületi polgármester, Láng Zsolt volt II. kerületi polgármester, Molnár Zsolt volt MSZP-s országgyűlési képviselő, valamint Momentum-os önkormányzati képviselők), illetve Veres Tibort (Wallis Csoport, az egyik leggazdagabb magyar) is gyanúsítottként hallgatták ki. Hét gyanúsított továbbra is letartóztatásban van. A 2 milliárd forintos vesztegetési összeg és a 2011–2024-es időszak megegyezik a korábban rögzített adatokkal, ez tehát ugyanaz az ügy, csak kiegészítve a nyomozás korábbi (2026-09-11-i és azt megelőző) szakaszának részleteivel. Konkrét, az államhoz ténylegesen visszakerült összeg továbbra sem ismert, a confirmed_recovered_huf ezért változatlanul 0.",
+   "verification_notes": "FRISSÍTVE 2026-11-22-es futás: a Kecskeméti Járásbíróság 2026. november 21-én megszüntette Bús Balázs (az óbudai korrupciós ügy és az NKA-ügy gyanúsítottja) letartóztatását, és négy hónapra bűnügyi felügyelet alá helyezte (Komárom-Esztergom vármegyét nem hagyhatja el, hetente kétszer rendőrségen kell jelentkeznie); az ügyészség maga támogatta a védelem indítványát. Legalább hat független sajtóforrás (Telex, Index, Origo, 444.hu, Economx, Kemma/Bama/Feol) egyezően számol be 2026-11-21/22-i dátummal. Ez eljárási fejlemény öt hónap előzetes letartóztatás után, nem érinti az alleged_amount_huf (2 Mrd Ft) vagy a confirmed_recovered_huf (0) mezőket, a status (under_investigation) nem változik. (Korábbi megjegyzések megőrizve, l. előző verzió.)",
    "id": "reported-onkormanyzati-parkfenntartas-etkeztetes-korrupcio-2026-09",
    "first_seen_at": "2026-09-28T15:02:40+00:00",
-   "updated_at": "2026-11-07T05:03:54+00:00"
+   "updated_at": "2026-11-22T11:00:46+00:00"
   },
   {
    "additional_sources": [],
@@ -4185,20 +4185,23 @@
  },
  "last_run": {
   "errors": [
-   "A kormany.hu/atlathato/feljelentes oldal tartalma (64 ügy, 13 tárca, 4007 Mrd Ft, 74,0 Mrd Ft visszafizetve/megtakarítva) ebben a futásban is megegyezett a legutóbbi (2026-11-13/19-i) rögzített állapottal — nem volt szükség frissítésre a reported-osszesito-2026-09 vagy egyedi tételeken.",
-   "Ez a futás kevesebb mint 24 órával az előző (2026-11-21 16:55–17:00 körüli) futás után indult; a kb. 12 tematikus kereséssel és a kiegészítő forrásokkal (K-Monitor, Hírkereső, mnvvh.hu, ügyészség.hu) sem sikerült azonosítani olyan új tényt, összeget vagy ügyet, amely nem szerepelne már az items vagy reported_cases kollekcióban — minden talált friss hír (pl. Seszták-ügy Fabó György-kapcsolat, Matolcsy letartóztatás meghosszabbítása, csádi misszió 9 Mrd Ft-os összesítése) a korábbi futásokban már rögzített tételek ismert fejleménye, nem új információ.",
-   "Az RRF ~10 milliárd eurós kifizetési kérelem bizottsági jóváhagyása (Euronews, 2026-11-12: 'várhatóan a következő héten') e futás idején még nem volt megerősítve friss hírben; az eu-forras-megallapodas-2026-05 tétel verification_notes-ában a 2026-11-20-i állapot (126/127 mérföldkő teljesítve, kifizetés várhatóan 2026-12-31-ig) változatlanul érvényes, új fejlemény nem került elő.",
-   "Makro-pillanatkép nem készült ebben a futásban: a legutóbbi (2026-11-21 05:59) pillanatkép óta egyetlen vizsgált mutatóhoz (GDP, munkanélküliség, infláció, EUR/HUF, alapkamat, államadósság, bér, költségvetési hiány) sem volt azonosítható új hivatalos publikáció a rendelkezésre álló keresési idő alatt — a legutóbbi pillanatkép marad érvényben.",
-   "hirkereso.hu/politika URL 404-es hibát adott; a főoldal (hirkereso.hu) Gazdaság rovata és egyéb rovatai kerültek ellenőrzésre helyette, új, még nem rögzített konkrét ügy/összeg nem került elő."
+   "A kormany.hu/atlathato/feljelentes oldal tartalma (64 ügy, 13 tárca, 4007 Mrd Ft, 74,0 Mrd Ft visszafizetve/megtakarítva) ebben a futásban is megegyezett a 2026-11-13-i rögzített állapottal — nem volt szükség frissítésre a reported-osszesito-2026-09 vagy egyedi tételeken.",
+   "Az egyetlen érdemi, ellenőrzött fejlemény ebben a futásban B. Balázs (NKA-ügy és óbudai korrupciós ügy gyanúsítottja) 2026-11-21-i szabadlábra helyezése volt (Kecskeméti Járásbíróság, négy hónapos bűnügyi felügyelet) — ez a két érintett reported_cases tétel (reported-hanko-balazs-nka-sikkasztas-2026-09, reported-onkormanyzati-parkfenntartas-etkeztetes-korrupcio-2026-09) verification_notes mezőjében rögzítve, összeg/státusz nem változott, ezért 'items_duplicate' alatt számolva.",
+   "Portfolio.hu 2026-11-22-i cikke 204 milliárd eurós EU-s költségvetési (2027-es többéves uniós keret) csökkentésről szól — ez az EU teljes, intézményi szintű 2027-es büdzséjéről szóló tárgyalás, nem Magyarországnak juttatott/elvett konkrét forrásról, ezért a felhasználói kategóriák (eu_forras/elveszett forrás) szerint nem releváns, nem került be.",
+   "Az RRF kb. 10 milliárd eurós kifizetési kérelem bizottsági végleges jóváhagyása és a tényleges folyósítás e futás idején sem volt megerősíthető (Euronews 2026-11-12/13: a Bizottság november végéig fejezi be az értékelést) — az eu-forras-megallapodas-2026-05 tétel received_huf mezője (0) és a 2026-11-20-i verification_notes változatlan.",
+   "A lélegeztetőgép-ügyben (reported-lelegeztetogep-nav-bunszervezet-2026-10) a 2026-10-29-i két letartóztatáson és a korábban ismert körözéseken (Májer Bálint, Kósa Gábor) túl ebben a futásban nem volt azonosítható új, konkrét fejlemény.",
+   "Az MKIF-koncesszió ügyében (reported-mkif-autopalya-koncesszio-2026-09) egy 2026 októberi, Mészáros/Szíjj-válaszra utaló cikk-teaser (VG címkeoldal) tartalma ebben a futásban sem volt megerősíthető/lekérhető, ezért nem került be.",
+   "Makro-pillanatkép nem készült ebben a futásban: a legutóbbi (2026-11-21 05:59, a mai 06:00-06:45-ös futásban is érvényben hagyott) pillanatkép óta nem volt azonosítható új KSH/MNB/ÁKK hivatalos publikáció; az ÁKK (akk.hu) államadósság-adata továbbra sem volt közvetlenül lekérhető.",
+   "hirkereso.hu/politika URL 404-es hibát adott; a /gazdasag rovat és a hirkereso.hu gyökér-oldal lapszemléje lett ellenőrizve helyette."
   ],
   "eu_lost_items_new": 0,
-  "finished_at": "2026-11-22T06:45:00+01:00",
-  "items_duplicate": 0,
-  "items_found_total": 0,
+  "finished_at": "2026-11-22T14:10:00+01:00",
+  "items_duplicate": 1,
+  "items_found_total": 1,
   "items_needs_review": 0,
   "items_new": 0,
   "reported_cases_new": 0,
-  "reported_cases_updated": 0,
+  "reported_cases_updated": 2,
   "sources_checked": [
    "kormany.hu/atlathato/feljelentes",
    "24.hu",
@@ -4240,14 +4243,22 @@
    "okoshir.hu",
    "szmo.hu",
    "k-monitor.hu (WebSearch)",
-   "hirkereso.hu",
+   "hirkereso.hu/gazdasag",
    "mnvvh.hu/hirek",
    "ugyeszseg.hu (Központi Nyomozó Főügyészség)"
   ],
-  "started_at": "2026-11-22T06:00:00+01:00",
-  "id": "2026-11-22T06-00"
+  "started_at": "2026-11-22T13:30:00+01:00",
+  "id": "2026-11-22T13-30"
  },
  "run_history": [
+  {
+   "finished_at": "2026-11-22T14:10:00+01:00",
+   "started_at": "2026-11-22T13:30:00+01:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 2,
+   "eu_lost_items_new": 0
+  },
   {
    "finished_at": "2026-11-22T06:45:00+01:00",
    "started_at": "2026-11-22T06:00:00+01:00",
@@ -5039,22 +5050,14 @@
    "reported_cases_new": 0,
    "reported_cases_updated": 1,
    "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-10-20T06:10:00+02:00",
-   "started_at": "2026-10-20T05:55:00+02:00",
-   "items_new": 0,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 0,
-   "eu_lost_items_new": 0
   }
  ],
  "run_summary": {
-  "run_id": "2026-11-22T04:59:11+00:00",
+  "run_id": "2026-11-22T11:00:46+00:00",
   "new": 0,
   "modified": 0,
-  "confirmed_only": 0,
-  "touched": 0,
+  "confirmed_only": 2,
+  "touched": 2,
   "pending_review": 3,
   "by_section": {
    "items": {
@@ -5065,29 +5068,17 @@
    "reported_cases": {
     "new": 0,
     "modified": 0,
-    "confirmed_only": 0
+    "confirmed_only": 2
    }
   },
   "new_ids": [],
   "modified_ids": [],
-  "confirmed_ids": []
+  "confirmed_ids": [
+   "r:reported-hanko-balazs-nka-sikkasztas-2026-09",
+   "r:reported-onkormanyzati-parkfenntartas-etkeztetes-korrupcio-2026-09"
+  ]
  },
  "run_summary_history": [
-  {
-   "run_id": "2026-10-18T10:01:38+00:00",
-   "by_section": {
-    "items": {
-     "new": 0,
-     "modified": 0,
-     "confirmed_only": 0
-    },
-    "reported_cases": {
-     "new": 0,
-     "modified": 0,
-     "confirmed_only": 2
-    }
-   }
-  },
   {
    "run_id": "2026-10-18T15:03:40+00:00",
    "by_section": {
@@ -6570,6 +6561,21 @@
      "new": 0,
      "modified": 0,
      "confirmed_only": 0
+    }
+   }
+  },
+  {
+   "run_id": "2026-11-22T11:00:46+00:00",
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 2
     }
    }
   }
