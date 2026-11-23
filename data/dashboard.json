@@ -1,13 +1,13 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-22T16:03:20+00:00",
+ "generated_at": "2026-11-23T05:01:40+00:00",
  "summary": {
   "megtakaritas_verified_huf": 2947290700000,
   "visszaszerzes_verified_huf": 1575719300000,
   "eu_forras_verified_huf": 8251000000000,
   "eu_forras_lost_huf": 730000000000,
   "items_count": 42,
-  "reported_cases_count": 72
+  "reported_cases_count": 73
  },
  "items": [
   {
@@ -665,8 +665,8 @@
    "subject": "Külügyminisztérium utazási költségeinek csökkentése",
    "verification_notes": "ÚJ TÉTEL (2026-11-22 16:59-es futás). Egyetlen sajtóforrásból (444.hu) ismert, amely Orbán Anita külügyminiszter saját Facebook-bejegyzésén alapul (önértékelés, nem független auditon vagy hivatalos minisztériumi közleményen alapuló összeg); független második sajtóforrás vagy hivatalos minisztériumi közlemény eddig nem található hozzá, ezért a státusz needs_review. Az amount_huf (897 M Ft) a két időszak ('960+ M Ft' és '63 M Ft alatt') közötti becsült különbség; a pontos forrásadatok csak 'több mint'/'kevesebb mint' formában ismertek. Kapcsolódik, de ELKÜLÖNÜL a reported-szijjarto-maganrepulo-2026-09 tételtől (a kormany.hu hivatalos listáján is szereplő, igénybe nem vett magánrepülő-foglalásokról szóló feljelentés, 4 Mrd Ft) és az Orbán Anita által a magángép-használat miatt tett, kb. 4 milliárd forintos (2022-2026 közötti) kárbecslésű feljelentéstől — ez a tétel a minisztérium összes (nem csak magángépes) utazási kiadásának 2025 vs. 2026 május-októberi összehasonlítása.",
    "id": "megtakaritas-kum-utazasi-koltseg-csokkenes-2026-10",
-   "updated_at": "2026-11-22T16:03:20+00:00",
-   "first_seen_at": "2026-11-22T16:03:20+00:00"
+   "first_seen_at": "2026-11-22T16:03:20+00:00",
+   "updated_at": "2026-11-22T16:03:20+00:00"
   },
   {
    "additional_sources": [
@@ -2923,6 +2923,43 @@
    "updated_at": "2026-11-19T05:01:57+00:00"
   },
   {
+   "additional_sources": [
+    {
+     "name": "Economx",
+     "published_date": "2026-10-26",
+     "url": "https://www.economx.hu/belfold/nagy-martonnak-utazasok-koltsegek-kozerdeku-adat-penzugyminiszterium/"
+    },
+    {
+     "name": "HVG",
+     "published_date": "2026-07-13",
+     "url": "https://hvg.hu/itthon/20260713_brusszelben-volt-hivatalos-uton-de-egy-antwerpeni-luxusszallodaban-is-bereltek-szobat-nagy-martonnak"
+    },
+    {
+     "name": "Telex",
+     "published_date": "2026-07-13",
+     "url": "https://telex.hu/gazdasag/2026/07/13/nagy-marton-szallaskoltseg-brusszel-antwerpen"
+    }
+   ],
+   "alleged_amount_huf": 132000000,
+   "alleged_amount_text": "a minisztérium becslése szerint a kár meghaladja a százmillió forintot; korábbi sajtófeltárás szerint a volt miniszter és delegációi két év alatt több mint 132 millió forintot költöttek szállás- és közlekedési költségekre külföldi utakon, ebből 2023 és 2026 között 51,9 millió forintot külföldi szállásokra",
+   "confirmed_recovered_huf": 0,
+   "description": "A Pénzügyminisztérium 2026. október 26-án feljelentést tett Nagy Márton korábbi nemzetgazdasági miniszter külföldi utazásai és a Nemzetgazdasági Minisztérium delegációinak kiküldetései ügyében, hűtlen kezelés, költségvetési csalás és hivatali vesztegetés elfogadásának megalapozott gyanúja miatt. A háttérben hosszú jogi eljárás eredményeként nyilvánosságra hozott adatok állnak: a korábbi miniszter brüsszeli uniós tárgyalásai (Ecofin-ülések) alkalmával több alkalommal egy antwerpeni luxusszállodában szállt meg, egy alkalommal a Brüsszel és Brugge közötti, mindössze 88 kilométeres útra bérelt magánrepülőgépet használtak.",
+   "ministry": "Pénzügyminisztérium",
+   "recovered_item_id": null,
+   "report_date": "2026-10-26",
+   "report_source": {
+    "name": "444.hu",
+    "published_date": "2026-10-26",
+    "url": "https://444.hu/2026/10/26/a-penzugyminiszterium-feljelentest-tett-nagy-marton-luxusutazasai-miatt"
+   },
+   "status": "reported",
+   "subject": "Nagy Márton korábbi nemzetgazdasági miniszter — luxusutazások és külföldi kiküldetések közpénzből",
+   "verification_notes": "ÚJ TÉTEL (2026-11-23 05:59-es futás, WebSearch-en keresztül azonosított, 2026-10-26-i ügy, amely a korábbi futások adattárában még nem szerepelt). A kormany.hu/atlathato/feljelentes hivatalos listáján 2026-11-23-i ellenőrzéskor (az oldal tartalma a 2026-11-13-i, 64 ügyes/4007 Mrd Ft-os állapothoz képest változatlan volt) ez az ügy még NEM szerepel önálló tételként — lehet, hogy a hivatalos oldal még nem frissült ezzel, vagy a Pénzügyminisztérium feljelentése nem minősül a lista szempontjából önálló, nevesített ügynek. A pontos kárösszeg forrásonként eltér: a feljelentésről szóló hír (444.hu, 2026-10-26) 'meghaladja a százmillió forintot' becslést közöl, míg egy korábbi (2026 júliusi) 444.hu-összefoglaló szerint a miniszter és delegációi két év alatt meghaladták a 132 millió forintot szállás- és közlekedési költségekkel; az Economx szerint 2023 és 2026 között 51,9 millió forintot költöttek külföldi szállásokra. Az alleged_amount_huf ezért a korábbi, részletesebb sajtóbecslést (132 M Ft) tükrözi, az alleged_amount_text tartalmazza mindkét adatot. Egyetlen fő forrásból (444.hu) ismert a feljelentés ténye, de a mögötte álló tényfeltárást több független forrás (Telex, HVG, Economx) is megerősítette, ezért status 'reported'. Megkülönböztetendő a korábban rögzített reported-egyeb-miniszteriumi-18ugy-2026 gyűjtőtételben szereplő 'miniszteri delegációs utazások' (4 Mrd Ft, Honvédelmi Minisztérium) és a reported-szijjarto-maganrepulo-2026-09 (Külügyminisztérium) tételektől — ez egy önálló, a korábbi Nemzetgazdasági Minisztérium (Nagy Márton) utazásait érintő, külön feljelentés.",
+   "id": "reported-nagy-marton-luxusutazas-2026-10",
+   "updated_at": "2026-11-23T05:01:40+00:00",
+   "first_seen_at": "2026-11-23T05:01:40+00:00"
+  },
+  {
    "alleged_amount_huf": null,
    "alleged_amount_text": null,
    "confirmed_recovered_huf": 0,
@@ -3989,7 +4026,7 @@
    "url": "https://magyarnemzet.hu/gazdasag/2026/09/allamadossag-novekedes"
   },
   "allamadossag_huf": 65716000000000,
-  "collected_at": "2026-11-22T16:59:00+01:00",
+  "collected_at": "2026-11-23T05:59:00+01:00",
   "elozo": {
    "allamadossag": {
     "period": null,
@@ -4013,8 +4050,8 @@
     "key": "gdp_novekedes_eves",
     "label_en": "GDP growth (year-on-year)",
     "label_hu": "GDP-növekedés (éves)",
-    "note_en": "KSH's flash estimate put Q3 growth at 1.5% year-on-year. The detailed breakdown follows on 1 December.",
-    "note_hu": "A KSH gyorsbecslése szerint a magyar gazdaság a harmadik negyedévben az előző év azonos időszakához képest 1,5%-kal nőtt. A részletes, komponensenkénti bontást a KSH december 1-jén teszi közzé.",
+    "note_en": "KSH's flash estimate put Q3 growth at 1.5% year-on-year. The detailed breakdown follows on 1 December; not yet published at the time of this run.",
+    "note_hu": "A KSH gyorsbecslése szerint a magyar gazdaság a harmadik negyedévben az előző év azonos időszakához képest 1,5%-kal nőtt. A részletes, komponensenkénti bontást a KSH december 1-jén teszi közzé — e futás idején még nem jelent meg.",
     "period": "2026 Q3",
     "prev_period": "2026 Q2",
     "prev_value": 1.7,
@@ -4078,7 +4115,7 @@
     "label_en": "Central bank base rate",
     "label_hu": "Jegybanki alapkamat",
     "note_en": "The Monetary Council kept the base rate unchanged at 5.50% at its 17 November 2026 meeting, in a non-unanimous vote; the deposit rate stayed at 4.50% and the lending rate at 6.50%.",
-    "note_hu": "Az MNB Monetáris Tanácsa 2026. november 17-i ülésén nem egyhangú döntéssel 5,50 százalékon tartotta a jegybanki alapkamatot; a betéti kamat 4,50%, a hitelkamat 6,50% maradt.",
+    "note_hu": "Az MNB Monetáris Tanácsa 2026. november 17-i ülésén nem egyhangú döntéssel 5,50 százalékon tartotta a jegybanki alapkamatot; a betéti kamat 4,50%, a hitelkamat 6,50% maradt. A következő kamatdöntő ülés e futás idején még nem volt esedékes.",
     "period": "2026-11-17",
     "prev_period": "2026-10-20",
     "prev_value": 5.5,
@@ -4094,8 +4131,8 @@
     "key": "eur_huf",
     "label_en": "Official EUR/HUF rate (MNB)",
     "label_hu": "Euró hivatalos árfolyama (MNB)",
-    "note_en": "USD/HUF on 2026-11-20 was 340.16 Ft/USD. No more recent official MNB rate (after 2026-11-21) was available at the time of this run (weekend).",
-    "note_hu": "USD/HUF 2026-11-20-án 340,16 Ft/USD. E futás idején ennél frissebb (2026-11-21 utáni) hivatalos MNB-árfolyam nem volt elérhető (hétvége).",
+    "note_en": "No more recent official MNB rate could be reliably confirmed at the time of this run; the last known rate (2026-11-20) remains in effect.",
+    "note_hu": "E futás idején (2026-11-23, hétfő reggel) nem volt megbízhatóan azonosítható ennél frissebb, hivatalos MNB-árfolyam; a legutóbbi ismert, 2026-11-20-i érték maradt érvényben. USD/HUF 2026-11-20-án 340,16 Ft/USD volt.",
     "period": "2026-11-20",
     "prev_period": "2026-11-19",
     "prev_value": 368.97,
@@ -4111,7 +4148,7 @@
     "key": "brutto_atlagkereset",
     "label_en": "Average gross wage",
     "label_hu": "Bruttó átlagkereset",
-    "note_hu": "Éves összevetésben 8,4%-os növekedés; bruttó mediánkereset 611 400 Ft.",
+    "note_hu": "Éves összevetésben 8,4%-os növekedés; bruttó mediánkereset 611 400 Ft. A szeptemberi adat e futás idején még nem jelent meg.",
     "period": "2026-08",
     "prev_period": "2026-07",
     "prev_value": 745500,
@@ -4203,51 +4240,56 @@
    "publish_date": "2026-09-22",
    "url": "https://www.portfolio.hu/gazdasag/20260922/itt-az-mnb-uj-elorejelzese-hiaba-a-nemzetkozi-kockazatok-mersekelt-marad-az-idei-inflacio-864484"
   },
-  "id": "2026-11-22T16-59"
+  "id": "2026-11-23T05-59"
  },
  "last_run": {
   "errors": [
-   "A kormany.hu/atlathato/feljelentes oldal 2026-11-22-i tartalma változatlan az előző (2026-11-19/2026-11-13-i) állapothoz képest: 64 ügy, 4007 Mrd Ft, 74,0 Mrd Ft visszafizetve/megtakarítva — ezért a reported_cases és a reported-osszesito-2026-09 tételeken nem volt szükség frissítésre ebben a futásban.",
-   "Az ÁKK hivatalos államadósság-oldala ezúttal sem volt közvetlenül lekérhető és friss (2026-07-31 utáni) hivatalos összeget közlő sajtóforrás sem volt található; az allamadossag_huf mező változatlanul a 2026-07-31-i állapotot tükrözi.",
-   "Az MNB hivatalos EUR/HUF árfolyama 2026-11-20 óta (hétvége) nem frissült; a macro_snapshot ezt az utolsó ismert (373,22 Ft/EUR) értéket tükrözi.",
-   "A KSH októberi munkanélküliségi gyorstájékoztatója és a 2026 Q3 GDP részletes (december 1-jei) bontása e futás idején még nem jelent meg; a korábbi (2026-09-i, illetve gyorsbecslés szerinti) adatok maradtak érvényben.",
-   "A hirkereso.hu politika rovat külön URL-je (hirkereso.hu/politika) 404-et adott; a főoldal (hirkereso.hu) tartalmát néztem át helyette.",
-   "A 'Hotel Pancho Felcsúton bezár' (PiacProfit, hirkereso.hu főoldal) című hírt nem sikerült megerősíteni vagy az eredeti cikket megtalálni/azonosítani, ezért nem került be az adattárba."
+   "A WebFetch/WebSearch eszközök révén a 36 figyelt portfólió mindegyikét egyenként nem lehetett külön végignézni; helyette 10+ tematikus WebSearch lefuttatása történt, amelyek a figyelt portfóliók jelentős részét (444, Telex, Index, HVG, Portfolio, Economx, VG, Infostart, Privátbankár, Pénzcentrum, Origo) lefedték.",
+   "hirkereso.hu/politika 404-es hibával nem volt elérhető ebben a futásban.",
+   "Friss, 2026-11-23-i (mai) hivatalos MNB EUR/HUF árfolyam nem volt megbízhatóan azonosítható a keresésben; a legutóbbi ismert (2026-11-20) érték maradt érvényben.",
+   "A KSH októberi munkaerőpiaci gyorstájékoztatója, a GDP részletes (dec. 1-i) bontása és a novemberi központi alrendszer-hiány adat e futás idején még nem jelent meg — a legutóbbi publikált értékek maradtak érvényben.",
+   "Egy 2024 októberi RSZTOP-túlszámolási ügyet (Integritás Hatóság feljelentése, 10,2 Mrd Ft) és a 2026 augusztus 20-i tűzijáték-közbeszerzés Hadházy-féle feljelentését megvizsgáltuk, de nem kerültek fel: az első túl régi (2024-es, a jelenlegi kormányváltás előtti) és már lezárt jellegű, a második pedig a JELENLEGI kormányhoz köthető rendezvényt érinti, nem egy korábbi (Fidesz/Orbán-korszakbeli) közpénzügyet, így nem felel meg a felhasználói szűrési szabálynak."
   ],
   "eu_lost_items_new": 0,
-  "finished_at": "2026-11-22T17:01:28+01:00",
+  "finished_at": "2026-11-23T06:10:00+01:00",
   "items_duplicate": 0,
   "items_found_total": 1,
-  "items_needs_review": 1,
-  "items_new": 1,
-  "reported_cases_new": 0,
+  "items_needs_review": 0,
+  "items_new": 0,
+  "reported_cases_new": 1,
   "reported_cases_updated": 0,
-  "run_id": "2026-11-22T16-59",
   "sources_checked": [
-   "kormany.hu/atlathato/feljelentes",
+   "kormany.hu/atlathato/feljelentes (WebFetch sikeres, 2026-11-13-i állapot — változatlan a legutóbbi rögzített állapothoz képest)",
    "mnvvh.hu/hirek",
-   "ugyeszseg.hu/kozponti-nyomozo-fougyeszseg",
-   "hirkereso.hu",
+   "k-monitor.hu (WebSearch)",
+   "hirkereso.hu/politika (404, nem elérhető)",
    "444.hu",
-   "Telex",
-   "Index",
-   "HVG",
-   "Portfolio.hu",
-   "Economx",
-   "Privátbankár.hu",
-   "Infostart.hu",
-   "Világgazdaság",
-   "mfor.hu",
-   "Adozóna",
-   "K-Monitor (websearch)",
-   "Direkt36",
-   "Átlátszó",
-   "MNB árfolyamok"
+   "telex.hu",
+   "index.hu",
+   "hvg.hu",
+   "portfolio.hu",
+   "economx.hu",
+   "vg.hu",
+   "infostart.hu",
+   "privatbankar.hu",
+   "penzcentrum.hu",
+   "origo.hu",
+   "adozona.hu (KSH/PM adatok)",
+   "euronews.hu",
+   "dailynewshungary.com"
   ],
-  "started_at": "2026-11-22T16:30:00+01:00",
-  "id": "2026-11-22T16-59"
+  "started_at": "2026-11-23T05:30:00+01:00",
+  "id": "2026-11-23T05-59"
  },
  "run_history": [
+  {
+   "finished_at": "2026-11-23T06:10:00+01:00",
+   "started_at": "2026-11-23T05:30:00+01:00",
+   "items_new": 0,
+   "reported_cases_new": 1,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
   {
    "finished_at": "2026-11-22T17:01:28+01:00",
    "started_at": "2026-11-22T16:30:00+01:00",
@@ -5039,22 +5081,14 @@
    "reported_cases_new": 0,
    "reported_cases_updated": 0,
    "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-10-20T17:10:00+02:00",
-   "started_at": "2026-10-20T16:56:00+02:00",
-   "items_new": 0,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 0,
-   "eu_lost_items_new": 0
   }
  ],
  "run_summary": {
-  "run_id": "2026-11-22T16:03:20+00:00",
-  "new": 0,
+  "run_id": "2026-11-23T05:01:40+00:00",
+  "new": 1,
   "modified": 0,
   "confirmed_only": 0,
-  "touched": 0,
+  "touched": 1,
   "pending_review": 4,
   "by_section": {
    "items": {
@@ -5063,31 +5097,18 @@
     "confirmed_only": 0
    },
    "reported_cases": {
-    "new": 0,
+    "new": 1,
     "modified": 0,
     "confirmed_only": 0
    }
   },
-  "new_ids": [],
+  "new_ids": [
+   "r:reported-nagy-marton-luxusutazas-2026-10"
+  ],
   "modified_ids": [],
   "confirmed_ids": []
  },
  "run_summary_history": [
-  {
-   "run_id": "2026-10-19T04:02:38+00:00",
-   "by_section": {
-    "items": {
-     "new": 0,
-     "modified": 0,
-     "confirmed_only": 0
-    },
-    "reported_cases": {
-     "new": 0,
-     "modified": 0,
-     "confirmed_only": 1
-    }
-   }
-  },
   {
    "run_id": "2026-10-19T10:05:22+00:00",
    "by_section": {
@@ -6568,6 +6589,21 @@
     },
     "reported_cases": {
      "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    }
+   }
+  },
+  {
+   "run_id": "2026-11-23T05:01:40+00:00",
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 1,
      "modified": 0,
      "confirmed_only": 0
     }
