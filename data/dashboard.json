@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-23T05:01:40+00:00",
+ "generated_at": "2026-11-23T11:00:36+00:00",
  "summary": {
   "megtakaritas_verified_huf": 2947290700000,
   "visszaszerzes_verified_huf": 1575719300000,
@@ -2956,8 +2956,8 @@
    "subject": "Nagy Márton korábbi nemzetgazdasági miniszter — luxusutazások és külföldi kiküldetések közpénzből",
    "verification_notes": "ÚJ TÉTEL (2026-11-23 05:59-es futás, WebSearch-en keresztül azonosított, 2026-10-26-i ügy, amely a korábbi futások adattárában még nem szerepelt). A kormany.hu/atlathato/feljelentes hivatalos listáján 2026-11-23-i ellenőrzéskor (az oldal tartalma a 2026-11-13-i, 64 ügyes/4007 Mrd Ft-os állapothoz képest változatlan volt) ez az ügy még NEM szerepel önálló tételként — lehet, hogy a hivatalos oldal még nem frissült ezzel, vagy a Pénzügyminisztérium feljelentése nem minősül a lista szempontjából önálló, nevesített ügynek. A pontos kárösszeg forrásonként eltér: a feljelentésről szóló hír (444.hu, 2026-10-26) 'meghaladja a százmillió forintot' becslést közöl, míg egy korábbi (2026 júliusi) 444.hu-összefoglaló szerint a miniszter és delegációi két év alatt meghaladták a 132 millió forintot szállás- és közlekedési költségekkel; az Economx szerint 2023 és 2026 között 51,9 millió forintot költöttek külföldi szállásokra. Az alleged_amount_huf ezért a korábbi, részletesebb sajtóbecslést (132 M Ft) tükrözi, az alleged_amount_text tartalmazza mindkét adatot. Egyetlen fő forrásból (444.hu) ismert a feljelentés ténye, de a mögötte álló tényfeltárást több független forrás (Telex, HVG, Economx) is megerősítette, ezért status 'reported'. Megkülönböztetendő a korábban rögzített reported-egyeb-miniszteriumi-18ugy-2026 gyűjtőtételben szereplő 'miniszteri delegációs utazások' (4 Mrd Ft, Honvédelmi Minisztérium) és a reported-szijjarto-maganrepulo-2026-09 (Külügyminisztérium) tételektől — ez egy önálló, a korábbi Nemzetgazdasági Minisztérium (Nagy Márton) utazásait érintő, külön feljelentés.",
    "id": "reported-nagy-marton-luxusutazas-2026-10",
-   "updated_at": "2026-11-23T05:01:40+00:00",
-   "first_seen_at": "2026-11-23T05:01:40+00:00"
+   "first_seen_at": "2026-11-23T05:01:40+00:00",
+   "updated_at": "2026-11-23T05:01:40+00:00"
   },
   {
    "alleged_amount_huf": null,
@@ -4244,25 +4244,26 @@
  },
  "last_run": {
   "errors": [
-   "A WebFetch/WebSearch eszközök révén a 36 figyelt portfólió mindegyikét egyenként nem lehetett külön végignézni; helyette 10+ tematikus WebSearch lefuttatása történt, amelyek a figyelt portfóliók jelentős részét (444, Telex, Index, HVG, Portfolio, Economx, VG, Infostart, Privátbankár, Pénzcentrum, Origo) lefedték.",
-   "hirkereso.hu/politika 404-es hibával nem volt elérhető ebben a futásban.",
-   "Friss, 2026-11-23-i (mai) hivatalos MNB EUR/HUF árfolyam nem volt megbízhatóan azonosítható a keresésben; a legutóbbi ismert (2026-11-20) érték maradt érvényben.",
-   "A KSH októberi munkaerőpiaci gyorstájékoztatója, a GDP részletes (dec. 1-i) bontása és a novemberi központi alrendszer-hiány adat e futás idején még nem jelent meg — a legutóbbi publikált értékek maradtak érvényben.",
-   "Egy 2024 októberi RSZTOP-túlszámolási ügyet (Integritás Hatóság feljelentése, 10,2 Mrd Ft) és a 2026 augusztus 20-i tűzijáték-közbeszerzés Hadházy-féle feljelentését megvizsgáltuk, de nem kerültek fel: az első túl régi (2024-es, a jelenlegi kormányváltás előtti) és már lezárt jellegű, a második pedig a JELENLEGI kormányhoz köthető rendezvényt érinti, nem egy korábbi (Fidesz/Orbán-korszakbeli) közpénzügyet, így nem felel meg a felhasználói szűrési szabálynak."
+   "A kormany.hu/atlathato/feljelentes oldal tartalma (64 ügy, 13 tárca, 4007 Mrd Ft, 74,0 Mrd Ft visszafizetve/megtakarítva) ebben a futásban is megegyezett a 2026-11-13-i rögzített állapottal — nem volt szükség frissítésre a reported-osszesito-2026-09 vagy egyedi tételeken.",
+   "A hirkereso.hu-n felbukkant 'Pancho Hotel bezárása, 11+ Mrd Ft adófizetői veszteség' (Piacésprofit-hivatkozás) állítást önálló kereséssel nem sikerült megerősíteni vagy az eredeti cikket megtalálni; mivel nem volt azonosítható konkrét, ellenőrizhető forrás, nem került fel az adattárba — következő futásban érdemes újra megnézni.",
+   "A 'gázmaffia' áfacsalási bűnszervezeti ügy (kb. 67-68 Mrd Ft, NAV-nyomozás 2025 eleje óta) és a 'Nemzetgazdasági Minisztérium delegációs utazásai' témák átnézve, de ezek vagy már szerepelnek az adattárban (utóbbi a reported-egyeb-miniszteriumi-18ugy-2026 gyűjtőben), vagy nem felelnek meg egyértelműen a felhasználói szűrési szabálynak (a gázmaffia egy általános, több éve futó bűnszervezeti adócsalási ügy, nem egyértelműen egy adott korábbi kormányzati közpénzügyi döntéshez köthető feljelentés) — nem kerültek fel új tételként.",
+   "Az MNB hivatalos EUR/HUF árfolyama 2026-11-20 óta nem frissült; makro-pillanatkép ebben a futásban nem készült, mert a legutóbbi (2026-11-23 05:59-es, kb. 6 órával korábbi) pillanatkép egyetlen mutatójában sem volt új hivatalos publikáció (KSH októberi munkanélküliségi adat, GDP december 1-jei részletes bontása és a novemberi költségvetési hiány e futás idején még nem jelent meg).",
+   "Az ÁKK hivatalos államadósság-oldala (akk.hu) ezúttal sem volt közvetlenül lekérhető; a legutóbbi (2026-07-31-i, Magyar Nemzet/ÁKK-hivatkozású) érték maradt érvényben."
   ],
   "eu_lost_items_new": 0,
-  "finished_at": "2026-11-23T06:10:00+01:00",
+  "finished_at": "2026-11-23T12:35:00+01:00",
   "items_duplicate": 0,
-  "items_found_total": 1,
+  "items_found_total": 0,
   "items_needs_review": 0,
   "items_new": 0,
-  "reported_cases_new": 1,
+  "reported_cases_new": 0,
   "reported_cases_updated": 0,
   "sources_checked": [
-   "kormany.hu/atlathato/feljelentes (WebFetch sikeres, 2026-11-13-i állapot — változatlan a legutóbbi rögzített állapothoz képest)",
-   "mnvvh.hu/hirek",
-   "k-monitor.hu (WebSearch)",
-   "hirkereso.hu/politika (404, nem elérhető)",
+   "kormany.hu/atlathato/feljelentes (sikeres, 2026-11-13-i állapot — változatlan a legutóbbi (2026-11-22 16:59-es) futáshoz képest: 64 ügy, 13 tárca, 4007 Mrd Ft, 74,0 Mrd Ft visszafizetve/megtakarítva)",
+   "mnvvh.hu/hirek (csak a már ismert Seszták-ügy fejleményei, új ügy nincs)",
+   "ugyeszseg.hu/kategoria/kozponti-nyomozo-fougyeszseg (csak már ismert MNB/Volánbusz/NVVH-ügyek, új tétel nincs)",
+   "k-monitor.hu (WebSearch, csak korábban már rögzített ügyek)",
+   "hirkereso.hu (gazdaság/politika rovatok, egy meg nem erősíthető hír: Pancho Hotel bezárása)",
    "444.hu",
    "telex.hu",
    "index.hu",
@@ -4274,14 +4275,24 @@
    "privatbankar.hu",
    "penzcentrum.hu",
    "origo.hu",
-   "adozona.hu (KSH/PM adatok)",
-   "euronews.hu",
+   "mfor.hu",
+   "nepszava.hu",
+   "magyarnemzet.hu",
+   "euronews.hu (hu)",
    "dailynewshungary.com"
   ],
-  "started_at": "2026-11-23T05:30:00+01:00",
-  "id": "2026-11-23T05-59"
+  "started_at": "2026-11-23T11:56:00+01:00",
+  "id": "2026-11-23T11-56"
  },
  "run_history": [
+  {
+   "finished_at": "2026-11-23T12:35:00+01:00",
+   "started_at": "2026-11-23T11:56:00+01:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
   {
    "finished_at": "2026-11-23T06:10:00+01:00",
    "started_at": "2026-11-23T05:30:00+01:00",
@@ -5073,22 +5084,14 @@
    "reported_cases_new": 0,
    "reported_cases_updated": 0,
    "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-10-21T10:15:00+02:00",
-   "started_at": "2026-10-21T09:45:00+02:00",
-   "items_new": 1,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 0,
-   "eu_lost_items_new": 0
   }
  ],
  "run_summary": {
-  "run_id": "2026-11-23T05:01:40+00:00",
-  "new": 1,
+  "run_id": "2026-11-23T11:00:36+00:00",
+  "new": 0,
   "modified": 0,
   "confirmed_only": 0,
-  "touched": 1,
+  "touched": 0,
   "pending_review": 4,
   "by_section": {
    "items": {
@@ -5097,33 +5100,16 @@
     "confirmed_only": 0
    },
    "reported_cases": {
-    "new": 1,
+    "new": 0,
     "modified": 0,
     "confirmed_only": 0
    }
   },
-  "new_ids": [
-   "r:reported-nagy-marton-luxusutazas-2026-10"
-  ],
+  "new_ids": [],
   "modified_ids": [],
   "confirmed_ids": []
  },
  "run_summary_history": [
-  {
-   "run_id": "2026-10-19T10:05:22+00:00",
-   "by_section": {
-    "items": {
-     "new": 0,
-     "modified": 0,
-     "confirmed_only": 0
-    },
-    "reported_cases": {
-     "new": 2,
-     "modified": 0,
-     "confirmed_only": 0
-    }
-   }
-  },
   {
    "run_id": "2026-10-19T15:02:18+00:00",
    "by_section": {
@@ -6604,6 +6590,21 @@
     },
     "reported_cases": {
      "new": 1,
+     "modified": 0,
+     "confirmed_only": 0
+    }
+   }
+  },
+  {
+   "run_id": "2026-11-23T11:00:36+00:00",
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 0,
      "modified": 0,
      "confirmed_only": 0
     }
