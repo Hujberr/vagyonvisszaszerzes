@@ -1,13 +1,13 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-23T11:00:36+00:00",
+ "generated_at": "2026-11-23T16:05:00+00:00",
  "summary": {
   "megtakaritas_verified_huf": 2947290700000,
   "visszaszerzes_verified_huf": 1575719300000,
   "eu_forras_verified_huf": 8251000000000,
   "eu_forras_lost_huf": 730000000000,
   "items_count": 42,
-  "reported_cases_count": 73
+  "reported_cases_count": 74
  },
  "items": [
   {
@@ -2336,6 +2336,33 @@
   {
    "additional_sources": [
     {
+     "name": "444.hu",
+     "published_date": "2026-10-15",
+     "url": "https://444.hu/2026/10/15/300-milliard-forint-aramlott-ki-az-orszagbol-a-gazuzletre-epitett-oriascsalassal-ket-ev-alatt-alig-haladt-elore-a-nyomozas"
+    }
+   ],
+   "alleged_amount_huf": 54500000000,
+   "alleged_amount_text": "54,5 milliárd forint (ebből 32,7 milliárd forint be nem fizetett adó, 21,7 milliárd forint bírság és egyéb szankció) — hét, a hálózat fő haszonélvezőjének tartott gazdasági társaság együttes tartozása",
+   "confirmed_recovered_huf": 0,
+   "description": "A Nemzeti Adó- és Vámhivatal 2026. november 12-én először közölt hivatalos, összesített adatokat egy 2024 óta vizsgált, földgáz-kereskedelemre épülő áfacsalási hálózat ügyében. A gyanú szerint minimális tőkével alapított, stróman-tulajdonosok nevén bejegyzett cégek hálózatán keresztül csalták ki az államtól az általános forgalmi adót korlátozott földgáz-kereskedelmi engedélyes cégeken keresztül. A NAV az érintett hét társaság együttes tartozását 54,5 milliárd forintra, ebből a be nem fizetett adót 32,7 milliárd forintra becsüli. A hatóság eddig mintegy 24,8 milliárd forint értékű vagyont zárolt, és összesen több mint 41 milliárd forintot biztosított belföldi és külföldi bankszámlákon.",
+   "ministry": "Nemzeti Adó- és Vámhivatal (NAV) Bűnügyi Főigazgatósága — büntetőeljárás, az adóhatósági ellenőrzés eredményei alapján",
+   "recovered_item_id": null,
+   "report_date": "2024-01-01",
+   "report_source": {
+    "name": "444.hu (NAV adatközlése alapján)",
+    "published_date": "2026-11-12",
+    "url": "https://444.hu/2026/11/12/gazkereskedelem-adocsalas-nav-afacsalas-gazmaffia"
+   },
+   "status": "under_investigation",
+   "subject": "Gázkereskedelmi áfacsalási hálózat (\"gázmaffia\") — a NAV első hivatalos összesítése",
+   "verification_notes": "ÚJ TÉTEL (2026-11-23 jelen futás, WebSearch/WebFetch útján azonosítva). A NAV 2026-11-12-i, 444.hu által ismertetett közlése szerint: adóigazgatási ellenőrzés (2024 óta) hét cégnél, ebből kettő még folyamatban van, öt esetben a cégek bírósághoz fordultak (egy keresetet elutasítottak, négy még folyamatban). A büntetőeljárásban a NAV Bűnügyi Főigazgatósága költségvetési csalás gyanúja miatt nyomoz, 17 országba 47 nemzetközi jogsegélykérelmet küldtek a vagyon visszaszerzése és további elkövetők azonosítása érdekében. Két letartóztatott van (köztük L. Péter, nemzetközileg elismert gázpiaci szereplő), 2026 október közepén 46 főt hallgattak ki gyanúsítottként. Korábbi sajtóbecslések (444.hu, 2025 november és 2026 október) 60-70, illetve 300 milliárd forintos nagyságrendről írtak — ezek az ország egészéből kiáramlott összegre vonatkozó, kevésbé pontos becslések lehettek; a NAV mostani, első hivatalos, tételes összesítése (54,5 Mrd Ft a hét fő haszonélvező cégnél) az irányadó és pontosabb adat, ezért ez került az alleged_amount_huf mezőbe. Tényleges, az államhoz visszakerült összeg (behajtott/realizált) nincs, csak zárolt/biztosított vagyon (24,8+41 Mrd Ft, részben átfedő kategóriák), ezért confirmed_recovered_huf=0. Nem szerepel a kormany.hu/atlathato/feljelentes hivatalos listáján (2026-11-13-i állapot szerint ellenőrizve), mivel ez a NAV önálló adóhatósági/büntetőeljárása, nem kormányzati/minisztériumi feljelentés. A report_date az ellenőrzés/nyomozás kezdetének (2024) hozzávetőleges évére utal, a pontos nap a cikkből nem derül ki.",
+   "id": "reported-gazmaffia-afacsalas-nav-2026-11",
+   "updated_at": "2026-11-23T16:05:00+00:00",
+   "first_seen_at": "2026-11-23T16:05:00+00:00"
+  },
+  {
+   "additional_sources": [
+    {
      "name": "Index",
      "published_date": "2026-10-31",
      "url": "https://index.hu/belfold/2026/10/31/unio-forras-tamogatas-hiba-allami-szamvevoszek-asz-hiba/"
@@ -2897,10 +2924,10 @@
    },
    "status": "under_investigation",
    "subject": "MNB-alapítványok ügye (Matolcsy-kör, hűtlen kezelés gyanúja)",
-   "verification_notes": "FRISSÍTVE 2026-11-19 12:00-ás futás: a Központi Nyomozó Főügyészség indítványozta Matolcsy György letartóztatásának meghosszabbítását (a korábbi, 2026. november 23-ig tartó letartóztatási határozat lejárta előtt). Sajtóhírek (Forbes.hu) szerint a bíróság döntése esetén 2027. február végéig letartóztatásban maradhat; a tényleges bírósági döntés e futás idején még nem ismert. Ez eljárási fejlemény, az alleged_amount_huf (300 Mrd Ft) és a confirmed_recovered_huf (0) nem változott. (Korábbi megjegyzések megőrizve, l. előző verzió.) FRISSÍTVE 2026-11-05 11:55-ös futás: a Fővárosi Törvényszék 2026. november 5-én helybenhagyta az elsőfokú döntést, amely szerint Matolcsy György és két társa 2026. november 23-ig letartóztatásban marad; a bíróság elutasította a védelem óvadékra és a bűnügyi felügyeletre (elektronikus nyomkövetésre) vonatkozó indítványait, a szökés, a bizonyítékok befolyásolásának és az ismétlődés veszélyére hivatkozva. A bíróság szerint felmerültek olyan körülmények, amelyek bizonyítékok megsemmisítésére utalhatnak egy gyanúsított környezetében, valamint dokumentumok visszadatálásával kapcsolatos informatikai adatokra. A döntés nem jogerős, a védelem fellebbezett. Ez eljárási fejlemény, az alleged_amount_huf (300 Mrd Ft) és a confirmed_recovered_huf (0) nem változott. Források: Portfolio.hu, Forbes.hu (mindkettő 2026-11-05). (Korábbi megjegyzések megőrizve, l. előző verzió.) FRISSÍTVE 2026-11-02 06:00-ás futás: a bíróság 2026. október 23-án elutasította Matolcsy György ügyvédje által felkínált 30 millió forintos óvadékot, és egy hónapra elrendelte a letartóztatását; mindhárom gyanúsított (Matolcsy György és két társa) fellebbezett a letartóztatási döntés ellen, az ügy jelenleg nem jogerős. Az alleged_amount_huf (300 Mrd Ft) és a confirmed_recovered_huf (0) nem változott. Forrás: 444.hu (2026-10-21, 2026-10-23). (Korábbi megjegyzések megőrizve.)",
+   "verification_notes": "FRISSÍTVE 2026-11-23 futás: a Budai Központi Kerületi Bíróság 2026. november 23-án (nem jogerősen) további három hónappal meghosszabbította Matolcsy György és Valkó Mihály (a kölcsönszerződés megkötésekor eljáró képviselő) letartóztatását; az értékpapír-ügyletben közreműködő Sándor Tamás ügyvédet bűnügyi felügyelet alá helyezték, négy hónapig elektronikus nyomkövetőt kell viselnie. Az ügy háttere: a Központi Nyomozó Főügyészség az Optima Befektetési Zrt. és a Quartz Befektetési Alapkezelő kezelésében álló Közép-Európai III. Magántőkealap közötti, 2025.02.28-i, az OPTIMA Befektetési Alapkezelő Zrt. törzsrészvényeire vonatkozó értékpapír-kölcsönszerződés miatt nyomoz, gazdasági csalás és különösen jelentős vagyoni hátrányt okozó bűncselekmény gyanújával. Az alleged_amount_huf (300 Mrd Ft) és a confirmed_recovered_huf (0) nem változott. (Korábbi megjegyzések megőrizve, l. előző verzió.)\n\nFRISSÍTVE 2026-11-19 12:00-ás futás: a Központi Nyomozó Főügyészség indítványozta Matolcsy György letartóztatásának meghosszabbítását (a korábbi, 2026. november 23-ig tartó letartóztatási határozat lejárta előtt). Sajtóhírek (Forbes.hu) szerint a bíróság döntése esetén 2027. február végéig letartóztatásban maradhat; a tényleges bírósági döntés e futás idején még nem ismert. Ez eljárási fejlemény, az alleged_amount_huf (300 Mrd Ft) és a confirmed_recovered_huf (0) nem változott. (Korábbi megjegyzések megőrizve, l. előző verzió.) FRISSÍTVE 2026-11-05 11:55-ös futás: a Fővárosi Törvényszék 2026. november 5-én helybenhagyta az elsőfokú döntést, amely szerint Matolcsy György és két társa 2026. november 23-ig letartóztatásban marad; a bíróság elutasította a védelem óvadékra és a bűnügyi felügyeletre (elektronikus nyomkövetésre) vonatkozó indítványait, a szökés, a bizonyítékok befolyásolásának és az ismétlődés veszélyére hivatkozva. A bíróság szerint felmerültek olyan körülmények, amelyek bizonyítékok megsemmisítésére utalhatnak egy gyanúsított környezetében, valamint dokumentumok visszadatálásával kapcsolatos informatikai adatokra. A döntés nem jogerős, a védelem fellebbezett. Ez eljárási fejlemény, az alleged_amount_huf (300 Mrd Ft) és a confirmed_recovered_huf (0) nem változott. Források: Portfolio.hu, Forbes.hu (mindkettő 2026-11-05). (Korábbi megjegyzések megőrizve, l. előző verzió.) FRISSÍTVE 2026-11-02 06:00-ás futás: a bíróság 2026. október 23-án elutasította Matolcsy György ügyvédje által felkínált 30 millió forintos óvadékot, és egy hónapra elrendelte a letartóztatását; mindhárom gyanúsított (Matolcsy György és két társa) fellebbezett a letartóztatási döntés ellen, az ügy jelenleg nem jogerős. Az alleged_amount_huf (300 Mrd Ft) és a confirmed_recovered_huf (0) nem változott. Forrás: 444.hu (2026-10-21, 2026-10-23). (Korábbi megjegyzések megőrizve.)",
    "id": "reported-mnb-matolcsy-alapitvanyok-2026-09",
    "first_seen_at": "2026-09-28T15:02:40+00:00",
-   "updated_at": "2026-11-19T11:03:30+00:00"
+   "updated_at": "2026-11-23T16:05:00+00:00"
   },
   {
    "alleged_amount_huf": 11000000000,
@@ -4026,7 +4053,7 @@
    "url": "https://magyarnemzet.hu/gazdasag/2026/09/allamadossag-novekedes"
   },
   "allamadossag_huf": 65716000000000,
-  "collected_at": "2026-11-23T05:59:00+01:00",
+  "collected_at": "2026-11-23T17:30:00+01:00",
   "elozo": {
    "allamadossag": {
     "period": null,
@@ -4066,7 +4093,7 @@
    {
     "key": "munkanelkulisegi_rata",
     "label_en": "Unemployment rate",
-    "label_hu": "Munkanélküliségi ráta",
+    "label_hu": "Munkanélküliégi ráta",
     "note_en": "KSH's October flash report had not yet been published at the time of this run.",
     "note_hu": "A KSH októberi hónapra vonatkozó gyorstájékoztatója e futás idején még nem jelent meg.",
     "period": "2026-09",
@@ -4114,8 +4141,8 @@
     "key": "jegybanki_alapkamat",
     "label_en": "Central bank base rate",
     "label_hu": "Jegybanki alapkamat",
-    "note_en": "The Monetary Council kept the base rate unchanged at 5.50% at its 17 November 2026 meeting, in a non-unanimous vote; the deposit rate stayed at 4.50% and the lending rate at 6.50%.",
-    "note_hu": "Az MNB Monetáris Tanácsa 2026. november 17-i ülésén nem egyhangú döntéssel 5,50 százalékon tartotta a jegybanki alapkamatot; a betéti kamat 4,50%, a hitelkamat 6,50% maradt. A következő kamatdöntő ülés e futás idején még nem volt esedékes.",
+    "note_en": "The Monetary Council kept the base rate unchanged at 5.50% at its 17 November 2026 meeting, in a non-unanimous vote.",
+    "note_hu": "Az MNB Monetáris Tanácsa 2026. november 17-i ülésén nem egyhangú döntéssel 5,50 százalékon tartotta a jegybanki alapkamatot; a betéti kamat 4,50%, a hitelkamat 6,50% maradt.",
     "period": "2026-11-17",
     "prev_period": "2026-10-20",
     "prev_value": 5.5,
@@ -4131,8 +4158,8 @@
     "key": "eur_huf",
     "label_en": "Official EUR/HUF rate (MNB)",
     "label_hu": "Euró hivatalos árfolyama (MNB)",
-    "note_en": "No more recent official MNB rate could be reliably confirmed at the time of this run; the last known rate (2026-11-20) remains in effect.",
-    "note_hu": "E futás idején (2026-11-23, hétfő reggel) nem volt megbízhatóan azonosítható ennél frissebb, hivatalos MNB-árfolyam; a legutóbbi ismert, 2026-11-20-i érték maradt érvényben. USD/HUF 2026-11-20-án 340,16 Ft/USD volt.",
+    "note_en": "No more recent official MNB rate could be reliably confirmed at the time of this run.",
+    "note_hu": "E futás idején sem volt megbízhatóan azonosítható ennél frissebb, hivatalos MNB-árfolyam; a legutóbbi ismert (2026-11-20) érték maradt érvényben.",
     "period": "2026-11-20",
     "prev_period": "2026-11-19",
     "prev_value": 368.97,
@@ -4148,7 +4175,7 @@
     "key": "brutto_atlagkereset",
     "label_en": "Average gross wage",
     "label_hu": "Bruttó átlagkereset",
-    "note_hu": "Éves összevetésben 8,4%-os növekedés; bruttó mediánkereset 611 400 Ft. A szeptemberi adat e futás idején még nem jelent meg.",
+    "note_hu": "A szeptemberi adat e futás idején még nem jelent meg.",
     "period": "2026-08",
     "prev_period": "2026-07",
     "prev_value": 745500,
@@ -4164,7 +4191,6 @@
     "key": "netto_atlagkereset",
     "label_en": "Average net wage",
     "label_hu": "Nettó átlagkereset",
-    "note_hu": "Éves összevetésben 10,0%-os növekedés; nettó mediánkereset 433 400 Ft.",
     "period": "2026-08",
     "prev_period": "2026-07",
     "prev_value": 523300,
@@ -4195,7 +4221,7 @@
     "key": "kozponti_alrendszer_hiany",
     "label_en": "Central government deficit (year to date)",
     "label_hu": "Központi alrendszer hiánya (év eleje óta)",
-    "note_hu": "A január–októberi összeg a módosított 2026-os pótköltségvetés szerinti 7100 milliárd forintos éves hiánycél 76,9%-a. A novemberi adat e futás idején még nem jelent meg.",
+    "note_hu": "A novemberi adat e futás idején még nem jelent meg.",
     "period": "2026 január–október",
     "prev_period": "2026 január–szeptember",
     "prev_value": 5261.9,
@@ -4240,51 +4266,56 @@
    "publish_date": "2026-09-22",
    "url": "https://www.portfolio.hu/gazdasag/20260922/itt-az-mnb-uj-elorejelzese-hiaba-a-nemzetkozi-kockazatok-mersekelt-marad-az-idei-inflacio-864484"
   },
-  "id": "2026-11-23T05-59"
+  "id": "2026-11-23T17-30"
  },
  "last_run": {
   "errors": [
-   "A kormany.hu/atlathato/feljelentes oldal tartalma (64 ügy, 13 tárca, 4007 Mrd Ft, 74,0 Mrd Ft visszafizetve/megtakarítva) ebben a futásban is megegyezett a 2026-11-13-i rögzített állapottal — nem volt szükség frissítésre a reported-osszesito-2026-09 vagy egyedi tételeken.",
-   "A hirkereso.hu-n felbukkant 'Pancho Hotel bezárása, 11+ Mrd Ft adófizetői veszteség' (Piacésprofit-hivatkozás) állítást önálló kereséssel nem sikerült megerősíteni vagy az eredeti cikket megtalálni; mivel nem volt azonosítható konkrét, ellenőrizhető forrás, nem került fel az adattárba — következő futásban érdemes újra megnézni.",
-   "A 'gázmaffia' áfacsalási bűnszervezeti ügy (kb. 67-68 Mrd Ft, NAV-nyomozás 2025 eleje óta) és a 'Nemzetgazdasági Minisztérium delegációs utazásai' témák átnézve, de ezek vagy már szerepelnek az adattárban (utóbbi a reported-egyeb-miniszteriumi-18ugy-2026 gyűjtőben), vagy nem felelnek meg egyértelműen a felhasználói szűrési szabálynak (a gázmaffia egy általános, több éve futó bűnszervezeti adócsalási ügy, nem egyértelműen egy adott korábbi kormányzati közpénzügyi döntéshez köthető feljelentés) — nem kerültek fel új tételként.",
-   "Az MNB hivatalos EUR/HUF árfolyama 2026-11-20 óta nem frissült; makro-pillanatkép ebben a futásban nem készült, mert a legutóbbi (2026-11-23 05:59-es, kb. 6 órával korábbi) pillanatkép egyetlen mutatójában sem volt új hivatalos publikáció (KSH októberi munkanélküliségi adat, GDP december 1-jei részletes bontása és a novemberi költségvetési hiány e futás idején még nem jelent meg).",
-   "Az ÁKK hivatalos államadósság-oldala (akk.hu) ezúttal sem volt közvetlenül lekérhető; a legutóbbi (2026-07-31-i, Magyar Nemzet/ÁKK-hivatkozású) érték maradt érvényben."
+   "A kormany.hu/atlathato/feljelentes oldal tartalma (64 ügy, 4007 Mrd Ft, 74,0 Mrd Ft visszatérítve, 2026-11-13-i állapot) ebben a futásban is változatlan volt a mai reggeli (2026-11-23 05:59-es) futáshoz képest — nem volt szükség frissítésre a reported-osszesito-2026-09 tételen.",
+   "A Forbes.hu cikke (Mészáros Lőrincnél és Habony Árpádnál talált, a sajtó szerint mintegy 22 magántőkealaphoz kapcsolódó, feltehetően NVVH-vizsgálathoz köthető vagyonfeltárásról) 403-as hibával nem volt közvetlenül elérhető WebFetch-csel, és független megerősítő forrás vagy konkrét összeg sem volt azonosítható ebben a futásban — ezért ez a tétel NEM került be az adattárba, további futásban ellenőrizendő.",
+   "A Magyar Közút Nonprofit Zrt. gyomosodásgátló-beszerzésének túlárazásáról szóló sajtófeltárás (444.hu, 2026-11-02; Forbes.hu megerősítése) jelen állapotban hatósági lépés (feljelentés/vizsgálat) nélküli sajtóértesülés, ezért a felhasználói szűrési szabály szerint nem került fel sem az items, sem a reported_cases kollekcióba.",
+   "Az ATV-nek tulajdonított, kb. 7,9 milliárd forintos NAV-lefoglalásról szóló hír eredeti forrása nem volt azonosítható ebben a futásban, ezért nem került be az adattárba.",
+   "Az ÁKK hivatalos statisztikai oldala (akk.hu) ezúttal sem volt közvetlenül lekérhető; az államadósság-érték változatlanul a 2026-07-31-i (Magyar Nemzet/ÁKK-hivatkozás) állapotot tükrözi.",
+   "Az MNB EUR/HUF hivatalos fixing újabb (2026-11-23-i) értéke nem volt megbízhatóan azonosítható; a legutóbbi ismert (2026-11-20, 373,22 Ft/EUR) maradt érvényben."
   ],
   "eu_lost_items_new": 0,
-  "finished_at": "2026-11-23T12:35:00+01:00",
+  "finished_at": "2026-11-23T18:15:00+01:00",
   "items_duplicate": 0,
-  "items_found_total": 0,
+  "items_found_total": 3,
   "items_needs_review": 0,
   "items_new": 0,
-  "reported_cases_new": 0,
-  "reported_cases_updated": 0,
+  "reported_cases_new": 1,
+  "reported_cases_updated": 1,
   "sources_checked": [
-   "kormany.hu/atlathato/feljelentes (sikeres, 2026-11-13-i állapot — változatlan a legutóbbi (2026-11-22 16:59-es) futáshoz képest: 64 ügy, 13 tárca, 4007 Mrd Ft, 74,0 Mrd Ft visszafizetve/megtakarítva)",
-   "mnvvh.hu/hirek (csak a már ismert Seszták-ügy fejleményei, új ügy nincs)",
-   "ugyeszseg.hu/kategoria/kozponti-nyomozo-fougyeszseg (csak már ismert MNB/Volánbusz/NVVH-ügyek, új tétel nincs)",
-   "k-monitor.hu (WebSearch, csak korábban már rögzített ügyek)",
-   "hirkereso.hu (gazdaság/politika rovatok, egy meg nem erősíthető hír: Pancho Hotel bezárása)",
-   "444.hu",
+   "kormany.hu/atlathato/feljelentes",
+   "k-monitor.hu (WebSearch)",
+   "hirkereso.hu",
+   "mnvvh.hu/hirek",
+   "ugyeszseg.hu/category/hirek/kozponti-nyomozo-fougyeszseg",
    "telex.hu",
+   "444.hu",
+   "portfolio.hu",
    "index.hu",
    "hvg.hu",
-   "portfolio.hu",
    "economx.hu",
    "vg.hu",
-   "infostart.hu",
+   "forbes.hu",
    "privatbankar.hu",
    "penzcentrum.hu",
-   "origo.hu",
-   "mfor.hu",
-   "nepszava.hu",
-   "magyarnemzet.hu",
-   "euronews.hu (hu)",
-   "dailynewshungary.com"
+   "mandiner.hu",
+   "mnb.hu"
   ],
-  "started_at": "2026-11-23T11:56:00+01:00",
-  "id": "2026-11-23T11-56"
+  "started_at": "2026-11-23T17:18:00+01:00",
+  "id": "2026-11-23T17-30"
  },
  "run_history": [
+  {
+   "finished_at": "2026-11-23T18:15:00+01:00",
+   "started_at": "2026-11-23T17:18:00+01:00",
+   "items_new": 0,
+   "reported_cases_new": 1,
+   "reported_cases_updated": 1,
+   "eu_lost_items_new": 0
+  },
   {
    "finished_at": "2026-11-23T12:35:00+01:00",
    "started_at": "2026-11-23T11:56:00+01:00",
@@ -5076,22 +5107,14 @@
    "reported_cases_new": 0,
    "reported_cases_updated": 2,
    "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-10-21T12:00:00+02:00",
-   "started_at": "2026-10-21T11:56:00+02:00",
-   "items_new": 0,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 0,
-   "eu_lost_items_new": 0
   }
  ],
  "run_summary": {
-  "run_id": "2026-11-23T11:00:36+00:00",
-  "new": 0,
+  "run_id": "2026-11-23T16:05:00+00:00",
+  "new": 1,
   "modified": 0,
-  "confirmed_only": 0,
-  "touched": 0,
+  "confirmed_only": 1,
+  "touched": 2,
   "pending_review": 4,
   "by_section": {
    "items": {
@@ -5100,31 +5123,20 @@
     "confirmed_only": 0
    },
    "reported_cases": {
-    "new": 0,
+    "new": 1,
     "modified": 0,
-    "confirmed_only": 0
+    "confirmed_only": 1
    }
   },
-  "new_ids": [],
+  "new_ids": [
+   "r:reported-gazmaffia-afacsalas-nav-2026-11"
+  ],
   "modified_ids": [],
-  "confirmed_ids": []
+  "confirmed_ids": [
+   "r:reported-mnb-matolcsy-alapitvanyok-2026-09"
+  ]
  },
  "run_summary_history": [
-  {
-   "run_id": "2026-10-19T15:02:18+00:00",
-   "by_section": {
-    "items": {
-     "new": 0,
-     "modified": 0,
-     "confirmed_only": 0
-    },
-    "reported_cases": {
-     "new": 1,
-     "modified": 0,
-     "confirmed_only": 0
-    }
-   }
-  },
   {
    "run_id": "2026-10-20T04:00:55+00:00",
    "by_section": {
@@ -6607,6 +6619,21 @@
      "new": 0,
      "modified": 0,
      "confirmed_only": 0
+    }
+   }
+  },
+  {
+   "run_id": "2026-11-23T16:05:00+00:00",
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 1,
+     "modified": 0,
+     "confirmed_only": 1
     }
    }
   }
