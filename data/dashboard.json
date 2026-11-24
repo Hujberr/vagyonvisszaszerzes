@@ -1,12 +1,12 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-23T16:05:00+00:00",
+ "generated_at": "2026-11-24T05:02:08+00:00",
  "summary": {
   "megtakaritas_verified_huf": 2947290700000,
-  "visszaszerzes_verified_huf": 1575719300000,
+  "visszaszerzes_verified_huf": 1634319300000,
   "eu_forras_verified_huf": 8251000000000,
   "eu_forras_lost_huf": 730000000000,
-  "items_count": 42,
+  "items_count": 43,
   "reported_cases_count": 74
  },
  "items": [
@@ -1195,6 +1195,44 @@
   {
    "additional_sources": [
     {
+     "name": "Világgazdaság",
+     "published_date": "2026-08-18",
+     "url": "https://www.vg.hu/vilaggazdasag-magyar-gazdasag/2026/08/duna-aszfalt-mohacsi-duna-hid-kozlekedesi-miniszterium"
+    },
+    {
+     "name": "Economx",
+     "published_date": "2026-08-18",
+     "url": "https://www.economx.hu/cimkek/hid/"
+    },
+    {
+     "name": "Daily News Hungary",
+     "published_date": "2026-08-18",
+     "url": "https://dailynewshungary.com/key-deal-secured-for-new-danube-bridge-at-mohacs-new-photos/"
+    }
+   ],
+   "amount_huf": 58600000000,
+   "amount_text": "mintegy 58,6 milliárd forint",
+   "category": "visszaszerzes",
+   "collected_at": "2026-11-24T05:59:00+01:00",
+   "currency_note": null,
+   "dedup_key": "visszaszerzes|mohacsi duna hid eloleg visszafizetes duna aszfalt|58600000000",
+   "description": "A Duna Aszfalt Zrt. mintegy 58,6 milliárd forintot fizetett vissza az államnak a mohácsi Duna-híd építésére korábban kifizetett előlegből. A választás előtt a korábbi tárcavezetés az előleg mértékét a szerződéses díj 98 százalékára emelte, ennek egy részét azonban az addig elkészült munka nem indokolta. A felek megállapodása szerint az előleg mértéke a fennmaradó szerződéses díj 20 százalékára (nettó 45 milliárd forintra) csökkent, és a kifizetések a jövőben havi, teljesítésalapú elszámolásra álltak át.",
+   "duplicate_of": null,
+   "event_date": "2026-06-22",
+   "from_whom": "Duna Aszfalt Zrt. (Szíjj László érdekeltsége)",
+   "source_name": "444.hu",
+   "source_published_date": "2026-08-18",
+   "source_url": "https://444.hu/2026/08/18/kozel-60-milliard-forint-eloleget-fizet-vissza-az-allamnak-a-mohacsi-duna-hidat-kivitelezo-duna-aszfalt",
+   "status": "verified",
+   "subject": "Mohácsi Duna-híd — korábbi túlfizetett előleg visszafizetése (Duna Aszfalt)",
+   "verification_notes": "ÚJ TÉTEL (2026-11-24 05:59-es futás, WebSearch-en keresztül azonosított, régebbi — 2026 augusztusi — esemény, amely a korábbi futások adattárában még nem szerepelt). Vitézy Dávid közlekedési és beruházási miniszter hivatalos (Facebook-) bejelentésén alapul, legalább négy sajtóforrás (444.hu, Világgazdaság, Economx, Daily News Hungary) egyezően számol be róla. ELKÜLÖNÜL a megtakaritas-mohacsi-duna-hid-2x1-2026-09 tételtől (ugyanazon projekt 2x1 sávos kialakításából eredő, kb. 76 Mrd Ft-os megtakarítás) — ez utóbbi a tervezett kiadás csökkentése, ez a mostani tétel pedig egy korábban már kifizetett, túlzott előleg tényleges visszafizetése. Kapcsolódik a reported_cases/reported-egyeb-miniszteriumi-18ugy-2026 gyűjtőtételben szereplő 'Mohácsi Duna-híd előleg' (155,8 Mrd Ft, kormany.hu szerinti feljelentett összeg) komponenshez: ez a 58,6 Mrd Ft a feljelentett 155,8 Mrd Ft-os előlegnek egy már megerősítetten visszafizetett része, nem adandó hozzá újra az items összesítéshez a gyűjtőtételen felül kétszer.",
+   "id": "visszaszerzes-duna-aszfalt-mohacsi-hid-eloleg-2026-08",
+   "updated_at": "2026-11-24T05:02:08+00:00",
+   "first_seen_at": "2026-11-24T05:02:08+00:00"
+  },
+  {
+   "additional_sources": [
+    {
      "name": "Telex",
      "published_date": "2026-05-15",
      "url": "https://telex.hu/techtud/2026/05/15/krausz-ferenc-elvonal-alapitvany-allami-tamogatas-magyar-peter-kormany-felbontja"
@@ -2058,10 +2096,10 @@
    },
    "status": "under_investigation",
    "subject": "További 18 minisztériumi feljelentés (összeg egyenként nem publikált)",
-   "verification_notes": "FRISSÍTVE 2026-11-15 16:59-es futás: a kormany.hu/atlathato/feljelentes hivatalos oldal 2026-11-13-i állapota szerint a 'p2m-cégcsoport és Balásy Gyula cégeihez kapcsolódó megrendelések' (hat feljelentés, TTM, összesen 3,3 Mrd Ft) tételnél a NAV Közép-magyarországi Bűnügyi Igazgatósága négy ügyben nyomozást rendelt el (a hivatalos oldal 2026-10-21-i tájékoztatása szerint) — ez korábban nem volt feljegyezve ebben a gyűjtőtételben. A gyűjtőtétel összesített összege (995,19 Mrd Ft) és státusza (under_investigation) emiatt nem változik, csak ennek az egy komponensnek a nyomozási állása pontosodott.\n\nFRISSÍTVE 2026-11-06 12:00-ás futás: a kormany.hu/atlathato/feljelentes oldal 2026-11-05-i állapotában megjelent egy új, korábban nem rögzített tétel: 'Nemzetgazdasági Minisztérium delegációinak külföldi útjai' (Pénzügyminisztérium, 100+ millió forint, feljelentés 2026.10.26). A tétel felvételre került ebbe a gyűjtőbe, az alleged_amount_huf ennek megfelelően 995,09 Mrd Ft-ról 995,19 Mrd Ft-ra nőtt. A hivatalos oldal összesítője eközben változatlanul 4005 Mrd Ft maradt (csak az ügyszám nőtt 61-ről 62-re, l. reported-osszesito-2026-09), tehát az új tétel felvétele nem változtatta meg érdemben az összesített számot (kerekítési tartományon belül). FRISSÍTVE 2026-10-31 napi futás: a 24.hu dokumentumigényléssel szerzett anyagai alapján a 444.hu, a Portfolio.hu és a Contextus.hu 2026-10-30/31-én részletezte, hogy a KÜM lélegeztetőgép-beszerzéséhez (l. fenti, 300 Mrd Ft-os tétel) kapcsolódó egyik beszállító, a Limitless Medical Kft. 2020.04.14-én alapított, 2020.04.16-án bejegyzett cég volt, amely alapítása után néhány napon belül, 2020.04.17-én és 04.22-én összesen 2,3 milliárd forint értékű lélegeztetőgép-szállítási szerződést kötött a Szijjártó Péter vezette Külügyminisztériummal, és a teljes összeget a szállítás előtt, előlegként kifizették (603 millió Ft, majd 1,31 milliárd Ft értékű szerződés, a kapcsolódó előlegek még a szerződés napján átutalva). A minisztérium belső felülvizsgálata szerint nem található dokumentáció arra, milyen szakmai szempontok alapján választották ki a beszállítót. Ez a 2,3 Mrd Ft a már korábban rögzített, összesen 300 Mrd Ft-os KÜM lélegeztetőgép-feljelentés (fenti táblázat) része, nem önálló, új összeg, ezért az alleged_amount_huf nem változik ettől. A cikkek nem kapcsolják a Limitless Medical Kft.-t a NAV 2026-10-27-i, OTT-One Nyrt.-t érintő bűnszervezeti ügyéhez (l. reported-lelegeztetogep-nav-bunszervezet-2026-10) — a két cég/ügy különálló. Források: 444.hu, Portfolio.hu, Contextus.hu, hirnavigator.hu (mind 2026-10-30/31). FRISSÍTVE 2026-10-03 11:56-os futás: a sajtó (Infostart, Telex, ATV, Index, HVG és mások) 2026-10-02-i dátummal részletesen beszámolt arról, hogy a Szuverenitásvédelmi Hivatal verseny nélkül fizetett ki 46 millió forintot két ügyvédi irodának (ebből 19 M Ft egy pár nap alatt elkészült, utóbb elő nem található tanulmányért) — ez minden jel szerint megegyezik az itt már szereplő 'Szuverenitásvédelmi Hivatal ügyvédi megbízásai' (46,4 M Ft) tétellel, csak részletesebb kifejtéssel. Emellett a kormany.hu 'meg nem valósult kiadás' listája egy önálló, 46,0 M Ft-os Igazságügyi Minisztériumi tételt is feltüntet (Poszeidon rendszer + egy ügyvédi iroda), amely valószínűleg részben vagy egészben ugyanazokat a kifizetéseket fedi — ezt külön items-tételként rögzítettük (megtakaritas-igazsagugyi-miniszterium-egyeb-szerzodesek-2026-10), a pontos viszony tisztázásáig nem összevonva ezzel a 46,4 M Ft-os gyűjtőbeli tétellel. FRISSÍTVE 2026-10-03 05:55-ös futás: a 'Szuverenitásvédelmi Hivatal propagandacélú költségei' (3,67 Mrd Ft) tétel kiemelve ebből a gyűjtőből, mert az NVVH 2026-09-28-án saját hatáskörébe vonta ezt a konkrét ügyet (l. önálló tétel: reported-szuverenitasvedelmi-hivatal-konzorcium-nvvh-2026-09). Összeg ennek megfelelően csökkentve: 998,76 Mrd Ft → 995,09 Mrd Ft. FRISSÍTVE 2026-10-02 (16:56-os futás): a kormany.hu hivatalos oldal teljes listájának ismételt, részletes átnézése két korábban nem rögzített tételt azonosított: 'BTR-80 harcjárművek értékesítése Szerbiának' (576,7 millió Ft, Honvédelmi Minisztérium, 2026.09.29 — a harcjárművek tényleges eladása már 2024-ben megtörtént, a feljelentés/hivatalos listázás erről a korábbi tranzakcióról szól; független sajtóforrás 2026-ból nem található hozzá, kizárólag a hivatalos forrás alapján rögzítve) és 'Szuverenitásvédelmi Hivatal ügyvédi megbízásai' (46,4 millió Ft, Miniszterelnökség, 2026.09.29 — megkülönböztetendő a most kiemelt, 3,67 Mrd Ft-os propagandacélú költségek tételtől, ugyanazon hivatal más jellegű kiadása). (Korábbi megjegyzések megőrizve, l. előző verzió.)",
+   "verification_notes": "FRISSÍTVE 2026-11-24 05:59-es futás: a fenti táblázatban szereplő 'Mohácsi Duna-híd előleg' (155,8 Mrd Ft) tételhez kapcsolódóan azonosítottuk, hogy a Duna Aszfalt Zrt. már 2026 júniusában (nyilvánosan 2026-08-18-án bejelentve) mintegy 58,6 milliárd forintot visszafizetett a korábban túlzottan (98%-ra) megemelt előlegből (l. önálló tétel: items/visszaszerzes-duna-aszfalt-mohacsi-hid-eloleg-2026-08). Ez a 155,8 Mrd Ft-os feljelentett összegnek egy már megerősítetten, részben megtérült komponense; a gyűjtőtétel összesített alleged_amount_huf-ja (995,19 Mrd Ft) és status-a (under_investigation) emiatt nem változik, mert az összeg a feljelentés szerinti eredeti állapotot tükrözi, a tényleges megtérülést az önálló items-tétel rögzíti a dupla számolás elkerülésével.\n\nFRISSÍTVE 2026-11-15 16:59-es futás: a kormany.hu/atlathato/feljelentes hivatalos oldal 2026-11-13-i állapota szerint a 'p2m-cégcsoport és Balásy Gyula cégeihez kapcsolódó megrendelések' (hat feljelentés, TTM, összesen 3,3 Mrd Ft) tételnél a NAV Közép-magyarországi Bűnügyi Igazgatósága négy ügyben nyomozást rendelt el (a hivatalos oldal 2026-10-21-i tájékoztatása szerint) — ez korábban nem volt feljegyezve ebben a gyűjtőtételben. A gyűjtőtétel összesített összege (995,19 Mrd Ft) és státusza (under_investigation) emiatt nem változik, csak ennek az egy komponensnek a nyomozási állása pontosodott.\n\nFRISSÍTVE 2026-11-06 12:00-ás futás: a kormany.hu/atlathato/feljelentes oldal 2026-11-05-i állapotában megjelent egy új, korábban nem rögzített tétel: 'Nemzetgazdasági Minisztérium delegációinak külföldi útjai' (Pénzügyminisztérium, 100+ millió forint, feljelentés 2026.10.26). A tétel felvételre került ebbe a gyűjtőbe, az alleged_amount_huf ennek megfelelően 995,09 Mrd Ft-ról 995,19 Mrd Ft-ra nőtt. A hivatalos oldal összesítője eközben változatlanul 4005 Mrd Ft maradt (csak az ügyszám nőtt 61-ről 62-re, l. reported-osszesito-2026-09), tehát az új tétel felvétele nem változtatta meg érdemben az összesített számot (kerekítési tartományon belül). FRISSÍTVE 2026-10-31 napi futás: a 24.hu dokumentumigényléssel szerzett anyagai alapján a 444.hu, a Portfolio.hu és a Contextus.hu 2026-10-30/31-én részletezte, hogy a KÜM lélegeztetőgép-beszerzéséhez (l. fenti, 300 Mrd Ft-os tétel) kapcsolódó egyik beszállító, a Limitless Medical Kft. 2020.04.14-én alapított, 2020.04.16-án bejegyzett cég volt, amely alapítása után néhány napon belül, 2020.04.17-én és 04.22-én összesen 2,3 milliárd forint értékű lélegeztetőgép-szállítási szerződést kötött a Szijjártó Péter vezette Külügyminisztériummal, és a teljes összeget a szállítás előtt, előlegként kifizették (603 millió Ft, majd 1,31 milliárd Ft értékű szerződés, a kapcsolódó előlegek még a szerződés napján átutalva). A minisztérium belső felülvizsgálata szerint nem található dokumentáció arra, milyen szakmai szempontok alapján választották ki a beszállítót. Ez a 2,3 Mrd Ft a már korábban rögzített, összesen 300 Mrd Ft-os KÜM lélegeztetőgép-feljelentés (fenti táblázat) része, nem önálló, új összeg, ezért az alleged_amount_huf nem változik ettől. A cikkek nem kapcsolják a Limitless Medical Kft.-t a NAV 2026-10-27-i, OTT-One Nyrt.-t érintő bűnszervezeti ügyéhez (l. reported-lelegeztetogep-nav-bunszervezet-2026-10) — a két cég/ügy különálló. Források: 444.hu, Portfolio.hu, Contextus.hu, hirnavigator.hu (mind 2026-10-30/31). FRISSÍTVE 2026-10-03 11:56-os futás: a sajtó (Infostart, Telex, ATV, Index, HVG és mások) 2026-10-02-i dátummal részletesen beszámolt arról, hogy a Szuverenitásvédelmi Hivatal verseny nélkül fizetett ki 46 millió forintot két ügyvédi irodának (ebből 19 M Ft egy pár nap alatt elkészült, utóbb elő nem található tanulmányért) — ez minden jel szerint megegyezik az itt már szereplő 'Szuverenitásvédelmi Hivatal ügyvédi megbízásai' (46,4 M Ft) tétellel, csak részletesebb kifejtéssel. Emellett a kormany.hu 'meg nem valósult kiadás' listája egy önálló, 46,0 M Ft-os Igazságügyi Minisztériumi tételt is feltüntet (Poszeidon rendszer + egy ügyvédi iroda), amely valószínűleg részben vagy egészben ugyanazokat a kifizetéseket fedi — ezt külön items-tételként rögzítettük (megtakaritas-igazsagugyi-miniszterium-egyeb-szerzodesek-2026-10), a pontos viszony tisztázásáig nem összevonva ezzel a 46,4 M Ft-os gyűjtőbeli tétellel. FRISSÍTVE 2026-10-03 05:55-ös futás: a 'Szuverenitásvédelmi Hivatal propagandacélú költségei' (3,67 Mrd Ft) tétel kiemelve ebből a gyűjtőből, mert az NVVH 2026-09-28-án saját hatáskörébe vonta ezt a konkrét ügyet (l. önálló tétel: reported-szuverenitasvedelmi-hivatal-konzorcium-nvvh-2026-09). Összeg ennek megfelelően csökkentve: 998,76 Mrd Ft → 995,09 Mrd Ft. FRISSÍTVE 2026-10-02 (16:56-os futás): a kormany.hu hivatalos oldal teljes listájának ismételt, részletes átnézése két korábban nem rögzített tételt azonosított: 'BTR-80 harcjárművek értékesítése Szerbiának' (576,7 millió Ft, Honvédelmi Minisztérium, 2026.09.29 — a harcjárművek tényleges eladása már 2024-ben megtörtént, a feljelentés/hivatalos listázás erről a korábbi tranzakcióról szól; független sajtóforrás 2026-ból nem található hozzá, kizárólag a hivatalos forrás alapján rögzítve) és 'Szuverenitásvédelmi Hivatal ügyvédi megbízásai' (46,4 millió Ft, Miniszterelnökség, 2026.09.29 — megkülönböztetendő a most kiemelt, 3,67 Mrd Ft-os propagandacélú költségek tételtől, ugyanazon hivatal más jellegű kiadása). (Korábbi megjegyzések megőrizve, l. előző verzió.)",
    "id": "reported-egyeb-miniszteriumi-18ugy-2026",
    "first_seen_at": "2026-09-28T15:02:40+00:00",
-   "updated_at": "2026-11-15T16:02:17+00:00"
+   "updated_at": "2026-11-24T05:02:08+00:00"
   },
   {
    "additional_sources": [
@@ -2357,8 +2395,8 @@
    "subject": "Gázkereskedelmi áfacsalási hálózat (\"gázmaffia\") — a NAV első hivatalos összesítése",
    "verification_notes": "ÚJ TÉTEL (2026-11-23 jelen futás, WebSearch/WebFetch útján azonosítva). A NAV 2026-11-12-i, 444.hu által ismertetett közlése szerint: adóigazgatási ellenőrzés (2024 óta) hét cégnél, ebből kettő még folyamatban van, öt esetben a cégek bírósághoz fordultak (egy keresetet elutasítottak, négy még folyamatban). A büntetőeljárásban a NAV Bűnügyi Főigazgatósága költségvetési csalás gyanúja miatt nyomoz, 17 országba 47 nemzetközi jogsegélykérelmet küldtek a vagyon visszaszerzése és további elkövetők azonosítása érdekében. Két letartóztatott van (köztük L. Péter, nemzetközileg elismert gázpiaci szereplő), 2026 október közepén 46 főt hallgattak ki gyanúsítottként. Korábbi sajtóbecslések (444.hu, 2025 november és 2026 október) 60-70, illetve 300 milliárd forintos nagyságrendről írtak — ezek az ország egészéből kiáramlott összegre vonatkozó, kevésbé pontos becslések lehettek; a NAV mostani, első hivatalos, tételes összesítése (54,5 Mrd Ft a hét fő haszonélvező cégnél) az irányadó és pontosabb adat, ezért ez került az alleged_amount_huf mezőbe. Tényleges, az államhoz visszakerült összeg (behajtott/realizált) nincs, csak zárolt/biztosított vagyon (24,8+41 Mrd Ft, részben átfedő kategóriák), ezért confirmed_recovered_huf=0. Nem szerepel a kormany.hu/atlathato/feljelentes hivatalos listáján (2026-11-13-i állapot szerint ellenőrizve), mivel ez a NAV önálló adóhatósági/büntetőeljárása, nem kormányzati/minisztériumi feljelentés. A report_date az ellenőrzés/nyomozás kezdetének (2024) hozzávetőleges évére utal, a pontos nap a cikkből nem derül ki.",
    "id": "reported-gazmaffia-afacsalas-nav-2026-11",
-   "updated_at": "2026-11-23T16:05:00+00:00",
-   "first_seen_at": "2026-11-23T16:05:00+00:00"
+   "first_seen_at": "2026-11-23T16:05:00+00:00",
+   "updated_at": "2026-11-23T16:05:00+00:00"
   },
   {
    "additional_sources": [
@@ -4053,7 +4091,7 @@
    "url": "https://magyarnemzet.hu/gazdasag/2026/09/allamadossag-novekedes"
   },
   "allamadossag_huf": 65716000000000,
-  "collected_at": "2026-11-23T17:30:00+01:00",
+  "collected_at": "2026-11-24T05:59:00+01:00",
   "elozo": {
    "allamadossag": {
     "period": null,
@@ -4095,7 +4133,7 @@
     "label_en": "Unemployment rate",
     "label_hu": "Munkanélküliégi ráta",
     "note_en": "KSH's October flash report had not yet been published at the time of this run.",
-    "note_hu": "A KSH októberi hónapra vonatkozó gyorstájékoztatója e futás idején még nem jelent meg.",
+    "note_hu": "A KSH októberi hónapra vonatkozó gyorstájékoztatója e futás idején (2026-11-24) még nem jelent meg; a KSH jellemzően a hónap végén teszi közzé az előző havi adatot.",
     "period": "2026-09",
     "prev_period": "2026-08",
     "prev_value": 4.7,
@@ -4142,7 +4180,7 @@
     "label_en": "Central bank base rate",
     "label_hu": "Jegybanki alapkamat",
     "note_en": "The Monetary Council kept the base rate unchanged at 5.50% at its 17 November 2026 meeting, in a non-unanimous vote.",
-    "note_hu": "Az MNB Monetáris Tanácsa 2026. november 17-i ülésén nem egyhangú döntéssel 5,50 százalékon tartotta a jegybanki alapkamatot; a betéti kamat 4,50%, a hitelkamat 6,50% maradt.",
+    "note_hu": "Az MNB Monetáris Tanácsa legutóbb 2026. november 17-i ülésén, nem egyhangú döntéssel 5,50 százalékon tartotta a jegybanki alapkamatot; a következő kamatdöntő ülés e futás idején még nem volt esedékes.",
     "period": "2026-11-17",
     "prev_period": "2026-10-20",
     "prev_value": 5.5,
@@ -4159,7 +4197,7 @@
     "label_en": "Official EUR/HUF rate (MNB)",
     "label_hu": "Euró hivatalos árfolyama (MNB)",
     "note_en": "No more recent official MNB rate could be reliably confirmed at the time of this run.",
-    "note_hu": "E futás idején sem volt megbízhatóan azonosítható ennél frissebb, hivatalos MNB-árfolyam; a legutóbbi ismert (2026-11-20) érték maradt érvényben.",
+    "note_hu": "E futás idején (2026-11-24) sem volt megbízhatóan azonosítható ennél frissebb, hivatalos MNB-árfolyam; a legutóbbi ismert (2026-11-20) érték maradt érvényben.",
     "period": "2026-11-20",
     "prev_period": "2026-11-19",
     "prev_value": 368.97,
@@ -4266,48 +4304,57 @@
    "publish_date": "2026-09-22",
    "url": "https://www.portfolio.hu/gazdasag/20260922/itt-az-mnb-uj-elorejelzese-hiaba-a-nemzetkozi-kockazatok-mersekelt-marad-az-idei-inflacio-864484"
   },
-  "id": "2026-11-23T17-30"
+  "id": "2026-11-24T05-59"
  },
  "last_run": {
   "errors": [
-   "A kormany.hu/atlathato/feljelentes oldal tartalma (64 ügy, 4007 Mrd Ft, 74,0 Mrd Ft visszatérítve, 2026-11-13-i állapot) ebben a futásban is változatlan volt a mai reggeli (2026-11-23 05:59-es) futáshoz képest — nem volt szükség frissítésre a reported-osszesito-2026-09 tételen.",
-   "A Forbes.hu cikke (Mészáros Lőrincnél és Habony Árpádnál talált, a sajtó szerint mintegy 22 magántőkealaphoz kapcsolódó, feltehetően NVVH-vizsgálathoz köthető vagyonfeltárásról) 403-as hibával nem volt közvetlenül elérhető WebFetch-csel, és független megerősítő forrás vagy konkrét összeg sem volt azonosítható ebben a futásban — ezért ez a tétel NEM került be az adattárba, további futásban ellenőrizendő.",
-   "A Magyar Közút Nonprofit Zrt. gyomosodásgátló-beszerzésének túlárazásáról szóló sajtófeltárás (444.hu, 2026-11-02; Forbes.hu megerősítése) jelen állapotban hatósági lépés (feljelentés/vizsgálat) nélküli sajtóértesülés, ezért a felhasználói szűrési szabály szerint nem került fel sem az items, sem a reported_cases kollekcióba.",
-   "Az ATV-nek tulajdonított, kb. 7,9 milliárd forintos NAV-lefoglalásról szóló hír eredeti forrása nem volt azonosítható ebben a futásban, ezért nem került be az adattárba.",
-   "Az ÁKK hivatalos statisztikai oldala (akk.hu) ezúttal sem volt közvetlenül lekérhető; az államadósság-érték változatlanul a 2026-07-31-i (Magyar Nemzet/ÁKK-hivatkozás) állapotot tükrözi.",
-   "Az MNB EUR/HUF hivatalos fixing újabb (2026-11-23-i) értéke nem volt megbízhatóan azonosítható; a legutóbbi ismert (2026-11-20, 373,22 Ft/EUR) maradt érvényben."
+   "A hirkereso.hu/politika oldal 404-es hibával nem volt elérhető ebben a futásban.",
+   "A K-Monitor site:-szűrésű keresés ebben a futásban nem adott k-monitor.hu-ról származó találatot.",
+   "Egy DailyNewsHungary-cikk szerint 2026 április–szeptember között csak 162,2 milliárd forint EU-forrás érkezett a Magyar Államkincstár központi számlájára, miközben a kormány 6000 Mrd Ft-os feloldásról beszélt — ez egyetlen, áttételesen megerősített forrásból ismert, és nem világos, hogy ez a rendszeres (RRF-től független) uniós folyószámla-mozgásokat vagy a 16,4 Mrd eurós csomaghoz kapcsolódó tételt takarja; az eu-forras-megallapodas-2026-05 tétel received_huf mezője (0) ezért ebben a futásban nem változott, a kérdés további tisztázásra vár.",
+   "Az MNB EUR/HUF árfolyamának 2026-11-20 óta nem volt frissebb, megbízhatóan azonosítható hivatalos értéke.",
+   "A KSH októberi munkanélküliségi gyorstájékoztatója, a GDP részletes (dec. 1-i) bontása és a novemberi központi alrendszer-hiány adat e futás idején még nem jelent meg.",
+   "Az ÁKK hivatalos államadósság-oldala (akk.hu) ezúttal sem volt közvetlenül lekérhető; a legutóbbi (2026-07-31-i, Magyar Nemzet/ÁKK-hivatkozású) érték maradt érvényben.",
+   "A Gubacsi híd (Vitézy, 2026-08-24) szerződéséről kiderült, hogy a kizárt, olcsóbb (16,62 Mrd Ft-os) ajánlat vitatott volt (jogszerűen érvénytelenítve), és a végleges, 21 Mrd Ft-os szerződés magasabb annál, de alacsonyabb a minisztérium 26,54 Mrd Ft-os becslésénél — mivel a tényleges megtakarítás mértéke nem egyértelmű és a projekt nem a jelen (3 napos) figyelési ablakba esik, nem került fel önálló items-tételként."
   ],
   "eu_lost_items_new": 0,
-  "finished_at": "2026-11-23T18:15:00+01:00",
+  "finished_at": "2026-11-24T06:10:00+01:00",
   "items_duplicate": 0,
-  "items_found_total": 3,
+  "items_found_total": 1,
   "items_needs_review": 0,
-  "items_new": 0,
-  "reported_cases_new": 1,
+  "items_new": 1,
+  "reported_cases_new": 0,
   "reported_cases_updated": 1,
   "sources_checked": [
-   "kormany.hu/atlathato/feljelentes",
-   "k-monitor.hu (WebSearch)",
-   "hirkereso.hu",
-   "mnvvh.hu/hirek",
-   "ugyeszseg.hu/category/hirek/kozponti-nyomozo-fougyeszseg",
-   "telex.hu",
+   "kormany.hu/atlathato/feljelentes (WebFetch sikeres, 2026-11-13-i állapot — változatlan a legutóbbi rögzített állapothoz képest: 64 ügy, 13 tárca, 4007 Mrd Ft, 74,0 Mrd Ft visszafizetve/megtakarítva)",
+   "k-monitor.hu (WebSearch, site: szűrés nem adott k-monitor.hu találatot ebben a futásban)",
+   "hirkereso.hu/politika (404, nem elérhető ebben a futásban)",
+   "mnvvh.hu/hirek (sikeres, legfrissebb: 2026-11-19, új ügy nincs)",
+   "ugyeszseg.hu/kategoria/kozponti-nyomozo-fougyeszseg (sikeres, legfrissebb: 2026-11-19, csak már ismert Matolcsy-ügy fejlemény)",
    "444.hu",
-   "portfolio.hu",
+   "telex.hu",
    "index.hu",
    "hvg.hu",
+   "portfolio.hu",
    "economx.hu",
    "vg.hu",
-   "forbes.hu",
    "privatbankar.hu",
    "penzcentrum.hu",
-   "mandiner.hu",
-   "mnb.hu"
+   "adozona.hu",
+   "infostart.hu",
+   "dailynewshungary.com"
   ],
-  "started_at": "2026-11-23T17:18:00+01:00",
-  "id": "2026-11-23T17-30"
+  "started_at": "2026-11-24T05:55:00+01:00",
+  "id": "2026-11-24T05-59"
  },
  "run_history": [
+  {
+   "finished_at": "2026-11-24T06:10:00+01:00",
+   "started_at": "2026-11-24T05:55:00+01:00",
+   "items_new": 1,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 1,
+   "eu_lost_items_new": 0
+  },
   {
    "finished_at": "2026-11-23T18:15:00+01:00",
    "started_at": "2026-11-23T17:18:00+01:00",
@@ -5099,18 +5146,10 @@
    "reported_cases_new": 0,
    "reported_cases_updated": 2,
    "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-10-21T17:40:00+02:00",
-   "started_at": "2026-10-21T16:56:00+02:00",
-   "items_new": 0,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 2,
-   "eu_lost_items_new": 0
   }
  ],
  "run_summary": {
-  "run_id": "2026-11-23T16:05:00+00:00",
+  "run_id": "2026-11-24T05:02:08+00:00",
   "new": 1,
   "modified": 0,
   "confirmed_only": 1,
@@ -5118,40 +5157,25 @@
   "pending_review": 4,
   "by_section": {
    "items": {
-    "new": 0,
+    "new": 1,
     "modified": 0,
     "confirmed_only": 0
    },
    "reported_cases": {
-    "new": 1,
+    "new": 0,
     "modified": 0,
     "confirmed_only": 1
    }
   },
   "new_ids": [
-   "r:reported-gazmaffia-afacsalas-nav-2026-11"
+   "i:visszaszerzes-duna-aszfalt-mohacsi-hid-eloleg-2026-08"
   ],
   "modified_ids": [],
   "confirmed_ids": [
-   "r:reported-mnb-matolcsy-alapitvanyok-2026-09"
+   "r:reported-egyeb-miniszteriumi-18ugy-2026"
   ]
  },
  "run_summary_history": [
-  {
-   "run_id": "2026-10-20T04:00:55+00:00",
-   "by_section": {
-    "items": {
-     "new": 0,
-     "modified": 0,
-     "confirmed_only": 0
-    },
-    "reported_cases": {
-     "new": 0,
-     "modified": 0,
-     "confirmed_only": 0
-    }
-   }
-  },
   {
    "run_id": "2026-10-20T10:01:57+00:00",
    "by_section": {
@@ -6632,6 +6656,21 @@
     },
     "reported_cases": {
      "new": 1,
+     "modified": 0,
+     "confirmed_only": 1
+    }
+   }
+  },
+  {
+   "run_id": "2026-11-24T05:02:08+00:00",
+   "by_section": {
+    "items": {
+     "new": 1,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 0,
      "modified": 0,
      "confirmed_only": 1
     }
