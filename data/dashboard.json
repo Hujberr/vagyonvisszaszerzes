@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-24T11:00:57+00:00",
+ "generated_at": "2026-11-24T15:59:35+00:00",
  "summary": {
   "megtakaritas_verified_huf": 2947290700000,
   "visszaszerzes_verified_huf": 1634319300000,
@@ -4091,7 +4091,7 @@
    "url": "https://magyarnemzet.hu/gazdasag/2026/09/allamadossag-novekedes"
   },
   "allamadossag_huf": 65716000000000,
-  "collected_at": "2026-11-24T11:59:00+01:00",
+  "collected_at": "2026-11-24T16:56:00+01:00",
   "elozo": {
    "allamadossag": {
     "period": null,
@@ -4133,7 +4133,7 @@
     "label_en": "Unemployment rate",
     "label_hu": "Munkanélküliégi ráta",
     "note_en": "KSH's October flash report had not yet been published at the time of this run.",
-    "note_hu": "A KSH októberi hónapra vonatkozó gyorstájékoztatója e futás idején (2026-11-24) még nem jelent meg; a KSH jellemzően a hónap végén teszi közzé az előző havi adatot.",
+    "note_hu": "A KSH októberi hónapra vonatkozó gyorstájékoztatója e futás idején (2026-11-24 16:56) még nem jelent meg; a KSH jellemzően a hónap végén teszi közzé az előző havi adatot.",
     "period": "2026-09",
     "prev_period": "2026-08",
     "prev_value": 4.7,
@@ -4197,7 +4197,7 @@
     "label_en": "Official EUR/HUF rate (MNB)",
     "label_hu": "Euró hivatalos árfolyama (MNB)",
     "note_en": "No more recent official MNB rate could be reliably confirmed at the time of this run.",
-    "note_hu": "E futás idején (2026-11-24) sem volt megbízhatóan azonosítható ennél frissebb, hivatalos MNB-árfolyam; a legutóbbi ismert (2026-11-20) érték maradt érvényben.",
+    "note_hu": "E futás idején (2026-11-24 16:56) sem volt megbízhatóan azonosítható ennél frissebb, hivatalos MNB-árfolyam; a legutóbbi ismert (2026-11-20) érték maradt érvényben.",
     "period": "2026-11-20",
     "prev_period": "2026-11-19",
     "prev_value": 368.97,
@@ -4304,17 +4304,20 @@
    "publish_date": "2026-09-22",
    "url": "https://www.portfolio.hu/gazdasag/20260922/itt-az-mnb-uj-elorejelzese-hiaba-a-nemzetkozi-kockazatok-mersekelt-marad-az-idei-inflacio-864484"
   },
-  "id": "2026-11-24T11-59"
+  "id": "2026-11-24T16-56"
  },
  "last_run": {
   "errors": [
-   "hirkereso.hu/politika 404-es hibával nem volt elérhető ebben a futásban.",
-   "A 444.hu 2026-11-18-i, közadatigényléssel kipereltett cikksorozata (Orbán Viktor 2015–2025 közötti hivatalos repülőútjai, 4,8 Mrd Ft/327 út; külön cikk a kb. 280 millió forintos külföldi meccsnézésekről) kizárólag régebbi (2015–2026 közötti) kiadásokat tár fel, konkrét, hozzá kapcsolódó feljelentés vagy hatósági vizsgálat megemlítése nélkül — a felhasználói szűrési szabály szerint (csak feljelentéssel/vizsgálattal rendelkező, vagy jelenlegi megtakarítási/visszaszerzési esemény) ezért nem került fel sem az items, sem a reported_cases kollekcióba. Figyelendő, hogy induljon-e hozzá hatósági lépés egy következő futásban.",
-   "A Tanács Zoltán-féle 2026-09-16-i p2m/Balásy-feljelentés (economx.hu) már korábban rögzítve van a reported-egyeb-miniszteriumi-18ugy-2026 gyűjtőtételben, csak megerősítést hozott.",
-   "Az EU RRF 10 milliárd eurós kifizetése (Euronews, 2026-11-12/13) továbbra is csak folyamatban lévő bizottsági jóváhagyás, tényleges átutalás nem történt — ez már a meglévő eu-forras-megallapodas-2026-05 tétel verification_notes mezőjében (2026-11-20-as frissítés) szerepel, nem hozott új információt."
+   "A hirkereso.hu/politika oldal 404-es hibával nem volt elérhető ebben a futásban.",
+   "A kormany.hu/atlathato/feljelentes oldal tartalma a 2026-11-24 11:40-es mai, korábbi futáshoz képest változatlan maradt (64 ügy, 4007 Mrd Ft, 74,0 Mrd Ft).",
+   "A KSH októberi munkanélküliségi gyorstájékoztatója, a GDP részletes (dec. 1-i) bontása és a novemberi központi alrendszer-hiány adat e futás idején még nem jelent meg.",
+   "Az MNB EUR/HUF árfolyamának 2026-11-20 óta nem volt frissebb, megbízhatóan azonosítható hivatalos értéke.",
+   "Az ÁKK hivatalos államadósság-oldala (akk.hu) ezúttal sem volt közvetlenül lekérhető; a legutóbbi (2026-07-31-i) érték maradt érvényben.",
+   "Egy telex.hu-cikk (2026-01-01, N+2 forrásvesztési mechanizmus, 3 operatív program, kb. 1 Mrd EUR/415 Mrd Ft) áttekintése megerősítette, hogy ez a korábban már rögzített, 2025 végi 1 Mrd EUR-s kohéziós forrásvesztéssel azonos esemény, nem új tétel.",
+   "Egy DK-s, Orbán Viktor elleni, elveszett uniós pénzek miatti feljelentésről szóló hír (dailynewshungary.com, régebbi angol cikkek) pontos dátuma és ténye ebben a futásban nem volt megerősíthető magyar elsődleges forrásból; nem került fel az adattárba, következő futásban újra ellenőrizendő."
   ],
   "eu_lost_items_new": 0,
-  "finished_at": "2026-11-24T12:05:00+01:00",
+  "finished_at": "2026-11-24T17:30:00+01:00",
   "items_duplicate": 0,
   "items_found_total": 0,
   "items_needs_review": 0,
@@ -4322,29 +4325,35 @@
   "reported_cases_new": 0,
   "reported_cases_updated": 0,
   "sources_checked": [
-   "kormany.hu/atlathato/feljelentes (64 ügy, 4007 Mrd Ft, 74,0 Mrd Ft visszafizetve/megtakarítva — változatlan a legutóbbi, 2026-11-13-i állapothoz képest)",
-   "mnvvh.hu/hirek (csak a már rögzített Seszták-ügyi fejlemények, új önálló ügy nincs)",
-   "ugyeszseg.hu/category/hirek/kozponti-nyomozo-fougyeszseg (Matolcsy letartóztatás-hosszabbítás és Volánbusz-ügy, mindkettő már rögzítve)",
-   "k-monitor.hu (WebSearch, nincs új releváns találat)",
-   "hirkereso.hu/politika (404, nem elérhető)",
+   "kormany.hu/atlathato/feljelentes (WebFetch sikeres, 2026-11-13-i állapot, változatlan: 64 ügy, 13 tárca, 4007 Mrd Ft, 74,0 Mrd Ft visszafizetve/megtakarítva)",
+   "mnvvh.hu/hirek (sikeres, legfrissebb 2026-11-19, kizárólag már rögzített Seszták/Matolcsy/egyéb ügyek fejleményei, új önálló ügy nincs)",
+   "hirkereso.hu/politika (404, nem elérhető ebben a futásban)",
+   "k-monitor.hu (WebSearch, nincs új k-monitor.hu eredetű találat)",
    "telex.hu",
    "444.hu",
    "index.hu",
+   "hvg.hu",
    "portfolio.hu",
    "economx.hu",
-   "hvg.hu",
    "vg.hu",
    "infostart.hu",
    "privatbankar.hu",
    "penzcentrum.hu",
-   "euobserver.com",
-   "euronews.hu",
-   "adozona.hu"
+   "adozona.hu",
+   "dailynewshungary.com"
   ],
-  "started_at": "2026-11-24T11:40:00+01:00",
-  "id": "2026-11-24T11-59"
+  "started_at": "2026-11-24T16:56:00+01:00",
+  "id": "2026-11-24T16-56"
  },
  "run_history": [
+  {
+   "finished_at": "2026-11-24T17:30:00+01:00",
+   "started_at": "2026-11-24T16:56:00+01:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
   {
    "finished_at": "2026-11-24T12:05:00+01:00",
    "started_at": "2026-11-24T11:40:00+01:00",
@@ -5136,18 +5145,10 @@
    "reported_cases_new": 0,
    "reported_cases_updated": 2,
    "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-10-22T12:10:00+02:00",
-   "started_at": "2026-10-22T11:50:00+02:00",
-   "items_new": 0,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 1,
-   "eu_lost_items_new": 0
   }
  ],
  "run_summary": {
-  "run_id": "2026-11-24T11:00:57+00:00",
+  "run_id": "2026-11-24T15:59:35+00:00",
   "new": 0,
   "modified": 0,
   "confirmed_only": 0,
@@ -5170,21 +5171,6 @@
   "confirmed_ids": []
  },
  "run_summary_history": [
-  {
-   "run_id": "2026-10-20T15:00:07+00:00",
-   "by_section": {
-    "items": {
-     "new": 0,
-     "modified": 0,
-     "confirmed_only": 0
-    },
-    "reported_cases": {
-     "new": 0,
-     "modified": 0,
-     "confirmed_only": 0
-    }
-   }
-  },
   {
    "run_id": "2026-10-21T04:04:26+00:00",
    "by_section": {
@@ -6657,6 +6643,21 @@
   },
   {
    "run_id": "2026-11-24T11:00:57+00:00",
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    }
+   }
+  },
+  {
+   "run_id": "2026-11-24T15:59:35+00:00",
    "by_section": {
     "items": {
      "new": 0,
