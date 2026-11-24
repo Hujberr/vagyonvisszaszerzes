@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-24T05:02:08+00:00",
+ "generated_at": "2026-11-24T11:00:57+00:00",
  "summary": {
   "megtakaritas_verified_huf": 2947290700000,
   "visszaszerzes_verified_huf": 1634319300000,
@@ -1227,8 +1227,8 @@
    "subject": "Mohácsi Duna-híd — korábbi túlfizetett előleg visszafizetése (Duna Aszfalt)",
    "verification_notes": "ÚJ TÉTEL (2026-11-24 05:59-es futás, WebSearch-en keresztül azonosított, régebbi — 2026 augusztusi — esemény, amely a korábbi futások adattárában még nem szerepelt). Vitézy Dávid közlekedési és beruházási miniszter hivatalos (Facebook-) bejelentésén alapul, legalább négy sajtóforrás (444.hu, Világgazdaság, Economx, Daily News Hungary) egyezően számol be róla. ELKÜLÖNÜL a megtakaritas-mohacsi-duna-hid-2x1-2026-09 tételtől (ugyanazon projekt 2x1 sávos kialakításából eredő, kb. 76 Mrd Ft-os megtakarítás) — ez utóbbi a tervezett kiadás csökkentése, ez a mostani tétel pedig egy korábban már kifizetett, túlzott előleg tényleges visszafizetése. Kapcsolódik a reported_cases/reported-egyeb-miniszteriumi-18ugy-2026 gyűjtőtételben szereplő 'Mohácsi Duna-híd előleg' (155,8 Mrd Ft, kormany.hu szerinti feljelentett összeg) komponenshez: ez a 58,6 Mrd Ft a feljelentett 155,8 Mrd Ft-os előlegnek egy már megerősítetten visszafizetett része, nem adandó hozzá újra az items összesítéshez a gyűjtőtételen felül kétszer.",
    "id": "visszaszerzes-duna-aszfalt-mohacsi-hid-eloleg-2026-08",
-   "updated_at": "2026-11-24T05:02:08+00:00",
-   "first_seen_at": "2026-11-24T05:02:08+00:00"
+   "first_seen_at": "2026-11-24T05:02:08+00:00",
+   "updated_at": "2026-11-24T05:02:08+00:00"
   },
   {
    "additional_sources": [
@@ -4091,7 +4091,7 @@
    "url": "https://magyarnemzet.hu/gazdasag/2026/09/allamadossag-novekedes"
   },
   "allamadossag_huf": 65716000000000,
-  "collected_at": "2026-11-24T05:59:00+01:00",
+  "collected_at": "2026-11-24T11:59:00+01:00",
   "elozo": {
    "allamadossag": {
     "period": null,
@@ -4304,49 +4304,55 @@
    "publish_date": "2026-09-22",
    "url": "https://www.portfolio.hu/gazdasag/20260922/itt-az-mnb-uj-elorejelzese-hiaba-a-nemzetkozi-kockazatok-mersekelt-marad-az-idei-inflacio-864484"
   },
-  "id": "2026-11-24T05-59"
+  "id": "2026-11-24T11-59"
  },
  "last_run": {
   "errors": [
-   "A hirkereso.hu/politika oldal 404-es hibával nem volt elérhető ebben a futásban.",
-   "A K-Monitor site:-szűrésű keresés ebben a futásban nem adott k-monitor.hu-ról származó találatot.",
-   "Egy DailyNewsHungary-cikk szerint 2026 április–szeptember között csak 162,2 milliárd forint EU-forrás érkezett a Magyar Államkincstár központi számlájára, miközben a kormány 6000 Mrd Ft-os feloldásról beszélt — ez egyetlen, áttételesen megerősített forrásból ismert, és nem világos, hogy ez a rendszeres (RRF-től független) uniós folyószámla-mozgásokat vagy a 16,4 Mrd eurós csomaghoz kapcsolódó tételt takarja; az eu-forras-megallapodas-2026-05 tétel received_huf mezője (0) ezért ebben a futásban nem változott, a kérdés további tisztázásra vár.",
-   "Az MNB EUR/HUF árfolyamának 2026-11-20 óta nem volt frissebb, megbízhatóan azonosítható hivatalos értéke.",
-   "A KSH októberi munkanélküliségi gyorstájékoztatója, a GDP részletes (dec. 1-i) bontása és a novemberi központi alrendszer-hiány adat e futás idején még nem jelent meg.",
-   "Az ÁKK hivatalos államadósság-oldala (akk.hu) ezúttal sem volt közvetlenül lekérhető; a legutóbbi (2026-07-31-i, Magyar Nemzet/ÁKK-hivatkozású) érték maradt érvényben.",
-   "A Gubacsi híd (Vitézy, 2026-08-24) szerződéséről kiderült, hogy a kizárt, olcsóbb (16,62 Mrd Ft-os) ajánlat vitatott volt (jogszerűen érvénytelenítve), és a végleges, 21 Mrd Ft-os szerződés magasabb annál, de alacsonyabb a minisztérium 26,54 Mrd Ft-os becslésénél — mivel a tényleges megtakarítás mértéke nem egyértelmű és a projekt nem a jelen (3 napos) figyelési ablakba esik, nem került fel önálló items-tételként."
+   "hirkereso.hu/politika 404-es hibával nem volt elérhető ebben a futásban.",
+   "A 444.hu 2026-11-18-i, közadatigényléssel kipereltett cikksorozata (Orbán Viktor 2015–2025 közötti hivatalos repülőútjai, 4,8 Mrd Ft/327 út; külön cikk a kb. 280 millió forintos külföldi meccsnézésekről) kizárólag régebbi (2015–2026 közötti) kiadásokat tár fel, konkrét, hozzá kapcsolódó feljelentés vagy hatósági vizsgálat megemlítése nélkül — a felhasználói szűrési szabály szerint (csak feljelentéssel/vizsgálattal rendelkező, vagy jelenlegi megtakarítási/visszaszerzési esemény) ezért nem került fel sem az items, sem a reported_cases kollekcióba. Figyelendő, hogy induljon-e hozzá hatósági lépés egy következő futásban.",
+   "A Tanács Zoltán-féle 2026-09-16-i p2m/Balásy-feljelentés (economx.hu) már korábban rögzítve van a reported-egyeb-miniszteriumi-18ugy-2026 gyűjtőtételben, csak megerősítést hozott.",
+   "Az EU RRF 10 milliárd eurós kifizetése (Euronews, 2026-11-12/13) továbbra is csak folyamatban lévő bizottsági jóváhagyás, tényleges átutalás nem történt — ez már a meglévő eu-forras-megallapodas-2026-05 tétel verification_notes mezőjében (2026-11-20-as frissítés) szerepel, nem hozott új információt."
   ],
   "eu_lost_items_new": 0,
-  "finished_at": "2026-11-24T06:10:00+01:00",
+  "finished_at": "2026-11-24T12:05:00+01:00",
   "items_duplicate": 0,
-  "items_found_total": 1,
+  "items_found_total": 0,
   "items_needs_review": 0,
-  "items_new": 1,
+  "items_new": 0,
   "reported_cases_new": 0,
-  "reported_cases_updated": 1,
+  "reported_cases_updated": 0,
   "sources_checked": [
-   "kormany.hu/atlathato/feljelentes (WebFetch sikeres, 2026-11-13-i állapot — változatlan a legutóbbi rögzített állapothoz képest: 64 ügy, 13 tárca, 4007 Mrd Ft, 74,0 Mrd Ft visszafizetve/megtakarítva)",
-   "k-monitor.hu (WebSearch, site: szűrés nem adott k-monitor.hu találatot ebben a futásban)",
-   "hirkereso.hu/politika (404, nem elérhető ebben a futásban)",
-   "mnvvh.hu/hirek (sikeres, legfrissebb: 2026-11-19, új ügy nincs)",
-   "ugyeszseg.hu/kategoria/kozponti-nyomozo-fougyeszseg (sikeres, legfrissebb: 2026-11-19, csak már ismert Matolcsy-ügy fejlemény)",
-   "444.hu",
+   "kormany.hu/atlathato/feljelentes (64 ügy, 4007 Mrd Ft, 74,0 Mrd Ft visszafizetve/megtakarítva — változatlan a legutóbbi, 2026-11-13-i állapothoz képest)",
+   "mnvvh.hu/hirek (csak a már rögzített Seszták-ügyi fejlemények, új önálló ügy nincs)",
+   "ugyeszseg.hu/category/hirek/kozponti-nyomozo-fougyeszseg (Matolcsy letartóztatás-hosszabbítás és Volánbusz-ügy, mindkettő már rögzítve)",
+   "k-monitor.hu (WebSearch, nincs új releváns találat)",
+   "hirkereso.hu/politika (404, nem elérhető)",
    "telex.hu",
+   "444.hu",
    "index.hu",
-   "hvg.hu",
    "portfolio.hu",
    "economx.hu",
+   "hvg.hu",
    "vg.hu",
+   "infostart.hu",
    "privatbankar.hu",
    "penzcentrum.hu",
-   "adozona.hu",
-   "infostart.hu",
-   "dailynewshungary.com"
+   "euobserver.com",
+   "euronews.hu",
+   "adozona.hu"
   ],
-  "started_at": "2026-11-24T05:55:00+01:00",
-  "id": "2026-11-24T05-59"
+  "started_at": "2026-11-24T11:40:00+01:00",
+  "id": "2026-11-24T11-59"
  },
  "run_history": [
+  {
+   "finished_at": "2026-11-24T12:05:00+01:00",
+   "started_at": "2026-11-24T11:40:00+01:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
   {
    "finished_at": "2026-11-24T06:10:00+01:00",
    "started_at": "2026-11-24T05:55:00+01:00",
@@ -5138,59 +5144,32 @@
    "reported_cases_new": 0,
    "reported_cases_updated": 1,
    "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-10-22T06:10:00+02:00",
-   "started_at": "2026-10-22T05:55:00+02:00",
-   "items_new": 0,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 2,
-   "eu_lost_items_new": 0
   }
  ],
  "run_summary": {
-  "run_id": "2026-11-24T05:02:08+00:00",
-  "new": 1,
+  "run_id": "2026-11-24T11:00:57+00:00",
+  "new": 0,
   "modified": 0,
-  "confirmed_only": 1,
-  "touched": 2,
+  "confirmed_only": 0,
+  "touched": 0,
   "pending_review": 4,
   "by_section": {
    "items": {
-    "new": 1,
+    "new": 0,
     "modified": 0,
     "confirmed_only": 0
    },
    "reported_cases": {
     "new": 0,
     "modified": 0,
-    "confirmed_only": 1
+    "confirmed_only": 0
    }
   },
-  "new_ids": [
-   "i:visszaszerzes-duna-aszfalt-mohacsi-hid-eloleg-2026-08"
-  ],
+  "new_ids": [],
   "modified_ids": [],
-  "confirmed_ids": [
-   "r:reported-egyeb-miniszteriumi-18ugy-2026"
-  ]
+  "confirmed_ids": []
  },
  "run_summary_history": [
-  {
-   "run_id": "2026-10-20T10:01:57+00:00",
-   "by_section": {
-    "items": {
-     "new": 0,
-     "modified": 0,
-     "confirmed_only": 0
-    },
-    "reported_cases": {
-     "new": 0,
-     "modified": 0,
-     "confirmed_only": 1
-    }
-   }
-  },
   {
    "run_id": "2026-10-20T15:00:07+00:00",
    "by_section": {
@@ -6673,6 +6652,21 @@
      "new": 0,
      "modified": 0,
      "confirmed_only": 1
+    }
+   }
+  },
+  {
+   "run_id": "2026-11-24T11:00:57+00:00",
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
     }
    }
   }
