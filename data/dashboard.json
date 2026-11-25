@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-24T15:59:35+00:00",
+ "generated_at": "2026-11-25T05:03:49+00:00",
  "summary": {
   "megtakaritas_verified_huf": 2947290700000,
   "visszaszerzes_verified_huf": 1634319300000,
@@ -2900,10 +2900,10 @@
    },
    "status": "under_investigation",
    "subject": "Autópálya-koncesszió (MKIF, kb. az ország autópálya-hálózatának kétharmada) szerződésmódosítása",
-   "verification_notes": "FRISSÍTVE 2026-11-20 futás: Magyar Péter miniszterelnök 2026. november 18-án bejelentette, hogy a kormány végleg megszünteti a 35 éves, mintegy 23 ezer milliárd forintos szerződéses összértékű MKIF autópálya-koncessziót, és az állam veszi át az üzemeltetést Mészáros Lőrinc és Szíjj László érdekeltségeitől. A cikk szerint a koncessziós társaság 2025 végéig összesen 760 milliárd forint költségvetési bevételt kapott, 95,8 milliárd forint nyereséget ért el és 47,5 milliárd forintot fizetett ki osztalékként; Vitézy Dávid korábbi (2026 augusztusi) közlése szerint a kormányváltás óta is folytatódó kifizetésekkel együtt összesen nettó 870 milliárd forintot (bruttó 1104,9 milliárd forintot) utaltak át a társaságnak. A bejelentés a koncesszió jogi/szerződéses felszámolásáról szól, konkrét, az államhoz tényleges pénzben visszakerült összegről a cikk nem ír, ezért a confirmed_recovered_huf (0) és a status (under_investigation) változatlan; a tényleges átvétel/elszámolás végrehajtása és esetleges pénzügyi visszatérülése egy következő futásban ellenőrizendő. Az alleged_amount_huf (1000 Mrd Ft, hivatalos kormany.hu adat) nem változott. (Korábbi megjegyzések megőrizve, l. előző verzió.)",
+   "verification_notes": "FRISSÍTVE 2026-11-25 futás: a kormany.hu/atlathato/feljelentes 2026-11-13-i hivatalos állapota (64 ügy, 4007 Mrd Ft) ezen a tételen nem hozott változást. Kiegészítő sajtóinformáció (Adozona.hu, a 444.hu november 18-i bejelentésére visszavezetve): a koncesszió felbontásáról szóló kormánydöntés megjelent a Magyar Közlönyben; a jelenlegi koncesszortól 2027. április 1-jén az állami Magyar Közút veszi át az autópályák üzemeltetését. A Közlekedési és Beruházási Minisztérium állítása szerint ez – mivel a Magyar Közút kb. harmadáron biztosítaná ugyanazt a szolgáltatást – összesen 21 ezer milliárd forintos megtakarítást jelentene a szerződés hátralévő idejére; ugyanakkor a Világgazdaság kritikai elemzése szerint a miniszter bruttó (ÁFA-t is tartalmazó) kifizetésekkel számolt, miközben az MKIF nettó összegről beszélt, és nem tisztázott, hogy az állam azonnali szerződésfelmondása esetén honnan finanszírozná a szükséges beruházásokat. Ez egy TÖBB ÉVTIZEDES, vitatott, még nem realizált projekciós becslés, nem egyszeri, jelenleg realizált megtakarítás, ezért nem kerül fel önálló items-tételként; a confirmed_recovered_huf (0) és a status (under_investigation) változatlan. Az alleged_amount_huf (1000 Mrd Ft, hivatalos kormany.hu adat) nem változott. (Korábbi megjegyzések megőrizve, l. előző verzió.)",
    "id": "reported-mkif-autopalya-koncesszio-2026-09",
    "first_seen_at": "2026-09-28T15:02:40+00:00",
-   "updated_at": "2026-11-20T11:01:30+00:00"
+   "updated_at": "2026-11-25T05:03:49+00:00"
   },
   {
    "alleged_amount_huf": null,
@@ -4091,7 +4091,7 @@
    "url": "https://magyarnemzet.hu/gazdasag/2026/09/allamadossag-novekedes"
   },
   "allamadossag_huf": 65716000000000,
-  "collected_at": "2026-11-24T16:56:00+01:00",
+  "collected_at": "2026-11-25T06:01:00+01:00",
   "elozo": {
    "allamadossag": {
     "period": null,
@@ -4133,7 +4133,7 @@
     "label_en": "Unemployment rate",
     "label_hu": "Munkanélküliégi ráta",
     "note_en": "KSH's October flash report had not yet been published at the time of this run.",
-    "note_hu": "A KSH októberi hónapra vonatkozó gyorstájékoztatója e futás idején (2026-11-24 16:56) még nem jelent meg; a KSH jellemzően a hónap végén teszi közzé az előző havi adatot.",
+    "note_hu": "A KSH októberi hónapra vonatkozó gyorstájékoztatója e futás idején (2026-11-25) még nem jelent meg; a KSH jellemzően a hónap végén teszi közzé az előző havi adatot.",
     "period": "2026-09",
     "prev_period": "2026-08",
     "prev_value": 4.7,
@@ -4196,18 +4196,18 @@
     "key": "eur_huf",
     "label_en": "Official EUR/HUF rate (MNB)",
     "label_hu": "Euró hivatalos árfolyama (MNB)",
-    "note_en": "No more recent official MNB rate could be reliably confirmed at the time of this run.",
-    "note_hu": "E futás idején (2026-11-24 16:56) sem volt megbízhatóan azonosítható ennél frissebb, hivatalos MNB-árfolyam; a legutóbbi ismert (2026-11-20) érték maradt érvényben.",
-    "period": "2026-11-20",
-    "prev_period": "2026-11-19",
-    "prev_value": 368.97,
+    "note_en": "The USD rate on the same day was 337.97 Ft/USD.",
+    "note_hu": "A dollár árfolyama ugyanezen a napon 337,97 Ft/USD volt.",
+    "period": "2026-11-24",
+    "prev_period": "2026-11-20",
+    "prev_value": 373.22,
     "source": {
      "name": "MNB hivatalos árfolyamok",
-     "publish_date": "2026-11-20",
+     "publish_date": "2026-11-24",
      "url": "https://www.mnb.hu/arfolyamok"
     },
     "unit": "Ft/EUR",
-    "value": 373.22
+    "value": 369.57
    },
    {
     "key": "brutto_atlagkereset",
@@ -4304,48 +4304,62 @@
    "publish_date": "2026-09-22",
    "url": "https://www.portfolio.hu/gazdasag/20260922/itt-az-mnb-uj-elorejelzese-hiaba-a-nemzetkozi-kockazatok-mersekelt-marad-az-idei-inflacio-864484"
   },
-  "id": "2026-11-24T16-56"
+  "id": "2026-11-25T06-01"
  },
  "last_run": {
   "errors": [
-   "A hirkereso.hu/politika oldal 404-es hibával nem volt elérhető ebben a futásban.",
-   "A kormany.hu/atlathato/feljelentes oldal tartalma a 2026-11-24 11:40-es mai, korábbi futáshoz képest változatlan maradt (64 ügy, 4007 Mrd Ft, 74,0 Mrd Ft).",
-   "A KSH októberi munkanélküliségi gyorstájékoztatója, a GDP részletes (dec. 1-i) bontása és a novemberi központi alrendszer-hiány adat e futás idején még nem jelent meg.",
-   "Az MNB EUR/HUF árfolyamának 2026-11-20 óta nem volt frissebb, megbízhatóan azonosítható hivatalos értéke.",
-   "Az ÁKK hivatalos államadósság-oldala (akk.hu) ezúttal sem volt közvetlenül lekérhető; a legutóbbi (2026-07-31-i) érték maradt érvényben.",
-   "Egy telex.hu-cikk (2026-01-01, N+2 forrásvesztési mechanizmus, 3 operatív program, kb. 1 Mrd EUR/415 Mrd Ft) áttekintése megerősítette, hogy ez a korábban már rögzített, 2025 végi 1 Mrd EUR-s kohéziós forrásvesztéssel azonos esemény, nem új tétel.",
-   "Egy DK-s, Orbán Viktor elleni, elveszett uniós pénzek miatti feljelentésről szóló hír (dailynewshungary.com, régebbi angol cikkek) pontos dátuma és ténye ebben a futásban nem volt megerősíthető magyar elsődleges forrásból; nem került fel az adattárba, következő futásban újra ellenőrizendő."
+   "A kormany.hu hivatalos összesítője (64 ügy, 4007 Mrd Ft, 2026-11-13-i állapot) ebben a futásban is változatlan volt; a reported-osszesito-2026-09 és a reported-egyeb-miniszteriumi-18ugy-2026 / reported-ttm-informatikai-szerzodesek-2026-10 gyűjtőtételek összes komponense egyenként összevetve a hivatalos táblázattal — eltérés nem található, frissítés nem volt szükséges.",
+   "Az ÁKK hivatalos statisztikai oldala (akk.hu) ebben a futásban sem volt közvetlenül lekérhető; az államadósság értéke változatlanul a 2026-07-31-i (Magyar Nemzet/ÁKK-adatra hivatkozó) állapotot tükrözi.",
+   "KSH októberi munkanélküliégi gyorstájékoztatója és a Q3 GDP részletes (komponensenkénti) bontása (várhatóan 2026-12-01) e futás idején még nem jelent meg; a legutóbbi (szeptemberi/Q3 gyorsbecslési) adatok maradtak érvényben.",
+   "Az Euronews 2026-11-12-i cikke szerint az Európai Bizottság a hónap későbbi részében jóváhagyja Magyarország RRF-kérelmének csaknem egészét; ez megegyezik az eu-forras-megallapodas-2026-05 tételben már rögzített, 2026-11-20-i (Index) frissítéssel (126/127 mérföldkő teljesítve, a kifizetés 2026-12-31-ig várható a cikkek szerint) — újabb, ezen túli fejlemény (tényleges kifizetés) ebben a futásban nem azonosítható, a received_huf mező (0) változatlan.",
+   "Az MKIF autopálya-koncesszió ügyében (reported-mkif-autopalya-koncesszio-2026-09) az Adozona.hu új részletet közölt: a koncesszió felbontása megjelent a Magyar Közlönyben, 2027.04.01-től a Magyar Közút veszi át az üzemeltetést, és a minisztérium állítása szerint ez összesen 21 ezer milliárd forintos megtakarítást jelentene a szerződés hátralévő idejére (a Világgazdaság szerint ez vitatott, bruttó/nettó összetévesztésen alapulhat) — több évtizedes, még nem realizált projekció, ezért csak a reported_case verification_notes-ában rögzítve, önálló items-tétel nem készült belőle.",
+   "A Seszták Miklós-ügyben (reported-sesztak-miklos-korrupcio-2026-09) és a Matolcsy György/MNB-ügyben (reported-mnb-matolcsy-alapitvanyok-2026-09) ebben a futásban talált összes új sajtóhír (mnvvh.hu, ugyeszseg.hu, 2026-11-16–19) már az előző (2026-11-21-es) futásban rögzítésre került, érdemi új tényt nem hozott, frissítés nem volt szükséges.",
+   "A hirkereso.hu-n talált 'rendőrségi házkutatás fideszes civil szervezetnél' teaser részletei WebSearch-csel nem voltak azonosíthatóak egy konkrét, még nem rögzített újabb ügyhez; a talált kapcsolódó ügyek (Alapjogokért Központ/Romanowski 2026-09-23, NKA/Központi adatközpont 2026-07-21) már korábban rögzítve vannak.",
+   "MNB EUR/HUF hivatalos fixing frissítve (2026-11-24: 369,57 Ft/EUR, USD 337,97 Ft) a 2026-11-20-i (373,22 Ft/EUR) állapothoz képest; új macro_snapshots dokumentum készült, minden más mutató változatlan maradt (nincs új KSH/PM/ÁKK publikáció a legutóbbi, 2026-11-24 16:56-os pillanatkép óta)."
   ],
   "eu_lost_items_new": 0,
-  "finished_at": "2026-11-24T17:30:00+01:00",
-  "items_duplicate": 0,
-  "items_found_total": 0,
+  "finished_at": "2026-11-25T07:10:00+01:00",
+  "items_duplicate": 2,
+  "items_found_total": 2,
   "items_needs_review": 0,
   "items_new": 0,
   "reported_cases_new": 0,
-  "reported_cases_updated": 0,
+  "reported_cases_updated": 1,
   "sources_checked": [
-   "kormany.hu/atlathato/feljelentes (WebFetch sikeres, 2026-11-13-i állapot, változatlan: 64 ügy, 13 tárca, 4007 Mrd Ft, 74,0 Mrd Ft visszafizetve/megtakarítva)",
-   "mnvvh.hu/hirek (sikeres, legfrissebb 2026-11-19, kizárólag már rögzített Seszták/Matolcsy/egyéb ügyek fejleményei, új önálló ügy nincs)",
-   "hirkereso.hu/politika (404, nem elérhető ebben a futásban)",
-   "k-monitor.hu (WebSearch, nincs új k-monitor.hu eredetű találat)",
-   "telex.hu",
+   "kormany.hu/atlathato/feljelentes (hivatalos, teljes lista WebFetch-csel ellenőrizve: 64 ügy, 13 minisztérium/hatóság, 4007 Mrd Ft, 24 ügyben nyomás elrendelve, 74,0 Mrd Ft visszafizetve/megtakarítva — változatlan a 2026-11-13-i állapothoz képest, egyedi tételenként összevetve a reported_cases kollekcióval, eltérés nem található)",
+   "mnvvh.hu/hirek",
+   "ugyeszseg.hu/category/hirek/kozponti-nyomozo-fougyeszseg",
+   "k-monitor.hu (WebSearch)",
+   "hirkereso.hu/gazdasag",
+   "24.hu",
    "444.hu",
-   "index.hu",
-   "hvg.hu",
-   "portfolio.hu",
-   "economx.hu",
-   "vg.hu",
-   "infostart.hu",
-   "privatbankar.hu",
-   "penzcentrum.hu",
-   "adozona.hu",
-   "dailynewshungary.com"
+   "168.hu",
+   "Telex",
+   "HVG",
+   "Index",
+   "Portfolio.hu",
+   "Economx",
+   "Világgazdaság",
+   "Infostart.hu",
+   "Pénzcentrum",
+   "Privátbankár.hu",
+   "Forbes.hu",
+   "adozona.hu (kiegészitő)",
+   "MNB (mnb.hu/arfolyamok)",
+   "KSH (sajtón keresztül)"
   ],
-  "started_at": "2026-11-24T16:56:00+01:00",
-  "id": "2026-11-24T16-56"
+  "started_at": "2026-11-25T06:01:00+01:00",
+  "id": "2026-11-25T06-01"
  },
  "run_history": [
+  {
+   "finished_at": "2026-11-25T07:10:00+01:00",
+   "started_at": "2026-11-25T06:01:00+01:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 1,
+   "eu_lost_items_new": 0
+  },
   {
    "finished_at": "2026-11-24T17:30:00+01:00",
    "started_at": "2026-11-24T16:56:00+01:00",
@@ -5137,22 +5151,14 @@
    "reported_cases_new": 0,
    "reported_cases_updated": 1,
    "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-10-22T17:20:00+02:00",
-   "started_at": "2026-10-22T16:56:00+02:00",
-   "items_new": 0,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 2,
-   "eu_lost_items_new": 0
   }
  ],
  "run_summary": {
-  "run_id": "2026-11-24T15:59:35+00:00",
+  "run_id": "2026-11-25T05:03:49+00:00",
   "new": 0,
   "modified": 0,
-  "confirmed_only": 0,
-  "touched": 0,
+  "confirmed_only": 1,
+  "touched": 1,
   "pending_review": 4,
   "by_section": {
    "items": {
@@ -5163,29 +5169,16 @@
    "reported_cases": {
     "new": 0,
     "modified": 0,
-    "confirmed_only": 0
+    "confirmed_only": 1
    }
   },
   "new_ids": [],
   "modified_ids": [],
-  "confirmed_ids": []
+  "confirmed_ids": [
+   "r:reported-mkif-autopalya-koncesszio-2026-09"
+  ]
  },
  "run_summary_history": [
-  {
-   "run_id": "2026-10-21T04:04:26+00:00",
-   "by_section": {
-    "items": {
-     "new": 1,
-     "modified": 0,
-     "confirmed_only": 0
-    },
-    "reported_cases": {
-     "new": 0,
-     "modified": 0,
-     "confirmed_only": 0
-    }
-   }
-  },
   {
    "run_id": "2026-10-21T10:01:11+00:00",
    "by_section": {
@@ -6668,6 +6661,21 @@
      "new": 0,
      "modified": 0,
      "confirmed_only": 0
+    }
+   }
+  },
+  {
+   "run_id": "2026-11-25T05:03:49+00:00",
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 1
     }
    }
   }
