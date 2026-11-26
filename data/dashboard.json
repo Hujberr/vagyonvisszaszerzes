@@ -1,13 +1,13 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-25T11:01:39+00:00",
+ "generated_at": "2026-11-26T05:02:50+00:00",
  "summary": {
   "megtakaritas_verified_huf": 2947290700000,
   "visszaszerzes_verified_huf": 1634319300000,
   "eu_forras_verified_huf": 8251000000000,
   "eu_forras_lost_huf": 730000000000,
   "items_count": 43,
-  "reported_cases_count": 74
+  "reported_cases_count": 77
  },
  "items": [
   {
@@ -1926,6 +1926,33 @@
   {
    "additional_sources": [
     {
+     "name": "444.hu",
+     "published_date": "2026-11-25",
+     "url": "https://444.hu/2026/11/25/kiraly-nora-elismerte-hogy-az-o-civil-szervezeteinel-volt-hazkutatas"
+    }
+   ],
+   "alleged_amount_huf": 1500000000,
+   "alleged_amount_text": "több mint 1,5 milliárd forint (2021 és 2026 között, hét civil szervezetnek nyújtott állami támogatás összesen)",
+   "confirmed_recovered_huf": 0,
+   "description": "A Miniszterelnökség 2026. július 14-én feljelentést tett hűtlen kezelés gyanúja miatt hét civil szervezet — egy alapítvány és hat egyesület — 2021 és 2026 között kapott, összesen több mint 1,5 milliárd forintos állami támogatása ügyében. A Nemzeti Nyomozó Iroda 2026. november 24-én tizenkét helyszínen, többségében Budapesten, házkutatást tartott, és iratokat, valamint elektronikus adathordozókat foglalt le. A gyanú szerint a támogatást részben nem a megjelölt célra használták fel, és felmerült a hasonló programok többszörös finanszírozásának lehetősége is.",
+   "ministry": "Nemzeti Nyomozó Iroda Korrupció és Gazdasági Bűnözés Elleni Főosztálya (rendőrségi nyomozás, a Miniszterelnökség feljelentésére)",
+   "recovered_item_id": null,
+   "report_date": "2026-07-14",
+   "report_source": {
+    "name": "Magyar Hírlap",
+    "published_date": "2026-11-24",
+    "url": "https://magyarhirlap.hu/bunugy/20261124-masfel-milliardos-hutlen-kezelesi-ugyben-csapott-le-a-rendorseg"
+   },
+   "status": "under_investigation",
+   "subject": "Hét civil szervezet állami támogatásai — a Miniszterelnökség feljelentése",
+   "verification_notes": "ÚJ, ÖNÁLLÓ TÉTEL (2026-11-26 05:59-es futás) — kiemelve a reported-egyeb-miniszteriumi-18ugy-2026 gyűjtőtételből, ahol korábban 'civil szervezetek (pl. FICSAK)' néven, 1,5 Mrd Ft-tal szerepelt (MEH, 2026.07.09/14 feljelentési dátummal). Az érintett szervezetek: FICSAK 11 Alapítvány, Mindennapok Női Szemmel Egyesület, Zöld Követ Egyesület, Patrióták Magyarországért Egyesület, Fiatal Családosok Klubjának Egyesülete, Gazdagréti Összefogás Egyesület, Összefogás XI. Sportegyesület. A Miniszterelnökség közleménye szerint Király Nóra (Fidesz-KDNP egykori csepeli képviselőjelöltje) mindegyik szervezetben tisztséget tölt be; a cikkek nem állítják, hogy gyanúsított lenne. A Miniszterelnökség idén összesen öt ügyben, 106 milliárd forintos állított kárra hivatkozva tett feljelentést — ez a mostani, 1,5 Mrd Ft-os ügy ezek egyike, nem új, önálló kár. Két független sajtóforrás (Magyar Hírlap, 444.hu) egyezően számol be a 2026-11-24-i házkutatásról. Nem szerepel önálló tételként frissítve a kormany.hu/atlathato/feljelentes 2026-11-13-i állapotában (az összevont gyűjtőtételben szerepelt eddig).",
+   "id": "reported-civil-szervezetek-kiraly-nora-2026-11",
+   "updated_at": "2026-11-26T05:02:50+00:00",
+   "first_seen_at": "2026-11-26T05:02:50+00:00"
+  },
+  {
+   "additional_sources": [
+    {
      "name": "Telex",
      "published_date": "2026-04-08",
      "url": "https://telex.hu/belfold/2026/04/08/csad-afrika-misszio-magyar-katonak-szalay-bobrovniczky-kristof-orban-gaspar-2026-hatarozat"
@@ -2082,10 +2109,10 @@
    "updated_at": "2026-11-06T11:37:02+00:00"
   },
   {
-   "alleged_amount_huf": 995188880000,
-   "alleged_amount_text": "kb. 995,19 milliárd forint (27, egyedileg megnevezett tétel összege a kormany.hu hivatalos listája alapján, 2026-11-05-i állapot, az Eximbank-ügyek, az M6-koncessziós ügy és a Szuverenitásvédelmi Hivatal konzorciumi szerződése nélkül — azok önálló tételekben; +6 további, összeg nélkül említett ügy)",
+   "alleged_amount_huf": 993688880000,
+   "alleged_amount_text": "kb. 993,69 milliárd forint (26, egyedileg megnevezett tétel összege a kormany.hu hivatalos listája alapján, 2026-11-05-i állapot, az Eximbank-ügyek, az M6-koncessziós ügy, a Szuverenitásvédelmi Hivatal konzorciumi szerződése és a civil szervezetek (FICSAK és társai) támogatásai nélkül — azok önálló tételekben; +6 további, összeg nélkül említett ügy)",
    "confirmed_recovered_huf": 0,
-   "description": "A kormány hivatalos feljelentési listáján szereplő további minisztériumi ügyek gyűjtőtétele. Főbb ügyek: lélegeztetőgép-beszerzés (300 milliárd Ft), Mohácsi Duna-híd előleg (155,8 milliárd Ft), Kréta/Neptun/Poszeidón rendszerek (100 milliárd Ft), Gondosóra-program (100 milliárd Ft), Waberer's MFB-finanszírozás (77 milliárd Ft), OMSZ járműbeszerzés (70 milliárd Ft), veglegestorles.hu (39,6 milliárd Ft), ortodox akadémia (38,2 milliárd Ft), Observer médiamonitoring (31 milliárd Ft), Kommentár Alapítvány (27,8 milliárd Ft), Fradivárosi projekt (24,9 milliárd Ft), kínai kazánbeszerzés (10,5 milliárd Ft), Triton Communications (4,2 milliárd Ft), Papp László Budapest Sportaréna tízéves bérbeadása (4,012 milliárd Ft), miniszteri delegációs utazások (4 milliárd Ft), BTR-80 harcjárművek értékesítése Szerbiának (0,577 milliárd Ft), p2m/Balásy-csoport (3,3 milliárd Ft), civil szervezetek (1,5 milliárd Ft), Puskás Aréna – az MLSZ-nek átengedett páholyok (1,01 milliárd Ft), Kárpát-medencei Tehetséggondozó (0,825 milliárd Ft), Szuverenitásvédelmi Hivatal ügyvédi megbízásai (0,0464 milliárd Ft), MIKK (0,3 milliárd Ft), nyuszimotor-vásárlások (0,239 milliárd Ft), BOK Sportcsarnok bérletei (0,13 milliárd Ft), pénzügyminisztériumi támogatási visszaélés (0,09 milliárd Ft), pártpropaganda/Tartalom Előkészítő Osztály (0,05 milliárd Ft), HM Zrínyi Kft. MATASZ megbízási szerződések (9,58 millió Ft), a Nemzetgazdasági Minisztérium delegációinak külföldi útjai (0,1 milliárd Ft, 2026.10.26-i feljelentés), valamint a Kovács Katalin Nemzeti Kajak-Kenu Akadémia Alapítvány ügye (összeg nélkül).",
+   "description": "A kormány hivatalos feljelentési listáján szereplő további minisztériumi ügyek gyűjtőtétele. Főbb ügyek: lélegeztetőgép-beszerzés (300 milliárd Ft), Mohácsi Duna-híd előleg (155,8 milliárd Ft), Kréta/Neptun/Poszeidón rendszerek (100 milliárd Ft), Gondosóra-program (100 milliárd Ft), Waberer's MFB-finanszírozás (77 milliárd Ft), OMSZ járműbeszerzés (70 milliárd Ft), veglegestorles.hu (39,6 milliárd Ft), ortodox akadémia (38,2 milliárd Ft), Observer médiamonitoring (31 milliárd Ft), Kommentár Alapítvány (27,8 milliárd Ft), Fradivárosi projekt (24,9 milliárd Ft), kínai kazánbeszerzés (10,5 milliárd Ft), Triton Communications (4,2 milliárd Ft), Papp László Budapest Sportaréna tízéves bérbeadása (4,012 milliárd Ft), miniszteri delegációs utazások (4 milliárd Ft), BTR-80 harcjárművek értékesítése Szerbiának (0,577 milliárd Ft), p2m/Balásy-csoport (3,3 milliárd Ft), Puskás Aréna – az MLSZ-nek átengedett páholyok (1,01 milliárd Ft), Kárpát-medencei Tehetséggondozó (0,825 milliárd Ft), Szuverenitásvédelmi Hivatal ügyvédi megbízásai (0,0464 milliárd Ft), MIKK (0,3 milliárd Ft), nyuszimotor-vásárlások (0,239 milliárd Ft), BOK Sportcsarnok bérletei (0,13 milliárd Ft), pénzügyminisztériumi támogatási visszaélés (0,09 milliárd Ft), pártpropaganda/Tartalom Előkészítő Osztály (0,05 milliárd Ft), HM Zrínyi Kft. MATASZ megbízási szerződések (9,58 millió Ft), a Nemzetgazdasági Minisztérium delegációinak külföldi útjai (0,1 milliárd Ft, 2026.10.26-i feljelentés), valamint a Kovács Katalin Nemzeti Kajak-Kenu Akadémia Alapítvány ügye (összeg nélkül).",
    "ministry": "Több tárca (Közlekedési és Beruházási, Tudományos, Egészségügyi, Miniszterelnkség, Belügy, Szociális, Társadalmi Kapcsolatokért Felelős, Pénzügy)",
    "recovered_item_id": null,
    "report_date": "2026-09-02",
@@ -2096,10 +2123,10 @@
    },
    "status": "under_investigation",
    "subject": "További 18 minisztériumi feljelentés (összeg egyenként nem publikált)",
-   "verification_notes": "FRISSÍTVE 2026-11-24 05:59-es futás: a fenti táblázatban szereplő 'Mohácsi Duna-híd előleg' (155,8 Mrd Ft) tételhez kapcsolódóan azonosítottuk, hogy a Duna Aszfalt Zrt. már 2026 júniusában (nyilvánosan 2026-08-18-án bejelentve) mintegy 58,6 milliárd forintot visszafizetett a korábban túlzottan (98%-ra) megemelt előlegből (l. önálló tétel: items/visszaszerzes-duna-aszfalt-mohacsi-hid-eloleg-2026-08). Ez a 155,8 Mrd Ft-os feljelentett összegnek egy már megerősítetten, részben megtérült komponense; a gyűjtőtétel összesített alleged_amount_huf-ja (995,19 Mrd Ft) és status-a (under_investigation) emiatt nem változik, mert az összeg a feljelentés szerinti eredeti állapotot tükrözi, a tényleges megtérülést az önálló items-tétel rögzíti a dupla számolás elkerülésével.\n\nFRISSÍTVE 2026-11-15 16:59-es futás: a kormany.hu/atlathato/feljelentes hivatalos oldal 2026-11-13-i állapota szerint a 'p2m-cégcsoport és Balásy Gyula cégeihez kapcsolódó megrendelések' (hat feljelentés, TTM, összesen 3,3 Mrd Ft) tételnél a NAV Közép-magyarországi Bűnügyi Igazgatósága négy ügyben nyomozást rendelt el (a hivatalos oldal 2026-10-21-i tájékoztatása szerint) — ez korábban nem volt feljegyezve ebben a gyűjtőtételben. A gyűjtőtétel összesített összege (995,19 Mrd Ft) és státusza (under_investigation) emiatt nem változik, csak ennek az egy komponensnek a nyomozási állása pontosodott.\n\nFRISSÍTVE 2026-11-06 12:00-ás futás: a kormany.hu/atlathato/feljelentes oldal 2026-11-05-i állapotában megjelent egy új, korábban nem rögzített tétel: 'Nemzetgazdasági Minisztérium delegációinak külföldi útjai' (Pénzügyminisztérium, 100+ millió forint, feljelentés 2026.10.26). A tétel felvételre került ebbe a gyűjtőbe, az alleged_amount_huf ennek megfelelően 995,09 Mrd Ft-ról 995,19 Mrd Ft-ra nőtt. A hivatalos oldal összesítője eközben változatlanul 4005 Mrd Ft maradt (csak az ügyszám nőtt 61-ről 62-re, l. reported-osszesito-2026-09), tehát az új tétel felvétele nem változtatta meg érdemben az összesített számot (kerekítési tartományon belül). FRISSÍTVE 2026-10-31 napi futás: a 24.hu dokumentumigényléssel szerzett anyagai alapján a 444.hu, a Portfolio.hu és a Contextus.hu 2026-10-30/31-én részletezte, hogy a KÜM lélegeztetőgép-beszerzéséhez (l. fenti, 300 Mrd Ft-os tétel) kapcsolódó egyik beszállító, a Limitless Medical Kft. 2020.04.14-én alapított, 2020.04.16-án bejegyzett cég volt, amely alapítása után néhány napon belül, 2020.04.17-én és 04.22-én összesen 2,3 milliárd forint értékű lélegeztetőgép-szállítási szerződést kötött a Szijjártó Péter vezette Külügyminisztériummal, és a teljes összeget a szállítás előtt, előlegként kifizették (603 millió Ft, majd 1,31 milliárd Ft értékű szerződés, a kapcsolódó előlegek még a szerződés napján átutalva). A minisztérium belső felülvizsgálata szerint nem található dokumentáció arra, milyen szakmai szempontok alapján választották ki a beszállítót. Ez a 2,3 Mrd Ft a már korábban rögzített, összesen 300 Mrd Ft-os KÜM lélegeztetőgép-feljelentés (fenti táblázat) része, nem önálló, új összeg, ezért az alleged_amount_huf nem változik ettől. A cikkek nem kapcsolják a Limitless Medical Kft.-t a NAV 2026-10-27-i, OTT-One Nyrt.-t érintő bűnszervezeti ügyéhez (l. reported-lelegeztetogep-nav-bunszervezet-2026-10) — a két cég/ügy különálló. Források: 444.hu, Portfolio.hu, Contextus.hu, hirnavigator.hu (mind 2026-10-30/31). FRISSÍTVE 2026-10-03 11:56-os futás: a sajtó (Infostart, Telex, ATV, Index, HVG és mások) 2026-10-02-i dátummal részletesen beszámolt arról, hogy a Szuverenitásvédelmi Hivatal verseny nélkül fizetett ki 46 millió forintot két ügyvédi irodának (ebből 19 M Ft egy pár nap alatt elkészült, utóbb elő nem található tanulmányért) — ez minden jel szerint megegyezik az itt már szereplő 'Szuverenitásvédelmi Hivatal ügyvédi megbízásai' (46,4 M Ft) tétellel, csak részletesebb kifejtéssel. Emellett a kormany.hu 'meg nem valósult kiadás' listája egy önálló, 46,0 M Ft-os Igazságügyi Minisztériumi tételt is feltüntet (Poszeidon rendszer + egy ügyvédi iroda), amely valószínűleg részben vagy egészben ugyanazokat a kifizetéseket fedi — ezt külön items-tételként rögzítettük (megtakaritas-igazsagugyi-miniszterium-egyeb-szerzodesek-2026-10), a pontos viszony tisztázásáig nem összevonva ezzel a 46,4 M Ft-os gyűjtőbeli tétellel. FRISSÍTVE 2026-10-03 05:55-ös futás: a 'Szuverenitásvédelmi Hivatal propagandacélú költségei' (3,67 Mrd Ft) tétel kiemelve ebből a gyűjtőből, mert az NVVH 2026-09-28-án saját hatáskörébe vonta ezt a konkrét ügyet (l. önálló tétel: reported-szuverenitasvedelmi-hivatal-konzorcium-nvvh-2026-09). Összeg ennek megfelelően csökkentve: 998,76 Mrd Ft → 995,09 Mrd Ft. FRISSÍTVE 2026-10-02 (16:56-os futás): a kormany.hu hivatalos oldal teljes listájának ismételt, részletes átnézése két korábban nem rögzített tételt azonosított: 'BTR-80 harcjárművek értékesítése Szerbiának' (576,7 millió Ft, Honvédelmi Minisztérium, 2026.09.29 — a harcjárművek tényleges eladása már 2024-ben megtörtént, a feljelentés/hivatalos listázás erről a korábbi tranzakcióról szól; független sajtóforrás 2026-ból nem található hozzá, kizárólag a hivatalos forrás alapján rögzítve) és 'Szuverenitásvédelmi Hivatal ügyvédi megbízásai' (46,4 millió Ft, Miniszterelnökség, 2026.09.29 — megkülönböztetendő a most kiemelt, 3,67 Mrd Ft-os propagandacélú költségek tételtől, ugyanazon hivatal más jellegű kiadása). (Korábbi megjegyzések megőrizve, l. előző verzió.)",
+   "verification_notes": "FRISSÍTVE 2026-11-26 05:59-es futás: a 'civil szervezetek (pl. FICSAK)' tétel (1,5 milliárd Ft, Miniszterelnökség, 2026.07.14-i feljelentés) önálló tétellé emelve a gyűjtőből, mert a Nemzeti Nyomozó Iroda 2026. november 24-én tizenkét helyszínen házkutatást tartott az ügyben (l. önálló tétel: reported-civil-szervezetek-kiraly-nora-2026-11) — ez lényegesen túlnő a gyűjtőtétel korábbi, puszta feljelentés-szintű információján. Az összeg ennek megfelelően 995,19 Mrd Ft-ról 993,69 Mrd Ft-ra csökkentve, a dupla számolás elkerülése végett.\n\nFRISSÍTVE 2026-11-24 05:59-es futás: a fenti táblázatban szereplő 'Mohácsi Duna-híd előleg' (155,8 Mrd Ft) tételhez kapcsolódóan azonosítottuk, hogy a Duna Aszfalt Zrt. már 2026 júniusában (nyilvánosan 2026-08-18-án bejelentve) mintegy 58,6 milliárd forintot visszafizetett a korábban túlzottan (98%-ra) megemelt előlegből (l. önálló tétel: items/visszaszerzes-duna-aszfalt-mohacsi-hid-eloleg-2026-08). Ez a 155,8 Mrd Ft-os feljelentett összegnek egy már megerősítetten, részben megtérült komponense; a gyűjtőtétel összesített alleged_amount_huf-ja és status-a (under_investigation) emiatt nem változik, mert az összeg a feljelentés szerinti eredeti állapotot tükrözi, a tényleges megtérülést az önálló items-tétel rögzíti a dupla számolás elkerülésével.\n\nFRISSÍTVE 2026-11-15 16:59-es futás: a kormany.hu/atlathato/feljelentes hivatalos oldal 2026-11-13-i állapota szerint a 'p2m-cégcsoport és Balásy Gyula cégeihez kapcsolódó megrendelések' (hat feljelentés, TTM, összesen 3,3 Mrd Ft) tételnél a NAV Közép-magyarországi Bűnügyi Igazgatósága négy ügyben nyomozást rendelt el (a hivatalos oldal 2026-10-21-i tájékoztatása szerint) — ez korábban nem volt feljegyezve ebben a gyűjtőtételben. A gyűjtőtétel összesített összege és státusza (under_investigation) emiatt nem változik, csak ennek az egy komponensnek a nyomozási állása pontosodott.\n\nFRISSÍTVE 2026-11-06 12:00-ás futás: a kormany.hu/atlathato/feljelentes oldal 2026-11-05-i állapotában megjelent egy új, korábban nem rögzített tétel: 'Nemzetgazdasági Minisztérium delegációinak külföldi útjai' (Pénzügyminisztérium, 100+ millió forint, feljelentés 2026.10.26). A tétel felvételre került ebbe a gyűjtőbe. A hivatalos oldal összesítője eközben változatlanul maradt (csak az ügyszám nőtt), tehát az új tétel felvétele nem változtatta meg érdemben az összesített számot (kerekítési tartományon belül). (Korábbi megjegyzések megőrizve, l. korábbi verziók.)",
    "id": "reported-egyeb-miniszteriumi-18ugy-2026",
    "first_seen_at": "2026-09-28T15:02:40+00:00",
-   "updated_at": "2026-11-24T05:02:08+00:00"
+   "updated_at": "2026-11-26T05:02:50+00:00"
   },
   {
    "additional_sources": [
@@ -2634,6 +2661,38 @@
    "additional_sources": [
     {
      "name": "Telex",
+     "published_date": "2024-10-16",
+     "url": "https://telex.hu/belfold/2024/10/16/a-rendorseg-buncselekmeny-gyanujanak-hianyaban-elutasitotta-az-mcc-kolteseivel-kapcsolatos-feljelentest-vadai-agnes-dk-polt-peter-legfobb-ugyesz"
+    },
+    {
+     "name": "Eduline",
+     "published_date": "2024-10-04",
+     "url": "https://eduline.hu/felsooktatas/20241004_rendorseg-nyomozas-Koltay-Andras-MCC"
+    }
+   ],
+   "alleged_amount_huf": null,
+   "alleged_amount_text": "havi bruttó egymillió forintos másodállási díjazás a Mathias Corvinus Collegiumnál, az NMHH-elnöki havi bruttó 4,8 millió forintos illetmény mellett (2023-as adat); összesített, okozott vagyoni hátrány nincs megállapítva",
+   "confirmed_recovered_huf": 0,
+   "description": "A Nemzeti Média- és Hírközlési Hatóság korábbi elnöke, Koltay András hivatali ideje alatt félállásban a Mathias Corvinus Collegium egyik szakmai műhelyének vezetőjeként is dolgozott, havi bruttó egymillió forintos díjazásért. A rendőrség egy erről szóló feljelentést bűncselekmény gyanújának hiányában elutasított, az illetékes ügyészség azonban ezt a döntést megalapozatlannak találta, és elrendelte a hűtlen kezelés gyanúja miatti nyomozást, amely jelenleg is folyamatban van.",
+   "ministry": "Nemzeti Média- és Hírközlési Hatóság (NMHH) / Médiatanács — rendőrségi nyomozás, ügyészségi utasítás alapján",
+   "recovered_item_id": null,
+   "report_date": "2024-10-16",
+   "report_source": {
+    "name": "mfor.hu",
+    "published_date": "2026-11-25",
+    "url": "https://mfor.hu/cikkek/kozelet/tovabbra-is-nyomoznak-a-volt-nmhh-vezer-masodallasa-miatt-ahol-havi-1-millios-fizetest-kapott.html"
+   },
+   "status": "under_investigation",
+   "subject": "Koltay András korábbi NMHH-elnök — a Mathias Corvinus Collegiumnál betöltött másodállása",
+   "verification_notes": "ÚJ TÉTEL (2026-11-25 16:59-es futás, hirkereso.hu-n keresztül azonosítva). Dr. Vadai Ágnes (DK) 2024 őszén tett feljelentést, amelyet a rendőrség bűncselekmény gyanújának hiányában elutasított; az ügyészség (a legfőbb ügyész felülbírálati eljárása nyomán) ezt megalapozatlannak találta, és elrendelte a hűtlen kezelés gyanúja miatti nyomozást. Az mfor.hu 2026-11-25-i cikke szerint a nyomozás a mai napig, kb. két évvel az ügy kezdete óta is folyamatban van, érdemi eredmény (gyanúsítás, vádemelés) nélkül. Koltay Andrást 2026.07.01-jén Magyar Péter miniszterelnök javaslatára felmentették az NMHH éléről — ez a leváltás NEM ehhez a nyomozáshoz kapcsolódik közvetlenül a fellelt források szerint. Megkülönböztetendő a reported-mediatanacs-jutalom-2026-11 tételtől: az a Médiatanács (ugyanaz a Koltay András, mint elnök) 2022–2026 közötti, önmagának megszavazott jutalmaival (197,1 M Ft) foglalkozik, ez a mostani tétel pedig egy korábbi (2023-as), más jellegű, az MCC-nél végzett másodállás jogosságát érintő, önálló büntetőeljárás — a két ügyet nem vonjuk össze. Pontos report_date nem ismert; a 2024-10-16-i dátum a rendőrségi elutasításról szóló, legkorábbi fellelt sajtóhír napja, nem a feljelentés vagy a nyomozás elrendelésének pontos napja.",
+   "id": "reported-koltay-mcc-masodallas-2024",
+   "updated_at": "2026-11-26T05:02:50+00:00",
+   "first_seen_at": "2026-11-26T05:02:50+00:00"
+  },
+  {
+   "additional_sources": [
+    {
+     "name": "Telex",
      "published_date": "2026-08-28",
      "url": "https://telex.hu/belfold/2026/08/28/hvg-hutlen-kezeles-gyanuja-nyomozas-rendorseg-lazar-janos-tartozas-elengedes"
     },
@@ -3127,6 +3186,27 @@
    "id": "reported-neumann-egyetem-optima-kotveny-2026-08",
    "first_seen_at": "2026-10-05T15:07:04+00:00",
    "updated_at": "2026-11-19T11:03:30+00:00"
+  },
+  {
+   "additional_sources": [],
+   "alleged_amount_huf": 100000000,
+   "alleged_amount_text": "mintegy 100 millió forint (pontosan 99 989 731 forint), amelyet a fenntartó alapítvány saját, 100%-os tulajdonú cégének fizetett ki, nyilvános versenyeztetés nélkül",
+   "confirmed_recovered_huf": 0,
+   "description": "A Kulturális és Innovációs Minisztérium 2023-ban mintegy 100 millió forintos állami támogatást ítélt oda a Nyíregyházi Egyetem fenntartó alapítványának egy nappali gyermekfelügyeleti, bölcsődei jellegű szolgáltatás kialakítására az egyetem dolgozói és hallgatói számára. A támogatásból végül nem indult el gyermekfelügyeleti szolgáltatás: a kialakított játszótér jelenleg zárva van és kevesebb paddal rendelkezik a tervezettnél, a korábbi bölcsőde helyén pedig egy óránként bérelhető, játékkonzolokkal és virtuálisvalóság-eszközökkel felszerelt élményközpont nyílt meg. A rendőrség hűtlen kezelés gyanúja miatt nyomozást indított ismeretlen tettes ellen.",
+   "ministry": "Nyíregyházi Rendőrkapitányság (rendőrségi nyomozás) — érintett intézmény: Nyíregyházi Egyetem fenntartó alapítványa / Campus-Land Nonprofit Kft.",
+   "recovered_item_id": null,
+   "report_date": "2026-11-25",
+   "report_source": {
+    "name": "Átlátszó",
+    "published_date": "2026-11-25",
+    "url": "https://atlatszo.hu/orszagszerte/2026/11/25/gyermekmegorzore-kaptak-100-millio-forint-kozpenzt-de-berelheto-elmenykozpontot-csinaltak-a-penzbol"
+   },
+   "status": "under_investigation",
+   "subject": "Nyíregyházi Egyetem gyermekfelügyeleti fejlesztése — állami támogatás felhasználása",
+   "verification_notes": "ÚJ TÉTEL (2026-11-26 05:59-es futás, Átlátszó oknyomozása alapján). A 2023-as támogatást a minisztérium a fenntartó alapítványnak ítélte, amely azt az 'in-house' (kapcsolt vállalkozási) kivétellel, versenyeztetés nélkül fizette ki saját, 100%-os tulajdonú cégének, a Campus-Land Nonprofit Kft.-nek. A kivitelezés 2025 szeptemberében kezdődött, 2025 decemberére készült el; az élményközpontot (Campus PlayZone, PlayStation 5, gamer PC-k, VR-eszközök, 2000 Ft/óra bérleti díjjal) a 2026 őszi Kutatók Éjszakáján mutatták be. Egyetlen közvetlen sajtóforrásból (Átlátszó) ismert eddig; második, független forrásra vár. Nem szerepel a kormany.hu/atlathato/feljelentes hivatalos listáján (ez rendőrségi, nem kormányzati/minisztériumi feljelentés). A pontos report_date (a feljelentés/eljárás megindításának napja) a cikkből nem derül ki pontosan, ezért a cikk megjelenési dátuma (2026-11-25) került be helyette.",
+   "id": "reported-nyiregyhazi-egyetem-gyermekmegorzo-2026-11",
+   "updated_at": "2026-11-26T05:02:50+00:00",
+   "first_seen_at": "2026-11-26T05:02:50+00:00"
   },
   {
    "additional_sources": [
@@ -4091,7 +4171,7 @@
    "url": "https://magyarnemzet.hu/gazdasag/2026/09/allamadossag-novekedes"
   },
   "allamadossag_huf": 65716000000000,
-  "collected_at": "2026-11-25T11:59:00+01:00",
+  "collected_at": "2026-11-26T05:59:00+01:00",
   "elozo": {
    "allamadossag": {
     "period": null,
@@ -4133,7 +4213,7 @@
     "label_en": "Unemployment rate",
     "label_hu": "Munkanélküliégi ráta",
     "note_en": "KSH's October flash report had not yet been published at the time of this run.",
-    "note_hu": "A KSH októberi hónapra vonatkozó gyorstájékoztatója e futás idején (2026-11-25) még nem jelent meg; a KSH jellemzően a hónap végén teszi közzé az előző havi adatot.",
+    "note_hu": "A KSH októberi hónapra vonatkozó gyorstájékoztatója e futás idején (2026-11-26) még nem jelent meg.",
     "period": "2026-09",
     "prev_period": "2026-08",
     "prev_value": 4.7,
@@ -4197,7 +4277,7 @@
     "label_en": "Official EUR/HUF rate (MNB)",
     "label_hu": "Euró hivatalos árfolyama (MNB)",
     "note_en": "The USD rate on the same day was 337.97 Ft/USD. No reliably identifiable newer official fixing was available at the time of this run.",
-    "note_hu": "A dollár árfolyama ugyanezen a napon 337,97 Ft/USD volt. E futás idején (2026-11-25) nem volt megbízhatóan azonosítható újabb hivatalos fixing.",
+    "note_hu": "A dollár árfolyama ugyanezen a napon 337,97 Ft/USD volt. E futás idején (2026-11-26) sem volt megbízhatóan azonosítható újabb hivatalos fixing.",
     "period": "2026-11-24",
     "prev_period": "2026-11-20",
     "prev_value": 373.22,
@@ -4304,53 +4384,62 @@
    "publish_date": "2026-09-22",
    "url": "https://www.portfolio.hu/gazdasag/20260922/itt-az-mnb-uj-elorejelzese-hiaba-a-nemzetkozi-kockazatok-mersekelt-marad-az-idei-inflacio-864484"
   },
-  "id": "2026-11-25T11-59"
+  "id": "2026-11-26T05-59"
  },
  "last_run": {
   "errors": [
-   "A kormany.hu hivatalos összesítője (64 ügy, 4007 Mrd Ft, 2026-11-13-i állapás) ebben a futásban is változatlan volt; frissítés nem volt szükséges.",
-   "ÁKK hivatalos statisztikai oldala (akk.hu) ebben a futásban sem volt közvetlenül lekérhető; az államadósság értéke változatlanul a 2026-07-31-i (Magyar Nemzet/ÁKK-adatra hivatkozó) állapást tükrözi.",
-   "KSH októberi munkanélküliségi gyorstájékoztatója, a GDP részletes (dec. 1-i) bontása, a novemberi központi alrendszer-hiány adat, és az MNB új EUR/HUF fixing e futás idején (2026-11-25 délelőtt) még nem jelent meg; a legutóbbi (2026-11-25 06:01-es) pillanatkép összes mutatója változatlanul átkerült.",
-   "A 444.hu 2026-11-18/19-i, Orbán Viktor 2015–2025 közötti hivatalos repülőgépes utazásairól (327 út, 4,8 Mrd Ft, közadatigénylési pér után megszerzett adatok) szóló cikksorozata kizárólag régebbi (2015–2025 közötti) kiadásokat tár fel, feljelentés vagy hatósági vizsgálat említése nélkül — a felhasználói szűrési szabály szerint ezért nem került fel sem az items, sem a reported_cases kollekcióba. Figyelendő, hogy indúl-e hozzá hatósági lépés egy következő futásban.",
-   "A Forbes.hu bugaci (Neumann János Egyetemért Alapítvány) luxusingatlan-cikkéből (szivarszoba, jakuzzi, 40 éves borok) nem sikerült közvetlenül az eredeti cikket elérni; a tény már a reported-neumann-egyetem-optima-kotveny-2026-08 tételben rögzítve van (1,25 Mrd Ft-os bugaci ingatlanvétel), új tényt nem azonosítottam hozzá.",
-   "Nem sikerült megerősíteni, hogy létezik-e külön, konkrét feljelentés Orbán Viktor saját utazási költségei miatt (megkülönböztetve a már rögzített Szijjártó/Nagy Márton ügyektől); a hirkereso.hu-n látott 'feljelentésre készül' címsor pontos forrása és ténye ebben a futásban nem volt azonosítható, következő futásban újra ellenőrizendő."
+   "Nem találtunk az elmúlt 1-3 napból (2026-11-25/26) olyan új, konkrét megtakarítási/visszaszerzési/EU-forrás eseményt, amely az items kollekcióba kerülhetett volna — a vonatkozó keresések (túlárazás, spórolás, EU-forrás érkezés/elvesztés) csak korábbi (október-november eleji), már rögzített ügyekre vagy általános költségvetési/tervezési hírekre vezettek.",
+   "Az ÁKK hivatalos statisztikai oldala (akk.hu) ebben a futásban sem volt közvetlenül lekérhető; az államadósság értéke változatlanul a 2026-07-31-i (Magyar Nemzet/ÁKK-adatra hivatkozó) állapotot tükrözi.",
+   "Nem található megbízható, 2026-11-25/26-i újabb MNB EUR/HUF hivatalos fixing; a 2026-11-24-i (369,57 Ft/EUR) állapot maradt érvényben.",
+   "A Boldog István-ügy (TOP-pályázatok manipulálása, elsőfokú ítélet) és az Orbán Viktor külföldi meccsnézéseinek 280+ millió forintos adatfeltárása (444.hu, 2026-11-18) ellenőrizve: az első már szerepel az adattárban változatlan állapottal, a második pusztán sajtó-adatfeltárás, formális feljelentés vagy hatósági eljárás nélkül, ezért nem került be sem az items, sem a reported_cases kollekcióba."
   ],
   "eu_lost_items_new": 0,
-  "finished_at": "2026-11-25T12:40:00+01:00",
+  "finished_at": "2026-11-26T06:15:00+01:00",
   "items_duplicate": 0,
   "items_found_total": 0,
   "items_needs_review": 0,
   "items_new": 0,
-  "reported_cases_new": 0,
-  "reported_cases_updated": 0,
+  "reported_cases_new": 2,
+  "reported_cases_updated": 1,
   "sources_checked": [
-   "kormany.hu/atlathato/feljelentes (hivatalos, teljes lista ellenőrizve WebFetch-csel: 64 ügy, 13 minisztérium/hatóság, 4007 Mrd Ft, 24 ügyben vizsgálat elrendelve, 74,0 Mrd Ft visszafizetve/megtakarítva — változatlan a 2026-11-13-i állapothoz képest, egyedi trételenként összevetve a reported_cases kollekcióval, eltérés nem található)",
-   "mnvvh.hu/hirek (ellenőrizve, legfrissebb 2026-11-19, kizárólag már rögzített Seszták/Matolcsy/NVVH ügyek fejleményei, új önálló ügy nincs)",
-   "hirkereso.hu/gazdasag (ellenőrizve, 2026-11-25-i állapás: csak már ismert ügyek részletei és nem releváns hamisváru-lefoglalás)",
-   "k-monitor.hu (WebSearch, nincs új releváns találat)",
-   "ugyeszseg.hu/category/hirek/kozponti-nyomozo-fougyeszseg (WebSearch, nincs új közpénzt érintő közlemény)",
-   "telex.hu",
+   "kormany.hu/atlathato/feljelentes",
+   "mnvvh.hu/hirek",
+   "ugyeszseg.hu/kozponti-nyomozo-fougyeszseg",
+   "hirkereso.hu",
    "444.hu",
-   "index.hu",
-   "hvg.hu",
-   "portfolio.hu",
-   "economx.hu",
-   "vg.hu",
-   "infostart.hu",
-   "privatbankar.hu",
-   "penzcentrum.hu",
-   "forbes.hu",
-   "origo.hu",
-   "nepszava.hu",
-   "mfor.hu",
-   "adozona.hu (kiegészítő)",
-   "MNB (mnb.hu/arfolyamok, sajtón keresztül)",
-   "KSH (sajtón keresztül)"
+   "Telex",
+   "HVG",
+   "Index",
+   "Portfolio.hu",
+   "Economx",
+   "Magyar Hírlap",
+   "Átlátszó",
+   "Infostart.hu",
+   "Privátbankár.hu",
+   "Pénzcentrum",
+   "Euronews",
+   "mfor.hu"
   ],
-  "started_at": "2026-11-25T11:59:00+01:00",
-  "id": "2026-11-25T11-59"
+  "started_at": "2026-11-26T05:55:00+01:00",
+  "id": "2026-11-26T05-59"
  },
  "run_history": [
+  {
+   "finished_at": "2026-11-26T06:15:00+01:00",
+   "started_at": "2026-11-26T05:55:00+01:00",
+   "items_new": 0,
+   "reported_cases_new": 2,
+   "reported_cases_updated": 1,
+   "eu_lost_items_new": 0
+  },
+  {
+   "finished_at": "2026-11-25T17:35:00+01:00",
+   "started_at": "2026-11-25T16:59:00+01:00",
+   "items_new": 0,
+   "reported_cases_new": 1,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
   {
    "finished_at": "2026-11-25T12:40:00+01:00",
    "started_at": "2026-11-25T11:59:00+01:00",
@@ -5134,30 +5223,14 @@
    "reported_cases_new": 0,
    "reported_cases_updated": 1,
    "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-10-23T17:40:00+02:00",
-   "started_at": "2026-10-23T16:56:00+02:00",
-   "items_new": 0,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 1,
-   "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-10-23T12:30:00+02:00",
-   "started_at": "2026-10-23T11:56:00+02:00",
-   "items_new": 0,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 0,
-   "eu_lost_items_new": 0
   }
  ],
  "run_summary": {
-  "run_id": "2026-11-25T11:01:39+00:00",
-  "new": 0,
-  "modified": 0,
+  "run_id": "2026-11-26T05:02:50+00:00",
+  "new": 3,
+  "modified": 1,
   "confirmed_only": 0,
-  "touched": 0,
+  "touched": 4,
   "pending_review": 4,
   "by_section": {
    "items": {
@@ -5166,31 +5239,22 @@
     "confirmed_only": 0
    },
    "reported_cases": {
-    "new": 0,
-    "modified": 0,
+    "new": 3,
+    "modified": 1,
     "confirmed_only": 0
    }
   },
-  "new_ids": [],
-  "modified_ids": [],
+  "new_ids": [
+   "r:reported-civil-szervezetek-kiraly-nora-2026-11",
+   "r:reported-koltay-mcc-masodallas-2024",
+   "r:reported-nyiregyhazi-egyetem-gyermekmegorzo-2026-11"
+  ],
+  "modified_ids": [
+   "r:reported-egyeb-miniszteriumi-18ugy-2026"
+  ],
   "confirmed_ids": []
  },
  "run_summary_history": [
-  {
-   "run_id": "2026-10-21T15:02:51+00:00",
-   "by_section": {
-    "items": {
-     "new": 0,
-     "modified": 0,
-     "confirmed_only": 0
-    },
-    "reported_cases": {
-     "new": 0,
-     "modified": 0,
-     "confirmed_only": 1
-    }
-   }
-  },
   {
    "run_id": "2026-10-22T04:04:53+00:00",
    "by_section": {
@@ -6672,6 +6736,21 @@
     "reported_cases": {
      "new": 0,
      "modified": 0,
+     "confirmed_only": 0
+    }
+   }
+  },
+  {
+   "run_id": "2026-11-26T05:02:50+00:00",
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 3,
+     "modified": 1,
      "confirmed_only": 0
     }
    }
