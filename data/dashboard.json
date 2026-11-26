@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-26T05:02:50+00:00",
+ "generated_at": "2026-11-26T11:01:04+00:00",
  "summary": {
   "megtakaritas_verified_huf": 2947290700000,
   "visszaszerzes_verified_huf": 1634319300000,
@@ -61,6 +61,11 @@
      "name": "Portfolio.hu (Tanácsi döntés, Erasmus+/Horizont Európa megnyitása)",
      "published_date": "2026-10-13",
      "url": "https://www.portfolio.hu/unios-forrasok/20261013/megszuletett-a-varva-vart-dontes-megnyilnak-az-ujabb-penzcsapok-magyarorszag-szamara-es-a-kapuk-a-diakok-elott-869292"
+    },
+    {
+     "name": "Index (Magyar Államkincstár adatközlés, FOI-kérés alapján: 162,2 Mrd Ft érkezett EU-forrásból kincstári számlára 2026 ápr.-szept., ebből 116,4 Mrd Ft a máj. 29-i megállapodás előtt)",
+     "published_date": "2026-11-17",
+     "url": "https://index.hu/gazdasag/2026/11/17/europai-unio-brusszel-unios-forrasok-unios-tamogatas-kormany/"
     }
    ],
    "agreed_huf": 5986000000000,
@@ -125,10 +130,10 @@
    "source_url": "https://telex.hu/kulfold/2026/05/29/magyar-peter-ursula-von-der-leyen-unios-penzek-targyalas-helyreallitasi-alap-kohezios-penzek",
    "status": "verified",
    "subject": "Befagyasztott EU-s (RRF + kohéziós) források feloldásáról szóló megállapodás",
-   "verification_notes": "FRISSÍTVE 2026-11-20 17:00-ás futás: az Index 2026-11-20-i cikke szerint az Európai Bizottság ezen a napon részlegesen jóváhagyta Magyarország RRF-kifizetési kérelmét (kb. 10 milliárd euró/3650 Mrd Ft): a magyar helyreállítási tervben szereplő 127 mérföldkőből 126 teljesítettnek minősült, egyetlen (az adószabályok hatásosságáról szóló időközi értékelési jelentéshez kötött) mérföldkő esetében a Bizottság kiegészítő magyarázatot kért a kormánytól. Ez továbbra sem tényleges kifizetés: a cikk szerint a pénznek a Pénzügyi és Gazdasági Bizottság kb. négyhetes véleményezése és a magyar válasz után, 2026. december 31-ig kellene megérkeznie a Magyar Államkincstárba. A received_huf mező (0) ezért nem változott; egyetlen közvetlen sajtóforrásból (Index) ismert eddig, második független forrás vagy a tényleges kifizetés megerősítésére a következő futásokban érdemes figyelni. (Korábbi megjegyzések megőrizve, l. előző verzió.)\n\nFRISSÍTVE 2026-10-13 12:00-as futás: az EU Tanácsa (Általános Ügyek Tanácsa) 2026. október 13-i luxembourgi ülésén formálisan elfogadta a Bizottság szeptember 23-i javaslatán alapuló végrehajtási határozatot, amely lezárja a Magyarország elleni feltételességi eljárást és felszabadítja a 4,2 milliárd eurós kohéziós forráskeretet (a korábban október 15–16-ra várt szavazáshoz képest néhány nappal korábban megtörtént). Több független forrás (Index, Portfolio.hu, Euronews, Pénzcentrum, civishir.hu, szabolcsihir.hu) is megerősítette. A döntés jogi/eljárási jellegű: megszünteti a korábbi korlátozást és hozzáférhetővé teszi a forrást, DE a cikkek nem igazolják, hogy a pénz ténylegesen megérkezett volna Magyarországra — a received_huf mező ezért továbbra is 0 marad (l. fenti, 2026-10-02-i technikai megjegyzés a 338,7 Mrd Ft-os RePowerEU-előleg tisztázatlan állapotáról). A fennmaradó kb. 2,2 milliárd euró továbbra is blokkolt (jogállami/alapjogi feltételek miatt). Az agreed_huf, agreed_original_huf (5986 Mrd Ft) és a lost_huf (730 Mrd Ft) nem változott.",
+   "verification_notes": "FRISSÍTVE 2026-11-26 (második, 11:xx-es futás): az Index 2026-11-17-i cikke, amely a Magyar Államkincstártól közérdekű adatigénylés útján kapott adatokra épül, megerősíti, hogy 2026. április 1. és szeptember 30. között összesen 162,2 milliárd forint érkezett uniós forrásként a kincstári számlákra — ebből 116,4 milliárd forint már május 29. (a Magyar Péter–von der Leyen megállapodás napja) ELŐTT megérkezett, a fennmaradó 45,8 milliárd forint pedig május 29. és szeptember 30. között. A cikk szerinti bontás (EMGA agrártámogatás 77,3 Mrd Ft, 2021–2027-es operatív programok 55 Mrd Ft, Duna Régió Program 16,6 Mrd Ft, magyar-szlovák és magyar-szerb határon átnyúló programok összesen 13,2 Mrd Ft) kizárólag a rendes, folyamatban lévő uniós programokból (agrár-, kohéziós operatív programok) származó, a 16,4 milliárd eurós feloldási megállapodástól FÜGGETLEN kifizetéseket tartalmazza — a cikk kifejezetten megerősíti, hogy a kincstári adatok nem igazolnak RRF/kohéziós feloldásból eredő tényleges beérkezést. Ez alátámasztja és tovább pontosítja a korábban (2026-11-20) már rögzített received_huf=0 állítást: a kormány 6000+ Mrd Ft-os (16,4 Mrd EUR) feloldási bejelentése és a tényleges, a kincstárba beérkezett összeg közötti különbség hivatalos (kincstári, FOI-adatigénylésen alapuló) forrásból is megerősítve. A received_huf mező ezért továbbra is 0 marad. (Korábbi megjegyzések megőrizve, l. előző verzió.) FRISSÍTVE 2026-11-20 17:00-ás futás: az Index 2026-11-20-i cikke szerint az Európai Bizottság ezen a napon részlegesen jóváhagyta Magyarország RRF-kifizetési kérelmét (kb. 10 milliárd euró/3650 Mrd Ft): a magyar helyreállítási tervben szereplő 127 mérföldkőből 126 teljesítettnek minősült, egyetlen (az adószabályok hatásosságáról szóló időközi értékelési jelentéshez kötött) mérföldkő esetében a Bizottság kiegészítő magyarázatot kért a kormánytól. Ez továbbra sem tényleges kifizetés: a cikk szerint a pénznek a Pénzügyi és Gazdasági Bizottság kb. négyhetes véleményezése és a magyar válasz után, 2026. december 31-ig kellene megérkeznie a Magyar Államkincstárba. A received_huf mező (0) ezért nem változott; egyetlen közvetlen sajtóforrásból (Index) ismert eddig, második független forrás vagy a tényleges kifizetés megerősítésére a következő futásokban érdemes figyelni. (Korábbi megjegyzések megőrizve, l. előző verzió.) FRISSÍTVE 2026-10-13 12:00-as futás: az EU Tanácsa (Általános Ügyek Tanácsa) 2026. október 13-i luxembourgi ülésén formálisan elfogadta a Bizottság szeptember 23-i javaslatán alapuló végrehajtási határozatot, amely lezárja a Magyarország elleni feltételességi eljárást és felszabadítja a 4,2 milliárd eurós kohéziós forráskeretet (a korábban október 15–16-ra várt szavazáshoz képest néhány nappal korábban megtörtént). Több független forrás (Index, Portfolio.hu, Euronews, Pénzcentrum, civishir.hu, szabolcsihir.hu) is megerősítette. A döntés jogi/eljárási jellegű: megszünteti a korábbi korlátozást és hozzáférhetővé teszi a forrást, DE a cikkek nem igazolják, hogy a pénz ténylegesen megérkezett volna Magyarországra — a received_huf mező ezért továbbra is 0 marad (l. fenti, 2026-10-02-i technikai megjegyzés a 338,7 Mrd Ft-os RePowerEU-előleg tisztázatlan állapotáról). A fennmaradó kb. 2,2 milliárd euró továbbra is blokkolt (jogállami/alapjogi feltételek miatt). Az agreed_huf, agreed_original_huf (5986 Mrd Ft) és a lost_huf (730 Mrd Ft) nem változott.",
    "id": "eu-forras-megallapodas-2026-05",
    "first_seen_at": "2026-09-28T15:02:40+00:00",
-   "updated_at": "2026-11-20T16:01:49+00:00"
+   "updated_at": "2026-11-26T11:01:04+00:00"
   },
   {
    "additional_sources": [
@@ -1947,8 +1952,8 @@
    "subject": "Hét civil szervezet állami támogatásai — a Miniszterelnökség feljelentése",
    "verification_notes": "ÚJ, ÖNÁLLÓ TÉTEL (2026-11-26 05:59-es futás) — kiemelve a reported-egyeb-miniszteriumi-18ugy-2026 gyűjtőtételből, ahol korábban 'civil szervezetek (pl. FICSAK)' néven, 1,5 Mrd Ft-tal szerepelt (MEH, 2026.07.09/14 feljelentési dátummal). Az érintett szervezetek: FICSAK 11 Alapítvány, Mindennapok Női Szemmel Egyesület, Zöld Követ Egyesület, Patrióták Magyarországért Egyesület, Fiatal Családosok Klubjának Egyesülete, Gazdagréti Összefogás Egyesület, Összefogás XI. Sportegyesület. A Miniszterelnökség közleménye szerint Király Nóra (Fidesz-KDNP egykori csepeli képviselőjelöltje) mindegyik szervezetben tisztséget tölt be; a cikkek nem állítják, hogy gyanúsított lenne. A Miniszterelnökség idén összesen öt ügyben, 106 milliárd forintos állított kárra hivatkozva tett feljelentést — ez a mostani, 1,5 Mrd Ft-os ügy ezek egyike, nem új, önálló kár. Két független sajtóforrás (Magyar Hírlap, 444.hu) egyezően számol be a 2026-11-24-i házkutatásról. Nem szerepel önálló tételként frissítve a kormany.hu/atlathato/feljelentes 2026-11-13-i állapotában (az összevont gyűjtőtételben szerepelt eddig).",
    "id": "reported-civil-szervezetek-kiraly-nora-2026-11",
-   "updated_at": "2026-11-26T05:02:50+00:00",
-   "first_seen_at": "2026-11-26T05:02:50+00:00"
+   "first_seen_at": "2026-11-26T05:02:50+00:00",
+   "updated_at": "2026-11-26T05:02:50+00:00"
   },
   {
    "additional_sources": [
@@ -2686,8 +2691,8 @@
    "subject": "Koltay András korábbi NMHH-elnök — a Mathias Corvinus Collegiumnál betöltött másodállása",
    "verification_notes": "ÚJ TÉTEL (2026-11-25 16:59-es futás, hirkereso.hu-n keresztül azonosítva). Dr. Vadai Ágnes (DK) 2024 őszén tett feljelentést, amelyet a rendőrség bűncselekmény gyanújának hiányában elutasított; az ügyészség (a legfőbb ügyész felülbírálati eljárása nyomán) ezt megalapozatlannak találta, és elrendelte a hűtlen kezelés gyanúja miatti nyomozást. Az mfor.hu 2026-11-25-i cikke szerint a nyomozás a mai napig, kb. két évvel az ügy kezdete óta is folyamatban van, érdemi eredmény (gyanúsítás, vádemelés) nélkül. Koltay Andrást 2026.07.01-jén Magyar Péter miniszterelnök javaslatára felmentették az NMHH éléről — ez a leváltás NEM ehhez a nyomozáshoz kapcsolódik közvetlenül a fellelt források szerint. Megkülönböztetendő a reported-mediatanacs-jutalom-2026-11 tételtől: az a Médiatanács (ugyanaz a Koltay András, mint elnök) 2022–2026 közötti, önmagának megszavazott jutalmaival (197,1 M Ft) foglalkozik, ez a mostani tétel pedig egy korábbi (2023-as), más jellegű, az MCC-nél végzett másodállás jogosságát érintő, önálló büntetőeljárás — a két ügyet nem vonjuk össze. Pontos report_date nem ismert; a 2024-10-16-i dátum a rendőrségi elutasításról szóló, legkorábbi fellelt sajtóhír napja, nem a feljelentés vagy a nyomozás elrendelésének pontos napja.",
    "id": "reported-koltay-mcc-masodallas-2024",
-   "updated_at": "2026-11-26T05:02:50+00:00",
-   "first_seen_at": "2026-11-26T05:02:50+00:00"
+   "first_seen_at": "2026-11-26T05:02:50+00:00",
+   "updated_at": "2026-11-26T05:02:50+00:00"
   },
   {
    "additional_sources": [
@@ -3205,8 +3210,8 @@
    "subject": "Nyíregyházi Egyetem gyermekfelügyeleti fejlesztése — állami támogatás felhasználása",
    "verification_notes": "ÚJ TÉTEL (2026-11-26 05:59-es futás, Átlátszó oknyomozása alapján). A 2023-as támogatást a minisztérium a fenntartó alapítványnak ítélte, amely azt az 'in-house' (kapcsolt vállalkozási) kivétellel, versenyeztetés nélkül fizette ki saját, 100%-os tulajdonú cégének, a Campus-Land Nonprofit Kft.-nek. A kivitelezés 2025 szeptemberében kezdődött, 2025 decemberére készült el; az élményközpontot (Campus PlayZone, PlayStation 5, gamer PC-k, VR-eszközök, 2000 Ft/óra bérleti díjjal) a 2026 őszi Kutatók Éjszakáján mutatták be. Egyetlen közvetlen sajtóforrásból (Átlátszó) ismert eddig; második, független forrásra vár. Nem szerepel a kormany.hu/atlathato/feljelentes hivatalos listáján (ez rendőrségi, nem kormányzati/minisztériumi feljelentés). A pontos report_date (a feljelentés/eljárás megindításának napja) a cikkből nem derül ki pontosan, ezért a cikk megjelenési dátuma (2026-11-25) került be helyette.",
    "id": "reported-nyiregyhazi-egyetem-gyermekmegorzo-2026-11",
-   "updated_at": "2026-11-26T05:02:50+00:00",
-   "first_seen_at": "2026-11-26T05:02:50+00:00"
+   "first_seen_at": "2026-11-26T05:02:50+00:00",
+   "updated_at": "2026-11-26T05:02:50+00:00"
   },
   {
    "additional_sources": [
@@ -4388,42 +4393,52 @@
  },
  "last_run": {
   "errors": [
-   "Nem találtunk az elmúlt 1-3 napból (2026-11-25/26) olyan új, konkrét megtakarítási/visszaszerzési/EU-forrás eseményt, amely az items kollekcióba kerülhetett volna — a vonatkozó keresések (túlárazás, spórolás, EU-forrás érkezés/elvesztés) csak korábbi (október-november eleji), már rögzített ügyekre vagy általános költségvetési/tervezési hírekre vezettek.",
-   "Az ÁKK hivatalos statisztikai oldala (akk.hu) ebben a futásban sem volt közvetlenül lekérhető; az államadósság értéke változatlanul a 2026-07-31-i (Magyar Nemzet/ÁKK-adatra hivatkozó) állapotot tükrözi.",
-   "Nem található megbízható, 2026-11-25/26-i újabb MNB EUR/HUF hivatalos fixing; a 2026-11-24-i (369,57 Ft/EUR) állapot maradt érvényben.",
-   "A Boldog István-ügy (TOP-pályázatok manipulálása, elsőfokú ítélet) és az Orbán Viktor külföldi meccsnézéseinek 280+ millió forintos adatfeltárása (444.hu, 2026-11-18) ellenőrizve: az első már szerepel az adattárban változatlan állapottal, a második pusztán sajtó-adatfeltárás, formális feljelentés vagy hatósági eljárás nélkül, ezért nem került be sem az items, sem a reported_cases kollekcióba."
+   "A kormany.hu/atlathato/feljelentes oldal tartalma (64 ügy, 4007 Mrd Ft, 74,0 Mrd Ft visszafizetve/megtakarítva) ebben a futásban is változatlan volt a 2026-11-19/13-i állapothoz képest — nem volt szükség frissítésre a reported-egyeb-miniszteriumi-18ugy-2026 és reported-osszesito-2026-09 tételeken.",
+   "Az mnvvh.hu/hirek legfrissebb bejegyzése 2026-11-23-i (a Matolcsy-ügy letartóztatás-meghosszabbítása) volt, 2026-11-24–26 közötti új bejegyzés nem jelent meg.",
+   "Az ügyészség.hu (Központi Nyomozó Főügyészség rovat) legfrissebb közpénzt érintő tétele 2026-11-19-i (Matolcsy-ügy); egy 2026-11-16-i, kormányhivatali vezető vesztegetési ügyében indítványozott letartóztatás-meghosszabbítás valószínűleg egy 2026 júliusában (Szabolcs-Szatmár-Bereg kormányhivatal, telex.hu 2026-07-03) már ismertetett, egyedi (nem nagyságrendileg a dashboard küszöbét elérő) ügy eljárási fejleménye — összeg vagy név nem azonosítható megbízhatóan ebben a futásban, ezért nem került be önálló tételként; következő futásban érdemes megerősíteni.",
+   "A hirkereso.hu Gazdaság rovatában egy cím ('Újabb gyanúsított neve került nyilvánosságra a Seszták-ügyben') utal egy esetleges új fejleményre, de a WebSearch nem erősítette meg a nevet vagy a dátumot (2026-11-26); a meglévő reported-sesztak-miklos-korrupcio-2026-09 tétel emiatt ebben a futásban nem frissült, a következő futásban kézzel/más kereséssel érdemes utánajárni.",
+   "Az Index 2026-11-17-i cikke (Magyar Államkincstár FOI-adatközlés, 162,2 Mrd Ft EU-forrás érkezett 2026 ápr-szept., a 16,4 Mrd EUR-os feloldási csomagtól függetlenül) megerősítő kiegészítésként felvéve az eu-forras-megallapodas-2026-05 tétel verification_notes és additional_sources mezőjébe (received_huf változatlanul 0).",
+   "Makrogazdasági adatok: a 2026-11-26 05:59-es (ugyanazon napi, korábbi) futás pillanatképéhez képest nem jelent meg új KSH/MNB/ÁKK/PM publikáció (a KSH Q3 GDP részletes bontása december 1-jén várható, az októberi munkanélküliségi gyorstájékoztató még nem jelent meg) — új macro_snapshots dokumentum ezért nem készült, a legutóbbi (2026-11-26T05-59) pillanatkép marad érvényben.",
+   "9-12 tematikus WebSearch lekérdezés (sajtóportálokon átívelő) túlnyomórészt a már rögzített tételekkel egyező találatokat hozott; ténylegesen új, a 3 napos ablakba eső, az adattárban még nem szereplő tétel nem került elő ebben a futásban."
   ],
   "eu_lost_items_new": 0,
-  "finished_at": "2026-11-26T06:15:00+01:00",
-  "items_duplicate": 0,
-  "items_found_total": 0,
+  "finished_at": "2026-11-26T12:40:00+01:00",
+  "items_duplicate": 2,
+  "items_found_total": 2,
   "items_needs_review": 0,
   "items_new": 0,
-  "reported_cases_new": 2,
-  "reported_cases_updated": 1,
+  "reported_cases_new": 0,
+  "reported_cases_updated": 0,
   "sources_checked": [
    "kormany.hu/atlathato/feljelentes",
    "mnvvh.hu/hirek",
-   "ugyeszseg.hu/kozponti-nyomozo-fougyeszseg",
    "hirkereso.hu",
+   "ugyeszseg.hu/kategoria/kozponti-nyomozo-fougyeszseg",
+   "Index",
    "444.hu",
    "Telex",
-   "HVG",
-   "Index",
    "Portfolio.hu",
    "Economx",
-   "Magyar Hírlap",
-   "Átlátszó",
-   "Infostart.hu",
-   "Privátbankár.hu",
-   "Pénzcentrum",
-   "Euronews",
-   "mfor.hu"
+   "Világgazdaság",
+   "HVG",
+   "Infostart",
+   "Privátbankár",
+   "Adozóna",
+   "dailynewshungary.com",
+   "k-monitor.hu (WebSearch)"
   ],
-  "started_at": "2026-11-26T05:55:00+01:00",
-  "id": "2026-11-26T05-59"
+  "started_at": "2026-11-26T11:55:00+01:00",
+  "id": "2026-11-26T11-55"
  },
  "run_history": [
+  {
+   "finished_at": "2026-11-26T12:40:00+01:00",
+   "started_at": "2026-11-26T11:55:00+01:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
   {
    "finished_at": "2026-11-26T06:15:00+01:00",
    "started_at": "2026-11-26T05:55:00+01:00",
@@ -5215,61 +5230,34 @@
    "reported_cases_new": 0,
    "reported_cases_updated": 0,
    "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-10-24T10:10:00+02:00",
-   "started_at": "2026-10-24T09:15:00+02:00",
-   "items_new": 0,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 1,
-   "eu_lost_items_new": 0
   }
  ],
  "run_summary": {
-  "run_id": "2026-11-26T05:02:50+00:00",
-  "new": 3,
-  "modified": 1,
-  "confirmed_only": 0,
-  "touched": 4,
+  "run_id": "2026-11-26T11:01:04+00:00",
+  "new": 0,
+  "modified": 0,
+  "confirmed_only": 1,
+  "touched": 1,
   "pending_review": 4,
   "by_section": {
    "items": {
     "new": 0,
     "modified": 0,
-    "confirmed_only": 0
+    "confirmed_only": 1
    },
    "reported_cases": {
-    "new": 3,
-    "modified": 1,
+    "new": 0,
+    "modified": 0,
     "confirmed_only": 0
    }
   },
-  "new_ids": [
-   "r:reported-civil-szervezetek-kiraly-nora-2026-11",
-   "r:reported-koltay-mcc-masodallas-2024",
-   "r:reported-nyiregyhazi-egyetem-gyermekmegorzo-2026-11"
-  ],
-  "modified_ids": [
-   "r:reported-egyeb-miniszteriumi-18ugy-2026"
-  ],
-  "confirmed_ids": []
+  "new_ids": [],
+  "modified_ids": [],
+  "confirmed_ids": [
+   "i:eu-forras-megallapodas-2026-05"
+  ]
  },
  "run_summary_history": [
-  {
-   "run_id": "2026-10-22T04:04:53+00:00",
-   "by_section": {
-    "items": {
-     "new": 0,
-     "modified": 0,
-     "confirmed_only": 1
-    },
-    "reported_cases": {
-     "new": 0,
-     "modified": 2,
-     "confirmed_only": 0
-    }
-   }
-  },
   {
    "run_id": "2026-10-22T10:01:41+00:00",
    "by_section": {
@@ -6751,6 +6739,21 @@
     "reported_cases": {
      "new": 3,
      "modified": 1,
+     "confirmed_only": 0
+    }
+   }
+  },
+  {
+   "run_id": "2026-11-26T11:01:04+00:00",
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 1
+    },
+    "reported_cases": {
+     "new": 0,
+     "modified": 0,
      "confirmed_only": 0
     }
    }
