@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-26T16:03:28+00:00",
+ "generated_at": "2026-11-27T05:00:16+00:00",
  "summary": {
   "megtakaritas_verified_huf": 2947290700000,
   "visszaszerzes_verified_huf": 1634319300000,
@@ -4176,7 +4176,7 @@
    "url": "https://magyarnemzet.hu/gazdasag/2026/09/allamadossag-novekedes"
   },
   "allamadossag_huf": 65716000000000,
-  "collected_at": "2026-11-26T16:56:00+01:00",
+  "collected_at": "2026-11-27T11:30:00+01:00",
   "elozo": {
    "allamadossag": {
     "period": null,
@@ -4218,7 +4218,7 @@
     "label_en": "Unemployment rate",
     "label_hu": "Munkanélküliégi ráta",
     "note_en": "KSH's October flash report had not yet been published at the time of this run.",
-    "note_hu": "A KSH októberi hónapra vonatkozó gyorstájékoztatója e futás idején (2026-11-26) még nem jelent meg.",
+    "note_hu": "A KSH októberi hónapra vonatkozó gyorstájékoztatója e futás idején (2026-11-27) még nem jelent meg.",
     "period": "2026-09",
     "prev_period": "2026-08",
     "prev_value": 4.7,
@@ -4281,18 +4281,18 @@
     "key": "eur_huf",
     "label_en": "Official EUR/HUF rate (MNB)",
     "label_hu": "Euró hivatalos árfolyama (MNB)",
-    "note_en": "The USD rate on the same day was 337.97 Ft/USD. No reliably identifiable newer official fixing was available at the time of this run.",
-    "note_hu": "A dollár árfolyama ugyanezen a napon 337,97 Ft/USD volt. E futás idején (2026-11-26 16:56) sem volt megbízhatóan azonosítható újabb hivatalos fixing.",
-    "period": "2026-11-24",
-    "prev_period": "2026-11-20",
-    "prev_value": 373.22,
+    "note_en": "The USD rate on the same day was 339.04 Ft/USD.",
+    "note_hu": "A dollár árfolyama ugyanezen a napon 339,04 Ft/USD volt.",
+    "period": "2026-11-26",
+    "prev_period": "2026-11-24",
+    "prev_value": 369.57,
     "source": {
      "name": "MNB hivatalos árfolyamok",
-     "publish_date": "2026-11-24",
+     "publish_date": "2026-11-26",
      "url": "https://www.mnb.hu/arfolyamok"
     },
     "unit": "Ft/EUR",
-    "value": 369.57
+    "value": 372
    },
    {
     "key": "brutto_atlagkereset",
@@ -4389,17 +4389,18 @@
    "publish_date": "2026-09-22",
    "url": "https://www.portfolio.hu/gazdasag/20260922/itt-az-mnb-uj-elorejelzese-hiaba-a-nemzetkozi-kockazatok-mersekelt-marad-az-idei-inflacio-864484"
   },
-  "id": "2026-11-26T16-56"
+  "id": "2026-11-27T11-30"
  },
  "last_run": {
   "errors": [
-   "K-Monitor site: keresés nem adott k-monitor.hu domainű találatot (csak másodközlő/egyéb lapok jöttek vissza); a téma (vagyonvisszaszerzés, feljelentés közpénz) így csak közvetett forrásokon keresztül volt ellenőrizhető.",
-   "Nagy Ervin kulturális államtitkár 2026.11.20-i, kb. 3 milliárd forintos, pályázat nélküli színházi/táncos/cirkuszi támogatási döntése miatt a Fidesz (Szentkirályi Alexandra, Bóka János) 2026-11-26-án feljelentéssel fenyegetőzött, DE a cikkek szerint ez csak akkor válik valós feljelentéssé, ha megkezdődnek a kifizetések — ezért ebben a futásban nem vettük fel reported_cases-ként, csak megjegyzésként rögzítjük, következő futásban érdemes ellenőrizni, történt-e tényleges feljelentés.",
-   "Egy WebFetch-összefoglaló (hirkereso.hu) olyan témákat is jelzett (komáromi/Monostor híd OLAF-vizsgálat kb. 20 Mrd Ft, Tiborcz-érdekeltségű cég hatszoros túlárazással történő eladása, Matolcsy Ádámhoz köthető cég kb. 90 Mrd Ft-os kötelezettsége), amelyeket külön keresésekkel nem sikerült konkrét, friss (2026-11-25/26-i) cikkel alátámasztani — ezeket emiatt NEM vettük fel az adattárba, bizonytalan/nem ellenőrizhető forrásként.",
-   "MNB napi hivatalos euró/forint fixing 2026-11-25/26-ra nem volt megbízhatóan azonosítható; a legutóbbi (2026-11-24-i) hivatalos adat maradt érvényben a macro_snapshots-ban."
+   "A kormany.hu/atlathato/feljelentes oldal tartalma ebben a futásban is változatlan volt a 2026-11-13-i állapothoz képest (64 ügy, 13 minisztérium, kb. 4007 Mrd Ft, 74,0 Mrd Ft visszafizetve/megtakarítva) — nem volt szükség frissítésre a reported-osszesito-2026-09 és a kapcsolódó tételeken.",
+   "Kiterjedt (kb. 15 tematikus) WebSearch-keresés ellenére ebben a futásban nem sikerült olyan, a 2026-11-24 és 2026-11-27 közötti időszakból származó ÚJ, az adattárban még nem szereplő megtakarítási/visszaszerzési/feljelentési tényt azonosítani, amely megfelelne a forrás-hitelességi és duplikációszűrési szabályoknak — a megtalált friss hírek (pl. Matolcsy György és Seszták Miklós eljárási fejleményei, gázmaffia-ügy, NVVH készpénzlefoglalások) mindegyike a meglévő, korábbi futásokban már rögzített tételek (reported-mnb-matolcsy-alapitvanyok-2026-09, reported-sesztak-miklos-korrupcio-2026-09, reported-gazmaffia-afacsalas-nav-2026-11) folytatása/megerősítése volt, amelyeknek verification_notes mezője a 2026-11-23/26-i állapotot már tartalmazza.",
+   "Az ÁKK hivatalos államadósság-statisztikája ebben a futásban sem volt közvetlenül lekérhető (robots.txt/méretkorlát); az államadósság_huf mező változatlanul a 2026-07-31-i (Magyar Nemzet/ÁKK-adatra hivatkozó) állapotot tükrözi.",
+   "A KSH októberi munkanélküliségi gyorstájékoztatója és a GDP Q3 részletes (komponensenkénti) bontása e futás idején még nem jelent meg (a GDP-bontást a KSH 2026. december 1-jén tervezi közzétenni).",
+   "Az ugyeszseg.hu Központi Nyomozó Főügyészség rovatában talált, 2026.11.16-i, kormányhivatali tisztviselő vesztegetési ügyéről szóló közlemény önmagában (összeg és az adattárban szereplő meglévő üggyel való azonosítható kapcsolat nélkül) nem alapozott meg új reported_cases tételt, a szabály szerint."
   ],
   "eu_lost_items_new": 0,
-  "finished_at": "2026-11-26T17:40:00+01:00",
+  "finished_at": "2026-11-27T12:10:00+01:00",
   "items_duplicate": 0,
   "items_found_total": 0,
   "items_needs_review": 0,
@@ -4408,54 +4409,34 @@
   "reported_cases_updated": 0,
   "sources_checked": [
    "kormany.hu/atlathato/feljelentes",
-   "24.hu",
    "444.hu",
-   "168.hu",
-   "atlatszo.hu",
-   "demokrata.hu",
-   "direkt36.hu",
-   "economx.hu",
-   "es.hu",
-   "forbes.hu",
-   "g7.hu",
-   "hirtv.hu",
-   "hvg.hu",
-   "index.hu",
-   "infostart.hu",
-   "jelen.media",
-   "klubradio.hu",
-   "magyarhang.org",
-   "magyarhirlap.hu",
-   "magyarnemzet.hu",
-   "makronom.hu",
-   "mandiner.hu",
-   "media1.hu",
-   "mfor.hu",
-   "merce.hu",
-   "mti.hu",
-   "nepszava.hu",
-   "origo.hu",
-   "penzcentrum.hu",
-   "portfolio.hu",
-   "privatbankar.hu",
-   "szabadeuropa.hu",
-   "telex.hu",
-   "trendfm.hu",
-   "ujegyenloseg.hu",
-   "valaszonline.hu",
-   "vg.hu",
-   "partizan.hu",
-   "okoshir.hu",
-   "szmo.hu",
-   "k-monitor.hu",
-   "hirkereso.hu",
+   "Telex",
+   "HVG",
+   "Index",
+   "Portfolio.hu",
+   "Economx",
+   "Infostart.hu",
+   "Privátbankár.hu",
+   "Adozona.hu",
    "mnvvh.hu",
-   "ugyeszseg.hu"
+   "ugyeszseg.hu (Központi Nyomozó Főügyészség)",
+   "K-Monitor (WebSearch)",
+   "MNB árfolyamok",
+   "Daily News Hungary",
+   "Al Jazeera"
   ],
-  "started_at": "2026-11-26T16:56:00+01:00",
-  "id": "2026-11-26T16-56"
+  "started_at": "2026-11-27T11:30:00+01:00",
+  "id": "2026-11-27T11-30"
  },
  "run_history": [
+  {
+   "finished_at": "2026-11-27T12:10:00+01:00",
+   "started_at": "2026-11-27T11:30:00+01:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
   {
    "finished_at": "2026-11-26T17:40:00+01:00",
    "started_at": "2026-11-26T16:56:00+01:00",
@@ -5247,18 +5228,10 @@
    "reported_cases_new": 0,
    "reported_cases_updated": 0,
    "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-10-24T17:05:00+02:00",
-   "started_at": "2026-10-24T16:30:00+02:00",
-   "items_new": 0,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 0,
-   "eu_lost_items_new": 0
   }
  ],
  "run_summary": {
-  "run_id": "2026-11-26T16:03:28+00:00",
+  "run_id": "2026-11-27T05:00:16+00:00",
   "new": 0,
   "modified": 0,
   "confirmed_only": 0,
@@ -5281,21 +5254,6 @@
   "confirmed_ids": []
  },
  "run_summary_history": [
-  {
-   "run_id": "2026-10-22T15:02:38+00:00",
-   "by_section": {
-    "items": {
-     "new": 0,
-     "modified": 0,
-     "confirmed_only": 0
-    },
-    "reported_cases": {
-     "new": 0,
-     "modified": 0,
-     "confirmed_only": 2
-    }
-   }
-  },
   {
    "run_id": "2026-10-23T04:05:08+00:00",
    "by_section": {
@@ -6768,6 +6726,21 @@
   },
   {
    "run_id": "2026-11-26T16:03:28+00:00",
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    }
+   }
+  },
+  {
+   "run_id": "2026-11-27T05:00:16+00:00",
    "by_section": {
     "items": {
      "new": 0,
