@@ -1,13 +1,13 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-27T05:00:16+00:00",
+ "generated_at": "2026-11-27T11:02:51+00:00",
  "summary": {
   "megtakaritas_verified_huf": 2947290700000,
   "visszaszerzes_verified_huf": 1634319300000,
   "eu_forras_verified_huf": 8251000000000,
   "eu_forras_lost_huf": 730000000000,
   "items_count": 43,
-  "reported_cases_count": 77
+  "reported_cases_count": 78
  },
  "items": [
   {
@@ -2893,6 +2893,26 @@
    "updated_at": "2026-11-06T11:37:02+00:00"
   },
   {
+   "alleged_amount_huf": 34000000000,
+   "alleged_amount_text": "34 milliárd forint (a feljelentés alapjául szolgáló, gyanús ügyletek összértéke); részletezve: a Magyar Posta Biztosító kétharmados részesedésének 27,8 milliárd forintos megvásárlása, majd 23 milliárd forintos eladása; az ecseri csomagelosztó közbeszerzésénél mintegy 2 milliárd forintos többletköltség gyanúja; egy céghálózat megrendelései 1,68 milliárd forint feletti értékben",
+   "confirmed_recovered_huf": 0,
+   "description": "A Gazdasági és Energetikai Minisztérium 2026. november 26-án feljelentést tett hűtlen kezelés gyanúja miatt a Magyar Posta Zrt. egyes ügyletei kapcsán, egy nyolc területet érintő átvilágítás nyomán. A vizsgálat szerint az állam korábban 27,8 milliárd forintért vásárolta meg a Magyar Posta Biztosító kétharmados részesedését, amelyet később 23 milliárd forintért adtak el egy magánbefektetőnek. Az ecseri csomagelosztó központ közbeszerzésénél a feltételek egy ajánlattevőre lehettek szabva, mintegy 2 milliárd forintos többletköltséget okozva. Egy további céghálózat megrendelései 1,68 milliárd forint feletti értékben a túlárazás és a többszöri elszámolás gyanúját vetik fel.",
+   "ministry": "Gazdasági és Energetikai Minisztérium",
+   "recovered_item_id": null,
+   "report_date": "2026-11-26",
+   "report_source": {
+    "name": "Economx",
+    "published_date": "2026-11-26",
+    "url": "https://www.economx.hu/magyar-gazdasag/2026/11/26/posta-kapitany-istvan-ujabb-feljelentes-atvilagitottak-allami-szolgaltatot-visszassagok-miatt-lepett-miniszter/"
+   },
+   "status": "reported",
+   "subject": "Magyar Posta — Posta Biztosító értékesítése és egyéb szerződések",
+   "verification_notes": "ÚJ TÉTEL (2026-11-27 11:55-ös futás). Kapitány István gazdasági és energetikai miniszter 2026-11-26-i Facebook-videós bejelentése alapján, a Magyar Posta nyolc területet érintő átvilágítása nyomán. Legalább három független sajtóforrás (Economx, Világgazdaság, Hang.hu) egyezően számol be, a Szegedi Nap/Kuruc.info átvételben is megjelent. A gyanú szerint a Posta Biztosító vásárlás/eladás a Tiborcz István-érdekeltségű Gránit Biztosítóhoz köthető, az ecseri ügy a Waberer's-csoporthoz (a vizsgált időszakban Nagy Márton gyakorolta a tulajdonosi jogokat); a Balásy-csoporthoz köthető megrendelések a korábban már rögzített, hasonló mintájú (p2m, HM Zrínyi stb.) ügyekhez hasonlóak. Waberer's törvényes eljárást állít, cáfolja a jogosulatlan előnyszerzést. Nem szerepel még a kormany.hu/atlathato/feljelentes 2026-11-13-i hivatalos állapotában (64 ügy/4007 Mrd Ft) — a 2026-11-27-i ellenőrzéskor a hivatalos oldal tartalma ehhez a dátumhoz képest nem változott, az új ügy várhatóan csak egy következő frissítéskor jelenik meg ott. Konkrét, az államhoz visszakerült összeg nincs, a vizsgálat kezdeti (feljelentési) szakaszban van.",
+   "id": "reported-magyar-posta-biztosito-kapitany-2026-11",
+   "updated_at": "2026-11-27T11:02:51+00:00",
+   "first_seen_at": "2026-11-27T11:02:51+00:00"
+  },
+  {
    "alleged_amount_huf": 197104900,
    "alleged_amount_text": "197,1 millió forint (a Médiatanács elnöke és négy tagja részére, 2022 és 2026 között, tavaszi és őszi jutalmak összesen; ebből Koltay András elnök 80,3 millió forintot, a négy tag egyenként 29,2 millió forintot kapott)",
    "confirmed_recovered_huf": 0,
@@ -3026,10 +3046,10 @@
    },
    "status": "under_investigation",
    "subject": "MNB-alapítványok ügye (Matolcsy-kör, hűtlen kezelés gyanúja)",
-   "verification_notes": "FRISSÍTVE 2026-11-23 futás: a Budai Központi Kerületi Bíróság 2026. november 23-án (nem jogerősen) további három hónappal meghosszabbította Matolcsy György és Valkó Mihály (a kölcsönszerződés megkötésekor eljáró képviselő) letartóztatását; az értékpapír-ügyletben közreműködő Sándor Tamás ügyvédet bűnügyi felügyelet alá helyezték, négy hónapig elektronikus nyomkövetőt kell viselnie. Az ügy háttere: a Központi Nyomozó Főügyészség az Optima Befektetési Zrt. és a Quartz Befektetési Alapkezelő kezelésében álló Közép-Európai III. Magántőkealap közötti, 2025.02.28-i, az OPTIMA Befektetési Alapkezelő Zrt. törzsrészvényeire vonatkozó értékpapír-kölcsönszerződés miatt nyomoz, gazdasági csalás és különösen jelentős vagyoni hátrányt okozó bűncselekmény gyanújával. Az alleged_amount_huf (300 Mrd Ft) és a confirmed_recovered_huf (0) nem változott. (Korábbi megjegyzések megőrizve, l. előző verzió.)\n\nFRISSÍTVE 2026-11-19 12:00-ás futás: a Központi Nyomozó Főügyészség indítványozta Matolcsy György letartóztatásának meghosszabbítását (a korábbi, 2026. november 23-ig tartó letartóztatási határozat lejárta előtt). Sajtóhírek (Forbes.hu) szerint a bíróság döntése esetén 2027. február végéig letartóztatásban maradhat; a tényleges bírósági döntés e futás idején még nem ismert. Ez eljárási fejlemény, az alleged_amount_huf (300 Mrd Ft) és a confirmed_recovered_huf (0) nem változott. (Korábbi megjegyzések megőrizve, l. előző verzió.) FRISSÍTVE 2026-11-05 11:55-ös futás: a Fővárosi Törvényszék 2026. november 5-én helybenhagyta az elsőfokú döntést, amely szerint Matolcsy György és két társa 2026. november 23-ig letartóztatásban marad; a bíróság elutasította a védelem óvadékra és a bűnügyi felügyeletre (elektronikus nyomkövetésre) vonatkozó indítványait, a szökés, a bizonyítékok befolyásolásának és az ismétlődés veszélyére hivatkozva. A bíróság szerint felmerültek olyan körülmények, amelyek bizonyítékok megsemmisítésére utalhatnak egy gyanúsított környezetében, valamint dokumentumok visszadatálásával kapcsolatos informatikai adatokra. A döntés nem jogerős, a védelem fellebbezett. Ez eljárási fejlemény, az alleged_amount_huf (300 Mrd Ft) és a confirmed_recovered_huf (0) nem változott. Források: Portfolio.hu, Forbes.hu (mindkettő 2026-11-05). (Korábbi megjegyzések megőrizve, l. előző verzió.) FRISSÍTVE 2026-11-02 06:00-ás futás: a bíróság 2026. október 23-án elutasította Matolcsy György ügyvédje által felkínált 30 millió forintos óvadékot, és egy hónapra elrendelte a letartóztatását; mindhárom gyanúsított (Matolcsy György és két társa) fellebbezett a letartóztatási döntés ellen, az ügy jelenleg nem jogerős. Az alleged_amount_huf (300 Mrd Ft) és a confirmed_recovered_huf (0) nem változott. Forrás: 444.hu (2026-10-21, 2026-10-23). (Korábbi megjegyzések megőrizve.)",
+   "verification_notes": "FRISSÍTVE 2026-11-27 11:55-ös futás: a Portfolio.hu 2026-11-26-i cikke szerint Matolcsy Ádám és Stofa György (az ügyben szökésben lévő, az MNB-alapítványi körhöz köthető üzletemberek) cégeire összesen mintegy 90 milliárd forintnyi kötelezettség nehezedhet: Matolcsy hat cégének több mint 75 milliárd forintos kötelezettségéből közel 53 milliárd forint még idén esedékes, Stofa három cégét pedig mintegy 35 milliárd forintos teher nyomja. Mivel a két üzletember bujkál, cégeik működőképessége veszélybe kerülhet (bérek, adók, számlák kifizetése akadozhat), a cégbíróság törvényességi felügyeleti eljárásban legfeljebb 90 napra felügyelőbiztost rendelhet ki. Ez a cégek működésével, nem az MNB-alapítványi büntetőüggyel kapcsolatos fejlemény, és nem jelent tényleges, az államhoz visszakerült vagyont — az alleged_amount_huf (300 Mrd Ft) és a confirmed_recovered_huf (0) nem változott. (Korábbi megjegyzések megőrizve, l. előző verzió.)\n\nFRISSÍTVE 2026-11-23 futás: a Budai Központi Kerületi Bíróság 2026. november 23-án (nem jogerősen) további három hónappal meghosszabbította Matolcsy György és Valkó Mihály (a kölcsönszerződés megkötésekor eljáró képviselő) letartóztatását; az értékpapír-ügyletben közreműködő Sándor Tamás ügyvédet bűnügyi felügyelet alá helyezték, négy hónapig elektronikus nyomkövetőt kell viselnie. Az ügy háttere: a Központi Nyomozó Főügyészség az Optima Befektetési Zrt. és a Quartz Befektetési Alapkezelő kezelésében álló Közép-Európai III. Magántőkealap közötti, 2025.02.28-i, az OPTIMA Befektetési Alapkezelő Zrt. törzsrészvényeire vonatkozó értékpapír-kölcsönszerződés miatt nyomoz, gazdasági csalás és különösen jelentős vagyoni hátrányt okozó bűncselekmény gyanújával. Az alleged_amount_huf (300 Mrd Ft) és a confirmed_recovered_huf (0) nem változott. (Korábbi megjegyzések megőrizve, l. előző verzió.)\n\nFRISSÍTVE 2026-11-19 12:00-ás futás: a Központi Nyomozó Főügyészség indítványozta Matolcsy György letartóztatásának meghosszabbítását (a korábbi, 2026. november 23-ig tartó letartóztatási határozat lejárta előtt). Sajtóhírek (Forbes.hu) szerint a bíróság döntése esetén 2027. február végéig letartóztatásban maradhat; a tényleges bírósági döntés e futás idején még nem ismert. Ez eljárási fejlemény, az alleged_amount_huf (300 Mrd Ft) és a confirmed_recovered_huf (0) nem változott. (Korábbi megjegyzések megőrizve, l. előző verzió.) FRISSÍTVE 2026-11-05 11:55-ös futás: a Fővárosi Törvényszék 2026. november 5-én helybenhagyta az elsőfokú döntést, amely szerint Matolcsy György és két társa 2026. november 23-ig letartóztatásban marad; a bíróság elutasította a védelem óvadékra és a bűnügyi felügyeletre (elektronikus nyomkövetésre) vonatkozó indítványait, a szökés, a bizonyítékok befolyásolásának és az ismétlődés veszélyére hivatkozva. A bíróság szerint felmerültek olyan körülmények, amelyek bizonyítékok megsemmisítésére utalhatnak egy gyanúsított környezetében, valamint dokumentumok visszadatálásával kapcsolatos informatikai adatokra. A döntés nem jogerős, a védelem fellebbezett. Ez eljárási fejlemény, az alleged_amount_huf (300 Mrd Ft) és a confirmed_recovered_huf (0) nem változott. Források: Portfolio.hu, Forbes.hu (mindkettő 2026-11-05). (Korábbi megjegyzések megőrizve, l. előző verzió.) FRISSÍTVE 2026-11-02 06:00-ás futás: a bíróság 2026. október 23-án elutasította Matolcsy György ügyvédje által felkínált 30 millió forintos óvadékot, és egy hónapra elrendelte a letartóztatását; mindhárom gyanúsított (Matolcsy György és két társa) fellebbezett a letartóztatási döntés ellen, az ügy jelenleg nem jogerős. Az alleged_amount_huf (300 Mrd Ft) és a confirmed_recovered_huf (0) nem változott. Forrás: 444.hu (2026-10-21, 2026-10-23). (Korábbi megjegyzések megőrizve.)",
    "id": "reported-mnb-matolcsy-alapitvanyok-2026-09",
    "first_seen_at": "2026-09-28T15:02:40+00:00",
-   "updated_at": "2026-11-23T16:05:00+00:00"
+   "updated_at": "2026-11-27T11:02:51+00:00"
   },
   {
    "alleged_amount_huf": 11000000000,
@@ -4437,6 +4457,7 @@
    "reported_cases_updated": 0,
    "eu_lost_items_new": 0
   },
+  {},
   {
    "finished_at": "2026-11-26T17:40:00+01:00",
    "started_at": "2026-11-26T16:56:00+01:00",
@@ -5220,22 +5241,14 @@
    "reported_cases_new": 0,
    "reported_cases_updated": 0,
    "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-10-25T06:30:00+02:00",
-   "started_at": "2026-10-25T05:55:00+02:00",
-   "items_new": 0,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 0,
-   "eu_lost_items_new": 0
   }
  ],
  "run_summary": {
-  "run_id": "2026-11-27T05:00:16+00:00",
-  "new": 0,
+  "run_id": "2026-11-27T11:02:51+00:00",
+  "new": 1,
   "modified": 0,
-  "confirmed_only": 0,
-  "touched": 0,
+  "confirmed_only": 1,
+  "touched": 2,
   "pending_review": 4,
   "by_section": {
    "items": {
@@ -5244,31 +5257,20 @@
     "confirmed_only": 0
    },
    "reported_cases": {
-    "new": 0,
+    "new": 1,
     "modified": 0,
-    "confirmed_only": 0
+    "confirmed_only": 1
    }
   },
-  "new_ids": [],
+  "new_ids": [
+   "r:reported-magyar-posta-biztosito-kapitany-2026-11"
+  ],
   "modified_ids": [],
-  "confirmed_ids": []
+  "confirmed_ids": [
+   "r:reported-mnb-matolcsy-alapitvanyok-2026-09"
+  ]
  },
  "run_summary_history": [
-  {
-   "run_id": "2026-10-23T04:05:08+00:00",
-   "by_section": {
-    "items": {
-     "new": 0,
-     "modified": 0,
-     "confirmed_only": 0
-    },
-    "reported_cases": {
-     "new": 0,
-     "modified": 0,
-     "confirmed_only": 1
-    }
-   }
-  },
   {
    "run_id": "2026-10-23T10:02:39+00:00",
    "by_section": {
@@ -6751,6 +6753,21 @@
      "new": 0,
      "modified": 0,
      "confirmed_only": 0
+    }
+   }
+  },
+  {
+   "run_id": "2026-11-27T11:02:51+00:00",
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 1,
+     "modified": 0,
+     "confirmed_only": 1
     }
    }
   }
