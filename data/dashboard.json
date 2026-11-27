@@ -1,13 +1,13 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-27T11:02:51+00:00",
+ "generated_at": "2026-11-27T16:01:01+00:00",
  "summary": {
   "megtakaritas_verified_huf": 2947290700000,
   "visszaszerzes_verified_huf": 1634319300000,
   "eu_forras_verified_huf": 8251000000000,
   "eu_forras_lost_huf": 730000000000,
   "items_count": 43,
-  "reported_cases_count": 78
+  "reported_cases_count": 80
  },
  "items": [
   {
@@ -2505,6 +2505,27 @@
    "updated_at": "2026-11-22T11:00:46+00:00"
   },
   {
+   "additional_sources": [],
+   "alleged_amount_huf": null,
+   "alleged_amount_text": "Az érintett közbeszerzés(ek) pontos összege a sajtóban nem szerepel; konkrét szerződés vagy kedvezményezett sincs megnevezve.",
+   "confirmed_recovered_huf": 0,
+   "description": "Hegedűs Zsolt egészségügyi miniszter 2026. november 26-i bejegyzésében arról tájékoztatott, hogy feljelentést tett ismeretlen tettes ellen egy, az uniós Helyreállítási és Ellenállóképességi Eszközből (RRF) finanszírozott közbeszerzéssel kapcsolatban felmerült, megalapozott visszaélés-gyanú miatt. A rendőrség a feljelentés nyomán elrendelte a nyomozást; a miniszter a vizsgálat érdekeire hivatkozva nem adott további részletet.",
+   "ministry": "Egészségügyi Minisztérium",
+   "recovered_item_id": null,
+   "report_date": "2026-11-26",
+   "report_source": {
+    "name": "Portfolio.hu (MTI)",
+    "published_date": "2026-11-26",
+    "url": "https://www.portfolio.hu/gazdasag/20261126/bejelentest-tett-a-miniszter-nyomoz-a-rendorseg-az-unios-milliardok-miatt-879524"
+   },
+   "status": "under_investigation",
+   "subject": "Egészségügyi Minisztérium — uniós helyreállítási (RRF) forrásból finanszírozott közbeszerzés feljelentése",
+   "verification_notes": "ÚJ TÉTEL (2026-11-27 12:xx-es futás, hirkereso.hu-n keresztül azonosítva: '24.hu Top 24 lista' hivatkozás egy Hegedűs Zsolt-bejelentésre; a 24.hu közvetlen lekérése blokkolt volt, a tartalmat a Portfolio.hu/MTI 2026-11-26-i cikke erősítette meg). Egyetlen közvetlen sajtóforrásból (Portfolio/MTI) ismert eddig, a cikk nem nevez meg konkrét szerződést, kedvezményezettet vagy összeget — csak azt, hogy RRF-forrásból finanszírozott közbeszerzésről van szó. A rendőrség már elrendelte a nyomozást (nem csak feljelentés), ezért a status 'under_investigation'. Második, független forrásra és részletesebb információra vár egy következő futásban. Nem szerepel a kormany.hu/atlathato/feljelentes 2026-11-13-i hivatalos állapotában (ellenőrizve ugyanebben a futásban, az oldal változatlan).",
+   "id": "reported-hegedus-rrf-kozbeszerzes-2026-11",
+   "updated_at": "2026-11-27T16:01:01+00:00",
+   "first_seen_at": "2026-11-27T16:01:01+00:00"
+  },
+  {
    "alleged_amount_huf": 1392000000,
    "alleged_amount_text": "661 millió forint (Gyulai Fafém Bútor Zrt., Stofa György érdekeltsége) és 731 millió forint (IMG Office Kft., Szentgyörgyi Gábor érdekeltsége), összesen 1,392 milliárd forint",
    "confirmed_recovered_huf": 0,
@@ -2909,8 +2930,8 @@
    "subject": "Magyar Posta — Posta Biztosító értékesítése és egyéb szerződések",
    "verification_notes": "ÚJ TÉTEL (2026-11-27 11:55-ös futás). Kapitány István gazdasági és energetikai miniszter 2026-11-26-i Facebook-videós bejelentése alapján, a Magyar Posta nyolc területet érintő átvilágítása nyomán. Legalább három független sajtóforrás (Economx, Világgazdaság, Hang.hu) egyezően számol be, a Szegedi Nap/Kuruc.info átvételben is megjelent. A gyanú szerint a Posta Biztosító vásárlás/eladás a Tiborcz István-érdekeltségű Gránit Biztosítóhoz köthető, az ecseri ügy a Waberer's-csoporthoz (a vizsgált időszakban Nagy Márton gyakorolta a tulajdonosi jogokat); a Balásy-csoporthoz köthető megrendelések a korábban már rögzített, hasonló mintájú (p2m, HM Zrínyi stb.) ügyekhez hasonlóak. Waberer's törvényes eljárást állít, cáfolja a jogosulatlan előnyszerzést. Nem szerepel még a kormany.hu/atlathato/feljelentes 2026-11-13-i hivatalos állapotában (64 ügy/4007 Mrd Ft) — a 2026-11-27-i ellenőrzéskor a hivatalos oldal tartalma ehhez a dátumhoz képest nem változott, az új ügy várhatóan csak egy következő frissítéskor jelenik meg ott. Konkrét, az államhoz visszakerült összeg nincs, a vizsgálat kezdeti (feljelentési) szakaszban van.",
    "id": "reported-magyar-posta-biztosito-kapitany-2026-11",
-   "updated_at": "2026-11-27T11:02:51+00:00",
-   "first_seen_at": "2026-11-27T11:02:51+00:00"
+   "first_seen_at": "2026-11-27T11:02:51+00:00",
+   "updated_at": "2026-11-27T11:02:51+00:00"
   },
   {
    "alleged_amount_huf": 197104900,
@@ -2951,6 +2972,38 @@
    "id": "reported-merkely-kinavix-2026-09",
    "first_seen_at": "2026-09-28T15:02:40+00:00",
    "updated_at": "2026-11-06T11:37:02+00:00"
+  },
+  {
+   "additional_sources": [
+    {
+     "name": "Telex",
+     "published_date": "2026-11-27",
+     "url": "https://telex.hu/gazdasag/2026/11/27/hutlen-kezeles-gyanuja-miatt-feljelentest-tettek-meszaros-lorinc-cementgyaranak-ugyeben-lukavac-bosznia-hercegovina-magyar-fejlesztesi-bank"
+    },
+    {
+     "name": "Hang.hu",
+     "published_date": "2026-11-27",
+     "url": "https://hang.hu/belfold/feljelentest-tettek-a-meszaros-lorinchez-kotheto-lukavac-cementgyar-ugyeben-194229"
+    }
+   ],
+   "alleged_amount_huf": null,
+   "alleged_amount_text": "Nincs megerősített, konkrét kárösszeg; háttér-adat: a cementgyár 2023-as megvásárlása 76 milliárd forintba került, ennek 70 százalékát (mintegy 53,2 milliárd forint) az állami Magyar Fejlesztési Bank (MFB) hitele fedezte.",
+   "confirmed_recovered_huf": 0,
+   "description": "A Magyar Fejlesztési Bank 2026. november 27-én hűtlen kezelés gyanúja miatt feljelentést tett ismeretlen tettes ellen a boszniai Lukavac cementgyár eladása ügyében. A gyárat tulajdonló Talentis International Construction Investments Kft.-ben az állami MFB többségi befektetőként is jelen van. A gyanú szerint a cementgyár osztrák vevőnek, halasztott fizetési feltételekkel történő értékesítésekor az eladó nem kapott megfelelő ellentételezést a halasztásért, ami hátrányosan érinthette az állami bank befektetésének megtérülését. A minisztérium bejelentést tett a Nemzeti Vagyonvisszaszerzési és Vagyonvédelmi Hivatalnál (NVVH) is.",
+   "ministry": "Gazdasági és Energetikai Minisztérium (a Magyar Fejlesztési Bank feljelentése)",
+   "recovered_item_id": null,
+   "report_date": "2026-11-27",
+   "report_source": {
+    "name": "444.hu",
+    "published_date": "2026-11-27",
+    "url": "https://444.hu/2026/11/27/hutlen-kezeles-gyanuja-miatt-feljelentest-tett-az-mfb-a-meszaros-lorinchez-kotodo-lukavac-cementgyar-ugyeben"
+   },
+   "status": "reported",
+   "subject": "MFB — a boszniai Lukavac cementgyár eladása (Mészáros Lőrinc-érdekeltség)",
+   "verification_notes": "ÚJ TÉTEL (2026-11-27 12:xx-es futás, hirkereso.hu-n keresztül azonosítva, 24.hu közvetlen lekérése blokkolt volt, de a Telex, 444.hu és Hang.hu egyezően, 2026-11-27-i dátummal megerősíti). Kapitány István gazdasági és energetikai miniszter jelentette be az MFB feljelentését. A Talentis többségi tulajdonosa az MBH Magántőkealap, amelynek az állami MFB a többségi befektetője; a cég másik tulajdonosa a Mészáros Lőrinchez köthető Talentis Group Zrt. 2023-ban a Talentis 76 milliárd forintért vette meg a Lukavac cementgyárat, ennek 70%-át az MFB hitele fedezte. Konkrét kárösszeg a sajtóban nem szerepel, a vizsgálat kezdeti (feljelentési) szakaszban van. Nem szerepel még a kormany.hu/atlathato/feljelentes 2026-11-13-i hivatalos állapotában (ellenőrizve ugyanebben a futásban, az oldal változatlan).",
+   "id": "reported-mfb-lukavac-cementgyar-2026-11",
+   "updated_at": "2026-11-27T16:01:01+00:00",
+   "first_seen_at": "2026-11-27T16:01:01+00:00"
   },
   {
    "additional_sources": [
@@ -4413,42 +4466,56 @@
  },
  "last_run": {
   "errors": [
-   "A kormany.hu/atlathato/feljelentes oldal tartalma ebben a futásban is változatlan volt a 2026-11-13-i állapothoz képest (64 ügy, 13 minisztérium, kb. 4007 Mrd Ft, 74,0 Mrd Ft visszafizetve/megtakarítva) — nem volt szükség frissítésre a reported-osszesito-2026-09 és a kapcsolódó tételeken.",
-   "Kiterjedt (kb. 15 tematikus) WebSearch-keresés ellenére ebben a futásban nem sikerült olyan, a 2026-11-24 és 2026-11-27 közötti időszakból származó ÚJ, az adattárban még nem szereplő megtakarítási/visszaszerzési/feljelentési tényt azonosítani, amely megfelelne a forrás-hitelességi és duplikációszűrési szabályoknak — a megtalált friss hírek (pl. Matolcsy György és Seszták Miklós eljárási fejleményei, gázmaffia-ügy, NVVH készpénzlefoglalások) mindegyike a meglévő, korábbi futásokban már rögzített tételek (reported-mnb-matolcsy-alapitvanyok-2026-09, reported-sesztak-miklos-korrupcio-2026-09, reported-gazmaffia-afacsalas-nav-2026-11) folytatása/megerősítése volt, amelyeknek verification_notes mezője a 2026-11-23/26-i állapotot már tartalmazza.",
-   "Az ÁKK hivatalos államadósság-statisztikája ebben a futásban sem volt közvetlenül lekérhető (robots.txt/méretkorlát); az államadósság_huf mező változatlanul a 2026-07-31-i (Magyar Nemzet/ÁKK-adatra hivatkozó) állapotot tükrözi.",
-   "A KSH októberi munkanélküliségi gyorstájékoztatója és a GDP Q3 részletes (komponensenkénti) bontása e futás idején még nem jelent meg (a GDP-bontást a KSH 2026. december 1-jén tervezi közzétenni).",
-   "Az ugyeszseg.hu Központi Nyomozó Főügyészség rovatában talált, 2026.11.16-i, kormányhivatali tisztviselő vesztegetési ügyéről szóló közlemény önmagában (összeg és az adattárban szereplő meglévő üggyel való azonosítható kapcsolat nélkül) nem alapozott meg új reported_cases tételt, a szabály szerint."
+   "Ez a futás a mai nap harmadik futása (korábbi: 2026-11-27T11:30 és 2026-11-27T11-55), amelyek semmilyen új tételt nem találtak. A kormany.hu/atlathato/feljelentes oldal tartalma ismét változatlan volt a 2026-11-13-i állapothoz képest (64 ügy, 13 minisztérium, kb. 4007 Mrd Ft, 74,0 Mrd Ft visszafizetve/megtakarítva) — a reported-osszesito-2026-09 és kapcsolódó tételek nem igényeltek frissítést.",
+   "A hirkereso.hu TOP listájának áttekintése nyomán két, a korábbi futásokban még nem rögzített, friss (2026-11-26/27-i) feljelentés kerül fel önálló reported_cases tételként: az MFB feljelentése a boszniai Lukavac cementgyár ügyében (reported-mfb-lukavac-cementgyar-2026-11) és Hegedűs Zsolt egészségügyi miniszter feljelentése egy uniós RRF-forrásból finanszírozott közbeszerzés ügyében (reported-hegedus-rrf-kozbeszerzes-2026-11).",
+   "Egy harmadik, a hirkereso.hu-n jelzett hír (parlamenti szavazás 117 milliárd forint 'jogtalanul beszedett' összeg visszafizetéséről) ellenőrzés után kiderült, hogy nem illik a nyilvántartás kategóriáiba: az EU Bírósága szerint jogellenes kiegészítő bányajáradékot az ÁLLAM fizeti vissza bányavállalatoknak, nem az állam szerez vissza vagyont valakitől — ezért ezt a tételt szándékosan NEM vettük fel.",
+   "A 24.hu domain közvetlen WebFetch-lekérése ebben a futásban is blokkolt volt (hálózati/engedélyezési korlátozás); a 24.hu-ra visszamenő híreket másodforrásokon (444.hu, Telex, Hang.hu, Portfolio.hu, Hírnavigátor) keresztül sikerült megerősíteni.",
+   "Makrogazdasági pillanatkép: a 2026-11-27T11:30-as futás pillanatképéhez képest nem jelent meg új KSH/MNB/PM publikáció ebben a futásban sem (a KSH GDP Q3 részletes bontása 2026. december 1-jén várható); új macro_snapshots dokumentum ezért nem készült, a 2026-11-27T11:30-as pillanatkép marad érvényben.",
+   "Kiterjedt (12+ tematikus) WebSearch-keresés futott a megtakarítás/visszaszerzés/EU-forrás/elveszett EU-forrás kategóriákra; ezeken túl nem sikerült az adattárban még nem szereplő, a forrás-hitelességi szabálynak megfelelő új items-tételt azonosítani."
   ],
   "eu_lost_items_new": 0,
-  "finished_at": "2026-11-27T12:10:00+01:00",
+  "finished_at": "2026-11-27T17:10:00+01:00",
   "items_duplicate": 0,
   "items_found_total": 0,
   "items_needs_review": 0,
   "items_new": 0,
-  "reported_cases_new": 0,
+  "reported_cases_new": 2,
   "reported_cases_updated": 0,
   "sources_checked": [
    "kormany.hu/atlathato/feljelentes",
+   "mnvvh.hu/hirek",
+   "ugyeszseg.hu/kategoria/kozponti-nyomozo-fougyeszseg",
+   "hirkereso.hu",
+   "K-Monitor (WebSearch, site:k-monitor.hu)",
    "444.hu",
    "Telex",
    "HVG",
    "Index",
    "Portfolio.hu",
    "Economx",
-   "Infostart.hu",
-   "Privátbankár.hu",
-   "Adozona.hu",
-   "mnvvh.hu",
-   "ugyeszseg.hu (Központi Nyomozó Főügyészség)",
-   "K-Monitor (WebSearch)",
-   "MNB árfolyamok",
-   "Daily News Hungary",
-   "Al Jazeera"
+   "Hang.hu",
+   "Hírnavigátor"
   ],
-  "started_at": "2026-11-27T11:30:00+01:00",
-  "id": "2026-11-27T11-30"
+  "started_at": "2026-11-27T16:55:00+01:00",
+  "id": "2026-11-27T16-55"
  },
  "run_history": [
+  {
+   "finished_at": "2026-11-27T17:10:00+01:00",
+   "started_at": "2026-11-27T16:55:00+01:00",
+   "items_new": 0,
+   "reported_cases_new": 2,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
+  {
+   "finished_at": "2026-11-27T12:35:00+01:00",
+   "started_at": "2026-11-27T11:55:00+01:00",
+   "items_new": 0,
+   "reported_cases_new": 1,
+   "reported_cases_updated": 1,
+   "eu_lost_items_new": 0
+  },
   {
    "finished_at": "2026-11-27T12:10:00+01:00",
    "started_at": "2026-11-27T11:30:00+01:00",
@@ -4457,7 +4524,6 @@
    "reported_cases_updated": 0,
    "eu_lost_items_new": 0
   },
-  {},
   {
    "finished_at": "2026-11-26T17:40:00+01:00",
    "started_at": "2026-11-26T16:56:00+01:00",
@@ -5233,21 +5299,13 @@
    "reported_cases_new": 0,
    "reported_cases_updated": 0,
    "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-10-25T12:35:00+02:00",
-   "started_at": "2026-10-25T11:55:00+02:00",
-   "items_new": 0,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 0,
-   "eu_lost_items_new": 0
   }
  ],
  "run_summary": {
-  "run_id": "2026-11-27T11:02:51+00:00",
-  "new": 1,
+  "run_id": "2026-11-27T16:01:01+00:00",
+  "new": 2,
   "modified": 0,
-  "confirmed_only": 1,
+  "confirmed_only": 0,
   "touched": 2,
   "pending_review": 4,
   "by_section": {
@@ -5257,35 +5315,19 @@
     "confirmed_only": 0
    },
    "reported_cases": {
-    "new": 1,
+    "new": 2,
     "modified": 0,
-    "confirmed_only": 1
+    "confirmed_only": 0
    }
   },
   "new_ids": [
-   "r:reported-magyar-posta-biztosito-kapitany-2026-11"
+   "r:reported-hegedus-rrf-kozbeszerzes-2026-11",
+   "r:reported-mfb-lukavac-cementgyar-2026-11"
   ],
   "modified_ids": [],
-  "confirmed_ids": [
-   "r:reported-mnb-matolcsy-alapitvanyok-2026-09"
-  ]
+  "confirmed_ids": []
  },
  "run_summary_history": [
-  {
-   "run_id": "2026-10-23T10:02:39+00:00",
-   "by_section": {
-    "items": {
-     "new": 0,
-     "modified": 0,
-     "confirmed_only": 0
-    },
-    "reported_cases": {
-     "new": 0,
-     "modified": 0,
-     "confirmed_only": 0
-    }
-   }
-  },
   {
    "run_id": "2026-10-23T15:05:21+00:00",
    "by_section": {
@@ -6768,6 +6810,21 @@
      "new": 1,
      "modified": 0,
      "confirmed_only": 1
+    }
+   }
+  },
+  {
+   "run_id": "2026-11-27T16:01:01+00:00",
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 2,
+     "modified": 0,
+     "confirmed_only": 0
     }
    }
   }
