@@ -1,13 +1,13 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-28T11:00:25+00:00",
+ "generated_at": "2026-11-28T16:03:34+00:00",
  "summary": {
   "megtakaritas_verified_huf": 2947290700000,
   "visszaszerzes_verified_huf": 1634319300000,
   "eu_forras_verified_huf": 8251000000000,
   "eu_forras_lost_huf": 730000000000,
   "items_count": 43,
-  "reported_cases_count": 82
+  "reported_cases_count": 83
  },
  "items": [
   {
@@ -3203,6 +3203,38 @@
   {
    "additional_sources": [
     {
+     "name": "Telex (Karakter)",
+     "published_date": "2026-11-26",
+     "url": "https://telex.hu/karakter/kultura/2026/11/26/kulturalis-tamogatasok-kritikak-fidesz-feljelentes-nagy-ervin"
+    },
+    {
+     "name": "Economx",
+     "published_date": "2026-11-28",
+     "url": "https://www.economx.hu/belfold/2026/11/28/nagy-ervin-privat-uzenet-kultura-milliard-tamogatas-szentkiralyi-alexandra-feljelentes/"
+    }
+   ],
+   "alleged_amount_huf": 3000000000,
+   "alleged_amount_text": "közel 3 milliárd forint (színházi, tánc- és cirkuszi szervezeteknek szánt kulturális támogatási keret, tender nélkül szétosztva; 153 szervezet összesen 14,277 milliárd forintot igényelt a keretre)",
+   "confirmed_recovered_huf": 0,
+   "description": "Egy magánszemély hűtlen kezelés gyanújával feljelentést tett Nagy Ervin kultúráért felelős államtitkár ellen egy közel 3 milliárd forintos, színházi, tánc- és cirkuszi szervezeteknek szánt kulturális támogatási keret elosztása miatt. A minisztérium a támogatást tender kiírása nélkül osztotta szét, mert a rendelkezésre álló összeg csak október végén vált ismertté; a tárca szerint rendes pályázatot csak 2027-ben ír ki. Az ügy azután kapott nyilvánosságot, hogy egy a támogatásból kimaradt társulat vezetője magánüzenetben kereste meg az államtitkárt, amit a minisztérium utóbb hibaként elismert és amely miatt a Fidesz is bejelentést fontolt. A kulturális bizottság Fidesz-KDNP-s elnöke meghallgatást kért Nagy Ervintől, amelyen az államtitkár részt vesz.",
+   "ministry": "Kulturális és Innovációs Minisztérium (kultúráért felelős államtitkárság, Nagy Ervin)",
+   "recovered_item_id": null,
+   "report_date": "2026-11-27",
+   "report_source": {
+    "name": "Konfront",
+    "published_date": "2026-11-28",
+    "url": "https://konfront.hu/belfold/2026/11/feljelentettek-nagy-ervint-a-harommilliardos-penzosztas-miatt"
+   },
+   "status": "reported",
+   "subject": "Nagy Ervin kulturális államtitkár — 3 milliárd forintos kulturális támogatás tender nélküli szétosztása",
+   "verification_notes": "ÚJ TÉTEL (2026-11-28-as futás, hirkereso.hu-n keresztül azonosítva). A feljelentést a cikkek szerint Tényi István (magánszemély) tette, állítólag 2026-11-27-én (péntek), hűtlen kezelés gyanújával; a fogadó hatóság neve a cikkekből nem derül ki pontosan. Az Economx (2026-11-28) szerint ezen túl a Fidesz-KDNP kulturális bizottsági elnöke, Szentkirályi Alexandra is feljelentést fontolt (hivatali visszaélés/hűtlen kezelés gyanúja, esetleg tiltott pártfinanszírozás), de az ő részéről a cikk megjelenéséig nem igazolt, hogy ténylegesen megtette-e — ezért ezt NEM vettem fel külön feljelentésként, csak a leírásban jelzem. A kiváltó ok: a Láthatáron Csoport (vezetője Feuer Yvette) kimaradt a támogatottak közül, és magánüzenetben kereste meg Nagy Ervint — a minisztérium ezt hibaként elismerte, de a teljes összeg újraelosztását nem ígérte. Nem szerepel a kormany.hu/atlathato/feljelentes hivatalos listáján (2026-11-28-i ellenőrzés szerint, az oldal a 2026-11-13-i, 64 ügyes/4007 Mrd Ft-os állapothoz képest változatlan), mivel ez nem kormányzati/minisztériumi, hanem magánszemély általi feljelentés. Tényleges, az államhoz visszakerült vagyon nincs; a minisztérium jelezte, hogy a kifizetés előtt újra átnézi a döntéseket.",
+   "id": "reported-nagy-ervin-kulturalis-tamogatas-2026-11",
+   "updated_at": "2026-11-28T16:03:34+00:00",
+   "first_seen_at": "2026-11-28T16:03:34+00:00"
+  },
+  {
+   "additional_sources": [
+    {
      "name": "Economx",
      "published_date": "2026-10-26",
      "url": "https://www.economx.hu/belfold/nagy-martonnak-utazasok-koltsegek-kozerdeku-adat-penzugyminiszterium/"
@@ -3323,9 +3355,9 @@
     }
    ],
    "alleged_amount_huf": 144000000000,
-   "alleged_amount_text": "144 milliárd forint állami támogatás (2020–2021), ebből 127,5 milliárd forintot az alapítvány az Optima Investment Zrt. (a Magyar Nemzeti Bankhoz köthető PADME Alapítvány cége) mindössze 2,5%-os hozamú, lengyel részvényekkel fedezett kötvényeibe fektetett",
+   "alleged_amount_text": "144 milliárd forint állami támogatás (2020–2021), ebből 127,5 milliárd forintot az alapítvány az Optima Investment Zrt. (a Magyar Nemzeti Bankhoz köthető PADME Alapítvány cége) mindössze 2,5%-os hozamú, lengyel részvényekkel fedezett kötvényeibe fektetett. A beruházás befejezéséhez további kb. 19,5 milliárd forint állami forrás vált szükségessé; az Optimától járó, bizonytalanul behajtható követelés mintegy 113,5 milliárd forint.",
    "confirmed_recovered_huf": 0,
-   "description": "A Neumann János Egyetemet és a kecskeméti Tudásváros fejlesztést támogató Neumann János Egyetemért Alapítvány 2020–2021-ben összesen 144 milliárd forint állami támogatást kapott. Ebből 127,5 milliárd forintot az alapítvány a Magyar Nemzeti Bankhoz köthető PADME Alapítvány Optima Investment Zrt. nevű cégének mindössze 2,5 százalékos hozamú, lengyel részvényekkel fedezett kötvényeibe fektetett, miközben a fedezetül szolgáló részvények piaci értéke később a felére esett. Az Állami Számvevőszék vizsgálata szerint az ügylet jelentős vagyonvesztést okozhatott; az Optima a lejáratkor nem tudta visszavásárolni a kötvényeket. Az ügyben hűtlen kezelés gyanújával büntetőeljárás indult, és az Országgyűlés MNB-alapítványokat vizsgáló bizottsága is foglalkozik az üggyel; a fejlesztésből végül egy befejezetlen, 'szellemvárosként' jellemzett kecskeméti beruházás lett. Az alapítvány jelenlegi vezetése szerint a korábbi vezetés 2023-ban 1,25 milliárd forintért egy wellness-részleggel és borospincével felszerelt bugaci ingatlanegyüttest is megvásárolt; az ott talált, az alapítvány tulajdonát nem képező műtárgyakat az új vezetés visszaadta eredeti tulajdonosaiknak.",
+   "description": "A Neumann János Egyetemet és a kecskeméti Tudásváros fejlesztést támogató Neumann János Egyetemért Alapítvány 2020–2021-ben összesen 144 milliárd forint állami támogatást kapott. Ebből 127,5 milliárd forintot az alapítvány a Magyar Nemzeti Bankhoz köthető PADME Alapítvány Optima Investment Zrt. nevű cégének mindössze 2,5 százalékos hozamú, lengyel részvényekkel fedezett kötvényeibe fektetett, miközben a fedezetül szolgáló részvények piaci értéke később a felére esett. Az Állami Számvevőszék vizsgálata szerint az ügylet jelentős vagyonvesztést okozhatott; az Optima a lejáratkor nem tudta visszavásárolni a kötvényeket, ezért a félkész Tudásváros-beruházás projektcégét adta át kárpótlásként az alapítványnak, amelynek befejezéséhez további, mintegy 19,5 milliárd forint állami forrás vált szükségessé. Az ügyben hűtlen kezelés gyanújával büntetőeljárás indult, és az Országgyűlés MNB-alapítványokat vizsgáló bizottsága is foglalkozik az üggyel; a fejlesztésből végül egy befejezetlen, 'szellemvárosként' jellemzett kecskeméti beruházás lett. Az alapítvány jelenlegi vezetése szerint a korábbi vezetés 2023-ban 1,25 milliárd forintért egy wellness-részleggel és borospincével felszerelt bugaci ingatlanegyüttest is megvásárolt; az ott talált, az alapítvány tulajdonát nem képező műtárgyakat az új vezetés visszaadta eredeti tulajdonosaiknak. 2026. november 28-án nyilvánosságra került, hogy az Állami Számvevőszék tíz ügyben fordult a Közbeszerzési Döntőbizottsághoz az alapítvány és érdekeltségei közbeszerzési eljárás nélküli szerződései miatt: ezek a kecskeméti kampuszberuházás több szakaszát (a kiszervezéstől a projektcég átvételéig), a bugaci ingatlan évi több mint 100 millió forintos üzemeltetési-karbantartási szerződéseit, valamint a Budapesti Metropolitan Egyetem tervezett, végül elmaradt felvásárlásához kapcsolódó átvilágítási megbízásokat érintik; a részletes ÁSZ-jelentés várhatóan decemberben jelenik meg.",
    "ministry": "Állami Számvevőszék (ÁSZ) vizsgálat + rendőrségi nyomozás hűtlen kezelés gyanújával — érintett szervezet: Neumann János Egyetemért Alapítvány (MNB-alapítványi kör)",
    "recovered_item_id": null,
    "report_date": "2026-08-24",
@@ -3336,10 +3368,10 @@
    },
    "status": "under_investigation",
    "subject": "Neumann János Egyetemért Alapítvány — Tudásváros projekt és Optima Investment kötvényvásárlás",
-   "verification_notes": "FRISSÍTVE 2026-11-19 12:00-ás futás: az Index 2026-11-18-i cikke szerint az alapítvány új vezetése független ügyvédi iroda bevonásával átvilágítja a korábbi vezetés döntéseit, köztük a kötvénybefektetést, valamint a működési és vezetői kiadásokat (autóbérlés, tanácsadói szerződések, külföldi utak, szállás). Kiderült, hogy a korábbi vezetés 2023-ban 1,25 milliárd forintért megvásárolt egy wellness-részleggel és borospincével felszerelt bugaci ingatlanegyüttest; az ott talált, az alapítvány tulajdonát nem képező műtárgyakat visszaadták. A cikk szerint az eddig feltárt problémák alapján egyetlen korábbi tisztviselő jogi felelősségét sem állapították még meg. Az alleged_amount_huf (144 Mrd Ft) nem változott, mert a bugaci ingatlanvásárlás a teljes állami támogatáson belüli, még nem önállóan számszerűsített tétel. (Korábbi megjegyzés megőrizve.) ÚJ TÉTEL (2026-10-05 16:56-os futás, régebbi — 2026 tavasza óta futó — ügy, amely a korábbi futások adattárában még nem szerepelt). Az ügy szorosan kapcsolódik, de ELKÜLÖNÜLŐ, konkrétan számszerűsített komponense a reported-mnb-matolcsy-alapitvanyok-2026-09 (300 Mrd Ft, általános Matolcsy-kör ügy) és a reported-mnb-ingatlan-tularazas-2026-09 (MNB-ingatlanok túlárazása) tételeknek: ez a Neumann János Egyetemért Alapítvány 144 milliárd forintos állami támogatásának és az abból 127,5 milliárd forintért vásárolt PADME/Optima-kötvényeknek a konkrét ügye, önálló ÁSZ-jelentéssel és önálló országgyűlési vizsgálóbizottsági foglalkozással. NEM adandó hozzá a 300 Mrd Ft-os általános tételhez a dupla számolás elkerülése végett. Tényleges, az államhoz visszakerült vagyon nincs; a kötvényeket az Optima a lejáratkor nem tudta visszafizetni.",
+   "verification_notes": "FRISSÍTVE 2026-11-28-as futás: a Portfolio.hu (Telex nyomán, 2026-11-28 16:29) szerint az Állami Számvevőszék tíz ügyben fordult a Közbeszerzési Döntőbizottsághoz az alapítvány és érdekeltségei közbeszerzési eljárás nélküli szerződései miatt (ezek még gyanúk, nem megerősített jogsértések): öt ügy a kecskeméti kampuszberuházáshoz kapcsolódik (a kivitelezés kiszervezésétől a projektcég átvételéig), egy a bugaci ingatlan évi 100+ millió forintos üzemeltetési-karbantartási szerződéseihez (a cég ügyvezetője egyúttal az alapítvány felügyelőbizottságának elnöke is volt), kettő a Budapesti Metropolitan Egyetem 2024-es, végül elmaradt felvásárlásához kapcsolódó pénzügyi/adó átvilágítási és tranzakciós tanácsadási megbízásokhoz (a Közbeszerzési Döntőbizottság nyilvántartása szerint D.739/2026 és D.740/2026 ügyszámon, 2026-11-24-i beérkezéssel), a többi kommunikációs és eseménymenedzsment-megbízásokhoz. A cikk pontosított összegeket is közöl: a 2020-2021-es 144,5 milliárd forintos állami támogatásból az alapítvány 127,5 milliárd forintot fektetett az Optima-kötvényekbe; a beruházás befejezéséhez további 19,5 milliárd forint nettó állami forrásra volt szükség; az Optimától az alapítványnak járó, bizonytalanul behajtható követelés mintegy 113,5 milliárd forint. A végleges, részletes ÁSZ-jelentés várhatóan decemberben jelenik meg, az eddigi közlés csak a Döntőbizottsághoz fordulás tényét erősíti meg. (Korábbi megjegyzések megőrizve, l. előző verzió.)",
    "id": "reported-neumann-egyetem-optima-kotveny-2026-08",
    "first_seen_at": "2026-10-05T15:07:04+00:00",
-   "updated_at": "2026-11-19T11:03:30+00:00"
+   "updated_at": "2026-11-28T16:03:34+00:00"
   },
   {
    "additional_sources": [],
@@ -4003,10 +4035,10 @@
    },
    "status": "reported",
    "subject": "Századvég Alapítvány részére kifizetett kutatási/felmérési támogatások",
-   "verification_notes": "ÚJ TÉTEL (2026-09-26 futás). Forrás: Telex interjú (2026-09-02), megerősítve Index (2026-09-02), Forbes.hu és több más portál egyező tartalommal. Az interjúban Ruff Bálint jövő idővel fogalmazott ('feljelentést fognak tenni'), ezért nem egyértelmű, hogy a formális feljelentés a mai napig megtörtént-e; a kormany.hu/atlathato/feljelentes hivatalos listáján 2026-09-30-i állapotban sem szerepel önálló Százvadég-tételként (a lista változatlanul 37 ügy, 2221 Mrd Ft, 2026-09-23-i állapot). FRISSÍTVE 2026-09-30: a kormány 2026-09-09-én nyilvánosságra hozott, korábban titkosított kormányhatározatai alapján a Nepszava 2026-09-30-i cikke szerint 2014 és 2024 között összesen kb. 64,61 milliárd forint közpénz került a Századvéghez különféle közvélemény-kutatási, elemzési és tanácsadási megbízások keretében — ez egy hivatalos kormányzati dokumentumfeltárásra (nem csak sajtóbecslésre) épülő, pontosabb, hosszabb távú összeg, ezért a felhasználói alapszabály szerint (hivatalos forrás irányadó) az alleged_amount_huf mező erre frissítve; a korábbi 7,6 Mrd Ft-os (2026 Q1) adat az alleged_amount_text-ben külön feltüntetve megmaradt kiegészítő adatként.",
+   "verification_notes": "FRISSÍTVE 2026-11-28-as futás: a 444.hu 2026-11-18-i, közérdekű adatigénylés alapján 24 részteljesítési jegyzőkönyvet feltáró cikke szerint a Századvég Tudásközpont Alapítvány és a Századvég Konjunktúrakutató Zrt. együttesen valamivel több mint 20 milliárd forint nettó (kb. 26 milliárd forint bruttó) kifizetést kapott a kormánytól 2024 és 2026 között; ennek közel egyharmadát a 2026-os választás előtti, 2026 január-március közötti három hónapban fizették ki. A legnagyobb megrendelő a Rogán Antal vezette Miniszterelnökség volt (a teljes összeg kb. 40%-a). A cikk konkrét példákat is részletez (pl. a Kulturális és Innovációs Minisztérium által megrendelt, 2025 májusában és augusztusában lezárt tanulmányok, valamint egy 2024 végétől 2025 tavaszáig tartó, 120+ millió forintos 'Magyar Fiatalok 2024' kutatás, amelynek eredményeit a Századvég csak 2026 október végén publikálta). A cikk maga nem állít konkrét jogsértést, csak a kifizetések részletes bontását tárja fel; a Miniszterelnökség a cikk szerint még felülvizsgálja, mit teljesített valójában a Századvég. Ez a 2024-2026-os időszakra vonatkozó, pontosabb összeg KIEGÉSZÍTI (nem helyettesíti) a korábban hivatalos kormányhatározatok alapján rögzített 2014-2024-es, 64,61 milliárd forintos teljes összeget — az alleged_amount_huf ezért változatlanul 64,61 Mrd Ft marad, mivel az a hosszabb, teljesebb időszakot fedi le. (Korábbi megjegyzések megőrizve, l. előző verzió.)",
    "id": "reported-szazadveg-kutatasok-2026-09",
    "first_seen_at": "2026-09-28T15:02:40+00:00",
-   "updated_at": "2026-11-06T11:37:02+00:00"
+   "updated_at": "2026-11-28T16:03:34+00:00"
   },
   {
    "additional_sources": [
@@ -4325,7 +4357,7 @@
    "url": "https://magyarnemzet.hu/gazdasag/2026/09/allamadossag-novekedes"
   },
   "allamadossag_huf": 65716000000000,
-  "collected_at": "2026-11-27T11:30:00+01:00",
+  "collected_at": "2026-11-28T17:01:00+01:00",
   "elozo": {
    "allamadossag": {
     "period": null,
@@ -4367,7 +4399,7 @@
     "label_en": "Unemployment rate",
     "label_hu": "Munkanélküliégi ráta",
     "note_en": "KSH's October flash report had not yet been published at the time of this run.",
-    "note_hu": "A KSH októberi hónapra vonatkozó gyorstájékoztatója e futás idején (2026-11-27) még nem jelent meg.",
+    "note_hu": "A KSH októberi hónapra vonatkozó gyorstájékoztatója e futás idején (2026-11-28) még nem jelent meg.",
     "period": "2026-09",
     "prev_period": "2026-08",
     "prev_value": 4.7,
@@ -4430,18 +4462,18 @@
     "key": "eur_huf",
     "label_en": "Official EUR/HUF rate (MNB)",
     "label_hu": "Euró hivatalos árfolyama (MNB)",
-    "note_en": "The USD rate on the same day was 339.04 Ft/USD.",
-    "note_hu": "A dollár árfolyama ugyanezen a napon 339,04 Ft/USD volt.",
-    "period": "2026-11-26",
-    "prev_period": "2026-11-24",
-    "prev_value": 369.57,
+    "note_en": "The USD rate on the same day was 337.26 Ft/USD.",
+    "note_hu": "A dollár árfolyama ugyanezen a napon 337,26 Ft/USD volt.",
+    "period": "2026-11-27",
+    "prev_period": "2026-11-26",
+    "prev_value": 372,
     "source": {
      "name": "MNB hivatalos árfolyamok",
-     "publish_date": "2026-11-26",
+     "publish_date": "2026-11-27",
      "url": "https://www.mnb.hu/arfolyamok"
     },
     "unit": "Ft/EUR",
-    "value": 372
+    "value": 369.7
    },
    {
     "key": "brutto_atlagkereset",
@@ -4538,47 +4570,55 @@
    "publish_date": "2026-09-22",
    "url": "https://www.portfolio.hu/gazdasag/20260922/itt-az-mnb-uj-elorejelzese-hiaba-a-nemzetkozi-kockazatok-mersekelt-marad-az-idei-inflacio-864484"
   },
-  "id": "2026-11-27T11-30"
+  "id": "2026-11-28T17-01"
  },
  "last_run": {
   "errors": [
-   "g7.hu, makronom.hu és mandiner.hu portálokon végzett célzott keresés nem adott a vizsgált 3 napos ablakba eső, az adattárban még nem szereplő találatot — a keresőmotor ezekről a domainekről nem hozott vissza közvetlen eredményt.",
-   "A kormany.hu/atlathato/feljelentes oldal tartalma a 2026-11-13-i állapothoz (legutóbb 2026-11-19-es futásban megerősítve) képest ebben a futásban is változatlan volt.",
-   "Nem található új, az adattárban még nem szereplő megtakarítás/visszaszerzés/EU-forrás vagy feljelentett ügy az elmúlt kb. 3 napból; az egyetlen érdemi frissítés egy meglévő (reported-brexit-alkalmazkodasi-rezerv-visszafizetes-2026-11) tétel hivatalos forrással (Nemzeti Jogszabálytár) való megerősítése és pontosítása volt."
+   "A legtöbb figyelt portálon (168.hu, demokrata.hu, direkt36.hu, es.hu, hirtv.hu, jelen.media, klubradio.hu, magyarhang.org, makronom.hu, mandiner.hu, media1.hu, mfor.hu, mérce.hu, mti.hu, népszava.hu, origo.hu, pénzcentrum.hu, privátbankár.hu, szabadeuropa.hu, trendfm.hu, újegyenlőség.hu, valászonline.hu, vg.hu, partizán.hu, okoshir.hu, szmo.hu) a célzott keresések nem hoztak még nem rögzített, új találatot ebben a szűk (kb. 1 napos, az előző — 2026-11-28 05:56-os — futás óta eltelt) időablakban.",
+   "hirnavigator.hu két cikke (Nagy Ervin-ügy részletei) HTTP 403-mal nem volt elérhető közvetlen WebFetch-csel; helyette a konfront.hu és az economx.hu cikkei alapján lett rögzítve a tétel.",
+   "ÁKK (akk.hu) hivatalos államadósság-adata ebben a futásban sem volt közvetlenül lekérhető; az érték változatlanul a 2026-07-31-i (Magyar Nemzet/ÁKK-hivatkozás) állapotot tükrözi.",
+   "KSH új (2026 Q3 részletes GDP, illetve 2026-10 utáni munkaerőpiaci/kereseti) adatai e futás idején még nem jelentek meg; a legutóbbi ismert értékek maradék talanul átvezetve.",
+   "A 'Nemzetgazdasági Minisztérium ellenjelentkezése' jellegű, 2027-es koltségvetési 1000+ Mrd Ft-os megtakarítási szám (ATV, 2026-11-28 említve a hirkereso.hu lapszemle összefoglalójában) a korábban (2026-10-20/31) már rögzített, a 2027-es költségvetési törvényjavaslatra vonatkozó megtakaritas-2027-koltsegvetes-kiadascsokkentes-2026-10 tétel ismételt említése volt, nem új esemény, ezért nem hozott létre új tételt vagy frissítést."
   ],
   "eu_lost_items_new": 0,
-  "finished_at": "2026-11-28T12:05:00+01:00",
+  "finished_at": "2026-11-28T17:30:00+01:00",
   "items_duplicate": 0,
-  "items_found_total": 1,
+  "items_found_total": 3,
   "items_needs_review": 0,
   "items_new": 0,
-  "reported_cases_new": 0,
-  "reported_cases_updated": 1,
+  "reported_cases_new": 1,
+  "reported_cases_updated": 2,
   "sources_checked": [
-   "kormany.hu/atlathato/feljelentes (hivatalos, 2026-11-13-i állapot, változatlan: 64 ügy, 4007 Mrd Ft, 74,0 Mrd Ft visszafizetve/megtakarítva)",
-   "mnvvh.hu/hirek (áttekintve, nincs új, az adattárban még nem szereplő konkrét ügy)",
-   "ugyeszseg.hu/category/hirek/kozponti-nyomozo-fougyeszseg/ (áttekintve, csak már ismert ügyek eljárási fejleményei)",
-   "njt.jog.gov.hu (Nemzeti Jogszabálytár) — 1371/2026. (XI.6.) Korm. határozat azonosítva és feldolgozva",
-   "k-monitor.hu (célzott keresés, nincs új, önállóan azonosítható találat)",
-   "hirkereso.hu (célzott keresés, nincs új találat)",
+   "kormany.hu/atlathato/feljelentes (hivatalos, 2026-11-13-i állapot: 64 ügy, 4007 Mrd Ft, 74,0 Mrd Ft visszafizetve/megtakarítva — változatlan)",
+   "mnvvh.hu/hirek (legfrissebb: 2026-11-23, Matolcsy-ügy; nincs új, még nem rögzített konkrét ügy)",
+   "ugyeszseg.hu/category/hirek/kozponti-nyomozo-fougyeszseg (legfrissebb: 2026-11-25, nincs új konkrét közpénzügyi ügy)",
+   "k-monitor.hu (WebSearch, célzott keresések)",
+   "hirkereso.hu (gazdaság/friss rovat áttekintve)",
+   "kormany.hu",
    "telex.hu",
    "444.hu",
-   "index.hu",
-   "hvg.hu",
    "portfolio.hu",
    "economx.hu",
-   "privatbankar.hu",
-   "infostart.hu",
-   "origo.hu",
-   "penzcentrum.hu",
-   "vg.hu",
-   "euronews.hu (magyar kiadás)",
+   "index.hu",
+   "hvg.hu",
+   "konfront.hu",
+   "hirnavigator.hu",
+   "eduline.hu",
+   "mnb.hu/arfolyamok",
    "adozona.hu"
   ],
-  "started_at": "2026-11-28T11:55:00+01:00",
-  "id": "2026-11-28T11-55"
+  "started_at": "2026-11-28T16:30:00+01:00",
+  "id": "2026-11-28T17-01"
  },
  "run_history": [
+  {
+   "finished_at": "2026-11-28T17:30:00+01:00",
+   "started_at": "2026-11-28T16:30:00+01:00",
+   "items_new": 0,
+   "reported_cases_new": 1,
+   "reported_cases_updated": 2,
+   "eu_lost_items_new": 0
+  },
   {
    "finished_at": "2026-11-28T12:05:00+01:00",
    "started_at": "2026-11-28T11:55:00+01:00",
@@ -5370,22 +5410,14 @@
    "reported_cases_new": 0,
    "reported_cases_updated": 0,
    "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-10-26T12:03:00+01:00",
-   "started_at": "2026-10-26T11:57:00+01:00",
-   "items_new": 0,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 0,
-   "eu_lost_items_new": 0
   }
  ],
  "run_summary": {
-  "run_id": "2026-11-28T11:00:25+00:00",
-  "new": 0,
-  "modified": 1,
-  "confirmed_only": 0,
-  "touched": 1,
+  "run_id": "2026-11-28T16:03:34+00:00",
+  "new": 1,
+  "modified": 0,
+  "confirmed_only": 2,
+  "touched": 3,
   "pending_review": 4,
   "by_section": {
    "items": {
@@ -5394,33 +5426,21 @@
     "confirmed_only": 0
    },
    "reported_cases": {
-    "new": 0,
-    "modified": 1,
-    "confirmed_only": 0
+    "new": 1,
+    "modified": 0,
+    "confirmed_only": 2
    }
   },
-  "new_ids": [],
-  "modified_ids": [
-   "r:reported-brexit-alkalmazkodasi-rezerv-visszafizetes-2026-11"
+  "new_ids": [
+   "r:reported-nagy-ervin-kulturalis-tamogatas-2026-11"
   ],
-  "confirmed_ids": []
+  "modified_ids": [],
+  "confirmed_ids": [
+   "r:reported-neumann-egyetem-optima-kotveny-2026-08",
+   "r:reported-szazadveg-kutatasok-2026-09"
+  ]
  },
  "run_summary_history": [
-  {
-   "run_id": "2026-10-24T10:02:39+00:00",
-   "by_section": {
-    "items": {
-     "new": 0,
-     "modified": 0,
-     "confirmed_only": 0
-    },
-    "reported_cases": {
-     "new": 0,
-     "modified": 0,
-     "confirmed_only": 0
-    }
-   }
-  },
   {
    "run_id": "2026-10-24T15:00:05+00:00",
    "by_section": {
@@ -6903,6 +6923,21 @@
      "new": 0,
      "modified": 1,
      "confirmed_only": 0
+    }
+   }
+  },
+  {
+   "run_id": "2026-11-28T16:03:34+00:00",
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 1,
+     "modified": 0,
+     "confirmed_only": 2
     }
    }
   }
