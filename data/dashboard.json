@@ -1,13 +1,13 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-27T16:01:01+00:00",
+ "generated_at": "2026-11-28T05:02:23+00:00",
  "summary": {
   "megtakaritas_verified_huf": 2947290700000,
   "visszaszerzes_verified_huf": 1634319300000,
   "eu_forras_verified_huf": 8251000000000,
   "eu_forras_lost_huf": 730000000000,
   "items_count": 43,
-  "reported_cases_count": 80
+  "reported_cases_count": 82
  },
  "items": [
   {
@@ -2178,6 +2178,43 @@
   {
    "additional_sources": [
     {
+     "name": "HVG",
+     "published_date": "2026-11-27",
+     "url": "https://hvg.hu/gazdasag/20261127_hutlen-kezeles-penzmosas-gyanuja-ingatlanmutyi-feneketlen-to-emi-nonprofit-kft-cserkesszovetseg"
+    },
+    {
+     "name": "Police.hu (rendőrségi közlemény)",
+     "published_date": "2026-11-27",
+     "url": "https://www.police.hu/hu/hirek-es-informaciok/legfrissebb-hireink/bunugyek/lezartak-a-nyomozast-a-rendorok-egy-milliardos"
+    },
+    {
+     "name": "Globalhir.hu",
+     "published_date": "2026-11-27",
+     "url": "https://www.globalhir.hu/2026/11/27/vademelesi-javaslattal-zarta-le-a-rendorseg-az-egymilliard-forintos-kart-okozo-ingatlanugy-nyomozasat/"
+    }
+   ],
+   "alleged_amount_huf": 1000000000,
+   "alleged_amount_text": "több mint 1 milliárd forint vagyoni hátrány; a rendőrség szerint szabályos, versenyeztetéssel lezajlott értékesítés esetén az állam akár 4 milliárd forintot is elérhetett volna. A telket megvásárló ingatlanfejlesztő 1,8 milliárd forintot fizetett, a gyanú szerint az egykori ÉMI-vezető és társai mintegy 279 millió forintot kaptak a bevételből.",
+   "confirmed_recovered_huf": 0,
+   "description": "A rendőrség 2026. november 27-én lezárta a nyomozást egy fővárosi, XI. kerületi, a Feneketlen-tó melletti ingatlan korábbi értékesítése ügyében, és vádemelést javasolt hat gyanúsítottal szemben. A gyanú szerint az állami ÉMI Nonprofit Kft. egykori vezetője és társai manipulált, nem valódi versenyt biztosító eljárással, a piaci érték alatt adták el a telket egy ingatlanfejlesztőnek, miközben nyílt versenyeztetéssel az állam ennél jóval magasabb bevételhez juthatott volna. A hat gyanúsítottból egy ellen hűtlen kezelés, kettő ellen pénzmosás, három ellen mindkét bűncselekmény gyanúja áll fenn.",
+   "ministry": "Budapesti Rendőr-főkapitányság (rendőrségi nyomozás) — érintett szervezet: ÉMI Nonprofit Kft. (az értékesítés idején a Miniszterelnökséget vezető miniszter felügyelete alatt)",
+   "recovered_item_id": null,
+   "report_date": "2026-11-27",
+   "report_source": {
+    "name": "Index",
+    "published_date": "2026-11-27",
+    "url": "https://index.hu/belfold/2026/11/27/xi-kerulet-feneketlen-to-ingatlanugy-egymilliardos-kar-nyomozas-lezaras/"
+   },
+   "status": "under_investigation",
+   "subject": "ÉMI Nonprofit Kft. — fővárosi ingatlan (Diószegi utca, Feneketlen-tó) alulértékesítése",
+   "verification_notes": "ÚJ TÉTEL (2026-11-28 05:56-os futás, hirkereso.hu-n keresztül azonosítva: 'Hat gyanúsítottja van egy milliárdos budai ingatlanügynek' c. tétel nyomán). A rendőrségi közlemény nem nevez meg cégeket vagy magánszemélyeket; a HVG a tényeket egy 2019-es 'Buda Gardens'-jelentéshez és a Magyar Cserkészszövetséghez köti (az egykori ÉMI-vezető korábban a Cserkészszövetséget is vezette). Az ügy időrendje a HVG szerint: 2016-ban merült fel a fejlesztő ajánlata, 2017-ben indult az első vizsgálat, 2019-ben megszüntették bizonyíték hiányában, 2021-ben újraindult, 2025 decemberében házkutatások és négy gyanúsított előállítása történt, 2026 szeptemberében két további gyanúsított (pénzmosás) került a listára, 2026.11.27-én zárult le a nyomozás. A HVG szerint Lázár János (akkori Miniszterelnökséget vezető miniszter) az ügyletről tudomást szerezve közbelépett és felemelte az eladási árat (1,03 milliárd Ft-ról 1,529 milliárd Ft-ra) — ez a cikkben nem minősül jogsértésnek, csak háttér-tényként szerepel. Nem szerepel a kormany.hu/atlathato/feljelentes hivatalos listáján (2026-11-28-i ellenőrzés szerint, az oldal a 2026-11-13-i állapothoz képest változatlan), mivel ez rendőrségi, nem kormányzati/minisztériumi eljárás. Tényleges, az államhoz visszakerült vagyon nincs; a vádemelésről az ügyészség még nem döntött.",
+   "id": "reported-emi-feneketlen-to-ingatlanmutyi-2026-11",
+   "updated_at": "2026-11-28T05:02:23+00:00",
+   "first_seen_at": "2026-11-28T05:02:23+00:00"
+  },
+  {
+   "additional_sources": [
+    {
      "name": "Index",
      "published_date": "2026-11-07",
      "url": "https://index.hu/belfold/2026/11/07/erzsebet-tabor-katai-nemeth-vilmos-feljelentes-reklam-hutlen-kezeles/"
@@ -2522,8 +2559,8 @@
    "subject": "Egészségügyi Minisztérium — uniós helyreállítási (RRF) forrásból finanszírozott közbeszerzés feljelentése",
    "verification_notes": "ÚJ TÉTEL (2026-11-27 12:xx-es futás, hirkereso.hu-n keresztül azonosítva: '24.hu Top 24 lista' hivatkozás egy Hegedűs Zsolt-bejelentésre; a 24.hu közvetlen lekérése blokkolt volt, a tartalmat a Portfolio.hu/MTI 2026-11-26-i cikke erősítette meg). Egyetlen közvetlen sajtóforrásból (Portfolio/MTI) ismert eddig, a cikk nem nevez meg konkrét szerződést, kedvezményezettet vagy összeget — csak azt, hogy RRF-forrásból finanszírozott közbeszerzésről van szó. A rendőrség már elrendelte a nyomozást (nem csak feljelentés), ezért a status 'under_investigation'. Második, független forrásra és részletesebb információra vár egy következő futásban. Nem szerepel a kormany.hu/atlathato/feljelentes 2026-11-13-i hivatalos állapotában (ellenőrizve ugyanebben a futásban, az oldal változatlan).",
    "id": "reported-hegedus-rrf-kozbeszerzes-2026-11",
-   "updated_at": "2026-11-27T16:01:01+00:00",
-   "first_seen_at": "2026-11-27T16:01:01+00:00"
+   "first_seen_at": "2026-11-27T16:01:01+00:00",
+   "updated_at": "2026-11-27T16:01:01+00:00"
   },
   {
    "alleged_amount_huf": 1392000000,
@@ -3002,8 +3039,8 @@
    "subject": "MFB — a boszniai Lukavac cementgyár eladása (Mészáros Lőrinc-érdekeltség)",
    "verification_notes": "ÚJ TÉTEL (2026-11-27 12:xx-es futás, hirkereso.hu-n keresztül azonosítva, 24.hu közvetlen lekérése blokkolt volt, de a Telex, 444.hu és Hang.hu egyezően, 2026-11-27-i dátummal megerősíti). Kapitány István gazdasági és energetikai miniszter jelentette be az MFB feljelentését. A Talentis többségi tulajdonosa az MBH Magántőkealap, amelynek az állami MFB a többségi befektetője; a cég másik tulajdonosa a Mészáros Lőrinchez köthető Talentis Group Zrt. 2023-ban a Talentis 76 milliárd forintért vette meg a Lukavac cementgyárat, ennek 70%-át az MFB hitele fedezte. Konkrét kárösszeg a sajtóban nem szerepel, a vizsgálat kezdeti (feljelentési) szakaszban van. Nem szerepel még a kormany.hu/atlathato/feljelentes 2026-11-13-i hivatalos állapotában (ellenőrizve ugyanebben a futásban, az oldal változatlan).",
    "id": "reported-mfb-lukavac-cementgyar-2026-11",
-   "updated_at": "2026-11-27T16:01:01+00:00",
-   "first_seen_at": "2026-11-27T16:01:01+00:00"
+   "first_seen_at": "2026-11-27T16:01:01+00:00",
+   "updated_at": "2026-11-27T16:01:01+00:00"
   },
   {
    "additional_sources": [
@@ -3041,6 +3078,38 @@
    "id": "reported-mkif-autopalya-koncesszio-2026-09",
    "first_seen_at": "2026-09-28T15:02:40+00:00",
    "updated_at": "2026-11-25T05:03:49+00:00"
+  },
+  {
+   "additional_sources": [
+    {
+     "name": "Telex",
+     "published_date": "2026-02-04",
+     "url": "https://telex.hu/gazdasag/2026/02/04/iparkamara-szekhaz-magantokealap"
+    },
+    {
+     "name": "HVG",
+     "published_date": "2026-02-04",
+     "url": "https://hvg.hu/gazdasag/20260204_mkik-szekhaz-mbh-bank-nagy-marton"
+    }
+   ],
+   "alleged_amount_huf": 9200000000,
+   "alleged_amount_text": "a három ingatlan összesen mintegy 9,2 milliárd forintos vételára (MKIK új székháza 4,2 Mrd Ft, egy másik MKIK-ingatlan kb. 3,3 Mrd Ft, egy BKIK-ingatlan kb. 1,7 Mrd Ft); a sajtó becslése szerint a vételár és az eladó korábbi, jóval alacsonyabb beszerzési ára közötti különbség 1-2 milliárd forint lehet",
+   "confirmed_recovered_huf": 0,
+   "description": "A Budapesti Rendőr-főkapitányság hűtlen kezelés gyanúja miatt nyomozást indított a Magyar Kereskedelmi és Iparkamara (MKIK) és a Budapesti Kereskedelmi és Iparkamara (BKIK) három ingatlanvásárlása ügyében. A kamarák összesen mintegy 9,2 milliárd forintért vásároltak meg három ingatlant egy ingatlanforgalmazó cégtől, amely azokat röviddel korábban, jóval alacsonyabb áron szerezte meg. A döntéseket Nagy Elek, az MKIK és a BKIK elnöke hagyta jóvá, aki szerint a vásárlások jogszerűek és piaci értékűek voltak.",
+   "ministry": "Budapesti Rendőr-főkapitányság (rendőrségi nyomozás) — érintett szervezet: Magyar Kereskedelmi és Iparkamara (MKIK) és Budapesti Kereskedelmi és Iparkamara (BKIK)",
+   "recovered_item_id": null,
+   "report_date": "2026-11-03",
+   "report_source": {
+    "name": "444.hu",
+    "published_date": "2026-11-03",
+    "url": "https://444.hu/2026/11/03/nyomoz-a-rendorseg-az-iparkamara-milliardos-ingatlanvasarlasai-ugyeben"
+   },
+   "status": "under_investigation",
+   "subject": "MKIK és BKIK ingatlanvásárlásai — gyanús közvetítői haszon",
+   "verification_notes": "ÚJ TÉTEL (2026-11-28 05:56-os futás, hirkereso.hu/WebSearch-en keresztül azonosított, 2026-11-03-i ügy, amely a korábbi futások adattárában még nem szerepelt). A nyomozás ismeretlen tettes ellen, korai szakaszban van, gyanúsítotti kihallgatás még nem történt. A sajtó szerint az eladó cég (TP Property Zrt., többségi tulajdonosa az Ideona Zrt.) hátterében a 24.hu értesülése szerint Nagy Márton (korábbi nemzetgazdasági miniszter) testvérének érdekeltségéhez köthető magántőkealapok állhatnak — ezt az Ideona Zrt. képviselői cáfolták, a kapcsolat nem megerősített. Több MKIK-elnökségi tag (köztük Parragh László korábbi elnök) megkérdőjelezte az ügyletek szabályosságát. Nem szerepel a kormany.hu/atlathato/feljelentes hivatalos listáján, mivel az MKIK/BKIK nem kormányzati szerv és ez rendőrségi, nem minisztériumi feljelentés. Tényleges, visszaszerzett vagyon nincs.",
+   "id": "reported-mkik-ingatlanvasarlas-nagy-elek-2026-11",
+   "updated_at": "2026-11-28T05:02:23+00:00",
+   "first_seen_at": "2026-11-28T05:02:23+00:00"
   },
   {
    "alleged_amount_huf": null,
@@ -4466,15 +4535,14 @@
  },
  "last_run": {
   "errors": [
-   "Ez a futás a mai nap harmadik futása (korábbi: 2026-11-27T11:30 és 2026-11-27T11-55), amelyek semmilyen új tételt nem találtak. A kormany.hu/atlathato/feljelentes oldal tartalma ismét változatlan volt a 2026-11-13-i állapothoz képest (64 ügy, 13 minisztérium, kb. 4007 Mrd Ft, 74,0 Mrd Ft visszafizetve/megtakarítva) — a reported-osszesito-2026-09 és kapcsolódó tételek nem igényeltek frissítést.",
-   "A hirkereso.hu TOP listájának áttekintése nyomán két, a korábbi futásokban még nem rögzített, friss (2026-11-26/27-i) feljelentés kerül fel önálló reported_cases tételként: az MFB feljelentése a boszniai Lukavac cementgyár ügyében (reported-mfb-lukavac-cementgyar-2026-11) és Hegedűs Zsolt egészségügyi miniszter feljelentése egy uniós RRF-forrásból finanszírozott közbeszerzés ügyében (reported-hegedus-rrf-kozbeszerzes-2026-11).",
-   "Egy harmadik, a hirkereso.hu-n jelzett hír (parlamenti szavazás 117 milliárd forint 'jogtalanul beszedett' összeg visszafizetéséről) ellenőrzés után kiderült, hogy nem illik a nyilvántartás kategóriáiba: az EU Bírósága szerint jogellenes kiegészítő bányajáradékot az ÁLLAM fizeti vissza bányavállalatoknak, nem az állam szerez vissza vagyont valakitől — ezért ezt a tételt szándékosan NEM vettük fel.",
-   "A 24.hu domain közvetlen WebFetch-lekérése ebben a futásban is blokkolt volt (hálózati/engedélyezési korlátozás); a 24.hu-ra visszamenő híreket másodforrásokon (444.hu, Telex, Hang.hu, Portfolio.hu, Hírnavigátor) keresztül sikerült megerősíteni.",
-   "Makrogazdasági pillanatkép: a 2026-11-27T11:30-as futás pillanatképéhez képest nem jelent meg új KSH/MNB/PM publikáció ebben a futásban sem (a KSH GDP Q3 részletes bontása 2026. december 1-jén várható); új macro_snapshots dokumentum ezért nem készült, a 2026-11-27T11:30-as pillanatkép marad érvényben.",
-   "Kiterjedt (12+ tematikus) WebSearch-keresés futott a megtakarítás/visszaszerzés/EU-forrás/elveszett EU-forrás kategóriákra; ezeken túl nem sikerült az adattárban még nem szereplő, a forrás-hitelességi szabálynak megfelelő új items-tételt azonosítani."
+   "A kormany.hu/atlathato/feljelentes oldal tartalma ebben a futasban is valtozatlan volt a 2026-11-13-i allapothoz kepest (64 ugy, 13 miniszterium, kb. 4007 Mrd Ft, 74,0 Mrd Ft visszafizetve/megtakaritva) - nem volt szukseg frissitesre a reported-osszesito-2026-09 tetelen.",
+   "Ket uj, korabban meg nem rogzitett reported_cases tetel kerult fel: az EMI Nonprofit Kft. feneketlen-tavi ingatlanugyeben lezart nyomozas (hat gyanusitottal szemben vademelesi javaslat, 2026-11-27, hirkereso.hu-n keresztul azonositva) es az MKIK/BKIK gyanus ingatlanvasarlasai (Nagy Elek, 2026-11-03-i, korabban kimaradt ugy).",
+   "A megtakaritas/visszaszerzes/eu_forras kategoriakban (kb. 10-12 tematikus WebSearch-keresessel, tobbek kozott 'tularazas visszafizetes', 'mennyibe kerult adofizetoknek', 'elveszett unios forras', 'spsorolt az allam', 'uj uniós forras erkezett') nem sikerult az adattarban meg nem szereplo, a forras-hitelessegi szabalynak megfelelo uj tenyleges tetelt azonositani - a talalt hirek (AKK allampapir-visszavasarlas, autopalya-koncesszio visszavetele, Duna Aszfalt teljes visszafizetese) mind korabban mar rogzitett tetelek reszei vagy tobb evtizedes, meg nem realizalt projekciok.",
+   "Makrogazdasagi pillanatkep: a 2026-11-27T11:30-as futas pillanatkepehez kepest nem jelent meg uj hivatalos KSH/MNB/PM publikacio ebben a futasban sem (a KSH GDP Q3 reszletes bontasa 2026. december 1-jen varhato, a KSH oktoberi munkanelkulisegi gyorstajekoztatoja meg nem jelent meg); uj macro_snapshots dokumentum ezert nem keszult, a 2026-11-27T11:30-as pillanatkep marad ervenyben.",
+   "A K-Monitor site:k-monitor.hu szuro ezen a futason nem adott relevans eredmenyt (a kereso nem tartotta be a site: szurot); az altalanos vagyonvisszaszerzes-temaju kereses nem hozott uj, meg nem rogzitett tetelt."
   ],
   "eu_lost_items_new": 0,
-  "finished_at": "2026-11-27T17:10:00+01:00",
+  "finished_at": "2026-11-28T06:25:00+01:00",
   "items_duplicate": 0,
   "items_found_total": 0,
   "items_needs_review": 0,
@@ -4486,20 +4554,31 @@
    "mnvvh.hu/hirek",
    "ugyeszseg.hu/kategoria/kozponti-nyomozo-fougyeszseg",
    "hirkereso.hu",
-   "K-Monitor (WebSearch, site:k-monitor.hu)",
+   "K-Monitor (WebSearch, nem sikerult site: szurovel, altalanos keresessel)",
    "444.hu",
    "Telex",
    "HVG",
    "Index",
    "Portfolio.hu",
    "Economx",
-   "Hang.hu",
-   "Hírnavigátor"
+   "Infostart.hu",
+   "Privatbankar.hu",
+   "Adozona.hu",
+   "Globalhir.hu",
+   "Police.hu"
   ],
-  "started_at": "2026-11-27T16:55:00+01:00",
-  "id": "2026-11-27T16-55"
+  "started_at": "2026-11-28T05:56:00+01:00",
+  "id": "2026-11-28T05-56"
  },
  "run_history": [
+  {
+   "finished_at": "2026-11-28T06:25:00+01:00",
+   "started_at": "2026-11-28T05:56:00+01:00",
+   "items_new": 0,
+   "reported_cases_new": 2,
+   "reported_cases_updated": 0,
+   "eu_lost_items_new": 0
+  },
   {
    "finished_at": "2026-11-27T17:10:00+01:00",
    "started_at": "2026-11-27T16:55:00+01:00",
@@ -5291,18 +5370,10 @@
    "reported_cases_new": 0,
    "reported_cases_updated": 0,
    "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-10-25T17:30:00+02:00",
-   "started_at": "2026-10-25T16:56:00+02:00",
-   "items_new": 0,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 0,
-   "eu_lost_items_new": 0
   }
  ],
  "run_summary": {
-  "run_id": "2026-11-27T16:01:01+00:00",
+  "run_id": "2026-11-28T05:02:23+00:00",
   "new": 2,
   "modified": 0,
   "confirmed_only": 0,
@@ -5321,28 +5392,13 @@
    }
   },
   "new_ids": [
-   "r:reported-hegedus-rrf-kozbeszerzes-2026-11",
-   "r:reported-mfb-lukavac-cementgyar-2026-11"
+   "r:reported-emi-feneketlen-to-ingatlanmutyi-2026-11",
+   "r:reported-mkik-ingatlanvasarlas-nagy-elek-2026-11"
   ],
   "modified_ids": [],
   "confirmed_ids": []
  },
  "run_summary_history": [
-  {
-   "run_id": "2026-10-23T15:05:21+00:00",
-   "by_section": {
-    "items": {
-     "new": 0,
-     "modified": 0,
-     "confirmed_only": 0
-    },
-    "reported_cases": {
-     "new": 0,
-     "modified": 0,
-     "confirmed_only": 1
-    }
-   }
-  },
   {
    "run_id": "2026-10-24T04:02:57+00:00",
    "by_section": {
@@ -6815,6 +6871,21 @@
   },
   {
    "run_id": "2026-11-27T16:01:01+00:00",
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 2,
+     "modified": 0,
+     "confirmed_only": 0
+    }
+   }
+  },
+  {
+   "run_id": "2026-11-28T05:02:23+00:00",
    "by_section": {
     "items": {
      "new": 0,
