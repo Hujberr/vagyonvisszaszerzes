@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-28T05:02:23+00:00",
+ "generated_at": "2026-11-28T11:00:25+00:00",
  "summary": {
   "megtakaritas_verified_huf": 2947290700000,
   "visszaszerzes_verified_huf": 1634319300000,
@@ -1909,24 +1909,31 @@
    "updated_at": "2026-11-06T11:37:02+00:00"
   },
   {
-   "alleged_amount_huf": 9000000000,
-   "alleged_amount_text": "mintegy 9 milliárd forint visszafizetési kötelezettség az Európai Unió felé",
+   "additional_sources": [
+    {
+     "name": "Hírnavigátor (24.hu nyomán)",
+     "published_date": "2026-11-07",
+     "url": "https://hirnavigator.hu/hir/10990009-9-milliardot-kell-visszafizetnunk-az-eu-nak-egy-olyan-program-miatt-amirol-az-asz-kimondta-hogy-hemzseg-a-szabalytalansagoktol"
+    }
+   ],
+   "alleged_amount_huf": 9001356580,
+   "alleged_amount_text": "9 001 356 580 forint (24 460 208,10 eurónak megfelelő összeg) — hivatalos, a Magyar Közlönyben/Nemzeti Jogszabálytárban közzétett kormányhatározat szerint",
    "confirmed_recovered_huf": 0,
-   "description": "Egy sajtóhír szerint Magyarországnak mintegy 9 milliárd forintot kell visszafizetnie az Európai Uniónak a Brexit miatt károkat szenvedett vállalatoknak nyújtott kárenyhítési program végrehajtása során feltárt szabálytalanságok miatt. A program kedvezményezettjei között korábban kormányközeli érdekeltségekhez köthető cégek is szerepeltek.",
+   "description": "A kormány 2026. november 6-i, 1371/2026. (XI. 6.) számú határozatával 9 001 356 580 forintot különített el a központi költségvetés rendkívüli kormányzati intézkedések előirányzatából, hogy teljesítse az Európai Unió felé fennálló, a Brexit Alkalmazkodási Rezerv (BAR) elszámolásából eredő, 24 460 208,10 eurónak megfelelő visszafizetési kötelezettséget. A visszafizetési kötelezettség az Európai Bizottság C(2026)6991 számú végrehajtási határozatán és egy kapcsolódó terhelési értesítésen alapul; a háttérben az Állami Számvevőszék egy korábbi (2023-as) jelentése áll, amely szerint a Külügyminisztérium a Brexit miatt károkat szenvedett vállalatok kárenyhítési programjának végrehajtása során szabálytalanul fizetett ki támogatásokat.",
    "ministry": "Külügyminisztérium (a Brexit-kárenyhítési program korábbi kezelője) — Állami Számvevőszéki vizsgálat alapján",
    "recovered_item_id": null,
    "report_date": "2026-11-07",
    "report_source": {
-    "name": "Hírnavigátor (24.hu nyomán)",
-    "published_date": "2026-11-07",
-    "url": "https://hirnavigator.hu/hir/10990009-9-milliardot-kell-visszafizetnunk-az-eu-nak-egy-olyan-program-miatt-amirol-az-asz-kimondta-hogy-hemzseg-a-szabalytalansagoktol"
+    "name": "Nemzeti Jogszabálytár — 1371/2026. (XI. 6.) Korm. határozat",
+    "published_date": "2026-11-06",
+    "url": "https://njt.jog.gov.hu/jogszabaly/2026-1371-30-22"
    },
-   "status": "needs_review",
+   "status": "verified",
    "subject": "Brexit Alkalmazkodási Rezerv – mintegy 9 milliárd forintos visszafizetési kötelezettség az EU felé",
-   "verification_notes": "ÚJ TÉTEL (2026-11-07 11:55-ös futás). Egyetlen, forrás szerint 24.hu-ra visszamenő cikk (közvetlen 24.hu-elérés ebben a futásban nem sikerült, a Hírnavigátor-újraközlést sikerült elolvasni) alapján: a Brexit Alkalmazkodási Rezervből (Brexit-kárenyhítési program) nyújtott támogatások kapcsán az ÁSZ szabálytalanságokat talált, és emiatt kb. 9 milliárd forintot kell visszafizetni az EU-nak; a cikk szerint a program kedvezményezettjei között Matolcsy Ádám (jelenleg nemzetközi elfogatóparanccsal körözött, l. reported-mnb-matolcsy-alapitvanyok-2026-09) és Mészáros Lőrinc érdekeltségeihez köthető cégek is voltak (háttér: 2022-es 444.hu-cikk a Balaton Bútor Kft. és a Kall Ingredients Kft. BAR-támogatásairól). A pénznem (forint vagy euró) és az ÁSZ-jelentés pontos dátuma a cikkből nem derült ki egyértelműen, ezért alleged_amount_text óvatosan fogalmaz. A kormany.hu/atlathato/feljelentes oldal 2026-11-05-i állapotában nem szerepel ilyen tételként (nem minisztériumi feljelentés, hanem ÁSZ-megállapítás és EU-s visszafizetési kötelezettség). Mivel csak egy (áttételes) sajtóforrás erősíti meg, a status needs_review; második független forrás vagy hivatalos ÁSZ-/EU-megerősítés esetén válhat verified-re vagy kerülhet át az eu_forras tételek lost_items-ébe, ha kiderül, hogy a 16,4 Mrd eurós csomagtól független, önálló uniós keretről van szó (ami valószínű, mivel a BAR egy 2021-ben létrehozott, külön uniós eszköz, nem RRF/kohéziós forrás).",
+   "verification_notes": "FRISSÍTVE 2026-11-28 11:55-ös futás: hivatalos forrás (Nemzeti Jogszabálytár, 1371/2026. (XI.6.) Korm. határozat) megerősítette és pontosította a korábban (2026-11-07) kizárólag egy áttételes sajtóforrásból (Hírnavigátor, 24.hu nyomán) ismert, kb. 9 milliárd forintos EU-visszafizetési kötelezettséget: a pontos összeg 9 001 356 580 forint (24 460 208,10 EUR), az Európai Bizottság C(2026)6991 számú végrehajtási határozata és egy terhelési értesítés alapján. A forrás-hitelességi szabály szerint (hivatalos forrás — itt: Nemzeti Jogszabálytár — irányadó) a status needs_review-ból verified-re váltva, a report_source a hivatalos kormányhatározatra frissítve, a korábbi sajtóforrás az additional_sources-ba került. A külügyminiszternek 2026. december 15-ig kell lezárnia az elszámolást és teljesítenie az EU felé a visszafizetést, a pénzügyminiszternek pedig haladéktalanul kell gondoskodnia az átutalásról. (Korábbi megjegyzés megőrizve:) ÚJ TÉTEL (2026-11-07 11:55-ös futás). Egyetlen, forrás szerint 24.hu-ra visszamenő cikk alapján: a Brexit Alkalmazkodási Rezervből nyújtott támogatások kapcsán az ÁSZ szabálytalanságokat talált, és emiatt kb. 9 milliárd forintot kell visszafizetni az EU-nak.",
    "id": "reported-brexit-alkalmazkodasi-rezerv-visszafizetes-2026-11",
    "first_seen_at": "2026-11-07T11:02:32+00:00",
-   "updated_at": "2026-11-07T11:02:32+00:00"
+   "updated_at": "2026-11-28T11:00:25+00:00"
   },
   {
    "additional_sources": [
@@ -2209,8 +2216,8 @@
    "subject": "ÉMI Nonprofit Kft. — fővárosi ingatlan (Diószegi utca, Feneketlen-tó) alulértékesítése",
    "verification_notes": "ÚJ TÉTEL (2026-11-28 05:56-os futás, hirkereso.hu-n keresztül azonosítva: 'Hat gyanúsítottja van egy milliárdos budai ingatlanügynek' c. tétel nyomán). A rendőrségi közlemény nem nevez meg cégeket vagy magánszemélyeket; a HVG a tényeket egy 2019-es 'Buda Gardens'-jelentéshez és a Magyar Cserkészszövetséghez köti (az egykori ÉMI-vezető korábban a Cserkészszövetséget is vezette). Az ügy időrendje a HVG szerint: 2016-ban merült fel a fejlesztő ajánlata, 2017-ben indult az első vizsgálat, 2019-ben megszüntették bizonyíték hiányában, 2021-ben újraindult, 2025 decemberében házkutatások és négy gyanúsított előállítása történt, 2026 szeptemberében két további gyanúsított (pénzmosás) került a listára, 2026.11.27-én zárult le a nyomozás. A HVG szerint Lázár János (akkori Miniszterelnökséget vezető miniszter) az ügyletről tudomást szerezve közbelépett és felemelte az eladási árat (1,03 milliárd Ft-ról 1,529 milliárd Ft-ra) — ez a cikkben nem minősül jogsértésnek, csak háttér-tényként szerepel. Nem szerepel a kormany.hu/atlathato/feljelentes hivatalos listáján (2026-11-28-i ellenőrzés szerint, az oldal a 2026-11-13-i állapothoz képest változatlan), mivel ez rendőrségi, nem kormányzati/minisztériumi eljárás. Tényleges, az államhoz visszakerült vagyon nincs; a vádemelésről az ügyészség még nem döntött.",
    "id": "reported-emi-feneketlen-to-ingatlanmutyi-2026-11",
-   "updated_at": "2026-11-28T05:02:23+00:00",
-   "first_seen_at": "2026-11-28T05:02:23+00:00"
+   "first_seen_at": "2026-11-28T05:02:23+00:00",
+   "updated_at": "2026-11-28T05:02:23+00:00"
   },
   {
    "additional_sources": [
@@ -3108,8 +3115,8 @@
    "subject": "MKIK és BKIK ingatlanvásárlásai — gyanús közvetítői haszon",
    "verification_notes": "ÚJ TÉTEL (2026-11-28 05:56-os futás, hirkereso.hu/WebSearch-en keresztül azonosított, 2026-11-03-i ügy, amely a korábbi futások adattárában még nem szerepelt). A nyomozás ismeretlen tettes ellen, korai szakaszban van, gyanúsítotti kihallgatás még nem történt. A sajtó szerint az eladó cég (TP Property Zrt., többségi tulajdonosa az Ideona Zrt.) hátterében a 24.hu értesülése szerint Nagy Márton (korábbi nemzetgazdasági miniszter) testvérének érdekeltségéhez köthető magántőkealapok állhatnak — ezt az Ideona Zrt. képviselői cáfolták, a kapcsolat nem megerősített. Több MKIK-elnökségi tag (köztük Parragh László korábbi elnök) megkérdőjelezte az ügyletek szabályosságát. Nem szerepel a kormany.hu/atlathato/feljelentes hivatalos listáján, mivel az MKIK/BKIK nem kormányzati szerv és ez rendőrségi, nem minisztériumi feljelentés. Tényleges, visszaszerzett vagyon nincs.",
    "id": "reported-mkik-ingatlanvasarlas-nagy-elek-2026-11",
-   "updated_at": "2026-11-28T05:02:23+00:00",
-   "first_seen_at": "2026-11-28T05:02:23+00:00"
+   "first_seen_at": "2026-11-28T05:02:23+00:00",
+   "updated_at": "2026-11-28T05:02:23+00:00"
   },
   {
    "alleged_amount_huf": null,
@@ -4535,42 +4542,51 @@
  },
  "last_run": {
   "errors": [
-   "A kormany.hu/atlathato/feljelentes oldal tartalma ebben a futasban is valtozatlan volt a 2026-11-13-i allapothoz kepest (64 ugy, 13 miniszterium, kb. 4007 Mrd Ft, 74,0 Mrd Ft visszafizetve/megtakaritva) - nem volt szukseg frissitesre a reported-osszesito-2026-09 tetelen.",
-   "Ket uj, korabban meg nem rogzitett reported_cases tetel kerult fel: az EMI Nonprofit Kft. feneketlen-tavi ingatlanugyeben lezart nyomozas (hat gyanusitottal szemben vademelesi javaslat, 2026-11-27, hirkereso.hu-n keresztul azonositva) es az MKIK/BKIK gyanus ingatlanvasarlasai (Nagy Elek, 2026-11-03-i, korabban kimaradt ugy).",
-   "A megtakaritas/visszaszerzes/eu_forras kategoriakban (kb. 10-12 tematikus WebSearch-keresessel, tobbek kozott 'tularazas visszafizetes', 'mennyibe kerult adofizetoknek', 'elveszett unios forras', 'spsorolt az allam', 'uj uniós forras erkezett') nem sikerult az adattarban meg nem szereplo, a forras-hitelessegi szabalynak megfelelo uj tenyleges tetelt azonositani - a talalt hirek (AKK allampapir-visszavasarlas, autopalya-koncesszio visszavetele, Duna Aszfalt teljes visszafizetese) mind korabban mar rogzitett tetelek reszei vagy tobb evtizedes, meg nem realizalt projekciok.",
-   "Makrogazdasagi pillanatkep: a 2026-11-27T11:30-as futas pillanatkepehez kepest nem jelent meg uj hivatalos KSH/MNB/PM publikacio ebben a futasban sem (a KSH GDP Q3 reszletes bontasa 2026. december 1-jen varhato, a KSH oktoberi munkanelkulisegi gyorstajekoztatoja meg nem jelent meg); uj macro_snapshots dokumentum ezert nem keszult, a 2026-11-27T11:30-as pillanatkep marad ervenyben.",
-   "A K-Monitor site:k-monitor.hu szuro ezen a futason nem adott relevans eredmenyt (a kereso nem tartotta be a site: szurot); az altalanos vagyonvisszaszerzes-temaju kereses nem hozott uj, meg nem rogzitett tetelt."
+   "g7.hu, makronom.hu és mandiner.hu portálokon végzett célzott keresés nem adott a vizsgált 3 napos ablakba eső, az adattárban még nem szereplő találatot — a keresőmotor ezekről a domainekről nem hozott vissza közvetlen eredményt.",
+   "A kormany.hu/atlathato/feljelentes oldal tartalma a 2026-11-13-i állapothoz (legutóbb 2026-11-19-es futásban megerősítve) képest ebben a futásban is változatlan volt.",
+   "Nem található új, az adattárban még nem szereplő megtakarítás/visszaszerzés/EU-forrás vagy feljelentett ügy az elmúlt kb. 3 napból; az egyetlen érdemi frissítés egy meglévő (reported-brexit-alkalmazkodasi-rezerv-visszafizetes-2026-11) tétel hivatalos forrással (Nemzeti Jogszabálytár) való megerősítése és pontosítása volt."
   ],
   "eu_lost_items_new": 0,
-  "finished_at": "2026-11-28T06:25:00+01:00",
+  "finished_at": "2026-11-28T12:05:00+01:00",
   "items_duplicate": 0,
-  "items_found_total": 0,
+  "items_found_total": 1,
   "items_needs_review": 0,
   "items_new": 0,
-  "reported_cases_new": 2,
-  "reported_cases_updated": 0,
+  "reported_cases_new": 0,
+  "reported_cases_updated": 1,
   "sources_checked": [
-   "kormany.hu/atlathato/feljelentes",
-   "mnvvh.hu/hirek",
-   "ugyeszseg.hu/kategoria/kozponti-nyomozo-fougyeszseg",
-   "hirkereso.hu",
-   "K-Monitor (WebSearch, nem sikerult site: szurovel, altalanos keresessel)",
+   "kormany.hu/atlathato/feljelentes (hivatalos, 2026-11-13-i állapot, változatlan: 64 ügy, 4007 Mrd Ft, 74,0 Mrd Ft visszafizetve/megtakarítva)",
+   "mnvvh.hu/hirek (áttekintve, nincs új, az adattárban még nem szereplő konkrét ügy)",
+   "ugyeszseg.hu/category/hirek/kozponti-nyomozo-fougyeszseg/ (áttekintve, csak már ismert ügyek eljárási fejleményei)",
+   "njt.jog.gov.hu (Nemzeti Jogszabálytár) — 1371/2026. (XI.6.) Korm. határozat azonosítva és feldolgozva",
+   "k-monitor.hu (célzott keresés, nincs új, önállóan azonosítható találat)",
+   "hirkereso.hu (célzott keresés, nincs új találat)",
+   "telex.hu",
    "444.hu",
-   "Telex",
-   "HVG",
-   "Index",
-   "Portfolio.hu",
-   "Economx",
-   "Infostart.hu",
-   "Privatbankar.hu",
-   "Adozona.hu",
-   "Globalhir.hu",
-   "Police.hu"
+   "index.hu",
+   "hvg.hu",
+   "portfolio.hu",
+   "economx.hu",
+   "privatbankar.hu",
+   "infostart.hu",
+   "origo.hu",
+   "penzcentrum.hu",
+   "vg.hu",
+   "euronews.hu (magyar kiadás)",
+   "adozona.hu"
   ],
-  "started_at": "2026-11-28T05:56:00+01:00",
-  "id": "2026-11-28T05-56"
+  "started_at": "2026-11-28T11:55:00+01:00",
+  "id": "2026-11-28T11-55"
  },
  "run_history": [
+  {
+   "finished_at": "2026-11-28T12:05:00+01:00",
+   "started_at": "2026-11-28T11:55:00+01:00",
+   "items_new": 0,
+   "reported_cases_new": 0,
+   "reported_cases_updated": 1,
+   "eu_lost_items_new": 0
+  },
   {
    "finished_at": "2026-11-28T06:25:00+01:00",
    "started_at": "2026-11-28T05:56:00+01:00",
@@ -5362,22 +5378,14 @@
    "reported_cases_new": 0,
    "reported_cases_updated": 0,
    "eu_lost_items_new": 0
-  },
-  {
-   "finished_at": "2026-10-26T06:05:00+01:00",
-   "started_at": "2026-10-26T06:00:00+01:00",
-   "items_new": 0,
-   "reported_cases_new": 0,
-   "reported_cases_updated": 0,
-   "eu_lost_items_new": 0
   }
  ],
  "run_summary": {
-  "run_id": "2026-11-28T05:02:23+00:00",
-  "new": 2,
-  "modified": 0,
+  "run_id": "2026-11-28T11:00:25+00:00",
+  "new": 0,
+  "modified": 1,
   "confirmed_only": 0,
-  "touched": 2,
+  "touched": 1,
   "pending_review": 4,
   "by_section": {
    "items": {
@@ -5386,34 +5394,18 @@
     "confirmed_only": 0
    },
    "reported_cases": {
-    "new": 2,
-    "modified": 0,
+    "new": 0,
+    "modified": 1,
     "confirmed_only": 0
    }
   },
-  "new_ids": [
-   "r:reported-emi-feneketlen-to-ingatlanmutyi-2026-11",
-   "r:reported-mkik-ingatlanvasarlas-nagy-elek-2026-11"
+  "new_ids": [],
+  "modified_ids": [
+   "r:reported-brexit-alkalmazkodasi-rezerv-visszafizetes-2026-11"
   ],
-  "modified_ids": [],
   "confirmed_ids": []
  },
  "run_summary_history": [
-  {
-   "run_id": "2026-10-24T04:02:57+00:00",
-   "by_section": {
-    "items": {
-     "new": 0,
-     "modified": 0,
-     "confirmed_only": 0
-    },
-    "reported_cases": {
-     "new": 0,
-     "modified": 0,
-     "confirmed_only": 1
-    }
-   }
-  },
   {
    "run_id": "2026-10-24T10:02:39+00:00",
    "by_section": {
@@ -6895,6 +6887,21 @@
     "reported_cases": {
      "new": 2,
      "modified": 0,
+     "confirmed_only": 0
+    }
+   }
+  },
+  {
+   "run_id": "2026-11-28T11:00:25+00:00",
+   "by_section": {
+    "items": {
+     "new": 0,
+     "modified": 0,
+     "confirmed_only": 0
+    },
+    "reported_cases": {
+     "new": 0,
+     "modified": 1,
      "confirmed_only": 0
     }
    }
